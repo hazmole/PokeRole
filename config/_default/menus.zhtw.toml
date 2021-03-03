@@ -1,0 +1,12 @@
+[[main]]
+  identifier = "docs"
+  name = "遊戲規則"
+  url = "docs"
+  weight = 1
+
+[[main]]
+  identifier = "data"
+  name = "資料一覽"
+  url = "data"
+  weight = 2
+

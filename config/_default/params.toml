@@ -1,0 +1,36 @@
+logo = true
+logoText = "寶可夢扮演 Pokerole"
+logoType = "short" # long, short
+description = "The ZDoc theme for Hugo example site."
+
+themeOptions = ["dark"]
+
+useFaviconGenerator = true # https://www.favicon-generator.org/
+
+enableWideBlogSwitch = true
+enableTocSwitch = false
+enableLandingBackground = false
+enableSearch = true
+enableSearchHighlight = true
+enableLangChange = false
+enableDarkMode = true
+enableBreadcrumb = true
+enableBlogBreadcrumb = true
+enableEditBtn = false
+enableToc = true
+enableMenu = true
+enableNavbar = true
+enableFooter = true
+showPoweredBy = true
+
+tocLevels = ["h2", "h3", "h4"]
+paginateWindow = 1
+taxoPaginate = 13
+taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+
+custom_css = ["css/custom.css"]
+
+# comment
+enableComment = false
+disqus_shortname = ""
+commento = false
