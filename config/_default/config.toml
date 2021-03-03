@@ -1,6 +1,7 @@
-baseURL = "http://example.org"
+baseURL = "https://hazmole.github.io/PokeRole"
 title = "寶可夢扮演2.0 Pokerole"
 theme = "zdoc"
+publishDir = 'docs'
 
 defaultContentLanguage = "zhtw"
 defaultContentLanguageInSubdir = false
