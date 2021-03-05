@@ -1,7 +1,6 @@
 ---
 title: 寶可夢扮演2.0
 description: Hugo zzo, zdoc theme documentation home page
-date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 footer:

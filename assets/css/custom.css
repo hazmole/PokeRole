@@ -36,6 +36,9 @@
     color: #fffa5f;
 }
 
+.theme__dark .toc a {
+    line-height: 1.8em;
+}
 
 .single__contents h1 {
     font-size: 2.6rem;
@@ -48,11 +51,32 @@
 .single__contents h3 {
     font-size: 1.6rem;
 }
+.single__contents h5 {
+    margin-bottom: 0em;
+    text-decoration: underline;
+}
 
 .single__contents[data-dir=ltr] li {
     margin-left: 3rem;
     margin-bottom: .5em;
     line-height: 1.5em;
+}
+
+
+table { width: 100%;  }
+tr:nth-child(2n) { background: #eee; }
+th { background: #ad3e3e; color: #fcfcfa; text-align: center; }
+td { text-align: left; }
+td:not([align]), th:not([align]) {
+    text-align: center;
+}
+.theme__dark .single__contents .table-wrapper>table th, .theme__dark .single__contents .table-wrapper>table td {
+    padding: .25rem .5rem;
+    border: 1px double rgba(150,40,40,.2);
+}
+
+.theme__dark #list-main ol, .theme__dark #list-main ul {
+    margin-top: 1em;
 }
 
 /**********************
@@ -74,11 +98,17 @@
     margin-bottom: .2em;
     font-size: 1.3rem;
 }
+.theme__dark #list-main .box p {
+    margin-bottom: 1em;
+}
+.theme__dark #list-main .box p:last-child {
+    margin-bottom: 0em;
+}
 
 /* notice */
 .notices {
     margin-bottom: 1em;
-    margin-left: 6em;
+    margin-left: 3em;
     border-radius: 5px;
 }
 .notices.story::before, .notices.trainer::before {
@@ -121,3 +151,6 @@
     background: #fbeded;
 }
 
+/* extra */
+fill { color: red; }
+p.foot { font-size:0.6em; margin-top:-2em; text-align:right;  }
