@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on ZDoc</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on ZDoc</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>系統介紹</title><link>https://hazmole.github.io/PokeRole/docs/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/introduction/</guid><description>系統介紹 Introduction 歡迎來到Pokemon RPG！
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>介紹</title><link>https://hazmole.github.io/PokeRole/docs/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/introduction/</guid><description>介紹 歡迎來到Pokemon RPG！
 這是一本關於如何創造一個屬於你自己的故事，帶領你的角色以及寶可夢前往未知之旅的規則書！
 ⬛ 什麼是角色扮演遊戲？ 角色扮演遊戲，就像是做為演員去演出一場戲劇。
 你可以試著在腦中想像一下和小朋友玩家家酒的畫面。你拿起一個代表你的玩偶，並且透過這個玩偶講話、跳躍、開車、進行各種傻里傻氣、或是令人驚豔的冒險。
@@ -17,4 +17,53 @@
 在遊戲過程中最主要的工具，就是你的「想像力」。有了它，你們將能夠真正實現不可能之事：在藍天翱翔！從馳騁飛車上跳下！騎乘巨龍或甚至與幽靈交朋友！只要是你能想的到的，你就讓它在這個遊戲中化作真實。
 第二個你必須取得的工具是「角色卡」。玩家們將利用角色卡來記錄各自角色的數值和寶可夢搭檔。
 最後你必須使用的工具是「骰子」。只要有足夠的運氣，任何人都能創造奇蹟；反過來說，再頂尖的人也可能在倒楣的時候失族。
-你在遊戲中的命運，將會由你的能力數值以及一些些的骰運來決定。</description></item><item><title>Shortcodes</title><link>https://hazmole.github.io/PokeRole/docs/contentmanagement/shortcodes/</link><pubDate>Tue, 28 Jan 2020 00:36:19 +0900</pubDate><guid>https://hazmole.github.io/PokeRole/docs/contentmanagement/shortcodes/</guid><description>Markdown here</description></item><item><title>Frontmatter</title><link>https://hazmole.github.io/PokeRole/docs/contentmanagement/frontmatter/</link><pubDate>Tue, 28 Jan 2020 00:36:14 +0900</pubDate><guid>https://hazmole.github.io/PokeRole/docs/contentmanagement/frontmatter/</guid><description>Markdown here</description></item><item><title>Section</title><link>https://hazmole.github.io/PokeRole/docs/contentmanagement/sections/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/contentmanagement/sections/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item></channel></rss>
+你在遊戲中的命運，將會由你的能力數值以及一些些的骰運來決定。</description></item><item><title>神奇的寶可夢世界</title><link>https://hazmole.github.io/PokeRole/docs/the-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid><description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
+然而，他們的世界與我們有許多不同：其中，寶可夢的存在幾乎改變了所有事物。
+在這個世界裡，許多人遊走旅行在各個地區，尋求著冒險、神祕，以及成為頂尖的機會。
+城市的數量較為稀少且相距甚遠，但小型的城鎮倒是相當常見。他們某方面的科技相當進步，但也有些方面看起來已經過時。
+如果你想要冒險前往其他地區，你將會需要寶可夢來保護你遠離各種旅途上的危險。
+為了讓你更容易理解寶可夢世界中的危險，讓我們換一個觀點來看：
+鱷魚是種很危險的生物，對吧？
+那麼，試著想像有一隻鱷魚，牠的速度迅捷如獵豹，還能從口中射出光束、眼睛發出閃光！
+如果這樣對你來說還不夠危險，那麼就準備好跳上那無法控制的命運列車軌道吧！你所採取的每一步，以及每一個在你旅途中出現的生物，都有著他自己的故事。
+僅僅是離開城鎮幾哩之遙都有可能導致無數麻煩，但也可能會讓你經歷世界上最令人興奮的故事。
+但等等！這個遊戲並不只是你而已，而是你和你的寵物！
+你是否曾經覺得你的狗狗想要保護你遠離某些東西？ 像是，就算一切都亂了套而危險逐步靠近的時候，你總會有個小小守護者在你身邊，保護你平安歸家。這就是這個遊戲的精髓。 一場你、你忠誠的狗狗、伶俐的貓咪、以及傻氣的鳥兒共同交織的，令人雀躍的旅途。
+口袋怪獸 生活在這個世界的生物都有著不可思議的力量。牠們形體各異，大小不同，且從創世以來就棲息在這個世界上。牠們有些早已絕種，而有些則是在近代才被發現。
+在人類出現之初，這些生物中最古老而強大的個體們統治著這個世界。一開始，人類畏懼牠們。然而在數個世紀之後，人類和這些生物如今共同生活在一起，互相建立起了信任及忠誠的羈絆。
+人們學會了如何將這些生物安全地存放在一個口袋大小的裝置中，並能在需要的時候將其放出。這項技術帶給了這些神祕生物牠們現在的名字：「口袋怪獸」，簡稱「寶可夢」。
+而這也正是宣告了這革命性概念的開始。
+現在，人們能收服這些生物，安全地與牠們互動，並利用牠們特殊的能力來改變這個世界。透過這股力量，許多人出發展開了偉大的冒險，嘗試收服所有的寶可夢。
+儘管如此，寶可夢的世界仍然屬於寶可夢，且其大部分的奧秘也尚未被解開。
+⬛ 寶可夢的進化 寶可夢有著特別的神奇力量，牠們能透過一種快速且戲劇性的變化，來變得更大、更快且更強壯。
+這些現象被稱為「進化」，且大部分的寶可夢都能夠發生這樣的現象。
+這個變化的發生有許多種不同的原因，最常見的情形是寶可夢成長到了足以讓他進化的階段。
+除此之外，接觸不同種類的能量、細心地呵護、身體的鍛鍊、或是嚴峻的環境都可能是寶可夢進化的契機。
+也有一些報告指出，即使有些寶可夢的物種是能夠進化的，但仍有個體終其一生都不會經歷這樣的變化。關於這個現象的研究仍然有很長一段路要走。
+值得注意的是，許多寶可夢的行為舉止在進化之後也會跟著改變。
+有些寶可夢會在獲得更強的力量之後變得叛逆或重拾野性；也有些會變得更認真、更大膽、或更狂暴。只有最熟練的專家才能夠駕馭完全進化的寶可夢。
+寶可夢世界中的生活 人們對這個世界的起源有著許多不同的理論和傳說。儘管沒有任何一個能被證實，但一個不可否認的事實是：寶可夢從一開始就已經存在。
+牠們在史前時代自在遊蕩，棲居於陸地、海洋與天空，爭奪著食物與領土。現今發現的化石描繪出了那人類還未出現的遙遠過去，為我們展現著那些已經滅絕的寶可夢、以及牠們的生活方式。
+當第一批人類開始定居時，那些較為溫和的物種來到他們的身邊尋求庇護，並建立了一種基於共同生存意志的緊密、互惠的羈絆。
+而這種羈絆就這麼一直延續到了今日。
+由於廣泛使用了高科技裝置以及古老的替代品，現代寶可夢世界看起來或許有些矛盾。
+然而首先要記得，這並不是人類的世界。與寶可夢相比，人類是如此稀少且孱弱，以至於無法真正成為這個世界的優勢物種。其次，人類所有的科學和技術成就全都是倚靠寶可夢的協助而發展起來的。
+這個世界的人們並未發現如何生起火焰，也沒有駕馭發電的方式。他們只是單純借助火系和電系寶可夢的幫助。
+這就是為什麼這個世界的某些科技能有飛躍性的發展，但整體社會卻沒有足夠都市化的原因。
+人們享受著簡單的生活，因為他們只需要從大自然獲取所需，而不需要承擔太多的風險。
+他們不需要太多的奢侈品、假期、複雜的經濟體系、或是強大的執法機關。
+然而，人們確實發展出了卓越的醫療系統以及豐富的醫療知識。能夠治療傷口和疾病的「靈丹妙藥」比比皆是。
+雖然這樣的治療技術似乎很常見，但沒有人真的知道這些藥物是從何而來，也沒有人知道這些常用的技術究竟是誰發明的。
+⬛ 人們與寶可夢之間的互動 在近代，人類居住區與寶可夢之間的分界可謂非常薄弱，但即使生活圈如此接近，大多數人類還是會選擇把自己安全地隔離在城鎮和城市裡頭，只讓少數無害的寶可夢在裡頭游蕩。
+世界上那些最為狂野的寶可夢往往隱居在遠離人煙的地方。如果有人膽敢侵入，野生寶可夢將會極力捍衛牠們的領土。也因此，人們往往傾向讓已經馴化或是由人類養大的寶可夢待在身邊，讓自己能過上更輕鬆的生活。
+你在城鎮中所見到的寶可夢通常被用來保護人們、或是協助各式各樣的工作，其他有些則是作為家庭寵物，而也有些寶可夢會被那些最為邪惡的惡黨當作武器來使用。
+投身於捕捉、馴服、和教導這些生物如何與人類共同生活的人們，被稱為寶可夢訓練家。
+寶可夢訓練家的生態與於職業運動員有些相似。他們最主要的活動被稱為「寶可夢對戰」，主要目標在於利用寶可夢自身強大的能力與技能擊敗對方的寶可夢。
+為了規範與約束這個職業，寶可夢聯盟 成立了。
+主要地區 就像我們的世界一樣，寶可夢世界劃分了許多不同的地區，且每個地區就是一個完整的國家。然而，這些國家並不是以實際的陸地或海洋做為分界，而是按照寶可夢聯盟來劃分的。
+不過還是有例外存在：關都地區與城都地區被湊在了一塊，並共享著一部份的寶可夢聯盟賽制。除此之外的其他地區都有著自己的聯盟挑戰賽、寶可夢品種、著名訓練家、和其他獨特事物。
+能在某個區域被輕易找到的寶可夢，在其他地區也許就罕見。這也是為什麼寶可夢訓練家很多都是環遊世界的旅行者，他們前往不同的地區四處探險，尋找是否有不一樣的寶可夢存在。
+⬛ 關都地區 Kanto 關都地區 與現代日本相當類似。這裡是科技的搖籃，也是世界知名的西爾佛（Silph）公司總部和寶可夢聯盟的誕生地。
+在這個地區，寶可夢戰鬥不只是一種全國性的運動，更是他們的生活方式。
+關都寶可夢聯盟的組織非常龐大，因此也負責了城都地區的聯盟賽註冊事宜。這是一個充滿強大訓練家、豐富多彩的地區。
+⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item></channel></rss>
