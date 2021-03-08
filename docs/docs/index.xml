@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>遊戲規則 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/docs/</link><description>Recent content in 遊戲規則 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>介紹</title><link>https://hazmole.github.io/PokeRole/docs/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/introduction/</guid><description>介紹 歡迎來到Pokemon RPG！
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>遊戲規則 on 寶可夢扮演2.0 Pokerole</title>
+    <link>https://hazmole.github.io/PokeRole/docs/</link>
+    <description>Recent content in 遊戲規則 on 寶可夢扮演2.0 Pokerole</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zhtw</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://hazmole.github.io/PokeRole/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>介紹</title>
+        <link>https://hazmole.github.io/PokeRole/docs/introduction/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/introduction/</guid>
+        <description>介紹 歡迎來到Pokemon RPG！
 這是一本關於如何創造一個屬於你自己的故事，帶領你的角色以及寶可夢前往未知之旅的規則書！
 ⬛ 什麼是角色扮演遊戲？ 角色扮演遊戲，就像是做為演員去演出一場戲劇。
 你可以試著在腦中想像一下和小朋友玩家家酒的畫面。你拿起一個代表你的玩偶，並且透過這個玩偶講話、跳躍、開車、進行各種傻里傻氣、或是令人驚豔的冒險。
@@ -17,7 +39,16 @@
 在遊戲過程中最主要的工具，就是你的「想像力」。有了它，你們將能夠真正實現不可能之事：在藍天翱翔！從馳騁飛車上跳下！騎乘巨龍或甚至與幽靈交朋友！只要是你能想的到的，你就讓它在這個遊戲中化作真實。
 第二個你必須取得的工具是「角色卡」。玩家們將利用角色卡來記錄各自角色的數值和寶可夢搭檔。
 最後你必須使用的工具是「骰子」。只要有足夠的運氣，任何人都能創造奇蹟；反過來說，再頂尖的人也可能在倒楣的時候失族。
-你在遊戲中的命運，將會由你的能力數值以及一些些的骰運來決定。</description></item><item><title>神奇的寶可夢世界</title><link>https://hazmole.github.io/PokeRole/docs/the-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid><description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
+你在遊戲中的命運，將會由你的能力數值以及一些些的骰運來決定。</description>
+      </item>
+      
+      <item>
+        <title>神奇的寶可夢世界</title>
+        <link>https://hazmole.github.io/PokeRole/docs/the-world/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid>
+        <description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
 然而，他們的世界與我們有許多不同：其中，寶可夢的存在幾乎改變了所有事物。
 在這個世界裡，許多人遊走旅行在各個地區，尋求著冒險、神祕，以及成為頂尖的機會。
 城市的數量較為稀少且相距甚遠，但小型的城鎮倒是相當常見。他們某方面的科技相當進步，但也有些方面看起來已經過時。
@@ -63,7 +94,31 @@
 主要地區 就像我們的世界一樣，寶可夢世界劃分了許多不同的地區，且每個地區就是一個完整的國家。然而，這些國家並不是以實際的陸地或海洋做為分界，而是按照寶可夢聯盟來劃分的。
 不過還是有例外存在：關都地區與城都地區被湊在了一塊，並共享著一部份的寶可夢聯盟賽制。除此之外的其他地區都有著自己的聯盟挑戰賽、寶可夢品種、著名訓練家、和其他獨特事物。
 能在某個區域被輕易找到的寶可夢，在其他地區也許就罕見。這也是為什麼寶可夢訓練家很多都是環遊世界的旅行者，他們前往不同的地區四處探險，尋找是否有不一樣的寶可夢存在。
-⬛ 關都地區 Kanto 關都地區 與現代日本相當類似。這裡是科技的搖籃，也是世界知名的西爾佛（Silph）公司總部和寶可夢聯盟的誕生地。
+ ⬛ 關都地區 Kanto 關都地區 與現代日本相當類似。這裡是科技的搖籃，也是世界知名的西爾佛（Silph）公司總部和寶可夢聯盟的誕生地。
 在這個地區，寶可夢戰鬥不只是一種全國性的運動，更是他們的生活方式。
 關都寶可夢聯盟的組織非常龐大，因此也負責了城都地區的聯盟賽註冊事宜。這是一個充滿強大訓練家、豐富多彩的地區。
-⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item><item><title>開始遊戲</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/</guid><description/></item></channel></rss>
+⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description>
+      </item>
+      
+      <item>
+        <title>開始遊戲</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/</guid>
+        <description></description>
+      </item>
+      
+      <item>
+        <title>性格</title>
+        <link>https://hazmole.github.io/PokeRole/docs/natures/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/natures/</guid>
+        <description>Nature Your Nature is your essence. Both humans and Pokémon have their values and what’s important to them defined by it. All people and Pokémon have their own unique personality, but it is their Nature what defines how they will react to certain situations.
+Your Nature will show what’s inside your mind and that will reflect on the exterior. Some Natures are beneficial for certain aspects of life and all of them can have their own hindrance when facing certain situations.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

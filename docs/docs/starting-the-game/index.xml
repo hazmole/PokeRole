@@ -1,8 +1,114 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>開始遊戲 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/</link><description>Recent content in 開始遊戲 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/docs/starting-the-game/index.xml" rel="self" type="application/rss+xml"/><item><title>創建角色</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</guid><description>Creating a Character In Pokémon the Role Playing Game, you must create a Pokémon Trainer also called a Character. This persona will be your avatar inside the story.
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>開始遊戲 on 寶可夢扮演2.0 Pokerole</title>
+    <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/</link>
+    <description>Recent content in 開始遊戲 on 寶可夢扮演2.0 Pokerole</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zhtw</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://hazmole.github.io/PokeRole/docs/starting-the-game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>創建角色</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</guid>
+        <description>Creating a Character In Pokémon the Role Playing Game, you must create a Pokémon Trainer also called a Character. This persona will be your avatar inside the story.
 You’ll choose a starting Pokémon too, both are very important choices, remember that your Pokémon are often a reflection of your trainer’s ersonality and aspirations.
-When creating a character, choose something that’s fun to play, allow yourself to dream, be silly and laugh at your most crazy ideas.</description></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>Creating a Pokémon A Pokémon will be commanded by their trainer but within the game, they won’t be controlled by a player.
+When creating a character, choose something that’s fun to play, allow yourself to dream, be silly and laugh at your most crazy ideas.</description>
+      </item>
+      
+      <item>
+        <title>創建寶可夢</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid>
+        <description>Creating a Pokémon A Pokémon will be commanded by their trainer but within the game, they won’t be controlled by a player.
 It’s part of the storyteller’s job to play and tell you how your Pokémon reacts to its surroundings or how it communicates with you.
-Think about it as having a pet, you can ask it to follow you or to stop chewing the carpet, but you are not really inside its mind.</description></item><item><title>心理/物理/社交特質</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid><description>Mental and Physical Attributes Your Character will interact with the world using his Attributes and Skills, They are measured using Points within a Character Sheet, each point represents one die you can roll for that attribute should your action call for it. Attributes can be rolled on their own to perform mundane tasks or they can be combined with skills if you want to do complex and incredible feats.
-The scores range from 1 to 5 in humans, but some of the stronger Pokémon can exceed that number.</description></item><item><title>技能</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</guid><description>Skills and Extras You will be needing Skills to make your adventure easier and help you go through many situations. Your Pokémon can learn a few on their own, but you can also train them so they can grow stronger.
+Think about it as having a pet, you can ask it to follow you or to stop chewing the carpet, but you are not really inside its mind.</description>
+      </item>
+      
+      <item>
+        <title>心理/物理/社交特質</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid>
+        <description>Mental and Physical Attributes Your Character will interact with the world using his Attributes and Skills, They are measured using Points within a Character Sheet, each point represents one die you can roll for that attribute should your action call for it. Attributes can be rolled on their own to perform mundane tasks or they can be combined with skills if you want to do complex and incredible feats.
+The scores range from 1 to 5 in humans, but some of the stronger Pokémon can exceed that number.</description>
+      </item>
+      
+      <item>
+        <title>技能</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</guid>
+        <description>Skills and Extras You will be needing Skills to make your adventure easier and help you go through many situations. Your Pokémon can learn a few on their own, but you can also train them so they can grow stronger.
 A Skill is a varied compendium of applied knowledge. They can cover a broad number of situations, they don&amp;rsquo;t have to be specific to a certain discipline .
-There are so many different skills in the world, that it is impossible to practice or master most of them.</description></item></channel></rss>
+There are so many different skills in the world, that it is impossible to practice or master most of them.</description>
+      </item>
+      
+      <item>
+        <title>生命值與意志點</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</guid>
+        <description>Health Points (HP) Health Points measure the state of your character’s body.
+All living beings have a Base HP (BHP), a representation of their species resilience to damage and pain.Something that could cause a crippling injury to some creatures may feel like a sting to a different species, it all depends on how their body is built.
+To calculate your total HP you must add the number of points you have in Vitality to your Base HP.</description>
+      </item>
+      
+      <item>
+        <title>幸福度與忠誠度</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</guid>
+        <description>Happiness &amp;amp; Loyalty These attributes will define your relationship with your Pokémon and are among the most valuable traits in the game since they determine how good is your relationship with your companions.
+What’s the use of a strong Pokémon if it hates you and wants to run away?
+It is common for trainers to have a hard time with a newly caught Pokémon, they might even be attacked by said Pokémon since for all they know this is just Round two.</description>
+      </item>
+      
+      <item>
+        <title>擲骰</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid>
+        <description>Rolling the Dice Our lives are influenced by random factors all the time. Luck is a part of our lives, fortune can change our future and destiny is built on the results of our actions.
+In Pokémon: The Role Playing Game all variables are represented by six-sided dice. These Dice are pretty easy to get and you can find them in almost any gaming store. You may even have some from your old board games!</description>
+      </item>
+      
+      <item>
+        <title>等級</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid>
+        <description>Ranking Even Champions were rookies at a certain point in their lives.
+Today you begin your Pokémon Journey. Many adventures lie ahead. Perhaps you always dreamt on becoming a Trainer, or maybe some circumstances forced you to take this path. If you&amp;rsquo;re willing to work hard, someday you may even become the best.
+A good Trainer is capable of taking a little scaredy Pokémon and turn it into a champion, but in order to do that, you&amp;rsquo;ll have to journey across the world and complete many achievements.</description>
+      </item>
+      
+      <item>
+        <title>創作故事</title>
+        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/</guid>
+        <description>Creating a Story Now it’s time to derail the train of destiny with some booms and bams! Characters expect to live adventures. When they get out looking for trouble they are gonna find you ready.
+Being a Storyteller and creating a story is not as hard as anyone would think. Relax and have fun with any crazy idea. Just remember that you are here to make sure that everyone is having fun.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

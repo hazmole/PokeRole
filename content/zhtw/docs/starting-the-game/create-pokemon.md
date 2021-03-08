@@ -68,12 +68,16 @@ To fill your Pokémon Character Sheet you will need to copy the info on its Pok�
 <p style="margin-top: -20px;">How to fill a Pokémon Character Sheet: </p>
 
 #### POKÉDEX WINDOW
+{{< img src="/images/03-04-pokedex-window.JPG" height="300" position="center" selflink="true" >}}
+
 1. Pokémon Picture.
 2. Your Pokémon Number in the Pokédex.
 3. Name for your Pokémon Species or nickname.
 4. Pokemon Ability. Choose one Ability on its Pokédex entry.
 
 #### QUICK REFERENCES WINDOWS
+{{< img src="/images/03-05-quick-reference-window.JPG" height="300" position="center" selflink="true" >}}
+
 5. Base Health Points for your Pokémon are specified in its Pokedex entry. Each point of Vitality adds 1 HP.
 6. Will Points. Its Score es equal to Insight + 2.
 7. Held Item (p. 83).
@@ -88,12 +92,16 @@ To fill your Pokémon Character Sheet you will need to copy the info on its Pok�
 16. Move windows. Write down your moves here.
 
 #### ATTRIBUTES & SKILLS WINDOW 
+{{< img src="/images/03-06-attr-skills-window.JPG" height="300" position="center" selflink="true" >}}
+
 17. Attributes. Starting Attributes and Limits are specified in your Pokémon’s Pokédex entry.
 18. Skills. Distribute Points according to their Rank.
 19. Pokémon’s size is specified in its Pokedex entry.
 20. Your Pokémon’s weight is specified in its entry.
 
 #### SOCIALS & INFO WINDOW
+{{< img src="/images/03-07-social-info-window.JPG" height="300" position="center" selflink="true" >}}
+
 21. Social Attributes. Start at 1, 
 22. Choose a Nature (p.38).
 23. Happiness for your Starter Pokémon is 2.
