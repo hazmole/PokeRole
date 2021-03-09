@@ -1,0 +1,8 @@
+{{ if eq (.Get 0) "trainer" }}
+<div class="notices trainer" data-title="{{ i18n "trainer_tip" | default "trainer_tip" }}">
+{{ end }}
+{{ if eq (.Get 0) "story" }}
+<div class="notices story" data-title="{{ i18n "storyteller_note" | default "storyteller_note" }}">
+{{ end }}
+  {{ .Inner | markdownify }}
+</div>

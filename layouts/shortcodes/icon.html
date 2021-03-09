@@ -1,0 +1,6 @@
+{{ if eq (.Get "type") "lethal" }}
+<tag class="lethalDamage {{ .Get "size" }}"></tag>
+{{ end }}
+{{ if eq (.Get "type") "dice" }}
+<tag class="dice {{ .Get "size" }}"><div>{{ .Get "number" }}</div></tag>
+{{ end }}

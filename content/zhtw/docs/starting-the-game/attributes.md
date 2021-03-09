@@ -38,9 +38,9 @@ Each Vitality point gives you +1 HP, 1 Defense, and 1 Special Defense.
  You may use Vitality score for Defense, and Insight for Special Defense.
 {{< /notice >}}
 
-{{< notice trainer "訓練家小技巧" >}}
+{{< mynotice trainer >}}
  Keep track of your Defense and Special Defense, You will need them to resist Physical and Special Attacks respectively.
-{{< /notice >}}
+{{< /mynotice >}}
 
 <table>
 <tr><td align="left"> ●○○○○ </td><td align="left"> You look frail and get tired easily. Even a papercut would leave you in tears. </td></tr>

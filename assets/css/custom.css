@@ -55,6 +55,9 @@
 .single__contents h3 {
     font-size: 1.6rem;
 }
+.single__contents h4 {
+    font-size: 1.3rem;
+}
 .single__contents h5, .single__contents h6 {
     margin-bottom: 0em;
     text-decoration: underline;
@@ -214,7 +217,56 @@ td:not([align]), th:not([align]) {
 .icon.Master::before { background-image: url('../images/icons/rank-master.png'); }
 .icon.Champion::before { background-image: url('../images/icons/rank-champion.png'); }
 
+/* Tag Icon */
+tag {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 2em; height: 2em;
+    margin: .2em;
+    border-radius: .1em;
+    background-size: 100%;
+    font-size: 1rem;
+    content: ""; 
+}
+tag.small { font-size: .7rem; }
+tag.large { font-size: 1.5rem; }
+tag.NoviceMark {
+    background-image: url('../images/icons/novice-origin.png');
+    border-radius: 1.5em;
+}
+tag.lethalDamage { background-image: url('../images/icons/lethalDamage.png'); }
+tag.dice { background-image: url('../images/icons/dice.png'); }
+tag.dice div {
+    padding-left: 60%;
+    padding-top: 40%;
+    color: #fff;
+    font-size: 80%;
+}
 
-/* extra */
+
+/* Pokemon Type */
+.Normal { background:#BBBBAA; }
+.Bug { background:#AABB22; }
+.Dark { background:#775544;color:#fff; }
+.Dragon { background:#7766EE;color: #fff; }
+.Electric { background:#FFCC33; }
+.Fairy { background:#FFAAFF; }
+.Fight { background:#BB5544;color:#fff; }
+.Fire { background:#FF4422; }
+.Flying { background:#6699FF; }
+.Ghost { background:#6666BB;color:#fff; }
+.Grass { background:#77CC55; }
+.Ground { background:#DDBB55; }
+.Ice { background:#77DDFF; }
+.Poison { background:#AA5599;color:#fff; }
+.Psychic { background:#FF5599; }
+.Rock { background:#BBAA66; }
+.Steel { background:#AAAABB; }
+.Water { background:#3399FF; }
+
+/* extra styke */
 fill { color: red; }
 p.foot { font-size:0.6em; margin-top:-2em; text-align:right;  }
+.highlight { margin:0 1em 1em 1em;padding:.2em .5em; background:#ca8d43; color:#fff; font-weight:bold; border-radius:.5em; }
+.middle { margin:1em 1em; font-weight:bold; font-size:1.1em; text-align: center; }

@@ -31,10 +31,10 @@ While Happiness and Loyalty are not directly linked, **keeping your Pokémon hap
 
 Role-Playing will be the key to increase both traits.
 
-{{< notice trainer "訓練家小技巧" >}}
+{{< mynotice trainer >}}
 Aim to build a strong relationship with your Pokémon while it’s still at an un-evolved stage.
 Creating bonds with Pokémon in later stages will be a lot harder.
-{{< /notice >}}
+{{< /mynotice >}}
 
 ---
 

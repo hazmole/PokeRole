@@ -10,13 +10,13 @@ A  Pokémon  will  be  commanded  by  their  trainer  but  within the game, they
 It’s  part  of  the  storyteller’s  job  to  play  and  tell  you how your Pokémon reacts to its surroundings or how it   communicates with you.
 Think about it as having a pet, you can ask it to follow you or to stop chewing the carpet, but you are not really inside its mind. You can only learn what it thinks and feels by  interacting  with  it  and  reading  its  expressions  and  attitudes.
 
-{{< notice story "說書人筆記" >}}
+{{< mynotice story >}}
  While  similar,  Pokémon  are NOT people.  They are mostly incapable  of  speech  nor  they see the world the same as humans do.
-{{< /notice >}}
+{{< /mynotice >}}
 
-{{< notice trainer "訓練家小技巧" >}}
+{{< mynotice trainer >}}
  Most  Pokémon  are  capable  of Evolving,  to  learn  more  about the different ways Evolution is triggered, head to p. 73
-{{< /notice >}}
+{{< /mynotice >}}
 
 
 Pokémon do not need to have a concept as Trainers do. 
@@ -29,7 +29,7 @@ That  means  that  two  Pokémon  of  the  same  species will probably want the 
 If you are just starting your adventure, head to the Pokédex section of this book. p. 88
 Look for this icon on the Pokédex entries:
 
-◎
+<p style="margin-left: 1em;"><tag class="NoviceMark large"></tag></p>
 
 Pokémon  marked  with  this  icon,  are  good Starter options for Novice Trainers. 
 {{< /boxmd >}}

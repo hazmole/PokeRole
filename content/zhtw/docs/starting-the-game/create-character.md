@@ -48,9 +48,9 @@ And most importantly:
 
 Answering  those  questions  will  make  the  storyteller’s job  a  lot  easier  to  give  your  character  the  challenges he or she needs. Don’t forget that good communication  between players and storyteller will make the story flow much more smoothly for everyone.
 
-{{< notice story "說書人筆記" >}}
+{{< mynotice story >}}
  A player **should not start playing** until he or she has answered these questions.
-{{< /notice >}}
+{{< /mynotice >}}
 
 
 ---
