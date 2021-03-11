@@ -11,8 +11,9 @@ All living beings have a **Base HP (BHP)**, a representation of their species re
 
 To calculate your total HP you must **add the number of points you have in Vitality to your Base HP.** 
 
-<div class="highlight">Humans have a Base HP of 4</div>
-<div class="highlight">Each Pokémon Base HP is listed within its Pokédex entry.</div>
+{{< highlight >}}Humans have a Base HP of 4
+{{< /highlight >}}{{< highlight >}}
+Each Pokémon Base HP is listed within its Pokédex entry.{{< /highlight >}}
 
 
 For example:
@@ -45,7 +46,7 @@ In those scenarios, people used all of their might, breaking the limits of their
 
 The **Will** Attribute measures just how far your inner strength can take you.
 
-<div class="highlight">Every human and Pokémon has Will equal to: Insight +2.</div>
+{{< highlight >}}Every human and Pokémon has Will equal to: Insight +2.{{< /highlight >}}
 
 Storyteller may call for players and Pokémon to make a roll using their Will score to overcome fear, rage, or sadness, also as a call for conscience when attempting misdeeds. 
 Will points can also be spent to resist pain and have a better chance to succeed at any roll.

@@ -19,11 +19,13 @@ function parseIcon(){
 
     switch(icon_type){
       case "lethal": return getHTML_normalIcon("lethalDamage", icon_size);
+      case "crit":   return getHTML_normalIcon("highCrit", icon_size);
       case "novice": return getHTML_normalIcon("NoviceMark", icon_size);
       case "dice":   return getHTML_diceIcon(icon_size, tagArr[2]);
+      case "rdice":  return getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
       case "frame":  return getHTML_frame(tagArr.slice(1));
       default:
-        return "<b>[Unknown token]</b>";
+        return getHTML_normalIcon("unknown", icon_size);
     }
   }
   //====================
@@ -32,6 +34,19 @@ function parseIcon(){
   }
   function getHTML_diceIcon(iconSize, number){
     return `<tag class="dice ${iconSize}"><b>${number}</b></tag>`;
+  }
+  function getHTML_rdiceIcon(iconSize, number, extraClass){
+    var diceClass;
+    switch(parseInt(number)){
+      case 1: diceClass="one"; break;
+      case 2: diceClass="two"; break;
+      case 3: diceClass="three"; break;
+      case 4: diceClass="four"; break;
+      case 5: diceClass="five"; break;
+      case 6: diceClass="six"; break;
+    }
+    if(parseInt(number)>=4) extraClass+=" success";
+    return `<tag class="rdice ${iconSize} ${diceClass} ${extraClass}"></tag>`;
   }
   function getHTML_frame(arguments){
     var frame_type = arguments[0];
@@ -55,8 +70,8 @@ function parseIcon(){
       // handle prefix
       var prefix = "";
       switch(content_type){
-        case "up": prefix = "🠕"; break;
-        case "down": prefix = "🠗"; break;
+        case "up": prefix = "↑"; break;
+        case "down": prefix = "↓"; break;
         case "plus": prefix = "+"; break;
         case "minus": prefix = "-"; break;
       }

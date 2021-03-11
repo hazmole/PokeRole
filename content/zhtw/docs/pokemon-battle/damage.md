@@ -39,7 +39,7 @@ If the characters suffer 1 lethal damage, they will suffer another lethal damage
 Lethal Damage Moves are banned from official League matches, but your Pokémon may still use them if it holds back the full force of the attacks to deal regular damage.
 
 A move labeled with this Icon Will deal Lethal Damage unless the Pokémon holds back:
-<p style="text-align: center;">{@icon lethal|l}</p>
+{@icon lethal|l}
 
 
 
@@ -73,9 +73,10 @@ If a Pokémon or Trainer is going to die, make it meaningful, **no sacrifice is 
 When your body is injured you will feel pain. As you or your Pokémon receive damage, your movements and overall performance will be impaired due to the wounds. 
 **This is what we call Pain Penalization.**
 
-<div class="highlight">
-Remove Successes from every Action you attempt,<br/>
-depending on how badly your Character is injured.</div>
+{{< highlight >}}
+Remove Successes from every Action you attempt,
+depending on how badly your Character is injured.
+{{< /highlight >}}
 
 To measure the amount of pain you’re in, you must take into account your total HP and follow this simple chart:
 

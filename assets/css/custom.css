@@ -161,15 +161,23 @@ td:not([align]), th:not([align]) {
 }
 
 /* example */
-.example {
+#list-main .box.example {
     font-size: .925rem;
     word-break: keep-all;
     padding: .5rem;
-    margin: 0rem 1rem;
+    margin: 1rem 1rem;
     border-radius: .5rem;
-    background-color: #fff4cb;
     border: 2px solid #efdabe ;
+    background-color: #fff4cb;
+    color: #000;
 }
+
+#list-main .box.highlight {
+    margin:0 1em 1em 1em;
+    padding:.2em .5em; background:#ca8d43; color:#fff; border-radius:.5em;
+    border-width: 0;
+}
+
 
 /* Nature */
 .Nature {
@@ -232,8 +240,10 @@ tag {
 tag.small { width: 2rem; height: 2rem; font-size: .8rem; }
 tag.large { width: 3.2rem; height: 3.2rem; font-size: 1.3rem; }
 
+tag.unknown { background-image: url('../images/icons/unknown.png'); }
 tag.NoviceMark { background-image: url('../images/icons/novice.png'); }
 tag.lethalDamage { background-image: url('../images/icons/lethalDamage.png'); }
+tag.highCrit { background-image: url('../images/icons/highCrit.png'); }
 tag.dice { background-image: url('../images/icons/dice.png'); background-color: #eee; }
 tag.dice b {
     position: absolute;
@@ -241,9 +251,18 @@ tag.dice b {
     padding-top: 1em;
     color: #fff;
 }
-
+tag.rdice { filter: invert(45%) sepia(20%) saturate(16%) hue-rotate(314deg) brightness(91%) contrast(88%); }
+tag.rdice.success { filter: invert(64%) sepia(73%) saturate(483%) hue-rotate(75deg) brightness(94%) contrast(88%); } //#3ad451
+tag.rdice.fail { filter: invert(25%) sepia(68%) saturate(7010%) hue-rotate(357deg) brightness(115%) contrast(134%); } //#ff0808
+tag.rdice.one { background-image: url('../images/icons/dice_1.svg'); }
+tag.rdice.two { background-image: url('../images/icons/dice_2.svg'); }
+tag.rdice.three { background-image: url('../images/icons/dice_3.svg'); }
+tag.rdice.four { background-image: url('../images/icons/dice_4.svg'); }
+tag.rdice.five { background-image: url('../images/icons/dice_5.svg'); }
+tag.rdice.six { background-image: url('../images/icons/dice_6.svg'); }
 
 iconFrame {
+    text-align: left;
     overflow: hidden; white-space: nowrap;
     display: inline-block;
     vertical-align: bottom;
@@ -341,8 +360,7 @@ iconFrame.accuracy .number{ color: #fff; }
 .Steel { background:#AAAABB; }
 .Water { background:#3399FF; }
 
-/* extra styke */
+/* extra style */
 fill { color: red; }
 p.foot { font-size:0.6em; margin-top:-2em; text-align:right;  }
-.highlight { margin:0 1em 1em 1em;padding:.2em .5em; background:#ca8d43; color:#fff; font-weight:bold; border-radius:.5em; }
 .middle { margin:1em 1em; font-weight:bold; font-size:1.1em; text-align: center; }
