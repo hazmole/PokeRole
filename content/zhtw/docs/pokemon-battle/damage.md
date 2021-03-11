@@ -39,7 +39,7 @@ If the characters suffer 1 lethal damage, they will suffer another lethal damage
 Lethal Damage Moves are banned from official League matches, but your Pokémon may still use them if it holds back the full force of the attacks to deal regular damage.
 
 A move labeled with this Icon Will deal Lethal Damage unless the Pokémon holds back:
-<p style="text-align: center;">{{< icon type="lethal" size="large" >}}</p>
+<p style="text-align: center;">{@icon lethal|l}</p>
 
 
 

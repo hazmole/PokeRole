@@ -29,7 +29,7 @@ That  means  that  two  Pokémon  of  the  same  species will probably want the 
 If you are just starting your adventure, head to the Pokédex section of this book. p. 88
 Look for this icon on the Pokédex entries:
 
-<p style="margin-left: 1em;"><tag class="NoviceMark large"></tag></p>
+<p style="margin-left: 1em;">{@icon novice|l}</p>
 
 Pokémon  marked  with  this  icon,  are  good Starter options for Novice Trainers. 
 {{< /boxmd >}}

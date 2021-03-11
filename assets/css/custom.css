@@ -222,27 +222,103 @@ tag {
     overflow: hidden;
     display: inline-block;
     vertical-align: bottom;
-    width: 2em; height: 2em;
-    margin: .2em;
-    border-radius: .1em;
+    width: 2.5rem; height: 2.5rem;
+    margin: .2rem;
+    border-radius: .5rem;
     background-size: 100%;
     font-size: 1rem;
     content: ""; 
 }
-tag.small { font-size: .7rem; }
-tag.large { font-size: 1.5rem; }
-tag.NoviceMark {
-    background-image: url('../images/icons/novice-origin.png');
-    border-radius: 1.5em;
-}
+tag.small { width: 2rem; height: 2rem; font-size: .8rem; }
+tag.large { width: 3.2rem; height: 3.2rem; font-size: 1.3rem; }
+
+tag.NoviceMark { background-image: url('../images/icons/novice.png'); }
 tag.lethalDamage { background-image: url('../images/icons/lethalDamage.png'); }
-tag.dice { background-image: url('../images/icons/dice.png'); }
-tag.dice div {
-    padding-left: 60%;
-    padding-top: 40%;
+tag.dice { background-image: url('../images/icons/dice.png'); background-color: #eee; }
+tag.dice b {
+    position: absolute;
+    padding-left: 1.5em;
+    padding-top: 1em;
     color: #fff;
-    font-size: 80%;
 }
+
+
+iconFrame {
+    overflow: hidden; white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 3.25rem; height: 3.25rem;
+    margin: .2rem;
+    border-radius: .5rem;
+    background-color: black;
+    font-size: 1rem;
+}
+iconFrame.target { background-color: #ff2424; }
+iconFrame.self { background-color: #20b1ff; }
+iconFrame.priority { background-color: #8aca83; }
+iconFrame.paralysis { background-color: #d4c53e; }
+iconFrame.burn1 { background-color: #ff7f1a; }
+iconFrame.burn2 { background-color: #cc0500; }
+iconFrame.burn3 { background-color: #960703; }
+iconFrame.sleep { background-color: #a7ab99; }
+iconFrame.poison { background-color: #a574af; }
+iconFrame.poison2 { background-color: #672b73; }
+iconFrame.frozen { background-color: #86e0de; }
+iconFrame.flinch { background-color: #6d6d6d; }
+iconFrame.love { background-color: #f54e78; }
+iconFrame.confuse { background-color: #1cb579; }
+
+iconFrame .frameTitle {
+    position: absolute;
+    width: 3.25rem;
+    margin-top: -.1rem;
+    text-align: center; font-size: .8rem; color: #fff;
+}
+iconFrame .frameContent {
+    position: absolute;
+    background-color: #fff;
+    width: 2.9rem; height: 2rem;
+    border-radius: .5rem;
+    margin: 1.1rem .175rem;
+    text-align: center;
+    
+}
+iconFrame.accuracy .frameContent { background-color: #e02a2a; }
+.frameContent .always::before {
+    content: "✔";
+    font-size: 1.5rem;
+    color: #4cbb4c;
+    position: absolute; top: -.3rem; left: .9rem;
+}
+.frameContent .never::before {
+    content: "✖";
+    font-size: 1.5rem;
+    color: #e02a2a;
+    position: absolute; top: -.3rem; left: .9rem;
+}
+.frameContent .number{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    position: absolute; top: -.3rem; left: 0rem; width: 100%;
+}
+.frameContent .number .dice{
+    background-color: transparent;
+    margin-top: -.1em;
+}
+.frameContent .number .dice b{
+    padding-left: .2em;
+}
+.frameContent prefix{
+    margin-right: .1em;
+}
+.frameContent dprefix{
+    margin-right: -.2em;
+}
+iconFrame.target .number{ color: #ff2424; }
+iconFrame.self .number{ color: #20b1ff; }
+iconFrame.priority .number{ color: #8aca83; }
+iconFrame.accuracy .number{ color: #fff; }
+
 
 
 /* Pokemon Type */
