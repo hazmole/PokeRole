@@ -10,7 +10,7 @@
   
   
     
-    <script defer src="/PokeRole/js/customBuilder.min.ab0649aa8d545e37bdc10e1076a70b7ad2b16c12dd345830354e20e25bc64af0.js"></script>
+    <script defer src="/PokeRole/js/customBuilder.min.c3a3564808014516a384d0dac56a9f8678a46c9f609d49aa22207057c85e5928.js"></script>
   
 
 
@@ -394,7 +394,12 @@
     }
     setNavbarBG(lastScrollTop);
 
-    window.onscroll = function () {
+    window.onscroll = onScrollFunc;
+    function onScrollFunc(isRefresh) {
+      if(isRefresh){
+        singleContentsElem = document.querySelector('.single__contents');
+      }
+
       var st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop) { 
         singleContentsElem ? 

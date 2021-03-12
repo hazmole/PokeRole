@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://hazmole.github.io/PokeRole/zhtw/sitemap.xml</loc>
-    
-      <lastmod>2020-01-11T14:09:21+09:00</lastmod>
+    <loc>https://hazmole.github.io/PokeRole/en/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://hazmole.github.io/PokeRole/en/sitemap.xml</loc>
+    <loc>https://hazmole.github.io/PokeRole/zhtw/sitemap.xml</loc>
+    
+      <lastmod>2020-01-11T14:09:21+09:00</lastmod>
     
   </sitemap>
   

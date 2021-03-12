@@ -10,7 +10,7 @@
   
   
     
-    <script defer src="/PokeRole/js/customBuilder.min.ab0649aa8d545e37bdc10e1076a70b7ad2b16c12dd345830354e20e25bc64af0.js"></script>
+    <script defer src="/PokeRole/js/customBuilder.min.c3a3564808014516a384d0dac56a9f8678a46c9f609d49aa22207057c85e5928.js"></script>
   
 
 
@@ -394,7 +394,12 @@
     }
     setNavbarBG(lastScrollTop);
 
-    window.onscroll = function () {
+    window.onscroll = onScrollFunc;
+    function onScrollFunc(isRefresh) {
+      if(isRefresh){
+        singleContentsElem = document.querySelector('.single__contents');
+      }
+
       var st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop) { 
         singleContentsElem ? 
@@ -1130,7 +1135,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/",
-    "description": ,
+    "description": "Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments. They may be …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hazmole.github.io/PokeRole"
@@ -2340,7 +2345,56 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <h2 id="status-conditions">Status Conditions</h2>
+<p>There are conditions that change or impair the normal state of humans and Pokémon, they are called <strong>Status Conditions</strong> or <strong>Status Ailments</strong>.<br />
+They may be painful or disruptive effects such as burning, or paralyzing.</p>
+<p>Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. <br />
+There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</p>
+<p><strong>It is possible for Status Conditions to stack into each other</strong>, that means that you or your Pokémon can be asleep, poisoned and burned at the same time.<br />
+Only a Full Heal, Full Restore and a Lum Berry are able to cure more than one condition at the same time, if you do not have any of these items you’ll have to cure each condition one by one or do it the old-school way: Stop, drop and roll.</p>
+<p>Official League Matches may restrict the stacking of status conditions in Pokémon, for example if one of your opponent’s Pokémon is already poisoned or asleep the League officials may prevent you from adding another condition into it or sanction you if you do.</p>
+<hr />
+<p>Here is the list of this Status Conditions and their effects:</p>
+<div class="Frame">
+<h4 id="burn-1">Burn 1</h4>
+<div class="description">Something very hot burned your skin and it is blistering.</div>
+<p>{@icon frame|burn1|灼傷1}</p>
+<div class="title">Effect:</div>
+<p>Inflict 1 point of damage at the end of each Round. Fire-type Pokémon are immune.</p>
+<div class="title">Resist:</div>
+<p>Cannot be resisted.</p>
+<div class="title">Duration:</div>
+<p>Use an action to make a Roll of: Dexterity + Athletic, add up the successes of these rolls until you get 4.<br/>
+Outside of battle others can help soothe the burn.</p>
+</div>
+<div class="Frame">
+<h4 id="burn-2">Burn 2</h4>
+<div class="description">A part of your body is in flames!</div>
+<p>{@icon frame|burn2|灼傷2}</p>
+<div class="title">Effect:</div>
+<p>Inflict 2 points of Lethal damage at the end of each Round. Fire-type Pokémon are immune.</p>
+<div class="title">Resist:</div>
+<p>Cannot be resisted.</p>
+<div class="title">Duration:</div>
+<p>Use an action to make a Roll of Dexterity + Athletic, add up the successes of these rolls until you get 6.<br/>
+Outside of battle others can help extinguish the fire.</p>
+</div>
+<div class="Frame">
+<h4 id="burn-3">Burn 3</h4>
+<div class="description">You are completely engulfed by fire!</div>
+<p>{@icon frame|burn3|灼傷3}</p>
+<div class="title">Effect:</div>
+<p>Inflict 3 points of Lethal damage at the end of each Round. Fire-type Pokémon are immune.</p>
+<div class="title">Resist:</div>
+<p>Cannot be resisted.</p>
+<div class="title">Duration:</div>
+<p>Use an action to make a Roll of Dexterity + Athletic, add up the successes of these rolls until you get 8.<br/>
+Outside of battle others can help extinguish the fire.</p>
+</div>
+<hr />
+<h2 id="other-conditions">Other Conditions</h2>
+<p>There are conditions that are not considered Status Ailments, but they can still affect the Pokémon in a negative way, like:</p>
+
   </article>
 </div>
       
@@ -2376,7 +2430,22 @@
         <div class="toc">
   <h6 class="toc__label">內容目錄</h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#status-conditions">Status Conditions</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#burn-1">Burn 1</a></li>
+            <li><a href="#burn-2">Burn 2</a></li>
+            <li><a href="#burn-3">Burn 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#other-conditions">Other Conditions</a></li>
+  </ul>
+</nav>
   </div>
 </div>
       

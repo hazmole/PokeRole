@@ -10,7 +10,7 @@
   
   
     
-    <script defer src="/PokeRole/js/customBuilder.min.ab0649aa8d545e37bdc10e1076a70b7ad2b16c12dd345830354e20e25bc64af0.js"></script>
+    <script defer src="/PokeRole/js/customBuilder.min.c3a3564808014516a384d0dac56a9f8678a46c9f609d49aa22207057c85e5928.js"></script>
   
 
 
@@ -394,7 +394,12 @@
     }
     setNavbarBG(lastScrollTop);
 
-    window.onscroll = function () {
+    window.onscroll = onScrollFunc;
+    function onScrollFunc(isRefresh) {
+      if(isRefresh){
+        singleContentsElem = document.querySelector('.single__contents');
+      }
+
       var st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop) { 
         singleContentsElem ? 
@@ -1130,7 +1135,7 @@
     "datePublished": "0001-01-01T00:00:00Z",
     "dateModified": "0001-01-01T00:00:00Z",
     "url" : "https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/",
-    "description": ,
+    "description": "Weather Conditions \u0026amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are …",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hazmole.github.io/PokeRole"
@@ -2340,7 +2345,167 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    
+    <h2 id="weather-conditions--scenario">Weather Conditions &amp; Scenario</h2>
+<p>Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. <br />
+Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.</p>
+<p>Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.</p>
+<p>This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</p>
+<p>There are seven main weather conditions.</p>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|sun}</div>
+  <div class="iconDesc-item">
+    <b>Sunny Weather</b><br/>
+    Typical in deserts, plains and tropical areas.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|sun2}</div>
+  <div class="iconDesc-item">
+    <b>Harsh Sunlight Weather</b><br/>
+    Only found in volcanic areas.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|rain}</div>
+  <div class="iconDesc-item">
+    <b>Rain Weather </b><br/>
+    Common in rainforests, lakesides, and marshes.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|rain2}</div>
+  <div class="iconDesc-item">
+    <b>Typhoon Weather </b><br/>
+    Only found in the middle of the sea/underwater.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|sand}</div>
+  <div class="iconDesc-item">
+    <b>Sandstorm Weather </b><br/>
+    Common in arid regions and barren lands.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|wind}</div>
+  <div class="iconDesc-item">
+    <b>Strong Winds Weather </b><br/>
+    Only found at great heights in the sky.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon weather|l|hail}</div>
+  <div class="iconDesc-item">
+    <b>Hail Weather </b><br/>
+    Typical in areas close to cold and snowy places.
+  </div>
+</div>
+<p>There are Pokémon capable of summoning these weather conditions using special Moves. Other Pokémon are reported to have the incredible ability to summon the weather change at will.</p>
+<p>You may create other types of weather or battlefield conditions that may make the battle easier or harder depending on how well you can adapt to it.</p>
+
+
+<div class="notices story" data-title="說書人筆記">
+
+  Make the scenario an important part of the fight.<br />
+It can be the ally or the enemy of the players if you enable free battleground interaction.
+</div>
+<hr />
+<h3 id="weather-conditions-detail">Weather Conditions Detail</h3>
+<div class="Frame">
+<h4 id="div-classicon-weather-sunsunny-weatherdiv"><div class='icon weather sun'>Sunny Weather</div></h4>
+<p>A bright sunlight shines through the arena. It’s hot, you feel thirsty and tired, the light is hurting your eyes.</p>
+<ul>
+<li>All Fire-Type moves have 1 Extra Die to their  Damage Pools.</li>
+<li>All Water-Type moves get ther total damage reduced by 1.</li>
+<li>No one can be affected by the Frozen Status Condition.</li>
+</ul>
+</div>
+<div class="Frame">
+<h4 id="div-classicon-weather-sun2harsh-sunlight-weatherdiv"><div class='icon weather sun2'>Harsh Sunlight Weather</div></h4>
+<p>A harsh sunlight creates extreme heat through the battlefield, there is lava on the floor and some objects just burst into flames.<br />
+You might need special equipment to go through this weather.</p>
+<ul>
+<li>All Fire-Type moves have 1 Extra Die to their  Damage Pools.</li>
+<li>All Water-Type Moves fail to be executed.</li>
+<li>Add 2 dice to any roll of Chance Dice to Burn a foe.</li>
+<li>No one can be affected by the Frozen Status Condition.</li>
+<li>Sunny, Rain, Sandstorm and Hail Weather conditions fail to activate through any means.</li>
+</ul>
+</div>
+<div class="Frame">
+<h4 id="div-classicon-weather-rainrain-weatherdiv"><div class='icon weather rain'>Rain Weather</div></h4>
+<p>A heavy downpour. You are soaking wet. There’s deep puddles and it feels like this will grow into a raging storm any second.</p>
+<ul>
+<li>All Water-Type moves have 1 Extra Die to their  Damage Pools.</li>
+<li>All Fire-Type moves get ther total damage reduced by 1.</li>
+<li>Moves that become Complete Heal with Sunny weather will only restore 1 HP instead.</li>
+<li>Reduce by 3 the number of successes you need to  heal a Burn Status Condition.</li>
+</ul>
+</div>
+<div class="Frame">
+<h4 id="div-classicon-weather-rain2typhoon-weatherdiv"><div class='icon weather rain2'>Typhoon Weather</div></h4>
+<p>A great torrent quickly floods the field, in just a matter of seconds everything is underwater and you struggle to stay afloat trough the crashing waves around.</p>
+<ul>
+<li>All Water-Type moves have 1 Extra Die to their  Damage Pools.</li>
+<li>All Fire-Type Moves fail to be executed.</li>
+<li>No one can be affected by the Burn Status Condition.</li>
+<li>Moves that become Complete Heal with Sunny Weather will not restore any HP.</li>
+<li>Sunny, Rain, Sandstorm and Hail Weather conditions  fail to activate through any means.</li>
+</ul>
+</div>
+<div class="Frame">
+<h4 id="div-classicon-weather-sandsandstorm-weatherdiv"><div class='icon weather sand'>Sandstorm Weather</div></h4>
+<p>A raging wind is blowing sand all over. You can barely open your eyes, it’s had to breath and little sharp rocks pierce your skin.</p>
+<ul>
+<li>Deal 1 damage to all non Rock, Ground or Steel Type Pokémon in the field at the end of the round.</li>
+<li>Increase 1 Point to the Special Defense of all  Rock-Type Pokémon in the field.</li>
+<li>Moves that become Complete Heal with Sunny weather will only restore 1 HP instead.</li>
+</ul>
+</div>
+<div class="Frame">
+<h4 id="div-classicon-weather-windstrong-winds-weatherdiv"><div class='icon weather wind'>Strong Winds Weather</div></h4>
+<p>Strong wind currents lift and swirl everything in the air, from a tiny pebble to a giant truck. You are either being swept around or falling straight to the floor at a great speed.</p>
+<ul>
+<li>All Flying-Type moves have 1 Extra Die to their Damage Pools.</li>
+<li>Electric, Ice and Rock Type Moves deal neutral damage to Flying-Type Pokémon.</li>
+<li>Entry Hazards (Spikes, etc.), Barriers (Light Screen etc.), and Block Fail to activate.</li>
+<li>Sunny, Rain, Sandstorm and Hail Weather conditions fail to activate through any means.</li>
+</ul>
+</div>
+<div class="Frame">
+<h4 id="div-classicon-weather-hailhail-weatherdiv"><div class='icon weather hail'>Hail Weather</div></h4>
+<p>Heavy ice shards are falling from the sky. It’s cold, it’s snowy and one of those ice pieces may fall right in your head.</p>
+<ul>
+<li>Deal 1 damage to all non Ice-Type Pokémon in the field at the end of the round.</li>
+<li>Increase 1 Point to the Defense of all Ice Pokémon in the field.</li>
+<li>Moves that become Complete Heal with Sunny weather will only restore 1 HP instead.</li>
+</ul>
+</div>
+<hr />
+<h3 id="enviromental-challenges-optional">Enviromental Challenges (Optional)</h3>
+<p>You can add an extra layer of challenge into your battles if you take the environment into account.<br />
+Official League Tournaments give each match one or two added challenges in the arenas.</p>
+<p>In here we give you some examples of enviromental challenges you can use:</p>
+<table>
+<tr>
+  <td><b>Fog/Darkness</b><br/>(Reduced Visibility) </td>
+  <td align="left">All Pokémon in get extra Reduced Accuracy on all their moves.<br/>
+      {@icon frame|accuracy|命中|down|1}</td></tr>
+<tr>
+  <td><b>Muddy</b><br/>(Difficult Terrain) </td>
+  <td align="left">All Pokémon have their mobility reduced to half. <br/>
+      Pokémon can't get out of Range. </td></tr>
+<tr>
+  <td><b>On Fire!</b><br/>(Dangerous Hazards) </td>
+  <td align="left">At the end of each Round, Roll 3 Chance Dice to Burn everyone in the field. <br/>
+      If already Burned, roll to increase the Burn level. </td></tr>
+<tr>
+  <td><b>Electric Poles</b><br/>(Type-Boosting Elements) </td>
+  <td align="left">All Pokémon will add 1 Die to the damage pools of Electric-Type moves.<br/>
+      Pokémon don't need to Recharge. </td></tr>
+</table>
+<p>Feel free to create your own.</p>
+
   </article>
 </div>
       
@@ -2376,7 +2541,26 @@
         <div class="toc">
   <h6 class="toc__label">內容目錄</h6>
   <div class="toc__body">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#weather-conditions--scenario">Weather Conditions &amp; Scenario</a>
+      <ul>
+        <li><a href="#weather-conditions-detail">Weather Conditions Detail</a>
+          <ul>
+            <li><a href="#div-classicon-weather-sunsunny-weatherdiv"><div class='icon weather sun'>Sunny Weather</div></a></li>
+            <li><a href="#div-classicon-weather-sun2harsh-sunlight-weatherdiv"><div class='icon weather sun2'>Harsh Sunlight Weather</div></a></li>
+            <li><a href="#div-classicon-weather-rainrain-weatherdiv"><div class='icon weather rain'>Rain Weather</div></a></li>
+            <li><a href="#div-classicon-weather-rain2typhoon-weatherdiv"><div class='icon weather rain2'>Typhoon Weather</div></a></li>
+            <li><a href="#div-classicon-weather-sandsandstorm-weatherdiv"><div class='icon weather sand'>Sandstorm Weather</div></a></li>
+            <li><a href="#div-classicon-weather-windstrong-winds-weatherdiv"><div class='icon weather wind'>Strong Winds Weather</div></a></li>
+            <li><a href="#div-classicon-weather-hailhail-weatherdiv"><div class='icon weather hail'>Hail Weather</div></a></li>
+          </ul>
+        </li>
+        <li><a href="#enviromental-challenges-optional">Enviromental Challenges (Optional)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </div>
       

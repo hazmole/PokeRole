@@ -10,7 +10,7 @@
   
   
     
-    <script defer src="/PokeRole/js/customBuilder.min.ab0649aa8d545e37bdc10e1076a70b7ad2b16c12dd345830354e20e25bc64af0.js"></script>
+    <script defer src="/PokeRole/js/customBuilder.min.c3a3564808014516a384d0dac56a9f8678a46c9f609d49aa22207057c85e5928.js"></script>
   
 
 
@@ -394,7 +394,12 @@
     }
     setNavbarBG(lastScrollTop);
 
-    window.onscroll = function () {
+    window.onscroll = onScrollFunc;
+    function onScrollFunc(isRefresh) {
+      if(isRefresh){
+        singleContentsElem = document.querySelector('.single__contents');
+      }
+
       var st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop) { 
         singleContentsElem ? 
@@ -2419,14 +2424,14 @@ Or you can make a big Pokémon use it to cover yourself!
 <div class="box example"><p>Take a look at this example:</p>
 <hr />
 <p>Pikachu is trying to attack its foe Stunky with the move Thunder. Which has an Accuracy of -2: <br />
-{@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|2} Move Accuracy<br />
-<strong>Roll Results</strong>: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|3} (-2 Successes)</p>
+{@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|2} Move Accuracy</p>
+<p><strong>Roll Results</strong>: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|3} (-2 Successes)</p>
 <hr />
 <p>The roll fails. A Thunder stroke in the arena but it did not hit the target.</p>
 <p>On  Stunky’s  turn  he  uses  the  move  Smokescreen reducing Pikachu’s Accuracy by 1.<br />
 In  the  next  Round,  Pikachu’s  Accuracy  Roll  for Thunder would be:</p>
-<p>{@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|3} Move Accuracy<br />
-<strong>Roll Results</strong>: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|6|fail}{@icon rdice|s|4|fail}{@icon rdice|s|2} (-3 Successes)</p>
+<p>{@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|3} Move Accuracy</p>
+<p><strong>Roll Results</strong>: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|6|fail}{@icon rdice|s|4|fail}{@icon rdice|s|2} (-3 Successes)</p>
 <hr />
 <p>Pikachu would have to train its skills to get better at controlling this kind of attacks.</p>
 </div>
@@ -2513,10 +2518,110 @@ And Low Priority, in which the Pokémon will use its move but it will take effec
 <p>Low Priority is the opposite, it will take effect at the End of the Round, it may look like the foe is holding their action while in reality, it is just about to strike.</p>
 <hr />
 <h3 id="-healing-in-battle">⬛ Healing In-Battle</h3>
+<p>There are three ways to heal a character in-battle:</p>
+<ul>
+<li>By applying healing items, such as Spray Potions or medicine on them. <strong>One Potion unit heals 1 damage, two units heal 1 lethal damage.</strong></li>
+<li>By using a held item such as a Berry.</li>
+<li>By using moves that restore your health. <strong>These moves may require the user to spend 1 Will Point to get the benefits.</strong></li>
+</ul>
+<p>Humans cannot use healing moves but can have Pokémon use some of their moves on them, they also can’t have a held item but they are free to use a berry or medicine and apply it on themselves or their Pokémon.<br />
+Now, while the healing in this world can be miraculously fast, a 10-second Round is too-short a time to make a full recovery from some wounds.</p>
+<div class="box highlight"><p style="font-size: 1.2em;">When you are in battle, potions, berries and Moves can only heal a <u>maximum of 3 HP per round.</u></p>
+<p>Complete Heal, Max Potion, and Full Restore are the only things able to heal more.</p>
+</div>
+<p>Some Pokémon are able to learn moves that restore health. They are identified with this icons:</p>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon heal|l}</div>
+  <div class="iconDesc-item">
+    <b>Basic Heal </b><br/>
+     Heal regular damage equal to 3 HP.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon c_heal|l}</div>
+  <div class="iconDesc-item">
+    <b>Complete Heal </b><br/>
+     Heal regular and Lethal damage equal to 5 HP.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon frame|heal|治療|heal|2}</div>
+  <div class="iconDesc-item">
+    <b>Fixed Heal </b><br/>
+     For example: Heal up to 2 Damage.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon frame|heal|治療|c_heal|2}</div>
+  <div class="iconDesc-item">
+    <b>Fixed Complete Heal </b><br/>
+     For example: Heal up to 2 Lethal Damage.
+  </div>
+</div>
+<p>If your Pokémon makes the Accuracy roll to activate a move labeled with any of these icons and succeeds, <strong>you need to spend 1 Will Point in order to get their benefits</strong>. If the Accuracy roll fails you don’t need to spend the Will Point.</p>
+
+<div class="notices trainer" data-title="訓練家小技巧">
+
+
+  Healing Moves are not infinite, Your Pokemon’s Will score can run out before recovering all of its HP.<br />
+Always carry Potions!
+</div>
+<p>You can only heal 3 HP per round when using Potions and most healing moves, but moves identified with this icon.</p>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon c_heal|l}</div>
+  <div class="iconDesc-item">
+    <b>Complete Heal </b><br/>
+     Are able to heal up to 5 HP per round.
+  </div>
+</div>
+<p>Once you reach the healing limit or the Subject restores its full HP, the recovery stops and any remaining points will be lost.<br />
+Take this example:</p>
+<div class="box example"><p>Your Meganium is fighting a wild Pokémon and you order it to use the move <strong>Grassy Terrain</strong>.</p>
+<p>One of the effects of Grassy Terrain is this:</p>
+<p>{@icon frame|heal|治療|heal|1}<br />
+<strong>For the next 4 Rounds, User and Allies on the ground Restore 1 HP at the End of the Round.</strong></p>
+<p>The battle continues and Meganium receives a brutal strike, it has 2 HP remaining from its total HP of 9. It needs healing ASAP. You run to its aid with a Potion in hand and apply 3 units of Potion that will restore 3 HP to Meganium. However, the HP healed from Grassy Terrain won’t take effect this round and won’t carry on to the next one.</p>
+<p>A couple of rounds pass and someone activated Sunny Weather in the field, Meganium has 5 HP so you order it to use the move Synthesis, one of its effects being:</p>
+<p>{@icon c_heal|l}<br />
+<strong>If Sunny Weather is in effect this Move becomes a Complete Heal.</strong></p>
+<p>This means it would recover 5 HP, but Meganium’s only has taken 4 damage, So it heals 4 HP and the remaining point is lost.</p>
+</div>
 <hr />
 <h3 id="-shield-moves">⬛ Shield Moves</h3>
+<p>There are some moves labeled with this icon:<br />
+{@icon shield|l}</p>
+<p>Their effects may differ from one another but they all have one thing in common, they are actions that involve using a shield against an incoming attack.<br />
+Unlike evading, Pokémon using these moves receive the attacks head-on with certainty that they’ll come out practically unscathed. <strong>Shield Moves can reduce damage to zero.</strong></p>
+<p>There’s a catch, though. You can <strong>only use one shield move per round, and if you use one the next round as well you&rsquo;ll get an Extra -2 Reduced Accuracy to their accuracy roll</strong>, increasing the chances of failure for every shield move you use each round. <strong>If you do not use a shield move for a whole round this effect resets.</strong></p>
+<div class="box example"><p>For every Shield Move you use round after round, you’ll be adding an extra reduced Accuracy.<br />
+That means:</p>
+<p><strong>Shield Move on Round 1</strong><br />
+{@icon shield|l}</p>
+<p><strong>Shield Move on Round 2</strong><br />
+{@icon shield|l} + {@icon frame|accuracy|命中|down|2}</p>
+<p><strong>Shield Move on Round 3</strong><br />
+{@icon shield|l} + {@icon frame|accuracy|命中|down|4}</p>
+<p>And so on if you keep using them uninterruptedly.</p>
+</div>
 <hr />
 <h3 id="-successive-actions">⬛ Successive Actions</h3>
+<p>Multiple Actions are handled per round. But some moves have the special property of unleashing all actions at once, these are called “Succesive Actions”</p>
+<p>Moves marked with this symbols:<br />
+{@icon d_act|l} {@icon s_act|l}</p>
+<p>Mean that you can unleash from 2 to 5 multiple actions in a single attack!</p>
+<div class="box example"><p>Meowth will use the move Fury Swipes, which is a Successive Action move.</p>
+<p>For it’s Accuracy roll, Meowth will roll following the Multiple Actions rule for successes, only this time the actions called will be released all at once. Trainer calls for 2 multiple actions to be used on Fury Swipes:</p>
+<hr />
+<p><strong>Meowth’s first Swipe:</strong><br />
+{@icon dice|l|5}Meowth’s Dice Pool, with {@icon frame|accuracy|命中|down|1} Move Accuracy</p>
+<p><strong>Roll Results</strong>: {@icon rdice|s|2}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|5}{@icon rdice|s|1} (1 Required Successes)</p>
+<hr />
+<p><strong>Meowth’s second Swipe:</strong><br />
+{@icon dice|l|5}Meowth’s Dice Pool, with {@icon frame|accuracy|命中|down|1} Move Accuracy</p>
+<p><strong>Roll Results</strong>: {@icon rdice|s|3}{@icon rdice|s|1}{@icon rdice|s|4}{@icon rdice|s|5}{@icon rdice|s|5|fail} (2 Required Successes)</p>
+<hr />
+<p>All of this means that Meowth performed two attacks in a single turn, and if its Dice pool grows with some training, Meowth will be capable of making up to 5 attacks in a single Turn!</p>
+</div>
 
   </article>
 </div>

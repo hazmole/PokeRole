@@ -110,6 +110,7 @@ Take a look at this example:
 ---
 Pikachu is trying to attack its foe Stunky with the move Thunder. Which has an Accuracy of -2: 
 {@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|2} Move Accuracy
+
 **Roll Results**: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|3} (-2 Successes)
 
 ---
@@ -119,6 +120,7 @@ On  Stunky’s  turn  he  uses  the  move  Smokescreen reducing Pikachu’s Accu
 In  the  next  Round,  Pikachu’s  Accuracy  Roll  for Thunder would be:
 
 {@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|3} Move Accuracy
+
 **Roll Results**: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|6|fail}{@icon rdice|s|4|fail}{@icon rdice|s|2} (-3 Successes)
 
 ---
@@ -251,15 +253,141 @@ Low Priority is the opposite, it will take effect at the End of the Round, it ma
 
 ---
 ### ⬛ Healing In-Battle
+There are three ways to heal a character in-battle:
+* By applying healing items, such as Spray Potions or medicine on them. **One Potion unit heals 1 damage, two units heal 1 lethal damage.**
+* By using a held item such as a Berry.
+* By using moves that restore your health. **These moves may require the user to spend 1 Will Point to get the benefits.**
 
+Humans cannot use healing moves but can have Pokémon use some of their moves on them, they also can’t have a held item but they are free to use a berry or medicine and apply it on themselves or their Pokémon.
+Now, while the healing in this world can be miraculously fast, a 10-second Round is too-short a time to make a full recovery from some wounds.
+
+{{< highlight >}}
+<p style="font-size: 1.2em;">When you are in battle, potions, berries and Moves can only heal a <u>maximum of 3 HP per round.</u></p>
+
+Complete Heal, Max Potion, and Full Restore are the only things able to heal more.
+{{< /highlight >}}
+
+Some Pokémon are able to learn moves that restore health. They are identified with this icons:
+
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon heal|l}</div>
+  <div class="iconDesc-item">
+    <b>Basic Heal </b><br/>
+     Heal regular damage equal to 3 HP.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon c_heal|l}</div>
+  <div class="iconDesc-item">
+    <b>Complete Heal </b><br/>
+     Heal regular and Lethal damage equal to 5 HP.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon frame|heal|治療|heal|2}</div>
+  <div class="iconDesc-item">
+    <b>Fixed Heal </b><br/>
+     For example: Heal up to 2 Damage.
+  </div>
+</div>
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon frame|heal|治療|c_heal|2}</div>
+  <div class="iconDesc-item">
+    <b>Fixed Complete Heal </b><br/>
+     For example: Heal up to 2 Lethal Damage.
+  </div>
+</div>
+
+If your Pokémon makes the Accuracy roll to activate a move labeled with any of these icons and succeeds, **you need to spend 1 Will Point in order to get their benefits**. If the Accuracy roll fails you don’t need to spend the Will Point.
+
+{{< mynotice trainer >}}
+Healing Moves are not infinite, Your Pokemon’s Will score can run out before recovering all of its HP.
+Always carry Potions!
+{{< /mynotice >}}
+
+You can only heal 3 HP per round when using Potions and most healing moves, but moves identified with this icon.
+
+<div class="iconDesc-container">
+  <div class="iconDesc-item">{@icon c_heal|l}</div>
+  <div class="iconDesc-item">
+    <b>Complete Heal </b><br/>
+     Are able to heal up to 5 HP per round.
+  </div>
+</div>
+
+Once you reach the healing limit or the Subject restores its full HP, the recovery stops and any remaining points will be lost.
+Take this example:
+
+{{< example >}}
+Your Meganium is fighting a wild Pokémon and you order it to use the move **Grassy Terrain**.
+
+One of the effects of Grassy Terrain is this:
+
+{@icon frame|heal|治療|heal|1}
+**For the next 4 Rounds, User and Allies on the ground Restore 1 HP at the End of the Round.**
+
+The battle continues and Meganium receives a brutal strike, it has 2 HP remaining from its total HP of 9. It needs healing ASAP. You run to its aid with a Potion in hand and apply 3 units of Potion that will restore 3 HP to Meganium. However, the HP healed from Grassy Terrain won’t take effect this round and won’t carry on to the next one.
+
+A couple of rounds pass and someone activated Sunny Weather in the field, Meganium has 5 HP so you order it to use the move Synthesis, one of its effects being:
+
+{@icon c_heal|l}
+**If Sunny Weather is in effect this Move becomes a Complete Heal.**
+
+This means it would recover 5 HP, but Meganium’s only has taken 4 damage, So it heals 4 HP and the remaining point is lost.
+{{< /example >}}
 
 ---
 ### ⬛ Shield Moves
+There are some moves labeled with this icon:
+{@icon shield|l}
 
+Their effects may differ from one another but they all have one thing in common, they are actions that involve using a shield against an incoming attack.
+Unlike evading, Pokémon using these moves receive the attacks head-on with certainty that they’ll come out practically unscathed. **Shield Moves can reduce damage to zero.**
+
+There’s a catch, though. You can **only use one shield move per round, and if you use one the next round as well you'll get an Extra -2 Reduced Accuracy to their accuracy roll**, increasing the chances of failure for every shield move you use each round. **If you do not use a shield move for a whole round this effect resets.**
+
+{{< example >}}
+For every Shield Move you use round after round, you’ll be adding an extra reduced Accuracy.
+That means:
+
+**Shield Move on Round 1**
+{@icon shield|l}
+
+**Shield Move on Round 2**
+{@icon shield|l} + {@icon frame|accuracy|命中|down|2}
+
+**Shield Move on Round 3**
+{@icon shield|l} + {@icon frame|accuracy|命中|down|4}
+
+And so on if you keep using them uninterruptedly.
+{{< /example >}}
 
 ---
 ### ⬛ Successive Actions
+Multiple Actions are handled per round. But some moves have the special property of unleashing all actions at once, these are called “Succesive Actions”
 
+Moves marked with this symbols:
+{@icon d_act|l} {@icon s_act|l}
 
+Mean that you can unleash from 2 to 5 multiple actions in a single attack!
 
+{{< example >}}
+Meowth will use the move Fury Swipes, which is a Successive Action move.
 
+For it’s Accuracy roll, Meowth will roll following the Multiple Actions rule for successes, only this time the actions called will be released all at once. Trainer calls for 2 multiple actions to be used on Fury Swipes:
+
+---
+**Meowth’s first Swipe:**
+{@icon dice|l|5}Meowth’s Dice Pool, with {@icon frame|accuracy|命中|down|1} Move Accuracy
+
+**Roll Results**: {@icon rdice|s|2}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|5}{@icon rdice|s|1} (1 Required Successes)
+
+---
+**Meowth’s second Swipe:**
+{@icon dice|l|5}Meowth’s Dice Pool, with {@icon frame|accuracy|命中|down|1} Move Accuracy
+
+**Roll Results**: {@icon rdice|s|3}{@icon rdice|s|1}{@icon rdice|s|4}{@icon rdice|s|5}{@icon rdice|s|5|fail} (2 Required Successes)
+
+---
+All of this means that Meowth performed two attacks in a single turn, and if its Dice pool grows with some training, Meowth will be capable of making up to 5 attacks in a single Turn!
+{{< /example >}}

@@ -179,14 +179,14 @@ td:not([align]), th:not([align]) {
 }
 
 
-/* Nature */
-.Nature {
+/* Nature | Frame */
+.Nature, .Frame {
     border-radius: .5rem;
     border: 2px solid #9e3434;
     margin: 1em;
     padding: .5em;
 }
-.Nature h4 {
+.Nature h4, .Frame h4 {
     margin: 0em;
     padding: 0em;
 }
@@ -197,8 +197,12 @@ td:not([align]), th:not([align]) {
     text-align: right;
     text-decoration: underline;
 }
-.Nature .description {
+.Nature .description, .Frame .description {
     font-style: italic;
+    text-decoration: underline;
+}
+.Frame .title {
+    font-weight: bold;
     text-decoration: underline;
 }
 
@@ -212,10 +216,10 @@ td:not([align]), th:not([align]) {
     height: 1.15em;
     width: 1em;
     content: '';
-    margin: 0em -1em -1.1em -1.1em;
+    margin: 0em -1em -1.1em -1.2em;
 }
 .icon {
-    margin-left: 1em;
+    margin-left: 1.1em;
 }
 .icon.Starter::before { background-image: url('../images/icons/rank-starter.png'); }
 .icon.Beginner::before { background-image: url('../images/icons/rank-beginner.png'); }
@@ -224,6 +228,8 @@ td:not([align]), th:not([align]) {
 .icon.Pro::before { background-image: url('../images/icons/rank-pro.png'); }
 .icon.Master::before { background-image: url('../images/icons/rank-master.png'); }
 .icon.Champion::before { background-image: url('../images/icons/rank-champion.png'); }
+
+
 
 /* Tag Icon */
 tag {
@@ -244,6 +250,18 @@ tag.unknown { background-image: url('../images/icons/unknown.png'); }
 tag.NoviceMark { background-image: url('../images/icons/novice.png'); }
 tag.lethalDamage { background-image: url('../images/icons/lethalDamage.png'); }
 tag.highCrit { background-image: url('../images/icons/highCrit.png'); }
+tag.basicHeal { background-image: url('../images/icons/basicHeal.png'); }
+tag.compHeal { background-image: url('../images/icons/completeHeal.png'); }
+tag.shield { background-image: url('../images/icons/shield.png'); }
+tag.doubleAct { background-image: url('../images/icons/doubleAction.png'); }
+tag.SuccessiveAct { background-image: url('../images/icons/successiveAction.png'); }
+tag.weather.sun, .icon.weather.sun::before { background-image: url('../images/icons/weather_sun.png'); }
+tag.weather.sun2, .icon.weather.sun2::before { background-image: url('../images/icons/weather_sun2.png'); }
+tag.weather.rain, .icon.weather.rain::before { background-image: url('../images/icons/weather_rain.png'); }
+tag.weather.rain2, .icon.weather.rain2::before { background-image: url('../images/icons/weather_rain2.png'); }
+tag.weather.sand, .icon.weather.sand::before { background-image: url('../images/icons/weather_sand.png'); }
+tag.weather.wind, .icon.weather.wind::before { background-image: url('../images/icons/weather_wind.png'); }
+tag.weather.hail, .icon.weather.hail::before { background-image: url('../images/icons/weather_hail.png'); }
 tag.dice { background-image: url('../images/icons/dice.png'); background-color: #eee; }
 tag.dice b {
     position: absolute;
@@ -275,6 +293,7 @@ iconFrame {
 iconFrame.target { background-color: #ff2424; }
 iconFrame.self { background-color: #20b1ff; }
 iconFrame.priority { background-color: #8aca83; }
+iconFrame.heal { background-color: #f8aba6; }
 iconFrame.paralysis { background-color: #d4c53e; }
 iconFrame.burn1 { background-color: #ff7f1a; }
 iconFrame.burn2 { background-color: #cc0500; }
@@ -315,6 +334,15 @@ iconFrame.accuracy .frameContent { background-color: #e02a2a; }
     color: #e02a2a;
     position: absolute; top: -.3rem; left: .9rem;
 }
+.frameContent .heal {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    position: absolute; top: 0rem; left: .4rem; width: 2.1rem;
+    background-image: url('../images/icons/heart.svg');
+    background-size: 100%;
+}
+.frameContent .heal.comp { background-image: url('../images/icons/heart2.svg'); }
+
 .frameContent .number{
     font-size: 1.5rem;
     font-weight: bolder;
@@ -337,7 +365,21 @@ iconFrame.target .number{ color: #ff2424; }
 iconFrame.self .number{ color: #20b1ff; }
 iconFrame.priority .number{ color: #8aca83; }
 iconFrame.accuracy .number{ color: #fff; }
+iconFrame.heal .heal{ color: #fff; }
 
+
+.iconDesc-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+.iconDesc-item {
+    flex-shrink: 1;
+    margin: .2em;
+    align-items: flex-end;
+}
 
 
 /* Pokemon Type */

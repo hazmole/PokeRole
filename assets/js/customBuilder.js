@@ -2,6 +2,7 @@ function parseIcon(){
   var article = document.getElementById("list-main");
   if(!article) return;
 
+  var hasIcon = false;
   var raw_icon;
   while((raw_icon = article.innerHTML.match(/{@icon ([^\}]+)}/)) != null){
     var originText = raw_icon[0];
@@ -10,7 +11,9 @@ function parseIcon(){
     var iconHtml = getIconHTML(tagArr);
 
     article.innerHTML = article.innerHTML.replace(originText, iconHtml);
+    hasIcon = true;
   }
+  if(hasIcon) window.onscroll(true);
 
   //====================
   function getIconHTML( tagArr ){
@@ -18,9 +21,16 @@ function parseIcon(){
     var icon_size = getSizeClass(tagArr[1]);
 
     switch(icon_type){
+      case "novice": return getHTML_normalIcon("NoviceMark", icon_size);
       case "lethal": return getHTML_normalIcon("lethalDamage", icon_size);
       case "crit":   return getHTML_normalIcon("highCrit", icon_size);
-      case "novice": return getHTML_normalIcon("NoviceMark", icon_size);
+      case "heal":   return getHTML_normalIcon("basicHeal", icon_size);
+      case "c_heal":   return getHTML_normalIcon("compHeal", icon_size);
+      case "shield":   return getHTML_normalIcon("shield", icon_size);
+      case "d_act":  return getHTML_normalIcon("doubleAct", icon_size);
+      case "s_act":  return getHTML_normalIcon("SuccessiveAct", icon_size);
+      case "weather":  return getHTML_normalIcon("weather "+tagArr[2], icon_size);
+
       case "dice":   return getHTML_diceIcon(icon_size, tagArr[2]);
       case "rdice":  return getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
       case "frame":  return getHTML_frame(tagArr.slice(1));
@@ -84,6 +94,8 @@ function parseIcon(){
       switch(content_type){
         case "always": return `<span class="always"></span>`;
         case "never":  return `<span class="never"></span>`;
+        case "heal":   return `<span class="heal">${content_data}</span>`;
+        case "c_heal": return `<span class="heal comp">${content_data}</span>`;
         case "number":
         case "up":
         case "down":
@@ -91,7 +103,7 @@ function parseIcon(){
         case "minus":
           return `<span class="number">${prefix}${content_data}</span>`;
         default:
-          return "?";
+          return "";
       }
     }
   }
