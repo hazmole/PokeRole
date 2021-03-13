@@ -143,7 +143,8 @@ Your Nature will show what’s inside your mind and that will reflect on the ext
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid>
-        <description></description>
+        <description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
+But Pokémon that live in the wild can be either Pokémon turned feral after being abandoned or Pokémon that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.</description>
       </item>
       
       <item>
@@ -152,7 +153,8 @@ Your Nature will show what’s inside your mind and that will reflect on the ext
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/training-pokemon/</guid>
-        <description></description>
+        <description>Training Pokemon Training Sessions Pokémon training is probably the most fundamental aspect of becoming stronger.
+A training session usually takes 2 hours of your day within the game. During this time you work with your Pokémon, you try to understand their ways, their motives, their strengths and weaknesses. Before attempting to teach them something new, you have to bond with them, especially if they are newly caught. This way you can raise their Loyalty and Happiness.</description>
       </item>
       
       <item>
@@ -170,15 +172,18 @@ Your Nature will show what’s inside your mind and that will reflect on the ext
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokedex/</guid>
-        <description></description>
+        <description>Pokedex There are almost a thousand known species of Pokémon in the world, some better known than others.
+In this section of the book you’ll find all the information available about most of them.
+To create and train your Pokémon you’ll need to check its Pokédex entry, Ability and Moves in the Pokémon Abilities and Pokémon Moves sections of this book.
+Now, this might seem like a lot of information to take in.</description>
       </item>
       
       <item>
         <title>寶可夢招式</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-move/</link>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-move/</guid>
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/</guid>
         <description></description>
       </item>
       

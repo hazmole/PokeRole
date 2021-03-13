@@ -2,10 +2,11 @@
 title = "圖示範例"
 weight = 100
 description = ""
-draft=false
+draft=true
 +++
 
 {@icon dice|s|3} {@icon dice|m|4} {@icon dice|l|5} 測試文字
+{@icon rdice|s|1} {@icon rdice|s|2} {@icon rdice|s|3} {@icon rdice|s|4} {@icon rdice|s|5}
 
 ---
 
@@ -17,3 +18,4 @@ draft=false
 ---
 
 {@icon novice|l} {@icon lethal|l} {@icon crit|l} {@icon shield|l}
+

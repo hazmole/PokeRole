@@ -22,14 +22,21 @@ function parseIcon(){
 
     switch(icon_type){
       case "novice": return getHTML_normalIcon("NoviceMark", icon_size);
-      case "lethal": return getHTML_normalIcon("lethalDamage", icon_size);
-      case "crit":   return getHTML_normalIcon("highCrit", icon_size);
+      case "lethal": return getHTML_normalIcon("effect lethal", icon_size);
+      case "crit":   return getHTML_normalIcon("effect crit", icon_size);
+      case "shield":   return getHTML_normalIcon("effect shield", icon_size);
+      case "d_act":  return getHTML_normalIcon("effect sact_2", icon_size);
+      case "s_act":  return getHTML_normalIcon("effect sact_5", icon_size);
+
       case "heal":   return getHTML_normalIcon("basicHeal", icon_size);
       case "c_heal":   return getHTML_normalIcon("compHeal", icon_size);
-      case "shield":   return getHTML_normalIcon("shield", icon_size);
-      case "d_act":  return getHTML_normalIcon("doubleAct", icon_size);
-      case "s_act":  return getHTML_normalIcon("SuccessiveAct", icon_size);
-      case "weather":  return getHTML_normalIcon("weather "+tagArr[2], icon_size);
+
+      case "weather":
+      case "ball":
+      case "moveType":
+      case "target":
+      case "effect":
+        return getHTML_normalIcon(icon_type+" "+tagArr[2], icon_size);
 
       case "dice":   return getHTML_diceIcon(icon_size, tagArr[2]);
       case "rdice":  return getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
@@ -55,7 +62,7 @@ function parseIcon(){
       case 5: diceClass="five"; break;
       case 6: diceClass="six"; break;
     }
-    if(parseInt(number)>=4) extraClass+=" success";
+    if(parseInt(number)>=4 && extraClass!="normal") extraClass+=" success";
     return `<tag class="rdice ${iconSize} ${diceClass} ${extraClass}"></tag>`;
   }
   function getHTML_frame(arguments){

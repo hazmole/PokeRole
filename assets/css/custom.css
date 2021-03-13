@@ -96,17 +96,18 @@ td:not([align]), th:not([align]) {
     margin-top: 0rem;
 }
 .theme__dark .single__contents .box h2 {
-    color: #dccfaa;
     text-align: center;
     margin-top: 0px;
     margin-bottom: .3em;
 }
 .theme__dark .single__contents .box h3 {
-    color: #dccfaa;
     margin-top: .5em;
     margin-bottom: .2em;
     font-size: 1.3rem;
 }
+.theme__dark .box h2, .theme__dark .box h3, .theme__dark .box h4, .theme__dark .box h5 {
+    color: #dccfaa;
+} 
 .theme__dark #list-main .box p {
     margin-bottom: 1em;
 }
@@ -209,167 +210,6 @@ td:not([align]), th:not([align]) {
 }
 
 
-/* icon */
-.icon::before {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: .15em;
-    display: block;
-    height: 1.15em;
-    width: 1em;
-    content: '';
-    margin: 0em -1em -1.1em -1.2em;
-}
-.icon {
-    margin-left: 1.1em;
-}
-.icon.Starter::before { background-image: url('../images/icons/rank-starter.png'); }
-.icon.Beginner::before { background-image: url('../images/icons/rank-beginner.png'); }
-.icon.Amateur::before { background-image: url('../images/icons/rank-amateur.png'); }
-.icon.Ace::before { background-image: url('../images/icons/rank-ace.png'); }
-.icon.Pro::before { background-image: url('../images/icons/rank-pro.png'); }
-.icon.Master::before { background-image: url('../images/icons/rank-master.png'); }
-.icon.Champion::before { background-image: url('../images/icons/rank-champion.png'); }
-
-
-
-/* Tag Icon */
-tag {
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: bottom;
-    width: 2.5rem; height: 2.5rem;
-    margin: .2rem;
-    border-radius: .5rem;
-    background-size: 100%;
-    font-size: 1rem;
-    content: ""; 
-}
-tag.small { width: 2rem; height: 2rem; font-size: .8rem; }
-tag.large { width: 3.2rem; height: 3.2rem; font-size: 1.3rem; }
-
-tag.unknown { background-image: url('../images/icons/unknown.png'); }
-tag.NoviceMark { background-image: url('../images/icons/novice.png'); }
-tag.lethalDamage { background-image: url('../images/icons/lethalDamage.png'); }
-tag.highCrit { background-image: url('../images/icons/highCrit.png'); }
-tag.basicHeal { background-image: url('../images/icons/basicHeal.png'); }
-tag.compHeal { background-image: url('../images/icons/completeHeal.png'); }
-tag.shield { background-image: url('../images/icons/shield.png'); }
-tag.doubleAct { background-image: url('../images/icons/doubleAction.png'); }
-tag.SuccessiveAct { background-image: url('../images/icons/successiveAction.png'); }
-tag.weather.sun, .icon.weather.sun::before { background-image: url('../images/icons/weather_sun.png'); }
-tag.weather.sun2, .icon.weather.sun2::before { background-image: url('../images/icons/weather_sun2.png'); }
-tag.weather.rain, .icon.weather.rain::before { background-image: url('../images/icons/weather_rain.png'); }
-tag.weather.rain2, .icon.weather.rain2::before { background-image: url('../images/icons/weather_rain2.png'); }
-tag.weather.sand, .icon.weather.sand::before { background-image: url('../images/icons/weather_sand.png'); }
-tag.weather.wind, .icon.weather.wind::before { background-image: url('../images/icons/weather_wind.png'); }
-tag.weather.hail, .icon.weather.hail::before { background-image: url('../images/icons/weather_hail.png'); }
-tag.dice { background-image: url('../images/icons/dice.png'); background-color: #eee; }
-tag.dice b {
-    position: absolute;
-    padding-left: 1.5em;
-    padding-top: 1em;
-    color: #fff;
-}
-tag.rdice { filter: invert(45%) sepia(20%) saturate(16%) hue-rotate(314deg) brightness(91%) contrast(88%); }
-tag.rdice.success { filter: invert(64%) sepia(73%) saturate(483%) hue-rotate(75deg) brightness(94%) contrast(88%); } //#3ad451
-tag.rdice.fail { filter: invert(25%) sepia(68%) saturate(7010%) hue-rotate(357deg) brightness(115%) contrast(134%); } //#ff0808
-tag.rdice.one { background-image: url('../images/icons/dice_1.svg'); }
-tag.rdice.two { background-image: url('../images/icons/dice_2.svg'); }
-tag.rdice.three { background-image: url('../images/icons/dice_3.svg'); }
-tag.rdice.four { background-image: url('../images/icons/dice_4.svg'); }
-tag.rdice.five { background-image: url('../images/icons/dice_5.svg'); }
-tag.rdice.six { background-image: url('../images/icons/dice_6.svg'); }
-
-iconFrame {
-    text-align: left;
-    overflow: hidden; white-space: nowrap;
-    display: inline-block;
-    vertical-align: bottom;
-    width: 3.25rem; height: 3.25rem;
-    margin: .2rem;
-    border-radius: .5rem;
-    background-color: black;
-    font-size: 1rem;
-}
-iconFrame.target { background-color: #ff2424; }
-iconFrame.self { background-color: #20b1ff; }
-iconFrame.priority { background-color: #8aca83; }
-iconFrame.heal { background-color: #f8aba6; }
-iconFrame.paralysis { background-color: #d4c53e; }
-iconFrame.burn1 { background-color: #ff7f1a; }
-iconFrame.burn2 { background-color: #cc0500; }
-iconFrame.burn3 { background-color: #960703; }
-iconFrame.sleep { background-color: #a7ab99; }
-iconFrame.poison { background-color: #a574af; }
-iconFrame.poison2 { background-color: #672b73; }
-iconFrame.frozen { background-color: #86e0de; }
-iconFrame.flinch { background-color: #6d6d6d; }
-iconFrame.love { background-color: #f54e78; }
-iconFrame.confuse { background-color: #1cb579; }
-
-iconFrame .frameTitle {
-    position: absolute;
-    width: 3.25rem;
-    margin-top: -.1rem;
-    text-align: center; font-size: .8rem; color: #fff;
-}
-iconFrame .frameContent {
-    position: absolute;
-    background-color: #fff;
-    width: 2.9rem; height: 2rem;
-    border-radius: .5rem;
-    margin: 1.1rem .175rem;
-    text-align: center;
-    
-}
-iconFrame.accuracy .frameContent { background-color: #e02a2a; }
-.frameContent .always::before {
-    content: "✔";
-    font-size: 1.5rem;
-    color: #4cbb4c;
-    position: absolute; top: -.3rem; left: .9rem;
-}
-.frameContent .never::before {
-    content: "✖";
-    font-size: 1.5rem;
-    color: #e02a2a;
-    position: absolute; top: -.3rem; left: .9rem;
-}
-.frameContent .heal {
-    font-size: 1.3rem;
-    font-weight: bolder;
-    position: absolute; top: 0rem; left: .4rem; width: 2.1rem;
-    background-image: url('../images/icons/heart.svg');
-    background-size: 100%;
-}
-.frameContent .heal.comp { background-image: url('../images/icons/heart2.svg'); }
-
-.frameContent .number{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    position: absolute; top: -.3rem; left: 0rem; width: 100%;
-}
-.frameContent .number .dice{
-    background-color: transparent;
-    margin-top: -.1em;
-}
-.frameContent .number .dice b{
-    padding-left: .2em;
-}
-.frameContent prefix{
-    margin-right: .1em;
-}
-.frameContent dprefix{
-    margin-right: -.2em;
-}
-iconFrame.target .number{ color: #ff2424; }
-iconFrame.self .number{ color: #20b1ff; }
-iconFrame.priority .number{ color: #8aca83; }
-iconFrame.accuracy .number{ color: #fff; }
-iconFrame.heal .heal{ color: #fff; }
-
-
 .iconDesc-container {
     display: flex;
     flex-direction: row;
@@ -408,3 +248,6 @@ iconFrame.heal .heal{ color: #fff; }
 fill { color: red; }
 p.foot { font-size:0.6em; margin-top:-2em; text-align:right;  }
 .middle { margin:1em 1em; font-weight:bold; font-size:1.1em; text-align: center; }
+
+.quote { margin:1em 1em; padding:.5em; border: 1px solid #555; border-radius: .5em; font-style: italic; background-color:#fff; }
+.quote .author { text-align: right; text-decoration: underline; }

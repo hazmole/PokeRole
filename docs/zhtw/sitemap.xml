@@ -15,6 +15,14 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</loc>
   </url>
   
@@ -23,7 +31,15 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/PokeRole/docs/the-world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</loc>
   </url>
   
   <url>
@@ -39,11 +55,19 @@
   </url>
   
   <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</loc>
+  </url>
+  
+  <url>
     <loc>https://hazmole.github.io/PokeRole/docs/starting-the-game/</loc>
   </url>
   
   <url>
     <loc>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</loc>
   </url>
   
   <url>
@@ -107,11 +131,15 @@
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-move/</loc>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</loc>
   </url>
   
   <url>
-    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-battle/draft/</loc>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-moves/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</loc>
   </url>
   
   <url>

@@ -65,6 +65,25 @@ When creating a character, choose something that’s fun to play, allow yourself
       </item>
       
       <item>
+        <title>招式的規則</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid>
+        <description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.-GrimsleyPokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description>
+      </item>
+      
+      <item>
+        <title>華麗大賽介紹</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid>
+        <description>Pokemon Contest Pokémon Trainers usually make Pokémon Battles their main focus and it’s all right if you like that kind of crude and violent entertainment, but why would you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon Contests?
+What are Pokémon Contests? When you talk about Pokémon Contests, you talk about the most profitable show business in this world.</description>
+      </item>
+      
+      <item>
         <title>創建寶可夢</title>
         <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -85,6 +104,16 @@ Think about it as having a pet, you can ask it to follow you or to stop chewing 
 The Pokémon League tries its best to keep it as safe as possible within official matches. It’s your choice to fight, just remember why your Pokémon are doing it.
 A Pokémon battle is divided into four simple stages:
 Initiative During this stage we decide the attacking order: who goes first and who goes last.</description>
+      </item>
+      
+      <item>
+        <title>招式效果標籤</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid>
+        <description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
+Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. Category Icon {@icon moveType|l|physical}PhysicalPhysical Moves are resisted with Defense. They are close range attacks.</description>
       </item>
       
       <item>
@@ -146,6 +175,17 @@ Initiative During this stage we decide the attacking order: who goes first and w
       </item>
       
       <item>
+        <title>華麗大賽的構成</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid>
+        <description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
+The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
+The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description>
+      </item>
+      
+      <item>
         <title>傷害</title>
         <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -178,6 +218,17 @@ The scores range from 1 to 5 in humans, but some of the stronger Pokémon can ex
       </item>
       
       <item>
+        <title>華麗大賽的流程</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid>
+        <description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
+2. Performance Runway These are the main events of the Contest.
+Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description>
+      </item>
+      
+      <item>
         <title>勝利策略</title>
         <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -187,6 +238,17 @@ The scores range from 1 to 5 in humans, but some of the stronger Pokémon can ex
 How can you defeat an Onix with only the help of a tiny Pichu?
 Well, having a strategy can save the day!
 In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description>
+      </item>
+      
+      <item>
+        <title>協調訓練家等級</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid>
+        <description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
+If you dedicate yourself to winning Contests you will be able to gain Coordinator Ranks, these do not replace your Pokémon Trainer Rank but add to it.
+Think about it as a specialization to being a Pokémon Trainer.</description>
       </item>
       
       <item>
@@ -233,15 +295,6 @@ To calculate your total HP you must add the number of points you have in Vitalit
       </item>
       
       <item>
-        <title>寶可夢華麗大賽</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/</guid>
-        <description></description>
-      </item>
-      
-      <item>
         <title>幸福度與忠誠度</title>
         <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -269,7 +322,8 @@ Some of these effects will disappear in a few minutes, but others can be so seve
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid>
-        <description></description>
+        <description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
+But Pokémon that live in the wild can be either Pokémon turned feral after being abandoned or Pokémon that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.</description>
       </item>
       
       <item>
@@ -288,7 +342,8 @@ In Pokémon: The Role Playing Game all variables are represented by six-sided di
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/training-pokemon/</guid>
-        <description></description>
+        <description>Training Pokemon Training Sessions Pokémon training is probably the most fundamental aspect of becoming stronger.
+A training session usually takes 2 hours of your day within the game. During this time you work with your Pokémon, you try to understand their ways, their motives, their strengths and weaknesses. Before attempting to teach them something new, you have to bond with them, especially if they are newly caught. This way you can raise their Loyalty and Happiness.</description>
       </item>
       
       <item>
@@ -327,29 +382,31 @@ Being a Storyteller and creating a story is not as hard as anyone would think. R
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokedex/</guid>
-        <description></description>
+        <description>Pokedex There are almost a thousand known species of Pokémon in the world, some better known than others.
+In this section of the book you’ll find all the information available about most of them.
+To create and train your Pokémon you’ll need to check its Pokédex entry, Ability and Moves in the Pokémon Abilities and Pokémon Moves sections of this book.
+Now, this might seem like a lot of information to take in.</description>
       </item>
       
       <item>
-        <title>寶可夢招式</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-move/</link>
+        <title>常見問題</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-move/</guid>
-        <description></description>
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid>
+        <description>Frequently Asked Questions Can I Target an Ally with a Move that Targets a Foe? Yes, you can. Very rarely you’ll find a use to it, but sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
+Can my Pokémon Target itself with a Move that Targets an Ally or a Foe? No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit from this power.</description>
       </item>
       
       <item>
-        <title>圖示範例</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/draft/</link>
+        <title>總結</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/draft/</guid>
-        <description>{@icon dice|s|3} {@icon dice|m|4} {@icon dice|l|5} 測試文字
-{@icon frame|target|傷害|number|5} {@icon frame|self|傷害|minus|1} {@icon frame|self|傷害|plus|d2}
-{@icon frame|target|力量|down|d3} {@icon frame|priority|優先度|up|2} {@icon frame|accuracy|命中|down|2}
-{@icon frame|paralysis|麻痺|number|d5} {@icon frame|burn1|燒傷1|never} {@icon frame|burn2|燒傷2|never} {@icon frame|burn3|燒傷3|never} {@icon frame|sleep|睡眠|always} {@icon frame|poison|中毒|always} {@icon frame|poison2|劇毒|always} {@icon frame|frozen|冰凍|always} {@icon frame|flinch|畏縮|always} {@icon frame|love|著迷|always} {@icon frame|confuse|混亂|always}
-{@icon novice|l} {@icon lethal|l} {@icon crit|l} {@icon shield|l}</description>
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid>
+        <description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
+2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
+3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description>
       </item>
       
     
