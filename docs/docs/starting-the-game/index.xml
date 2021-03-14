@@ -19,9 +19,27 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</guid>
-        <description>Creating a Character In Pokémon the Role Playing Game, you must create a Pokémon Trainer also called a Character. This persona will be your avatar inside the story.
-You’ll choose a starting Pokémon too, both are very important choices, remember that your Pokémon are often a reflection of your trainer’s ersonality and aspirations.
-When creating a character, choose something that’s fun to play, allow yourself to dream, be silly and laugh at your most crazy ideas.</description>
+        <description>創建角色 在《寶可夢扮演》這個遊戲中，你必須創建一名寶可夢訓練家（稱其為你的角色），這個人物將會是你在這個故事中的分身。
+你也將挑選一個起始寶可夢，跟你的角色一樣，這個選擇也相當重要。記住，你所選擇的寶可夢通常會反映出你身為訓練家的個性與志向。
+在創建角色時，儘管挑選那些玩起來有趣的內容，讓你能夠在遊戲中放飛做夢、犯蠢、並為你那些最瘋狂的點子盡情歡笑。或許你會想成為某部卡通裡的英雄、或以你崇拜的對象做為基礎來加筆、或甚至模仿某個著名的人物。
+此外，建議選擇那些你能夠輕易表現並演出的人格個性，因為你會需要經常將它扮演出來。
+記住，創造出一個有助於故事進行，而不是去傷害故事的角色。
+⬛ 訓練家概念 所謂的訓練家，就是擁有正式寶可夢訓練執照的人，但這個事實也只不過是你角色人生的冰山一角而已。想想你的角色會從事什麼工作或職業；他或她可能會是位醫生、漁夫、學校保全、一名初出茅廬的模特兒、或任何你覺得有趣的事物。給你的訓練家一個目標，並幫助他決定適合的個人特質。
+你和其他玩家需要決定你們將創造出什麼樣的角色，而這將會需要你、你的玩伴們、以及說書人之間的共同合作，讓玩家們能夠組成一個最好的團隊。
+和你的玩伴們一起完成你們的角色，並一起努力去實現你們訓練家的目標。
+⬛ 個人特質與背景 告訴大家一些有關於你訓練家的過往。
+你的訓練家可以是任何你想要他成為的人物，充實他或她的內在。不要讓他只是一具讓你在遊戲中施展手腳的空殼，而是一個懷抱著夢想和志向，有著缺陷和弱點，活生生的人物。
+為了創造一名豐滿且有說服力的角色，你可以詢問自己下列這些問題，並以你角色的視角來回答這些問題。
+ 你的名字是什麼？ 你的年紀多大？ 你的「性格」是什麼？ （參見「性格」章節） 你的職業／角色概念是什麼？ 你對寶可夢世界有什麼樣的期望？  以及最重要的：
+你在寶可夢世界中有什麼樣的目標？ 你達成這個目標的動機是什麼？ 你會如何使這個世界變得更好？  回答這些問題能讓說書人更容易地為你的角色提供他或她所需要的挑戰。不要忘記，玩家們與說書人之間的良好溝通將能使這個故事更圓滑順暢地進行。
+玩家必須要回答完這些問題才能夠開始遊戲。 填寫訓練家角色卡 當你訓練家的角色概念準備就緒，你就可以接著分配角色的特質點數和技能點數。
+訓練家的所有特質起始皆為 1 點。
+新角色通常會以「新手」級別的青少年的身分來開始遊戲。更多關於級別的相關說明，請參照「級別」章節。
+特質 青少年有 2 點可以進行分配在特質上。
+你可能會因為你的起始級別不同而有額外可分配的點數。
+ 力量: ●●○○○ 活力: ●○○○○ 靈巧: ●●○○○ 洞察: ●○○○○  社交特質 青少年有 2 點可以進行分配在社交特質上。
+你可能會因為你的起始級別不同而有額外可分配的點數。
+ 強壯: ●○○○○ 美麗: ●●○○○ 帥氣: ●○○○○ 可愛: ●○○○○ 聰明: ●●○○○  技能 你有 5 點可以分配在技能上，新手的技能上限為 1 點。</description>
       </item>
       
       <item>
@@ -30,19 +48,37 @@ When creating a character, choose something that’s fun to play, allow yourself
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid>
-        <description>Creating a Pokémon A Pokémon will be commanded by their trainer but within the game, they won’t be controlled by a player.
-It’s part of the storyteller’s job to play and tell you how your Pokémon reacts to its surroundings or how it communicates with you.
-Think about it as having a pet, you can ask it to follow you or to stop chewing the carpet, but you are not really inside its mind.</description>
+        <description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
+扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
+把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
+儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。 大多數的寶可夢都能夠進化。若想要瞭解更多關於不同進化的觸發方式，請參照「」章節。 寶可夢並不需要有像訓練家那樣的角色概念。
+每個寶可夢都會依照牠們物種的本能、以及牠們各自的性格來行事。
+牠們往往會有著符合其物種行為的天性，但它們仍可能存在差異。
+這意味著兩個物種相同的寶可夢可能會想要同樣的東西，但牠們性格的差異會影響牠們達成目的的方式。
+如果你才剛啟程，請移往本書第88頁的寶可夢圖鑑，並尋找這個標誌：
+{@icon novice|l}
+對於新手訓練家來說，擁有這個標誌的寶可夢會是最好的入門選擇。
+ 初始寶可夢將會成為你旅途中的夥伴，因此如果能挑選與你訓練家個性相合的寶可夢會更好。
+就算沒辦法一開始就獲得你想要的寶可夢也不要絕望，這個世界相當遼闊，且收服寶可夢的過程也是在這個世界冒險的樂趣之一。
+填寫寶可夢角色卡 在填寫寶可夢角色表格時，你將會需要從寶可夢圖鑑中抄寫一些資訊。
+ 名稱＆圖鑑編號 體型和體重 屬性 起始特質 限制 1 基礎 HP 特性 招式 2 3  *1: 寶可夢的特質可以達到的最高數值。*2: 寶可夢能夠學習的招式數量最多等於: 洞察 + 2。*3: 所有寶可夢學會的招式都必須等於或低於其級別。你在遊戲開始時的初始寶可夢將擁有與你訓練家相同的級別。這將會影響牠能夠選擇的招式、以及其技能的分配方式。
+在這之後遭遇的野生寶可夢的級別可能會比你更高或更低。
+ 寶可夢角色卡 如何填寫寶可夢角色卡： 圖鑑區塊   寶可夢圖像。 寶可夢圖鑑編號。 寶可夢的物種名稱或是暱稱。 寶可夢特性。從圖鑑中挑選一個特性。  快速參照區塊  寶可夢的基礎 HP 被列在圖鑑上。每一點活力都會增加 1 點 HP。 意志點。 它的數值等同於 洞察 + 2。 持有道具 (p.</description>
       </item>
       
       <item>
-        <title>心理/物理/社交特質</title>
+        <title>心理/生理/社交特質</title>
         <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid>
-        <description>Mental and Physical Attributes Your Character will interact with the world using his Attributes and Skills, They are measured using Points within a Character Sheet, each point represents one die you can roll for that attribute should your action call for it. Attributes can be rolled on their own to perform mundane tasks or they can be combined with skills if you want to do complex and incredible feats.
-The scores range from 1 to 5 in humans, but some of the stronger Pokémon can exceed that number.</description>
+        <description>心理和生理特質 你的角色會使用他的特質和技能來與這個世界互動，它們在角色卡上將會以點數的型式呈現。當你的行動需要用到特質和技能時，其點數就代表你在判定中可以骰的骰子數量。
+特質可以被單獨拿來擲骰以進行某個單純的任務。或若你想要執行一個複雜或驚人的舉動時，它們可以結合技能一起使用。
+人類的數值範圍介於 1 至 5 之間，但是某些更強壯的寶可夢可能會超過這個數字。
+ 1 點為 貧弱 2 點為 平均 3 點為 良好 4 點為 優異 5 點為 驚人 6 點或更高為 超人類  ⬛ 力量 這個特質決定了承載重物和造成物理傷害的能力，以及肌肉的發達程度。
+●○○○○ 你是個弱雞，強風都能把你吹倒在地。 ●●○○○ 你的力量很一般，你可以再稍加鍛鍊就是了。 ●●●○○ 你能在健身房炫耀一番，你的身體能力是值得一看的。 ●●●●○ 你可以成為一名專業的健美運動員或舉重選手。 ●●●●● 你可以毫不費力地把一塊大石頭給搬開。 ●●●●●● 匹敵圈圈熊的怪力，足以撕毀一輛汽車。 ⬛ 活力 這個特質被用來決定你對疼痛和疲勞的抵抗力和耐性，它也代表著角色的健康與精力。
+每點活力都可以讓你的 HP+1，並讓你獲得 1 點防禦和特防。
+你可以使用「活力」數值當作物防，使用「洞察」數值當作特防。 記下你防禦和特防的數值，你會需要它們來抵抗物理和特殊攻擊。 ●○○○○ 你看起來很虛弱且很容易疲倦。即使只是紙張劃傷手指也會讓你流淚。 ●●○○○ 少許疼痛和痛苦不會讓你哭泣，但你仍無法忍受太多痛苦。 ●●●○○ 你可以撐過一場馬拉松、或可以連續幾天不睡覺。 ●●●●○ 你可以擔當危險動作片中的替身演員。 ●●●●● 你可以代替車禍測試中的假人。 ●●●●●● 你可以用彷彿可多拉般堅硬的胸肌和大鋼蛇般的腹肌去抵擋種子機關槍的掃射。 ⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description>
       </item>
       
       <item>

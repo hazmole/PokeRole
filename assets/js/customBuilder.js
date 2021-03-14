@@ -38,6 +38,7 @@ function parseIcon(){
       case "effect":
         return getHTML_normalIcon(icon_type+" "+tagArr[2], icon_size);
 
+      case "text":   return getHTML_text(icon_size, tagArr[2], tagArr[3]);
       case "dice":   return getHTML_diceIcon(icon_size, tagArr[2]);
       case "rdice":  return getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
       case "frame":  return getHTML_frame(tagArr.slice(1));
@@ -48,6 +49,9 @@ function parseIcon(){
   //====================
   function getHTML_normalIcon(iconClass, iconSize){
     return `<tag class="${iconClass} ${iconSize}"></tag>`;
+  }
+  function getHTML_text(iconSize, text, colorClass){
+    return `<tag class="text ${iconSize} ${colorClass}"><b>${text}</b></tag>`;
   }
   function getHTML_diceIcon(iconSize, number){
     return `<tag class="dice ${iconSize}"><b>${number}</b></tag>`;

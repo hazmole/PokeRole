@@ -66,10 +66,22 @@ tag.rdice.three { background-image: url('../images/icons/dice_3.svg'); }
 tag.rdice.four { background-image: url('../images/icons/dice_4.svg'); }
 tag.rdice.five { background-image: url('../images/icons/dice_5.svg'); }
 tag.rdice.six { background-image: url('../images/icons/dice_6.svg'); }
+tag.text {
+    position: relative;
+    background-color: #333; color: #fff;
+    padding: .6em 0;
+    line-height: 2em;
+    font-size: .5em; text-align: center;
+}
+tag.text b {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+tag.text.Psychic { background-color: #ff99c2; }
+
 
 tag.NoviceMark { background-image: url('../images/icons/novice.png'); }
-
-
 
 tag.basicHeal { background-image: url('../images/icons/heal_basic.png'); }
 tag.compHeal { background-image: url('../images/icons/heal_complete.png'); }
@@ -89,9 +101,14 @@ tag.ball.ub { background-image: url('../images/icons/ball-ub.png'); }
 tag.ball.dynamax { background-image: url('../images/icons/ball-dynamax.png'); }
 tag.ball.master { background-image: url('../images/icons/ball-master.png'); }
 
+tag.moveType {
+    width: 2.5rem; height: 2rem; border-radius: 0; background-repeat: no-repeat;
+}
 tag.moveType.physical { background-image: url('../images/icons/move_physical.png'); }
 tag.moveType.special { background-image: url('../images/icons/move_special.png'); }
 tag.moveType.support { background-image: url('../images/icons/move_support.png'); }
+tag.moveType.hybrid { background-image: url('../images/icons/move_hybrid.png'); }
+tag.moveType.all { background-image: url('../images/icons/move_all.png'); }
 
 tag.target.self { background-image: url('../images/icons/target_ally_self.png'); }
 tag.target.ally { background-image: url('../images/icons/target_ally_1.png'); }
@@ -101,6 +118,7 @@ tag.target.rfoe { background-image: url('../images/icons/target_foe_rand.png'); 
 tag.target.allfoe { background-image: url('../images/icons/target_foe_all.png'); }
 tag.target.area { background-image: url('../images/icons/target_area.png'); }
 tag.target.field { background-image: url('../images/icons/target_field.png'); }
+tag.target.hybrid { background-image: url('../images/icons/target_hybrid.png'); }
 
 tag.effect.block { background-image: url('../images/icons/effect_block.png'); }
 tag.effect.charge { background-image: url('../images/icons/effect_charge.png'); }
@@ -141,7 +159,7 @@ iconFrame.sleep { background-color: #a7ab99; }
 iconFrame.poison { background-color: #a574af; }
 iconFrame.poison2 { background-color: #672b73; }
 iconFrame.frozen { background-color: #86e0de; }
-iconFrame.flinch { background-color: #6d6d6d; }
+iconFrame.flinch { background-color: #4a537b; }
 iconFrame.love { background-color: #f54e78; }
 iconFrame.confuse { background-color: #1cb579; }
 iconFrame.disabled { background-color: #ff3600; }

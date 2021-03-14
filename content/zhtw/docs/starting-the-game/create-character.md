@@ -4,175 +4,173 @@ weight = 1
 description = "說明如何創建訓練家角色"
 +++
 
-## Creating a Character
-In Pokémon the Role Playing Game, you must create a  Pokémon Trainer also called a Character. 
-This persona will be your avatar inside the story.
-You’ll  choose  a  starting  Pokémon  too,  both  are  very important  choices,  remember  that  your  Pokémon  are  often  a  reflection  of  your  trainer’s  ersonality  and  aspirations.
+## 創建角色
+在《寶可夢扮演》這個遊戲中，你必須創建一名寶可夢訓練家（稱其為你的角色），這個人物將會是你在這個故事中的分身。
+你也將挑選一個起始寶可夢，跟你的角色一樣，這個選擇也相當重要。記住，你所選擇的寶可夢通常會反映出你身為訓練家的個性與志向。
 
-When creating a character, choose something that’s fun to play, allow yourself to dream, be silly and laugh at your most crazy ideas. 
-You may want to be a hero from a cartoon or base your identity on someone you admire or even be a parody of a famous character.
-Preferably, pick a personality that you can perform and act easily because you will be acting a lot.
- 
-Remember to build a character that can contribute to the story and not one that will harm it.
+在創建角色時，儘管挑選那些玩起來有趣的內容，讓你能夠在遊戲中放飛做夢、犯蠢、並為你那些最瘋狂的點子盡情歡笑。或許你會想成為某部卡通裡的英雄、或以你崇拜的對象做為基礎來加筆、或甚至模仿某個著名的人物。
+此外，建議選擇那些你能夠輕易表現並演出的人格個性，因為你會需要經常將它扮演出來。
+
+記住，創造出一個有助於故事進行，而不是去傷害故事的角色。 
 
 ---
 
-### ⬛ Trainer Concepts
-A Trainer is anyone who has an official license to train Pokémon, but that’s just the tip of the iceberg of your character’s life. Think of a job or an occupation for your character; he or she might be a doctor, a fisherman, a hallway monitor at school, an aspiring model or anything you find fun. Give your trainer a goal and help her find the right personality traits.
-You  and  the  other  players  will  need  to  decide  what kind  of  characters  you’d  like  to  create  and  this  will  require some teamwork between you, your playmates, and the storyteller to make a great party of players.
+### ⬛ 訓練家概念
+所謂的訓練家，就是擁有正式寶可夢訓練執照的人，但這個事實也只不過是你角色人生的冰山一角而已。想想你的角色會從事什麼工作或職業；他或她可能會是位醫生、漁夫、學校保全、一名初出茅廬的模特兒、或任何你覺得有趣的事物。給你的訓練家一個目標，並幫助他決定適合的個人特質。
 
-Complement  your  character  with  those  of  your  playmates and work together to achieve your trainer’s goals. 
+你和其他玩家需要決定你們將創造出什麼樣的角色，而這將會需要你、你的玩伴們、以及說書人之間的共同合作，讓玩家們能夠組成一個最好的團隊。
+
+和你的玩伴們一起完成你們的角色，並一起努力去實現你們訓練家的目標。
 
 
-### ⬛ Personality and Background
-Tell your storyteller and playmates a little bit about your Trainer’s past. 
- 
-Your Trainer is whatever you want it to be, flesh him/her out, this is not just an empty husk that you use to move within the game.It’s a character with dreams and aspirations, with flaws and fears. 
+### ⬛ 個人特質與背景
+告訴大家一些有關於你訓練家的過往。
 
-To make a fleshed out and believable character ask yourself  these  questions  and  voice  them  as  your character would.
+你的訓練家可以是任何你想要他成為的人物，充實他或她的內在。不要讓他只是一具讓你在遊戲中施展手腳的空殼，而是一個懷抱著夢想和志向，有著缺陷和弱點，活生生的人物。
 
-{{< boxmd >}}
-1. What’s your name? 
-2. What is your age? 
-3. What’s your Nature? 
-4. What’s your occupation/concept? 
-5. What do you expect from the world of Pokémon? 
+為了創造一名豐滿且有說服力的角色，你可以詢問自己下列這些問題，並以你角色的視角來回答這些問題。
 
-And most importantly: 
+1. 你的名字是什麼？
+2. 你的年紀多大？
+3. 你的「性格」是什麼？ （參見<a href='{{< relref path="docs/natures" >}}'>「性格」</a>章節）
+4. 你的職業／角色概念是什麼？
+5. 你對寶可夢世界有什麼樣的期望？
 
-6. What’s your goal in the world of Pokémon?
-7. What’s your motivation for that goal?
-8. How are you going to contribute to make this world better?
+<u>以及最重要的：</u>
 
-{{< /boxmd >}}
+6. 你在寶可夢世界中有什麼樣的目標？
+7. 你達成這個目標的動機是什麼？
+8. 你會如何使這個世界變得更好？
 
-Answering  those  questions  will  make  the  storyteller’s job  a  lot  easier  to  give  your  character  the  challenges he or she needs. Don’t forget that good communication  between players and storyteller will make the story flow much more smoothly for everyone.
+回答這些問題能讓說書人更容易地為你的角色提供他或她所需要的挑戰。不要忘記，玩家們與說書人之間的良好溝通將能使這個故事更圓滑順暢地進行。
 
 {{< mynotice story >}}
- A player **should not start playing** until he or she has answered these questions.
+玩家**必須**要回答完這些問題才能夠開始遊戲。
 {{< /mynotice >}}
 
 
 ---
 
-## Filling a Trainer Sheet
-Once your Trainer’s concept is ready, you may proceed to distribute their Attribute Points and their Skill Points.
-All of a Trainer's Attributes and Social Attributes begin at 1 Point.
-Newbie characters usually begin the game as Teens at Starter Rank. For more information regarding Ranks, see p. 30
-
+## 填寫訓練家角色卡
+當你訓練家的角色概念準備就緒，你就可以接著分配角色的特質點數和技能點數。
+訓練家的所有特質起始皆為 1 點。
+新角色通常會以「新手」級別的青少年的身分來開始遊戲。更多關於級別的相關說明，請參照<a href='{{< relref path="docs/starting-the-game/ranking" >}}'>「級別」</a>章節。
 
 {{< boxmd >}}
-### Attributes
-Teens  have  2  points  to  distribute.  You  **may  have  extra Points to distribute depending on your Rank.**
-* Strength: ●<fill>●</fill>○○○
-* Vitality: ●○○○○
-* Dexterity: ●<fill>●</fill>○○○
-* Insight: ●○○○○
+### 特質
+青少年有 2 點可以進行分配在特質上。
+**你可能會因為你的起始級別不同而有額外可分配的點數。**
+* 力量: ●<fill>●</fill>○○○
+* 活力: ●○○○○
+* 靈巧: ●<fill>●</fill>○○○
+* 洞察: ●○○○○
 
-### Social Attributes
-Teens have 2 points to distribute. You **may have extra Points to distribute depending on your Rank.**
-* Tough: ●○○○○
-* Beauty: ●<fill>●</fill>○○○
-* Cool: ●○○○○
-* Cute: ●○○○○
-* Clever: ●<fill>●</fill>○○○
+### 社交特質
+青少年有 2 點可以進行分配在社交特質上。
+**你可能會因為你的起始級別不同而有額外可分配的點數。**
+* 強壯: ●○○○○
+* 美麗: ●<fill>●</fill>○○○
+* 帥氣: ●○○○○
+* 可愛: ●○○○○
+* 聰明: ●<fill>●</fill>○○○
 
-### Skills
-Distribute 5 Points, Starters have a Skill Limit of 1. You **may have extra Points to distribute depending  on your Rank.**
+### 技能
+你有 5 點可以分配在技能上，新手的技能上限為 1 點。
+**你可能會因為你的起始級別不同而有額外可分配的點數。**
 
-* Brawl: ○○○○○
-* Throw: ○○○○○
-* Evasion: <fill>●</fill>○○○○
-* Weapons: ○○○○○
+* 鬥毆: ○○○○○
+* 投擲: ○○○○○
+* 閃避: <fill>●</fill>○○○○
+* 武器: ○○○○○
 <!-- -->
-* Alert: <fill>●</fill>○○○○
-* Athletic: ○○○○○
-* Nature: <fill>●</fill>○○○○
-* Stealth: ○○○○○
+* 警覺: <fill>●</fill>○○○○
+* 運動: ○○○○○
+* 自然: <fill>●</fill>○○○○
+* 隱匿: ○○○○○
 <!-- -->
-* Empathy: <fill>●</fill>○○○○
-* Etiquette: ○○○○○
-* Intimidate: ○○○○○
-* Perform: ○○○○○
+* 共感: <fill>●</fill>○○○○
+* 禮儀: ○○○○○
+* 威嚇: ○○○○○
+* 表演: ○○○○○
 <!-- -->
-* Crafts: <fill>●</fill>○○○○
-* Lore: ○○○○○
-* Medicine: ○○○○○
-* Science: ○○○○○
+* 工藝: <fill>●</fill>○○○○
+* 知識: ○○○○○
+* 醫藥: ○○○○○
+* 科學: ○○○○○
 {{< /boxmd >}}
 
 
-### ⬛ I’m not a Newbie!
-Some stories are best suited for experienced Characters who are older and better skilled at what they do.
-If you wish to play at an **older age** or **higher Rank**, you can follow these simple guidelines:
+### ⬛ 我不是新手！
+有一些故事會更適合年齡較大、經驗更豐富、更擅長處理事情的訓練家。如果你想要扮演**年紀更大**或**級別更高**的角色，那麼你可以遵循下列的簡單指南：
 
 <table>
 	<tr>
-		<th>Rank</th>
-		<th>Extra Attribute Points</th>
-		<th>Extra Social Points</th>
-		<th>Skill Points</th>
-		<th>Skill Limit</th>
+		<th>級別</th>
+		<th>額外特質點</th>
+		<th>額外社交點</th>
+		<th>技能點</th>
+		<th>技能上限</th>
 	</tr>
-	<tr><td> Starter </td><td> 0 </td><td> 0 </td><td> 5 </td><td> 1 </td></tr>
-	<tr><td> Beginner </td><td> 2 </td><td> 2 </td><td> +4 </td><td> 2 </td></tr>
-	<tr><td> Amateur </td><td> 4 </td><td> 4 </td><td> +3 </td><td> 3 </td></tr>
-	<tr><td> Ace </td><td> 6 </td><td> 6 </td><td> +2 </td><td> 4 </td></tr>
-	<tr><td> Professional </td><td> 8 </td><td> 8 </td><td> +1 </td><td> 5 </td></tr>
+	<tr><td>新手 </td><td> 0 </td><td> 0 </td><td> 5 </td><td> 1 </td></tr>
+	<tr><td>初學者 </td><td> 2 </td><td> 2 </td><td> +4 </td><td> 2 </td></tr>
+	<tr><td>業餘者 </td><td> 4 </td><td> 4 </td><td> +3 </td><td> 3 </td></tr>
+	<tr><td>菁英 </td><td> 6 </td><td> 6 </td><td> +2 </td><td> 4 </td></tr>
+	<tr><td>專家 </td><td> 8 </td><td> 8 </td><td> +1 </td><td> 5 </td></tr>
 </table>
 
-Assign all Skill Points from a Rank, before assigning all Skill Points from the next Rank. The amount of Points in a single Skill cannot exceed the Skill Limit.
- 
-Age is also a factor you must take into account, the fact that you are old enough to have a Trainer's license does not mean you are ready to travel the world unsupervised. Trainer Characters can be younger/older and thus **start the game** with higher or lower Attributes and Social Attributes.
+你必須先把你前個級別獲得的所有技能點給分配完畢，才能接著分配下個級別的所有技能點。單個技能累積分配的點數不能超過技能上限。
+
+年紀也是一個你必須考慮的因素。就算你的年紀足以獲得訓練家執照，並不代表你能夠在沒有監督的情況下環遊世界。
+訓練家角色的年紀可以比青少年更小／更大，並因此在**開始遊戲**時獲得更少／更多的特質和社交特質點數。
 
 <table>
 	<tr>
-		<th>Age</th>
-		<th>Attribute/Social Points</th>
+		<th>年紀</th>
+		<th>特質／社交點</th>
 	</tr>
-	<tr><td> Kids </td><td> 0/0 </td>
-	<tr><td> Teens </td><td> 2/2 </td>
-	<tr><td> Adults </td><td> 4/4 </td>
-	<tr><td> Seniors </td><td> 3/6 </td>
+	<tr><td>兒童 </td><td> 0/0 </td>
+	<tr><td>青少年* </td><td> 2/2 </td>
+	<tr><td>成年人 </td><td> 4/4 </td>
+	<tr><td>年長者 </td><td> 3/6 </td>
 </table>
-<p class="foot">*Base starting age for new games.</p>
+<p class="foot">*新遊戲的基本起始年紀。</p>
 
 ---
 
-## Trainer Sheet
-<p style="margin-top: -20px;">How to fill a Trainer Character Sheet: </p>
+## 訓練家角色卡
+<p style="margin-top: -20px;">如何填寫訓練家角色卡:</p>
 
-#### TRAINER’S CARD WINDOW
+#### 訓練家卡片區塊
 {{< img src="/images/03-01-tranier-card-window.JPG" height="300" position="center" selflink="true" >}}
 
-1. Your Character’s Picture.
-2. Your Trainer's Rank.
-3. Your Character’s Name.
-4. Your Character’s Age.
-5. Your Name.
-6. Your Character’s Concept. (p. 18)
-7. Pick a Nature, write the Confidence it gives you. (p.38).
-8. Starting Money is  $1500.00
-9. Each point of Vitality adds 1 Health Point.
-10. Will Points. Its Score es equal to Insight + 2
-11. Active Party Window. Write down the Pokémon you are currently carrying.
+1. 你的角色圖像。
+2. 你的訓練家級別。
+3. 你角色的名稱。
+4. 你角色的年紀。
+5. 你的名字。
+6. 你角色的角色概念。
+7. 選擇一個「性格」，並寫下相應的信心值。
+8. 起始金錢為 $1500。
+9. 每一點活力都會增加 1 點 HP。
+10. 意志點。它的數值等同於 洞察 + 2。
+11. 現役隊伍欄位。寫下你目前攜帶的寶可夢們。
 
 
-#### ATTRIBUTES AND SKILLS WINDOW
+#### 特質＆技能區塊
 {{< img src="/images/03-02-attr-skills-window.JPG" height="300" position="center" selflink="true" >}}
 
-12. Attributes. Start at 1. You have points to distribute acording to your Age and Rank.
-13. Skills. You have Points to distribute and limits on them according to your Rank. 
-14. Social Attributes. Start at 1. You have points to distribute acording to your Age and Rank.
-15. Achievements. Write down the achievements you need to increase your Rank.
-16. Pokédex Info. Write here how many pokemon you have caught and seen. 
+12. 特質。起始為 1。 你的年紀跟級別將決定你可以分配的點數。
+13. 技能。你的級別將決定你可以分配的點數以及技能上限。
+14. 社交特質。起始為 1。你的年紀跟級別將決定你可以分配的點數。
+15. 成就。 寫下你需要達成什麼成就來提高你的級別。
+16. 寶可夢圖鑑資訊。寫下你目前收服和見過的寶可夢數量。
 
 
-#### BACKPACK WINDOW
+#### 背包區塊
 {{< img src="/images/03-03-backpack-window.JPG" height="300" position="center" selflink="true" >}}
 
-17. Potion’s Pocket. List how many Potions you have and how many units remain in the bottle.
-18. Small Pocket.  Items in here can be used in-battle.
-19. Main Pocket. Items in here can’t be used during a fight.
-20. Gym Badges Case. 
+17. 藥水袋。 列出你攜帶了多少瓶藥水、以及瓶子內還有多少份藥水。
+18. 置物口袋。 放在這裡的道具可以在戰鬥中被使用。
+19. 主袋。 放在這裡的道具不能在戰鬥中被使用。
+20. 道館徽章盒。
 

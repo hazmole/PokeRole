@@ -28,7 +28,7 @@ paginateWindow = 1
 taxoPaginate = 13
 taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 
-custom_css = ["css/custom.css", "css/icon.css"]
+custom_css = ["css/theme-modify.css", "css/custom.css", "css/icon.css"]
 custom_js = ["js/customBuilder.js"]
 
 # comment

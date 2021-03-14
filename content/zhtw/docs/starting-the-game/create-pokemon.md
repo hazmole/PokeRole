@@ -4,110 +4,110 @@ weight = 2
 description = "說明如何創建寶可夢角色"
 +++
 
-## Creating a Pokémon
-A  Pokémon  will  be  commanded  by  their  trainer  but  within the game, they won’t be controlled by a player.
+## 創建寶可夢
+儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中**牠們並不是由玩家控制**。
 
-It’s  part  of  the  storyteller’s  job  to  play  and  tell  you how your Pokémon reacts to its surroundings or how it   communicates with you.
-Think about it as having a pet, you can ask it to follow you or to stop chewing the carpet, but you are not really inside its mind. You can only learn what it thinks and feels by  interacting  with  it  and  reading  its  expressions  and  attitudes.
+扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
+把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
 
 {{< mynotice story >}}
- While  similar,  Pokémon  are NOT people.  They are mostly incapable  of  speech  nor  they see the world the same as humans do.
+**儘管相似，但寶可夢並不是人類。** 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。
 {{< /mynotice >}}
 
 {{< mynotice trainer >}}
- Most  Pokémon  are  capable  of Evolving,  to  learn  more  about the different ways Evolution is triggered, head to p. 73
+大多數的寶可夢都能夠進化。若想要瞭解更多關於不同進化的觸發方式，請參照「<a href='{{< relref path="docs/training-pokemon" >}}'></a>」章節。
 {{< /mynotice >}}
 
+寶可夢並不需要有像訓練家那樣的角色概念。
+每個寶可夢都會依照牠們物種的本能、以及牠們各自的<a href='{{< relref path="docs/natures" >}}'>性格</a>來行事。
+牠們往往會有著符合其物種行為的天性，但它們仍可能存在差異。
 
-Pokémon do not need to have a concept as Trainers do. 
-Each Pokémon will behave according to the instinct their species gives them and following their Nature (p. 38).
-They tend to have natures that go accord with its species behavior but they may vary.
-
-That  means  that  two  Pokémon  of  the  same  species will probably want the same things but their different Natures will change how they will try to attain them.
+這意味著兩個物種相同的寶可夢可能會想要同樣的東西，但牠們性格的差異會影響牠們達成目的的方式。
 
 {{< boxmd >}}
-If you are just starting your adventure, head to the Pokédex section of this book. p. 88
-Look for this icon on the Pokédex entries:
+如果你才剛啟程，請移往本書第88頁的寶可夢圖鑑，並尋找這個標誌：
 
 <p style="margin-left: 1em;">{@icon novice|l}</p>
 
-Pokémon  marked  with  this  icon,  are  good Starter options for Novice Trainers. 
+對於新手訓練家來說，擁有這個標誌的寶可夢會是最好的入門選擇。
 {{< /boxmd >}}
 
-A Starter Pokémon will be your companion during your journey,  so  it’s  better  if  you  choose  a  Pokémon  that matches you Trainer’s personality.
+初始寶可夢將會成為你旅途中的夥伴，因此如果能挑選與你訓練家個性相合的寶可夢會更好。
 
-And don’t despair if you could not start with the Pokémon you wanted, this world is very vast and catching Pokémon  is half the fun.
+就算沒辦法一開始就獲得你想要的寶可夢也不要絕望，這個世界相當遼闊，且收服寶可夢的過程也是在這個世界冒險的樂趣之一。
+
 
 ---
-
-## Filling a Pokémon Character Sheet
+## 填寫寶可夢角色卡
 
 {{< boxmd >}}
-To fill your Pokémon Character Sheet you will need to copy the info on its Pokédex entry.
+在填寫寶可夢角色表格時，你將會需要從寶可夢圖鑑中抄寫一些資訊。
 
-* Name & Number
-* Size and Weight
-* Type
-* Starting Attributes
-* Limits <sup>1</sup>
-* Base HP
-* Ability
-* Moves <sup>2 3</sup>
+* 名稱＆圖鑑編號
+* 體型和體重
+* 屬性
+* 起始特質
+* 限制 <sup>1</sup>
+* 基礎 HP
+* 特性
+* 招式 <sup>2 3</sup>
 
-<p class="foot">*1: The highest score a Pokémon may have on its attributes.<br/>
-*2: A Pokémon can learn a number of Moves equal to its Insight +2.<br/>
-*3: All Moves a Pokémon learns must be from its Rank or lower.</p>
+<p class="foot">
+	*1: 寶可夢的特質可以達到的最高數值。<br/>
+	*2: 寶可夢能夠學習的招式數量最多等於: 洞察 + 2。<br/>
+	*3: 所有寶可夢學會的招式都必須等於或低於其級別。
+</p>
 
-<p>The Pokémon you start your game with will have the same Rank as your Trainer. This will affect the Moves they can choose and how their Skills are distributed.</p>
-<p>Wild Pokemon you find later might have Ranks lower or higher than your own.</p>
+<p>你在遊戲開始時的初始寶可夢將擁有與你訓練家相同的級別。這將會影響牠能夠選擇的招式、以及其技能的分配方式。</p>
+<p>在這之後遭遇的野生寶可夢的級別可能會比你更高或更低。</p>
 {{< /boxmd >}}
 
 ---
 
-## Pokémon Sheet
-<p style="margin-top: -20px;">How to fill a Pokémon Character Sheet: </p>
+## 寶可夢角色卡
+<p style="margin-top: -20px;">如何填寫寶可夢角色卡： </p>
 
-#### POKÉDEX WINDOW
+#### 圖鑑區塊
 {{< img src="/images/03-04-pokedex-window.JPG" height="300" position="center" selflink="true" >}}
 
-1. Pokémon Picture.
-2. Your Pokémon Number in the Pokédex.
-3. Name for your Pokémon Species or nickname.
-4. Pokemon Ability. Choose one Ability on its Pokédex entry.
+1. 寶可夢圖像。
+2. 寶可夢圖鑑編號。
+3. 寶可夢的物種名稱或是暱稱。
+4. 寶可夢特性。從圖鑑中挑選一個特性。
 
-#### QUICK REFERENCES WINDOWS
+#### 快速參照區塊
 {{< img src="/images/03-05-quick-reference-window.JPG" height="300" position="center" selflink="true" >}}
 
-5. Base Health Points for your Pokémon are specified in its Pokedex entry. Each point of Vitality adds 1 HP.
-6. Will Points. Its Score es equal to Insight + 2.
-7. Held Item (p. 83).
-8. Write down “Healthy” until it is inflicted with an Ailment.
-9. Initiative Score equals Dexterity + Alert.
-10. Accuracy. Write here the total Accuracy dice pool you most commonly use.
-11. Damage. Write here the total Damage dice pool you most commonly use.
-12. Evasion.Write here your total dice pool for evading p. 50
-13. Clash. Write here your total dice pool for clashing.
-14. DEF/SP.DEF is equal to your Vitality/Insight score.
-15. Rank.
-16. Move windows. Write down your moves here.
+5. 寶可夢的基礎 HP 被列在圖鑑上。每一點活力都會增加 1 點 HP。
+6. 意志點。 它的數值等同於 洞察 + 2。
+7. 持有道具 (p. 83)。
+8. 寫下「健康」，直到牠陷入異常狀態。
+9. 先攻值 等同於你的 靈巧 + 警覺。
+10. 命中。 在這裡寫下你最常使用的命中骰池總量。
+11. 傷害。 在這裡寫下你最常使用的傷害骰池總量。
+12. 迴避。 在這裡寫下你用於迴避的骰池總量。
+13. 對抗。 在這裡寫下你用於對抗的骰池總量。
+14. 防禦/特防 等同於你的 活力/洞察 數值。
+15. 級別。
+16. 招式欄位。 在這裡寫下你的招式。
 
-#### ATTRIBUTES & SKILLS WINDOW 
+#### 特質＆技能區塊
 {{< img src="/images/03-06-attr-skills-window.JPG" height="300" position="center" selflink="true" >}}
 
-17. Attributes. Starting Attributes and Limits are specified in your Pokémon’s Pokédex entry.
-18. Skills. Distribute Points according to their Rank.
-19. Pokémon’s size is specified in its Pokedex entry.
-20. Your Pokémon’s weight is specified in its entry.
+17. 特質。 起始特質數值與上限請查閱圖鑑條目。
+18. 技能。 寶可夢的級別將決定其可以分配的點數。
+19. 寶可夢的體型，記載於其圖鑑條目上。
+20. 寶可夢的體重，記載於其圖鑑條目上。
 
-#### SOCIALS & INFO WINDOW
+#### 社交＆資訊區塊
 {{< img src="/images/03-07-social-info-window.JPG" height="300" position="center" selflink="true" >}}
 
-21. Social Attributes. Start at 1, 
-22. Choose a Nature (p.38).
-23. Happiness for your Starter Pokémon is 2.
-24. Loyalty for your Starter Pokémon is 2.
-25. Battles and Victories, keep track of them.
-26. Accessory & Contest Ribbons
-27. The Type of your Pokémon is specified in its entry.
-28. Weaknesses depend on your Pokémon Type (p. 42)
+21. 社交特質。起始為 1。
+22. 選擇一個「性格」。
+23. 起始寶可夢的幸福度為 2。
+24. 起始寶可夢的忠誠度為 2。
+25. 戰鬥與勝利次數，請把它們記錄下來。
+26. 飾品＆華麗大賽獎章。
+27. 寶可夢的屬性，記載於其圖鑑條目上。
+28. 寶可夢的弱點屬性。
 
