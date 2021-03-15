@@ -4,70 +4,63 @@ weight = 5
 description = "說明生命值(HP)和意志點(WP)的意義和用途"
 +++
 
-## Health Points (HP)
-Health Points measure the state of your character’s body. 
+## 生命值 (HP)
+生命值被用來衡量角色的身體狀態。
 
-All living beings have a **Base HP (BHP)**, a representation of their species resilience to damage and pain.Something that could cause a crippling injury to some creatures may feel like a sting to a different species, it all depends on how their body is built.
+所有活物都有著其各自的**基礎生命值（BHP）**，代表他們物種對於傷害和痛苦的耐受性。某個可能會對某些生物造成嚴重傷害的事物，對另一個物種而言或許只不過是叮咬般的輕微疼痛，這一切都取決於牠們的身體構造差異。
 
-To calculate your total HP you must **add the number of points you have in Vitality to your Base HP.** 
+在計算你的總生命值時，你必須將**活力特質的點數加到基礎生命值中**。
 
-{{< highlight >}}Humans have a Base HP of 4
+{{< highlight >}}人類的基礎生命值為 4。
 {{< /highlight >}}{{< highlight >}}
-Each Pokémon Base HP is listed within its Pokédex entry.{{< /highlight >}}
+寶可夢的基礎生命值記載於其各自的圖鑑條目上。{{< /highlight >}}
 
 
-For example:
+舉例來說：
 {{< example >}}
-Marco is a **human**, his Base HP is 4, 
-and his Vitality score is 2. 
-**Marco has a total HP of 6.**
+馬可是一個**人類**，他的基礎生命值為 4，且他有 2 點的活力特質。
+**因此馬可的總HP為 6。**
 
-Marco’s **Marowak** has a Base HP of 
-4, and its Vitality score is 4.
-**Marowak’s total HP is 8.**
+馬可的夥伴 **嘎啦嘎啦** 的基礎生命值為 4，且牠有 4 點的活力特質。
+**因此嘎啦嘎啦的總HP為 8。**
 {{< /example >}}
 
-**Whenever you receive damage, you will lose HP.**
+**每當你受到傷害時，你將失去HP。**
+這個HP的損失只是暫時性的，且可以隨著時間經過或透過藥物治療而恢復。如果你受到了等於或大於你總HP的傷害，則你將會**無法移動**並陷入**暈厥**。
 
-This HP loss is only temporary and can be recovered with time or medicine. If you receive damage equal your total HP, you will be **unable to move** and you'll **faint**. 
+如果你在陷入暈厥狀態後仍持續受到傷害，那麼該傷害將會變為「致命傷害」。這代表它會留下更加嚴重的傷口，且你可能會有生命危險。
+有些寶可夢使用的招式能夠直接造成致命傷害。
+受到等於或大於你總HP的**致命傷害**意味著**角色死亡**。
 
-If you keep receiving damage after fainting, that damage will become Lethal. That means your wounds will be more severe and your life could be in danger.
-Some Moves performed by Pokémon may deal Lethal Damage directly.
-Receiving **Lethal Damage** equal to your total HP means **the character dies**.
 
 ---
+## 意志點 (WP)
+綜觀歷史，人們有時能做到正常來說不可能實現的偉大壯舉。
+比如說，體弱多病的女人突然能舉起巨石救出被困在下面的嬰兒、或者摔斷了腿的男人仍咬牙爬起病逃出火場。
+在這些情境下，人們竭盡了全力，打破了自己身體限制的極限，以實現更了不起的目標。
 
-## Will Points
-Through history, people have achieved great feats that normally would seem impossible. 
+「意志」這個數值，正是用來衡量你的內在力量能夠讓你爆發到什麼程度。
 
-A frail woman suddenly lifting a giant boulder to save her infant son trapped underneath, or a man with a broken leg getting up to run from a fire.
+{{< highlight >}}每個人類和寶可夢的意志都等同於: 洞察 + 2。{{< /highlight >}}
 
-In those scenarios, people used all of their might, breaking the limits of their own physical restrictions in order achieve something greater.
+說書人可能會要求玩家和寶可夢使用他們的意志進行擲骰，好讓他們能**克服恐懼、憤怒、或悲傷**，或是在他們嘗試做壞事時喚起他們的良知。
+意志點也可以被花費以抵抗疼痛，或讓他們在進行任意擲骰時有更高的機會成功。
 
-The **Will** Attribute measures just how far your inner strength can take you.
-
-{{< highlight >}}Every human and Pokémon has Will equal to: Insight +2.{{< /highlight >}}
-
-Storyteller may call for players and Pokémon to make a roll using their Will score to overcome fear, rage, or sadness, also as a call for conscience when attempting misdeeds. 
-Will points can also be spent to resist pain and have a better chance to succeed at any roll.
-
-Here is how it works:
+它的運作方式如下：
 {{< boxmd >}}
-Announce that your character or Pokémon are giving all they’ve got.
-* **Spend 1 Will Point to ignore 1 Pain/Stress Penalization for the rest of the scene.**
-Note: This means that if you spend 2 Will Points you'll ignore 2 Pain Penalizations and so on.
-* **Spend 1 Will Point to reroll 1 unsuccessful die from all your Rolls during this Round.**
+宣言你的角色或寶可夢正在竭盡他的全力。
+* **花費 1 點意志點，讓他在該場景期間忽略 1 級的痛苦/壓力懲罰。**
+注意：這意味著如果你花費 2 點意志點的話，你將能忽略掉 2 級的痛苦/壓力懲罰，依此類推。
+* **花費 1 點意志點，讓他在該回合期間的所有擲骰中都能夠重骰其中一顆失敗的骰子。**
 {{< /boxmd >}}
 
-After you spend a point, however, your character will be worn out, **if you run out of Will Points the character will lose consciousness and faint at the end of the Round.** Just from the sheer strain of going beyond the limit.
+在你花費意志點之後，你的角色將會因此感到筋疲力盡。**如果你耗盡了所有的意志點，角色將會在該回合結束的時候失去意識並昏厥**，因為他再也無法承受超越極限帶來的巨大負擔。
 
-**Pokémon and Humans do not come to this world with the ability to spend Will Points whenever they want.**
-It is something that creatures would use only in extreme situations, and even then, most people just don’t have what it takes.
+**寶可夢和人類生來都無法隨時隨地自由的花費意志點。**
+這個能力只會在極端情況下才會被使用，而就算是這樣的情境下，大多數人們仍無法發揮這種能力。
 
-**The Trainer has to teach his Pokémon to get a hold of this inner strength.** Maybe later they will be able to use the power of their Will.
+**訓練師必須教導他的寶可夢以掌握這種內在力量。** 或許在這之後牠們將能夠學會自行運用自己意志帶來的力量。如果訓練家從來沒有發揮過這種內在力量的經驗，那麼他或她的寶可夢可能也就學不會。
+大部分的NPC都不會使用他們的意志點，只有最熟練的訓練家和寶可夢才能夠使用它們。
 
-If a Trainer is not experienced in using his or her own inner strength, it is possible the Pokémon won’t be either. 
-Most of the non-player characters will not use their Will Points as it is something only the most proficient Trainers and Pokémon are able to do.
-
-To recover one spent Will Point your character must:
-Rest for a few days, feel accomplished by having achieved something great, follow their nature, or get them as a reward for good role-play
+要回復1點花掉的意志點，你的角色必須：
+經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。

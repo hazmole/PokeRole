@@ -87,7 +87,7 @@
 
 #list-main .box.highlight {
     margin:0 1em 1em 1em;
-    padding:.2em .5em; background:#ca8d43; color:#fff; border-radius:.5em;
+    padding:.2em .5em; background:#ca4343; color:#fff; border-radius:.5em;
     border-width: 0;
 }
 
@@ -99,8 +99,11 @@
     margin: 1em;
     padding: .5em;
 }
-.Nature h4, .Frame h4 {
-    margin: 0em;
+.Nature h3,
+.Nature h4,
+.Frame h3,
+.Frame h4, {
+    margin-top: 0em;
     padding: 0em;
 }
 .Nature .confident {
