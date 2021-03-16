@@ -1,10 +1,10 @@
 +++
-title = "擲骰"
+title = "擲骰判定"
 weight = 8
 description = "說明擲骰判定的相關規則"
 +++
 
-## Rolling the Dice
+## 擲骰判定
 Our lives are influenced by random factors all the time. 
 Luck is a part of our lives, fortune can change our future and destiny is built on the results of our actions.
 
@@ -22,12 +22,12 @@ Now that you have seen the Attributes and Skills, it’s time to learn about how
 **You might require 1, 2, 3 or more successes** from this roll **depending on the difficulty of the task.**
 
 <table>
-<tr><th> Required Successes </th><th> Difficulty Settings </th></tr>
-<tr><td> 1 </td><td align="left"> <u>Troublesome</u>. You rarely do something like this. </td></tr>
-<tr><td> 2 </td><td align="left"> <u>Challenging</u>. You have obstacles in your way. </td></tr>
-<tr><td> 3 </td><td align="left"> <u>Hard</u>. The conditions place you at a huge disadvantage. </td></tr>
-<tr><td> 4 </td><td align="left"> <u>Insane</u>. The mere idea of trying is ridiculous. </td></tr>
-<tr><td> 5+ </td><td align="left"> <u>Almost</u> Impossible. All logic points to the action not being possible. </td></tr>
+<tr><th> 所需成功骰數 </th><th> 難度設定 </th></tr>
+<tr><td> 1 </td><td align="left"> <u>麻煩</u>. 你很少會做這樣的事情。 </td></tr>
+<tr><td> 2 </td><td align="left"> <u>有挑戰性</u>. 你在執行時會遭遇不少阻礙。 </td></tr>
+<tr><td> 3 </td><td align="left"> <u>困難</u>. 這個情境陷你於巨大的劣勢之中。 </td></tr>
+<tr><td> 4 </td><td align="left"> <u>瘋狂</u>. 僅僅嘗試去這麼做的想法都顯得無比荒謬。 </td></tr>
+<tr><td> 5+ </td><td align="left"> <u>幾乎不可能</u>. 一切邏輯推論都表明這個行為是不可能的任務。 </td></tr>
 </table>
 
 {{< example >}}
@@ -41,7 +41,7 @@ If he doesn't catch it on his first attempt and **Honchkrow** starts to fly high
 
 ---
 
-### Critical Failure
+### ⬛ 大失敗
 What would happen if you try to get a 4 year-old to land a plane during an emergency? Probably nothing good.
 
 Underperforming when attempting a task can bring catastrofic results. That is why if **you score a roll with less than 3 successes than required** you will not just fail to do the task, but **something bad will happen** at your Storyteller's discretion.

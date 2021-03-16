@@ -4,74 +4,69 @@ weight = 6
 description = "說明幸福度與忠誠度的意義和用途"
 +++
 
-## Happiness & Loyalty
+## 幸福度 與 忠誠度
+這些數值定義了你和你寶可夢之間的關係，這兩個數值同時也是遊戲中最有價值的數值之一，因為它們將會決定你和你同伴之間關係有多好。
+畢竟，就算擁有了再強大的寶可夢，如果牠討厭你、或甚至想要逃跑，那又有什麼意義呢？
 
-These attributes will define your relationship with your Pokémon and are among the most valuable traits in the game since they determine how good is your relationship with your companions.
+訓練家而言，和新捉到的寶可夢相處不融洽是很常見的情況，他們甚至可能會被上述的寶可夢攻擊，因為對牠來說這不過就只是上一場戰鬥的延續。這些反應將取決於該寶可夢被捕捉時發生的狀況，也同時取決於牠們的性格和物種天性。
 
-What’s the use of a strong Pokémon if it hates you and wants to run away?
+我們能給你最好的建議是：試著在一開始就留下好印象。
 
-It is common for trainers to have a hard time with a newly caught Pokémon, they might even be attacked by said Pokémon since for all they know this is just Round two. This kind of reaction depends on the situation in which the Pokémon was caught but also depends on the species and their nature. 
+幸福度和忠誠度的範圍介於 0 至 5 點。
+在野外，**寶可夢的這兩項數值通常皆為 2 點**，但一旦牠們被捕捉，牠們的生活就從此永遠改變了。
 
-The best tip we can give you: Try to start with the right foot.
+做為優秀的訓練家，如果你打算與牠們建立良好的關係並提升這兩項數值，那你就必須清楚知道該如何處理你們之間的齟齬。
 
-Happiness and Loyalty range from 0 to 5 points.
+一旦你捉到寶可夢，將牠的忠誠度降低等同於你加諸在牠身上的痛苦懲罰級數的數值。
+對，就是這樣。如果你把牠們打了個鼻青臉腫，就別指望牠們會有多高興。
 
-In the wild, a **Pokémon usually has 2 points on each**, but as soon as they are caught their life changes forever.
+當你捉到寶可夢時，若你是在違背牠自身意願的情況下捉到牠，將牠的幸福度降為 0。若你與牠之間的戰鬥是不公平的（比如說多對一、使用了道具等等），將牠的幸福度降為 1。若你是在公平的條件下與其戰鬥，則幸福度維持在 2 點。
 
-A good trainer must know how to deal with rough edges if he plans on building a relationship and hopefully, increase these two traits.
+**這兩項數值無法透過階級系統來增加。你將必須透過扮演的方式來影響它們，無論好壞。**
 
-As soon as you catch a Pokémon, reduce their Loyalty by the same amount as the Pain penalization you inflicted on them. 
-Yeah, that’s right. If you beat them to a pulp, don’t expect them to be happy about it.
-
-When you catch a Pokémon, reduce their happiness to 0 points if they were caught against their will, to 1 if the battle against them was unfair (many vs. one, using items etc.) and keep it at 2 ifyou fought them in fair conditions.
-
-**These two traits cannot be increased with the Ranking system. You will need to role play if you want to affect them both positively or negatively.**
-
-While Happiness and Loyalty are not directly linked, **keeping your Pokémon happy is a good way to gain or increase its Loyalty.**
-
-Role-Playing will be the key to increase both traits.
+儘管幸福度與忠誠度之間並不直接相關，但**讓你的寶可夢保持幸福是個提升忠誠度的好方法。**
+而最重要的是，角色扮演將會是增加這兩個數值的關鍵。
 
 {{< mynotice trainer >}}
-Aim to build a strong relationship with your Pokémon while it’s still at an un-evolved stage.
-Creating bonds with Pokémon in later stages will be a lot harder.
+盡量趁寶可夢還沒進化之前與牠建立緊密的關係。
+與進化型的寶可夢建立關係會困難得多。
 {{< /mynotice >}}
 
----
 
-### Happiness
-This trait is all about being happy and comfortable. Most Pokémon are simple creatures, they want safety, food, stability and especially they want to feel useful.
-Some Pokémon will rejoice in the comfort and luxuries of the human world, while others will disregard them.
-Always try to provide the life they want.
+---
+### 幸福度
+這項數值代表著感到快樂與舒適的程度。大部分的寶可夢都是單純的生物，牠們渴望安全、食物、穩定，且特別希望覺得自己是有用的。
+有些寶可夢會對人類世界提供的舒適與奢華而歡欣，有些則不。
+盡可能提供牠們想要的生活。
 
 <table>
-<tr><td align="left"> ○○○○○ </td><td align="left"> Miserable. Your Pokémon is angry and/or depressed, it may resent you or others. </td></tr>
-<tr><td align="left"> ●○○○○ </td><td align="left"> Dissatisfied. The Pokémon doesn’t like living with you. </td></tr>
-<tr><td align="left"> ●●○○○ </td><td align="left"> Comfortable. There’s food, companionship and a place to sleep, it’s not bad. </td></tr>
-<tr><td align="left"> ●●●○○ </td><td align="left"> Satisfied. Your Pokémon enjoys the benefits that come with being your companion. </td></tr>
-<tr><td align="left"> ●●●●○ </td><td align="left"> Accomplished. Most of what your Pokémon wanted in life has come by being with you. </td></tr>
-<tr><td align="left"> ●●●●● </td><td align="left"> True Happiness. Life has been kind to this Pokémon and it is grateful to you for it. </td></tr>
+<tr><td align="left"> ○○○○○ </td><td align="left"> 悲慘。寶可夢感到憤怒或沮喪，牠可能會怨恨你或其他人。 </td></tr>
+<tr><td align="left"> ●○○○○ </td><td align="left"> 不滿。寶可夢不喜歡與你生活在一起。 </td></tr>
+<tr><td align="left"> ●●○○○ </td><td align="left"> 舒適。這裡有食物、有陪伴、有能睡覺的地方，這感覺還不錯。 </td></tr>
+<tr><td align="left"> ●●●○○ </td><td align="left"> 滿意。你的寶可夢享受著與你相伴帶來的好處。 </td></tr>
+<tr><td align="left"> ●●●●○ </td><td align="left"> 圓滿。你的寶可夢在生活中想要的大部分東西，都是來自於與你相伴。 </td></tr>
+<tr><td align="left"> ●●●●● </td><td align="left"> 真正的幸福。寶可夢的生活相當美好，牠因此相當感激你。 </td></tr>
 </table>
 
+
 ---
+### 忠誠度
+這項數值反應了寶可夢們願意為你做多少事；從完全無視你的命令，到冒著生命危險來救你。無論如何，忠心耿耿的寶可夢將會是你最好的朋友。永遠不要低估友誼的力量。
 
-### Loyalty
-This trait reflects how much they are willing to do for you; from ignoring you completely to risking their lives to save you, a loyal Pokémon is your best friend in better or worst. Never underestimate the power of friendship.
-
-Pokémon evolution may bring a power surge that makes them feel they don't need you as much anymore, so their Loyalty score may go down upon evolving. 
-
-Evolution might strain the relationship you had with your Pokémon, making it feel as if it were a stranger.
+寶可夢的進化可能會使牠們的力量劇烈提升，並讓牠們覺得自己似乎不再那麼需要你了。因此寶可夢的忠誠度有可能會隨著進化而下降。
+進化可能會讓你與寶可夢之間的關係變得緊張，讓你們之間變得彷彿陌生人一般。
 
 {{< boxmd >}}
-When a Pokémon evolves, roll their Trainer's highest Social Attribute.
-Score at least 2 Successes, or else the Loyalty of the Pokémon will go down 1 point.
+當寶可夢進化時，使用牠訓練家最高的社交特質進行擲骰判定。
+你必須取得至少 2 個成功，否則該寶可夢的忠誠度將會因此下降 1 點。
 {{< /boxmd >}}
 
 <table>
-<tr><td align="left"> ○○○○○ </td><td align="left"> The Pokémon thinks about attacking you or escaping. Careful as it might bite. </td></tr>
-<tr><td align="left"> ●○○○○ </td><td align="left"> It is indifferent to you, it may not even want to interact with you or your other Pokémon. </td></tr>
-<tr><td align="left"> ●●○○○ </td><td align="left"> It will stay by your side. But If it gets too dangerous you are on your own. </td></tr>
-<tr><td align="left"> ●●●○○ </td><td align="left"> The Pokémon considers you a friend, it will help you get out of danger if possible. </td></tr>
-<tr><td align="left"> ●●●●○ </td><td align="left"> There is nothing it wouldn’t do for you. You are the most important person. </td></tr>
-<tr><td align="left"> ●●●●● </td><td align="left"> Some friendships last more than a lifetime. No danger, no person and no distance is an obstacle for it to be with you. </td></tr>
+<tr><td align="left"> ○○○○○ </td><td align="left"> 寶可夢會想著要攻擊你或逃跑。小心點，牠可能會咬人。 </td></tr>
+<tr><td align="left"> ●○○○○ </td><td align="left"> 牠對你的態度冷淡，甚至可能不會想和你或你的其他寶可夢互動。 </td></tr>
+<tr><td align="left"> ●●○○○ </td><td align="left"> 他會陪在你身邊。但如果情況太過危險，你就只能靠你自己了。 </td></tr>
+<tr><td align="left"> ●●●○○ </td><td align="left"> 寶可夢把你當作朋友，且如果可能的話，牠會幫助你脫離險境。 </td></tr>
+<tr><td align="left"> ●●●●○ </td><td align="left"> 沒有什麼事情是牠不能為你做的。你是最重要的人。 </td></tr>
+<tr><td align="left"> ●●●●● </td><td align="left"> 有些友情可以持續甚至超過一輩子。沒有任何危險、人物、或距離能夠成為你們之間的阻礙。 </td></tr>
 </table>
 

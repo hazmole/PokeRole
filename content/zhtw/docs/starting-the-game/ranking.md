@@ -15,9 +15,9 @@ description = "說明訓練家階級的意義和效果"
 所謂階級，不僅僅代表你訓練寶可夢們如何戰鬥和生存，你也同時在教導牠們如何釋放自己的潛力、控制牠們最高階的招式、並協調任何你所需的戰術策略。
 
 {{< boxmd >}}
-The Ranking System works through Achievements.
-When a Trainer completes all the achievements required to upgrade, them and all their trained Pokémon will gain the Benefits.
-Storyteller may add or change achievements required to improve a Trainer's Rank.
+階級系統的晉升是透過「成就」來實現的。
+當訓練家完成了所有晉升所要求的成就之後，訓練家與其寶可夢們就都可以獲得晉級帶來的好處。
+說書人可以增加或修改提升訓練家階級所需要達成的成就。
 {{< /boxmd >}}
 
 ---
@@ -38,7 +38,7 @@ Storyteller may add or change achievements required to improve a Trainer's Rank.
 <div class="Frame">
 
 ### <div class='icon Beginner'>初學者階級</div>
-You’ve put into practice everything you’ve read in books and everything you’ve watched on tv. Maybe it took several tries but you finally succeeded. Young and compliant Pokémon understand your training and follow your orders.
+你把從書本上讀過的、電視上看過的一切都付諸實踐。也許你嘗試了好幾次才終於成功。年幼且順從的寶可夢能理解你的訓練，並會聽從你的命令。
 
 ###### 晉升這個階級需要達成什麼成就？
 * 成功理解你的寶可夢想表達什麼。
@@ -56,7 +56,7 @@ You’ve put into practice everything you’ve read in books and everything you�
 <div class="Frame">
 
 ### <div class='icon Amateur'>業餘者階級</div>
-After a while, you’ve managed to understand the basics of being a Pokémon Trainer: you have to train hard, take care of your companions and learn from the Gym Leaders. The vast majority of Trainers you find are considered to be on this Rank.
+在一段時間之後，你成功瞭解了做為一名寶可夢訓練家的基礎：你必須努力訓練、照顧好你的同伴，並向道館館主虛心求教。你能遇到的大部分訓練家都屬於這個階級。
 
 ###### 晉升這個階級需要達成什麼成就？
 * 讓一隻寶可夢進化。
@@ -73,7 +73,7 @@ After a while, you’ve managed to understand the basics of being a Pokémon Tra
 <div class="Frame">
 
 ### <div class='icon Ace'>菁英階級</div>
-Very few Trainers have the dedication and talent needed to raise above the average. An Ace overcomes all obstacles and applies everything learned during his journey. They show their Pokémon their true potential.
+很少有訓練家能有足夠的拚勁和天賦來把自己提升到平均水準之上。菁英階級的訓練家克服了所有的障礙，並將他一切所學的都運用在了旅途之中。他們展現出了他們的寶可夢蘊藏的真正潛力。
 
 ###### 晉升這個階級需要達成什麼成就？
 * 贏得 8 個徽章。
@@ -90,7 +90,7 @@ Very few Trainers have the dedication and talent needed to raise above the avera
 <div class="Frame">
 
 ### <div class='icon Pro'>專家階級</div>
-You’ve become a role model among Trainers. You can tame even the wildest Pokémon and turn it into a productive citizen capable of doing any job. Those who know you, think you’re a pioneer in your area of expertise. You found new answers regarding the Pokémon World and realize what it means to be a True Trainer.
+你已經成為了訓練家們的榜樣。你可以馴服哪怕是最野性的寶可夢，並將牠培育成有辦法勝任任何工作的良好市民。認識你的人都一致認為你就是你專業領域的先驅。你找到了關於寶可夢世界的新答案，也意識到了成為一名真正的訓練家究竟意味著什麼。
 
 ###### 晉升這個階級需要達成什麼成就？
 * 取得一個與寶可夢有關的職業。
@@ -107,7 +107,7 @@ You’ve become a role model among Trainers. You can tame even the wildest Poké
 <div class="Frame">
 
 ### <div class='icon Master'>大師階級</div>
-You’ve explored every corner of your Region, tamed Pokémon and habitats as a whole. You have seen legendary creatures and you’ve even found the truth behind strange rumors and ancient myths.
+你探索了你所在地區的每一個角落，馴服了寶可夢以及這片土地本身。你見過了傳說中的生物，甚至發現了隱藏在謠言和遠古神話背後的真相。
 
 ###### 晉升這個階級需要達成什麼成就？
 * 找到並研究你所在地區內的所有寶可夢物種。
@@ -120,7 +120,7 @@ You’ve explored every corner of your Region, tamed Pokémon and habitats as a 
 <div class="Frame">
 
 ### <div class='icon Champion'>冠軍階級</div>
-Somehow you’ve managed to defeat the Champion and now you carry the highest title a Trainer could have. Your fame transcends all frontiers and Leagues while your Pokémon exceed the natural capabilities and skills of their species. See Challenges Ahead p. 459.
+終於，你成功擊敗了冠軍，現在你擁有著訓練家所能取得的最高頭銜。你的名聲傳遍了所有的國界與聯盟，你寶可夢的本領也超越了牠們物種天生的能力與技藝。參見第459頁「前路挑戰」章節。
 
 ###### 晉升這個階級需要達成什麼成就？
 * 在聯盟賽的挑戰中擊敗冠軍。
@@ -130,21 +130,21 @@ Somehow you’ve managed to defeat the Champion and now you carry the highest ti
 * 寶可夢的特質可以被增加到最高比上限高 2 點。
 * 額外獲得 1 點技能點數。
 </div>
+
 ---
+整體而言，階級代表著投入特定生活方式的時間與精力，而在這裡，所謂的特定生活方式便是指「寶可夢訓練」。
 
-Overall, Rank is a representation of time and effort put into a particular lifestyle, Pokémon Training in this case.
+**野生的寶可夢也擁有階級**，且也能從中獲得相應的好處。野生寶可夢的階級將由說書人自行决定。
 
-**Wild Pokémon also have a Rank** and obtain the benefits from it, it's up to the Storyteller's discretion to determine the Rank of a wild Pokémon.
+{{< highlight >}}
+寶可夢不會聽從階級低於自己的訓練家的命令。
+{{< /highlight >}}
 
-{{< boxmd >}}
-Pokémon will not follow orders from a Trainer with a Rank inferior to theirs.
-{{< /boxmd >}}
+因此，如果你捕捉到或透過交易從他人手中獲得了一隻階級比你高的寶可夢，牠的階級會維持原樣，讓你幾乎不可能控制或者讓牠服從於你。
+**寶可夢聯盟並不看好那些無法在正式比賽中控制自己寶可夢的訓練家。**
+在錦標賽或正式比賽中無法控制自己寶可夢的訓練家將會被取消資格。
 
-So if you catch or trade a Pokémon with a Rank superior to yours, its Rank will remain as it is, making it almost impossible for you to control or make it obey you.
-**The League does not look favorably on trainers who cannot control their Pokémon in official matches.**
-Trainers who seem incapable of controlling their Pokémon during a tournament or an official match are disqualified.
+你將會需要提升自己做為訓練家的能力，才能夠完全馴服這些更強大的寶可夢，並釋放出牠們真正的潛力。
 
-You'll have to increase your abilities as a Trainer to fully tame and unleash a stronger Pokémon's potential.
-
-**The good news is that if you catch or obtain a Pokémon with a Rank lower than your own, its Rank will be upgraded to match yours after some Training Sessions.**
-Because your Rank is also a reflection of your mastery, you also learned how to get the best out of a Pokémon. Now you are able to generate results faster.
+**好消息是，如果你捕捉或獲得的寶可夢階級比你還要低，那麼在經過一段期間的訓練之後，牠們將會自動提升到與你相符的階級。**
+由於你的階級反映出了你訓練寶可夢的精通程度，你也同時知曉如何讓寶可夢發揮出牠們最好的能力，因此現在你能夠更有效率地讓牠們達到這個階級了。

@@ -169,18 +169,37 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</guid>
-        <description>Happiness &amp;amp; Loyalty These attributes will define your relationship with your Pokémon and are among the most valuable traits in the game since they determine how good is your relationship with your companions.
-What’s the use of a strong Pokémon if it hates you and wants to run away?
-It is common for trainers to have a hard time with a newly caught Pokémon, they might even be attacked by said Pokémon since for all they know this is just Round two.</description>
+        <description>幸福度 與 忠誠度 這些數值定義了你和你寶可夢之間的關係，這兩個數值同時也是遊戲中最有價值的數值之一，因為它們將會決定你和你同伴之間關係有多好。
+畢竟，就算擁有了再強大的寶可夢，如果牠討厭你、或甚至想要逃跑，那又有什麼意義呢？
+訓練家而言，和新捉到的寶可夢相處不融洽是很常見的情況，他們甚至可能會被上述的寶可夢攻擊，因為對牠來說這不過就只是上一場戰鬥的延續。這些反應將取決於該寶可夢被捕捉時發生的狀況，也同時取決於牠們的性格和物種天性。
+我們能給你最好的建議是：試著在一開始就留下好印象。
+幸福度和忠誠度的範圍介於 0 至 5 點。
+在野外，寶可夢的這兩項數值通常皆為 2 點，但一旦牠們被捕捉，牠們的生活就從此永遠改變了。
+做為優秀的訓練家，如果你打算與牠們建立良好的關係並提升這兩項數值，那你就必須清楚知道該如何處理你們之間的齟齬。
+一旦你捉到寶可夢，將牠的忠誠度降低等同於你加諸在牠身上的痛苦懲罰級數的數值。
+對，就是這樣。如果你把牠們打了個鼻青臉腫，就別指望牠們會有多高興。
+當你捉到寶可夢時，若你是在違背牠自身意願的情況下捉到牠，將牠的幸福度降為 0。若你與牠之間的戰鬥是不公平的（比如說多對一、使用了道具等等），將牠的幸福度降為 1。若你是在公平的條件下與其戰鬥，則幸福度維持在 2 點。
+這兩項數值無法透過階級系統來增加。你將必須透過扮演的方式來影響它們，無論好壞。
+儘管幸福度與忠誠度之間並不直接相關，但讓你的寶可夢保持幸福是個提升忠誠度的好方法。
+而最重要的是，角色扮演將會是增加這兩個數值的關鍵。
+盡量趁寶可夢還沒進化之前與牠建立緊密的關係。
+與進化型的寶可夢建立關係會困難得多。 幸福度 這項數值代表著感到快樂與舒適的程度。大部分的寶可夢都是單純的生物，牠們渴望安全、食物、穩定，且特別希望覺得自己是有用的。
+有些寶可夢會對人類世界提供的舒適與奢華而歡欣，有些則不。
+盡可能提供牠們想要的生活。
+○○○○○ 悲慘。寶可夢感到憤怒或沮喪，牠可能會怨恨你或其他人。 ●○○○○ 不滿。寶可夢不喜歡與你生活在一起。 ●●○○○ 舒適。這裡有食物、有陪伴、有能睡覺的地方，這感覺還不錯。 ●●●○○ 滿意。你的寶可夢享受著與你相伴帶來的好處。 ●●●●○ 圓滿。你的寶可夢在生活中想要的大部分東西，都是來自於與你相伴。 ●●●●● 真正的幸福。寶可夢的生活相當美好，牠因此相當感激你。 忠誠度 這項數值反應了寶可夢們願意為你做多少事；從完全無視你的命令，到冒著生命危險來救你。無論如何，忠心耿耿的寶可夢將會是你最好的朋友。永遠不要低估友誼的力量。
+寶可夢的進化可能會使牠們的力量劇烈提升，並讓牠們覺得自己似乎不再那麼需要你了。因此寶可夢的忠誠度有可能會隨著進化而下降。
+進化可能會讓你與寶可夢之間的關係變得緊張，讓你們之間變得彷彿陌生人一般。
+當寶可夢進化時，使用牠訓練家最高的社交特質進行擲骰判定。
+你必須取得至少 2 個成功，否則該寶可夢的忠誠度將會因此下降 1 點。 ○○○○○ 寶可夢會想著要攻擊你或逃跑。小心點，牠可能會咬人。 ●○○○○ 牠對你的態度冷淡，甚至可能不會想和你或你的其他寶可夢互動。 ●●○○○ 他會陪在你身邊。但如果情況太過危險，你就只能靠你自己了。 ●●●○○ 寶可夢把你當作朋友，且如果可能的話，牠會幫助你脫離險境。 ●●●●○ 沒有什麼事情是牠不能為你做的。你是最重要的人。 ●●●●● 有些友情可以持續甚至超過一輩子。沒有任何危險、人物、或距離能夠成為你們之間的阻礙。 </description>
       </item>
       
       <item>
-        <title>擲骰</title>
+        <title>擲骰判定</title>
         <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid>
-        <description>Rolling the Dice Our lives are influenced by random factors all the time. Luck is a part of our lives, fortune can change our future and destiny is built on the results of our actions.
+        <description>擲骰判定 Our lives are influenced by random factors all the time. Luck is a part of our lives, fortune can change our future and destiny is built on the results of our actions.
 In Pokémon: The Role Playing Game all variables are represented by six-sided dice. These Dice are pretty easy to get and you can find them in almost any gaming store. You may even have some from your old board games!</description>
       </item>
       
@@ -195,10 +214,12 @@ In Pokémon: The Role Playing Game all variables are represented by six-sided di
 一名傑出的訓練家有能力把虛弱膽怯的寶可夢培養成冠軍。但想要做到這點，你將必須周遊世界各地並完成許許多多的成就。
 階級決定了你訓練寶可夢的能力，也代表著你個人的整體成長。
 所謂階級，不僅僅代表你訓練寶可夢們如何戰鬥和生存，你也同時在教導牠們如何釋放自己的潛力、控制牠們最高階的招式、並協調任何你所需的戰術策略。
-The Ranking System works through Achievements.
-When a Trainer completes all the achievements required to upgrade, them and all their trained Pokémon will gain the Benefits.
-Storyteller may add or change achievements required to improve a Trainer&amp;rsquo;s Rank. 新手階級 你才剛開始你的訓練家生涯，還只是個沒有任何實際經驗的菜鳥。大部分的野生寶可夢都不會聽從你的話，而因為你根本還不夠理解你寶可夢的潛力，就連你自己的寶可夢也很難理解任何不符合牠們原始本能的命令。
-晉升這個階級需要達成什麼成就？  取得你的訓練家執照（角色卡）。 得到你的第一隻寶可夢。  好處:  獲得 5 點技能點數。 技能上限為 1（不能在單個技能上分配超過 1 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。  初學者階級 You’ve put into practice everything you’ve read in books and everything you’ve watched on tv.</description>
+階級系統的晉升是透過「成就」來實現的。
+當訓練家完成了所有晉升所要求的成就之後，訓練家與其寶可夢們就都可以獲得晉級帶來的好處。
+說書人可以增加或修改提升訓練家階級所需要達成的成就。 新手階級 你才剛開始你的訓練家生涯，還只是個沒有任何實際經驗的菜鳥。大部分的野生寶可夢都不會聽從你的話，而因為你根本還不夠理解你寶可夢的潛力，就連你自己的寶可夢也很難理解任何不符合牠們原始本能的命令。
+晉升這個階級需要達成什麼成就？  取得你的訓練家執照（角色卡）。 得到你的第一隻寶可夢。  好處:  獲得 5 點技能點數。 技能上限為 1（不能在單個技能上分配超過 1 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。  初學者階級 你把從書本上讀過的、電視上看過的一切都付諸實踐。也許你嘗試了好幾次才終於成功。年幼且順從的寶可夢能理解你的訓練，並會聽從你的命令。
+晉升這個階級需要達成什麼成就？  成功理解你的寶可夢想表達什麼。 訓練一隻寶可夢。 捕捉到你的第二隻寶可夢。 在與訓練家的正式戰鬥中取得你的第一場勝利。  好處:  額外獲得 2 點可供分配的特質點數。 額外獲得 2 點可供分配的社交特質點數。 額外獲得 4 點技能點數。 技能上限為 2（不能在單個技能上分配超過 2 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。  業餘者階級 在一段時間之後，你成功瞭解了做為一名寶可夢訓練家的基礎：你必須努力訓練、照顧好你的同伴，並向道館館主虛心求教。你能遇到的大部分訓練家都屬於這個階級。
+晉升這個階級需要達成什麼成就？  讓一隻寶可夢進化。 贏得你的第一個徽章。 提高一隻寶可夢的忠誠度＆幸福度。  好處:  額外獲得 2 點可供分配的特質點數。 額外獲得 2 點可供分配的社交特質點數。 額外獲得 3 點技能點數。 技能上限為 3（不能在單個技能上分配超過 3 點）。 可以指定最多 3 隻寶可夢做為目標（包括自己）。  菁英階級 很少有訓練家能有足夠的拚勁和天賦來把自己提升到平均水準之上。菁英階級的訓練家克服了所有的障礙，並將他一切所學的都運用在了旅途之中。他們展現出了他們的寶可夢蘊藏的真正潛力。</description>
       </item>
       
       <item>
