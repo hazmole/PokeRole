@@ -1,6 +1,8 @@
 <div class="Nature">
-  <h4 id="{{ .Get 0 }}">{{ .Get 0 }}</h4>
+  <div class="NatureHeader">
+    <h4 id="{{ .Get 0 }}" class="title">{{ .Get 0 }}</h4>
+    <div class="confident">信心: {{ .Get 1 }}</div>
+  </div>
   <div class="description">{{ .Get 2 }}</div>
-  <div class="confident">Confidence: {{ .Get 1 }}</div>
   <p>{{ .Inner | markdownify }}</p>
 </div>

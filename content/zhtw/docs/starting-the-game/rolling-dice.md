@@ -5,21 +5,18 @@ description = "說明擲骰判定的相關規則"
 +++
 
 ## 擲骰判定
-Our lives are influenced by random factors all the time. 
-Luck is a part of our lives, fortune can change our future and destiny is built on the results of our actions.
+我們的生活無時無刻都會受到隨機因素的影響。運氣是我們生活中的一部分，它可以改變我們的未來，而命運也建立在我們的行動結果之上。
 
-**In Pokémon: The Role Playing Game all variables are represented by six-sided dice.** These Dice are pretty easy to get and you can find them in almost any gaming store. You may even have some from your old board games!
+**在本系統中，所有的變數都會以六面骰來表示。** 這種骰子很容易取得，且你可以在幾乎所有的桌遊店、或甚至在你的舊桌遊裡找到它們！
 
-**You will need to roll the dice to perform any action** you can imagine.
+在故事進行的過程中，你的角色將不得不採取一些不同尋常的行動。
+**你需要擲骰判定來執行任何你所想像的動作。**
 
-During the course of the story, your character will have to perform certain actions that are out of the ordinary. 
+既然你已經瞭解了關於特質和技能的一切，接下來就是時候學習如何使用它們了。
 
-Now that you have seen the Attributes and Skills, it’s time to learn about how to use them.
-
-**Unless it’s something simple, every Action roll is an ensemble of an Attribute and a Skill**. The total sum of the points your character has in those traits is the final dice pool for the action. 
-
-**Roll those dice and every dice that comes up as 4, 5 or 6 counts as a success.**
-**You might require 1, 2, 3 or more successes** from this roll **depending on the difficulty of the task.**
+**除了簡單的行為之外，所有的行動擲骰都會是一個特質和一個技能的組合。** 把你的角色的這兩項數值加總起來，就會是你用來為該行動擲骰的最終骰池數量。
+**拿這個骰池裡的骰子來擲骰，每顆骰出 4、 5、或 6的骰子將被視作一個成功骰。**
+**你可能會需要　1、 2、 3個或更多的成功骰**才能讓這次擲骰判定成功，你所需的成功骰數將**取決於任務的難度**。
 
 <table>
 <tr><th> 所需成功骰數 </th><th> 難度設定 </th></tr>
@@ -31,28 +28,25 @@ Now that you have seen the Attributes and Skills, it’s time to learn about how
 </table>
 
 {{< example >}}
-Wilson is chasing a **Murkrow** who stole his Trainer bag.
-**Murkrow** is slowed due to the bag's weight and thus not able to fly high enough.
-This makes the task pretty easy and Willson's roll only needs 1 Success to get the thief.
+威爾遜正在追逐著一隻把他訓練家背包的**黑暗鴉**。
+因為背包的重量，黑暗鴉的飛行速度被拖慢，也飛不了太高，因此要追上牠並不困難，威爾遜的擲骰判定只需要有 1 顆成功骰就能逮到這個小賊。
 
-Later that day, a **Honchkrow** comes and steals his bag (again!) since it is stronger, it's not being slowed down and Wilson's roll will need 3 successes. 
-If he doesn't catch it on his first attempt and **Honchkrow** starts to fly higher, his roll will progresively increase in difficulty, until **Honchkrow** gets out of reach and flies away
+在當天稍晚，一隻**烏鴉頭頭**飛來，並偷走了他的包包（又來了！）。因為烏鴉頭頭比較強壯，牠的速度不會被拖慢，所以威爾遜要追上牠將會需要 3 顆成功骰。
+如果威爾遜沒能在第一次擲骰就捉到牠，那麼烏鴉頭頭就會飛得更高，讓擲骰判定的難度變得越來越困難，直到牠飛到搆不著的高空，徹底遠走高飛。
 {{< /example >}}
 
+
 ---
-
 ### ⬛ 大失敗
-What would happen if you try to get a 4 year-old to land a plane during an emergency? Probably nothing good.
 
-Underperforming when attempting a task can bring catastrofic results. That is why if **you score a roll with less than 3 successes than required** you will not just fail to do the task, but **something bad will happen** at your Storyteller's discretion.
-* Receiving Damage
-* Damaging an ally
-* Making the task completely impossible
-* Getting an Status Ailment 
- ...or worse.
+如果你讓一個四歲孩子在緊急情況下駕駛飛機迫降會發生什麼事？對，大概不會有什麼好下場。
 
-That means that tasks that are **Troublesome**, or **Challenging** can be attempted safely, but as soon as the difficulty becomes **Hard** the possibilities of suffering injury or having disastrous consequences are very real.
+在嘗試進行高難度任務時做出糟糕的表現可能會帶來災難性的後果。這就是為什麼**當你在擲骰時得到了比要求成功骰數低 3 顆或以下的成功骰**時，你不僅無法完成任務．說書人還可能斟酌讓**一些不好的事情**發生。你可能會：
+* 受到傷害
+* 誤傷到隊友
+* 使任務完全不可能達成
+* 陷入異常狀態
+ ……或其他更糟的。
 
-The farther your roll is to the required successes, the worse the outcome will be.
-
-
+這意味著，你可以安全地嘗試進行難度為 **「麻煩」** 或是 **「有挑戰性」** 的任務，然而一旦難度提升到 **「困難」** 或以上，那麼你因為失誤而負傷或造成災難性後果的可能性也就浮上了水面。
+你骰出的結果跟所需成功骰數差的越遠，你導致的後果就可能會越糟糕。

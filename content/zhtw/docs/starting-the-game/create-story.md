@@ -1,66 +1,73 @@
 +++
 title = "創作故事"
 weight = 10
-description = "說明該如何創作精彩的冒險故事"
+description = "說明該如何創作出精彩的冒險故事"
 +++
 
-## Creating a Story
-Now it’s time to derail the train of destiny with some booms and bams! Characters expect to live adventures. When they get out looking for trouble they are gonna find you ready.
-Being a Storyteller and creating a story is not as hard as anyone would think. Relax and have fun with any crazy idea. Just remember that you are here to make sure that everyone is having fun.
+## 創作故事
+現在是時候用一點轟轟烈烈的爆炸讓命運的列車脫軌了！角色們期待著遭遇生活中的冒險，而當他們出發去找麻煩時，他們將發現你早已準備就緒。
+擔任說書人並創作故事其實沒有大家想像中的那麼困難。放輕鬆，盡情享受那些瘋狂點子帶來的樂趣。只要記住，你在這裡是為了確保大家都能玩得開心。
 
-To start, talk to your players and ask them how they wish to play, what they expect from the story, and what their perceptions of the Pokémon world are.
+首先，和你的玩家們討論，詢問他們希望玩些什麼？他們對故事有什麼樣的期待？以及他們對於寶可夢世界有什麼樣看法。
 
-You have to unify their perception to make sure their characters are being brought to life with a clear idea about how this society works and their attitude towards Pokémon and other humans. You can even share a brief summary of what’s to come.
+你需要統整他們的看法，確保他們對於這個社會的運作有一個清晰的認知，對角色看待寶可夢和其他人們的態度能有所共識，從而扮演出活生生的角色。你可以在最後為此做一個簡單總結，確保大家都站在同一條線上。
 
-**Listen to their concerns and also express your own.**
-Remember that it is also their responsibility to create fun characters that can contribute to the story.
+**仔細傾聽玩家關注的事物，也適時表達自己的意見。**
+記得，他們也有責任創造出有趣且能為故事做出貢獻的角色。
 
-Someone who antagonizes other players or the storyteller is not doing their job as a player correctly. 
-**Make sure no one creates a character that cannot be befriended.**
+那些與其他玩家或說書人作對的人，就是沒有正確履行身為玩家所應盡的職責。
+**確保沒有任何玩家創造了無法與他人結交朋友的角色。**
 
-Once everyone is on the same page, it’s time to get prepared.
+一旦大家都達成了共識，就可以準備開始了。
 
----
-
-### Ideas for Adventures
-##### Pokémon Journey
-**Type**: Exploration
-**Focus**: The Pokémon Lore
-**Game Plan**: Design geographic Points of Interest surrounding the Players.
-**Place NPCs**: Each NPC may be a local or another trainer with a personal connection to this Point of Interest.
-**Place Obstacles**: Each obstacle may be completed only through the use of certain Pokémon and their specific Moves.
-
-##### Missions
-**Type**: Action
-**Focus**: The Pokémon Battles
-**Game Plan**: Design an Antagonist currently hurting the Players, the Pokémon, the environment or the people.
-**Place Enemies**: Each enemy should have one or more Pokémon ready to impede the progression of the Party.
-
-##### Intrigue
-**Type**: Investigation
-**Focus**: The Human Characters
-**Game Plan**:  Design an Antagonist and an evil plan.
-**Place NPCs**: Each NPC may be a local or another trainer with a personal connection to this Point of Interest.
-**Place Clues**: One clue may be collected through Fight Skills, another may be collected through Social Skills, other may be collected through Survival skills; other may be collected through Knowledge Skills. All clues should revolve around an imminent danger.
 
 ---
+### 冒險故事的點子
+<div class="Frame">
 
-### Playtime Duration
-A game session lasts from 2 hours to 4 hours. 
+##### 寶可夢之旅
+**類型**: 探索
+**焦點**: 寶可夢傳說
+**遊戲規劃**: 設計玩家周圍的地理興趣點。
+**安排NPC**: 每個NPC可以是當地人、或是與這個興趣點之間有著個人關連的其他訓練家。
+**設置阻礙**: 每個阻礙可能只能透過利用特定的寶可夢或特定招式來通過。
+</div>
+<div class="Frame">
 
-Take into account that during that timeframe, players will only be able to perform 2 or 3 well described objectives and still leave some room for character development.
-Battles won’t always be necessary; normal people have troubles, tension and dire moments without having to fight for their lives every day. A battle is best used as the culmination of bad decisions or very tense circumstances. 
-**This is a game about drama, not grinding battles.**
+##### 任務
+**類型**: 動作
+**焦點**: 寶可夢對戰
+**遊戲規劃**: 設計一個正在傷害玩家、寶可夢、環境或是人民的反派。
+**安排敵人**: 每個敵人都應該帶有一隻或更多的寶可夢，準備好阻撓隊伍的前進。
+</div>
+<div class="Frame">
+
+##### 陰謀
+**類型**: 調查
+**焦點**: 人類角色
+**遊戲規劃**: 設計一個反派和一個邪惡計畫。
+**設置線索**: 其中一條線索需要透過戰鬥技能來獲得，另一條則可能要使用社交技能；其他的線索則可能得透過生存技能、或者利用知識技能才能取得。所有的線索都應該圍繞著一個即將發生的危險。
+</div>
+
 
 ---
+### 遊戲時間的長度
+一場遊戲聚會的時間通常會持續 2 ~ 4 個小時。
 
-### The Many ways to tell a story
-Depending on the goals of the Players, there is always a way to make the process of storytelling easier.
+考慮到在這個時間段內，玩家們通常只能完成 2 ~ 3 個過程被詳細描述的目標，並仍保有一些發展角色的扮演空間。戰鬥永遠不會是必要的；正常人不需要每天都為自己的小命奮戰，但他們仍然會遭遇各種麻煩、緊張、和危急的時刻。戰鬥最好被用作緊張嚴峻情境、或一連串壞決定所導致的劇情高潮。
 
-There are three main ways to tell a story in this game:
+**這個遊戲的重點是精彩的故事劇情，而不是惱人的戰鬥練等。**
 
-{{< boxmd >}}
-### Chronicle
+
+---
+### 講述故事的多種方式
+取決於玩家們的目標不同，總是會有辦法讓講述故事的過程變得更加輕鬆。
+
+這個遊戲有三種主要的說故事方式：
+
+<div class="Frame">
+
+#### 編年史
 Some stories are too long to be told in one game session. A Chronicle is a grand adventure with one main plot and usually one recurring villain. This kind of story can get really epic and can take months of gaming sessions.
 It was made a common belief that this kind of storytelling was the normal mode to play, however, it is not. 
 
@@ -68,41 +75,45 @@ This is hard mode.
 
 It’s common to see people start a Chronicle and never finish it, so keep it simple.
 Communication between players and storyteller makes all the difference.
-{{< /boxmd >}}{{< boxmd >}}
-### Episodic
+</div>
+<div class="Frame">
+
+#### 單元劇
 Picture it like watching a TV Show, a single session is a complete adventure on its own. 
 Many things could change for better or worse, however, let it be powerful. Allow the players to learn something from it. The fact that they can 
 return to their normal lives doesn’t mean they went home empty-handed.
 
 It is possible to begin to play in an Episodic way and then throw some Chronicle elements.
-{{< /boxmd >}}{{< boxmd >}}
-### Storyteller Rotation
+</div>
+<div class="Frame">
+
+#### 環團
 Storyteller Rotation has a great advantage due to many people taking turns at storytelling. 
 The characters will be provided with many more kinds of adventures because everyone has a unique way of thinking. 
 
 Storytellers may take a break and also play their characters and there’s more time to write better adventures.
 It’s like watching a series of movies telling the comings and goings of the Characters. It is very similar to a normal Chronicle that is combined with Episodic Storytelling.
-{{< /boxmd >}}
+</div>
 
 ---
 
-### All Players should...
-##### Go with the flow
+### 所有玩家都應該……
+###### 順從故事的流動
 <u>Stay in character and actively role-play</u>, so instead of saying: “I send out my dragon pokémon and I order it to attack or whatever...” Act as if your character was really in the situation and say: “Garchop, go! Charge using Dragon rush!” So don't be shy and let's have fun!
 
-##### Stay Focused
+###### 保持專注
 Sometimes not much is happening, or maybe your character is not on the scene. <u>Be calm, listen, and stay focused.</u> Paying attention when the storyteller is speaking is a common courtesy. It will make the game flow faster and smoother.
 
-##### Work as a Team
+###### Work as a Team
 The other players are members of your group, you should be friendly to them and their characters. <u>You guys are a team and should work as such.</u> Antagonizing other party members for your own amusement is disruptive and disrespectful. Don’t be THAT guy.
 
-##### Request Goals
+###### Request Goals
 Are you trying to defeat the Gym leaders? Exploring old ruins full of strange Pokémon? Make characters to fit that goal. If for some reason you are at a loss of what to do, you should <u>ask the Storyteller</u> to do a retell on the important plot points.
 
-##### Not obsess about rules and mechanics
+###### Not obsess about rules and mechanics
 Remember that the Storyteller will decide what’s appropriate in the story. If there is a conflict or a stalemate <u>use common sense</u> and prioritize the story flow over anything else.
 
-##### Try out Storytelling!
+###### Try out Storytelling!
 Everyone has the ability to tell a story, we want to encourage you to try it from time to time.
 <u>It’s a wonderful experience and it’s easier than you’d think.</u>
 We’re sure you can do it!
