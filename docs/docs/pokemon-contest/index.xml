@@ -1,61 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>寶可夢華麗大賽 on 寶可夢扮演2.0 Pokerole</title>
-    <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/</link>
-    <description>Recent content in 寶可夢華麗大賽 on 寶可夢扮演2.0 Pokerole</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zhtw</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    
-        <atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-contest/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>華麗大賽介紹</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid>
-        <description>Pokemon Contest Pokémon Trainers usually make Pokémon Battles their main focus and it’s all right if you like that kind of crude and violent entertainment, but why would you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon Contests?
-What are Pokémon Contests? When you talk about Pokémon Contests, you talk about the most profitable show business in this world.</description>
-      </item>
-      
-      <item>
-        <title>華麗大賽的構成</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid>
-        <description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢華麗大賽 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/</link><description>Recent content in 寶可夢華麗大賽 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-contest/index.xml" rel="self" type="application/rss+xml"/><item><title>華麗大賽介紹</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid><description>Pokemon Contest Pokémon Trainers usually make Pokémon Battles their main focus and it’s all right if you like that kind of crude and violent entertainment, but why would you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon Contests?
+What are Pokémon Contests? When you talk about Pokémon Contests, you talk about the most profitable show business in this world.</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
-The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description>
-      </item>
-      
-      <item>
-        <title>華麗大賽的流程</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid>
-        <description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
+The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
 2. Performance Runway These are the main events of the Contest.
-Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description>
-      </item>
-      
-      <item>
-        <title>協調訓練家等級</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid>
-        <description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
+Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>協調訓練家等級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
 If you dedicate yourself to winning Contests you will be able to gain Coordinator Ranks, these do not replace your Pokémon Trainer Rank but add to it.
-Think about it as a specialization to being a Pokémon Trainer.</description>
-      </item>
-      
-    
-  </channel>
-</rss>
+Think about it as a specialization to being a Pokémon Trainer.</description></item></channel></rss>

@@ -68,113 +68,117 @@ description = "說明該如何創作出精彩的冒險故事"
 <div class="Frame">
 
 #### 編年史
-Some stories are too long to be told in one game session. A Chronicle is a grand adventure with one main plot and usually one recurring villain. This kind of story can get really epic and can take months of gaming sessions.
-It was made a common belief that this kind of storytelling was the normal mode to play, however, it is not. 
+有些故事太長，沒有辦法在一次遊戲聚會的時間內說完。編年史是一部有著主線劇情，且通常會有反派反覆出現的宏大冒險故事。這種類型的故事可以營造出相當史詩的壯闊感，並會花上好幾個月的遊戲時間。
+人們普遍認為這樣的敘事方式是角色扮演遊戲的正常模式，但事實並非如此。
 
-This is hard mode.
+這其實是困難模式。
 
-It’s common to see people start a Chronicle and never finish it, so keep it simple.
-Communication between players and storyteller makes all the difference.
+經常能看到有人興致勃勃地以編年史體裁開始了遊戲，但始終無法將故事完成，所以盡可能保持簡單吧。
+玩家們與說書人之間的溝通尤其重要。
 </div>
 <div class="Frame">
 
 #### 單元劇
-Picture it like watching a TV Show, a single session is a complete adventure on its own. 
-Many things could change for better or worse, however, let it be powerful. Allow the players to learn something from it. The fact that they can 
-return to their normal lives doesn’t mean they went home empty-handed.
+想像成像是電視劇那樣，每一次的遊戲聚會本身就是一場完整的冒險故事。
+許多事物都可能因此產生或好或壞的變化，但記住，讓它們帶來有力的影響。讓玩家們能夠從中學到新東西。他們能在冒險之後回到正常生活的事實，並不意味著他們得空手而歸。
 
-It is possible to begin to play in an Episodic way and then throw some Chronicle elements.
+你可以先用單元劇的方式開始遊戲，接著再拋出一些編年史的要素。
 </div>
 <div class="Frame">
 
 #### 環團
-Storyteller Rotation has a great advantage due to many people taking turns at storytelling. 
-The characters will be provided with many more kinds of adventures because everyone has a unique way of thinking. 
+多虧了許多人一起輪流講述故事的性質，環團是一個有著很大優勢的敘事方式。
+因為每個說書人都會帶來他們各自的獨特想法，角色們將能夠因此獲得更多不同種類的冒險體驗。
 
-Storytellers may take a break and also play their characters and there’s more time to write better adventures.
-It’s like watching a series of movies telling the comings and goings of the Characters. It is very similar to a normal Chronicle that is combined with Episodic Storytelling.
+除此之外，說書人們也能夠在輪到別人時休息一下，能夠扮演遊玩他們自己的角色，也會有更多的時間能夠醞釀，寫出更好的冒險故事。
+這就像是在觀賞一系列的電影，講述著角色們的來來往往。這與一般的編年史相當類似，但同時也結合了單元劇的敘事方式。
 </div>
 
 ---
 
 ### 所有玩家都應該……
-###### 順從故事的流動
-<u>Stay in character and actively role-play</u>, so instead of saying: “I send out my dragon pokémon and I order it to attack or whatever...” Act as if your character was really in the situation and say: “Garchop, go! Charge using Dragon rush!” So don't be shy and let's have fun!
+###### 順其自然
+<u>維持進入角色的狀態並積極扮演</u>，不要說：「我派出我的龍系寶可夢，然後我命令牠攻擊之類的……」，而是如同你的角色真實存在於那個情境去進行扮演，像是說：「去吧，烈咬陸鯊！使用龍之俯衝衝過去！」 
+不要害羞！一起享受扮演的樂趣吧！
 
 ###### 保持專注
-Sometimes not much is happening, or maybe your character is not on the scene. <u>Be calm, listen, and stay focused.</u> Paying attention when the storyteller is speaking is a common courtesy. It will make the game flow faster and smoother.
+有時候當故事裡並沒有發生什麼大事，或也許你的角色並不在當前場景之中。你仍需要<u>靜下心，認真傾聽，並且保持專心。</u>在說書人說話的時候注意聆聽是一種常規的禮貌。這同時也能讓整個遊戲進行的更快速、更流暢。
 
-###### Work as a Team
-The other players are members of your group, you should be friendly to them and their characters. <u>You guys are a team and should work as such.</u> Antagonizing other party members for your own amusement is disruptive and disrespectful. Don’t be THAT guy.
+###### 做為一個團隊
+其他的玩家也都是你們團隊的一員，你應該要和他們、以及他們的角色友好相處。<u>你們是一個團隊，且應該要以一個團隊該有的樣子共同合作。</u>為了自己的快樂而與其他玩家作對，是一種破壞性且不尊重他人的行為。千萬別成為那種人。
 
-###### Request Goals
-Are you trying to defeat the Gym leaders? Exploring old ruins full of strange Pokémon? Make characters to fit that goal. If for some reason you are at a loss of what to do, you should <u>ask the Storyteller</u> to do a retell on the important plot points.
+###### 追求目標
+你想要贏過道館館主嗎？還是想要探索充滿新奇寶可夢的古老遺跡？創造出能配合這個目標的角色。如果你因為某些原因茫然不知所措，你可以<u>詢問說書人</u>複述一下重要的劇情重點。
 
-###### Not obsess about rules and mechanics
-Remember that the Storyteller will decide what’s appropriate in the story. If there is a conflict or a stalemate <u>use common sense</u> and prioritize the story flow over anything else.
+###### 不要糾結於規則和機制
+記住，說書人將會決定什麼在故事中才是合適的。如果不幸發生了衝突或僵局時，請<u>使用常識</u>，且將故事優先於其他的一切。
 
-###### Try out Storytelling!
-Everyone has the ability to tell a story, we want to encourage you to try it from time to time.
-<u>It’s a wonderful experience and it’s easier than you’d think.</u>
-We’re sure you can do it!
+###### 試著講述故事！
+每個人都具有說故事的能力，我們也鼓勵你時不時就去嘗試看看。
+<u>做為說書人講述冒險故事是一種相當美妙的體驗，而且絕對比你想像的要容易得多。</u>
+我們相信你一定做得到！
 
----
-
-## Laws of Storytelling
-1. **Don’t create a story to win**
-This is not about how you are going to defeat the players.
-
-2. **Don’t fret over minuscule details**
-Your job is to create a mood, an atmosphere. You don’t have to describe where every single object is. Let their imaginations do the work, this will save time and make the game flow uninterrupted.
-
-3. **Help the players get into their characters**
-Players are not really inside the Pokémon world. Don’t expect them to perform as you imagined. Try to tell them how their characters feel and what they are thinking. It’s useful to place thoughts in them from time to time.
-
-4. **The game is not only about mechanics**
-This game is about active role-playing, don’t get too deep into the numbers, the rules, and pop-up combat. It’s never as important as the drama.
-
-5. **Actively Role-Play**
-This game requires active role-playing. You are not only preparing to tell a story, you are also getting prepared for acting. The same law applies to the Players. Add spice by describing the actions and the Moves of their Characters and Pokémon in the game.
-
-6. **Use tools**
-Even if you have a beautiful voice, use appropriate music and sound effects. You may print maps or show your players pictures of the places they are in. This will help everyone to be in the same tune and will make your story a lot more interesting. 
-
-7. **Get prepared**
-It’s not ok to walk into the room not knowing what you are going to say. Improvisation can only take you so far.
-
-8. **Use Time**
-Use time in your favor. You can use Flashbacks, Fast-Forwards, or Pause the session if you need some time to think. Taking breaks is always nice.
-
-9. **Make sure everyone is having fun**
-You are not their entertainer, but you have to make sure everyone is taking part in the story. From the most talkativeand extrovert to the most shy and timid of your players.
-
-10. **Start as close to the end as possible**
-Long introductions are boring. Even If there is something very important from the past, try to use exposition to say it.
-
-11. **Make it feel real not “realistic”**
-To bring your adventures to life you must have fun with the innocence and fantasy of the game.
-
-12. **Don’t create a story to win. Again.**
-Just to be clear.
-
-13. **The storyteller is not “God”**
-You’ll always have the final word, but don’t let the power fool you. If you think you can do whatever you want, you’ll find yourself without players very soon
 
 ---
+## 說故事的原則
+{{< boxmd >}}
+###### 1. 不要為了贏而創造故事
+這並不是一款讓你擊敗玩家的遊戲。
 
-## Tips on Storytelling
-##### Improvise
-There will be times your players suggest something wild or illogic. Try not to say “No” if they suggest it, it must be because they find it fun. Roll with it, improvise and try to make it fit into the setting and story.
+###### 2. 不要為微不足道的細節煩惱
+你的職責是創造出一個情境、一個氛圍。你不需要去描述每一個物件被放在哪裡。讓玩家們的想像力自行發揮，這能大大節省時間，也不會讓遊戲因此被干擾。
 
-##### Prepare Random Encounters
-Sometimes players get to a point you didn’t expect, so prepare some bad dudes and their Pokémon. 
-This should be used only when it’s really necessary, not as part of your story. If you don’t use this Encounter in the game session, save it for later.
+###### 3. 幫助玩家們進入他們的角色
+玩家們畢竟不是真的進入了寶可夢的世界。別期望玩家會照著你想像的樣子去扮演。試著跟他們提醒他們的角色可能會有的感受和想法。時不時提供一些想法給他們能帶來很大的幫助。
 
-##### Give Emergency clues
-Many times Players will miss a VERY CRUCIAL clue. Maybe it was right under their nose, but now they can’t go any further without it or the story will take a bitter turn. 
-In such cases, you may have to move the clue from place to place in case it is needed. Maybe it’s time to use the random encounter or have an ally appear.
-Prioritize story flow over puzzles and mechanics.
+###### 4. 這遊戲並不只有機制
+這是一款關於角色扮演的遊戲，所以不需要太深究於數字、規則、和突發戰鬥。這些永遠都不比故事劇情來得重要。
 
-##### Positive reinforcement
-Perhaps your Players are getting out of character or being disruptive. **Keep Calm.** Talk to them.
-Don’t punish your players in-game for something that’s happening out of it. Engage them, give them goals and reward their achievements. You may also try converting the interactions and comments they make out-of-game to in-game. The results may surprise you.
+###### 5. 積極角色扮演
+這個遊戲要求你們積極地進行角色扮演。你不僅要為講述故事做準備，也得準備好扮演角色。這也同樣適用於玩家。
+透過描述自己的角色和寶可夢在遊戲中採取的行動和招式，為遊戲增添風味。
+
+###### 6. 善用工具
+就算你有美妙的嗓音，你也可以借助一些音樂和音效的幫助。你可以把地圖列印出來，或讓玩家們看看他們所在地的圖片。這能幫助大家建立共識，也能讓你的故事更加有趣。
+
+###### 7. 做好準備
+帶著空空的腦袋走進房間裡可不怎麼OK。
+即興演出只能幫你到這了。
+
+###### 8. 利用時間
+讓時間成為你的幫手。你可以使用倒敘、快轉的手法推進故事，或者在你需要一些時間思考的時候暫停團務。稍作休息總是好的。
+
+###### 9. 確保每個人都玩得開心
+你不是他們的娛樂演員，但你必須確保每個人都參與到故事之中：無論是最健談外向的玩家、或最害羞膽小的玩家，都能夠從故事中得到樂趣。
+
+###### 10. 盡可能簡要的開場
+長篇大論的介紹相當無聊。就算之前發生過什麼非常重要的事件，也請試著簡明扼要的說明。
+
+###### 11. 讓人感覺真實，而非「寫實」
+要讓你的冒險故事栩栩如生，你就必須享受遊戲中純真和幻想。
+
+###### 12. 再強調一次，不要為了贏而創作故事
+只是再強調一下。
+
+###### 13. 說書人並不是「上帝」
+你在遊戲中永遠握有最終的裁斷權，但千萬不要讓權力蒙蔽你。若你以為你可以為所欲為，你很快就會發現自己找不到願意與你一起玩的玩家了。
+{{< /boxmd >}}
+
+
+---
+## 說故事的小技巧
+###### 即興發揮
+有時你的玩家們會提出一些瘋狂或不合邏輯的建議。當他們這麼做時，盡量不要說「不」，因為他們肯定是覺得這麼做有它的樂趣在。順其自然，即興發揮，並嘗試將它融入情境與故事之中。
+
+###### 準備隨機遭遇
+有時候玩家們會走到某個出乎你預料到的地方，因此隨時準備好一些壞蛋和他們的寶可夢。
+這只應該用在你真正需要它們的時候，而不是做為你故事中必然發生的片段。如果你沒有在這次的聚會中用到這些遭遇，那就把它們留待之後再使用。
+
+###### 給出緊急線索
+玩家們常常會不小心錯過某個**非常關鍵**的線索。也許這條線索曾經擺在他們的眼皮底下，但現在沒有了它，玩家們因此難有進展，或者故事將因此發生一個痛苦的轉折。
+在這種狀況下，你可能必須讓這個線索在必要時出現在另外一個地方。也許是時候使用你準備好的隨機遭遇，或者讓他們的盟友現身了。
+優先考慮故事的流程，而不是謎題和機制。
+
+###### 提供正面回饋
+也許玩家們的角色扮演開始超遊、或出現了破壞性。不要緊張，**保持冷靜**，跟他們好好談談。
+不要因為遊戲外發生的事情而在遊戲中懲罰你的玩家。讓他們參與進來，給他們目標，並獎勵他們的成就。你也可以試著把他們在遊戲外做出的互動與言行轉換到遊戲內。結果可能會讓你大吃一驚。

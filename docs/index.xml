@@ -1,37 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title>
-    <link>https://hazmole.github.io/PokeRole/</link>
-    <description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zhtw</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
-    
-        <atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>不同的寶可夢屬性</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid>
-        <description>The Different Pokémon Types This world is filled with different sources of energy that Pokémon can control. They absorb it as part of their bodies or shape it into powerful attacks.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>不同的寶可夢屬性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid><description>The Different Pokémon Types This world is filled with different sources of energy that Pokémon can control. They absorb it as part of their bodies or shape it into powerful attacks.
 The Pokémon that is especially proficient at using certain kind of energy is labeled with what we call a Type. Until now, 18 types of Pokemon have been recognized.
-Normal Pokémon that are not especially proficient at controlling other energies.</description>
-      </item>
-      
-      <item>
-        <title>介紹</title>
-        <link>https://hazmole.github.io/PokeRole/docs/introduction/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/introduction/</guid>
-        <description>介紹 歡迎來到Pokemon RPG！
+Normal
+Pokémon that are not especially proficient at controlling other energies.</description></item><item><title>介紹</title><link>https://hazmole.github.io/PokeRole/docs/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/introduction/</guid><description>介紹 歡迎來到Pokemon RPG！
 這是一本關於如何創造一個屬於你自己的故事，帶領你的角色以及寶可夢前往未知之旅的規則書！
 ⬛ 什麼是角色扮演遊戲？ 角色扮演遊戲，就像是做為演員去演出一場戲劇。
 你可以試著在腦中想像一下和小朋友玩家家酒的畫面。你拿起一個代表你的玩偶，並且透過這個玩偶講話、跳躍、開車、進行各種傻里傻氣、或是令人驚豔的冒險。
@@ -50,16 +20,7 @@ The Pokémon that is especially proficient at using certain kind of energy is la
 在遊戲過程中最主要的工具，就是你的「想像力」。有了它，你們將能夠真正實現不可能之事：在藍天翱翔！從馳騁飛車上跳下！騎乘巨龍或甚至與幽靈交朋友！只要是你能想的到的，你就讓它在這個遊戲中化作真實。
 第二個你必須取得的工具是「角色卡」。玩家們將利用角色卡來記錄各自角色的數值和寶可夢搭檔。
 最後你必須使用的工具是「骰子」。只要有足夠的運氣，任何人都能創造奇蹟；反過來說，再頂尖的人也可能在倒楣的時候失族。
-你在遊戲中的命運，將會由你的能力數值以及一些些的骰運來決定。</description>
-      </item>
-      
-      <item>
-        <title>創建角色</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</guid>
-        <description>創建角色 在《寶可夢扮演》這個遊戲中，你必須創建一名寶可夢訓練家（稱其為你的角色），這個人物將會是你在這個故事中的分身。
+你在遊戲中的命運，將會由你的能力數值以及一些些的骰運來決定。</description></item><item><title>創建角色</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/</guid><description>創建角色 在《寶可夢扮演》這個遊戲中，你必須創建一名寶可夢訓練家（稱其為你的角色），這個人物將會是你在這個故事中的分身。
 你也將挑選一個起始寶可夢，跟你的角色一樣，這個選擇也相當重要。記住，你所選擇的寶可夢通常會反映出你身為訓練家的個性與志向。
 在創建角色時，儘管挑選那些玩起來有趣的內容，讓你能夠在遊戲中放飛做夢、犯蠢、並為你那些最瘋狂的點子盡情歡笑。或許你會想成為某部卡通裡的英雄、或以你崇拜的對象做為基礎來加筆、或甚至模仿某個著名的人物。
 此外，建議選擇那些你能夠輕易表現並演出的人格個性，因為你會需要經常將它扮演出來。
@@ -70,90 +31,49 @@ The Pokémon that is especially proficient at using certain kind of energy is la
 ⬛ 個人特質與背景 告訴大家一些有關於你訓練家的過往。
 你的訓練家可以是任何你想要他成為的人物，充實他或她的內在。不要讓他只是一具讓你在遊戲中施展手腳的空殼，而是一個懷抱著夢想和志向，有著缺陷和弱點，活生生的人物。
 為了創造一名豐滿且有說服力的角色，你可以詢問自己下列這些問題，並以你角色的視角來回答這些問題。
- 你的名字是什麼？ 你的年紀多大？ 你的「性格」是什麼？ （參見「性格」章節） 你的職業／角色概念是什麼？ 你對寶可夢世界有什麼樣的期望？  以及最重要的：
-你在寶可夢世界中有什麼樣的目標？ 你達成這個目標的動機是什麼？ 你會如何使這個世界變得更好？  回答這些問題能讓說書人更容易地為你的角色提供他或她所需要的挑戰。不要忘記，玩家們與說書人之間的良好溝通將能使這個故事更圓滑順暢地進行。
-玩家必須要回答完這些問題才能夠開始遊戲。 填寫訓練家角色卡 當你訓練家的角色概念準備就緒，你就可以接著分配角色的特質點數和技能點數。
+你的名字是什麼？ 你的年紀多大？ 你的「性格」是什麼？ （參見「性格」章節） 你的職業／角色概念是什麼？ 你對寶可夢世界有什麼樣的期望？ 以及最重要的：
+你在寶可夢世界中有什麼樣的目標？ 你達成這個目標的動機是什麼？ 你會如何使這個世界變得更好？ 回答這些問題能讓說書人更容易地為你的角色提供他或她所需要的挑戰。不要忘記，玩家們與說書人之間的良好溝通將能使這個故事更圓滑順暢地進行。
+玩家必須要回答完這些問題才能夠開始遊戲。
+填寫訓練家角色卡 當你訓練家的角色概念準備就緒，你就可以接著分配角色的特質點數和技能點數。
 訓練家的所有特質起始皆為 1 點。
 新角色通常會以「新手」階級的青少年的身分來開始遊戲。更多關於階級的相關說明，請參照「階級」章節。
 特質 青少年有 2 點可以進行分配在特質上。
 你可能會因為你的起始階級不同而有額外可分配的點數。
- 力量: ●●○○○ 活力: ●○○○○ 靈巧: ●●○○○ 洞察: ●○○○○  社交特質 青少年有 2 點可以進行分配在社交特質上。
+力量: ●●○○○ 活力: ●○○○○ 靈巧: ●●○○○ 洞察: ●○○○○ 社交特質 青少年有 2 點可以進行分配在社交特質上。
 你可能會因為你的起始階級不同而有額外可分配的點數。
- 強壯: ●○○○○ 美麗: ●●○○○ 帥氣: ●○○○○ 可愛: ●○○○○ 聰明: ●●○○○  技能 你有 5 點可以分配在技能上，新手的技能上限為 1 點。</description>
-      </item>
-      
-      <item>
-        <title>招式的規則</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid>
-        <description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.-GrimsleyPokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description>
-      </item>
-      
-      <item>
-        <title>華麗大賽介紹</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid>
-        <description>Pokemon Contest Pokémon Trainers usually make Pokémon Battles their main focus and it’s all right if you like that kind of crude and violent entertainment, but why would you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon Contests?
-What are Pokémon Contests? When you talk about Pokémon Contests, you talk about the most profitable show business in this world.</description>
-      </item>
-      
-      <item>
-        <title>創建寶可夢</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid>
-        <description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
+強壯: ●○○○○ 美麗: ●●○○○ 帥氣: ●○○○○ 可愛: ●○○○○ 聰明: ●●○○○ 技能 你有 5 點可以分配在技能上，新手的技能上限為 1 點。</description></item><item><title>招式的規則</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid><description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.
+-Grimsley
+Pokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description></item><item><title>華麗大賽介紹</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid><description>Pokemon Contest Pokémon Trainers usually make Pokémon Battles their main focus and it’s all right if you like that kind of crude and violent entertainment, but why would you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon Contests?
+What are Pokémon Contests? When you talk about Pokémon Contests, you talk about the most profitable show business in this world.</description></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
 扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
 把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
-儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。 大多數的寶可夢都能夠進化。若想要瞭解更多關於不同進化的觸發方式，請參照「」章節。 寶可夢並不需要有像訓練家那樣的角色概念。
+儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。
+大多數的寶可夢都能夠進化。若想要瞭解更多關於不同進化的觸發方式，請參照「」章節。
+寶可夢並不需要有像訓練家那樣的角色概念。
 每個寶可夢都會依照牠們物種的本能、以及牠們各自的性格來行事。
 牠們往往會有著符合其物種行為的天性，但它們仍可能存在差異。
 這意味著兩個物種相同的寶可夢可能會想要同樣的東西，但牠們性格的差異會影響牠們達成目的的方式。
 如果你才剛啟程，請移往本書第88頁的寶可夢圖鑑，並尋找這個標誌：
 {@icon novice|l}
 對於新手訓練家來說，擁有這個標誌的寶可夢會是最好的入門選擇。
- 初始寶可夢將會成為你旅途中的夥伴，因此如果能挑選與你訓練家個性相合的寶可夢會更好。
+初始寶可夢將會成為你旅途中的夥伴，因此如果能挑選與你訓練家個性相合的寶可夢會更好。
 就算沒辦法一開始就獲得你想要的寶可夢也不要絕望，這個世界相當遼闊，且收服寶可夢的過程也是在這個世界冒險的樂趣之一。
 填寫寶可夢角色卡 在填寫寶可夢角色表格時，你將會需要從寶可夢圖鑑中抄寫一些資訊。
- 名稱＆圖鑑編號 體型和體重 屬性 起始特質 限制 1 基礎 HP 特性 招式 2 3  *1: 寶可夢的特質可以達到的最高數值。*2: 寶可夢能夠學習的招式數量最多等於: 洞察 + 2。*3: 所有寶可夢學會的招式都必須等於或低於其階級。你在遊戲開始時的初始寶可夢將擁有與你訓練家相同的階級。這將會影響牠能夠選擇的招式、以及其技能的分配方式。
+名稱＆圖鑑編號 體型和體重 屬性 起始特質 限制 1 基礎 HP 特性 招式 2 3 *1: 寶可夢的特質可以達到的最高數值。
+*2: 寶可夢能夠學習的招式數量最多等於: 洞察 + 2。
+*3: 所有寶可夢學會的招式都必須等於或低於其階級。
+你在遊戲開始時的初始寶可夢將擁有與你訓練家相同的階級。這將會影響牠能夠選擇的招式、以及其技能的分配方式。
 在這之後遭遇的野生寶可夢的階級可能會比你更高或更低。
- 寶可夢角色卡 如何填寫寶可夢角色卡： 圖鑑區塊   寶可夢圖像。 寶可夢圖鑑編號。 寶可夢的物種名稱或是暱稱。 寶可夢特性。從圖鑑中挑選一個特性。  快速參照區塊  寶可夢的基礎 HP 被列在圖鑑上。每一點活力都會增加 1 點 HP。 意志點。 它的數值等同於 洞察 + 2。 持有道具 (p.</description>
-      </item>
-      
-      <item>
-        <title>如何戰鬥</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</guid>
-        <description>How to Battle Battling Pokémon is the main sport in this world because miraculous healing potions and free health care prevent your companions from getting seriously injured.
+寶可夢角色卡 如何填寫寶可夢角色卡： 圖鑑區塊
+寶可夢圖像。 寶可夢圖鑑編號。 寶可夢的物種名稱或是暱稱。 寶可夢特性。從圖鑑中挑選一個特性。 快速參照區塊
+寶可夢的基礎 HP 被列在圖鑑上。每一點活力都會增加 1 點 HP。 意志點。 它的數值等同於 洞察 + 2。 持有道具 (p.</description></item><item><title>如何戰鬥</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</guid><description>How to Battle Battling Pokémon is the main sport in this world because miraculous healing potions and free health care prevent your companions from getting seriously injured.
 The Pokémon League tries its best to keep it as safe as possible within official matches. It’s your choice to fight, just remember why your Pokémon are doing it.
 A Pokémon battle is divided into four simple stages:
-Initiative During this stage we decide the attacking order: who goes first and who goes last.</description>
-      </item>
-      
-      <item>
-        <title>招式效果標籤</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid>
-        <description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
-Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. Category Icon {@icon moveType|l|physical}PhysicalPhysical Moves are resisted with Defense. They are close range attacks.</description>
-      </item>
-      
-      <item>
-        <title>神奇的寶可夢世界</title>
-        <link>https://hazmole.github.io/PokeRole/docs/the-world/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid>
-        <description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
+Initiative During this stage we decide the attacking order: who goes first and who goes last.</description></item><item><title>招式效果標籤</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
+Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them.
+Category Icon {@icon moveType|l|physical}
+Physical
+Physical Moves are resisted with Defense. They are close range attacks.</description></item><item><title>神奇的寶可夢世界</title><link>https://hazmole.github.io/PokeRole/docs/the-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid><description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
 然而，他們的世界與我們有許多不同：其中，寶可夢的存在幾乎改變了所有事物。
 在這個世界裡，許多人遊走旅行在各個地區，尋求著冒險、神祕，以及成為頂尖的機會。
 城市的數量較為稀少且相距甚遠，但小型的城鎮倒是相當常見。他們某方面的科技相當進步，但也有些方面看起來已經過時。
@@ -199,121 +119,45 @@ Pay Attention to the Effects of your Moves. They will be the key for victory if 
 主要地區 就像我們的世界一樣，寶可夢世界劃分了許多不同的地區，且每個地區就是一個完整的國家。然而，這些國家並不是以實際的陸地或海洋做為分界，而是按照寶可夢聯盟來劃分的。
 不過還是有例外存在：關都地區與城都地區被湊在了一塊，並共享著一部份的寶可夢聯盟賽制。除此之外的其他地區都有著自己的聯盟挑戰賽、寶可夢品種、著名訓練家、和其他獨特事物。
 能在某個區域被輕易找到的寶可夢，在其他地區也許就罕見。這也是為什麼寶可夢訓練家很多都是環遊世界的旅行者，他們前往不同的地區四處探險，尋找是否有不一樣的寶可夢存在。
- ⬛ 關都地區 Kanto 關都地區 與現代日本相當類似。這裡是科技的搖籃，也是世界知名的西爾佛（Silph）公司總部和寶可夢聯盟的誕生地。
+⬛ 關都地區 Kanto 關都地區 與現代日本相當類似。這裡是科技的搖籃，也是世界知名的西爾佛（Silph）公司總部和寶可夢聯盟的誕生地。
 在這個地區，寶可夢戰鬥不只是一種全國性的運動，更是他們的生活方式。
 關都寶可夢聯盟的組織非常龐大，因此也負責了城都地區的聯盟賽註冊事宜。這是一個充滿強大訓練家、豐富多彩的地區。
-⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description>
-      </item>
-      
-      <item>
-        <title>華麗大賽的構成</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid>
-        <description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
+⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
-The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description>
-      </item>
-      
-      <item>
-        <title>Z招式</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid>
-        <description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
-These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description>
-      </item>
-      
-      <item>
-        <title>傷害</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid>
-        <description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
+The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
+These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
 If you receive damage, your Trainer and Pokémon are able to heal 1 HP every 8 hours.
-You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description>
-      </item>
-      
-      <item>
-        <title>多重行動 (可選)</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid>
-        <description>Multiple Actions (Optional) This is where you get fast and furious. You can abuse your speed and intellect to divide your attention and perform multiple tasks at the same time.
+You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>Multiple Actions (Optional) This is where you get fast and furious. You can abuse your speed and intellect to divide your attention and perform multiple tasks at the same time.
 Most common use is in battle; you can attack, evade and support your allies, but Multiple Actions are not limited to fights.
-Maybe you want to read a book while driving a car, or maybe you want to catch a ball and kick your foe while dodging bullet seeds.</description>
-      </item>
-      
-      <item>
-        <title>心理/生理/社交特質</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid>
-        <description>心理和生理特質 你的角色會使用他的特質和技能來與這個世界互動，它們在角色卡上將會以點數的型式呈現。當你的行動需要用到特質和技能時，其點數就代表你在判定中可以骰的骰子數量。
+Maybe you want to read a book while driving a car, or maybe you want to catch a ball and kick your foe while dodging bullet seeds.</description></item><item><title>心理/生理/社交特質</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid><description>心理和生理特質 你的角色會使用他的特質和技能來與這個世界互動，它們在角色卡上將會以點數的型式呈現。當你的行動需要用到特質和技能時，其點數就代表你在判定中可以骰的骰子數量。
 特質可以被單獨拿來擲骰以進行某個單純的任務。或若你想要執行一個複雜或驚人的舉動時，它們可以結合技能一起使用。
 人類的數值範圍介於 1 至 5 之間，但是某些更強壯的寶可夢可能會超過這個數字。
- 1 點為 貧弱 2 點為 平均 3 點為 良好 4 點為 優異 5 點為 驚人 6 點或更高為 超人類  ⬛ 力量 這個特質決定了承載重物和造成物理傷害的能力，以及肌肉的發達程度。
-●○○○○ 你是個弱雞，強風都能把你吹倒在地。 ●●○○○ 你的力量很一般，你可以再稍加鍛鍊就是了。 ●●●○○ 你能在健身房炫耀一番，你的身體能力是值得一看的。 ●●●●○ 你可以成為一名專業的健美運動員或舉重選手。 ●●●●● 你可以毫不費力地把一塊大石頭給搬開。 ●●●●●● 匹敵圈圈熊的怪力，足以撕毀一輛汽車。 ⬛ 活力 這個特質被用來決定你對疼痛和疲勞的抵抗力和耐性，它也代表著角色的健康與精力。
+1 點為 貧弱 2 點為 平均 3 點為 良好 4 點為 優異 5 點為 驚人 6 點或更高為 超人類 ⬛ 力量 這個特質決定了承載重物和造成物理傷害的能力，以及肌肉的發達程度。
+●○○○○ 你是個弱雞，強風都能把你吹倒在地。
+●●○○○ 你的力量很一般，你可以再稍加鍛鍊就是了。
+●●●○○ 你能在健身房炫耀一番，你的身體能力是值得一看的。
+●●●●○ 你可以成為一名專業的健美運動員或舉重選手。
+●●●●● 你可以毫不費力地把一塊大石頭給搬開。
+●●●●●● 匹敵圈圈熊的怪力，足以撕毀一輛汽車。
+⬛ 活力 這個特質被用來決定你對疼痛和疲勞的抵抗力和耐性，它也代表著角色的健康與精力。
 每點活力都可以讓你的 HP+1，並讓你獲得 1 點防禦和特防。
-你可以使用「活力」數值當作物防，使用「洞察」數值當作特防。 記下你防禦和特防的數值，你會需要它們來抵抗物理和特殊攻擊。 ●○○○○ 你看起來很虛弱且很容易疲倦。即使只是紙張劃傷手指也會讓你流淚。 ●●○○○ 少許疼痛和痛苦不會讓你哭泣，但你仍無法忍受太多痛苦。 ●●●○○ 你可以撐過一場馬拉松、或可以連續幾天不睡覺。 ●●●●○ 你可以擔當危險動作片中的替身演員。 ●●●●● 你可以代替車禍測試中的假人。 ●●●●●● 你可以用彷彿可多拉般堅硬的胸肌和大鋼蛇般的腹肌去抵擋種子機關槍的掃射。 ⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description>
-      </item>
-      
-      <item>
-        <title>華麗大賽的流程</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid>
-        <description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
+你可以使用「活力」數值當作物防，使用「洞察」數值當作特防。
+記下你防禦和特防的數值，你會需要它們來抵抗物理和特殊攻擊。
+●○○○○ 你看起來很虛弱且很容易疲倦。即使只是紙張劃傷手指也會讓你流淚。
+●●○○○ 少許疼痛和痛苦不會讓你哭泣，但你仍無法忍受太多痛苦。
+●●●○○ 你可以撐過一場馬拉松、或可以連續幾天不睡覺。
+●●●●○ 你可以擔當危險動作片中的替身演員。
+●●●●● 你可以代替車禍測試中的假人。
+●●●●●● 你可以用彷彿可多拉般堅硬的胸肌和大鋼蛇般的腹肌去抵擋種子機關槍的掃射。
+⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
 2. Performance Runway These are the main events of the Contest.
-Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description>
-      </item>
-      
-      <item>
-        <title>勝利策略</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid>
-        <description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
+Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
 How can you defeat an Onix with only the help of a tiny Pichu?
 Well, having a strategy can save the day!
-In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description>
-      </item>
-      
-      <item>
-        <title>協調訓練家等級</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid>
-        <description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
+In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description></item><item><title>協調訓練家等級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
 If you dedicate yourself to winning Contests you will be able to gain Coordinator Ranks, these do not replace your Pokémon Trainer Rank but add to it.
-Think about it as a specialization to being a Pokémon Trainer.</description>
-      </item>
-      
-      <item>
-        <title>性格</title>
-        <link>https://hazmole.github.io/PokeRole/docs/natures/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/natures/</guid>
-        <description>Nature Your Nature is your essence. Both humans and Pokémon have their values and what’s important to them defined by it. All people and Pokémon have their own unique personality, but it is their Nature what defines how they will react to certain situations.
-Your Nature will show what’s inside your mind and that will reflect on the exterior. Some Natures are beneficial for certain aspects of life and all of them can have their own hindrance when facing certain situations.</description>
-      </item>
-      
-      <item>
-        <title>技能</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</guid>
-        <description>技能與額外技能 你會需要技能來讓你們的冒險旅程更容易，協助你度過各種各樣的狀況。你的寶可夢們能夠自己學會一些技能，但你也可訓練牠們，使牠們變得更強大。
+Think about it as a specialization to being a Pokémon Trainer.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>Nature Your Nature is your essence. Both humans and Pokémon have their values and what’s important to them defined by it. All people and Pokémon have their own unique personality, but it is their Nature what defines how they will react to certain situations.
+Your Nature will show what’s inside your mind and that will reflect on the exterior. Some Natures are beneficial for certain aspects of life and all of them can have their own hindrance when facing certain situations.</description></item><item><title>技能</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</guid><description>技能與額外技能 你會需要技能來讓你們的冒險旅程更容易，協助你度過各種各樣的狀況。你的寶可夢們能夠自己學會一些技能，但你也可訓練牠們，使牠們變得更強大。
 技能是各種應用知識的匯總。
 它們可以涵蓋相當廣泛的情境，且不一定要特指於某個領域或學科。
 這個世界上有著許多不同的技能，要同時熟練或精通它們基本上是不可能的。儘管角色卡上列出那些與冒險故事最相關的技能，但你仍能學習任何你想要的技藝：耕種栽培、吟詩作對，或任何你想像得到的事物。你可以使用「額外技能」來紀錄任何沒有列在角色卡上的其他技能。
@@ -329,7 +173,8 @@ Your Nature will show what’s inside your mind and that will reflect on the ext
 閃避 躲避攻擊是你最為擅長的，你專注於尋找掩護、跳離攻擊範圍、或透過身體的流體運動來最小化承受的傷害。
 投擲 訓練家可以使用這個技能準確地投擲精靈球、石頭、誘餌、飛鏢、或是其它投擲物。
 武器 人類不會任何寶可夢招式，但當寶可夢不在身邊時，他們可以使用武器和陷阱來保護自己。
-本系統並沒有提供武器清單。 你必須自行決定這些武器會有多強大。 ⬛ 生存類技能 無論你想要徒步穿越荒野、或只是在城市裡漫步，你都需要之到如何避免潛伏在每個角落的危險。
+本系統並沒有提供武器清單。 你必須自行決定這些武器會有多強大。
+⬛ 生存類技能 無論你想要徒步穿越荒野、或只是在城市裡漫步，你都需要之到如何避免潛伏在每個角落的危險。
 警覺 這個技能代表著你感官的敏銳程度，它可能會是良好的視力、優秀的聽覺、或傑出的嗅覺。保持警戒有助於你更快地對危險做出反應。
 運動 奔跑、攀爬、跳躍、游泳、倒立行走！你知道如何充分發揮自己的身體能力。
 自然 從頭開始生火、分辨哪種植物可以食用、搭建遮蔽處，理解大自然的循環，這些都能幫助你利用大地的恩寵。
@@ -346,38 +191,12 @@ Your Nature will show what’s inside your mind and that will reflect on the ext
 傳聞 關於不同種類寶可夢的知識，牠們的傳說和民間故事、以及該地區稀有寶可夢的位置和起源。
 醫藥 如果你專精於醫藥技能，那麼你會知道如何處理傷口、急救、用藥、甚至發明你自己獨特的醫療方法。
 科學 選擇任何你想要的科學或研究領域。例如：電腦、科技、化學、物理學、地質學、工程學、寶可夢進化學等。你可以選擇任何你想要的領域！
-你能繼續學習並追加選擇其他「科學」領域來進一步專業化。</description>
-      </item>
-      
-      <item>
-        <title>極巨招式</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid>
-        <description>Max Moves Dynamax and G-Max PokémonSo you think you are ready for the BIG leagues?
+你能繼續學習並追加選擇其他「科學」領域來進一步專業化。</description></item><item><title>極巨招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid><description>Max Moves Dynamax and G-Max Pokémon
+So you think you are ready for the BIG leagues?
 When a Pokémon is under the Effects of the Dynamax Phenomenon it grows not just on size but on power as well and Max Moves will ad an extra layer of complexity to your strategy!
-Rules for Max Moves  Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description>
-      </item>
-      
-      <item>
-        <title>天氣狀態</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid>
-        <description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
+Rules for Max Moves Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
 Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.
-This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description>
-      </item>
-      
-      <item>
-        <title>生命值與意志點</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</guid>
-        <description>生命值 (HP) 生命值被用來衡量角色的身體狀態。
+This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description></item><item><title>生命值與意志點</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</guid><description>生命值 (HP) 生命值被用來衡量角色的身體狀態。
 所有活物都有著其各自的基礎生命值（BHP），代表他們物種對於傷害和痛苦的耐受性。某個可能會對某些生物造成嚴重傷害的事物，對另一個物種而言或許只不過是叮咬般的輕微疼痛，這一切都取決於牠們的身體構造差異。
 在計算你的總生命值時，你必須將活力特質的點數加到基礎生命值中。
 人類的基礎生命值為 4。寶可夢的基礎生命值記載於其各自的圖鑑條目上。
@@ -386,7 +205,6 @@ This turns the battlegrounds into a shifting scenario, not just an empty arena. 
 因此馬可的總HP為 6。
 馬可的夥伴 嘎啦嘎啦 的基礎生命值為 4，且牠有 4 點的活力特質。
 因此嘎啦嘎啦的總HP為 8。
-
 每當你受到傷害時，你將失去HP。
 這個HP的損失只是暫時性的，且可以隨著時間經過或透過藥物治療而恢復。如果你受到了等於或大於你總HP的傷害，則你將會無法移動並陷入暈厥。
 如果你在陷入暈厥狀態後仍持續受到傷害，那麼該傷害將會變為「致命傷害」。這代表它會留下更加嚴重的傷口，且你可能會有生命危險。
@@ -400,24 +218,15 @@ This turns the battlegrounds into a shifting scenario, not just an empty arena. 
 意志點也可以被花費以抵抗疼痛，或讓他們在進行任意擲骰時有更高的機會成功。
 它的運作方式如下：
 宣言你的角色或寶可夢正在竭盡他的全力。
- 花費 1 點意志點，讓他在該場景期間忽略 1 級的痛苦/壓力懲罰。
-注意：這意味著如果你花費 2 點意志點的話，你將能忽略掉 2 級的痛苦/壓力懲罰，依此類推。 花費 1 點意志點，讓他在該回合期間的所有擲骰中都能夠重骰其中一顆失敗的骰子。  
+花費 1 點意志點，讓他在該場景期間忽略 1 級的痛苦/壓力懲罰。
+注意：這意味著如果你花費 2 點意志點的話，你將能忽略掉 2 級的痛苦/壓力懲罰，依此類推。 花費 1 點意志點，讓他在該回合期間的所有擲骰中都能夠重骰其中一顆失敗的骰子。
 在你花費意志點之後，你的角色將會因此感到筋疲力盡。如果你耗盡了所有的意志點，角色將會在該回合結束的時候失去意識並昏厥，因為他再也無法承受超越極限帶來的巨大負擔。
 寶可夢和人類生來都無法隨時隨地自由的花費意志點。
 這個能力只會在極端情況下才會被使用，而就算是這樣的情境下，大多數人們仍無法發揮這種能力。
 訓練師必須教導他的寶可夢以掌握這種內在力量。 或許在這之後牠們將能夠學會自行運用自己意志帶來的力量。如果訓練家從來沒有發揮過這種內在力量的經驗，那麼他或她的寶可夢可能也就學不會。
 大部分的NPC都不會使用他們的意志點，只有最熟練的訓練家和寶可夢才能夠使用它們。
 要回復1點花掉的意志點，你的角色必須：
-經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description>
-      </item>
-      
-      <item>
-        <title>幸福度與忠誠度</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</guid>
-        <description>幸福度 與 忠誠度 這些數值定義了你和你寶可夢之間的關係，這兩個數值同時也是遊戲中最有價值的數值之一，因為它們將會決定你和你同伴之間關係有多好。
+經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>幸福度與忠誠度</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</guid><description>幸福度 與 忠誠度 這些數值定義了你和你寶可夢之間的關係，這兩個數值同時也是遊戲中最有價值的數值之一，因為它們將會決定你和你同伴之間關係有多好。
 畢竟，就算擁有了再強大的寶可夢，如果牠討厭你、或甚至想要逃跑，那又有什麼意義呢？
 訓練家而言，和新捉到的寶可夢相處不融洽是很常見的情況，他們甚至可能會被上述的寶可夢攻擊，因為對牠來說這不過就只是上一場戰鬥的延續。這些反應將取決於該寶可夢被捕捉時發生的狀況，也同時取決於牠們的性格和物種天性。
 我們能給你最好的建議是：試著在一開始就留下好印象。
@@ -431,73 +240,52 @@ This turns the battlegrounds into a shifting scenario, not just an empty arena. 
 儘管幸福度與忠誠度之間並不直接相關，但讓你的寶可夢保持幸福是個提升忠誠度的好方法。
 而最重要的是，角色扮演將會是增加這兩個數值的關鍵。
 盡量趁寶可夢還沒進化之前與牠建立緊密的關係。
-與進化型的寶可夢建立關係會困難得多。 幸福度 這項數值代表著感到快樂與舒適的程度。大部分的寶可夢都是單純的生物，牠們渴望安全、食物、穩定，且特別希望覺得自己是有用的。
+與進化型的寶可夢建立關係會困難得多。
+幸福度 這項數值代表著感到快樂與舒適的程度。大部分的寶可夢都是單純的生物，牠們渴望安全、食物、穩定，且特別希望覺得自己是有用的。
 有些寶可夢會對人類世界提供的舒適與奢華而歡欣，有些則不。
 盡可能提供牠們想要的生活。
-○○○○○ 悲慘。寶可夢感到憤怒或沮喪，牠可能會怨恨你或其他人。 ●○○○○ 不滿。寶可夢不喜歡與你生活在一起。 ●●○○○ 舒適。這裡有食物、有陪伴、有能睡覺的地方，這感覺還不錯。 ●●●○○ 滿意。你的寶可夢享受著與你相伴帶來的好處。 ●●●●○ 圓滿。你的寶可夢在生活中想要的大部分東西，都是來自於與你相伴。 ●●●●● 真正的幸福。寶可夢的生活相當美好，牠因此相當感激你。 忠誠度 這項數值反應了寶可夢們願意為你做多少事；從完全無視你的命令，到冒著生命危險來救你。無論如何，忠心耿耿的寶可夢將會是你最好的朋友。永遠不要低估友誼的力量。
+○○○○○ 悲慘。寶可夢感到憤怒或沮喪，牠可能會怨恨你或其他人。
+●○○○○ 不滿。寶可夢不喜歡與你生活在一起。
+●●○○○ 舒適。這裡有食物、有陪伴、有能睡覺的地方，這感覺還不錯。
+●●●○○ 滿意。你的寶可夢享受著與你相伴帶來的好處。
+●●●●○ 圓滿。你的寶可夢在生活中想要的大部分東西，都是來自於與你相伴。
+●●●●● 真正的幸福。寶可夢的生活相當美好，牠因此相當感激你。
+忠誠度 這項數值反應了寶可夢們願意為你做多少事；從完全無視你的命令，到冒著生命危險來救你。無論如何，忠心耿耿的寶可夢將會是你最好的朋友。永遠不要低估友誼的力量。
 寶可夢的進化可能會使牠們的力量劇烈提升，並讓牠們覺得自己似乎不再那麼需要你了。因此寶可夢的忠誠度有可能會隨著進化而下降。
 進化可能會讓你與寶可夢之間的關係變得緊張，讓你們之間變得彷彿陌生人一般。
 當寶可夢進化時，使用牠訓練家最高的社交特質進行擲骰判定。
-你必須取得至少 2 個成功，否則該寶可夢的忠誠度將會因此下降 1 點。 ○○○○○ 寶可夢會想著要攻擊你或逃跑。小心點，牠可能會咬人。 ●○○○○ 牠對你的態度冷淡，甚至可能不會想和你或你的其他寶可夢互動。 ●●○○○ 他會陪在你身邊。但如果情況太過危險，你就只能靠你自己了。 ●●●○○ 寶可夢把你當作朋友，且如果可能的話，牠會幫助你脫離險境。 ●●●●○ 沒有什麼事情是牠不能為你做的。你是最重要的人。 ●●●●● 有些友情可以持續甚至超過一輩子。沒有任何危險、人物、或距離能夠成為你們之間的阻礙。 </description>
-      </item>
-      
-      <item>
-        <title>異常狀態</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid>
-        <description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
+你必須取得至少 2 個成功，否則該寶可夢的忠誠度將會因此下降 1 點。
+○○○○○ 寶可夢會想著要攻擊你或逃跑。小心點，牠可能會咬人。
+●○○○○ 牠對你的態度冷淡，甚至可能不會想和你或你的其他寶可夢互動。
+●●○○○ 他會陪在你身邊。但如果情況太過危險，你就只能靠你自己了。
+●●●○○ 寶可夢把你當作朋友，且如果可能的話，牠會幫助你脫離險境。
+●●●●○ 沒有什麼事情是牠不能為你做的。你是最重要的人。
+●●●●● 有些友情可以持續甚至超過一輩子。沒有任何危險、人物、或距離能夠成為你們之間的阻礙。</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
 They may be painful or disruptive effects such as burning, or paralyzing.
-Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description>
-      </item>
-      
-      <item>
-        <title>收服寶可夢</title>
-        <link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid>
-        <description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
-But Pokémon that live in the wild can be either Pokémon turned feral after being abandoned or Pokémon that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.</description>
-      </item>
-      
-      <item>
-        <title>擲骰判定</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid>
-        <description>擲骰判定 Our lives are influenced by random factors all the time. Luck is a part of our lives, fortune can change our future and destiny is built on the results of our actions.
-In Pokémon: The Role Playing Game all variables are represented by six-sided dice. These Dice are pretty easy to get and you can find them in almost any gaming store. You may even have some from your old board games!</description>
-      </item>
-      
-      <item>
-        <title>訓練寶可夢</title>
-        <link>https://hazmole.github.io/PokeRole/docs/training-pokemon/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/training-pokemon/</guid>
-        <description>Training Pokemon Training Sessions Pokémon training is probably the most fundamental aspect of becoming stronger.
-A training session usually takes 2 hours of your day within the game. During this time you work with your Pokémon, you try to understand their ways, their motives, their strengths and weaknesses. Before attempting to teach them something new, you have to bond with them, especially if they are newly caught. This way you can raise their Loyalty and Happiness.</description>
-      </item>
-      
-      <item>
-        <title>旅途中的道具</title>
-        <link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>階級</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid>
-        <description>階級 就連聯盟冠軍，最初也曾只是個什麼都不懂的菜鳥。
+Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
+But Pokémon that live in the wild can be either Pokémon turned feral after being abandoned or Pokémon that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.</description></item><item><title>擲骰判定</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid><description>擲骰判定 我們的生活無時無刻都會受到隨機因素的影響。運氣是我們生活中的一部分，它可以改變我們的未來，而命運也建立在我們的行動結果之上。
+在本系統中，所有的變數都會以六面骰來表示。 這種骰子很容易取得，且你可以在幾乎所有的桌遊店、或甚至在你的舊桌遊裡找到它們！
+在故事進行的過程中，你的角色將不得不採取一些不同尋常的行動。
+你需要擲骰判定來執行任何你所想像的動作。
+既然你已經瞭解了關於特質和技能的一切，接下來就是時候學習如何使用它們了。
+除了簡單的行為之外，所有的行動擲骰都會是一個特質和一個技能的組合。 把你的角色的這兩項數值加總起來，就會是你用來為該行動擲骰的最終骰池數量。
+拿這個骰池裡的骰子來擲骰，每顆骰出 4、 5、或 6的骰子將被視作一個成功骰。
+你可能會需要　1、 2、 3個或更多的成功骰才能讓這次擲骰判定成功，你所需的成功骰數將取決於任務的難度。
+所需成功骰數 難度設定
+1 麻煩. 你很少會做這樣的事情。
+2 有挑戰性. 你在執行時會遭遇不少阻礙。
+3 困難. 這個情境陷你於巨大的劣勢之中。
+4 瘋狂. 僅僅嘗試去這麼做的想法都顯得無比荒謬。
+5+ 幾乎不可能. 一切邏輯推論都表明這個行為是不可能的任務。
+威爾遜正在追逐著一隻把他訓練家背包的黑暗鴉。
+因為背包的重量，黑暗鴉的飛行速度被拖慢，也飛不了太高，因此要追上牠並不困難，威爾遜的擲骰判定只需要有 1 顆成功骰就能逮到這個小賊。
+在當天稍晚，一隻烏鴉頭頭飛來，並偷走了他的包包（又來了！）。因為烏鴉頭頭比較強壯，牠的速度不會被拖慢，所以威爾遜要追上牠將會需要 3 顆成功骰。
+如果威爾遜沒能在第一次擲骰就捉到牠，那麼烏鴉頭頭就會飛得更高，讓擲骰判定的難度變得越來越困難，直到牠飛到搆不著的高空，徹底遠走高飛。
+⬛ 大失敗 如果你讓一個四歲孩子在緊急情況下駕駛飛機迫降會發生什麼事？對，大概不會有什麼好下場。
+在嘗試進行高難度任務時做出糟糕的表現可能會帶來災難性的後果。這就是為什麼當你在擲骰時得到了比要求成功骰數低 3 顆或以下的成功骰時，你不僅無法完成任務．說書人還可能斟酌讓一些不好的事情發生。你可能會：
+受到傷害 誤傷到隊友 使任務完全不可能達成 陷入異常狀態
+……或其他更糟的。 這意味著，你可以安全地嘗試進行難度為 「麻煩」 或是 「有挑戰性」 的任務，然而一旦難度提升到 「困難」 或以上，那麼你因為失誤而負傷或造成災難性後果的可能性也就浮上了水面。</description></item><item><title>訓練寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/training-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/training-pokemon/</guid><description>Training Pokemon Training Sessions Pokémon training is probably the most fundamental aspect of becoming stronger.
+A training session usually takes 2 hours of your day within the game. During this time you work with your Pokémon, you try to understand their ways, their motives, their strengths and weaknesses. Before attempting to teach them something new, you have to bond with them, especially if they are newly caught. This way you can raise their Loyalty and Happiness.</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description/></item><item><title>階級</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid><description>階級 就連聯盟冠軍，最初也曾只是個什麼都不懂的菜鳥。
 你從今天開始踏上了你的寶可夢之旅，在前方有無數冒險等待著你。或許你一直夢想著成為訓練家、或也許某些情境迫使你走上這條路。只要你願意付出努力，那麼總有一天你可能就能成為頂尖。
 一名傑出的訓練家有能力把虛弱膽怯的寶可夢培養成冠軍。但想要做到這點，你將必須周遊世界各地並完成許許多多的成就。
 階級決定了你訓練寶可夢的能力，也代表著你個人的整體成長。
@@ -505,66 +293,53 @@ A training session usually takes 2 hours of your day within the game. During thi
 階級系統的晉升是透過「成就」來實現的。
 當訓練家完成了所有晉升所要求的成就之後，訓練家與其寶可夢們就都可以獲得晉級帶來的好處。
 說書人可以增加或修改提升訓練家階級所需要達成的成就。 新手階級 你才剛開始你的訓練家生涯，還只是個沒有任何實際經驗的菜鳥。大部分的野生寶可夢都不會聽從你的話，而因為你根本還不夠理解你寶可夢的潛力，就連你自己的寶可夢也很難理解任何不符合牠們原始本能的命令。
-晉升這個階級需要達成什麼成就？  取得你的訓練家執照（角色卡）。 得到你的第一隻寶可夢。  好處:  獲得 5 點技能點數。 技能上限為 1（不能在單個技能上分配超過 1 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。  初學者階級 你把從書本上讀過的、電視上看過的一切都付諸實踐。也許你嘗試了好幾次才終於成功。年幼且順從的寶可夢能理解你的訓練，並會聽從你的命令。
-晉升這個階級需要達成什麼成就？  成功理解你的寶可夢想表達什麼。 訓練一隻寶可夢。 捕捉到你的第二隻寶可夢。 在與訓練家的正式戰鬥中取得你的第一場勝利。  好處:  額外獲得 2 點可供分配的特質點數。 額外獲得 2 點可供分配的社交特質點數。 額外獲得 4 點技能點數。 技能上限為 2（不能在單個技能上分配超過 2 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。  業餘者階級 在一段時間之後，你成功瞭解了做為一名寶可夢訓練家的基礎：你必須努力訓練、照顧好你的同伴，並向道館館主虛心求教。你能遇到的大部分訓練家都屬於這個階級。
-晉升這個階級需要達成什麼成就？  讓一隻寶可夢進化。 贏得你的第一個徽章。 提高一隻寶可夢的忠誠度＆幸福度。  好處:  額外獲得 2 點可供分配的特質點數。 額外獲得 2 點可供分配的社交特質點數。 額外獲得 3 點技能點數。 技能上限為 3（不能在單個技能上分配超過 3 點）。 可以指定最多 3 隻寶可夢做為目標（包括自己）。  菁英階級 很少有訓練家能有足夠的拚勁和天賦來把自己提升到平均水準之上。菁英階級的訓練家克服了所有的障礙，並將他一切所學的都運用在了旅途之中。他們展現出了他們的寶可夢蘊藏的真正潛力。</description>
-      </item>
-      
-      <item>
-        <title>創作故事</title>
-        <link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/</guid>
-        <description>Creating a Story Now it’s time to derail the train of destiny with some booms and bams! Characters expect to live adventures. When they get out looking for trouble they are gonna find you ready.
-Being a Storyteller and creating a story is not as hard as anyone would think. Relax and have fun with any crazy idea. Just remember that you are here to make sure that everyone is having fun.</description>
-      </item>
-      
-      <item>
-        <title>寶可夢圖鑑</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokedex/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokedex/</guid>
-        <description>Pokedex There are almost a thousand known species of Pokémon in the world, some better known than others.
+晉升這個階級需要達成什麼成就？ 取得你的訓練家執照（角色卡）。 得到你的第一隻寶可夢。 好處: 獲得 5 點技能點數。 技能上限為 1（不能在單個技能上分配超過 1 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。
+初學者階級 你把從書本上讀過的、電視上看過的一切都付諸實踐。也許你嘗試了好幾次才終於成功。年幼且順從的寶可夢能理解你的訓練，並會聽從你的命令。
+晉升這個階級需要達成什麼成就？ 成功理解你的寶可夢想表達什麼。 訓練一隻寶可夢。 捕捉到你的第二隻寶可夢。 在與訓練家的正式戰鬥中取得你的第一場勝利。 好處: 額外獲得 2 點可供分配的特質點數。 額外獲得 2 點可供分配的社交特質點數。 額外獲得 4 點技能點數。 技能上限為 2（不能在單個技能上分配超過 2 點）。 可以指定最多 2 隻寶可夢做為目標（包括自己）。
+業餘者階級 在一段時間之後，你成功瞭解了做為一名寶可夢訓練家的基礎：你必須努力訓練、照顧好你的同伴，並向道館館主虛心求教。你能遇到的大部分訓練家都屬於這個階級。
+晉升這個階級需要達成什麼成就？ 讓一隻寶可夢進化。 贏得你的第一個徽章。 提高一隻寶可夢的忠誠度＆幸福度。 好處: 額外獲得 2 點可供分配的特質點數。 額外獲得 2 點可供分配的社交特質點數。 額外獲得 3 點技能點數。 技能上限為 3（不能在單個技能上分配超過 3 點）。 可以指定最多 3 隻寶可夢做為目標（包括自己）。
+菁英階級 很少有訓練家能有足夠的拚勁和天賦來把自己提升到平均水準之上。菁英階級的訓練家克服了所有的障礙，並將他一切所學的都運用在了旅途之中。他們展現出了他們的寶可夢蘊藏的真正潛力。</description></item><item><title>創作故事</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/</guid><description>創作故事 現在是時候用一點轟轟烈烈的爆炸讓命運的列車脫軌了！角色們期待著遭遇生活中的冒險，而當他們出發去找麻煩時，他們將發現你早已準備就緒。
+擔任說書人並創作故事其實沒有大家想像中的那麼困難。放輕鬆，盡情享受那些瘋狂點子帶來的樂趣。只要記住，你在這裡是為了確保大家都能玩得開心。
+首先，和你的玩家們討論，詢問他們希望玩些什麼？他們對故事有什麼樣的期待？以及他們對於寶可夢世界有什麼樣看法。
+你需要統整他們的看法，確保他們對於這個社會的運作有一個清晰的認知，對角色看待寶可夢和其他人們的態度能有所共識，從而扮演出活生生的角色。你可以在最後為此做一個簡單總結，確保大家都站在同一條線上。
+仔細傾聽玩家關注的事物，也適時表達自己的意見。
+記得，他們也有責任創造出有趣且能為故事做出貢獻的角色。
+那些與其他玩家或說書人作對的人，就是沒有正確履行身為玩家所應盡的職責。
+確保沒有任何玩家創造了無法與他人結交朋友的角色。
+一旦大家都達成了共識，就可以準備開始了。
+冒險故事的點子 寶可夢之旅 類型: 探索
+焦點: 寶可夢傳說
+遊戲規劃: 設計玩家周圍的地理興趣點。
+安排NPC: 每個NPC可以是當地人、或是與這個興趣點之間有著個人關連的其他訓練家。
+設置阻礙: 每個阻礙可能只能透過利用特定的寶可夢或特定招式來通過。
+任務 類型: 動作
+焦點: 寶可夢對戰
+遊戲規劃: 設計一個正在傷害玩家、寶可夢、環境或是人民的反派。
+安排敵人: 每個敵人都應該帶有一隻或更多的寶可夢，準備好阻撓隊伍的前進。
+陰謀 類型: 調查
+焦點: 人類角色
+遊戲規劃: 設計一個反派和一個邪惡計畫。
+設置線索: 其中一條線索需要透過戰鬥技能來獲得，另一條則可能要使用社交技能；其他的線索則可能得透過生存技能、或者利用知識技能才能取得。所有的線索都應該圍繞著一個即將發生的危險。
+遊戲時間的長度 一場遊戲聚會的時間通常會持續 2 ~ 4 個小時。
+考慮到在這個時間段內，玩家們通常只能完成 2 ~ 3 個過程被詳細描述的目標，並仍保有一些發展角色的扮演空間。戰鬥永遠不會是必要的；正常人不需要每天都為自己的小命奮戰，但他們仍然會遭遇各種麻煩、緊張、和危急的時刻。戰鬥最好被用作緊張嚴峻情境、或一連串壞決定所導致的劇情高潮。
+這個遊戲的重點是精彩的故事劇情，而不是惱人的戰鬥練等。
+講述故事的多種方式 取決於玩家們的目標不同，總是會有辦法讓講述故事的過程變得更加輕鬆。
+這個遊戲有三種主要的說故事方式：
+編年史 有些故事太長，沒有辦法在一次遊戲聚會的時間內說完。編年史是一部有著主線劇情，且通常會有反派反覆出現的宏大冒險故事。這種類型的故事可以營造出相當史詩的壯闊感，並會花上好幾個月的遊戲時間。
+人們普遍認為這樣的敘事方式是角色扮演遊戲的正常模式，但事實並非如此。
+這其實是困難模式。
+經常能看到有人興致勃勃地以編年史體裁開始了遊戲，但始終無法將故事完成，所以盡可能保持簡單吧。
+玩家們與說書人之間的溝通尤其重要。
+單元劇 想像成像是電視劇那樣，每一次的遊戲聚會本身就是一場完整的冒險故事。
+許多事物都可能因此產生或好或壞的變化，但記住，讓它們帶來有力的影響。讓玩家們能夠從中學到新東西。他們能在冒險之後回到正常生活的事實，並不意味著他們得空手而歸。
+你可以先用單元劇的方式開始遊戲，接著再拋出一些編年史的要素。
+環團 多虧了許多人一起輪流講述故事的性質，環團是一個有著很大優勢的敘事方式。</description></item><item><title>寶可夢圖鑑</title><link>https://hazmole.github.io/PokeRole/docs/pokedex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokedex/</guid><description>Pokedex There are almost a thousand known species of Pokémon in the world, some better known than others.
 In this section of the book you’ll find all the information available about most of them.
 To create and train your Pokémon you’ll need to check its Pokédex entry, Ability and Moves in the Pokémon Abilities and Pokémon Moves sections of this book.
-Now, this might seem like a lot of information to take in.</description>
-      </item>
-      
-      <item>
-        <title>常見問題</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid>
-        <description>Frequently Asked Questions Can I Target an Ally with a Move that Targets a Foe? Yes, you can. Very rarely you’ll find a use to it, but sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
-Can my Pokémon Target itself with a Move that Targets an Ally or a Foe? No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit from this power.</description>
-      </item>
-      
-      <item>
-        <title>寶可夢特性</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid>
-        <description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
+Now, this might seem like a lot of information to take in.</description></item><item><title>常見問題</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid><description>Frequently Asked Questions Can I Target an Ally with a Move that Targets a Foe? Yes, you can. Very rarely you’ll find a use to it, but sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
+Can my Pokémon Target itself with a Move that Targets an Ally or a Foe? No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit from this power.</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
 Always consider the Ability of your Pokémon to aid you in any situation.
 Sometimes Pokémon have more than one ability to choose from, outside of battle they can be used at will.
-At the beginning of a battle, you must inform your storyteller which Ability your Pokemon will use.</description>
-      </item>
-      
-      <item>
-        <title>總結</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid>
-        <description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
+At the beginning of a battle, you must inform your storyteller which Ability your Pokemon will use.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
 2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
-3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description>
-      </item>
-      
-    
-  </channel>
-</rss>
+3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description></item></channel></rss>

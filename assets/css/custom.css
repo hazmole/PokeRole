@@ -17,15 +17,21 @@
     margin-bottom: .2em;
     font-size: 1.3rem;
 }
-.theme__dark .box h2, .theme__dark .box h3, .theme__dark .box h4, .theme__dark .box h5 {
+.theme__dark .box h2,
+.theme__dark .box h3,
+.theme__dark .box h4,
+.theme__dark .box h5,
+.theme__dark .box h6 {
     color: #dccfaa;
 } 
-.theme__dark #list-main .box p {
+#list-main .box p { margin-bottom: 1em; }
+#list-main .box p:last-child { margin-bottom: 0em; }
+
+#list-main .box li {
     margin-bottom: 1em;
+    line-height: 1.5em;
 }
-.theme__dark #list-main .box p:last-child {
-    margin-bottom: 0em;
-}
+
 
 /* notice */
 .notices {
@@ -151,7 +157,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    background: rgba(255,255,255,.4);
+    background: rgba(255,255,255,.5);
 }
 .MoveHeader .title {
     padding: .5em;
@@ -171,13 +177,20 @@
 }
 .MoveHeader .type{ width: 5rem; }
 .MoveHeader .type .moveType{ width: 5rem; height: 3rem; margin: 0; }
-.MoveContent { padding: .3rem .5rem;  }
+.MoveContent {
+    background: rgba(255,255,255,.3); color: #000;
+    margin: .3rem; padding: .2rem;
+}
 .MoveContent .Type, .MoveContent .Accuracy, .MoveContent .Damage { font-weight: normal; }
 .MoveContent .Type::before { content: "屬性: "; font-weight:bold; }
 .MoveContent .Accuracy::before { content: "命中: "; font-weight:bold; }
 .MoveContent .Damage::before { content: "傷害: "; font-weight:bold; }
 .MoveContent .Additional { margin-top: .3rem; }
-.MoveDesc { background: #eaeaea; text-indent: 1rem; }
+.MoveDesc {
+    background: rgba(0,0,0,.4); color: #fff;
+    padding: .1rem;
+    font-size: .8rem; text-indent: 1rem;
+}
 
 
 

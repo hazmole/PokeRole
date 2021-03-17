@@ -1,108 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</title>
-    <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/</link>
-    <description>Recent content in 寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zhtw</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    
-        <atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-battle/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>不同的寶可夢屬性</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid>
-        <description>The Different Pokémon Types This world is filled with different sources of energy that Pokémon can control. They absorb it as part of their bodies or shape it into powerful attacks.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/</link><description>Recent content in 寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-battle/index.xml" rel="self" type="application/rss+xml"/><item><title>不同的寶可夢屬性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid><description>The Different Pokémon Types This world is filled with different sources of energy that Pokémon can control. They absorb it as part of their bodies or shape it into powerful attacks.
 The Pokémon that is especially proficient at using certain kind of energy is labeled with what we call a Type. Until now, 18 types of Pokemon have been recognized.
-Normal Pokémon that are not especially proficient at controlling other energies.</description>
-      </item>
-      
-      <item>
-        <title>如何戰鬥</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</guid>
-        <description>How to Battle Battling Pokémon is the main sport in this world because miraculous healing potions and free health care prevent your companions from getting seriously injured.
+Normal
+Pokémon that are not especially proficient at controlling other energies.</description></item><item><title>如何戰鬥</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</guid><description>How to Battle Battling Pokémon is the main sport in this world because miraculous healing potions and free health care prevent your companions from getting seriously injured.
 The Pokémon League tries its best to keep it as safe as possible within official matches. It’s your choice to fight, just remember why your Pokémon are doing it.
 A Pokémon battle is divided into four simple stages:
-Initiative During this stage we decide the attacking order: who goes first and who goes last.</description>
-      </item>
-      
-      <item>
-        <title>傷害</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid>
-        <description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
+Initiative During this stage we decide the attacking order: who goes first and who goes last.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
 If you receive damage, your Trainer and Pokémon are able to heal 1 HP every 8 hours.
-You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description>
-      </item>
-      
-      <item>
-        <title>多重行動 (可選)</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid>
-        <description>Multiple Actions (Optional) This is where you get fast and furious. You can abuse your speed and intellect to divide your attention and perform multiple tasks at the same time.
+You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>Multiple Actions (Optional) This is where you get fast and furious. You can abuse your speed and intellect to divide your attention and perform multiple tasks at the same time.
 Most common use is in battle; you can attack, evade and support your allies, but Multiple Actions are not limited to fights.
-Maybe you want to read a book while driving a car, or maybe you want to catch a ball and kick your foe while dodging bullet seeds.</description>
-      </item>
-      
-      <item>
-        <title>勝利策略</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid>
-        <description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
+Maybe you want to read a book while driving a car, or maybe you want to catch a ball and kick your foe while dodging bullet seeds.</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
 How can you defeat an Onix with only the help of a tiny Pichu?
 Well, having a strategy can save the day!
-In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description>
-      </item>
-      
-      <item>
-        <title>天氣狀態</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid>
-        <description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
+In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
 Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.
-This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description>
-      </item>
-      
-      <item>
-        <title>異常狀態</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid>
-        <description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
+This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
 They may be painful or disruptive effects such as burning, or paralyzing.
-Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description>
-      </item>
-      
-      <item>
-        <title>總結</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid>
-        <description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
+Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
 2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
-3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description>
-      </item>
-      
-    
-  </channel>
-</rss>
+3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description></item></channel></rss>
