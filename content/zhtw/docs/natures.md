@@ -4,190 +4,187 @@ weight = 4
 description = "羅列各性格的說明和對應數值"
 +++
 
-## Nature
-Your Nature is your essence. Both humans and Pokémon have their values and what’s important to them defined by it. 
-All people and Pokémon have their own unique personality, but **it is their Nature what defines how they will react to certain situations.**
+## 性格
+性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
+所有人類和寶可夢都有著獨特的人格特質，但**性格決定了他們在特定情況會採取什麼樣的反應**。
 
-Your Nature will show what’s inside your mind and that will reflect on the exterior. Some Natures are beneficial for certain aspects of life and all of them can have their own hindrance when facing certain situations.
+你的性格會顯示出你內心的想法，而這些想法又會反映於外在的行為舉止。有些性格能夠對生活中的某些面向帶來助益，而無論如何，所有的性格在面對特定情況時也都會遭遇到各自的阻礙。
 
-Pokémon can overcome the limitations of their Nature with the help of their trainer. A fearful or aggressive Pokémon can become friendly and social with the right treatment.
-**Pokémon might also change their Nature when they evolve.**
-For humans, though, the power to act against your own nature can only come from within yourself through your Will Attribute.
+寶可夢可以在訓練家的幫助下克服性格上的限制。即使是膽怯或帶有攻擊性的寶可夢，也能透過適當的引導而變得友好及具社交性。
+**寶可夢的性格也可能會在進化時發生改變。**
+但對於人類來說，要違背自己性格，就只能透過源自你內心的意志特質來與之對抗。
 
 {{< notice story "說書人筆記" >}}
- Keep in mind that Humans are able to think or feel one way yet act another.
- Pokémon on the other hand tend to act according to what they feel and will stay true to their Natures.
+要記住，人類能夠將感性與行動分離，他們思考或感受到的是一回事，但做出的行動卻又是另一回事。而另一方面，寶可夢則傾向根據牠們的感覺行動，忠於自己的本性。
 {{< /notice >}}
 
-The Nature you pick will also determine your Confidence.A trait that you'll need when facing stressful situations.
+你所選擇的性格會決定你的「信心值」，一個你在面對強大壓力時會需要的素質。
+
 
 {{< boxmd >}}
-**ONCE DEFINED, A TRAINER'S NATURE CANNOT BE CHANGED.**
+**一但決定好，訓練家的性格就不能再被改變。**
 
-**A Pokémon's Nature might change when it evolves or thanks to its training at Storyteller's discretion.**
+**寶可夢的性格可能會在進化時改變，或透過訓練而在說書人的判斷下變更。**
 
-Take your Nature into account when deciding the actions you’ll take in the game.
-Depending on how well you portray the traits of your Nature you can get rewarded in the game.
+在決定你於遊戲中會採取什麼樣的行動時，請把你的性格納入考慮。
+根據你在遊戲中對性格的詮釋程度，你也可能會獲得相應的獎勵。
 
-
-**WILL POINTS ARE AN AWARD FOR ROLE-PLAYING YOUR NATURE**
-
-If you need to recover Will Points, acting your Nature is a good way to start. The Storyteller must reward players who keep true to their Nature inside 
-the game.
+**意志點正是你扮演詮釋出你性格的獎勵。**
+當你需要回復意志點時，扮演出你的性格是很好的起手方法。說書人必須在遊戲中獎勵那些忠實呈現出他們性格的玩家。
 {{< /boxmd >}}
 
-Every Nature has its challenges, there is not one that’s better than the other. 
-The fact that some Natures do not seem to get along with each other, it’s no reason for disrupting the fun of the game. On the contrary, they are a chance to complement the characters and create new interactions and fun dynamics.
-The Nature of your Pokémon can also create different ways to interact, as not only they get to bond with their trainer but also with their other Pokémon teammates. Will they get along? Will they form rivalry or friendship?
 
-Have fun exploring how rich your game can be when you mix all different personalities into a pot. It is certainly one of the most entertaining parts of the game.
+每個性格都有它們各自要面對的挑戰，沒有哪個比較好或比較不好。
+而即使某些性格似乎無法與其他某些性格相處融洽，但這並不是破壞遊戲樂趣的藉口。相反的，這是一個能讓你們完善角色的機會，藉此創造出新的互動和有趣的動態。
+寶可夢的性格也同樣能創造出許多不同的互動模式，因為牠不僅會與訓練家建立聯繫，也會和其他寶可夢隊友相互交流。牠們能和睦相處嗎？牠們會彼此成為競爭關係？還是堅固的友情？
 
----
+當你把所有不同個性特質混在一起，你將會發現這能讓你的遊戲變得多麼豐富多彩。而這也無疑是遊戲中最有趣的部分之一。
 
-## Confidence
-People and Pokémon need to interact with each other, and while their Nature defines their core feelings, it will also affect how well they can handle negative stimuli towards their own ego. 
-
-Some individuals relish in being the center of attention, others just love hanging out in big groups while there'll be a bunch who prefer solitude, quiet places or simply want to be left alone.
-
-**Social Situations and Pokémon Contests might put you through a lot of Stress, this Stress might damage your Confidence**, and the **Emotional Damage** you receive can create difficulties for you.
-
-If your Trainer is interested on becoming a Coordinator, Confidence will be one of your most valuable traits.
-
-Head to the Pokémon Contest section of this book to learn all about Confidence and its uses. p. 63
 
 ---
+## 信心值
+人們與寶可夢需要彼此交流，而他們的性格不僅決定了他們的核心感受，也同樣會影響到他們在面對負面環境刺激時的處理能力。
 
+有些人喜歡成為萬眾矚目的焦點，有些人則與一大群人一起廝混，而也有些人偏好冷僻、安靜的地方，或只是單純想要一個人獨處。
+
+**社交場合與寶可夢華麗大賽可能會帶給你相當大的壓力，而這些壓力可能會傷害到你的信心**，而你所受到的這些**情緒傷害**也會給你帶來困境。
+
+如果你的訓練家有興趣成為寶可夢協調訓練家，那麼「信心值」將會是你最有價值的數值之一。
+請移至「寶可夢華麗大賽」的章節以進一步瞭解關於信心值以及它的用途。
+
+
+---
 ## 性格列表
 
-{{< nature "固執" 4 "Powerful, Fierce, Relentless" >}}
-An indomitable will that won’t falter. Those with Adamant nature are belligerent and impassive. 
-Only the strong survive in this world, that’s why powerand strength are what they respect the most. You are either their equal or you’re inferior. Working as a team does not fit them well. They believe everyone must carry their own weight and those who can’t will be left behind.They also lash out when they feel threatened and rarely care for social norms.
+{{< nature "固執" 4 "強大的、兇猛的、無情的" >}}
+堅韌不拔的意志不會輕易動搖。固執性格的他們是好戰的、也是冷漠的。
+他們認為只有強者可以在這個世界上生存，這也是為什麼他們最為敬重權力與力量。其他人要不是與他們同等，就是劣於他們。他們並不適合團隊合作，他們認為每個人都有自己該負起的責任，而那些無法負起責任的就會被甩在後頭。他們會在受到威脅時發火，且很少會去關心社會的規範。
 {{< /nature >}}
 
 
-{{< nature "害羞" 6 "Compassionate, Vulnerable, Family Oriented" >}}
+{{< nature "害羞" 6 "有同情心、脆弱、以家庭為主" >}}
 There is an adorable shyness in them. They enjoy the simple things in life and are quite sensitive to other’s emotions. They are very conscious about their own weaknesses and will try to make them better, but it hurts them to be pushed around and they may feel intimidated or disheartened if the challenges are too big. They need a strong figure who believes in them to feel confident but the fact that they are aware of their own weakness is a great advantage though.
 {{< /nature >}}
 
 
-{{< nature "大膽" 9 "Adventurous, Confident, Daring" >}}
+{{< nature "大膽" 9 "冒險精神、自信、勇敢" >}}
 Real thrill seekers. The Bold view life with optimism and excitement, they firmly believe one must go forward no matter the consequences. They are easily provoked and quick to take action, often heading into challenges a lot bigger than themselves. Failure is something that hits them hard, but they are known for getting back on their feet again and charge for adventure one more time. 
 There’s no mountain big enough to stop them and they love to be the center of attention.
 {{< /nature >}}
 
 
-{{< nature "勇敢" 9 "Fearless, Level-headed, Protector" >}}
+{{< nature "勇敢" 9 "無懼、沉穩、守護者" >}}
 The Brave of heart will face any situation with courage and a cool head. They won’t tolerate bullying or abuse anywhere near them and will always encourage others to conquer their fears. “Selfless” is their second name, as they will never turn their back on their comrades even at the cost of their own safety. Others look up to them as they inspire confidence and trust. They strive to conquer their fears and wish to inspire others to do the same. 
 They keep it together when stress begins to escalate.
 {{< /nature >}}
 
 
-{{< nature "溫和" 8 "Reasonable, Peaceful, Balanced" >}}
+{{< nature "溫和" 8 "通情達理、和平、均衡" >}}
 Peace and tranquility is the most important thing for those with a Calm nature. They are not noisy nor they want many thrills in their lives. Conflict is not welcome and they tend to be peacemakers. 
 It is rare to see them fall for provocations as they keep their distance and composure when facing trouble. 
 They dislike stress and overbearing attention, but their presence is pleasant and soothing.
 {{< /nature >}}
 
 
-{{< nature "慎重" 5 "Analytic, Skeptical, Withdrawn" >}}
+{{< nature "慎重" 5 "善於分析、多疑的、內斂的" >}}
 Those with this nature will often ponder their options according to the level of risk. If the benefit is substantial but the risk is too great they will prefer an option less rewarding but also less risky. They may take some time to warm up to strangers and will always be alert to their surroundings. Keeping a situation under control is important for them, not being in control makes them anxious and stressed. If things get out of hand they might run away to fight another day.
 {{< /nature >}}
 
-{{< nature "坦率" 7 "Kind, Team worker, Service spirit" >}}
+{{< nature "坦率" 7 "善良、團隊合作、服務精神" >}}
 Always with a courteous disposition, a Docile nature indicates that you put others before yourself. Those under this nature love to please and be of assistance to their companions and community. 
 They're not big achievers and might lack initiative, but even if only one person appreciates their efforts they will feel accomplished.
 They make great teammates and will be the first to ask: “How may I be of service?”
 {{< /nature >}}
 
-{{< nature "溫順" 10 "Graceful, Charismatic, Extroverts" >}}
+{{< nature "溫順" 10 "優雅、有魅力、外向的" >}}
 A Gentle personality reflects on graceful conversations and pleasant social interactions. They enjoy doing things with care and refinement, and others come to them simply to revel in their sophisticated presence. 
 They enjoy luxuries but can be quite demanding with their tastes. These natural socialites were born to be in the spotlight and they don't like to share it.
 {{< /nature >}}
 
-{{< nature "勤奮" 9 "Dependable, Resilient, Resourceful" >}}
+{{< nature "勤奮" 9 "可靠、適應性強、足智多謀" >}}
 Life has been tough, but they know how to face anything no matter how difficult. The word “disheartened” is not for them, they have a great tolerance for stress and frustration so they rarely get worked up.
 You’ll rarely find them unprepared. They do their best to endure and overcome. Taking things lightly is difficult for them, but they are dependable. They’ll help you get through the hardest of scenarios.
 {{< /nature >}}
 
-{{< nature "急躁" 7 "Eager, Enthusiastic, Hustle" >}}
+{{< nature "急躁" 7 "熱切、熱情、急促" >}}
 Energetic, spontaneous and a little impulsive.
 They live in the moment and don’t have time to mop about past losses or worry about future battles. They are eager to see what comes next, moving from one thing to another. They rarely stress out because they make their lives on the go and rarely sit to relax or meditate things through. There will always be something to do with them around, let them improvise.
 {{< /nature >}}
 
-{{< nature "淘氣" 7 "Mischievous, Witty, Playful" >}}
+{{< nature "淘氣" 7 "調皮、詼諧、愛玩耍" >}}
 Free spirits hungry for enjoyment and fun at the expense of others. They carry themselves with a light heart but you can also see a smug smirk on their faces. 
 Playful, irreverent and agile of mind, they dislike routine and chores. They are the kind to circle around a problem as a head-on confrontation will stress them.
 They also want a little validation from others so they'll get attention as the pranksters of the group.
 {{< /nature >}}
 
-{{< nature "爽朗" 10 "Cheerful, Charming, Energetic" >}}
+{{< nature "爽朗" 10 "開朗、迷人、精力充沛" >}}
 They love to spread happiness around and will always have a smile to give you. They rarely feel gloomy and dislike when others do. 
 They easily form close friendships as others enjoy their good mood and affable disposition. They know the power to move a mountain lies in an enthusiastic demeanor and positive thoughts; regardless of the hard times their cheerful smile will brighten your day.
 {{< /nature >}}
 
-{{< nature "樂天" 8 "Unconcerned, Indolent, Simple" >}}
+{{< nature "樂天" 8 "無憂無慮、懶散、單純" >}}
 Lax is an inconstant nature, those under it will do things whenever they feel like it. 
 Is not that they are lazy, they just don’t see the need to waste energy on stuff that’s not important for them yet. Since they don’t care to fill anyone’s expectations they rarely stress out about social norms, but they'll need a reason to keep motivated and an even better reason to be pro-active instead of indifferent.
 {{< /nature >}}
 
-{{< nature "怕寂寞" 5 "Independent, Introspective, Solitary" >}}
+{{< nature "寂寞" 5 "獨立、內省、孤獨" >}}
 They like to keep their distance and do everything on their own. They often feel it’s up to them and nobody else to get things done and will take the burden of a responsibility that should be shared.
 Interacting with others is like a chore for them but being isolate also makes them feel misunderstood. They are hard to get close to but they can be trusted to do their best even if there's no one to guide them.
 {{< /nature >}}
 
-{{< nature "慢吞吞" 8 "Meek, Serene, Comforting" >}}
+{{< nature "慢吞吞" 8 "溫順、寧靜、令人舒適" >}}
 “Harmless” is the word that best describes a Mild nature. 
 They are patient and calm with others, reliable and caring on every matter. Because of this, others seek their company as stability ground. They seek to understand others and have a natural talent to do it. 
 They tend to keep their needs to themselves and sometimes stay in the background, but they are the ones to turn when you need someone to listen.
 {{< /nature >}}
 
-{{< nature "內斂" 10 "Measured, Self-Assured, Hard Worker" >}}
+{{< nature "內斂" 10 "謹慎、自信、努力家" >}}
 When you are aware of your potential you don’t need others to praise you for it. A modest nature knows the reward is the constant improvement of their abilities, not the acknowledging of others. They won’t show off nor will they feel diminished when others display better capabilities. They’ll do their best always and the only one who may judge the right or wrong of their ways is themselves.
 {{< /nature >}}
 
-{{< nature "天真" 7 "Curious, Lighthearted, Innocent" >}}
+{{< nature "天真" 7 "好奇、無憂無慮、純真" >}}
 The world is full of wonder; there is always something new to discover and many others to befriend. 
 A Naive nature is a curious and innocent nature, they easily trust others because they ignore the many dangers of the world. They still have a lot to learn but they take life as it comes. They rarely stress out due to the fact they still don't know there are many things to stress about. A friend's smile and a hand to take it's all they 
 need.
 {{< /nature >}}
 
-{{< nature "頑皮" 6 "Devious, Rebel, Sly" >}}
+{{< nature "頑皮" 6 "狡猾、叛逆、惡作劇" >}}
 Why should they listen to you? You are not their boss! 
 Most of the time they’ll deliberately do the opposite from what’s expected from them. Why? Because they can, of course. They love to see others get mad and will use their clever mind and cunning to get away with their misdeeds. When they stress they put a cool facade, don't let that fool you. They need to be coaxed or put in their place to behave properly.
 {{< /nature >}}
 
-{{< nature "冷靜" 5 "Silent, Reserved, Espectator" >}}
+{{< nature "冷靜" 5 "沉默、含蓄、觀測者" >}}
 Life is what happens around those with a Quiet nature. 
 They often take a passive stance over the circumstances around them. Strong thoughts or opinions they have will rarely be expressed, so they are not the greatest at social interactions. They may be afraid to make a mistake or consider it a hassle to take action. When they manage to get the attention of others they rarely know what to do with themselves.
 {{< /nature >}}
 
-{{< nature "浮躁" 9 "Unusual, Open-Minded, Original" >}}
+{{< nature "古怪" 9 "奇特的、能接受新思想、獨創的" >}}
 You can’t really understand how their mind works. Those who have a Quirky nature will usually see the world in a unique way that only they seem to comprehend. 
 The way they act will be peculiar and often attract puzzled looks, they know they are oddballs and are fine with it, but they might get stressed by the strangest of things. The way they see the world is so unique that they accept new things easily.
 {{< /nature >}}
 
-{{< nature "馬虎" 6 "Reckless, Unrefined, Daredevil" >}}
+{{< nature "馬虎" 6 "魯莽、粗俗、蠻勇" >}}
 They are reckless, and exposing themselves to danger is their idea of fun. Blunt and direct in the way they act with others, you are either their friend or you are their enemy. They are known for rushing into action with a “hit first, ask later” mentality. They are also famous for their quick-temper, loud-mouth, and foolhardy deeds, so don't expect them to keep their cool when stress starts to elevate.
 {{< /nature >}}
 
-{{< nature "悠閒" 8 "Carefree, Meditative, Nonchalant" >}}
+{{< nature "悠閒" 8 "無憂無慮、深思的、漠不關心" >}}
 The problems of the world are not their problems. 
 A Relaxed nature will allow its bearer to take it easy and never lose their cool. They will never stress over trivial matters and won’t instigate trouble. 
 Should disputes arise, they will invite others to calm down through breathing and meditation, they go with the flow, never against it. Some may call them carefree, they will call themselves enlightened.
 {{< /nature >}}
 
-{{< nature "自大" 7 "Lively, Irreverent, Mouthy" >}}
+{{< nature "自大" 7 "活潑、失禮、嘮叨" >}}
 They have an attitude, and those who take themselves too seriously may dislike it, but the Sassy natured are simply not afraid to voice their honest opinion and will always find ways to speak their mind and it's always brutally honest, so be ready for some burns.
 There are no middle grounds with them, they either love or hate something so they can be infuriatingly difficult or surprisingly easy to deal with, that is part of their charm.
 {{< /nature >}}
 
-{{< nature "認真" 4 "Steadfast, Rigid, Commited" >}}
+{{< nature "認真" 4 "堅定、死板、忠誠的" >}}
 They have a big sense of responsibility and won’t appreciate when others don’t take things seriously. 
 Stress is a constant in their lives, if they have a duty to fulfill they will not stop until it’s finished, everything else is a useless distraction once they have a task. 
 They might need a hand since have a hard time relaxing but if you want things done well they are the ones to look for.
 {{< /nature >}}
 
-{{< nature "膽小" 4 "Shy, Apprehensive, Sensible" >}}
+{{< nature "膽小" 4 "害羞、憂慮、有意識" >}}
 They have built walls around themselves that make it hard for others to see what’s inside. 
 They just want to be accepted but tend to worry too much and be way too harsh on themselves.
 Their confidence is usually placed on a leader figure and this makes them eager to please but also terrified to fail. 
