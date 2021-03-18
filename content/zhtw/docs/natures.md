@@ -63,13 +63,14 @@ description = "羅列各性格的說明和對應數值"
 
 
 {{< nature "害羞" 6 "有同情心、脆弱、以家庭為主" >}}
-There is an adorable shyness in them. They enjoy the simple things in life and are quite sensitive to other’s emotions. They are very conscious about their own weaknesses and will try to make them better, but it hurts them to be pushed around and they may feel intimidated or disheartened if the challenges are too big. They need a strong figure who believes in them to feel confident but the fact that they are aware of their own weakness is a great advantage though.
+他們有一種可愛的羞澀感。他們喜歡享受生活中簡單的事物，且對他人的情緒相當敏感。他們很清楚自己的弱點，也會努力讓自己變得更好。但被人欺侮擺佈會讓他們受傷，他們也會在面對太過困難的挑戰時感到害怕或沮喪。他們需要一個願意相信他們的強勢人物才能因此獲得自信。儘管如此，能清楚了解自己的弱點也是他們的一大優勢。
 {{< /nature >}}
 
 
 {{< nature "大膽" 9 "冒險精神、自信、勇敢" >}}
-Real thrill seekers. The Bold view life with optimism and excitement, they firmly believe one must go forward no matter the consequences. They are easily provoked and quick to take action, often heading into challenges a lot bigger than themselves. Failure is something that hits them hard, but they are known for getting back on their feet again and charge for adventure one more time. 
-There’s no mountain big enough to stop them and they love to be the center of attention.
+他們是真正的尋求刺激者。大膽性格的他們總是以樂觀與興奮的態度看待生活，他們堅信無論結果如何都必須勇往直前。
+他們很容易被煽動、會迅速採取行動，並經常去面對比自己還要更大的挑戰。失敗會對他們造成很大的打擊，但他們也以能夠迅速振作，並再一次向前衝鋒而聞名。
+再高的山也擋不住他們的腳步，他們熱愛成為萬眾矚目的焦點。
 {{< /nature >}}
 
 

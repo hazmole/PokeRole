@@ -4,104 +4,107 @@ weight = 1
 description = ""
 +++
 
-## The Different Pokémon Types
-This world is filled with different sources of energy that Pokémon can control. They absorb it as part of their bodies or shape it into powerful attacks.
-The Pokémon that is especially proficient at using certain kind of energy is labeled with what we call a Type. 
-Until now, **18 types of Pokemon** have been recognized.
+## 不同的寶可夢屬性
+世界上充斥著各種寶可夢能夠控制的不同能量。牠們能夠吸收這些能量成為身體的一部分，或者是將其形塑成強大的攻擊。
+那些特別擅長使用某種能量的寶可夢，被貼上我們稱之為「屬性」的標籤。
+截至目前，已經有**18 種寶可夢屬性**被發現。
 
 <table>
 <tr>
-  <td class="Normal"> Normal </td>
-  <td align="left"> Pokémon that are not especially proficient at controlling other energies. </td></tr>
+  <td class="Normal"> 一般 </td>
+  <td align="left"> 並不特別擅長控制其他能量的寶可夢。 </td></tr>
 <tr>
-  <td class="Bug"> Bug </td>
-  <td align="left"> Insectoid creatures that get their strength out of a swarm-like mentality. </td></tr>
+  <td class="Bug"> 蟲 </td>
+  <td align="left"> 從群體意識中獲得力量的類昆蟲生物。 </td></tr>
 <tr>
-  <td class="Dark"> Dark </td>
-  <td align="left"> Pokémon that control the power of bad emotions and are known for commiting dishonorable actions. </td></tr>
+  <td class="Dark"> 惡 </td>
+  <td align="left"> 控制著負面情緒的力量，並以做出卑鄙行為而聞名的寶可夢。 </td></tr>
 <tr>
-  <td class="Dragon"> Dragon </td>
-  <td align="left"> Creatures of legend who use their inner rage to destroy anything that opposes them. </td></tr>
+  <td class="Dragon"> 龍 </td>
+  <td align="left"> 動用內心憤怒來摧毀一切擋在牠們面前事物的傳說生物。 </td></tr>
 <tr>
-  <td class="Electric"> Electric </td>
-  <td align="left"> They control electric currents. They feed and recharge out of lightning and thunder. </td></tr>
+  <td class="Electric"> 電 </td>
+  <td align="left"> 牠們能控制電流。牠們透過閃電與雷霆來進食或補充能量。 </td></tr>
 <tr>
-  <td class="Fairy"> Fairy </td>
-  <td align="left"> Elusive and michievous creatures that bring both joy and tears to those who see them.  </td></tr>
+  <td class="Fairy"> 妖精 </td>
+  <td align="left"> 難捉摸又淘氣的寶可夢，能給看到牠們的人帶來歡笑與淚水。 </td></tr>
 <tr>
-  <td class="Fight"> Fight </td>
-  <td align="left"> These Pokémon learned to use their body as a weapon. Some materialize their own energy into attacks. </td></tr>
+  <td class="Fight"> 格鬥 </td>
+  <td align="left"> 這些寶可夢學會了如何將自身化為武器。有些則能讓自己的能量實體化以進行攻擊。 </td></tr>
 <tr>
-  <td class="Fire"> Fire </td>
-  <td align="left"> Pokémon that resist heat, they produce and shape fire to burn anything on their wake. </td></tr>
+  <td class="Fire"> 火 </td>
+  <td align="left"> 能夠抵禦高熱的寶可夢，牠們能產生並形塑火焰來燃燒一切牠們身後的事物。 </td></tr>
 <tr>
-  <td class="Flying"> Flying </td>
-  <td align="left"> They control the wind currents and are masters of the sky, earth bound creatures cannot easily reach them. </td></tr>
+  <td class="Flying"> 飛行 </td>
+  <td align="left"> 牠們能控制強風氣流，是天空的主人。地面上的生物甚至無法輕易觸及到牠們。 </td></tr>
 <tr>
-  <td class="Ghost"> Ghost </td>
-  <td align="left"> Beings from the underworld. They are lurkers in the shadows who prey on the vital energy of the living.  </td></tr>
+  <td class="Ghost"> 幽靈 </td>
+  <td align="left"> 來自冥界的生物。牠們潛伏在暗影之中，捕食活物的生命能量。 </td></tr>
 <tr>
-  <td class="Grass"> Grass </td>
-  <td align="left"> Pokémon with a plant-like appearance. They feed on sunlight. Some grow flowers and others grow thorns. </td></tr>
+  <td class="Grass"> 草 </td>
+  <td align="left"> 有著植物般外表的寶可夢。牠們以陽光為食。有些長著花朵、有些則生有荊棘。 </td></tr>
 <tr>
-  <td class="Ground"> Ground </td>
-  <td align="left"> These Pokémon live below the ground. They can control the movement of earth and all of its properties. </td></tr>
+  <td class="Ground"> 地面 </td>
+  <td align="left"> 這些寶可夢生活在地面之下。牠們能夠控制大地的振動以及其所有其他特性。 </td></tr>
 <tr>
-  <td class="Ice"> Ice </td>
-  <td align="left"> Ice and snow froze their bodies. They can resist and create glacial temperatures.  </td></tr>
+  <td class="Ice"> 冰 </td>
+  <td align="left"> 冰與雪霜結成牠們的身體。牠們能抵抗並創造出冰川般的酷寒低溫。 </td></tr>
 <tr>
-  <td class="Poison"> Poison </td>
-  <td align="left"> These creatures carry venom on their body. They bring sickness and plague wherever they go. </td></tr>
+  <td class="Poison"> 毒 </td>
+  <td align="left"> 這些生物身上帶有劇毒。牠們所到之處都將帶來疾病與瘟疫。 </td></tr>
 <tr>
-  <td class="Psychic"> Psychic </td>
-  <td align="left"> They feed on mental energy to use telekinesis. They are some of the most intelligent beings on the planet. </td></tr>
+  <td class="Psychic"> 超能力 </td>
+  <td align="left"> 牠們依靠精神能量來使用念力。牠們是這個星球上最聰明的生物之一。
+ </td></tr>
 <tr>
-  <td class="Rock"> Rock </td>
-  <td align="left"> Their body is their armor, they create rock slides and crush their enemies beneath. </td></tr>
+  <td class="Rock"> 岩石 </td>
+  <td align="left"> 牠們的身體本身就是保護牠們的盔甲，牠們能夠製造岩崩來將牠們的敵人輾壓在下。 </td></tr>
 <tr>
-  <td class="Steel"> Steel </td>
-  <td align="left"> A cold steel plate covers their bodies. they behave like an organic machine. Ruthless and cold. </td></tr>
+  <td class="Steel"> 鋼 </td>
+  <td align="left"> 冰冷的鋼甲包覆著牠們的身體。牠們的行為舉止就如同活體機器，冷酷且無情。 </td></tr>
 <tr>
-  <td class="Water"> Water </td>
-  <td align="left"> Aquatic creatures that can breath under water, they can call the rain and shoot mighty torrents. </td></tr>
+  <td class="Water"> 水 </td>
+  <td align="left"> 能夠在水中呼吸的水中生物，牠們能夠呼喚降雨，噴射出強力的激流。 </td></tr>
 </table>
 
-Each one of these types has different powers they can use. Some Pokémon are capable of using not just one but two types of energy, gaining the resistances and weaknesses of their second type as well.
+每一種屬性都能夠發揮運用不同種類的力量。有些寶可夢操控不只一種，而是二種屬性的能量，並因此獲得第二屬性帶來的抗性與弱點。
 
 
-### Resistances, Weaknesses, & Immunities
-There are many ways to win during a battle; you either use your foe’s weaknesses against him or you exploit your own strengths. A good trainer chooses the right pokémon for the right occasion, in and out of Battle.
+---
+### 屬性相剋
+在戰鬥中有很多種取勝的手段；你可以利用敵人的弱點來對付他，也可以善用發揮自己的優勢。傑出的訓練家懂得在正確的場合挑選正確的寶可夢，無論戰鬥與否皆然。
+寶可夢的屬性是在一種能讓你在戰鬥中取得優勢的常見方法。如果你剛好選擇了一個能夠剋制敵人屬性的寶可夢，那麼即使你的同伴沒那麼強也不會是什麼太大的問題。
 
-Pokémon Types are a common way to gain an edge in a fight. If you happen to choose a Pokémon that resists your foe’s attacks, it won’t be much of a problem if your companion isn’t as strong.
+寶可夢的屬性相剋表可以參見 <a href="https://wiki.52poke.com/wiki/%E5%B1%9E%E6%80%A7%E7%9B%B8%E5%85%8B%E8%A1%A8">寶可夢百科</a>。
 
-The Pokémon Types Chart can be seen <a href="https://bulbapedia.bulbagarden.net/wiki/Type#Type_chart">here</a>.
-
-##### Resistances
-All Pokémon Types (with the exception of Normal Type) are able to resist certain Move Types.
-**This kind of protection makes the damage received <u>Not very effective</u> reducing 1 point from the total damage received.**
-
-
-##### Weaknesses
-All Pokémon are weak to certain Move Types.
-**This vulnerability makes the damage taken <u>Super Effective</u> meaning the Pokémon will receive 1 additional point of damage from the attack but the roll MUST score at least 1 Success.**
+##### 抗性
+所有的寶可夢屬性（除了一般系以外）都能夠抵抗某些招式的屬性。
+**這種保護能讓受到的傷害變得<u>效果不好</u>，並因此減少 1 點受到的傷害。**
 
 
-##### Immunities
-A few Pokémon Types are **<u>Immune</u>** to other specific Types of damage. 
-**They will not receive any damage from attacks of that type, but may still be affected by support moves.**
+##### 弱點
+所有寶可夢屬性都對某些招式的屬性特別脆弱。
+**這種弱點會使受到的傷害變得<u>效果絕佳</u>，意味著該寶可夢將會因此承受額外 1 點來自該攻擊的傷害，但前題是該攻擊的傷害判定必須骰出至少 1 顆成功骰。**
 
 
-##### Double Resistance/Weakness
-Two types may share a resistance, this means that a double-type Pokémon may reduce up to 2 damage points from an attack that is **Not very effective** against both of its Types.
+##### 免疫
+少數寶可夢屬性能夠<u>**免疫**</u>其他特定屬性的傷害。
+**牠們並不會受到任何來自該屬性的攻擊傷害，但仍可能會受到輔助招式的影響。**
 
-The same rule applies when receiving a **Super Effective** attack. If both of the Pokémon’s Types share a Weakness, the Pokémon will receive 2 additional damage.
+
+##### 雙重抗性/弱點
+兩個屬性可能會同時擁有對同一個屬性的抗性，這意味著雙屬性的寶可夢有辦法讓牠受到的攻擊傷害減少最多 2 點，只要該攻擊同時對這兩個屬性都**效果不好**。
+同樣的規則也適用於**效果絕佳**的攻擊。如果寶可夢的兩個屬性都共有同一個弱點屬性，那麼該寶可夢在承受該屬性的攻擊時，將會承受額外 2 點傷害。
+
 
 {{< example>}}
-Josephine encountered a wild **Ryhorn**, she know’s this Pokémon is a **Ground/Rock**-type.
-She has 3 Pokémon with her: 
-**Beedrill**, a **Bug/Poison**-type; **Slurpuff**, a **Fairy**-type; and **Lombre**, a **Grass/Water** type.
+約瑟芬遭遇了一隻野生的**獨角犀牛**，她知道這隻寶可夢的屬性是**地面/岩石**屬性。
+她身上帶著 3 隻寶可夢：
+**大針蜂**，蟲/毒屬性；**胖甜妮**，妖精屬性；**蓮帽小童**，草/水屬性。
 
-Ryhorn has Ground and Rock-type attacks that are **Super effective** against Poison and Bug Pokémon, and it has a double resistance to Poison attacks. Beedrill would be a poor choice to fight it. Fairy type attacks of Slurpuff would be dealing neutral damage as Rhyhorn is not weak nor resistant to them. However, Rhyhorn is twice as weak to Water and Grass! Both Rock and Ground types share Water and Grass as weakness.
+獨角犀牛擁有地面屬性與岩石屬性的攻擊招式，這對毒屬性與蟲屬性的寶可夢的**效果絕佳**。牠同時還擁有對毒屬性攻擊的雙重抗性，因此大針蜂並不是個對付牠的好選擇。
+胖甜妮的妖精屬性攻擊只能造成正常的傷害，因為獨角犀牛對其屬性並沒有抗性也沒有弱點。
+然而，獨角犀牛對水屬性和草屬性卻有著雙重弱點！岩石屬性與地面屬性都共有對水屬性和草屬性的弱點。
 
-\- “Lombre! I choose you!”- Says Josephine
+「蓮帽小童，就決定是你了！」約瑟芬喊道。
 {{< /example >}}
