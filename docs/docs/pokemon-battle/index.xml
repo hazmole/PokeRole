@@ -50,12 +50,24 @@
 在這個階段，訓練家將獲得進行一個動作的機會。
 有些動作或異常狀態會在戰鬥中的這個階段發揮效果。
 戰鬥的步驟 步驟 1: 決定先攻 「皮卡丘，就決定是你了！」
-Roll 1 Die and add yout Initiavive score to the result.
-Your Initiative Score is equal to:
+骰 1 顆骰子，然後把擲骰結果加上你的先攻值。
+你的先攻值等於：
 靈巧 + 警覺
-Whoever gets the higher result may act first, whoever got the second best result goes second and so on.
+由擲骰總值越高的角色越先動作，總值次高的接續，以此類推。
 步驟 2: 使用招式 「皮卡丘，使用十萬伏特！」
-Roll the Move’s Accuracy.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
+擲骰進行招式的命中判定。
+在你寶可夢的回合期間，你可以命令牠使用一個招式。
+一旦你選好要使用的招式，擲骰進行命中判定來決定招式是否命中。
+每個招式都有它各自需要進行的命中檢定。
+步驟 2.5: 閃避/對抗 (可選) 「伊布，別讓牠打中你！」
+敵人可以會嘗試躲開或反擊。
+敵人骰 靈巧 + 閃避
+如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
+或者
+敵人骰 力量/特殊 + 對抗
+如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
+當進行對抗時，雙方受到的傷害仍會考慮到弱點和抗性。
+閃避和對抗都需要花費一個動作。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
 If you receive damage, your Trainer and Pokémon are able to heal 1 HP every 8 hours.
 You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>Multiple Actions (Optional) This is where you get fast and furious. You can abuse your speed and intellect to divide your attention and perform multiple tasks at the same time.
 Most common use is in battle; you can attack, evade and support your allies, but Multiple Actions are not limited to fights.

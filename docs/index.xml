@@ -115,12 +115,24 @@ What are Pokémon Contests? When you talk about Pokémon Contests, you talk abou
 在這個階段，訓練家將獲得進行一個動作的機會。
 有些動作或異常狀態會在戰鬥中的這個階段發揮效果。
 戰鬥的步驟 步驟 1: 決定先攻 「皮卡丘，就決定是你了！」
-Roll 1 Die and add yout Initiavive score to the result.
-Your Initiative Score is equal to:
+骰 1 顆骰子，然後把擲骰結果加上你的先攻值。
+你的先攻值等於：
 靈巧 + 警覺
-Whoever gets the higher result may act first, whoever got the second best result goes second and so on.
+由擲骰總值越高的角色越先動作，總值次高的接續，以此類推。
 步驟 2: 使用招式 「皮卡丘，使用十萬伏特！」
-Roll the Move’s Accuracy.</description></item><item><title>招式效果標籤</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
+擲骰進行招式的命中判定。
+在你寶可夢的回合期間，你可以命令牠使用一個招式。
+一旦你選好要使用的招式，擲骰進行命中判定來決定招式是否命中。
+每個招式都有它各自需要進行的命中檢定。
+步驟 2.5: 閃避/對抗 (可選) 「伊布，別讓牠打中你！」
+敵人可以會嘗試躲開或反擊。
+敵人骰 靈巧 + 閃避
+如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
+或者
+敵人骰 力量/特殊 + 對抗
+如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
+當進行對抗時，雙方受到的傷害仍會考慮到弱點和抗性。
+閃避和對抗都需要花費一個動作。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>招式效果標籤</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
 Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them.
 Category Icon {@icon moveType|l|physical}
 Physical
@@ -248,7 +260,18 @@ Think about it as a specialization to being a Pokémon Trainer.</description></i
 勇敢
 信心值: 9
 無懼、沉穩、守護者
-The Brave of heart will face any situation with courage and a cool head.</description></item><item><title>技能</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</guid><description>技能與額外技能 你會需要技能來讓你們的冒險旅程更容易，協助你度過各種各樣的狀況。你的寶可夢們能夠自己學會一些技能，但你也可訓練牠們，使牠們變得更強大。
+勇敢性格的他們會用勇氣與冷靜的頭腦去面對任何情況。他們不會容忍周遭有任何人被霸凌或是虐待，且他們總是會鼓勵他人去克服自己的恐懼。「無私」是他們的第二個名字，他們絕對不會背棄戰友，即使這會讓自己身陷險境也一樣。大家敬仰著他們，因為他們能激起自信與信任。他們努力征服自己的恐懼，也希望激勵他人一起這麼做。
+即使壓力開始加劇，他們仍能保持鎮定。
+溫和
+信心值: 8
+通情達理、和平、均衡
+對於溫和性格的他們來說，和平和安寧是最重要的事物。他們既不吵鬧，也不希望生活中出現多少刺激的事物。他們是和平主義者，且不喜歡衝突。
+在面對麻煩時，他們傾向保持距離及鎮定，因此他們很少會看到他們受到挑釁。
+他們不喜歡承受壓力與專橫的關注，但他們的存在確實能讓人感到愉快與舒適。
+慎重
+信心值: 5
+善於分析、多疑的、內斂的
+慎重性格的人們通常會根據風險的程度來決定自己的選擇。如果收益可觀但風險太大，他們會寧可選擇回報較低但風險較小的選項。他們可能會需要一些時間來適應陌生人，且總是警戒著周圍的狀況。保持局面被控制住的狀態對他們來說非常重要，無法掌控局面將會使他們感到焦慮及壓力。如果事情不幸失控，他們可能會選擇逃跑，改日再戰。</description></item><item><title>技能</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/</guid><description>技能與額外技能 你會需要技能來讓你們的冒險旅程更容易，協助你度過各種各樣的狀況。你的寶可夢們能夠自己學會一些技能，但你也可訓練牠們，使牠們變得更強大。
 技能是各種應用知識的匯總。
 它們可以涵蓋相當廣泛的情境，且不一定要特指於某個領域或學科。
 這個世界上有著許多不同的技能，要同時熟練或精通它們基本上是不可能的。儘管角色卡上列出那些與冒險故事最相關的技能，但你仍能學習任何你想要的技藝：耕種栽培、吟詩作對，或任何你想像得到的事物。你可以使用「額外技能」來紀錄任何沒有列在角色卡上的其他技能。

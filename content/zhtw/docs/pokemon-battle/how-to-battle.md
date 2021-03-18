@@ -40,52 +40,55 @@ description = ""
 ### 戰鬥的步驟
 #### 步驟 1: 決定先攻
 <div class="flavorText">「皮卡丘，就決定是你了！」</div>
-{{< highlight >}}Roll 1 Die and add yout Initiavive score to the result.{{< /highlight >}}
+{{< highlight >}}骰 1 顆骰子，然後把擲骰結果加上你的先攻值。 {{< /highlight >}}
 
-Your Initiative Score is equal to:
+你的先攻值等於：
 <div class="middle">靈巧 + 警覺</div>
 
-Whoever gets the higher result may act first, whoever got the second best result goes second and so on.
+由擲骰總值越高的角色越先動作，總值次高的接續，以此類推。
+
 
 #### 步驟 2: 使用招式
 <div class="flavorText">「皮卡丘，使用十萬伏特！」</div>
-{{< highlight >}}Roll the Move’s Accuracy.{{< /highlight >}}
+{{< highlight >}}擲骰進行招式的命中判定。{{< /highlight >}}
 
-During your Pokémon’s Turn you may order it to use a Move.
-Once you have selected the Move, Roll the dice for Accuracy to see if the move hits or misses.
-Each Move has its required Accuracy roll on its entry.
+在你寶可夢的回合期間，你可以命令牠使用一個招式。
+一旦你選好要使用的招式，擲骰進行命中判定來決定招式是否命中。
+每個招式都有它各自需要進行的命中檢定。
+
 
 #### 步驟 2.5: 閃避/對抗 (可選) 
 <div class="flavorText">「伊布，別讓牠打中你！」</div>
 
-The foe might try to evade or retaliate.
-{{< highlight >}}The foe Rolls Dexterity + Evasion{{< /highlight >}}
+敵人可以會嘗試躲開或反擊。
 
-If the foe scores as many successes as you, he evades the attack and won't receive any damage or effects.
+{{< highlight >}}敵人骰 靈巧 + 閃避{{< /highlight >}}
+如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
 
-**OR**
+**或者**
 
-{{< highlight >}}The foe Rolls Strength/Special + Clash{{< /highlight >}}
+{{< highlight >}}敵人骰 力量/特殊 + 對抗{{< /highlight >}}
+如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
+**當進行對抗時，雙方受到的傷害仍會考慮到弱點和抗性。**
+* 閃避和對抗都需要花費一個動作。
+* 對抗同樣會需要使用一個傷害招式。
+* 閃避/對抗每個戰鬥輪都只能各使用一次。
 
-If the foe scores as many successes as you, he Clashes the attack and both Pokémon will suffer 1 point of Damage instead of the regular damage from the attack. 
-**Weaknesses and Resistances are taken into account when clashing.**
-* Evading and Clashing takes one Action.
-* Clash also requires the use of a Damaging Move.
-* Evasion/Clash can be used only once per Round, each.
 
 #### 步驟 3: 結算傷害
-{{< highlight >}}Roll the Move’s Damage minus the foe’s DEF/SDEF.{{< /highlight >}}
+{{< highlight >}}骰 招式的傷害 - 敵人的防禦/特防。{{< /highlight >}}
 
-If the Move landed, it's time to gather the Dice pool to deal damage. Each Move's entry has its Damage pool listed, and they are usually:
+若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：
 
-<div class="middle">Strength/Special + Move's Power - Foe's DEF/SDEF</div>
+<div class="middle">力量/特殊 + 招式的威力 - 敵人的防禦/特防</div>
+
 
 {{< boxmd >}}
-**Each success on your Damage Roll inflicts 1 point of damage**
+**每個你傷害骰池中的成功骰都會造成 1 點傷害。**
 
-A successfully landed attack always deals 1 point of Damage <u>even if your Damage Pool is reduced to 0 or you score No Successes on the Damage Roll.</u>
+一個成功命中的攻擊永遠至少會造成 1 點傷害，<u>就算你傷害骰池被扣到一顆骰子都不剩，或是在傷害判定時沒有骰出任何成功骰</u>也一樣。
 
-If you want to apply the bonus damage from Super Effective, <u>you must score at least 1 success on your Damage Roll.</u>
+然而，如果你想要適用來自**效果絕佳**攻擊的額外傷害，那麼<u>你必須要在傷害判定中骰出至少 1 顆成功骰</u>。
 {{< /boxmd >}}
 
 

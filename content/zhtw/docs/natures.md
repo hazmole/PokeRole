@@ -75,21 +75,22 @@ description = "羅列各性格的說明和對應數值"
 
 
 {{< nature "勇敢" 9 "無懼、沉穩、守護者" >}}
-The Brave of heart will face any situation with courage and a cool head. They won’t tolerate bullying or abuse anywhere near them and will always encourage others to conquer their fears. “Selfless” is their second name, as they will never turn their back on their comrades even at the cost of their own safety. Others look up to them as they inspire confidence and trust. They strive to conquer their fears and wish to inspire others to do the same. 
-They keep it together when stress begins to escalate.
+勇敢性格的他們會用勇氣與冷靜的頭腦去面對任何情況。他們不會容忍周遭有任何人被霸凌或是虐待，且他們總是會鼓勵他人去克服自己的恐懼。「無私」是他們的第二個名字，他們絕對不會背棄戰友，即使這會讓自己身陷險境也一樣。大家敬仰著他們，因為他們能激起自信與信任。他們努力征服自己的恐懼，也希望激勵他人一起這麼做。
+即使壓力開始加劇，他們仍能保持鎮定。
 {{< /nature >}}
 
 
 {{< nature "溫和" 8 "通情達理、和平、均衡" >}}
-Peace and tranquility is the most important thing for those with a Calm nature. They are not noisy nor they want many thrills in their lives. Conflict is not welcome and they tend to be peacemakers. 
-It is rare to see them fall for provocations as they keep their distance and composure when facing trouble. 
-They dislike stress and overbearing attention, but their presence is pleasant and soothing.
+對於溫和性格的他們來說，和平和安寧是最重要的事物。他們既不吵鬧，也不希望生活中出現多少刺激的事物。他們是和平主義者，且不喜歡衝突。
+在面對麻煩時，他們傾向保持距離及鎮定，因此他們很少會看到他們受到挑釁。
+他們不喜歡承受壓力與專橫的關注，但他們的存在確實能讓人感到愉快與舒適。
 {{< /nature >}}
 
 
 {{< nature "慎重" 5 "善於分析、多疑的、內斂的" >}}
-Those with this nature will often ponder their options according to the level of risk. If the benefit is substantial but the risk is too great they will prefer an option less rewarding but also less risky. They may take some time to warm up to strangers and will always be alert to their surroundings. Keeping a situation under control is important for them, not being in control makes them anxious and stressed. If things get out of hand they might run away to fight another day.
+慎重性格的人們通常會根據風險的程度來決定自己的選擇。如果收益可觀但風險太大，他們會寧可選擇回報較低但風險較小的選項。他們可能會需要一些時間來適應陌生人，且總是警戒著周圍的狀況。保持局面被控制住的狀態對他們來說非常重要，無法掌控局面將會使他們感到焦慮及壓力。如果事情不幸失控，他們可能會選擇逃跑，改日再戰。
 {{< /nature >}}
+
 
 {{< nature "坦率" 7 "善良、團隊合作、服務精神" >}}
 Always with a courteous disposition, a Docile nature indicates that you put others before yourself. Those under this nature love to please and be of assistance to their companions and community. 
