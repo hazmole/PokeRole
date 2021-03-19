@@ -4,89 +4,92 @@ weight = 3.5
 description = ""
 +++
 
-## Multiple Actions (Optional)
-This  is  where  you  get  fast  and  furious. You  can  abuse your  speed  and  intellect  to  divide  your  attention  and perform multiple tasks at the same time. 
+## 多重行動 (可選)
+你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。
 
-Most common use is in battle; you can attack, evade and support your allies, but Multiple Actions are not limited to fights.
+多重行動大部分會用在戰鬥中；你可以同時攻擊、閃避、和支援你的同伴，但多重行動的用途並不僅限於戰鬥。
+也許你想要在一邊讀書的同時駕駛車輛、或者也許你想要在一邊閃避種子機關槍的同時一邊接球、並狠踹你的對手。我並不會說一切都有可能，但至少你可以試試看！
+最壞的情況是：你可能會死。
 
-Maybe you want to read a book while driving a car, or maybe you want to catch a ball and kick your foe while dodging bullet seeds. I’m not saying that everything is possible, but you can at least try! 
-Worst case scenario: You die.
 
-All you have to do is:
+要進行多重行動，你要做的就只是：
  
-{{< highlight >}}
-Roll the dice pool for your action.
+ {{< highlight >}}
+使用相應骰池，如常為你的行動擲骰。
 {{< /highlight >}}
 
-
-However,  every  Action  beyond  the  first,  will  require 1 additional Success.
+然而，第一個行動以後的每一個行動，都會需要一個額外的成功骰。
 
 <table style="width:60%;">
-	<tr><th>Multiple Action</th><th>Required Successes</th></tr>
-	<tr><td>1st Action </td><td>1 </td></tr>
-	<tr><td>2nd Action </td><td>2 </td></tr>
-	<tr><td>3rd Action </td><td>3 </td></tr>
-	<tr><td>4th Action </td><td>4 </td></tr>
-	<tr><td>5th Action </td><td>5 </td></tr>
+	<tr><th>多重行動</th><th>所需成功骰數 </th></tr>
+	<tr><td>第一個行動 </td><td>1 </td></tr>
+	<tr><td>第二個行動 </td><td>2 </td></tr>
+	<tr><td>第三個行動 </td><td>3 </td></tr>
+	<tr><td>第四個行動 </td><td>4 </td></tr>
+	<tr><td>第五個行動 </td><td>5 </td></tr>
 </table>
 
-**Pain Penalizations, Low Accuracy, and other penalties may substract Successes from your Rolls.**
+**痛苦懲罰、低命中、和其他懲罰都可能扣除你擲骰結果中的成功骰。**
 
-You may perform up to 5 multiple actions each round, and it gets harder and harder the more you push your skills, **if you are not skilled enough you risk suffering a Critical Failure.**
+你每個戰鬥輪都可以執行最多 5 個多重行動，且它會隨著你不斷逼近你技藝的極限而變得越來越困難，**如果你的技藝不夠熟練，那麼你就可能遭受大失敗的風險**。
+
 
 {{< mynotice story >}}
-When  a  Pokémon  is  acting  on  its own,  they  usually  won’t  make more  than  one  or  two  actions, even if they are capable of doing more. 
+當寶可夢自行採取行動時，牠們通常不會進行多於一個或二個行動，即使牠們有能力做到更多也一樣。
 {{< /mynotice >}}
 
-**You  can  take  your  2nd  action  only  after  everybody else had a chance to act, the only exceptions being: <u>Successive Actions and Evasion/Clash</u>.**
+**你只有在所有人的回合都輪過一次後，才可以接著進行第二個行動。唯一的例外是<u>閃避/對抗</u>、以及<u>連續行動</u>。**
 
-If you make lots of actions it means that you are moving  really  quick.  Running,  jumping,  dodging  and  attacking in an impressive manner.
+若你進行了許多的行動，就代表著你的每一個行動都相當迅速，用令人印象深刻的方式奔跑、跳躍、閃躲、和發動攻擊。
 
 
 {{< example >}}
-Take this example on how much you can do if you master multiple actions:
+以下這個例子說明在精通了多重行動之後你能做到多少事情：
 
-Chuckie wants to ride a wild Tauros and text Prof. Oak the information about it. He gets on the back of the Pokémon when he discovers that wild Tauros don’t like being rode. Suddenly, an arrow flies through the air towards him. Since Chuckie is a man of science, he decides that texting his finding to Prof. Oak  is more important, but he also cares about his life, so he will try to do it all at the same time.
+洽吉想要騎上一頭野生的肯泰羅，並同時傳訊通知大木博士關於牠的情報。他騎上了這隻寶可夢的背，並發現這頭野生的肯泰羅並不怎麼喜歡被騎乘。突然間，一枝箭矢劃破空氣朝著他飛來。由於恰吉是個科學人，他認為傳訊給大木博士這件事更為重要，但他也很重視自己的小命，因此他打算要同時完成上述所有一切。
 
-Chukie’s traits are:
-* Dexterity ●●●●○
-* Clever ●●●○○
+恰吉的各項數值如下：
+* 靈巧 ●●●●○
+* 聰明 ●●●○○
 <!---->
-* Evasion ●●●○○
-* Athletic ●●○○○
-* Science ●●●●○
+* 閃避 ●●●○○
+* 運動 ●●○○○
+* 科學 ●●●●○
 
 ---
 
-He decides he wants to perform all 3 Actions at once. First, Chuckie will try to stay mounted on the Tauros:
+恰吉決定他想要同時執行這 3 個行動。首先，恰吉打算先試著留在肯泰羅背上，避免被甩下來：
 
-**Chuckie’s First Action** (Requires 1 Success)
-{@icon dice|m|4}Chuckie’s Dexterity
-\+ {@icon dice|m|2}Chuckie’s Athletic
-= {@icon dice|m|6}Chuckie’s First Action Dice Pool
+**恰吉的第一個行動** (需要 1 個成功骰)
+{@icon dice|m|4} 恰吉的靈巧
+\+ {@icon dice|m|2} 恰吉的運動
+= {@icon dice|m|6} 恰吉的第一個行動骰池
 
-**Roll Results**: {@icon rdice|s|6}{@icon rdice|s|3}{@icon rdice|s|1} {@icon rdice|s|3}{@icon rdice|s|2}{@icon rdice|s|4}
-
----
-He succeeds, Tauros is violently shaking him but he manages to stay on top. Now Chuckie will try to dodge the arrow:
-
-**Chuckie’s Second Action** (Requires 2 Success)
-{@icon dice|m|4}Chuckie’s Dexterity
-\+ {@icon dice|m|3}Chuckie’s Evasion
-= {@icon dice|m|7}Chuckie’s Second Action Dice Pool
-
-**Roll Results**: {@icon rdice|s|2}{@icon rdice|s|5}{@icon rdice|s|1} {@icon rdice|s|4}{@icon rdice|s|3}{@icon rdice|s|5}{@icon rdice|s|2}
+**擲骰結果**:
+{@icon rdice|s|6}{@icon rdice|s|3}{@icon rdice|s|1} {@icon rdice|s|3}{@icon rdice|s|2}{@icon rdice|s|4}
 
 ---
-He succeeds again, moving out of the arrow’s path with ease. Finally Chuckie will try to send the text to Prof. Oak.  
+他成功了，儘管肯泰羅兇猛地甩動著，他仍然成功待在牠的背上。現在恰吉打算嘗試閃避那枝射過來的箭：
 
-**Chuckie’s Third Action** (Requires 3 Success)
-{@icon dice|m|3}Chuckie’s Clever
-\+ {@icon dice|m|4}Chuckie’s Science
-= {@icon dice|m|7}Chuckie’s Third Action Dice Pool
+**恰吉的第二個行動** (需要 2 個成功骰)
+{@icon dice|m|4} 恰吉的靈巧
+\+ {@icon dice|m|3} 恰吉的閃避
+= {@icon dice|m|7} 恰吉的第二個行動骰池
 
-**Roll Results**: {@icon rdice|s|3}{@icon rdice|s|6}{@icon rdice|s|1} {@icon rdice|s|6}{@icon rdice|s|3}{@icon rdice|s|4}{@icon rdice|s|3}
+**擲骰結果**:
+{@icon rdice|s|2}{@icon rdice|s|5}{@icon rdice|s|1} {@icon rdice|s|4}{@icon rdice|s|3}{@icon rdice|s|5}{@icon rdice|s|2}
 
 ---
-Prof. Oak got his text!  Chuckie, you are the man!
+他又成功了，輕鬆閃開了箭矢劃過的軌跡。最後，恰吉試圖把訊息傳給大木博士。
+
+**恰吉的第三個行動** (需要 3 個成功骰)
+{@icon dice|m|3} 恰吉的聰明
+\+ {@icon dice|m|4} 恰吉的科學
+= {@icon dice|m|7} 恰吉的第三個行動骰池
+
+**擲骰結果**:
+{@icon rdice|s|3}{@icon rdice|s|6}{@icon rdice|s|1} {@icon rdice|s|6}{@icon rdice|s|3}{@icon rdice|s|4}{@icon rdice|s|3}
+
+---
+大木博士收到了訊息！恰吉，你個好傢伙！
 {{< /example >}}

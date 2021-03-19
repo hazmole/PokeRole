@@ -46,14 +46,14 @@
 戰鬥輪 一個戰鬥輪大約 10 秒鐘。在這段時間內，寶可夢和訓練家可以進行他們的動作和攻擊。一個戰鬥輪會由數個「回合」構成。
 如果寶可夢夠快，夠有經驗，那麼牠也許只需要幾秒鐘的空檔就能在同一個戰鬥輪中進行多次攻擊。相反的，階級較低的寶可夢可能會需要花費整整一輪的時間才能執行一次攻擊。
 回合 回合是戰鬥輪的其中一個片段，代表著寶可夢使用其動作去施展招式的這段時間。
-戰鬥輪結束 一旦所有的寶可夢都做完了牠們各自的動作，且所有一切都處理完畢之後，該回合結束。
+戰鬥輪結束 一旦所有的寶可夢都做完了牠們各自的行動，且所有一切都處理完畢之後，該回合結束。
 在這個階段，訓練家將獲得進行一個動作的機會。
-有些動作或異常狀態會在戰鬥中的這個階段發揮效果。
+有些招式或異常狀態會在戰鬥中的這個階段發揮效果。
 戰鬥的步驟 步驟 1: 決定先攻 「皮卡丘，就決定是你了！」
 骰 1 顆骰子，然後把擲骰結果加上你的先攻值。
 你的先攻值等於：
 靈巧 + 警覺
-由擲骰總值越高的角色越先動作，總值次高的接續，以此類推。
+由擲骰總值越高的角色越先動作，總值次高的接續在後，以此類推。
 步驟 2: 使用招式 「皮卡丘，使用十萬伏特！」
 擲骰進行招式的命中判定。
 在你寶可夢的回合期間，你可以命令牠使用一個招式。
@@ -61,17 +61,38 @@
 每個招式都有它各自需要進行的命中檢定。
 步驟 2.5: 閃避/對抗 (可選) 「伊布，別讓牠打中你！」
 敵人可以會嘗試躲開或反擊。
-敵人骰 靈巧 + 閃避
-如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
+敵人骰 靈巧 + 閃避 如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
 或者
-敵人骰 力量/特殊 + 對抗
-如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
-當進行對抗時，雙方受到的傷害仍會考慮到弱點和抗性。
-閃避和對抗都需要花費一個動作。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>Damage Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
+敵人骰 力量/特殊 + 對抗 如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
+進行對抗時，雙方受到的傷害仍會把弱點和抗性的影響納入計算。
+閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
 If you receive damage, your Trainer and Pokémon are able to heal 1 HP every 8 hours.
-You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>Multiple Actions (Optional) This is where you get fast and furious. You can abuse your speed and intellect to divide your attention and perform multiple tasks at the same time.
-Most common use is in battle; you can attack, evade and support your allies, but Multiple Actions are not limited to fights.
-Maybe you want to read a book while driving a car, or maybe you want to catch a ball and kick your foe while dodging bullet seeds.</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
+You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>多重行動 (可選) 你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。
+多重行動大部分會用在戰鬥中；你可以同時攻擊、閃避、和支援你的同伴，但多重行動的用途並不僅限於戰鬥。
+也許你想要在一邊讀書的同時駕駛車輛、或者也許你想要在一邊閃避種子機關槍的同時一邊接球、並狠踹你的對手。我並不會說一切都有可能，但至少你可以試試看！
+最壞的情況是：你可能會死。
+要進行多重行動，你要做的就只是：
+使用相應骰池，如常為你的行動擲骰。 然而，第一個行動以後的每一個行動，都會需要一個額外的成功骰。
+多重行動所需成功骰數
+第一個行動 1
+第二個行動 2
+第三個行動 3
+第四個行動 4
+第五個行動 5
+痛苦懲罰、低命中、和其他懲罰都可能扣除你擲骰結果中的成功骰。
+你每個戰鬥輪都可以執行最多 5 個多重行動，且它會隨著你不斷逼近你技藝的極限而變得越來越困難，如果你的技藝不夠熟練，那麼你就可能遭受大失敗的風險。
+當寶可夢自行採取行動時，牠們通常不會進行多於一個或二個行動，即使牠們有能力做到更多也一樣。
+你只有在所有人的回合都輪過一次後，才可以接著進行第二個行動。唯一的例外是閃避/對抗、以及連續行動。
+若你進行了許多的行動，就代表著你的每一個行動都相當迅速，用令人印象深刻的方式奔跑、跳躍、閃躲、和發動攻擊。
+以下這個例子說明在精通了多重行動之後你能做到多少事情：
+洽吉想要騎上一頭野生的肯泰羅，並同時傳訊通知大木博士關於牠的情報。他騎上了這隻寶可夢的背，並發現這頭野生的肯泰羅並不怎麼喜歡被騎乘。突然間，一枝箭矢劃破空氣朝著他飛來。由於恰吉是個科學人，他認為傳訊給大木博士這件事更為重要，但他也很重視自己的小命，因此他打算要同時完成上述所有一切。
+恰吉的各項數值如下：
+靈巧 ●●●●○ 聰明 ●●●○○
+閃避 ●●●○○ 運動 ●●○○○ 科學 ●●●●○ 恰吉決定他想要同時執行這 3 個行動。首先，恰吉打算先試著留在肯泰羅背上，避免被甩下來：
+恰吉的第一個行動 (需要 1 個成功骰)
+{@icon dice|m|4} 恰吉的靈巧
++ {@icon dice|m|2} 恰吉的運動
+= {@icon dice|m|6} 恰吉的第一個行動骰池</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
 How can you defeat an Onix with only the help of a tiny Pichu?
 Well, having a strategy can save the day!
 In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.

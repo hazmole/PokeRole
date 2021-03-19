@@ -59,14 +59,14 @@ These Icons will be inside a Box with an effect. Here’s an example:
 {@icon frame|flinch|畏縮|always} Never Flinches
 
 ---
-#### Reduced Accuracy
+#### 降低命中率
 {@icon frame|accuracy|命中|down|X}
 
 Reduce the noted number of successes from the Move’s Accuracy Roll.
 For more info, see p.51
 
 ---
-#### Target
+#### 目標
 These Icons illustrate who’ll be affected by the Move.
 **Green** Target Icons are used for the User or its Allies:
 **Red** Target Icons are used for Foes:
@@ -84,7 +84,7 @@ These Icons illustrate who’ll be affected by the Move.
 *Moves targeted at the Battlefield can’t be evaded/clashed.
 
 ---
-#### Increase/Reduce Box
+#### 提升/降低標誌
 The Move will Increase or Decrease the noted Trait.
 Arrow Up means the Attribute is Increased.
 Arrow Down means the Attribute is Decreased.
@@ -101,29 +101,29 @@ Arrow Down means the Attribute is Decreased.
 For more info, see p.52
 
 ---
-#### Modified Damage
+#### 調整傷害
 Some Moves and Abilities deal damage and allow to resist damage in a different way.
 {@icon frame|self|傷害|plus|dX} Add the noted number of dice to the Damage Pool.
 {@icon frame|self|傷害|minus|X} Reduce the noted number of Damage.
 {@icon frame|target|傷害|number|X} Inflict the noted number of Damage.
 
 ---
-#### Block
+#### 阻擋
 {@icon effect|l|block}
-The target can’t escape and can’t be switched back.
+目標無法逃跑，且不能被替換下場。
 
 
 ---
-#### Charge
+#### 蓄能
 {@icon effect|l|charge}
 The User spends one action charging the Move. 
 The Move is rolled with another action on its next turn.
 
 
 ---
-#### Fist Based
+#### 拳頭類招式
 {@icon effect|l|fist}
-The Move requires hands or fists.
+這個招式需要使用手或拳頭。
 
 
 ---
@@ -137,36 +137,36 @@ For more info, see p.54
 
 
 ---
-#### High Crit
+#### 高要害率
 {@icon effect|l|crit}
 Score a Critical Hit with 1 success less than required.
 For more info, see p.52
 
 ---
-#### Lethal
+#### 致命
 {@icon lethal|l}
 The Move inflicts Lethal Damage. For more Info, see p.53
 
 ---
-#### Must Recharge
+#### 必須充能
 {@icon effect|l|recharge}
 After hitting with this Move, the User must rest with its first Action on the next Round.
 
 ---
-#### Never Fail
+#### 必中
 {@icon effect|l|neverfail}
-This Move cannot be Evaded, but can be Clashed.
+這個招式無法被閃避，但可以被對抗。
 
 
 ---
-#### Priority/ Low Priority
+#### 先制/後制
 {@icon frame|priority|優先度|up|2} The Move ignores Initiative Order and  acts right away.
 {@icon frame|priority|優先度|down|2} The Move takes effect at the End of the Round, even if it’s used at the beginning.
 
 For more info, see p. 53
 
 ---
-#### Rampage
+#### 狂暴
 {@icon effect|l|rampage}
 The  User  may  use  this  Move  up  to  3  times  without  interruption,  even  during  the  same  Round.  It  cannot  Evade or perform another Move. After the Rampage is over, **the user will be Confused**.
 
@@ -197,7 +197,7 @@ The Move inflicts a Status Ailment.
 Each Status Ailment is described on detail on p.57
 
 ---
-#### Succesive Actions
+#### 連續行動
 {@icon effect|l|sact_2} Double Action (2 Attacks)
 {@icon effect|l|sact_5} Succesive Action (5 Attacks)
 

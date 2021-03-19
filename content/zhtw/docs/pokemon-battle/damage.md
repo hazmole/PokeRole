@@ -4,7 +4,7 @@ weight = 3
 description = ""
 +++
 
-## Damage
+## 傷害
 Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
 
 If you receive damage, your Trainer and Pokémon are able to heal 1 HP every 8 hours.
@@ -13,7 +13,7 @@ You need to minimize your Pokémon’s intake of damage if you want to stay figh
 
 ---
 
-### Fainting
+### 暈厥 Fainting
 Suffering Damage equal to your total HP will make you faint.
 When fainted you cannot move or have an action. You’ll be at the mercy of your surroundings.
 
@@ -29,7 +29,7 @@ Wild Pokémon will usually cease to attack if the trainer faints and is no longe
 
 ---
 
-### Lethal Damage (Optional)
+### 致命傷害 (可選)
 If you or a Pokémon fall unconscious and keep receiving damage, that damage will become **Lethal Damage**.
 Some Pokémon can learn devastating moves able to inflict Lethal Damage directly. 
 
@@ -69,7 +69,7 @@ If a Pokémon or Trainer is going to die, make it meaningful, **no sacrifice is 
 
 ---
 
-### Pain Penalizations
+### 痛苦懲罰
 When your body is injured you will feel pain. As you or your Pokémon receive damage, your movements and overall performance will be impaired due to the wounds. 
 **This is what we call Pain Penalization.**
 

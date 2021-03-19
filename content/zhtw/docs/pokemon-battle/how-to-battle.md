@@ -29,11 +29,11 @@ description = ""
 
 
 ##### 戰鬥輪結束
-一旦所有的寶可夢都做完了牠們各自的動作，且所有一切都處理完畢之後，該回合結束。
+一旦所有的寶可夢都做完了牠們各自的行動，且所有一切都處理完畢之後，該回合結束。
 
 **在這個階段，訓練家將獲得進行一個動作的機會。**
 
-有些動作或異常狀態會在戰鬥中的這個階段發揮效果。
+有些招式或異常狀態會在戰鬥中的這個階段發揮效果。
 
 
 ---
@@ -45,7 +45,7 @@ description = ""
 你的先攻值等於：
 <div class="middle">靈巧 + 警覺</div>
 
-由擲骰總值越高的角色越先動作，總值次高的接續，以此類推。
+由擲骰總值越高的角色越先動作，總值次高的接續在後，以此類推。
 
 
 #### 步驟 2: 使用招式
@@ -63,14 +63,16 @@ description = ""
 敵人可以會嘗試躲開或反擊。
 
 {{< highlight >}}敵人骰 靈巧 + 閃避{{< /highlight >}}
+
 如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
 
 **或者**
 
 {{< highlight >}}敵人骰 力量/特殊 + 對抗{{< /highlight >}}
+
 如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
-**當進行對抗時，雙方受到的傷害仍會考慮到弱點和抗性。**
-* 閃避和對抗都需要花費一個動作。
+**進行對抗時，雙方受到的傷害仍會把弱點和抗性的影響納入計算。**
+* 閃避和對抗都需要花費一個行動。
 * 對抗同樣會需要使用一個傷害招式。
 * 閃避/對抗每個戰鬥輪都只能各使用一次。
 
@@ -88,98 +90,97 @@ description = ""
 
 一個成功命中的攻擊永遠至少會造成 1 點傷害，<u>就算你傷害骰池被扣到一顆骰子都不剩，或是在傷害判定時沒有骰出任何成功骰</u>也一樣。
 
-然而，如果你想要適用來自**效果絕佳**攻擊的額外傷害，那麼<u>你必須要在傷害判定中骰出至少 1 顆成功骰</u>。
+然而，如果你想要造成來自**效果絕佳**攻擊的額外傷害，那麼<u>你必須要在傷害判定中骰出至少 1 顆成功骰</u>。
 {{< /boxmd >}}
 
 
 #### 步驟 4: 下一個！
 <div class="flavorText">「伊布，就是現在，使用潑沙!」</div>
-{{< highlight >}}The next Pokémon will have their Turn.{{< /highlight >}}
+{{< highlight >}}下一隻寶可夢將開始牠的回合。{{< /highlight >}}
 
-The next Pokémon in the Initiative order will now have a chance to use a Move.
+先攻順序下一位的寶可夢將有機會使用招式。
 
-Now's the turn for another Pokémon to follow the Steps 2 and 3.
+現在輪到了另一隻寶可夢的回合，遵循步驟 2 和步驟 3 的流程。
 
 
 #### 步驟 5: 處理多重行動
-{{< highlight >}}A Pokémon may have more Turns on the same Round{{< /highlight >}}
+{{< highlight >}}一隻寶可夢在同一個戰鬥輪中可能會有好幾個回合。{{< /highlight >}}
 
-After all Pokémon have had their action from the first to the last, any Pokémon can try to use another Move during the same Round. For more information on how Multiple Actions work, head to p.49
-The order on which everyone takes these extra Turns is the same as their original order of initiatives.
+在所有寶可夢都按照順序輪過一次他們的回合後，任何寶可夢都可以嘗試在同個戰鬥輪中使用另一個招式。關於更多關於多重行動的資訊，請參閱「<a href='{{< relref path="docs/pokemon-battle/multiple-actions" >}}'>多重行動</a>」章節。
+所有人執行這些額外回合的順序將與他們原本的先攻順序相同。
 
 
 #### 戰鬥輪結束
-{{< highlight >}}The Round ends, time to start over.{{< /highlight >}}
+{{< highlight >}}該戰鬥輪結束，是時候重新開始下一輪了。{{< /highlight >}}
 
-After everyone has exhausted all of their actions, all that’s left is to wrap everything up and start over until a victor is declared.
-**Trainers have a chance to perform an action** and some Moves, Status Ailments, and other agents have effects at this point of the battle.
-
-
+在大家都執行完所有動作之後，剩下的就是把所有事情收拾處理，重新開始下一輪，直到勝利者出現。
+在這個時候，**訓練家將有機會進行一個行動**，且有些招式、異常狀態、和其他道具可能會在這個時間點發揮效果。
 
 
 ---
-### Trainer Actions
+### 訓練家行動
+訓練家並不僅僅只是戰鬥的旁觀者，在**每個戰鬥輪結束時，他們都能獲得短暫的機會來進行一個行動**。
 
-Trainers are not only spectators of a battle, and **at the end of each round, they have a brief chance to make one action.**
+從下列這些行動中選擇，它們每一個都有著各自的優點和缺點。
+* 替換寶可夢。
+* 對寶可夢使用道具。
+* 尋找掩護。
+* 踏入戰場。
+* 從戰鬥中逃跑。
 
-Choose between these different Actions, each one with its own set of pros and cons.
-* Switching Pokémon. 
-* Use an Item on a Pokémon.
-* Search for cover.
-* Enter the fray.
-* Run Away from Battle.
 
-#### ⬛ Switching Pokémon
-Trainers can spend their action to **send out** and **recall** up to two Pokémon. It is possible to **Recall** your Pokémon at any point during the Round, but **During Official matches you must immediatley Send Out another Pokémon** or else you are conceding defeat.
+#### ⬛ 替換寶可夢
+訓練家可以花費他們的行動來**派出**並**收回**最多兩隻寶可夢。你可以在戰鬥輪中的任何時間點**收回**寶可夢，但是**在正式對戰中，你必須立刻派出另外一隻寶可夢**，否則你就等同於認輸。
 
 {{< boxmd >}}
-If a Pokémon is switched in the middle of the Round, it will be startled and disoriented as it is coming out from a safe environment within the Pokéball and into a chaotic battlefield.
+如果寶可夢在戰鬥輪進行中途被替換，那麼被派出的寶可夢將會因為從寶貝球內的安全環境突然進入到混亂的戰場中，而感到驚嚇和迷茫。
+牠會一直張望著牠的周遭環境，而因此**可能會輕易成為攻擊的目標**。
 
-It will stay looking at its surroundings and **may become the target of an attack.**
-
-For a Switched Pokémon to get out of this dazed state it will need a few seconds to digest all that is happening, this means the Pokémon **will not be able to attack or evade until the beginning of the next round.**
-**<u>Switch your Pokémon at the end of the round to avoid this.</u>**
+被替換派出的寶可夢需要數秒鐘的時間消化當下情況，好擺脫這個茫然的狀態，這意味著這隻寶可夢**直到下一個戰鬥輪開始之前都無法進行攻擊與閃避**。
+**<u>在戰鬥輪結束時替換你的寶可夢可以避免這個情況發生。</u>**
 {{< /boxmd >}}
 
-#### ⬛ Use an Item on a Pokémon
-Pokémon may get hurt during a fight but Trainers can't get in the middle of the battle and risk injury to aid their Pokémon.
-The Trainer will call their Pokémon to come closer and quickly give them treatment by rolling:
 
-<div class="middle">Clever + Medicine</div>
+#### ⬛ 對寶可夢使用道具
+寶可夢可能會在戰鬥中受傷，但訓練家們不能冒著受傷的風險闖入戰鬥中去援助自己的寶可夢。
+訓練家會需要呼喚他們的寶可夢靠近自己，並迅速地為牠們治療，擲骰進行判定：
 
-However, this will make the Pokémon vulnerable for a few seconds as **it won't be able to Attack, Evade or use Moves of any kind while you apply the medicine.**
-The battle continues and **using an Item on your Pokémon requires it to be still for a whole Round!**
+<div class="middle">聰明 + 醫藥</div>
 
-**If your Trainer enters the Fray, you can apply medicine without having to stop your Pokémon from battling.**
+然而，這麼做將會使寶可夢在接下來數秒的時間變得容易受到攻擊，因為在你**使用藥物時，牠將無法進行攻擊、閃避、或使用任何種類的招式。**
+戰鬥會持續，且**對你的寶可夢使用道具會需要牠保持不動長達一整個戰鬥輪！**
 
-
-#### ⬛ Search for Cover
-Non-official battles are chaotic, and Trainers can be in the danger zone where all the attacks are landing. 
-At the End of the Round a Trainer can roll:
-
-<div class="middle">Insight + Alert</div>
-
-To quickly scan their surroundings and get behind cover, this will ensure their safety for as long as the cover resists.
+**如果你的訓練家踏入戰場，那麼你可以直接對你的寶可夢使用藥物，而無須讓牠停下戰鬥。**
 
 
-#### ⬛ Enter the Fray
-They say that if you want something done right you have to do it yourself, and some Trainers take it to heart.
-At the End of the Round, your Trainer can choose to be an active part of the battle, **on next round he or she will roll their initiative and have a turn** alongside everyone else.
+#### ⬛ 尋找掩護
+非正式的戰鬥可能會相當混亂，且訓練家可能會身處在被各種攻擊波及到的危險地帶。
+在戰鬥輪結束時，訓練家可以擲骰進行判定：
 
-A Trainer in the fray is focused on fighting, **you won't be able to give orders to your Pokémon**, leaving them without direction and only with their Natures as a guide on what actions thay will take.
+<div class="middle">洞察 + 警覺</div>
 
-**Switching Pokémon and Search for Cover won't be possible either**, for these actions require complete focus.
-
-Being directly in the battle risks Trainers to grave injury.
-The League banned this kind of behavior on Official Matches.
-At the end of the Round, the Trainer can choose to go back to command their Pokémon.
+以快速地檢視他們地周遭環境並躲到掩護後頭，只要掩護仍然屹立，那這將能暫時確保他們的安全。
 
 
-#### ⬛ Run Away from Battle
-You are not forced to keep battling until all your Pokémon collapse and you black out. In Official Matches you can simply concede defeat to end the battle, for non-official battles it gets a bit trickier.
-Your Trainer can recall their Pokémon at the End of the Round and make a run for it, rolling:
+#### ⬛ 踏入戰場
+有人說，如果你想把一件事做好，那你就必須親自去做。有些訓練家把這句話牢記於心。
+在戰鬥輪結束時，訓練家可以選擇主動投身戰場，成為戰鬥的一部份；**在下一個戰鬥輪，他或她將擲骰決定自己的先攻順序，並與其他人一樣執行他們自己的回合**。
 
-<div class="middle">Dexterity + Athletic VS the Foe's Dexterity + Athletic</div>
+踏入戰場的訓練家需要全神專注於戰鬥，因此**你將無法對你的寶可夢下達任何命令**，牠們將失去指揮，並只能依靠自己的性格來決定該採取什麼行動。
 
-If you score more successes than your foe, the battle ends. Being Blocked prevents you from escaping.
+**你也同樣無法替換寶可夢或尋找掩護**，因為採取這些動作會需要使用者保持全神貫注。
+
+直接參與到戰鬥之中會導致訓練家背負著身負重傷的風險。
+寶可夢聯盟嚴格禁止在正式對戰中出現這種行為。
+
+在戰鬥輪結束時，訓練家可以選擇退出戰場，重新指揮他們的寶可夢。
+
+
+#### ⬛ 從戰鬥中逃跑
+你並沒有被強迫一定要戰鬥到你的所有寶可夢都倒下且你暈厥過去為止。在正式比賽中，你可以透過簡單的認輸來結束戰鬥，但在非正式的戰鬥中，這可能就會有些棘手了。
+訓練家可以在戰鬥輪結束時收回他們的寶可夢，並嘗試拔腿逃跑，擲骰判定：
+
+<div class="middle">靈巧 + 運動 VS 敵人的 靈巧 + 運動</div>
+
+如果你骰出比你敵人更多的成功骰數，則戰鬥結束。被「阻擋」將使你因此無法逃跑。
 
