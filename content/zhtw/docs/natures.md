@@ -93,9 +93,9 @@ description = "羅列各性格的說明和對應數值"
 
 
 {{< nature "坦率" 7 "善良、團隊合作、服務精神" >}}
-Always with a courteous disposition, a Docile nature indicates that you put others before yourself. Those under this nature love to please and be of assistance to their companions and community. 
-They're not big achievers and might lack initiative, but even if only one person appreciates their efforts they will feel accomplished.
-They make great teammates and will be the first to ask: “How may I be of service?”
+總是和藹有禮，坦率性格代表著你會把他人放在自己之前。擁有這種性格的他們，喜歡為他們的同伴與社群帶來歡笑及幫助。
+他們並不是胸懷大業的人，甚至可能有些缺乏主動性，但只要有一個人欣賞他們的努力，他們就會感到很有成就感。
+他們能成為優秀的隊友，且總是會第一個問「我能幫上你的忙嗎？」
 {{< /nature >}}
 
 {{< nature "溫順" 10 "優雅、有魅力、外向的" >}}

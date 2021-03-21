@@ -125,6 +125,17 @@ function parseIcon(){
   }
   function getTooltipsText(effect){
     switch(effect){
+      case "basicHeal": return "基礎治癒";
+      case "compHeal":  return "強效治癒";
+
+      case "weather sun":   return "大晴天";
+      case "weather sun2":  return "大日照";
+      case "weather rain":  return "下雨";
+      case "weather rain2": return "暴風雨";
+      case "weather sand":  return "沙暴";
+      case "weather wind":  return "亂流";
+      case "weather hail":  return "冰雹";
+      
       case "effect block":  return "阻擋";
       case "effect crit":   return "高要害率";
       case "effect charge": return "蓄能";

@@ -201,146 +201,144 @@ It is illegal to go into an official match of  the  league  with  your  Pokémon
 
 ---
 ### ⬛ 擊中要害
-**To land a Critical Hit you have to score 3 more successes than what is required for your Accuracy Roll.**
-**If you do, you will add 2 dice to your Damage Pool.**
+**若想要做出擊中要害的攻擊，你必須在命中判定中得到比需求成功骰數還要多 3 顆成功骰的擲骰結果才行。**
+**如果你成功擊中要害，則你的傷害骰池將會增加 2 顆骰子。**
 
 {{< example >}}
-Archen is fighting Amaura. Archen managed to land a Critical-Hit with the move Crunch.
-This will be Archen’s Damage Pool:
+始祖小鳥正在與冰雪龍戰鬥。始祖小鳥成功地使用了招式「咬碎」並擊中要害。
+這將會是始祖小鳥的傷害骰池的樣子：
 
-{@icon dice|m|4} Archen’s Strength
-\+ {@icon dice|m|3} Crunch’s Power
-\+ {@icon dice|m|2} Critical Hit Bonus
-\- {@icon dice|m|2} Amaura’s Defense
+{@icon dice|m|4} 始祖小鳥的力量
+\+ {@icon dice|m|3} 咬碎的威力
+\+ {@icon dice|m|2} 擊中要害的加成
+\- {@icon dice|m|2} 冰雪龍的防禦
 
-Amaura is at risk of receiving a serious amount of damage from Archen’s Attack!
+冰雪龍將可能因為始祖小鳥的攻擊而受到非常大量的傷害！
 {{< /example >}}
 
-Also, Moves labeled with this Icon:
+
+此外，帶有這個標記的招式：
 {@icon effect|l|crit}
 
-Are called **“High-Critical”** moves.
-You'll need only **2 more Successes than necessary**, to get a Critical hit! 
+也被稱作「**高要害率**」招式。
+你只需要 **比需求成功骰數還要多 2 顆成功骰的擲骰結果**，就能夠成功命中要害！
 
 
 ---
 ### ⬛ 手下留情
-Sometimes it will be more convenient to contain the full force of your Pokémon’s attacks.
+有時候，克制你的寶可夢在攻擊時不要使出全力會更方便一些。
 
-Perhaps  a  move  is  extremely  powerful  but  it  may hurt your allies as well, maybe you are fighting a wild  Pokémon you want to catch and do not want it to faint. Or  it  could  be  that  you  are  participating  in  an  official League  Tournament  and  you  cannot  use  your  favorite move by going all out.
+也許某個招式的威力特別強大，但可能會同樣波及到你的隊友；也許你正在跟野生寶可夢對戰，而你希望收服牠而不想讓牠陷入暈厥狀態；或者也許你正在參加正式的聯盟錦標賽，因此你不能用全力施展你最喜歡的強力招式。
 
-For those cases, you give the command to “Hold Back” in order to do either of the next options:
+在這些情況，你會下達命令讓寶可夢「手下留情」，以發揮下列其中一個選項的效果：
 
-* **Deal Half Damage.**
-You make your damage roll normally but only inflict half of the damage rounded down to those affected by your attack.
+* **造成一半的傷害。**
+你如常進行你的傷害判定，但只對你攻擊目標造成一半的傷害（尾數捨去）。
 
-* **Deal Regular Damage instead of Lethal Damage.**
-If your order your Pokémon to use a move that  would deal Lethal Damage:
+* **造成普通傷害，而非致命傷害。**
+如果你命令你的寶可夢使用了一個會造成致命傷害的招式：
 {@icon effect|l|lethal}
 
-You can also add the order: “Restrain yourself!”, “Don’t use  full  force!”  or  something  along  the  lines  so  the  damage your Pokémon inflicts will not need a trip to the emergency room ...or the graveyard.
+你也可以在命令後面加上「抑制自己！」、「不要使用全力！」、或其他類似的句子，這樣你的寶可夢造成的傷害就不至於把對手送到急診室……或是墓地了。
 
 
 ---
 ### ⬛ 先制與後制
-Many  actions  and  Moves  are  quick  and  abrupt  or  slow and  complex.  Priority  and  Low  Priority  are  terms  to  indicate which Moves get into effect outside of the normal  Initiative order. They are labeled by these signs:
+很多行動和招式特別迅捷且突然，或是特別緩慢而複雜。「先制」與「後制」這兩個詞彙代表著招式會在正常先攻順序之外的時機生效。它們會帶有以下標記：
 {@icon frame|priority|優先度|up|1}{@icon frame|priority|優先度|down|1}
 
-They represent Priority, which allows a Pokémon to act right away even if it’s not their turn yet.
-And Low Priority, in which the Pokémon will use its move but it will take effect at the End of the Round.
+帶有先制標記的招式，讓寶可夢能夠在輪到牠們的戰鬥輪之前就得以馬上行動。
+而後制標記，則代表寶可夢將會使用這個招式，但其效果會再該戰鬥輪結束的時候才被處理。
 
 {{< highlight >}}
-In  case  two  Pokémon  are  using  a  Priority  move  at  the  same  time,  the  move  with higher  Priority  number  will  be  resolved first.  In  case  both  have  the  same  priority number, the initiative order will determine  who resolves it first.
+如果兩隻寶可夢同時使用了先制招式，則擁有較高優先度數值的招式將會優先被處理。如果兩個招式都擁有相同的優先度，則按照先攻順序來決定誰先行動。
 {{< /highlight >}}
 
-Take into account: once you announce a Priority Move, your foe may change his order/action to an Evasion, or it may use another Priority Move.
+要特別注意的是：一但你宣告使用了一個先制招式，那麼你的對手可能會因此改變他的命令／行動來閃避、或是使用另外一個先制招式。
 
-Low Priority is the opposite, it will take effect at the End of the Round, it may look like the foe is holding their action while in reality, it is just about to strike.
+後制招式則正好相反，它會在戰鬥輪結束的時候發揮效果。這可能會讓敵人看起來像是在等待並伺機行動，但實際上牠才正準備要出手。
 
 
 ---
 ### ⬛ 在戰鬥中治療
-There are three ways to heal a character in-battle:
-* By applying healing items, such as Spray Potions or medicine on them. **One Potion unit heals 1 damage, two units heal 1 lethal damage.**
-* By using a held item such as a Berry.
-* By using moves that restore your health. **These moves may require the user to spend 1 Will Point to get the benefits.**
+在戰鬥中有三種方式可以治療角色：
+* 使用道具，像是噴霧式傷藥或藥物等等治療道具。
+**1 單位的傷藥可以治療 1 點傷害，2 單位則可以治療 1 點致命傷害。**
+* 使用攜帶物品，像是樹果。
+* 使用能夠讓你回復健康的招式。**這些招式可能會需要使用者花費 1 點意志點才能發揮效果。**
 
-Humans cannot use healing moves but can have Pokémon use some of their moves on them, they also can’t have a held item but they are free to use a berry or medicine and apply it on themselves or their Pokémon.
-Now, while the healing in this world can be miraculously fast, a 10-second Round is too-short a time to make a full recovery from some wounds.
+人類無法使用治癒招式，但可以讓寶可夢將其施展在自己身上。人類也沒有像寶可夢那樣的攜帶物品，但他們可以自行使用樹果或藥物來治療自己或他們的寶可夢。
+儘管這個世界的治療技術有如奇蹟般快速，但戰鬥輪10秒鐘的時間還是太短，沒有辦法讓傷勢完全地回復。
 
 {{< highlight >}}
-<p style="font-size: 1.2em;">When you are in battle, potions, berries and Moves can only heal a <u>maximum of 3 HP per round.</u></p>
+<p style="font-size: 1.2em;">當你在戰鬥中時，傷藥、樹果、和招式在<u>每個戰鬥輪中最多只能回復 3 點HP</u>。</u></p>
 
-Complete Heal, Max Potion, and Full Restore are the only things able to heal more.
+強效治療、全滿藥、和全復藥是唯一可以回復更多HP的事物。
 {{< /highlight >}}
 
-Some Pokémon are able to learn moves that restore health. They are identified with this icons:
+
+有些寶可夢能夠學習到能讓目標回復健康的招式。這些招式會帶有下列標記：
 
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon heal|l}</div>
   <div class="iconDesc-item">
-    <b>Basic Heal </b><br/>
-     Heal regular damage equal to 3 HP.
+    <b>基礎治癒 </b><br/>
+    治療 3 點普通傷害。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon c_heal|l}</div>
   <div class="iconDesc-item">
-    <b>Complete Heal </b><br/>
-     Heal regular and Lethal damage equal to 5 HP.
+    <b>強效治癒 </b><br/>
+    治療 5 點普通傷害和致命傷害。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon frame|heal|治療|heal|2}</div>
   <div class="iconDesc-item">
-    <b>Fixed Heal </b><br/>
-     For example: Heal up to 2 Damage.
+    <b>定額治癒 </b><br/>
+    例如：治療最多 2 點傷害。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon frame|heal|治療|c_heal|2}</div>
   <div class="iconDesc-item">
-    <b>Fixed Complete Heal </b><br/>
-     For example: Heal up to 2 Lethal Damage.
+    <b>定額強效治癒 </b><br/>
+     例如：治療最多 2 點致命傷害。
   </div>
 </div>
 
-If your Pokémon makes the Accuracy roll to activate a move labeled with any of these icons and succeeds, **you need to spend 1 Will Point in order to get their benefits**. If the Accuracy roll fails you don’t need to spend the Will Point.
+如果你的寶可夢使用了帶有任何一個這些標記的招式，進行命中判定並成功時，**寶可夢必須花費 1 點意志點才能夠獲得它的好處**。如果命中判定失敗，那麼你就不需要花費任何意志點。
+
 
 {{< mynotice trainer >}}
-Healing Moves are not infinite, Your Pokemon’s Will score can run out before recovering all of its HP.
-Always carry Potions!
+治癒招式並不是無限的，你寶可夢的意志點將會在回復所有 HP 前被消耗殆盡。
+永遠記得攜帶傷藥！
 {{< /mynotice >}}
 
-You can only heal 3 HP per round when using Potions and most healing moves, but moves identified with this icon.
+當你使用傷藥和大部分的治癒招式時，你每個戰鬥輪只能回復最多 3 點HP。
+但是帶有<b>強效治癒</b>標記的招式每個戰鬥輪能夠回復最多 5 點HP。
+{@icon c_heal|l}
 
-<div class="iconDesc-container">
-  <div class="iconDesc-item">{@icon c_heal|l}</div>
-  <div class="iconDesc-item">
-    <b>Complete Heal </b><br/>
-     Are able to heal up to 5 HP per round.
-  </div>
-</div>
 
-Once you reach the healing limit or the Subject restores its full HP, the recovery stops and any remaining points will be lost.
-Take this example:
+一旦你達到治療上限，或者目標的HP已經被回復到全滿，則治療效果將會停止，且任何溢出的治療量都會被浪費掉。
+請看下面這個例子：
 
 {{< example >}}
-Your Meganium is fighting a wild Pokémon and you order it to use the move **Grassy Terrain**.
+你的**大竺葵**正在跟野生寶可夢對戰，且你命令牠使用招式「**青草場地**」。
 
-One of the effects of Grassy Terrain is this:
-
+青草場地的其中一個效果是這樣的：
 {@icon frame|heal|治療|heal|1}
-**For the next 4 Rounds, User and Allies on the ground Restore 1 HP at the End of the Round.**
+**在接下來 4 個戰鬥輪期間，地面上的使用者和隊友將會在戰鬥輪結束時回復 1 點HP。**
 
-The battle continues and Meganium receives a brutal strike, it has 2 HP remaining from its total HP of 9. It needs healing ASAP. You run to its aid with a Potion in hand and apply 3 units of Potion that will restore 3 HP to Meganium. However, the HP healed from Grassy Terrain won’t take effect this round and won’t carry on to the next one.
+戰鬥繼續，且大竺葵受到了一頓粗暴的打擊，牠的 9 點總HP現在只剩下了 2 點。牠需要盡快受到治療！
+你跑到牠身邊使用手中的傷藥進行援助，並消耗了 3 單位的傷藥來使大竺葵回復 3 點HP。然而，青草場地在這一輪回復的HP就不會發揮作用，也不會被帶到下一個戰鬥輪。
 
-A couple of rounds pass and someone activated Sunny Weather in the field, Meganium has 5 HP so you order it to use the move Synthesis, one of its effects being:
-
+好幾個戰鬥輪過去，有人使場地的天氣變成了大晴天，大竺葵現在剩下 5 點HP，因此你命令牠使用招式「**光合作用**」，它的其中一個效果如下：
 {@icon c_heal|l}
-**If Sunny Weather is in effect this Move becomes a Complete Heal.**
+**如果當前天氣狀態為大晴天，這個招式將變為 強效治癒。**
 
-This means it would recover 5 HP, but Meganium’s only has taken 4 damage, So it heals 4 HP and the remaining point is lost.
+這意味著這個招式能夠回復 5 點HP，但大竺葵現在只受到了 4 點傷害，因此牠只會回復 4 點HP，且剩餘的治療量將被浪費掉。
 {{< /example >}}
 
 

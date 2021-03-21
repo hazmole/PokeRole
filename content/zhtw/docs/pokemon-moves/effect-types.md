@@ -127,13 +127,13 @@ The Move is rolled with another action on its next turn.
 
 
 ---
-#### Heal
+#### 治癒
 {@icon heal|l} {@icon c_heal|l}
-The Move can Heal HP. Sometimes it’s a fixed number:
+這個招式能夠回復HP。有時候治療量會是個固定的數值：
  
 {@icon frame|heal|治療|heal|X} {@icon frame|heal|治療|c_heal|X}
-Heaing Moves cost 1 Will Point to activate.
-For more info, see p.54
+治癒招式會需要使用者花費 1 點意志點來使其生效。
+更多關於治癒招式的說明，請參見「勝利策略」。
 
 
 ---

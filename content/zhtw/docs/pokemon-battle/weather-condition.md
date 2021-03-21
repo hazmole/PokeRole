@@ -17,49 +17,49 @@ There are seven main weather conditions.
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|sun}</div>
   <div class="iconDesc-item">
-    <b>Sunny Weather</b><br/>
+    <b>大晴天</b><br/>
     Typical in deserts, plains and tropical areas.
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|sun2}</div>
   <div class="iconDesc-item">
-    <b>Harsh Sunlight Weather</b><br/>
+    <b>大日照</b><br/>
     Only found in volcanic areas.
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|rain}</div>
   <div class="iconDesc-item">
-    <b>Rain Weather </b><br/>
+    <b>下雨</b><br/>
     Common in rainforests, lakesides, and marshes.
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|rain2}</div>
   <div class="iconDesc-item">
-    <b>Typhoon Weather </b><br/>
+    <b>暴風雨 </b><br/>
     Only found in the middle of the sea/underwater.
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|sand}</div>
   <div class="iconDesc-item">
-    <b>Sandstorm Weather </b><br/>
+    <b>沙暴 </b><br/>
     Common in arid regions and barren lands.
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|wind}</div>
   <div class="iconDesc-item">
-    <b>Strong Winds Weather </b><br/>
+    <b>亂流 </b><br/>
     Only found at great heights in the sky.
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon weather|l|hail}</div>
   <div class="iconDesc-item">
-    <b>Hail Weather </b><br/>
+    <b>冰雹 </b><br/>
     Typical in areas close to cold and snowy places.
   </div>
 </div>
