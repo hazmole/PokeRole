@@ -89,9 +89,9 @@ What are Pokémon Contests? When you talk about Pokémon Contests, you talk abou
 每個寶可夢都會依照牠們物種的本能、以及牠們各自的性格來行事。
 牠們往往會有著符合其物種行為的天性，但它們仍可能存在差異。
 這意味著兩個物種相同的寶可夢可能會想要同樣的東西，但牠們性格的差異會影響牠們達成目的的方式。
-如果你才剛啟程，請移往本書第88頁的寶可夢圖鑑，並尋找這個標誌：
+如果你才剛啟程，請移往本書第88頁的寶可夢圖鑑，並尋找這個標記：
 {@icon novice|l}
-對於新手訓練家來說，擁有這個標誌的寶可夢會是最好的入門選擇。
+對於新手訓練家來說，擁有這個標記的寶可夢會是最好的入門選擇。
 初始寶可夢將會成為你旅途中的夥伴，因此如果能挑選與你訓練家個性相合的寶可夢會更好。
 就算沒辦法一開始就獲得你想要的寶可夢也不要絕望，這個世界相當遼闊，且收服寶可夢的過程也是在這個世界冒險的樂趣之一。
 填寫寶可夢角色卡 在填寫寶可夢角色表格時，你將會需要從寶可夢圖鑑中抄寫一些資訊。
@@ -186,9 +186,45 @@ Physical Moves are resisted with Defense. They are close range attacks.</descrip
 ⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
 The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
-These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 Every time you or your Pokémon are hit by an attack, you are likely to receive damage, only Type Resistances would prevent this from happening and chances are you are getting at least 1 damage point per attack.
-If you receive damage, your Trainer and Pokémon are able to heal 1 HP every 8 hours.
-You need to minimize your Pokémon’s intake of damage if you want to stay fighting for a long time, otherwise, you will suffer the consequences.</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>多重行動 (可選) 你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。
+These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
+在受到傷害後，訓練家和寶可夢每經過 8 小時就可以回復 1 點HP。
+如果你需要長時間戰鬥，那麼你必須要盡可能減少寶可夢所受到的傷害。否則你們將會承受相應的後果。
+暈厥 承受等同或多於你總HP的傷害會使你陷入暈厥。
+當陷入暈厥時，你將無法移動或採取任何行動。你現在只能任由你周遭環境的宰割。
+陷入暈厥狀態的角色會持續平均約 8 個小時。在這之後，他們的身體會自動回復 1 點HP，並讓角色重新恢復意識。
+道具「活力碎片」能讓你在數秒間的時間內從暈厥中恢復。一瓶尋常的「傷藥」能夠治療身體受到的傷害，並防止傷口加劇，但角色仍然會維持暈厥狀態。
+對寶可夢而言，暈厥是一個相當不好的體驗。如果你經常命令牠們持續戰鬥直到力盡昏厥，那麼牠們的幸福度與忠誠度將會因此下降，使你們之間的關係變得緊張。
+在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回寶貝球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
+野生寶可夢通常會在訓練家暈厥過去且失去威脅性之後停下攻擊。但在完全無助的情況下待在戶外很有可能會危害到你角色的生命。
+致命傷害 (可選) 如果你或寶可夢在陷入暈厥的狀態下繼續受到傷害，那麼該傷害將會轉變成「致命傷害」。
+有些寶可夢有辦法學會能直接造成致命傷害的毀滅性的招式。
+與會隨著時間推移而自然恢復的普通傷害不同，受到致命傷害將會導致嚴重的傷口，且如果不加處理的話更會進一步惡化。
+如果角色受到 1 點致命傷害，則他每經過一個小時就會再受到 1 點致命傷害，直到他接受了醫療照護、或是身體終於承受不住並死亡。
+能夠造成致命傷害的招式被禁止在正式對戰中使用。但如果你的寶可夢有辦法手下留情以只造成普通傷害，那麼這個招式就仍然能被使用。
+帶有以下這個標記的招式將會直接造成致命傷害，除非寶可夢手下留情：
+{@icon effect|l|lethal}
+保持安全 如果你受到了等於或高於你總HP的致命傷害，你的角色將會因此死亡。為了避免這種情況發生，請採取下列措施來確保你和你的寶可夢安全。
+不要在使用治療道具上節省。
+傷藥也許很昂貴，但你寶可夢夥伴的性命是無價的。
+讓你的寶可夢學習治療招式。
+如果你的寶可夢能學會可以回復一些生命值的招式，那麼也許你應該讓牠優先學會這種招式，而不是傷害招式。
+學習醫藥技能。
+藥水總是有用完的時候。
+在團隊中擁有一個知道如何利用樹果和草藥製作成藥物的訓練家，可以在危急時成為你的救命恩人！
+閃避攻擊並尋找掩護。
+寶可夢對戰的時候總會有火焰及能量光束四處亂飛，尋找安全的地方讓你的訓練家可以不會受到傷害。
+如果某個寶可夢或訓練家將要死亡，請讓死亡變得有意義。沒有任何犧牲是徒勞的。
+沒有任何角色是免洗可拋的。
+疼痛懲罰 當你的身體負傷時，你會感到疼痛。當你或你的寶可夢受到傷害時，你們的動作和整體表現也都會因為傷口帶來的痛楚而被影響。
+這正是我們所謂的「疼痛懲罰」。
+根據你角色受傷的程度，你所嘗試進行的每個行動的擲骰都將扣除相應數量的成功骰數。 要衡量角色承受的痛苦程度，你必須將該角色的總HP納入考量，並參照以下表格：
+HP狀態
+疼痛懲罰
+身體狀態
+HP全滿
+無
+沒有任何痛苦或不適。
+HP低於一半</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>多重行動 (可選) 你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。
 多重行動大部分會用在戰鬥中；你可以同時攻擊、閃避、和支援你的同伴，但多重行動的用途並不僅限於戰鬥。
 也許你想要在一邊讀書的同時駕駛車輛、或者也許你想要在一邊閃避種子機關槍的同時一邊接球、並狠踹你的對手。我並不會說一切都有可能，但至少你可以試試看！
 最壞的情況是：你可能會死。
@@ -200,7 +236,7 @@ You need to minimize your Pokémon’s intake of damage if you want to stay figh
 第三個行動 3
 第四個行動 4
 第五個行動 5
-痛苦懲罰、低命中、和其他懲罰都可能扣除你擲骰結果中的成功骰。
+疼痛懲罰、低命中、和其他懲罰都可能扣除你擲骰結果中的成功骰。
 你每個戰鬥輪都可以執行最多 5 個多重行動，且它會隨著你不斷逼近你技藝的極限而變得越來越困難，如果你的技藝不夠熟練，那麼你就可能遭受大失敗的風險。
 當寶可夢自行採取行動時，牠們通常不會進行多於一個或二個行動，即使牠們有能力做到更多也一樣。
 你只有在所有人的回合都輪過一次後，才可以接著進行第二個行動。唯一的例外是閃避/對抗、以及連續行動。
@@ -210,10 +246,11 @@ You need to minimize your Pokémon’s intake of damage if you want to stay figh
 恰吉的各項數值如下：
 靈巧 ●●●●○ 聰明 ●●●○○
 閃避 ●●●○○ 運動 ●●○○○ 科學 ●●●●○ 恰吉決定他想要同時執行這 3 個行動。首先，恰吉打算先試著留在肯泰羅背上，避免被甩下來：
-恰吉的第一個行動 (需要 1 個成功骰)
+恰吉的第一個行動
 {@icon dice|m|4} 恰吉的靈巧
 + {@icon dice|m|2} 恰吉的運動
-= {@icon dice|m|6} 恰吉的第一個行動骰池</description></item><item><title>心理/生理/社交特質</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid><description>心理和生理特質 你的角色會使用他的特質和技能來與這個世界互動，它們在角色卡上將會以點數的型式呈現。當你的行動需要用到特質和技能時，其點數就代表你在判定中可以骰的骰子數量。
+= {@icon dice|m|6} 恰吉的第一個行動骰池
+擲骰結果: (需要 1 個成功骰)</description></item><item><title>心理/生理/社交特質</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/</guid><description>心理和生理特質 你的角色會使用他的特質和技能來與這個世界互動，它們在角色卡上將會以點數的型式呈現。當你的行動需要用到特質和技能時，其點數就代表你在判定中可以骰的骰子數量。
 特質可以被單獨拿來擲骰以進行某個單純的任務。或若你想要執行一個複雜或驚人的舉動時，它們可以結合技能一起使用。
 人類的數值範圍介於 1 至 5 之間，但是某些更強壯的寶可夢可能會超過這個數字。
 1 點為 貧弱 2 點為 平均 3 點為 良好 4 點為 優異 5 點為 驚人 6 點或更高為 超人類 ⬛ 力量 這個特質決定了承載重物和造成物理傷害的能力，以及肌肉的發達程度。
@@ -235,10 +272,41 @@ You need to minimize your Pokémon’s intake of damage if you want to stay figh
 ●●●●●● 你可以用彷彿可多拉般堅硬的胸肌和大鋼蛇般的腹肌去抵擋種子機關槍的掃射。
 ⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
 2. Performance Runway These are the main events of the Contest.
-Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>Strategies to Win It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
-How can you defeat an Onix with only the help of a tiny Pichu?
-Well, having a strategy can save the day!
-In this section, you will learn the many tricks and techniques to win almost any fight. Learn them all and any Pokémon at your side will be champion material.</description></item><item><title>協調訓練家等級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
+Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
+只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
+沒錯，只要有傑出的策略就能挽回局面！
+在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。
+把這些技巧全部學起來，並讓任何在你身邊的寶可夢都能夠成為冠軍的原石。
+⬛ 伺機行動 當你宣告伺機行動，你的角色將會保持不動，看著他的對手，就彷彿是在邀請對手或其他人比你先一步行動。
+你可以在該戰鬥輪中的任何時候使用你扣住的動作。
+如果你和你的對手都採取了伺機行動，那麼該戰鬥輪將會因為沒有人採取行動而直接結束。這代表著雙方都停下了戰鬥，只是死死的盯著對方……
+⬛ 閃避 遠離危險永遠是個聰明的舉動。你可以透過閃避攻擊或尋找掩護來做到這點。
+你每個戰鬥輪只能閃避一次攻擊，你只需要簡單的給出「避開他！」或是「躲開！」之類的指令即可。
+你的寶可夢會理解到危險正在向牠襲來，並會以最快的速度做出反應。
+閃避行動可以無視先攻順序而被觸發，且會需要你花費一個行動。你只需要擲骰使用：
+靈巧 + 閃避
+如果你骰出了跟你敵人相同或更多的成功骰數，則你成功迴避該攻擊。
+閃避會被視作一次行動，因此，若你需要在該戰鬥輪再採取其他行動的話，你將會因為進行多重行動而需要額外的成功骰。
+你在每個戰鬥輪中只能閃避一次。
+⬛ 攻擊對抗 有些寶可夢並沒有敏捷到能夠持續閃躲，但牠們可以依賴牠們純粹的招式力量來抵禦敵人的攻擊，我們稱之為「對抗」。
+每個戰鬥輪一次，當其中一個對手進行其命中判定時，你可以命令你的寶可夢使用牠們自己的傷害招式（例如：十萬伏特、水槍、近身戰）來嘗試偏折掉大部分的傷害。只要簡單的骰：
+力量/特殊 + 對抗
+如果你骰出了跟你敵人相同或更多的成功骰數，則你成功對抗該攻擊，且你的敵人和你的寶可夢都會改為承受 1 點傷害，而非招式原本的傷害。
+對抗會被視作一次行動，因此，若你需要在該戰鬥輪再採取其他行動的話，你將會因為進行多重行動而需要額外的成功骰。
+所有因為對抗而受到的傷害也都會被 效果絕佳 和 效果不好 的規則影響。
+儘管對抗在減輕傷害的效果上並不如閃避那樣有效，但這對於速度較慢卻更強韌的寶可夢們而言仍是個不錯的選項。
+你在每個戰鬥輪中只能對抗一次。
+一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！
+輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
+⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
+身體遮蓋率 對遠程攻擊的額外 防禦/特防 加成
+1/4 +1
+1/2 +2
+全 掩體將會被摧毀
+根據說書人的裁斷，你可能有辦法藉此躲過全部的傷害。但掩體可能會在承受幾次攻擊之後被摧毀。
+你可以使用「掩護隊友」的戰術動作，利用你的身體來做為小體型寶可夢的掩護。
+或者，你也可以讓其他大體型的寶可夢使用這個戰術動作來掩護你自己！
+⬛ 屬性一致加成 (STAB) 所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。</description></item><item><title>協調訓練家等級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
 If you dedicate yourself to winning Contests you will be able to gain Coordinator Ranks, these do not replace your Pokémon Trainer Rank but add to it.
 Think about it as a specialization to being a Pokémon Trainer.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
 所有人類和寶可夢都有著獨特的人格特質，但性格決定了他們在特定情況會採取什麼樣的反應。
@@ -353,8 +421,8 @@ This turns the battlegrounds into a shifting scenario, not just an empty arena. 
 意志點也可以被花費以抵抗疼痛，或讓他們在進行任意擲骰時有更高的機會成功。
 它的運作方式如下：
 宣言你的角色或寶可夢正在竭盡他的全力。
-花費 1 點意志點，讓他在該場景期間忽略 1 級的痛苦/壓力懲罰。
-注意：這意味著如果你花費 2 點意志點的話，你將能忽略掉 2 級的痛苦/壓力懲罰，依此類推。 花費 1 點意志點，讓他在該回合期間的所有擲骰中都能夠重骰其中一顆失敗的骰子。
+花費 1 點意志點，讓他在該場景期間忽略 1 級的疼痛/壓力懲罰。
+注意：這意味著如果你花費 2 點意志點的話，你將能忽略掉 2 級的疼痛/壓力懲罰，以此類推。 花費 1 點意志點，讓他在該回合期間的所有擲骰中都能夠重骰其中一顆失敗的骰子。
 在你花費意志點之後，你的角色將會因此感到筋疲力盡。如果你耗盡了所有的意志點，角色將會在該回合結束的時候失去意識並昏厥，因為他再也無法承受超越極限帶來的巨大負擔。
 寶可夢和人類生來都無法隨時隨地自由的花費意志點。
 這個能力只會在極端情況下才會被使用，而就算是這樣的情境下，大多數人們仍無法發揮這種能力。
@@ -368,7 +436,7 @@ This turns the battlegrounds into a shifting scenario, not just an empty arena. 
 幸福度和忠誠度的範圍介於 0 至 5 點。
 在野外，寶可夢的這兩項數值通常皆為 2 點，但一旦牠們被捕捉，牠們的生活就從此永遠改變了。
 做為優秀的訓練家，如果你打算與牠們建立良好的關係並提升這兩項數值，那你就必須清楚知道該如何處理你們之間的齟齬。
-一旦你捉到寶可夢，將牠的忠誠度降低等同於你加諸在牠身上的痛苦懲罰級數的數值。
+一旦你捉到寶可夢，將牠的忠誠度降低等同於你加諸在牠身上的疼痛懲罰級數的數值。
 對，就是這樣。如果你把牠們打了個鼻青臉腫，就別指望牠們會有多高興。
 當你捉到寶可夢時，若你是在違背牠自身意願的情況下捉到牠，將牠的幸福度降為 0。若你與牠之間的戰鬥是不公平的（比如說多對一、使用了道具等等），將牠的幸福度降為 1。若你是在公平的條件下與其戰鬥，則幸福度維持在 2 點。
 這兩項數值無法透過階級系統來增加。你將必須透過扮演的方式來影響它們，無論好壞。

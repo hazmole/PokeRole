@@ -22,11 +22,6 @@ function parseIcon(){
 
     switch(icon_type){
       case "novice": return getHTML_normalIcon("NoviceMark", icon_size);
-      case "lethal": return getHTML_normalIcon("effect lethal", icon_size);
-      case "crit":   return getHTML_normalIcon("effect crit", icon_size);
-      case "shield":   return getHTML_normalIcon("effect shield", icon_size);
-      case "d_act":  return getHTML_normalIcon("effect sact_2", icon_size);
-      case "s_act":  return getHTML_normalIcon("effect sact_5", icon_size);
 
       case "heal":   return getHTML_normalIcon("basicHeal", icon_size);
       case "c_heal":   return getHTML_normalIcon("compHeal", icon_size);
@@ -48,7 +43,9 @@ function parseIcon(){
   }
   //====================
   function getHTML_normalIcon(iconClass, iconSize){
-    return `<tag class="${iconClass} ${iconSize}"></tag>`;
+    var titleText = getTooltipsText(iconClass);
+    var titleAttr = (!!titleText)? `title="${titleText}"`: '';
+    return `<tag class="${iconClass} ${iconSize}" ${titleAttr}></tag>`;
   }
   function getHTML_text(iconSize, text, colorClass){
     return `<tag class="text ${iconSize} ${colorClass}"><b>${text}</b></tag>`;
@@ -125,6 +122,22 @@ function parseIcon(){
     if(size=="s") return "small";
     if(size=="l") return "large";
     return "";
+  }
+  function getTooltipsText(effect){
+    switch(effect){
+      case "effect block":  return "阻擋";
+      case "effect crit":   return "高要害率";
+      case "effect charge": return "蓄能";
+      case "effect lethal": return "致命傷害";
+      case "effect recoil": return "反作用力傷害";
+      case "effect shield": return "護盾";
+      case "effect fist":   return "拳頭類招式";
+      case "effect sound":  return "聲音類招式";
+      case "effect sact_2":   return "雙重行動";
+      case "effect sact_5":   return "連續行動";
+      default:
+        return "";
+    }
   }
 
 }

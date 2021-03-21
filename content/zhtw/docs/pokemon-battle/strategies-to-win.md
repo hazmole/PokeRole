@@ -4,137 +4,142 @@ weight = 4
 description = ""
 +++
 
-## Strategies to Win
-It isn’t always the strongest, the fastest, or the higher ranked Pokémon that wins the fight.
+## 勝利策略
+在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
 
-How can you defeat an Onix with only the help of a tiny Pichu?
+只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
 
-Well, having a strategy can save the day!
-In  this  section,  you  will  learn  the  many  tricks  and techniques to win almost any fight. 
-Learn  them  all  and  any  Pokémon  at  your  side  will  be champion material.
+沒錯，只要有傑出的策略就能挽回局面！
+在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。
+把這些技巧全部學起來，並讓任何在你身邊的寶可夢都能夠成為冠軍的原石。
 
----
-
-### ⬛ Holding Action
-When you declare to hold your action your character will remain immobile looking at the foe, this will seem like an invitation to the foe or someone else to act before you do. 
-
-You may use the action you were holding at any point during the round.
-If both you and your foe hold action the round will end with no further actions.
-It means that both sides paused  the  fight to eye  each other warily...
 
 ---
+### ⬛ 伺機行動
+當你宣告伺機行動，你的角色將會保持不動，看著他的對手，就彷彿是在邀請對手或其他人比你先一步行動。
 
-### ⬛ Evading 
-It is always a smart move to get away from danger. You may do this by evading attacks or finding cover.
-**Once per Round you can Evade an attack**, simply have to give the order “Evade it!” or “Dodge!”. 
-Your Pokémon will understand that danger is coming its way and will react as fast as possible.
+你可以在該戰鬥輪中的任何時候使用你扣住的動作。
+如果你和你的對手都採取了伺機行動，那麼該戰鬥輪將會因為沒有人採取行動而直接結束。這代表著雙方都停下了戰鬥，只是死死的盯著對方……
 
-**An Evasion action can be triggered regardless of initiative order at the cost of an action. All you need to do is Roll:**
-<div class="middle">Dexterity + Evasion</div>
 
-**If you score as many Succesess as your foe, you evade the attack.**
+---
+### ⬛ 閃避
+遠離危險永遠是個聰明的舉動。你可以透過閃避攻擊或尋找掩護來做到這點。
+**你每個戰鬥輪只能閃避一次攻擊**，你只需要簡單的給出「避開他！」或是「躲開！」之類的指令即可。
+你的寶可夢會理解到危險正在向牠襲來，並會以最快的速度做出反應。
+
+**閃避行動可以無視先攻順序而被觸發，且會需要你花費一個行動。你只需要擲骰使用：**
+<div class="middle">靈巧 + 閃避</div>
+
+**如果你骰出了跟你敵人相同或更多的成功骰數，則你成功迴避該攻擊。**
+
 {{< highlight >}}
-Evading counts as an Action, thus, acting again this Round will require another Success as stated on the table for Multiple Actions.
+閃避會被視作一次行動，因此，若你需要在該戰鬥輪再採取其他行動的話，你將會因為進行多重行動而需要額外的成功骰。
 
-<b style="font-size:1.5em;">Evasion can be performed only once per Round.</b>
+<b style="font-size:1.5em;">你在每個戰鬥輪中只能閃避一次。</b>
 {{< /highlight >}}
 
+
 ---
+### ⬛ 攻擊對抗
+有些寶可夢並沒有敏捷到能夠持續閃躲，但牠們可以依賴牠們純粹的招式力量來抵禦敵人的攻擊，我們稱之為「對抗」。
 
-### ⬛ Clashing Attacks
-Some Pokémon are not dexterous enough to be constantly evading, but they can rely on their sheer power to fend off their foe’s attacks by doing what we call a Clash.
+**每個戰鬥輪一次**，當其中一個對手進行其命中判定時，**你可以命令你的寶可夢**使用牠們自己的傷害招式（例如：十萬伏特、水槍、近身戰）**來嘗試偏折掉大部分的傷害**。只要簡單的骰： 
+<div class="middle">力量/特殊 + 對抗</div>
 
-**Once per Round**, when an opponent makes its Accuracy Roll **you can order your Pokémon** to use one of its own Damaging  Moves  (i.e.  Thunderbolt,  Water  Gun,  Close Combat) **to try to deflect most of the damage** . Simply Roll: 
-<div class="middle">Strength/Special + Clash</div>
+如果你骰出了跟你敵人相同或更多的成功骰數，則你成功對抗該攻擊，且你的敵人和你的寶可夢都會改為承受 1 點傷害，而非招式原本的傷害。
 
-If you score as many Succesess as your foe, you clash the attack and both your foe and your Pokémon will suffer 1 damage instead of the foe making a damage roll.
 {{< highlight >}}
-Clashing counts as an Action, thus, acting again this Round will require another Success as stated on the table for Multiple Actions. 
+對抗會被視作一次行動，因此，若你需要在該戰鬥輪再採取其他行動的話，你將會因為進行多重行動而需要額外的成功骰。
 
-All Damage taken from a Clash is affected by the Super Effective and It’s Not Very Effective rule.
+所有因為對抗而受到的傷害也都會被 效果絕佳 和 效果不好 的規則影響。
 
-While not as effective as Evasion to reduce damage intake, Clashing attacks is a good option for slower but strong and resilient Pokémon.
+儘管對抗在減輕傷害的效果上並不如閃避那樣有效，但這對於速度較慢卻更強韌的寶可夢們而言仍是個不錯的選項。
 
-<b style="font-size:1.5em;">Clash can be performed only once per Round.</b>
+<b style="font-size:1.5em;">你在每個戰鬥輪中只能對抗一次。</b>
 {{< /highlight >}}
 
 {{< mynotice trainer >}}
-Once you use a Move for a Clash you  can’t  repeat  it  during  the same Round; You’ll have to wait until the next one!
+一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！
 {{< /mynotice >}}
 
 {{< mynotice story >}}
-Support  Moves,  Moves  that  ignore  Defenses  and  Moves that have a Set Damage can’t be Clashed.
+輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
 {{< /mynotice >}}
 
+
 ---
-### ⬛ Taking Cover
-This action will help you resist damage against **Ranged attacks depending on much of your body is covered.**
+### ⬛ 掩護
+這個行動能夠協助你抵抗**遠程攻擊造成的傷害**，其程度取決於**你身體被掩體覆蓋的程度**。
 
 <table style="width:70%;">
-	<tr><th>Body Coverage </th><th>Bonus Def/SDef vs Ranged Attacks </th></tr>
+	<tr><th>身體遮蓋率 </th><th>對遠程攻擊的額外 防禦/特防 加成</th></tr>
 	<tr><td>1/4 </td><td>+1 </td></tr>
 	<tr><td>1/2 </td><td>+2 </td></tr>
-	<tr><td>Full </td><td>Cover must be destroyed </td></tr>
+	<tr><td>全 </td><td>掩體將會被摧毀 </td></tr>
 </table>
 
-It is possible to avoid damage completely at Storyteller’s Discretion. A Cover may be destroyed after taking a few hits.
+根據說書人的裁斷，你可能有辦法藉此躲過全部的傷害。但掩體可能會在承受幾次攻擊之後被摧毀。
 
 {{< mynotice trainer >}}
-You  can  use  the  Maneuver  “Cover an Ally” to use your body as a shield for a small Pokémon.
-Or you can make a big Pokémon use it to cover yourself!
+你可以使用「掩護隊友」的戰術動作，利用你的身體來做為小體型寶可夢的掩護。
+或者，你也可以讓其他大體型的寶可夢使用這個戰術動作來掩護你自己！
 {{< /mynotice >}}
 
----
-### ⬛ Same Type Attack Bonus (STAB)
-All Pokémon can control different Types of energy, but these energies will come out naturally stronger if they are from thier own Type.
 
-For  example,  a  Grass-Type  is  stronger  at  controlling plants, while a Normal-type won't be as powerful when trying to do the same.
- 
-Using Moves that match their own type will give you an edge when trying to deal damage.
+---
+### ⬛ 屬性一致加成 (STAB)
+所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。
+
+舉例來說，一個草系的寶可夢會更擅長於操控植物，但一般系的寶可夢在試圖做同樣的行動時就沒有那麼強大。
+使用與自己屬性相同的招式，能夠讓你在造成傷害的時候更有優勢。
+
 
 {{< highlight >}}
-Whenever a Pokémon performs an Attack that matches one of its types you’ll get the “Same Type Attack Bonus” or STAB  for short.  
+每當寶可夢施展與牠自己屬性相符的攻擊招式時，你將會獲得所謂的「**屬性一致加成**」，簡稱STAB。
 
-<b style="font-size:1.3em;">This adds 1 Bonus Dice to the Damage Pools of matching Type attacks.</b>
+<b style="font-size:1.3em;">這個加成將為屬性相符攻擊的傷害骰池增加　1　顆獎勵骰。</b>
 {{< /highlight >}}
 
+
 ---
-### ⬛ Low Accuracy Moves
-If you perform a move labeled with a sign like this:
+### ⬛ 低命中率招式
+如果你使用的招式帶有以下標記：
 {@icon frame|accuracy|命中|down|1}{@icon frame|accuracy|命中|down|2}{@icon frame|accuracy|命中|down|3}
-**Remove  the  noted  number  of  Successes  from  your  Accuracy  Roll.**
+**則從你的命中判定中扣除其指定數量的成功骰。**
 
 {{< example >}}
-Take a look at this example:
+看看下面這個例子：
 
 ---
-Pikachu is trying to attack its foe Stunky with the move Thunder. Which has an Accuracy of -2: 
-{@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|2} Move Accuracy
+皮卡丘正試圖使用招式「打雷」來攻擊敵方的臭鼬噗，這個招式帶有命中率-2的標記：
+{@icon dice|l|5} 皮卡丘的骰池，招式命中率 {@icon frame|accuracy|命中|down|2}
 
-**Roll Results**: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|3} (-2 Successes)
-
----
-The roll fails. A Thunder stroke in the arena but it did not hit the target.
-
-On  Stunky’s  turn  he  uses  the  move  Smokescreen reducing Pikachu’s Accuracy by 1.
-In  the  next  Round,  Pikachu’s  Accuracy  Roll  for Thunder would be:
-
-{@icon dice|l|5}Pikachu’s Dice Pool, with {@icon frame|accuracy|命中|down|3} Move Accuracy
-
-**Roll Results**: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|6|fail}{@icon rdice|s|4|fail}{@icon rdice|s|2} (-3 Successes)
+**擲骰結果**: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|3} (-2 成功骰)
 
 ---
-Pikachu would have to train its skills to get better at controlling this kind of attacks.
+命中判定失敗，閃電打在了場地之中，但沒有命中牠的目標。
+
+輪到臭鼬噗的回合，牠使用了招式「煙幕」來讓皮卡丘的命中率降低 1 點。
+在下個戰鬥輪，皮卡丘使用「打雷」的命中判定將變成這樣：
+
+{@icon dice|l|5} 皮卡丘的骰池，招式命中率 {@icon frame|accuracy|命中|down|3}
+
+**擲骰結果**: {@icon rdice|s|1}{@icon rdice|s|6|fail}{@icon rdice|s|6|fail}{@icon rdice|s|4|fail}{@icon rdice|s|2} (-3 成功骰)
+
+---
+皮卡丘將會需要更加磨練牠的技巧才能更好的控制這個類型的攻擊招式。
 {{< /example >}}
 
 
-**Pain  Penalizations  and  other  penalties  may  remove even more successes from your Roll.**
-The  power  of  some  Moves  might  seem  tempting,  but you’ll need a lot more than powerful moves to win your battles.
+**疼痛懲罰和其他懲罰也會扣除掉更多的成功骰。**
+儘管有些招式的威力也許看起來很吸引人，但想要贏得戰鬥，你所需要不僅僅是威力強大的招式。
 
-If your foe is relying on powerful but unaccurate Moves, don’t  be  scared,  make  their  advantage  become  their disadvantage by Evading or Clashing.
+如果你的敵人依賴於這種威力強大但不準確的招式，不用害怕，透過閃躲和對抗來讓他們的優勢變成劣勢吧。
+
 
 ---
-### ⬛ Attributes: Increase & Reduction
+### ⬛ 特質：提升或降低
 You will notice that some moves are marked with this kind of icons:
 {@icon frame|self|特質|up|1}{@icon frame|self|特質|down|1} {@icon frame|target|特質|up|1}{@icon frame|target|特質|down|1}
 
@@ -193,8 +198,9 @@ It is illegal to go into an official match of  the  league  with  your  Pokémon
 **All these Power-ups and downs are only temporary.**
 **They  will  last  for  a  scene  or  until  the  Pokémon  is removed from battle.**
 
+
 ---
-### ⬛ Critical Hit
+### ⬛ 擊中要害
 **To land a Critical Hit you have to score 3 more successes than what is required for your Accuracy Roll.**
 **If you do, you will add 2 dice to your Damage Pool.**
 
@@ -211,14 +217,14 @@ Amaura is at risk of receiving a serious amount of damage from Archen’s Attack
 {{< /example >}}
 
 Also, Moves labeled with this Icon:
-{@icon crit|l}
+{@icon effect|l|crit}
 
 Are called **“High-Critical”** moves.
 You'll need only **2 more Successes than necessary**, to get a Critical hit! 
 
 
 ---
-### ⬛ Holding Back
+### ⬛ 手下留情
 Sometimes it will be more convenient to contain the full force of your Pokémon’s attacks.
 
 Perhaps  a  move  is  extremely  powerful  but  it  may hurt your allies as well, maybe you are fighting a wild  Pokémon you want to catch and do not want it to faint. Or  it  could  be  that  you  are  participating  in  an  official League  Tournament  and  you  cannot  use  your  favorite move by going all out.
@@ -229,13 +235,14 @@ For those cases, you give the command to “Hold Back” in order to do either o
 You make your damage roll normally but only inflict half of the damage rounded down to those affected by your attack.
 
 * **Deal Regular Damage instead of Lethal Damage.**
-If your order your Pokémon to use a move that  would deal Lethal Damage: <br/>{@icon lethal|l}
+If your order your Pokémon to use a move that  would deal Lethal Damage:
+{@icon effect|l|lethal}
 
 You can also add the order: “Restrain yourself!”, “Don’t use  full  force!”  or  something  along  the  lines  so  the  damage your Pokémon inflicts will not need a trip to the emergency room ...or the graveyard.
 
 
 ---
-### ⬛ Priority and Low Priority
+### ⬛ 先制與後制
 Many  actions  and  Moves  are  quick  and  abrupt  or  slow and  complex.  Priority  and  Low  Priority  are  terms  to  indicate which Moves get into effect outside of the normal  Initiative order. They are labeled by these signs:
 {@icon frame|priority|優先度|up|1}{@icon frame|priority|優先度|down|1}
 
@@ -252,7 +259,7 @@ Low Priority is the opposite, it will take effect at the End of the Round, it ma
 
 
 ---
-### ⬛ Healing In-Battle
+### ⬛ 在戰鬥中治療
 There are three ways to heal a character in-battle:
 * By applying healing items, such as Spray Potions or medicine on them. **One Potion unit heals 1 damage, two units heal 1 lethal damage.**
 * By using a held item such as a Berry.
@@ -336,58 +343,61 @@ A couple of rounds pass and someone activated Sunny Weather in the field, Megani
 This means it would recover 5 HP, but Meganium’s only has taken 4 damage, So it heals 4 HP and the remaining point is lost.
 {{< /example >}}
 
+
 ---
-### ⬛ Shield Moves
-There are some moves labeled with this icon:
-{@icon shield|l}
+### ⬛ 護盾招式
+有些招式會帶有這個標記：
+{@icon effect|l|shield}
 
-Their effects may differ from one another but they all have one thing in common, they are actions that involve using a shield against an incoming attack.
-Unlike evading, Pokémon using these moves receive the attacks head-on with certainty that they’ll come out practically unscathed. **Shield Moves can reduce damage to zero.**
+儘管它們的效果可能彼此各有不同，但它們都有一個共同點，那就是它們全都涉及了張開護盾來抵禦襲來的攻擊。
+與閃避不同，寶可夢在使用這些招式抵禦迎面而來的攻擊時，基本上可以百分之百使自己毫髮無傷。**護盾招式可以將傷害降低至零。**
 
-There’s a catch, though. You can **only use one shield move per round, and if you use one the next round as well you'll get an Extra -2 Reduced Accuracy to their accuracy roll**, increasing the chances of failure for every shield move you use each round. **If you do not use a shield move for a whole round this effect resets.**
+但這裡有個玄機。你在**每個戰鬥輪中只能使用護盾招式一次，且如果你在下一輪又繼續使用它，你將會在該招式的命中判定上獲得額外的 命中率-2 的影響**，提高你在每輪連續使用護盾招式的失敗率。**如果你一整個戰鬥輪都沒有使用護盾招式，那麼這個影響將會被重置。**
 
 {{< example >}}
-For every Shield Move you use round after round, you’ll be adding an extra reduced Accuracy.
-That means:
+每次你連續使用護盾動作，你都會獲得一個額外的降低命中率標記。
+這意味著：
 
-**Shield Move on Round 1**
-{@icon shield|l}
+**第一輪的護盾招式**
+{@icon effect|l|shield}
 
-**Shield Move on Round 2**
-{@icon shield|l} + {@icon frame|accuracy|命中|down|2}
+**第二輪的護盾招式**
+{@icon effect|l|shield} + {@icon frame|accuracy|命中|down|2}
 
-**Shield Move on Round 3**
-{@icon shield|l} + {@icon frame|accuracy|命中|down|4}
+**第三輪的護盾招式**
+{@icon effect|l|shield} + {@icon frame|accuracy|命中|down|4}
 
-And so on if you keep using them uninterruptedly.
+以此類推，如果你繼續不間斷地使用它們的話。
 {{< /example >}}
 
+
 ---
-### ⬛ Successive Actions
-Multiple Actions are handled per round. But some moves have the special property of unleashing all actions at once, these are called “Succesive Actions”
+### ⬛ 連續行動
+多重行動會在每個戰鬥輪中被處理。但有些招式具有著特別的性質，讓你的所有行動能夠在同一回合被一口氣釋放出來；它們被稱為「連續行動」。
 
-Moves marked with this symbols:
-{@icon d_act|l} {@icon s_act|l}
+帶有這個標記的招式：
+{@icon effect|l|sact_2} {@icon effect|l|sact_5}
 
-Mean that you can unleash from 2 to 5 multiple actions in a single attack!
+代表著你可以在單一次攻擊中做出 2 ~ 5 個多重行動！
+
 
 {{< example >}}
-Meowth will use the move Fury Swipes, which is a Successive Action move.
+**喵喵**打算使用招式「**亂抓**」，這是一個連續行動招式。
 
-For it’s Accuracy roll, Meowth will roll following the Multiple Actions rule for successes, only this time the actions called will be released all at once. Trainer calls for 2 multiple actions to be used on Fury Swipes:
-
----
-**Meowth’s first Swipe:**
-{@icon dice|l|5}Meowth’s Dice Pool, with {@icon frame|accuracy|命中|down|1} Move Accuracy
-
-**Roll Results**: {@icon rdice|s|2}{@icon rdice|s|3}{@icon rdice|s|4|fail}{@icon rdice|s|5}{@icon rdice|s|1} (1 Required Successes)
+在進行其命中判定時，喵喵將會遵循**多重行動的規則**來決定判定是否成功，只不過現在這些行動將會一口氣釋放。訓練家宣告使用了 2 個多重行動來使用亂抓。
 
 ---
-**Meowth’s second Swipe:**
-{@icon dice|l|5}Meowth’s Dice Pool, with {@icon frame|accuracy|命中|down|1} Move Accuracy
+**喵喵的第一次亂抓:**
+{@icon dice|l|5} 喵喵的骰池，招式命中率 {@icon frame|accuracy|命中|down|1}
 
-**Roll Results**: {@icon rdice|s|3}{@icon rdice|s|1}{@icon rdice|s|4}{@icon rdice|s|5}{@icon rdice|s|5|fail} (2 Required Successes)
+**擲骰結果**: {@icon rdice|s|2}{@icon rdice|s|3}{@icon rdice|s|4}{@icon rdice|s|5|fail}{@icon rdice|s|1} (需要 1 個成功骰)
 
 ---
-All of this means that Meowth performed two attacks in a single turn, and if its Dice pool grows with some training, Meowth will be capable of making up to 5 attacks in a single Turn!
+**喵喵的第二次亂抓:**
+{@icon dice|l|5} 喵喵的骰池，招式命中率 {@icon frame|accuracy|命中|down|1}
+
+**擲骰結果**: {@icon rdice|s|3}{@icon rdice|s|1}{@icon rdice|s|4}{@icon rdice|s|5}{@icon rdice|s|5|fail} (需要 2 個成功骰)
+
+---
+這一切都意味著喵喵在同個回合中進行了兩次攻擊，且如果日後牠的骰池在一定訓練後成長的話，喵喵將有機會在同一個回合中進行最多 5 次攻擊！
 {{< /example >}}

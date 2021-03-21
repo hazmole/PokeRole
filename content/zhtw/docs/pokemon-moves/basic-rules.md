@@ -119,15 +119,15 @@ Feel free to create you own.
 </div>
 <div class="Move">
 	<div class="MoveHeader">
-		<div class="title">Cover an Ally</div>
+		<div class="title">掩護隊友</div>
 		<div class="power">-</div>
 		<div class="type"><tag class="moveType support"></tag></div>
 	</div>
 	<div class="MoveIconBar">{@icon target|l|ally}</div>
 	<div class="MoveContent">
-		<div class="Type">None</div>
-		<div class="Accuracy">None</div>
-		<div class="Damage">None</div>
+		<div class="Type">無</div>
+		<div class="Accuracy">無</div>
+		<div class="Damage">無</div>
 		<div class="Additional">
 			The user will provide cover to the target from Ranged attacks and is more likely to be hit by close-range attacks. The level of Cover the user provides will depend of its size.</div>
 	</div>

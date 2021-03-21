@@ -144,7 +144,7 @@ For more info, see p.52
 
 ---
 #### 致命
-{@icon lethal|l}
+{@icon effect|l|lethal}
 The Move inflicts Lethal Damage. For more Info, see p.53
 
 ---
@@ -172,27 +172,27 @@ The  User  may  use  this  Move  up  to  3  times  without  interruption,  even 
 
 
 ---
-#### Recoil
+#### 反作用力傷害
 {@icon effect|l|recoil}
 The  user  will  be  hurt  by  its  own  Move.  Roll  damage  normally  against  the  foe,  then  roll  again  each  success you scored as damage to the User ignoring its defenses.
 
 
 ---
-#### Shield
+#### 守住
 {@icon effect|l|shield}
 If the Pokemon performs another Shield Move during the next Round, that Move’s Accuracy Roll is reduced by 2 successes.  For more info, see p.54
 
 
 ---
-#### Sound Based
+#### 聲音類招式
 {@icon effect|l|sound}
 These  Moves  bypass  Substitute,  Light  Screen,  Reflect, and Cover.
 
 
 
 ---
-#### Status Condition Box
-{@icon frame|paralysis|麻痺} {@icon frame|burn1|灼傷1} {@icon frame|burn2|灼傷2} {@icon frame|burn3|灼傷3|never} {@icon frame|sleep|睡眠} {@icon frame|poison|中毒} {@icon frame|poison2|劇毒} {@icon frame|frozen|冰凍} {@icon frame|flinch|畏縮} {@icon frame|love|著迷} {@icon frame|confuse|混亂}
+#### 異常狀態框
+{@icon frame|paralysis|麻痺} {@icon frame|burn1|灼傷1} {@icon frame|burn2|灼傷2} {@icon frame|burn3|灼傷3} {@icon frame|sleep|睡眠} {@icon frame|poison|中毒} {@icon frame|poison2|劇毒} {@icon frame|frozen|冰凍} {@icon frame|flinch|畏縮} {@icon frame|love|著迷} {@icon frame|confuse|混亂}
 The Move inflicts a Status Ailment.
 Each Status Ailment is described on detail on p.57
 
