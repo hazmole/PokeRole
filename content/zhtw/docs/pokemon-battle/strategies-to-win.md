@@ -64,7 +64,7 @@ description = ""
 {{< /mynotice >}}
 
 {{< mynotice story >}}
-輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
+變化招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
 {{< /mynotice >}}
 
 
@@ -140,63 +140,61 @@ description = ""
 
 ---
 ### ⬛ 特質：提升或降低
-You will notice that some moves are marked with this kind of icons:
+你會注意到有些招式會帶有像這樣的標記：
 {@icon frame|self|特質|up|1}{@icon frame|self|特質|down|1} {@icon frame|target|特質|up|1}{@icon frame|target|特質|down|1}
+它們大部分都不會造成傷害，取而代之的是，它們會讓寶可夢的特質提升或降低。
 
-Most of them don’t deal damage but increase or reduce the attributes of a Pokémon instead.
+降低你對手的特質來取得優勢，是一個很有效的戰術。如果你把它與增加自己寶可夢特質的招式組合起來，那麼你將走在通往勝利的正確道路上。
 
-
-It is a valid strategy to reduce your foe’s Attributes to get  an  advantage.  If  you  combine  this  with  increasing your own Pokémon Attributes, you will be on the right path to victory.
-
-**A Move may increase or decrease an attribute by 1, 2 or 3 points, this effect is only temporary.**
-These  points  do  not  stack  on  the  same  attribute,  but instead only take into account the move with the highest modifier.
+**招式可能會使特質提升或降低 1點、2點、或 3點，且這些影響都只會是暫時性的。**
+針對同一個特質造成的數值調整並不會彼此疊加，相反的，只有數值調整值最大的招式會被適用。
 
 {{< example >}}
-A  Shellder  with  a  Defense  of  5  used  the  move  Withdraw as its first action.
-Its  Defense  will  be  increased  1  point  making  it  a  total of 6.
+一隻防禦為 5 的**大舌貝**使用了招式「**縮入殼中**」做為牠的第一個行動。
+牠的防禦將會因此提升 1 點，使其防禦變為 6。
 
-On  its  next  action,  Shellder  used  the  move  Iron Defense,  which  increases  its  Defense  by  2  points. 
-Its Defense will now be 7. **The effects of Withdraw  are replaced.**
+在下一個行動，大舌貝使用了招式「**鐵壁**」，這個招式能讓牠的防禦提升 2 點。
+現在牠的防禦變成了 7。**「縮入殼中」的效果被取代了。**
 
-If  Shellder  uses  Iron  Defense  once  again  the  next round, its Defense would remain unchanged.
+就算大舌貝在下一個戰鬥輪再次使用了「鐵壁」，牠的防禦也不會再發生變化。
 {{< /example >}}
 
-The same rule applies for decreasing the attributes of a Pokémon, with the only exception that once an attribute  is  decreased  to  just  1  point,  it  cannot  be  decreased  further.
-Some **Held Items** will directly affect the attributes of a Pokémon but their effects will not stack along with the effects of a move and you will take into account only the highest modifier.
+
+同樣的規則也適用於降低寶可夢的特質。唯一不同的是，當特質被降到只剩 1 點時，它就無法再被繼續降低。
+有些**攜帶物品**能夠直接影響寶可夢的特質，但它們的效果仍然不會與招式的效果彼此疊加，因此你只需考慮調整值最大的因素就好。
 
 {{< highlight >}}
-Temporary increases of attributes can only make a Pokémon reach a maximum of 10 Points.
+暫時性的特質提升最高只能讓寶可夢的特質提升到 10 點。
+這意味著如果寶可夢的某個特質已經達到了 10 點上限，那該特質就無法再被進一步提升。
 
-That  means  that  if  your  Pokémon  already  has a score of 10 in an attribute it won’t be able to  increase it further.
-
-If  your  Pokémon  has  reached  the  limit  score  on its attribute, and increases it using a move or ability,  as long as it keeps it on 10 or less it will be able to do so without problems.
+然而，如果你的寶可夢的特質已經達到牠自己的上限，並使用了招式或特性來提升它，那麼只要該特質在提升後仍然等於或低於 10，那就沒有任何問題。
 {{< /highlight >}}{{< highlight >}}
-<p style="font-size:1.2em;"><b>When combined with Abilities, Pokémon can  achieve  incredible  power  through temporary  increases  in  Power,  Defense and Speed.</b></p>
+<p><b style="font-size:1.2em;">這些暫時性的特質增減可以和寶可夢的特性彼此疊加。</b><br>結合寶可夢的特性，寶可夢將能夠透過暫時提升力量、防禦、和速度來變得難以置信的強大。</p>
 {{< /highlight >}}
 
-Take these examples of combining moves and abilities to increase your own attributes or reduce your foe’s:
 
+看看下面這些例子，結合了招式和特性的效果，來有效提升你自己的特質並降低敵方的：
 {{< example >}}
-Your Floatzel has 4 points of Dexterity. Its Ability is Swift Swim, which increases Dexterity by 2 Points during Rain weather. 
+你浮潛鼬的靈巧為 4。牠的特性是「**悠游自如**」，能夠在天氣狀態為下雨的時候提升 2 點靈巧。
 
-It  is  raining  at  the  moment  and  Floatzel  uses  the Move Agility in its turn.  This move adds 2 Points to the user’s Dexterity.  
+現在的天氣狀態正好是下雨，且浮潛鼬在牠的回合中使用了招式「**高速移動**」。這個招式將讓使用者的靈巧提升 2 點。
 
-Floatzel ends up with 8 total Dexterity Points: 
-4 points are its own, 2 from its Ability and 2 more from the Move it used. 
+最終，浮潛鼬擁有總共 8 點靈巧：
+ 4 點牠自己原本的特質，2 點來自牠的特性，以及另外 2 點來自牠所使用的招式。
 {{< /example >}}{{< example >}}
-Your little pink Snubull goes into battle, against an aggressive Tyranitar with a Strength score of 4. Fortunately,  Snubull  has  the  ability  Intimidate, which reduces by 1 point the Strength of all foes in range.
+你小巧可愛的粉紅色布魯正在戰鬥，對抗著一隻兇猛，有著 4 點力量的班基拉斯。
+幸運的是，布魯有著「**威嚇**」特性，讓牠能夠使範圍內所有敵人的力量降低 1 點。
 
-On  its  turn,  Snubull  uses  the  move  Charm,  which means a further reduction of 2 points for the foe. By  the  end  of  Snubull’s  turn,  Tyranitar  only  has  1 point on its Strength Attribute. 
+在牠的回合，布魯使用了招式「撒嬌」，這能讓對手的力量更進一步降低 2 點。因此在布魯的回合結束時，班基拉斯的力量特質就只剩下了 1 點。
 
-Now that doesn’t sound too menacing!
+現在情況聽起來就沒有那麼危險了！
 {{< /example >}}
 
 {{< mynotice trainer >}}
-It is illegal to go into an official match of  the  league  with  your  Pokémon  already buffed. You’ll have to put it back into its Pokéball and let it out when the match begins.
+讓你的寶可夢在已經被施加強化效果的狀態下開始正式對戰是違反規則的。比賽開始時，你必須將其收進寶貝球中，然後再把牠派出來。
 {{< /mynotice >}}
 
-**All these Power-ups and downs are only temporary.**
-**They  will  last  for  a  scene  or  until  the  Pokémon  is removed from battle.**
+**所有這些強化或弱化都只是暫時性的。它們會持續到這個場景結束、或直到該寶可夢退出戰鬥。**
 
 
 ---

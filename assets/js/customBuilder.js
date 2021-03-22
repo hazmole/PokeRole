@@ -136,14 +136,17 @@ function parseIcon(){
       case "weather wind":  return "亂流";
       case "weather hail":  return "冰雹";
       
-      case "effect block":  return "阻擋";
-      case "effect crit":   return "高要害率";
-      case "effect charge": return "蓄能";
-      case "effect lethal": return "致命傷害";
-      case "effect recoil": return "反作用力傷害";
-      case "effect shield": return "護盾";
-      case "effect fist":   return "拳頭類招式";
-      case "effect sound":  return "聲音類招式";
+      case "effect block":    return "阻擋";
+      case "effect crit":     return "高要害率";
+      case "effect charge":   return "蓄能";
+      case "effect lethal":   return "致命傷害";
+      case "effect neverfail":return "必中";
+      case "effect recoil":   return "反作用力傷害";
+      case "effect rampage":  return "狂暴";
+      case "effect recharge": return "必須重新充能";
+      case "effect shield":   return "護盾";
+      case "effect fist":     return "拳頭類招式";
+      case "effect sound":    return "聲音類招式";
       case "effect sact_2":   return "雙重行動";
       case "effect sact_5":   return "連續行動";
       default:

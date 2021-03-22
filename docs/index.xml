@@ -130,10 +130,10 @@ What are Pokémon Contests? When you talk about Pokémon Contests, you talk abou
 或者
 敵人骰 力量/特殊 + 對抗 如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
 進行對抗時，雙方受到的傷害仍會把弱點和抗性的影響納入計算。
-閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>招式效果標籤</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
+閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>招式效果標記</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
 Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them.
-Category Icon {@icon moveType|l|physical}
-Physical
+分類圖示 {@icon moveType|l|physical}
+物理招式
 Physical Moves are resisted with Defense. They are close range attacks.</description></item><item><title>神奇的寶可夢世界</title><link>https://hazmole.github.io/PokeRole/docs/the-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid><description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
 然而，他們的世界與我們有許多不同：其中，寶可夢的存在幾乎改變了所有事物。
 在這個世界裡，許多人遊走旅行在各個地區，尋求著冒險、神祕，以及成為頂尖的機會。
@@ -297,7 +297,7 @@ Once Presentation is done, each contestant will roll 1 die to advance the spaces
 儘管對抗在減輕傷害的效果上並不如閃避那樣有效，但這對於速度較慢卻更強韌的寶可夢們而言仍是個不錯的選項。
 你在每個戰鬥輪中只能對抗一次。
 一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！
-輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
+變化招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
 ⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
 身體遮蓋率 對遠程攻擊的額外 防禦/特防 加成
 1/4 +1
@@ -397,9 +397,39 @@ Think about it as a specialization to being a Pokémon Trainer.</description></i
 你能繼續學習並追加選擇其他「科學」領域來進一步專業化。</description></item><item><title>極巨招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid><description>Max Moves Dynamax and G-Max Pokémon
 So you think you are ready for the BIG leagues?
 When a Pokémon is under the Effects of the Dynamax Phenomenon it grows not just on size but on power as well and Max Moves will ad an extra layer of complexity to your strategy!
-Rules for Max Moves Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
-Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.
-This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description></item><item><title>生命值與意志點</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</guid><description>生命值 (HP) 生命值被用來衡量角色的身體狀態。
+Rules for Max Moves Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>天氣狀態 &amp;amp; 環境 寶可夢、牠們的招式、以及牠們與特性，這些都可能因為天氣狀態而被增強或是減弱。
+日照、降雨、飄雪、以及沙塵暴是許多寶可夢棲息地的重要環境因子。
+要記住，絕大部分的對戰都發生在野外。從森林和熱帶叢林，到火山地帶、苔原、甚至地底下或水中。
+這讓戰場變成了一個不斷變換局勢的場景，而不僅僅是個空蕩單調的對戰場地。時間與地點都會影響你取得勝利的機會。
+目前總共有七種主要的天氣狀態。
+{@icon weather|l|sun}
+大晴天
+在沙漠、平原及熱帶地區的典型天氣。
+{@icon weather|l|sun2}
+大日照
+只會在火山區域見到。
+{@icon weather|l|rain}
+下雨
+常見於雨林、湖邊、和沼澤地。
+{@icon weather|l|rain2}
+暴風雨
+只會在海上或水中見到。
+{@icon weather|l|sand}
+沙暴
+常見於乾旱地區和貧瘠地帶。
+{@icon weather|l|wind}
+亂流
+只會在極高的空中見到。
+{@icon weather|l|hail}
+冰雹
+在寒冷與多雪地區周遭的典型天氣。
+有些寶可夢有辦法使用特殊的招式來召喚這些天氣狀態。也有些寶可夢據說擁有著不可思議的特性，能夠僅憑意志就讓天氣發生改變。
+你可以自行創造其他種類的天氣狀態和戰場情境，來使戰鬥變得更加艱困或更加容易，一切都取決於你對它們的適應能力。
+讓戰場局勢成為戰鬥中重要的一環。
+如果你允許他們自由與戰場環境互動，那它們將可能成為玩家們的盟友、也可能會變成玩家的敵人。
+天氣狀態詳述 大晴天 明亮的陽光照耀著整個戰場。天氣炎熱，你感到又渴又累，光線刺痛著你的眼睛。
+所有火屬性招式的傷害骰池都獲得 1 顆額外的骰子。 所有水屬性招式的總傷害都會減少 1 點。 沒有人會受到「冰凍」狀態的影響。
+大日照 殘酷的日照在戰場上產生了極度的高溫，地面上流淌著岩漿，有些東西甚至突然就開始熊熊燃燒。你可能會需要穿戴特殊的裝備才有辦法度過這種天氣。</description></item><item><title>生命值與意志點</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/</guid><description>生命值 (HP) 生命值被用來衡量角色的身體狀態。
 所有活物都有著其各自的基礎生命值（BHP），代表他們物種對於傷害和痛苦的耐受性。某個可能會對某些生物造成嚴重傷害的事物，對另一個物種而言或許只不過是叮咬般的輕微疼痛，這一切都取決於牠們的身體構造差異。
 在計算你的總生命值時，你必須將活力特質的點數加到基礎生命值中。
 人類的基礎生命值為 4。寶可夢的基礎生命值記載於其各自的圖鑑條目上。

@@ -154,7 +154,7 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 儘管對抗在減輕傷害的效果上並不如閃避那樣有效，但這對於速度較慢卻更強韌的寶可夢們而言仍是個不錯的選項。
 你在每個戰鬥輪中只能對抗一次。
 一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！
-輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
+變化招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
 ⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
 身體遮蓋率 對遠程攻擊的額外 防禦/特防 加成
 1/4 +1
@@ -163,9 +163,39 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 根據說書人的裁斷，你可能有辦法藉此躲過全部的傷害。但掩體可能會在承受幾次攻擊之後被摧毀。
 你可以使用「掩護隊友」的戰術動作，利用你的身體來做為小體型寶可夢的掩護。
 或者，你也可以讓其他大體型的寶可夢使用這個戰術動作來掩護你自己！
-⬛ 屬性一致加成 (STAB) 所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
-Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.
-This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
+⬛ 屬性一致加成 (STAB) 所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>天氣狀態 &amp;amp; 環境 寶可夢、牠們的招式、以及牠們與特性，這些都可能因為天氣狀態而被增強或是減弱。
+日照、降雨、飄雪、以及沙塵暴是許多寶可夢棲息地的重要環境因子。
+要記住，絕大部分的對戰都發生在野外。從森林和熱帶叢林，到火山地帶、苔原、甚至地底下或水中。
+這讓戰場變成了一個不斷變換局勢的場景，而不僅僅是個空蕩單調的對戰場地。時間與地點都會影響你取得勝利的機會。
+目前總共有七種主要的天氣狀態。
+{@icon weather|l|sun}
+大晴天
+在沙漠、平原及熱帶地區的典型天氣。
+{@icon weather|l|sun2}
+大日照
+只會在火山區域見到。
+{@icon weather|l|rain}
+下雨
+常見於雨林、湖邊、和沼澤地。
+{@icon weather|l|rain2}
+暴風雨
+只會在海上或水中見到。
+{@icon weather|l|sand}
+沙暴
+常見於乾旱地區和貧瘠地帶。
+{@icon weather|l|wind}
+亂流
+只會在極高的空中見到。
+{@icon weather|l|hail}
+冰雹
+在寒冷與多雪地區周遭的典型天氣。
+有些寶可夢有辦法使用特殊的招式來召喚這些天氣狀態。也有些寶可夢據說擁有著不可思議的特性，能夠僅憑意志就讓天氣發生改變。
+你可以自行創造其他種類的天氣狀態和戰場情境，來使戰鬥變得更加艱困或更加容易，一切都取決於你對它們的適應能力。
+讓戰場局勢成為戰鬥中重要的一環。
+如果你允許他們自由與戰場環境互動，那它們將可能成為玩家們的盟友、也可能會變成玩家的敵人。
+天氣狀態詳述 大晴天 明亮的陽光照耀著整個戰場。天氣炎熱，你感到又渴又累，光線刺痛著你的眼睛。
+所有火屬性招式的傷害骰池都獲得 1 顆額外的骰子。 所有水屬性招式的總傷害都會減少 1 點。 沒有人會受到「冰凍」狀態的影響。
+大日照 殘酷的日照在戰場上產生了極度的高溫，地面上流淌著岩漿，有些東西甚至突然就開始熊熊燃燒。你可能會需要穿戴特殊的裝備才有辦法度過這種天氣。</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
 They may be painful or disruptive effects such as burning, or paralyzing.
 Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
 2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.

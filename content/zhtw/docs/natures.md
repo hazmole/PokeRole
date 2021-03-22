@@ -99,8 +99,8 @@ description = "羅列各性格的說明和對應數值"
 {{< /nature >}}
 
 {{< nature "溫順" 10 "優雅、有魅力、外向的" >}}
-A Gentle personality reflects on graceful conversations and pleasant social interactions. They enjoy doing things with care and refinement, and others come to them simply to revel in their sophisticated presence. 
-They enjoy luxuries but can be quite demanding with their tastes. These natural socialites were born to be in the spotlight and they don't like to share it.
+溫順性格體現於優雅的談話與愉快的社交互動上。他們喜歡細心且細緻地做事，且有些人來找他們也只是為了能沉醉在他們表現出的高雅儀態當中。
+他們享受奢華，但對自己品味地要求也很高。這些天生的交際能手可以說是生來就為了成為鎂光燈的焦點，且他們不喜歡把這個焦點與他人分享。
 {{< /nature >}}
 
 {{< nature "勤奮" 9 "可靠、適應性強、足智多謀" >}}
