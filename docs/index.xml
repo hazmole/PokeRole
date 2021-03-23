@@ -194,7 +194,7 @@ These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and
 陷入暈厥狀態的角色會持續平均約 8 個小時。在這之後，他們的身體會自動回復 1 點HP，並讓角色重新恢復意識。
 道具「活力碎片」能讓你在數秒間的時間內從暈厥中恢復。一瓶尋常的「傷藥」能夠治療身體受到的傷害，並防止傷口加劇，但角色仍然會維持暈厥狀態。
 對寶可夢而言，暈厥是一個相當不好的體驗。如果你經常命令牠們持續戰鬥直到力盡昏厥，那麼牠們的幸福度與忠誠度將會因此下降，使你們之間的關係變得緊張。
-在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回寶貝球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
+在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回精靈球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
 野生寶可夢通常會在訓練家暈厥過去且失去威脅性之後停下攻擊。但在完全無助的情況下待在戶外很有可能會危害到你角色的生命。
 致命傷害 (可選) 如果你或寶可夢在陷入暈厥的狀態下繼續受到傷害，那麼該傷害將會轉變成「致命傷害」。
 有些寶可夢有辦法學會能直接造成致命傷害的毀滅性的招式。
@@ -493,9 +493,43 @@ Rules for Max Moves Max Moves can only be used while a Pokémon is under the Eff
 ●●○○○ 他會陪在你身邊。但如果情況太過危險，你就只能靠你自己了。
 ●●●○○ 寶可夢把你當作朋友，且如果可能的話，牠會幫助你脫離險境。
 ●●●●○ 沒有什麼事情是牠不能為你做的。你是最重要的人。
-●●●●● 有些友情可以持續甚至超過一輩子。沒有任何危險、人物、或距離能夠成為你們之間的阻礙。</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
-They may be painful or disruptive effects such as burning, or paralyzing.
-Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
+●●●●● 有些友情可以持續甚至超過一輩子。沒有任何危險、人物、或距離能夠成為你們之間的阻礙。</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>異常狀態 有些狀態會改變或妨害人類及寶可夢的正常狀態，它們被稱為「異常狀態」。
+它們可能會是疼痛不堪或顛覆性的效果，像是灼傷或麻痺狀態。
+這些效果有些會在幾分鐘之後就自行消退，但也有些可能嚴重到需要透過緊急藥物治療來處置。
+有些寶可夢屬性會免疫於某些特定的異常狀態，有些則會因為能抵禦狀態來源而免疫於該異常狀態；但無論如何，你都最好還是隨時帶著一些藥物和治療道具在身上。
+異常狀態有可能彼此互相疊加，這意味著你或你的寶可夢可能會同時陷入睡眠、中毒、和灼傷狀態。
+只有萬靈藥、全復藥、和木子果能夠同時治癒一個以上的異常狀態，如果你沒有任何上述這些物品，那麼你就得一個一個治癒這些異常狀態、或是用老方法來處置它們：停下、躺倒、翻滾（此為著火自救的口訣）。
+聯盟舉辦的正式比賽可能會限制你堆疊異常狀態。比如說，如果你對手的寶可夢已經陷入中毒或睡眠狀態，那麼聯盟職員可能會阻止你在繼續施加另外一個異常狀態，或者在你這麼做時懲處你。
+以下是這些異常狀態及其效果的列表：
+灼傷 1 級 某個相當炙熱的東西灼燒著你的肌膚，並開始起了水泡。
+{@icon frame|burn1|灼傷1}
+效果:
+每個戰鬥輪結束時造成 1 點傷害。火屬性寶可夢免疫這個狀態。
+抵抗:
+無法被抵抗。
+持續時間:
+使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 4 顆成功骰數。
+其他人可以在戰鬥以外的場合協助舒緩灼傷。
+灼傷 2 級 你身體的一部份著火了！
+{@icon frame|burn2|灼傷2}
+效果:
+每個戰鬥輪結束時造成 2 點致命傷害。火屬性寶可夢免疫這個狀態。
+抵抗:
+無法被抵抗。
+持續時間:
+使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 6 顆成功骰數。
+其他人可以在戰鬥以外的場合協助撲滅火焰。
+灼傷 3 級 你完全被火焰吞噬了！
+{@icon frame|burn3|灼傷3}
+效果:
+每個戰鬥輪結束時造成 3 點致命傷害。火屬性寶可夢免疫這個狀態。
+抵抗:
+無法被抵抗。
+持續時間:
+使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。
+其他人可以在戰鬥以外的場合協助撲滅火焰。
+麻痺 你的肌肉抽搐，讓你幾乎難以動彈！
+{@icon frame|paralysis|麻痺}</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
 But Pokémon that live in the wild can be either Pokémon turned feral after being abandoned or Pokémon that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.</description></item><item><title>擲骰判定</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid><description>擲骰判定 我們的生活無時無刻都會受到隨機因素的影響。運氣是我們生活中的一部分，它可以改變我們的未來，而命運也建立在我們的行動結果之上。
 在本系統中，所有的變數都會以六面骰來表示。 這種骰子很容易取得，且你可以在幾乎所有的桌遊店、或甚至在你的舊桌遊裡找到它們！
 在故事進行的過程中，你的角色將不得不採取一些不同尋常的行動。

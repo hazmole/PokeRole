@@ -73,7 +73,7 @@
 陷入暈厥狀態的角色會持續平均約 8 個小時。在這之後，他們的身體會自動回復 1 點HP，並讓角色重新恢復意識。
 道具「活力碎片」能讓你在數秒間的時間內從暈厥中恢復。一瓶尋常的「傷藥」能夠治療身體受到的傷害，並防止傷口加劇，但角色仍然會維持暈厥狀態。
 對寶可夢而言，暈厥是一個相當不好的體驗。如果你經常命令牠們持續戰鬥直到力盡昏厥，那麼牠們的幸福度與忠誠度將會因此下降，使你們之間的關係變得緊張。
-在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回寶貝球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
+在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回精靈球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
 野生寶可夢通常會在訓練家暈厥過去且失去威脅性之後停下攻擊。但在完全無助的情況下待在戶外很有可能會危害到你角色的生命。
 致命傷害 (可選) 如果你或寶可夢在陷入暈厥的狀態下繼續受到傷害，那麼該傷害將會轉變成「致命傷害」。
 有些寶可夢有辦法學會能直接造成致命傷害的毀滅性的招式。
@@ -195,8 +195,42 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 如果你允許他們自由與戰場環境互動，那它們將可能成為玩家們的盟友、也可能會變成玩家的敵人。
 天氣狀態詳述 大晴天 明亮的陽光照耀著整個戰場。天氣炎熱，你感到又渴又累，光線刺痛著你的眼睛。
 所有火屬性招式的傷害骰池都獲得 1 顆額外的骰子。 所有水屬性招式的總傷害都會減少 1 點。 沒有人會受到「冰凍」狀態的影響。
-大日照 殘酷的日照在戰場上產生了極度的高溫，地面上流淌著岩漿，有些東西甚至突然就開始熊熊燃燒。你可能會需要穿戴特殊的裝備才有辦法度過這種天氣。</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
-They may be painful or disruptive effects such as burning, or paralyzing.
-Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
+大日照 殘酷的日照在戰場上產生了極度的高溫，地面上流淌著岩漿，有些東西甚至突然就開始熊熊燃燒。你可能會需要穿戴特殊的裝備才有辦法度過這種天氣。</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>異常狀態 有些狀態會改變或妨害人類及寶可夢的正常狀態，它們被稱為「異常狀態」。
+它們可能會是疼痛不堪或顛覆性的效果，像是灼傷或麻痺狀態。
+這些效果有些會在幾分鐘之後就自行消退，但也有些可能嚴重到需要透過緊急藥物治療來處置。
+有些寶可夢屬性會免疫於某些特定的異常狀態，有些則會因為能抵禦狀態來源而免疫於該異常狀態；但無論如何，你都最好還是隨時帶著一些藥物和治療道具在身上。
+異常狀態有可能彼此互相疊加，這意味著你或你的寶可夢可能會同時陷入睡眠、中毒、和灼傷狀態。
+只有萬靈藥、全復藥、和木子果能夠同時治癒一個以上的異常狀態，如果你沒有任何上述這些物品，那麼你就得一個一個治癒這些異常狀態、或是用老方法來處置它們：停下、躺倒、翻滾（此為著火自救的口訣）。
+聯盟舉辦的正式比賽可能會限制你堆疊異常狀態。比如說，如果你對手的寶可夢已經陷入中毒或睡眠狀態，那麼聯盟職員可能會阻止你在繼續施加另外一個異常狀態，或者在你這麼做時懲處你。
+以下是這些異常狀態及其效果的列表：
+灼傷 1 級 某個相當炙熱的東西灼燒著你的肌膚，並開始起了水泡。
+{@icon frame|burn1|灼傷1}
+效果:
+每個戰鬥輪結束時造成 1 點傷害。火屬性寶可夢免疫這個狀態。
+抵抗:
+無法被抵抗。
+持續時間:
+使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 4 顆成功骰數。
+其他人可以在戰鬥以外的場合協助舒緩灼傷。
+灼傷 2 級 你身體的一部份著火了！
+{@icon frame|burn2|灼傷2}
+效果:
+每個戰鬥輪結束時造成 2 點致命傷害。火屬性寶可夢免疫這個狀態。
+抵抗:
+無法被抵抗。
+持續時間:
+使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 6 顆成功骰數。
+其他人可以在戰鬥以外的場合協助撲滅火焰。
+灼傷 3 級 你完全被火焰吞噬了！
+{@icon frame|burn3|灼傷3}
+效果:
+每個戰鬥輪結束時造成 3 點致命傷害。火屬性寶可夢免疫這個狀態。
+抵抗:
+無法被抵抗。
+持續時間:
+使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。
+其他人可以在戰鬥以外的場合協助撲滅火焰。
+麻痺 你的肌肉抽搐，讓你幾乎難以動彈！
+{@icon frame|paralysis|麻痺}</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
 2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
 3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description></item></channel></rss>

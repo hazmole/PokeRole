@@ -181,16 +181,12 @@ There are no middle grounds with them, they either love or hate something so the
 {{< /nature >}}
 
 {{< nature "認真" 4 "堅定、死板、忠誠的" >}}
-They have a big sense of responsibility and won’t appreciate when others don’t take things seriously. 
-Stress is a constant in their lives, if they have a duty to fulfill they will not stop until it’s finished, everything else is a useless distraction once they have a task. 
-They might need a hand since have a hard time relaxing but if you want things done well they are the ones to look for.
+他們有很強的責任感，且不怎麼欣賞別人不認真做事的行為。
+壓力是他們生活的常態，如果他們有得去實行的任務，那他們不完成它就不會罷休。一但他們有任務在身，任何事物都無法使其分心。他們可能會需要別人幫他們一把，因為他們自己很難好好放鬆。但如果你想把事情做好，那他們就是你要找的人。
 {{< /nature >}}
 
 {{< nature "膽小" 4 "害羞、憂慮、有意識" >}}
-They have built walls around themselves that make it hard for others to see what’s inside. 
-They just want to be accepted but tend to worry too much and be way too harsh on themselves.
-Their confidence is usually placed on a leader figure and this makes them eager to please but also terrified to fail. 
-They need to learn to trust in their own capabilities to reach their full potential.
+他們在自己周圍築起了一道高牆，讓他人難以看到他們的內心。他們只是希望被別人接納，但往往會因為擔心太多而太過苛責自己。他們通常會把自信寄託於領袖人物身上，這讓他們渴望取悅別人，但同時也害怕失敗。他們需要學會相信自己的能力，才有辦法充分發揮自己的潛能。
 {{< /nature >}}
 
 
