@@ -185,11 +185,11 @@
 .MoveContent .Type::before { content: "屬性: "; font-weight:bold; }
 .MoveContent .Accuracy::before { content: "命中: "; font-weight:bold; }
 .MoveContent .Damage::before { content: "傷害: "; font-weight:bold; }
-.MoveContent .Additional { margin-top: .3rem; }
+.MoveContent .Additional { margin: .3rem .5rem; }
 .MoveDesc {
     background: rgba(0,0,0,.4); color: #fff;
-    padding: .1rem;
-    font-size: .8rem; text-indent: 1rem;
+    padding: .1rem .5rem; 
+    font-size: .8rem; text-indent: .5rem;
 }
 
 

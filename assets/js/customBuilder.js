@@ -1,59 +1,62 @@
-function parseIcon(){
-  var article = document.getElementById("list-main");
-  if(!article) return;
+class IconParser {
 
-  var hasIcon = false;
-  var raw_icon;
-  while((raw_icon = article.innerHTML.match(/{@icon ([^\}]+)}/)) != null){
-    var originText = raw_icon[0];
-    var tagArr = raw_icon[1].split("|");
-    
-    var iconHtml = getIconHTML(tagArr);
+  static parsePage(){
+    var article = document.getElementById("list-main");
+    if(!article) return;
 
-    article.innerHTML = article.innerHTML.replace(originText, iconHtml);
-    hasIcon = true;
+    var hasIcon = false;
+    var raw_icon;
+    while((raw_icon = article.innerHTML.match(/{@icon ([^\}]+)}/)) != null){
+      var originText = raw_icon[0];
+      var tagArr = raw_icon[1].split("|");
+      
+      var iconHtml = this.getIconHTML(tagArr);
+
+      article.innerHTML = article.innerHTML.replace(originText, iconHtml);
+      hasIcon = true;
+    }
+    if(hasIcon) window.onscroll(true);
   }
-  if(hasIcon) window.onscroll(true);
 
   //====================
-  function getIconHTML( tagArr ){
+  static getIconHTML( tagArr ){
     var icon_type = tagArr[0];
-    var icon_size = getSizeClass(tagArr[1]);
+    var icon_size = this.getSizeClass(tagArr[1]);
 
     switch(icon_type){
-      case "novice": return getHTML_normalIcon("NoviceMark", icon_size);
+      case "novice": return this.getHTML_normalIcon("NoviceMark", icon_size);
 
-      case "heal":   return getHTML_normalIcon("basicHeal", icon_size);
-      case "c_heal":   return getHTML_normalIcon("compHeal", icon_size);
+      case "heal":   return this.getHTML_normalIcon("basicHeal", icon_size);
+      case "c_heal":   return this.getHTML_normalIcon("compHeal", icon_size);
 
       case "weather":
       case "ball":
       case "moveType":
       case "target":
       case "effect":
-        return getHTML_normalIcon(icon_type+" "+tagArr[2], icon_size);
+        return this.getHTML_normalIcon(icon_type+" "+tagArr[2], icon_size);
 
-      case "text":   return getHTML_text(icon_size, tagArr[2], tagArr[3]);
-      case "dice":   return getHTML_diceIcon(icon_size, tagArr[2]);
-      case "rdice":  return getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
-      case "frame":  return getHTML_frame(tagArr.slice(1));
+      case "text":   return this.getHTML_text(icon_size, tagArr[2], tagArr[3]);
+      case "dice":   return this.getHTML_diceIcon(icon_size, tagArr[2]);
+      case "rdice":  return this.getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
+      case "frame":  return this.getHTML_frame(tagArr.slice(1));
       default:
-        return getHTML_normalIcon("unknown", icon_size);
+        return this.getHTML_normalIcon("unknown", icon_size);
     }
   }
   //====================
-  function getHTML_normalIcon(iconClass, iconSize){
-    var titleText = getTooltipsText(iconClass);
+  static getHTML_normalIcon(iconClass, iconSize){
+    var titleText = this.getTooltipsText(iconClass);
     var titleAttr = (!!titleText)? `title="${titleText}"`: '';
     return `<tag class="${iconClass} ${iconSize}" ${titleAttr}></tag>`;
   }
-  function getHTML_text(iconSize, text, colorClass){
+  static getHTML_text(iconSize, text, colorClass){
     return `<tag class="text ${iconSize} ${colorClass}"><b>${text}</b></tag>`;
   }
-  function getHTML_diceIcon(iconSize, number){
+  static getHTML_diceIcon(iconSize, number){
     return `<tag class="dice ${iconSize}"><b>${number}</b></tag>`;
   }
-  function getHTML_rdiceIcon(iconSize, number, extraClass){
+  static getHTML_rdiceIcon(iconSize, number, extraClass){
     var diceClass;
     switch(parseInt(number)){
       case 1: diceClass="one"; break;
@@ -66,17 +69,18 @@ function parseIcon(){
     if(parseInt(number)>=4 && extraClass!="normal") extraClass+=" success";
     return `<tag class="rdice ${iconSize} ${diceClass} ${extraClass}"></tag>`;
   }
-  function getHTML_frame(arguments){
-    var frame_type = arguments[0];
-    var frame_title = arguments[1];
-    var frame_content = getFrameContent(arguments.slice(2));
+  static getHTML_frame(parameters){
+    var frame_type = parameters[0];
+    var frame_title = parameters[1];
+    var frame_content = getFrameContent(parameters.slice(2));
     return `<iconFrame class="${frame_type}">
               <span class="frameTitle">${frame_title}</span>
               <span class="frameContent">${frame_content}</span>
             </iconFrame>`;
-    function getFrameContent(arguments){
-      var content_type = arguments[0];
-      var content_data = arguments[1] || null;
+
+    function getFrameContent(parameters){
+      var content_type = parameters[0];
+      var content_data = parameters[1] || null;
       var isDice = false;
 
       // handle dice
@@ -116,14 +120,13 @@ function parseIcon(){
     }
   }
 
-
   //====================
-  function getSizeClass(size){
+  static getSizeClass(size){
     if(size=="s") return "small";
     if(size=="l") return "large";
     return "";
   }
-  function getTooltipsText(effect){
+  static getTooltipsText(effect){
     switch(effect){
       case "basicHeal": return "基礎治癒";
       case "compHeal":  return "強效治癒";
@@ -150,6 +153,57 @@ function parseIcon(){
         return "";
     }
   }
+}
+
+
+
+var MoveList;
+class MoveParser{
+
+  static parsePage(){
+    var MoveListPanel = document.getElementById("MoveList");
+    if(!MoveListPanel) return;
+
+    
+
+    var self = this;
+    var HtmlMoveList = MoveList.map( obj => self.getMoveHTML(obj) );
+    MoveListPanel.innerHTML = HtmlMoveList.join("");
+  }
+
+
+  static getMoveHTML( moveObj ){
+    var moveEffect = moveObj.effect? `<div class="Additional">${moveObj.effect}</div>`: "";
+    var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
+    var moveIconArr =moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
+
+    return `<div class="Move ${moveObj.type}">
+              <div class="MoveHeader">
+                <div class="title">${moveObj.name}</div>
+                <div class="power">${moveObj.power}</div>
+                <div class="type"><tag class="moveType ${moveObj.category}"></tag></div>
+              </div>
+              <div class="MoveIconBar">${moveIconArr.join("")}</div>
+              <div class="MoveContent">
+                <div class="Type">${moveObj.type}</div>
+                <div class="Accuracy">${moveObj.accuracy}</div>
+                <div class="Damage">${moveObj.damage}</div>
+                ${ moveEffect }
+              </div>
+              ${ moveDescription }
+            </div>`;
+
+  }
+
+
 
 }
-window.addEventListener("load", parseIcon);
+
+
+if(!!MoveList){
+  window.addEventListener("load", () => { MoveParser.parsePage(); });
+}
+//=================
+// Global settings
+window.addEventListener("load", () => { IconParser.parsePage(); });
+

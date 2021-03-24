@@ -1,43 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/</link><description>Recent content in 寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-battle/index.xml" rel="self" type="application/rss+xml"/><item><title>不同的寶可夢屬性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid><description>不同的寶可夢屬性 世界上充斥著各種寶可夢能夠控制的不同能量。牠們能夠吸收這些能量成為身體的一部分，或者是將其形塑成強大的攻擊。
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</title>
+    <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/</link>
+    <description>Recent content in 寶可夢戰鬥 on 寶可夢扮演2.0 Pokerole</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zhtw</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-battle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>不同的寶可夢屬性</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid>
+        <description>不同的寶可夢屬性 世界上充斥著各種寶可夢能夠控制的不同能量。牠們能夠吸收這些能量成為身體的一部分，或者是將其形塑成強大的攻擊。
 那些特別擅長使用某種能量的寶可夢，被貼上我們稱之為「屬性」的標籤。
 截至目前，已經有18 種寶可夢屬性被發現。
-一般
-並不特別擅長控制其他能量的寶可夢。
-蟲
-從群體意識中獲得力量的類昆蟲生物。
-惡
-控制著負面情緒的力量，並以做出卑鄙行為而聞名的寶可夢。
-龍
-動用內心憤怒來摧毀一切擋在牠們面前事物的傳說生物。
-電
-牠們能控制電流。牠們透過閃電與雷霆來進食或補充能量。
-妖精
-難捉摸又淘氣的寶可夢，能給看到牠們的人帶來歡笑與淚水。
-格鬥
-這些寶可夢學會了如何將自身化為武器。有些則能讓自己的能量實體化以進行攻擊。
-火
-能夠抵禦高熱的寶可夢，牠們能產生並形塑火焰來燃燒一切牠們身後的事物。
-飛行
-牠們能控制強風氣流，是天空的主人。地面上的生物甚至無法輕易觸及到牠們。
-幽靈
-來自冥界的生物。牠們潛伏在暗影之中，捕食活物的生命能量。
-草
-有著植物般外表的寶可夢。牠們以陽光為食。有些長著花朵、有些則生有荊棘。
-地面
-這些寶可夢生活在地面之下。牠們能夠控制大地的振動以及其所有其他特性。
-冰
-冰與雪霜結成牠們的身體。牠們能抵抗並創造出冰川般的酷寒低溫。
-毒
-這些生物身上帶有劇毒。牠們所到之處都將帶來疾病與瘟疫。
-超能力
-牠們依靠精神能量來使用念力。牠們是這個星球上最聰明的生物之一。
-岩石
-牠們的身體本身就是保護牠們的盔甲，牠們能夠製造岩崩來將牠們的敵人輾壓在下。
-鋼
-冰冷的鋼甲包覆著牠們的身體。牠們的行為舉止就如同活體機器，冷酷且無情。
-水
-能夠在水中呼吸的水中生物，牠們能夠呼喚降雨，噴射出強力的激流。
-每一種屬性都能夠發揮運用不同種類的力量。有些寶可夢操控不只一種，而是二種屬性的能量，並因此獲得第二屬性帶來的抗性與弱點。</description></item><item><title>如何戰鬥</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</guid><description>如何戰鬥 多虧了能讓寶可夢免於嚴重傷害的神奇治療藥水和免費醫療照護設施，寶可夢對戰是這個世界最主要的運動競賽。
+一般 並不特別擅長控制其他能量的寶可夢。 蟲 從群體意識中獲得力量的類昆蟲生物。 惡 控制著負面情緒的力量，並以做出卑鄙行為而聞名的寶可夢。 龍 動用內心憤怒來摧毀一切擋在牠們面前事物的傳說生物。 電 牠們能控制電流。牠們透過閃電與雷霆來進食或補充能量。 妖精 難捉摸又淘氣的寶可夢，能給看到牠們的人帶來歡笑與淚水。 格鬥 這些寶可夢學會了如何將自身化為武器。有些則能讓自己的能量實體化以進行攻擊。 火 能夠抵禦高熱的寶可夢，牠們能產生並形塑火焰來燃燒一切牠們身後的事物。 飛行 牠們能控制強風氣流，是天空的主人。地面上的生物甚至無法輕易觸及到牠們。 幽靈 來自冥界的生物。牠們潛伏在暗影之中，捕食活物的生命能量。 草 有著植物般外表的寶可夢。牠們以陽光為食。有些長著花朵、有些則生有荊棘。 地面 這些寶可夢生活在地面之下。牠們能夠控制大地的振動以及其所有其他特性。 冰 冰與雪霜結成牠們的身體。牠們能抵抗並創造出冰川般的酷寒低溫。 毒 這些生物身上帶有劇毒。牠們所到之處都將帶來疾病與瘟疫。 超能力 牠們依靠精神能量來使用念力。牠們是這個星球上最聰明的生物之一。岩石 牠們的身體本身就是保護牠們的盔甲，牠們能夠製造岩崩來將牠們的敵人輾壓在下。 鋼 冰冷的鋼甲包覆著牠們的身體。牠們的行為舉止就如同活體機器，冷酷且無情。 水 能夠在水中呼吸的水中生物，牠們能夠呼喚降雨，噴射出強力的激流。 每一種屬性都能夠發揮運用不同種類的力量。有些寶可夢操控不只一種，而是二種屬性的能量，並因此獲得第二屬性帶來的抗性與弱點。</description>
+      </item>
+      
+      <item>
+        <title>如何戰鬥</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/</guid>
+        <description>如何戰鬥 多虧了能讓寶可夢免於嚴重傷害的神奇治療藥水和免費醫療照護設施，寶可夢對戰是這個世界最主要的運動競賽。
 寶可夢聯盟也盡其所能在正式對戰中保障牠們的安全。戰鬥是你的選擇，但也要記住為什麼你的寶可夢會這麼做。
 寶可夢的戰鬥被分成了四個簡單的階段：
 先攻 在這個階段中，我們會決定大家進攻的順序：決定誰先行動，誰排在之後。
@@ -49,23 +43,26 @@
 戰鬥輪結束 一旦所有的寶可夢都做完了牠們各自的行動，且所有一切都處理完畢之後，該回合結束。
 在這個階段，訓練家將獲得進行一個動作的機會。
 有些招式或異常狀態會在戰鬥中的這個階段發揮效果。
-戰鬥的步驟 步驟 1: 決定先攻 「皮卡丘，就決定是你了！」
-骰 1 顆骰子，然後把擲骰結果加上你的先攻值。
-你的先攻值等於：
-靈巧 + 警覺
-由擲骰總值越高的角色越先動作，總值次高的接續在後，以此類推。
-步驟 2: 使用招式 「皮卡丘，使用十萬伏特！」
-擲骰進行招式的命中判定。
-在你寶可夢的回合期間，你可以命令牠使用一個招式。
+戰鬥的步驟 步驟 1: 決定先攻 「皮卡丘，就決定是你了！」骰 1 顆骰子，然後把擲骰結果加上你的先攻值。你的先攻值等於：
+靈巧 + 警覺由擲骰總值越高的角色越先動作，總值次高的接續在後，以此類推。
+步驟 2: 使用招式 「皮卡丘，使用十萬伏特！」擲骰進行招式的命中判定。在你寶可夢的回合期間，你可以命令牠使用一個招式。
 一旦你選好要使用的招式，擲骰進行命中判定來決定招式是否命中。
 每個招式都有它各自需要進行的命中檢定。
-步驟 2.5: 閃避/對抗 (可選) 「伊布，別讓牠打中你！」
-敵人可以會嘗試躲開或反擊。
+步驟 2.5: 閃避/對抗 (可選) 「伊布，別讓牠打中你！」敵人可以會嘗試躲開或反擊。
 敵人骰 靈巧 + 閃避 如果敵人骰出與你相同或更多的成功骰數，則他成功迴避該攻擊，不會承受任何傷害或效果。
 或者
 敵人骰 力量/特殊 + 對抗 如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
 進行對抗時，雙方受到的傷害仍會把弱點和抗性的影響納入計算。
-閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
+ 閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。  步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description>
+      </item>
+      
+      <item>
+        <title>傷害</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid>
+        <description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
 在受到傷害後，訓練家和寶可夢每經過 8 小時就可以回復 1 點HP。
 如果你需要長時間戰鬥，那麼你必須要盡可能減少寶可夢所受到的傷害。否則你們將會承受相應的後果。
 暈厥 承受等同或多於你總HP的傷害會使你陷入暈厥。
@@ -83,53 +80,56 @@
 帶有以下這個標記的招式將會直接造成致命傷害，除非寶可夢手下留情：
 {@icon effect|l|lethal}
 保持安全 如果你受到了等於或高於你總HP的致命傷害，你的角色將會因此死亡。為了避免這種情況發生，請採取下列措施來確保你和你的寶可夢安全。
-不要在使用治療道具上節省。
+  不要在使用治療道具上節省。
 傷藥也許很昂貴，但你寶可夢夥伴的性命是無價的。
-讓你的寶可夢學習治癒招式。
+  讓你的寶可夢學習治癒招式。
 如果你的寶可夢能學會可以回復一些生命值的招式，那麼也許你應該讓牠優先學會這種招式，而不是傷害招式。
-學習醫藥技能。
+  學習醫藥技能。
 藥水總是有用完的時候。
 在團隊中擁有一個知道如何利用樹果和草藥製作成藥物的訓練家，可以在危急時成為你的救命恩人！
-閃避攻擊並尋找掩護。
+  閃避攻擊並尋找掩護。
 寶可夢對戰的時候總會有火焰及能量光束四處亂飛，尋找安全的地方讓你的訓練家可以不會受到傷害。
-如果某個寶可夢或訓練家將要死亡，請讓死亡變得有意義。沒有任何犧牲是徒勞的。
-沒有任何角色是免洗可拋的。
-疼痛懲罰 當你的身體負傷時，你會感到疼痛。當你或你的寶可夢受到傷害時，你們的動作和整體表現也都會因為傷口帶來的痛楚而被影響。
+   如果某個寶可夢或訓練家將要死亡，請讓死亡變得有意義。沒有任何犧牲是徒勞的。
+沒有任何角色是免洗可拋的。 疼痛懲罰 當你的身體負傷時，你會感到疼痛。當你或你的寶可夢受到傷害時，你們的動作和整體表現也都會因為傷口帶來的痛楚而被影響。
 這正是我們所謂的「疼痛懲罰」。
 根據你角色受傷的程度，你所嘗試進行的每個行動的擲骰都將扣除相應數量的成功骰數。 要衡量角色承受的痛苦程度，你必須將該角色的總HP納入考量，並參照以下表格：
-HP狀態
-疼痛懲罰
-身體狀態
-HP全滿
-無
-沒有任何痛苦或不適。
-HP低於一半</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>多重行動 (可選) 你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。
+HP狀態疼痛懲罰身體狀態HP全滿無沒有任何痛苦或不適。HP低於一半</description>
+      </item>
+      
+      <item>
+        <title>多重行動 (可選)</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid>
+        <description>多重行動 (可選) 你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。
 多重行動大部分會用在戰鬥中；你可以同時攻擊、閃避、和支援你的同伴，但多重行動的用途並不僅限於戰鬥。
 也許你想要在一邊讀書的同時駕駛車輛、或者也許你想要在一邊閃避種子機關槍的同時一邊接球、並狠踹你的對手。我並不會說一切都有可能，但至少你可以試試看！
 最壞的情況是：你可能會死。
 要進行多重行動，你要做的就只是：
 使用相應骰池，如常為你的行動擲骰。 然而，第一個行動以後的每一個行動，都會需要一個額外的成功骰。
-多重行動所需成功骰數
-第一個行動 1
-第二個行動 2
-第三個行動 3
-第四個行動 4
-第五個行動 5
-疼痛懲罰、低命中、和其他懲罰都可能扣除你擲骰結果中的成功骰。
+多重行動所需成功骰數 第一個行動 1 第二個行動 2 第三個行動 3 第四個行動 4 第五個行動 5 疼痛懲罰、低命中、和其他懲罰都可能扣除你擲骰結果中的成功骰。
 你每個戰鬥輪都可以執行最多 5 個多重行動，且它會隨著你不斷逼近你技藝的極限而變得越來越困難，如果你的技藝不夠熟練，那麼你就可能遭受大失敗的風險。
-當寶可夢自行採取行動時，牠們通常不會進行多於一個或二個行動，即使牠們有能力做到更多也一樣。
-你只有在所有人的回合都輪過一次後，才可以接著進行第二個行動。唯一的例外是閃避/對抗、以及連續行動。
+當寶可夢自行採取行動時，牠們通常不會進行多於一個或二個行動，即使牠們有能力做到更多也一樣。 你只有在所有人的回合都輪過一次後，才可以接著進行第二個行動。唯一的例外是閃避/對抗、以及連續行動。
 若你進行了許多的行動，就代表著你的每一個行動都相當迅速，用令人印象深刻的方式奔跑、跳躍、閃躲、和發動攻擊。
 以下這個例子說明在精通了多重行動之後你能做到多少事情：
 洽吉想要騎上一頭野生的肯泰羅，並同時傳訊通知大木博士關於牠的情報。他騎上了這隻寶可夢的背，並發現這頭野生的肯泰羅並不怎麼喜歡被騎乘。突然間，一枝箭矢劃破空氣朝著他飛來。由於恰吉是個科學人，他認為傳訊給大木博士這件事更為重要，但他也很重視自己的小命，因此他打算要同時完成上述所有一切。
 恰吉的各項數值如下：
-靈巧 ●●●●○ 聰明 ●●●○○
-閃避 ●●●○○ 運動 ●●○○○ 科學 ●●●●○ 恰吉決定他想要同時執行這 3 個行動。首先，恰吉打算先試著留在肯泰羅背上，避免被甩下來：
+ 靈巧 ●●●●○ 聰明 ●●●○○   閃避 ●●●○○ 運動 ●●○○○ 科學 ●●●●○  恰吉決定他想要同時執行這 3 個行動。首先，恰吉打算先試著留在肯泰羅背上，避免被甩下來：
 恰吉的第一個行動
 {@icon dice|m|4} 恰吉的靈巧
 + {@icon dice|m|2} 恰吉的運動
 = {@icon dice|m|6} 恰吉的第一個行動骰池
-擲骰結果: (需要 1 個成功骰)</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
+擲骰結果: (需要 1 個成功骰)</description>
+      </item>
+      
+      <item>
+        <title>勝利策略</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid>
+        <description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
 只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
 沒錯，只要有傑出的策略就能挽回局面！
 在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。
@@ -141,32 +141,55 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 你每個戰鬥輪只能閃避一次攻擊，你只需要簡單的給出「避開他！」或是「躲開！」之類的指令即可。
 你的寶可夢會理解到危險正在向牠襲來，並會以最快的速度做出反應。
 閃避行動可以無視先攻順序而被觸發，且會需要你花費一個行動。你只需要擲骰使用：
-靈巧 + 閃避
-如果你骰出了跟你敵人相同或更多的成功骰數，則你成功迴避該攻擊。
+靈巧 + 閃避如果你骰出了跟你敵人相同或更多的成功骰數，則你成功迴避該攻擊。
 閃避會被視作一次行動，因此，若你需要在該戰鬥輪再採取其他行動的話，你將會因為進行多重行動而需要額外的成功骰。
 你在每個戰鬥輪中只能閃避一次。
-⬛ 攻擊對抗 有些寶可夢並沒有敏捷到能夠持續閃躲，但牠們可以依賴牠們純粹的招式力量來抵禦敵人的攻擊，我們稱之為「對抗」。
+ ⬛ 攻擊對抗 有些寶可夢並沒有敏捷到能夠持續閃躲，但牠們可以依賴牠們純粹的招式力量來抵禦敵人的攻擊，我們稱之為「對抗」。
 每個戰鬥輪一次，當其中一個對手進行其命中判定時，你可以命令你的寶可夢使用牠們自己的傷害招式（例如：十萬伏特、水槍、近身戰）來嘗試偏折掉大部分的傷害。只要簡單的骰：
-力量/特殊 + 對抗
-如果你骰出了跟你敵人相同或更多的成功骰數，則你成功對抗該攻擊，且你的敵人和你的寶可夢都會改為承受 1 點傷害，而非招式原本的傷害。
+力量/特殊 + 對抗如果你骰出了跟你敵人相同或更多的成功骰數，則你成功對抗該攻擊，且你的敵人和你的寶可夢都會改為承受 1 點傷害，而非招式原本的傷害。
 對抗會被視作一次行動，因此，若你需要在該戰鬥輪再採取其他行動的話，你將會因為進行多重行動而需要額外的成功骰。
 所有因為對抗而受到的傷害也都會被 效果絕佳 和 效果不好 的規則影響。
 儘管對抗在減輕傷害的效果上並不如閃避那樣有效，但這對於速度較慢卻更強韌的寶可夢們而言仍是個不錯的選項。
 你在每個戰鬥輪中只能對抗一次。
-一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！
-輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。
-⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
-身體遮蓋率 對遠程攻擊的額外 防禦/特防 加成
-1/4 +1
-1/2 +2
-全 掩體將會被摧毀
-根據說書人的裁斷，你可能有辦法藉此躲過全部的傷害。但掩體可能會在承受幾次攻擊之後被摧毀。
+ 一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！ 輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。 ⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
+身體遮蓋率 對遠程攻擊的額外 防禦/特防 加成1/4 +1 1/2 +2 全 掩體將會被摧毀 根據說書人的裁斷，你可能有辦法藉此躲過全部的傷害。但掩體可能會在承受幾次攻擊之後被摧毀。
 你可以使用「掩護隊友」的戰術動作，利用你的身體來做為小體型寶可夢的掩護。
-或者，你也可以讓其他大體型的寶可夢使用這個戰術動作來掩護你自己！
-⬛ 屬性一致加成 (STAB) 所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。</description></item><item><title>天氣狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
+或者，你也可以讓其他大體型的寶可夢使用這個戰術動作來掩護你自己！ ⬛ 屬性一致加成 (STAB) 所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。</description>
+      </item>
+      
+      <item>
+        <title>天氣狀態</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid>
+        <description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
 Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.
-This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description></item><item><title>異常狀態</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid><description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
+This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description>
+      </item>
+      
+      <item>
+        <title>異常狀態</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid>
+        <description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
 They may be painful or disruptive effects such as burning, or paralyzing.
-Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
+Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description>
+      </item>
+      
+      <item>
+        <title>總結</title>
+        <link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid>
+        <description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
 2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
-3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description></item></channel></rss>
+3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description>
+      </item>
+      
+    
+  </channel>
+</rss>

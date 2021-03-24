@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://hazmole.github.io/PokeRole/en/zhtw/</loc></url><url><loc>https://hazmole.github.io/PokeRole/en/</loc><xhtml:link rel="alternate" hreflang="zhtw" href="https://hazmole.github.io/PokeRole/"/><xhtml:link rel="alternate" hreflang="en" href="https://hazmole.github.io/PokeRole/en/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://hazmole.github.io/PokeRole/en/zhtw/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hazmole.github.io/PokeRole/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zhtw"
+                href="https://hazmole.github.io/PokeRole/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hazmole.github.io/PokeRole/en/"
+                />
+  </url>
+  
+</urlset>
