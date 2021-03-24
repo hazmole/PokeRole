@@ -129,9 +129,10 @@ Lax is an inconstant nature, those under it will do things whenever they feel li
 Is not that they are lazy, they just don’t see the need to waste energy on stuff that’s not important for them yet. Since they don’t care to fill anyone’s expectations they rarely stress out about social norms, but they'll need a reason to keep motivated and an even better reason to be pro-active instead of indifferent.
 {{< /nature >}}
 
-{{< nature "寂寞" 5 "獨立、內省、孤獨" >}}
+{{< nature "孤僻" 5 "獨立、內省、孤獨" >}}
 They like to keep their distance and do everything on their own. They often feel it’s up to them and nobody else to get things done and will take the burden of a responsibility that should be shared.
 Interacting with others is like a chore for them but being isolate also makes them feel misunderstood. They are hard to get close to but they can be trusted to do their best even if there's no one to guide them.
+<div style="font-size:.7em; text-align: right;">*這個性格的原文為 さみしがり(中譯: 怕寂寞)，這邊取英譯 Lonely 的解釋</div>
 {{< /nature >}}
 
 {{< nature "慢吞吞" 8 "溫順、寧靜、令人舒適" >}}
@@ -163,6 +164,7 @@ They often take a passive stance over the circumstances around them. Strong thou
 {{< nature "古怪" 9 "奇特的、能接受新思想、獨創的" >}}
 You can’t really understand how their mind works. Those who have a Quirky nature will usually see the world in a unique way that only they seem to comprehend. 
 The way they act will be peculiar and often attract puzzled looks, they know they are oddballs and are fine with it, but they might get stressed by the strangest of things. The way they see the world is so unique that they accept new things easily.
+<div style="font-size:.7em; text-align: right;">*這個性格的原文為 きまぐれ(中譯: 浮躁)，這邊取英譯 Quirky 的解釋</div>
 {{< /nature >}}
 
 {{< nature "馬虎" 6 "魯莽、粗俗、蠻勇" >}}
@@ -170,14 +172,15 @@ They are reckless, and exposing themselves to danger is their idea of fun. Blunt
 {{< /nature >}}
 
 {{< nature "悠閒" 8 "無憂無慮、深思的、漠不關心" >}}
-The problems of the world are not their problems. 
-A Relaxed nature will allow its bearer to take it easy and never lose their cool. They will never stress over trivial matters and won’t instigate trouble. 
-Should disputes arise, they will invite others to calm down through breathing and meditation, they go with the flow, never against it. Some may call them carefree, they will call themselves enlightened.
+這個世界上發生的問題都不是他們的問題。
+悠閒的性格能讓他們從容不迫，永遠不失冷靜。他們從來不會因為繁瑣小事而感到壓力，也不會主動挑起事端。
+如果發生了糾紛，他們會透過深呼吸和冥想來讓彼此冷靜下來，他們會順其自然，逆來順受。有人可能會說他們無憂無慮，但他們會說自己是開明的。
 {{< /nature >}}
 
 {{< nature "自大" 7 "活潑、失禮、嘮叨" >}}
-They have an attitude, and those who take themselves too seriously may dislike it, but the Sassy natured are simply not afraid to voice their honest opinion and will always find ways to speak their mind and it's always brutally honest, so be ready for some burns.
-There are no middle grounds with them, they either love or hate something so they can be infuriatingly difficult or surprisingly easy to deal with, that is part of their charm.
+他們有一種態度，而那些太嚴肅的人們可能不會喜歡這種態度。自大性格的人不會害怕說出自己真實的意見，並總是會找到方法說出他們誠實而殘酷的心聲，所以準備好被他們刺傷吧。
+對他們而言並沒有所謂中間地帶，他們對某些事物要嘛愛，要嘛恨。因此他們可能令人氣憤地難以相處，也可能出奇地容易對付。而這也正是他們的魅力所在。
+
 {{< /nature >}}
 
 {{< nature "認真" 4 "堅定、死板、忠誠的" >}}

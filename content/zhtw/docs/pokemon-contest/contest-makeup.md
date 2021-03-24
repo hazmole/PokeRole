@@ -3,7 +3,7 @@ title = "華麗大賽的構成"
 weight = 2
 description = ""
 +++
-## Contest Makeup
+## 華麗大賽的構成
 Let's go over the parts of the Contest and what do you need to host one.
 
 ##### The Board

@@ -4,58 +4,59 @@ weight = 20
 description = ""
 +++
 
-# Conclusion
+# 總結
 
 {{< boxmd >}}
-## 10 Tips for Successful Battles
+## 邁向成功戰鬥的 10 個訣竅
 
-##### 1. Train Your Pokémon.
-Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
+##### 1. 訓練你的寶可夢
+透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
 
-##### 2. Use your advantages.
-Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
+##### 2. 發揮你的優勢
+除了屬性優勢之外，也要考慮你的寶可夢擅長什麼，並思考如何運用這些優勢來幫助自己占上風。
 
-##### 3. Use or create weaknesses.
-If the foe is too strong or fast, what will you use to counter it? Perhaps the foe is using  a move with low Accuracy that can be evaded, and an attribute reduction will surely hinder its performance.
+##### 3. 利用或創造弱點
+如果敵人太過強壯或快速，你會用什麼來反擊？也許敵人使用了一個低命中率的招式可以讓你加以閃避，而善用能降低敵人特質的特性也肯定能夠妨礙對手的表現。
 
-##### 4. Know your moves
-Learn the Power, Accuracy and effects of the moves  you’ll  be  using  regularly  to  get  the most out of them. 
+##### 4. 瞭解你的招式
+瞭解你經常使用的招式的威力、命中、與效果，能讓你更容易將其發揮到最大化。
 
-##### 5. Evade, Clash and Cover
-Unless you are sure you’ll withstand the hit, evade, clash or take cover from attacks. Keep your damage intake per round as low as  possible.
+##### 5. 閃避、對抗、與掩護
+除非你確定你可以承受住打擊，否則盡可能閃避、對抗、或者尋找掩護，讓受到的傷害保持在最低限度。
 
-##### 6. Use Multiple Actions.
-Mastering multiple actions is a key to master Pokémon Battles. Bit by bit they help you gain an edge, increase your dice pools and get the most of them.
+##### 6. 善用多重行動
+掌握多重行動是掌握寶可夢戰鬥的關鍵。一點一點地，它們江幫助你獲得優勢，增加你的骰池大小來充分發揮它的效用吧。
 
-##### 7. Adapt to your opponent’s strategy.
-If you keep doing the same you’ll keep getting the same result. If something isn’t working,  change your tactic or you'll lose.
+##### 7. 適應對手的策略
+如果你一直採取同樣的行動，那麼你就只會一直得到同樣的結果。如果有些狀況行不通，那就改變你的策略，否則你將會失敗。
 
-##### 8. Strike at the right time.
-Be  patient,  keep  your  cards  in  your  hand. 
-Don’t strike too early and risk to reveal them, don’t strike too late and miss your chance to do what you wanted.
+##### 8. 在適當的時機出擊
+耐心點，把你的王牌握在手中。
+不要過早出擊以免暴露它們，也不要太晚行動以至於錯過執行它們的機會。
 
-##### 9. Be decisive
-Don’t  make  the  battle  drag  on  forever  by taking too much time to decide what action you’ll take.
+##### 9. 果決果斷
+不要花太多時間決定你該使用什麼行動，而讓這場戰鬥永遠拖延下去。
 
-##### 10.  Keep Trying.
-You and your Pokémon are a team, together you share victory and you share defeat. 
-The road to success is built around failures.
-Don’t lose heart, and keep trying!
+##### 10. 持續嘗試
+你和你的寶可夢是一個團隊，你們共同分享著勝利和敗北。
+邁向成功的道路總是建立在失敗之上。
+不要灰心，持續嘗試！
 {{< /boxmd >}}
 
-As you can see, Pokémon battles are quite an exciting yet dangerous event.
-Don’t be disheartened if you lose a battle. Defeat is part of the road to success. Take one step at a time.
 
-As a trainer, you’ll need to understand just how much you can ask from your Pokémon, and they will need your guidance to push their limits.
-The  secret  to  achieving  a  victory  every  time  will  be  finding the right time to make your strikes. 
+如你所見，寶可夢對戰是個相當刺激也相當危險的活動。
+就算你在對戰中敗北也不用灰心。失敗是通往成功之路的其中一部分，一步一步來。
 
-There  will  be  occasions  in  which  you  will  need  to  endure a hit or two and you’ll have to choose which hits your  Pokémon  definitely  needs  to  evade;  other  times you’ll have to risk everything in a single all-or-nothing attack. 
-And when things can’t get any worse, you may need to spend some Will points and let fate decide.
+做為訓練家，你會需要瞭解你能要求你的寶可夢做到多少事情，牠們也需要你的指導來挑戰牠們自己的極限。
 
-It is a long way for a trainer to master all of the battle strategies, but having your friends beside you will make it a lot easier if you all learn from each other. 
+百戰百勝的秘訣在於找到正確的時機出擊。
+有時候你會需要承受一兩次攻擊，你得決定哪些攻擊是你的寶可夢勢必得迴避的；而其他時候，你會需要冒險進行一個孤注一擲的攻擊。
+而當情況無法再變得更糟時，你可能會需要花費一些意志點，並讓命運來決定你的下場。
 
-In any case, you’ll learn a lot more from experience, so go out there and live your own Pokémon battles!
+對於訓練家而言，精通所有戰鬥策略的過程將會是一條漫漫長路，但如果能有朋友的陪伴，彼此學習相長，將會使這個過程容易許多。
+
+無論如何，你將會從經驗中學習到更多的事物，所以立刻出發，體驗屬於你自己的寶可夢戰鬥吧！
 
 {{< mynotice story >}}
-Keep  the  fights  interesting  by  detailing  the  progression  of  the battle. Describe their actions and their effects, not only the damage spoints they take.
+透過詳細敘述戰鬥的過程來保持戰鬥的趣味性。描述他們的行動以及行動帶來的影響，而不是僅僅是念出他們受到的傷害數值。
 {{< /mynotice >}}
