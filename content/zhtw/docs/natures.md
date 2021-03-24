@@ -99,8 +99,8 @@ description = "羅列各性格的說明和對應數值"
 {{< /nature >}}
 
 {{< nature "溫順" 10 "優雅、有魅力、外向的" >}}
-A Gentle personality reflects on graceful conversations and pleasant social interactions. They enjoy doing things with care and refinement, and others come to them simply to revel in their sophisticated presence. 
-They enjoy luxuries but can be quite demanding with their tastes. These natural socialites were born to be in the spotlight and they don't like to share it.
+溫順性格體現於優雅的談話與愉快的社交互動上。他們喜歡細心且細緻地做事，且有些人來找他們也只是為了能沉醉在他們表現出的高雅儀態當中。
+他們享受奢華，但對自己品味地要求也很高。這些天生的交際能手可以說是生來就為了成為鎂光燈的焦點，且他們不喜歡把這個焦點與他人分享。
 {{< /nature >}}
 
 {{< nature "勤奮" 9 "可靠、適應性強、足智多謀" >}}
@@ -129,9 +129,10 @@ Lax is an inconstant nature, those under it will do things whenever they feel li
 Is not that they are lazy, they just don’t see the need to waste energy on stuff that’s not important for them yet. Since they don’t care to fill anyone’s expectations they rarely stress out about social norms, but they'll need a reason to keep motivated and an even better reason to be pro-active instead of indifferent.
 {{< /nature >}}
 
-{{< nature "寂寞" 5 "獨立、內省、孤獨" >}}
+{{< nature "孤僻" 5 "獨立、內省、孤獨" >}}
 They like to keep their distance and do everything on their own. They often feel it’s up to them and nobody else to get things done and will take the burden of a responsibility that should be shared.
 Interacting with others is like a chore for them but being isolate also makes them feel misunderstood. They are hard to get close to but they can be trusted to do their best even if there's no one to guide them.
+<div style="font-size:.7em; text-align: right;">*這個性格的原文為 さみしがり(中譯: 怕寂寞)，這邊取英譯 Lonely 的解釋</div>
 {{< /nature >}}
 
 {{< nature "慢吞吞" 8 "溫順、寧靜、令人舒適" >}}
@@ -163,6 +164,7 @@ They often take a passive stance over the circumstances around them. Strong thou
 {{< nature "古怪" 9 "奇特的、能接受新思想、獨創的" >}}
 You can’t really understand how their mind works. Those who have a Quirky nature will usually see the world in a unique way that only they seem to comprehend. 
 The way they act will be peculiar and often attract puzzled looks, they know they are oddballs and are fine with it, but they might get stressed by the strangest of things. The way they see the world is so unique that they accept new things easily.
+<div style="font-size:.7em; text-align: right;">*這個性格的原文為 きまぐれ(中譯: 浮躁)，這邊取英譯 Quirky 的解釋</div>
 {{< /nature >}}
 
 {{< nature "馬虎" 6 "魯莽、粗俗、蠻勇" >}}
@@ -170,27 +172,24 @@ They are reckless, and exposing themselves to danger is their idea of fun. Blunt
 {{< /nature >}}
 
 {{< nature "悠閒" 8 "無憂無慮、深思的、漠不關心" >}}
-The problems of the world are not their problems. 
-A Relaxed nature will allow its bearer to take it easy and never lose their cool. They will never stress over trivial matters and won’t instigate trouble. 
-Should disputes arise, they will invite others to calm down through breathing and meditation, they go with the flow, never against it. Some may call them carefree, they will call themselves enlightened.
+這個世界上發生的問題都不是他們的問題。
+悠閒的性格能讓他們從容不迫，永遠不失冷靜。他們從來不會因為繁瑣小事而感到壓力，也不會主動挑起事端。
+如果發生了糾紛，他們會透過深呼吸和冥想來讓彼此冷靜下來，他們會順其自然，逆來順受。有人可能會說他們無憂無慮，但他們會說自己是開明的。
 {{< /nature >}}
 
 {{< nature "自大" 7 "活潑、失禮、嘮叨" >}}
-They have an attitude, and those who take themselves too seriously may dislike it, but the Sassy natured are simply not afraid to voice their honest opinion and will always find ways to speak their mind and it's always brutally honest, so be ready for some burns.
-There are no middle grounds with them, they either love or hate something so they can be infuriatingly difficult or surprisingly easy to deal with, that is part of their charm.
+他們有一種態度，而那些太嚴肅的人們可能不會喜歡這種態度。自大性格的人不會害怕說出自己真實的意見，並總是會找到方法說出他們誠實而殘酷的心聲，所以準備好被他們刺傷吧。
+對他們而言並沒有所謂中間地帶，他們對某些事物要嘛愛，要嘛恨。因此他們可能令人氣憤地難以相處，也可能出奇地容易對付。而這也正是他們的魅力所在。
+
 {{< /nature >}}
 
 {{< nature "認真" 4 "堅定、死板、忠誠的" >}}
-They have a big sense of responsibility and won’t appreciate when others don’t take things seriously. 
-Stress is a constant in their lives, if they have a duty to fulfill they will not stop until it’s finished, everything else is a useless distraction once they have a task. 
-They might need a hand since have a hard time relaxing but if you want things done well they are the ones to look for.
+他們有很強的責任感，且不怎麼欣賞別人不認真做事的行為。
+壓力是他們生活的常態，如果他們有得去實行的任務，那他們不完成它就不會罷休。一但他們有任務在身，任何事物都無法使其分心。他們可能會需要別人幫他們一把，因為他們自己很難好好放鬆。但如果你想把事情做好，那他們就是你要找的人。
 {{< /nature >}}
 
 {{< nature "膽小" 4 "害羞、憂慮、有意識" >}}
-They have built walls around themselves that make it hard for others to see what’s inside. 
-They just want to be accepted but tend to worry too much and be way too harsh on themselves.
-Their confidence is usually placed on a leader figure and this makes them eager to please but also terrified to fail. 
-They need to learn to trust in their own capabilities to reach their full potential.
+他們在自己周圍築起了一道高牆，讓他人難以看到他們的內心。他們只是希望被別人接納，但往往會因為擔心太多而太過苛責自己。他們通常會把自信寄託於領袖人物身上，這讓他們渴望取悅別人，但同時也害怕失敗。他們需要學會相信自己的能力，才有辦法充分發揮自己的潛能。
 {{< /nature >}}
 
 

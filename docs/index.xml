@@ -98,8 +98,9 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid>
-        <description>Pokemon Contest Pokémon Trainers usually make Pokémon Battles their main focus and it’s all right if you like that kind of crude and violent entertainment, but why would you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon Contests?
-What are Pokémon Contests? When you talk about Pokémon Contests, you talk about the most profitable show business in this world.</description>
+        <description>寶可夢華麗大賽 寶可夢訓練家們通常會把主要精力放在寶可夢對戰上，如果你喜歡這種粗魯暴力的娛樂方式，那也沒關係。但如果你能夠透過寶可夢華麗大賽過上奢侈富裕的生活，那為什麼還要像野獸一樣互毆呢？
+什麼是寶可夢華麗大賽？ When you talk about Pokémon Contests, you talk about the most profitable show business in this world. These major events take many forms, from Beauty Pageants, to Science Fairs, Staged Battles, Music Festivals, or most commonly, the All-in-one show for everyone to mesmerize at the talent and grace of Trainers and their Pokémon companions.
+They are pretty much like a talent show; You present yourself and your Pokémon before an Audience and the Judges to see if your presentation meets all the required criteria; if it does, you win!</description>
       </item>
       
       <item>
@@ -176,13 +177,13 @@ What are Pokémon Contests? When you talk about Pokémon Contests, you talk abou
       </item>
       
       <item>
-        <title>招式效果標籤</title>
+        <title>招式效果標記</title>
         <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid>
         <description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
-Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. Category Icon {@icon moveType|l|physical}PhysicalPhysical Moves are resisted with Defense. They are close range attacks.</description>
+Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. 分類圖示 {@icon moveType|l|physical}物理招式Physical Moves are resisted with Defense. They are close range attacks.</description>
       </item>
       
       <item>
@@ -249,7 +250,7 @@ Pay Attention to the Effects of your Moves. They will be the key for victory if 
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid>
-        <description>Contest Makeup Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
+        <description>華麗大賽的構成 Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
 The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description>
       </item>
@@ -278,7 +279,7 @@ These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and
 陷入暈厥狀態的角色會持續平均約 8 個小時。在這之後，他們的身體會自動回復 1 點HP，並讓角色重新恢復意識。
 道具「活力碎片」能讓你在數秒間的時間內從暈厥中恢復。一瓶尋常的「傷藥」能夠治療身體受到的傷害，並防止傷口加劇，但角色仍然會維持暈厥狀態。
 對寶可夢而言，暈厥是一個相當不好的體驗。如果你經常命令牠們持續戰鬥直到力盡昏厥，那麼牠們的幸福度與忠誠度將會因此下降，使你們之間的關係變得緊張。
-在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回寶貝球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
+在戰鬥中冒著讓訓練家暈厥過去的風險也相當不明智。假如寶可夢暈厥過去，你起碼還可以將其收回精靈球裡，保障牠的安全直到得以接受治療；但是一個陷入暈厥狀態的訓練家會需要其他人類的幫助才有辦法重新振作，因為你的寶可夢搭檔沒有辦法使用藥物。
 野生寶可夢通常會在訓練家暈厥過去且失去威脅性之後停下攻擊。但在完全無助的情況下待在戶外很有可能會危害到你角色的生命。
 致命傷害 (可選) 如果你或寶可夢在陷入暈厥的狀態下繼續受到傷害，那麼該傷害將會轉變成「致命傷害」。
 有些寶可夢有辦法學會能直接造成致命傷害的毀滅性的招式。
@@ -385,7 +386,7 @@ Once Presentation is done, each contestant will roll 1 die to advance the spaces
 所有因為對抗而受到的傷害也都會被 效果絕佳 和 效果不好 的規則影響。
 儘管對抗在減輕傷害的效果上並不如閃避那樣有效，但這對於速度較慢卻更強韌的寶可夢們而言仍是個不錯的選項。
 你在每個戰鬥輪中只能對抗一次。
- 一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！ 輔助招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。 ⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
+ 一旦你使用了某個招式來進行對抗，則你在同一個戰鬥輪中都不能再次使用它；你必須等到下一輪才能再使用該招式！ 變化招式、能夠無視防禦的招式、以及能夠造成固定傷害的招式都無法被對抗。 ⬛ 掩護 這個行動能夠協助你抵抗遠程攻擊造成的傷害，其程度取決於你身體被掩體覆蓋的程度。
 身體遮蓋率 對遠程攻擊的額外 防禦/特防 加成1/4 +1 1/2 +2 全 掩體將會被摧毀 根據說書人的裁斷，你可能有辦法藉此躲過全部的傷害。但掩體可能會在承受幾次攻擊之後被摧毀。
 你可以使用「掩護隊友」的戰術動作，利用你的身體來做為小體型寶可夢的掩護。
 或者，你也可以讓其他大體型的寶可夢使用這個戰術動作來掩護你自己！ ⬛ 屬性一致加成 (STAB) 所有寶可夢都能夠操控不同屬性的能量，但如果這些能量與牠們自己的屬性相同，那麼它們會自然地變得更強。</description>
@@ -503,9 +504,16 @@ Rules for Max Moves  Max Moves can only be used while a Pokémon is under the Ef
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid>
-        <description>Weather Conditions &amp;amp; Scenario Pokémon, their Moves, and Abilities can be enhanced or diminished by Weather Conditions. Sunlight, Rain, Snow, and Sandstorms are important factors in the habitat of many Pokémon.
-Remember that most of the fights will be located in the wild. From forests and jungles to volcanoes and tundras and even underground or underwater.
-This turns the battlegrounds into a shifting scenario, not just an empty arena. Daytime and location can affect your chances of victory.</description>
+        <description>天氣狀態 &amp;amp; 環境 寶可夢、牠們的招式、以及牠們與特性，這些都可能因為天氣狀態而被增強或是減弱。
+日照、降雨、飄雪、以及沙塵暴是許多寶可夢棲息地的重要環境因子。
+要記住，絕大部分的對戰都發生在野外。從森林和熱帶叢林，到火山地帶、苔原、甚至地底下或水中。
+這讓戰場變成了一個不斷變換局勢的場景，而不僅僅是個空蕩單調的對戰場地。時間與地點都會影響你取得勝利的機會。
+目前總共有七種主要的天氣狀態。
+{@icon weather|l|sun}大晴天在沙漠、平原及熱帶地區的典型天氣。{@icon weather|l|sun2}大日照只會在火山區域見到。{@icon weather|l|rain}下雨常見於雨林、湖邊、和沼澤地。{@icon weather|l|rain2}暴風雨 只會在海上或水中見到。{@icon weather|l|sand}沙暴 常見於乾旱地區和貧瘠地帶。 {@icon weather|l|wind}亂流 只會在極高的空中見到。{@icon weather|l|hail}冰雹 在寒冷與多雪地區周遭的典型天氣。有些寶可夢有辦法使用特殊的招式來召喚這些天氣狀態。也有些寶可夢據說擁有著不可思議的特性，能夠僅憑意志就讓天氣發生改變。
+你可以自行創造其他種類的天氣狀態和戰場情境，來使戰鬥變得更加艱困或更加容易，一切都取決於你對它們的適應能力。
+讓戰場局勢成為戰鬥中重要的一環。
+如果你允許他們自由與戰場環境互動，那它們將可能成為玩家們的盟友、也可能會變成玩家的敵人。 天氣狀態詳述 大晴天 明亮的陽光照耀著整個戰場。天氣炎熱，你感到又渴又累，光線刺痛著你的眼睛。
+ 所有火屬性招式的傷害骰池都獲得 1 顆額外的骰子。 所有水屬性招式的總傷害都會減少 1 點。 沒有人會受到「冰凍」狀態的影響。  大日照 殘酷的日照在戰場上產生了極度的高溫，地面上流淌著岩漿，有些東西甚至突然就開始熊熊燃燒。你可能會需要穿戴特殊的裝備才有辦法度過這種天氣。</description>
       </item>
       
       <item>
@@ -584,9 +592,27 @@ This turns the battlegrounds into a shifting scenario, not just an empty arena. 
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/</guid>
-        <description>Status Conditions There are conditions that change or impair the normal state of humans and Pokémon, they are called Status Conditions or Status Ailments.
-They may be painful or disruptive effects such as burning, or paralyzing.
-Some of these effects will disappear in a few minutes, but others can be so severe that will need urgent medical attention. There are Pokémon types immune to certain ailments, others are immune if the source is something they resist, but you should still keep some medicines and heal items with you at all times.</description>
+        <description>異常狀態 有些狀態會改變或妨害人類及寶可夢的正常狀態，它們被稱為「異常狀態」。
+它們可能會是疼痛不堪或顛覆性的效果，像是灼傷或麻痺狀態。
+這些效果有些會在幾分鐘之後就自行消退，但也有些可能嚴重到需要透過緊急藥物治療來處置。
+有些寶可夢屬性會免疫於某些特定的異常狀態，有些則會因為能抵禦狀態來源而免疫於該異常狀態；但無論如何，你都最好還是隨時帶著一些藥物和治療道具在身上。
+異常狀態有可能彼此互相疊加，這意味著你或你的寶可夢可能會同時陷入睡眠、中毒、和灼傷狀態。
+只有萬靈藥、全復藥、和木子果能夠同時治癒一個以上的異常狀態，如果你沒有任何上述這些物品，那麼你就得一個一個治癒這些異常狀態、或是用老方法來處置它們：停下、躺倒、翻滾（此為著火自救的口訣）。
+聯盟舉辦的正式比賽可能會限制你堆疊異常狀態。比如說，如果你對手的寶可夢已經陷入中毒或睡眠狀態，那麼聯盟職員可能會阻止你在繼續施加另外一個異常狀態，或者在你這麼做時懲處你。
+以下是這些異常狀態及其效果的列表：
+灼傷 1 級 某個相當炙熱的東西灼燒著你的肌膚，並開始起了水泡。{@icon frame|burn1|灼傷1}
+效果:每個戰鬥輪結束時造成 1 點傷害。火屬性寶可夢免疫這個狀態。
+抵抗:無法被抵抗。
+持續時間:使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 4 顆成功骰數。其他人可以在戰鬥以外的場合協助舒緩灼傷。
+灼傷 2 級 你身體的一部份著火了！{@icon frame|burn2|灼傷2}
+效果:每個戰鬥輪結束時造成 2 點致命傷害。火屬性寶可夢免疫這個狀態。
+抵抗:無法被抵抗。
+持續時間:使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 6 顆成功骰數。其他人可以在戰鬥以外的場合協助撲滅火焰。
+灼傷 3 級 你完全被火焰吞噬了！{@icon frame|burn3|灼傷3}
+效果:每個戰鬥輪結束時造成 3 點致命傷害。火屬性寶可夢免疫這個狀態。
+抵抗:無法被抵抗。
+持續時間:使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。其他人可以在戰鬥以外的場合協助撲滅火焰。
+麻痺 你的肌肉抽搐，讓你幾乎難以動彈！{@icon frame|paralysis|麻痺}</description>
       </item>
       
       <item>
@@ -745,9 +771,28 @@ At the beginning of a battle, you must inform your storyteller which Ability you
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid>
-        <description>Conclusion 10 Tips for Successful Battles 1. Train Your Pokémon. Through training you can try different builds of Attributes, Skills and Moves and find powerful combitations. If you want to be a strong Trainer you need strong Pokémon.
-2. Use your advantages. Not only Type advantages, consider what your Pokémon is good at and how you will exploit that in your favor.
-3. Use or create weaknesses. If the foe is too strong or fast, what will you use to counter it?</description>
+        <description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
+2. 發揮你的優勢 除了屬性優勢之外，也要考慮你的寶可夢擅長什麼，並思考如何運用這些優勢來幫助自己占上風。
+3. 利用或創造弱點 如果敵人太過強壯或快速，你會用什麼來反擊？也許敵人使用了一個低命中率的招式可以讓你加以閃避，而善用能降低敵人特質的特性也肯定能夠妨礙對手的表現。
+4. 瞭解你的招式 瞭解你經常使用的招式的威力、命中、與效果，能讓你更容易將其發揮到最大化。
+5. 閃避、對抗、與掩護 除非你確定你可以承受住打擊，否則盡可能閃避、對抗、或者尋找掩護，讓受到的傷害保持在最低限度。
+6. 善用多重行動 掌握多重行動是掌握寶可夢戰鬥的關鍵。一點一點地，它們江幫助你獲得優勢，增加你的骰池大小來充分發揮它的效用吧。
+7. 適應對手的策略 如果你一直採取同樣的行動，那麼你就只會一直得到同樣的結果。如果有些狀況行不通，那就改變你的策略，否則你將會失敗。
+8. 在適當的時機出擊 耐心點，把你的王牌握在手中。
+不要過早出擊以免暴露它們，也不要太晚行動以至於錯過執行它們的機會。
+9. 果決果斷 不要花太多時間決定你該使用什麼行動，而讓這場戰鬥永遠拖延下去。
+10. 持續嘗試 你和你的寶可夢是一個團隊，你們共同分享著勝利和敗北。
+邁向成功的道路總是建立在失敗之上。
+不要灰心，持續嘗試！
+ 如你所見，寶可夢對戰是個相當刺激也相當危險的活動。
+就算你在對戰中敗北也不用灰心。失敗是通往成功之路的其中一部分，一步一步來。
+做為訓練家，你會需要瞭解你能要求你的寶可夢做到多少事情，牠們也需要你的指導來挑戰牠們自己的極限。
+百戰百勝的秘訣在於找到正確的時機出擊。
+有時候你會需要承受一兩次攻擊，你得決定哪些攻擊是你的寶可夢勢必得迴避的；而其他時候，你會需要冒險進行一個孤注一擲的攻擊。
+而當情況無法再變得更糟時，你可能會需要花費一些意志點，並讓命運來決定你的下場。
+對於訓練家而言，精通所有戰鬥策略的過程將會是一條漫漫長路，但如果能有朋友的陪伴，彼此學習相長，將會使這個過程容易許多。
+無論如何，你將會從經驗中學習到更多的事物，所以立刻出發，體驗屬於你自己的寶可夢戰鬥吧！
+透過詳細敘述戰鬥的過程來保持戰鬥的趣味性。描述他們的行動以及行動帶來的影響，而不是僅僅是念出他們受到的傷害數值。 </description>
       </item>
       
     

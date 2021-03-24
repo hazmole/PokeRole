@@ -23,13 +23,13 @@
       </item>
       
       <item>
-        <title>招式效果標籤</title>
+        <title>招式效果標記</title>
         <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid>
         <description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
-Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. Category Icon {@icon moveType|l|physical}PhysicalPhysical Moves are resisted with Defense. They are close range attacks.</description>
+Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. 分類圖示 {@icon moveType|l|physical}物理招式Physical Moves are resisted with Defense. They are close range attacks.</description>
       </item>
       
       <item>

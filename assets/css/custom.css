@@ -115,7 +115,11 @@
 }
 .Frame p { margin-bottom: 1em; }
 .Frame p:last-child { margin-bottom: 0; }
-
+.Frame .description {
+    font-style: italic; font-size: .9em;
+    text-decoration: underline;
+    margin-bottom: 1em; margin-top: -1em;
+}
 
 /* Nature */
 .Nature {
@@ -138,10 +142,10 @@
     font-weight: bold;
     text-decoration: underline;
 }
-.Nature .description, .Frame .description {
-    font-style: italic;
+.Nature .description {
+    font-style: italic; font-size: .9em;
     text-decoration: underline;
-    margin-bottom: .5em;
+    margin-bottom: 1em; margin-top: 0em;
 }
 
 

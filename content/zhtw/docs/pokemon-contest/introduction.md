@@ -3,11 +3,11 @@ title = "華麗大賽介紹"
 weight = 1
 description = ""
 +++
-# Pokemon Contest
-Pokémon  Trainers  usually  make  Pokémon  Battles  their main  focus  and  it’s  all  right  if  you  like  that  kind  of crude  and  violent  entertainment,  but  why  would  you want to be exchanging blows like a brute when you can follow a lifestyle of luxury and riches thanks to Pokémon  Contests?
+# 寶可夢華麗大賽
+寶可夢訓練家們通常會把主要精力放在寶可夢對戰上，如果你喜歡這種粗魯暴力的娛樂方式，那也沒關係。但如果你能夠透過寶可夢華麗大賽過上奢侈富裕的生活，那為什麼還要像野獸一樣互毆呢？
 
 ---
-## What are Pokémon Contests?
+## 什麼是寶可夢華麗大賽？
 When you talk about **Pokémon Contests**, you talk about the most  profitable  show  business  in  this  world. These  major events take many forms, from **Beauty Pageants**, to **Science Fairs, Staged Battles, Music Festivals**, or most commonly, the All-in-one show for everyone to mesmerize at the talent and grace of Trainers and their Pokémon companions. 
 
 They  are  pretty  much  like  a  talent  show; You  present yourself and your Pokémon before an Audience and the Judges to see if your presentation meets all the required criteria; if it does, you win! Sounds easy, right? 
@@ -19,7 +19,7 @@ These are not battles of power, you will use all of your social skills to confid
 In a Pokémon Contest you are trying your best to show that you and your Pokémon have the talent, charisma and  expertise  to  give  a  performance  that  will  astound  the world. 
 
 ---
-## Confidence and Stress
+## 信心值與壓力
 To present yourself before an audience you need to be confident enough to handle the stress that comes from having to entertain hundreds if not thousands of people.
 
 **Natures**  give  a  specific  amount  of  **Confidence  Points** (p. 38) **You may think of Confidence as a “Social HP”** that will help you keep your cool under pressure.

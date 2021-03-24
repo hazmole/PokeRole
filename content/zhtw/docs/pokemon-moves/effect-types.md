@@ -1,5 +1,5 @@
 +++
-title = "招式效果標籤"
+title = "招式效果標記"
 weight = 2
 description = ""
 +++
@@ -12,31 +12,31 @@ Pay  Attention  to  the  Effects  of your Moves.
 They will be the key for victory if you learn to combine them.
 {{< /mynotice >}}
 
-#### Category Icon
+#### 分類圖示
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon moveType|l|physical}</div>
   <div class="iconDesc-item">
-    <b>Physical</b><br/>
+    <b>物理招式</b><br/>
     Physical Moves are resisted with Defense. <b>They are close range attacks</b>.<br/>Some can be long range, labeled as <u>Ranged</u>. 
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon moveType|l|special}</div>
   <div class="iconDesc-item">
-    <b>Special</b><br/>
+    <b>特殊招式</b><br/>
     Special Moves are resisted with Special Defense. <b>They are always long range</b>. 
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon moveType|l|support}</div>
   <div class="iconDesc-item">
-    <b>Support</b><br/>
+    <b>變化招式</b><br/>
     Support Moves don’t deal any direct Damage.
   </div>
 </div>
 
 ---
-#### Chance Dice
+#### 機率骰
 The  probability  at  which  a  Move’s  Effect  is  activated. 
 The number marked on the Icon is the amount of Chance Dice you will Roll.
 
@@ -46,7 +46,7 @@ At  least  one  Chance  Dice  must  come  up  as  {@icon rdice|s|6|normal},  if 
 {@icon frame|flinch|畏縮|number|d3}
 
 ---
-#### Never/Always Affected
+#### 絕不生效/永遠生效
 <b style="font-size: 1.5rem;color: #e02a2a;">✖</b>
 When an effect has this Icon, the target of that effect will never be affected.
 
@@ -55,8 +55,8 @@ When an effect has this Icon, the target of that effect will always be affected.
 
 These Icons will be inside a Box with an effect. Here’s an example:
 
-{@icon frame|flinch|畏縮|never} Always Flinches
-{@icon frame|flinch|畏縮|always} Never Flinches
+{@icon frame|flinch|畏縮|never} 永遠會畏縮
+{@icon frame|flinch|畏縮|always} 絕不會畏縮
 
 ---
 #### 降低命中率
@@ -71,16 +71,16 @@ These Icons illustrate who’ll be affected by the Move.
 **Green** Target Icons are used for the User or its Allies:
 **Red** Target Icons are used for Foes:
 
-{@icon target|l|self} User
-{@icon target|l|ally} One Ally
-{@icon target|l|allally} User & All Allies in Range
+{@icon target|l|self} 使用者
+{@icon target|l|ally} 一個隊友
+{@icon target|l|allally} 使用者 & 所有範圍內的隊友
 
-{@icon target|l|foe} Foe 
-{@icon target|l|rfoe} Random Foe
-{@icon target|l|allfoe} All Foes in Range
+{@icon target|l|foe} 敵人
+{@icon target|l|rfoe} 隨機敵人
+{@icon target|l|allfoe} 所有範圍內的敵人
 
-{@icon target|l|area} Area 
-{@icon target|l|field} Battlefield 
+{@icon target|l|area} 範圍
+{@icon target|l|field} 戰鬥場地
 *Moves targeted at the Battlefield can’t be evaded/clashed.
 
 ---
@@ -148,7 +148,7 @@ For more info, see p.52
 The Move inflicts Lethal Damage. For more Info, see p.53
 
 ---
-#### 必須充能
+#### 必須重新充能
 {@icon effect|l|recharge}
 After hitting with this Move, the User must rest with its first Action on the next Round.
 
