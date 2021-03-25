@@ -147,24 +147,23 @@ When you are aware of your potential you don’t need others to praise you for i
 
 {{< nature "天真" 7 "好奇、無憂無慮、純真" >}}
 The world is full of wonder; there is always something new to discover and many others to befriend. 
-A Naive nature is a curious and innocent nature, they easily trust others because they ignore the many dangers of the world. They still have a lot to learn but they take life as it comes. They rarely stress out due to the fact they still don't know there are many things to stress about. A friend's smile and a hand to take it's all they 
-need.
+A Naive nature is a curious and innocent nature, they easily trust others because they ignore the many dangers of the world. They still have a lot to learn but they take life as it comes. They rarely stress out due to the fact they still don't know there are many things to stress about. A friend's smile and a hand to take it's all they need.
 {{< /nature >}}
 
 {{< nature "頑皮" 6 "狡猾、叛逆、惡作劇" >}}
-Why should they listen to you? You are not their boss! 
-Most of the time they’ll deliberately do the opposite from what’s expected from them. Why? Because they can, of course. They love to see others get mad and will use their clever mind and cunning to get away with their misdeeds. When they stress they put a cool facade, don't let that fool you. They need to be coaxed or put in their place to behave properly.
+為什麼他們得聽你的？你又不是他們的老闆！
+大多數時候，他們會刻意做出一些與你期望相反的事情。為什麼？因為他們能做，就是這樣而已。他們熱愛看到別人生氣，然後再用他們的聰明才智和狡猾個性來開脫他們的過錯。當他們感到壓力時，他們會擺出一臉冷酷的假象，但別被他們騙了。他們需要被別人哄著、或被擺放在他們應在的位置上，才會有合適的表現。
 {{< /nature >}}
 
 {{< nature "冷靜" 5 "沉默、含蓄、觀測者" >}}
-Life is what happens around those with a Quiet nature. 
-They often take a passive stance over the circumstances around them. Strong thoughts or opinions they have will rarely be expressed, so they are not the greatest at social interactions. They may be afraid to make a mistake or consider it a hassle to take action. When they manage to get the attention of others they rarely know what to do with themselves.
+他們活在如同他們性格一般的平靜生活之中。
+他們往往對四周的環境採取被動的態度。他們很少會將強烈的想法或意見表達出來，也因此他們並不是很擅長社交。他們可能會害怕犯錯，或覺得採取行動是很麻煩的一件事。當他們遇到需要設法要引起他人注意的情況時，他們幾乎會不知道該怎麼做。
 {{< /nature >}}
 
 {{< nature "古怪" 9 "奇特的、能接受新思想、獨創的" >}}
-You can’t really understand how their mind works. Those who have a Quirky nature will usually see the world in a unique way that only they seem to comprehend. 
-The way they act will be peculiar and often attract puzzled looks, they know they are oddballs and are fine with it, but they might get stressed by the strangest of things. The way they see the world is so unique that they accept new things easily.
-<div style="font-size:.7em; text-align: right;">*這個性格的原文為 きまぐれ(中譯: 浮躁)，這邊取英譯 Quirky 的解釋</div>
+你沒辦法真正理解他們的大腦是怎麼運作的。古怪性格的他們通常會以一種獨特且似乎只有他們自己能理解的方式來看待這個世界。
+他們的行為模式很奇特，且經常會引來他人困惑的眼光。他們知道自己是個怪人，也坦然接受了這個事實，但他們也可能會因為最奇怪的理由而感到壓力。他們看待世界的方式是如此獨特，以至於他們很容易接受新的事物。
+<div style="font-size:.7em; text-align: right; margin-top: .5em;">*這個性格的原文為 きまぐれ(中譯: 浮躁)，這邊取英譯 Quirky 的解釋</div>
 {{< /nature >}}
 
 {{< nature "馬虎" 6 "魯莽、粗俗、蠻勇" >}}

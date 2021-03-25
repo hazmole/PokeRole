@@ -31,23 +31,23 @@ Any Contestant, Trainer or Pokémon, who suffers a Breakdown on stage, will be a
 {{< /highlight >}}
 
 <table>
-	<tr><th>Confidence</th><th>Emotional State</th><th>Stress Penalization</th></tr>
+	<tr><th>信心值</th><th>情緒狀態</th><th>壓力懲罰</th></tr>
 	<tr>
-		<td>Full Confidence </td>
-		<td>Positive </td>
-		<td>None. You can do this! </td></tr>
+		<td>信心值全滿</td>
+		<td>積極進取</td>
+		<td>無。你可以的！</td></tr>
 	<tr>
-		<td>Half Confidence<br/>(Rounded down) </td>
-		<td>Nervous </td>
-		<td>Allies nearby will lose 1 Confidence Point each Round. </td></tr>
+		<td>信心值低於一半<br/>(尾數捨去)</td>
+		<td>緊張不安</td>
+		<td>每過一輪，附近的隊友會失去 1 點信心值。</td></tr>
 	<tr>
-		<td>1 remaining Confidence Point </td>
-		<td>Freaking out </td>
-		<td>Roll every action twice, keep the lowest roll. </td></tr>
+		<td>僅剩 1 點信心值</td>
+		<td>不知所措</td>
+		<td>每個行動的擲骰判定都骰二次取低。</td></tr>
 	<tr>
-		<td>Zero Confidence </td>
-		<td>Breakdown </td>
-		<td>All Social Rolls fail automatically. </td></tr>
+		<td>0 點信心值</td>
+		<td>崩潰</td>
+		<td>所有社交擲骰判定自動失敗。</td></tr>
 </table>
 
 **Stress Penalizations stack on each other** and can only be removed through **Trick cards** or by spending time relaxing. Will  Points  can  also  help  you  ignore  the  ill  effects  of stress for a short while.

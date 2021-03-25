@@ -81,7 +81,7 @@ These Icons illustrate who’ll be affected by the Move.
 
 {@icon target|l|area} 範圍全體
 {@icon target|l|field} 戰鬥場地
-*Moves targeted at the Battlefield can’t be evaded/clashed.
+*以戰鬥場地為目標的招式無法被閃避／對抗。
 
 ---
 #### 提升/降低標誌

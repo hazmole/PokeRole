@@ -6,4 +6,20 @@
 妖精, 格鬥, 火, 飛行, 幽靈, 鋼
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>惡屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</guid><description>惡屬性 Dark Types prey on the weak. They rely on hindering the foe and fighting dirty. These Moves use tricks, lies and negative feelings. Dark Pokémon are vicious and their Moves very dangerous. They love it, sometimes being nasty is way more fun.
+Dark Types always try to Battle while putting the foes at a complete disadvantage. Never underestimate the power of proper planning.
+效果絕佳:
+幽靈, 超能力
+效果不好:
+惡, 妖精, 格鬥</description></item><item><title>龍屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</guid><description>龍屬性 Dragon Types are ferocious and fearsome. They rely on high-power attacks to quickly dispatch the foe. Dragon Pokémon are eager to fight, easily angered and don’t show mercy nor respect towards anyone.
+They wish to defeat strong opponents, take over large lands, and covet anything they find precious.
+Their attacks are very powerful and devastating.
+效果絕佳:
+龍
+效果不好:
+鋼
+沒有效果:
+妖精
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item></channel></rss>

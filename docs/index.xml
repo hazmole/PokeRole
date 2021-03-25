@@ -139,7 +139,12 @@ TocInjector.parsePage("Move");
 或者
 敵人骰 力量/特殊 + 對抗 如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
 進行對抗時，雙方受到的傷害仍會把弱點和抗性的影響納入計算。
-閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>招式效果標記</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
+閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>惡屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</guid><description>惡屬性 Dark Types prey on the weak. They rely on hindering the foe and fighting dirty. These Moves use tricks, lies and negative feelings. Dark Pokémon are vicious and their Moves very dangerous. They love it, sometimes being nasty is way more fun.
+Dark Types always try to Battle while putting the foes at a complete disadvantage. Never underestimate the power of proper planning.
+效果絕佳:
+幽靈, 超能力
+效果不好:
+惡, 妖精, 格鬥</description></item><item><title>招式效果標記</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
 Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them.
 分類圖示 {@icon moveType|l|physical}
 物理招式
@@ -281,7 +286,18 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 ●●●●●● 你可以用彷彿可多拉般堅硬的胸肌和大鋼蛇般的腹肌去抵擋種子機關槍的掃射。
 ⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
 2. Performance Runway These are the main events of the Contest.
-Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
+Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>龍屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</guid><description>龍屬性 Dragon Types are ferocious and fearsome. They rely on high-power attacks to quickly dispatch the foe. Dragon Pokémon are eager to fight, easily angered and don’t show mercy nor respect towards anyone.
+They wish to defeat strong opponents, take over large lands, and covet anything they find precious.
+Their attacks are very powerful and devastating.
+效果絕佳:
+龍
+效果不好:
+鋼
+沒有效果:
+妖精
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
 只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
 沒錯，只要有傑出的策略就能挽回局面！
 在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。

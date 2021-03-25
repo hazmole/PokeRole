@@ -31,6 +31,10 @@ other = "說書人筆記"
 
 [bug]
 other = "蟲"
+[dark]
+other = "惡"
+[dragon]
+other = "龍"
 [fire]
 other = "火"
 [water]
