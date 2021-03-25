@@ -148,10 +148,21 @@ class IconParser {
       case "effect rampage":  return "狂暴";
       case "effect recharge": return "必須重新充能";
       case "effect shield":   return "護盾";
+      case "effect switcher": return "替換寶可夢";
       case "effect fist":     return "拳頭類招式";
       case "effect sound":    return "聲音類招式";
       case "effect sact_2":   return "雙重行動";
       case "effect sact_5":   return "連續行動";
+
+      case "target self":   return "使用者";
+      case "target ally":   return "單體隊友";
+      case "target allally":return "使用者&全體隊友";
+      case "target foe":    return "單體敵人";
+      case "target rfoe":   return "隨機敵人";
+      case "target allfoe": return "全體敵人";
+      case "target area":   return "範圍";
+      case "target field":  return "戰鬥場地";
+
       default:
         return "";
     }
@@ -159,7 +170,7 @@ class IconParser {
 }
 
 
-
+var i18n;
 var MoveList;
 class MoveParser{
 
@@ -176,9 +187,11 @@ class MoveParser{
 
 
   static getMoveHTML( moveObj ){
-    var moveEffect = moveObj.effect? `<div class="Additional">${moveObj.effect}</div>`: "";
+    var moveEffect = moveObj.effect? `<div><b>額外效果: </b></div><div class="Additional">${moveObj.effect}</div>`: "";
     var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
     var moveIconArr =moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
+
+    console.log();
 
     return `<div class="Move ${moveObj.type}">
               <div class="MoveHeader">
@@ -188,25 +201,28 @@ class MoveParser{
               </div>
               <div class="MoveIconBar">${moveIconArr.join("")}</div>
               <div class="MoveContent">
-                <div class="Type">${moveObj.type}</div>
+                <div class="Type">${FMT(moveObj.type)}</div>
                 <div class="Accuracy">${moveObj.accuracy}</div>
                 <div class="Damage">${moveObj.damage}</div>
                 ${ moveEffect }
               </div>
               ${ moveDescription }
             </div>`;
-
   }
-
-
-
 }
 
 
-if(!!MoveList){
-  window.addEventListener("load", () => { MoveParser.parsePage(); });
+//=================
+// Language Parser
+function FMT(langkey){
+    var val = i18n[langkey.toLowerCase()];
+    return val? val: langkey;
 }
+
 //=================
 // Global settings
 window.addEventListener("load", () => { IconParser.parsePage(); });
+if(!!MoveList){
+  window.addEventListener("load", () => { MoveParser.parsePage(); });
+}
 

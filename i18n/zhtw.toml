@@ -23,9 +23,15 @@ other = "WRITTEN BY"
 other = "EDIT THIS PAGE"
 
 
-
 [trainer_tip]
 other = "訓練家小技巧"
-
 [storyteller_note]
 other = "說書人筆記"
+
+
+[bug]
+other = "蟲"
+[fire]
+other = "火"
+[water]
+other = "水"

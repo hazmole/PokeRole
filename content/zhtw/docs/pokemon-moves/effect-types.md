@@ -72,10 +72,10 @@ These Icons illustrate who’ll be affected by the Move.
 **Red** Target Icons are used for Foes:
 
 {@icon target|l|self} 使用者
-{@icon target|l|ally} 一個隊友
+{@icon target|l|ally} 單體隊友
 {@icon target|l|allally} 使用者 & 所有範圍內的隊友
 
-{@icon target|l|foe} 敵人
+{@icon target|l|foe} 單體敵人
 {@icon target|l|rfoe} 隨機敵人
 {@icon target|l|allfoe} 所有範圍內的敵人
 
@@ -186,8 +186,7 @@ If the Pokemon performs another Shield Move during the next Round, that Move’s
 ---
 #### 聲音類招式
 {@icon effect|l|sound}
-These  Moves  bypass  Substitute,  Light  Screen,  Reflect, and Cover.
-
+這些招式可以穿過替身、光牆、反射壁、和掩護。
 
 
 ---
@@ -198,21 +197,22 @@ Each Status Ailment is described on detail on p.57
 
 ---
 #### 連續行動
-{@icon effect|l|sact_2} Double Action (2 Attacks)
-{@icon effect|l|sact_5} Succesive Action (5 Attacks)
+{@icon effect|l|sact_2} 雙重行動 (2 次攻擊)
+{@icon effect|l|sact_5} 連續行動 (5 次攻擊)
 
-The  Move  allows  you  to  perform  Multiple  Actions  in  succession before the foe can act. More info, see p.55
+這個招式能讓你在敵人行動前連續施展多重行動。更多關於連續行動的資訊請參見「勝利策略」章節。
+
 
 ---
-#### Switcher Move
+#### 替換招式
 {@icon effect|l|switcher}
-**Only one Switcher Move may be used per round.**
-Switch a Pokémon in the battlefield for one of its allies still on their Pokeball. 
+**替換招式在每個戰鬥輪中只能被使用一次。**
+將一隻在戰場上的寶可夢替換成另一隻仍在精靈球內的寶可夢。
 
 
 ---
-#### Weather
-The Move changes the weather to:
+#### 天氣變化
+這個招式能夠將天氣狀態改變成：
 {@icon weather|l|sun} {@icon weather|l|rain} {@icon weather|l|hail} {@icon weather|l|sand}
 
-For more info, see p. 55
+更多關於天氣的說明，請參見「天氣狀態」章節。

@@ -1,68 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>寶可夢招式 on 寶可夢扮演2.0 Pokerole</title>
-    <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/</link>
-    <description>Recent content in 寶可夢招式 on 寶可夢扮演2.0 Pokerole</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zhtw</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    
-        <atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-moves/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-      
-      <item>
-        <title>招式的規則</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid>
-        <description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.-GrimsleyPokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description>
-      </item>
-      
-      <item>
-        <title>招式效果標記</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid>
-        <description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
-Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them. 分類圖示 {@icon moveType|l|physical}物理招式Physical Moves are resisted with Defense. They are close range attacks.</description>
-      </item>
-      
-      <item>
-        <title>Z招式</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid>
-        <description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
-These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description>
-      </item>
-      
-      <item>
-        <title>極巨招式</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid>
-        <description>Max Moves Dynamax and G-Max PokémonSo you think you are ready for the BIG leagues?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢招式 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/</link><description>Recent content in 寶可夢招式 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/docs/pokemon-moves/index.xml" rel="self" type="application/rss+xml"/><item><title>招式的規則</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid><description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.
+-Grimsley
+Pokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description></item><item><title>招式效果標記</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
+Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them.
+分類圖示 {@icon moveType|l|physical}
+物理招式
+Physical Moves are resisted with Defense. They are close range attacks.</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
+These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>極巨招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid><description>Max Moves Dynamax and G-Max Pokémon
+So you think you are ready for the BIG leagues?
 When a Pokémon is under the Effects of the Dynamax Phenomenon it grows not just on size but on power as well and Max Moves will ad an extra layer of complexity to your strategy!
-Rules for Max Moves  Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description>
-      </item>
-      
-      <item>
-        <title>常見問題</title>
-        <link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid>
-        <description>Frequently Asked Questions Can I Target an Ally with a Move that Targets a Foe? Yes, you can. Very rarely you’ll find a use to it, but sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
-Can my Pokémon Target itself with a Move that Targets an Ally or a Foe? No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit from this power.</description>
-      </item>
-      
-    
-  </channel>
-</rss>
+Rules for Max Moves Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description></item><item><title>常見問題</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid><description>Frequently Asked Questions Can I Target an Ally with a Move that Targets a Foe? Yes, you can. Very rarely you’ll find a use to it, but sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
+Can my Pokémon Target itself with a Move that Targets an Ally or a Foe? No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit from this power.</description></item></channel></rss>

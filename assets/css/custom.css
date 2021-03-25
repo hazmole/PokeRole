@@ -169,7 +169,7 @@
     flex-grow: 1;
 }
 .MoveHeader .power{ 
-    padding: 0 1rem;
+    margin: .05rem; padding: 0 1rem;
     line-height: 3rem;
     background: rgba(0,0,0,.4); color: #fff;
     font-size: 1.1rem;
@@ -192,7 +192,7 @@
 .MoveContent .Additional { margin: .3rem .5rem; }
 .MoveDesc {
     background: rgba(0,0,0,.4); color: #fff;
-    padding: .1rem .5rem; 
+    padding: .4rem .5rem; 
     font-size: .8rem; text-indent: .5rem;
 }
 

@@ -1072,3 +1072,11 @@
   // ============================================================
   }
 </script>
+
+<script type="text/javascript">
+{{ $strings := slice "bug" "fire" "water" }}
+var i18n = {
+  {{ range $strings }} "{{ . }}": "{{ i18n . }}", {{ end }}
+};
+console.log( i18n );
+</script>
