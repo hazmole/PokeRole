@@ -1,8 +1,10 @@
+//=================
+// Icon Builder
 class IconParser {
 
   static parsePage(){
     var article = document.getElementById("list-main");
-    if(!article) return;
+    if(!article) return false;
 
     var hasIcon = false;
     var raw_icon;
@@ -15,10 +17,9 @@ class IconParser {
       article.innerHTML = article.innerHTML.replace(originText, iconHtml);
       hasIcon = true;
     }
-    if(hasIcon) window.onscroll(true);
+    return hasIcon;
   }
 
-  //====================
   static getIconHTML( tagArr ){
     var icon_type = tagArr[0];
     var icon_size = this.getSizeClass(tagArr[1]);
@@ -44,6 +45,8 @@ class IconParser {
         return this.getHTML_normalIcon("unknown", icon_size);
     }
   }
+  
+  //====================
   //====================
   static getHTML_normalIcon(iconClass, iconSize){
     var titleText = this.getTooltipsText(iconClass);
@@ -139,6 +142,15 @@ class IconParser {
       case "weather wind":  return "亂流";
       case "weather hail":  return "冰雹";
       
+      case "target self":   return "使用者";
+      case "target ally":   return "單體隊友";
+      case "target allally":return "使用者&全體隊友";
+      case "target foe":    return "單體敵人";
+      case "target rfoe":   return "隨機敵人";
+      case "target allfoe": return "全體敵人";
+      case "target area":   return "範圍全體";
+      case "target field":  return "戰鬥場地";
+
       case "effect block":    return "阻擋";
       case "effect crit":     return "高要害率";
       case "effect charge":   return "蓄能";
@@ -154,35 +166,26 @@ class IconParser {
       case "effect sact_2":   return "雙重行動";
       case "effect sact_5":   return "連續行動";
 
-      case "target self":   return "使用者";
-      case "target ally":   return "單體隊友";
-      case "target allally":return "使用者&全體隊友";
-      case "target foe":    return "單體敵人";
-      case "target rfoe":   return "隨機敵人";
-      case "target allfoe": return "全體敵人";
-      case "target area":   return "範圍";
-      case "target field":  return "戰鬥場地";
-
       default:
         return "";
     }
   }
 }
 
-
-var i18n;
+//=================
+// Move Builder
 var MoveList;
 class MoveParser{
 
   static parsePage(){
     var MoveListPanel = document.getElementById("MoveList");
-    if(!MoveListPanel) return;
-
-    
+    if(!MoveListPanel) return false;
+    if(!MoveList || MoveList.length<=0) return false;
 
     var self = this;
     var HtmlMoveList = MoveList.map( obj => self.getMoveHTML(obj) );
     MoveListPanel.innerHTML = HtmlMoveList.join("");
+    return true;
   }
 
 
@@ -195,7 +198,7 @@ class MoveParser{
 
     return `<div class="Move ${moveObj.type}">
               <div class="MoveHeader">
-                <div class="title">${moveObj.name}</div>
+                <div class="title" id="${moveObj.name}">${moveObj.name}</div>
                 <div class="power">${moveObj.power}</div>
                 <div class="type"><tag class="moveType ${moveObj.category}"></tag></div>
               </div>
@@ -211,9 +214,77 @@ class MoveParser{
   }
 }
 
+//=================
+// ToC Injector
+class TocInjector{
+  static parsePage(className, appendRoot){
+    var toc = document.getElementById("TableOfContents");
+    if(!toc) return false;
+
+    // handle parameters
+    if(!className) return false;
+    if(!appendRoot) appendRoot = 'root';
+
+    // gatherItems
+    var objList = Object.values(document.getElementsByClassName(className));
+    var idList = objList.map( domObj => getDomObjId(domObj, className) );
+
+    // create ToC element
+    var newTocList = document.createElement("UL");
+    idList.forEach( id => {
+      var textNode = document.createTextNode(id);
+      var urlNode = document.createElement("A");
+      urlNode.setAttribute("href", "#"+id);
+      urlNode.appendChild(textNode);
+      var listNode = document.createElement("LI");
+      listNode.appendChild(urlNode);
+      newTocList.appendChild(listNode);
+    });
+
+    if(!toc.lastElementChild){
+      toc.appendChild(newTocList);
+    }
+    else if(appendRoot==='root'){
+      toc.lastElementChild.appendChild(newTocList);
+    }
+    else{
+      var rootObj = getMatchDom(toc.lastElementChild, appendRoot);
+      if(rootObj) rootObj.appendChild(newTocList);
+    }
+    return true;
+
+
+    //=====================
+    function getDomObjId(domObj, className){
+      switch(className){
+        case "Nature":
+        case "Move":
+          return domObj.getElementsByClassName("title").item(0).innerText;
+      }
+      return 'unknown';
+    }
+    function getMatchDom(obj, text){
+      var childrenArr = Object.values(obj.children).filter( o => o.nodeName === 'LI' );
+      var match = childrenArr.filter( item => item.innerText.split('\n')[0] == text );
+      
+      if(match.length>0) return match[0];
+
+      for(var child of childrenArr){
+        if(child.lastElementChild.nodeName != 'UL') continue;
+        var temp = getMatchDom(child.lastElementChild, text);
+        if(temp!=null) return temp;
+      }
+      return null;
+    }
+  }
+}
+
+
+
 
 //=================
 // Language Parser
+var i18n;
 function FMT(langkey){
     var val = i18n[langkey.toLowerCase()];
     return val? val: langkey;
@@ -221,8 +292,15 @@ function FMT(langkey){
 
 //=================
 // Global settings
-window.addEventListener("load", () => { IconParser.parsePage(); });
-if(!!MoveList){
-  window.addEventListener("load", () => { MoveParser.parsePage(); });
-}
+window.addEventListener("load", () => { 
+  var isDomChanged = false;
+  isDomChanged |= IconParser.parsePage();
+  isDomChanged |= MoveParser.parsePage();
+  
+  if(isDomChanged) window.onscroll(true);
+
+  var event = new CustomEvent("parsePage", { "detail": "finished parsing page." });
+  window.dispatchEvent(event);
+});
+
 

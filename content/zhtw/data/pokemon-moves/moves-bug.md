@@ -18,3 +18,9 @@ weight = 1
 <div id="MoveList"></div>
 
 {{< script "moves-bug.js" >}}
+<script type="text/javascript">
+  window.addEventListener("parsePage", ()=>{
+    TocInjector.parsePage("Move");
+  });
+
+</script>

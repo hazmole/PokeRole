@@ -86,7 +86,10 @@ They are pretty much like a talent show; You present yourself and your Pokémon 
 效果絕佳:
 惡, 草, 超能力
 效果不好:
-妖精, 格鬥, 火, 飛行, 幽靈, 鋼</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description/></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
+妖精, 格鬥, 火, 飛行, 幽靈, 鋼
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description/></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
 扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
 把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
 儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。

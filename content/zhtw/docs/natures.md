@@ -168,7 +168,7 @@ The way they act will be peculiar and often attract puzzled looks, they know the
 {{< /nature >}}
 
 {{< nature "馬虎" 6 "魯莽、粗俗、蠻勇" >}}
-They are reckless, and exposing themselves to danger is their idea of fun. Blunt and direct in the way they act with others, you are either their friend or you are their enemy. They are known for rushing into action with a “hit first, ask later” mentality. They are also famous for their quick-temper, loud-mouth, and foolhardy deeds, so don't expect them to keep their cool when stress starts to elevate.
+他們是魯莽的，且把自己暴露於危險之中更是他們的樂趣所在。他們與他人相處的方式既直率而直接，你要不是他們的朋友，就會是他們的敵人。他們以「先下手為強」的心態且急於行動而聞名。他們也是出了名的急躁、大嘴巴、以及有勇無謀，所以別期望他們在壓力大的時候還能保持冷靜。
 {{< /nature >}}
 
 {{< nature "悠閒" 8 "無憂無慮、深思的、漠不關心" >}}
@@ -197,26 +197,7 @@ They are reckless, and exposing themselves to danger is their idea of fun. Blunt
 <!----->
 
 <script type="text/javascript">
-  function appendToC(){
-    var natureList = Object.values(document.getElementsByClassName("Nature")).map(n => n.children[0].children[0].innerText)
-    var toc = document.getElementById("TableOfContents");
-    
-    if(toc!=null){
-      var natureTocList = document.createElement("UL");
-
-      natureList.forEach( id => {
-        var textNode = document.createTextNode(id);
-        var urlNode = document.createElement("A");
-        urlNode.setAttribute("href", "#"+id);
-        urlNode.appendChild(textNode);
-        var listNode = document.createElement("LI");
-        listNode.appendChild(urlNode);
-        natureTocList.appendChild(listNode);
-      });
-
-      toc.children[0].lastElementChild.appendChild(natureTocList);
-      window.onscroll(true);
-    }
-  }
-  window.addEventListener("load", appendToC);
+window.addEventListener("parsePage", ()=>{
+  TocInjector.parsePage("Nature", "性格列表");
+});
 </script>

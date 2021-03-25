@@ -79,7 +79,7 @@ These Icons illustrate who’ll be affected by the Move.
 {@icon target|l|rfoe} 隨機敵人
 {@icon target|l|allfoe} 所有範圍內的敵人
 
-{@icon target|l|area} 範圍
+{@icon target|l|area} 範圍全體
 {@icon target|l|field} 戰鬥場地
 *Moves targeted at the Battlefield can’t be evaded/clashed.
 
@@ -178,7 +178,7 @@ The  user  will  be  hurt  by  its  own  Move.  Roll  damage  normally  against 
 
 
 ---
-#### 守住
+#### 護盾
 {@icon effect|l|shield}
 If the Pokemon performs another Shield Move during the next Round, that Move’s Accuracy Roll is reduced by 2 successes.  For more info, see p.54
 

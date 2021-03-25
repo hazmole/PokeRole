@@ -3,4 +3,7 @@
 效果絕佳:
 惡, 草, 超能力
 效果不好:
-妖精, 格鬥, 火, 飛行, 幽靈, 鋼</description></item></channel></rss>
+妖精, 格鬥, 火, 飛行, 幽靈, 鋼
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item></channel></rss>
