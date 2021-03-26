@@ -22,12 +22,44 @@
 0 點信心值
 崩潰
 所有社交擲骰判定自動失敗。
-壓力懲罰會互相疊加，且只能透過「技巧牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
-有些訓練家會利用技巧牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技巧牌以幫助他們的同伴重拾信心。
+壓力懲罰會互相疊加，且只能透過「技倆牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
+有些訓練家會利用技倆牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技倆牌以幫助他們的同伴重拾信心。
 如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
-壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>華麗大賽的構成 Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
-大賽圖板 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
-參賽選手 The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
+壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>華麗大賽的構成 讓我們依序說明華麗大賽的各個部份，以及你主持華麗大賽會需要的事物。
+大賽圖板 華麗大賽會以「遊戲圖板」的形式呈現。所有五種社交特質（強壯、帥氣、美麗、可愛、聰明）都有著相對應的華麗大賽，也存在著混合兩種或以上社交屬性，需要你證明自己是一個真正純熟的協調訓練家的華麗大賽。
+參賽選手 這些人之所以奮鬥競爭，並不是為了尋求戰鬥的刺激，而是為了向全世界展現他們的演出。
+任何人，從家庭主婦到聯盟冠軍，都可以報名成為華麗大賽的參賽選手。在階級較低的比賽中，你會遇到普通人與他們的寶可夢一起使用簡單的技巧進行演出；但在更高階級的大賽上，你要面對的將會是超級明星！
+每場華麗大賽最多可以有 8 名參賽選手。
+職業的華麗大賽選手會被稱為：協調訓練家。
+評審 每個城鎮都會有一組指定的華麗大賽評審團隊，由頗具品味的男男女女組成。
+在最高層級大賽的紅毯上，你能見到那些名氣堪比冠軍的評審們。
+暗地里，每個評審都各自對某一個社交特質有特別的偏好，他們會情不自禁地為相應社交特質的表演給出更多的分數（紅心）。你將會需要吸引他們的注意力，讓他們留下深刻的印象，才能贏得比賽。
+觀眾 觀賞你們表演的觀眾想要被娛樂，他們希望能好好享受。記得善待他們，那麼他們也會善待你。
+如果他們為你鼓掌或歡呼，那麼評審們自然會對你留下深刻的印象；但如果他們噓聲四起，那你可就慘了。
+華麗大賽難度階級 華麗大賽分成了 4 個難度階級，每個階級都有它們相應的挑戰和獎勵。
+一般階級
+入場費 - $1000
+只是業餘者和愛好者們想經歷一段愉快的時光，志在參加。
+超級階級
+入場費 - $2000
+這裡是新星開始閃耀的場所。
+高級階級
+入場費 - $3000
+是時候走出地區小比賽的藩籬了，你可是個職業的！
+大師階級
+入場費 - $5000
+這就是了，只要你有能力──名聲，財富，高品質的生活，就全都是你的。
+選擇你要參加的大賽難度。
+每個難度階級都會要求你在表演中取得最低限度的成功骰數，才能達到公眾和評審所期望的程度。
+難度所需成功骰數
+一般1
+超級2
+高級3
+大師4
+如果你骰出了所需的成功骰數，你將可以抽一張「反應牌」，你取得的成功骰數越多，你就能抽越多的反應牌，並忽略掉那些不好的反應！
+但如果你沒能取得所需的最低成功骰數，那麼群眾將會開始對你發出噓聲。
+牌堆 要想舉辦一場華麗大賽，你將會需要仔細閱讀規則，並準備一些卡牌來幫助大賽的進行。在遊戲中會有 3 組牌堆：
+反應牌堆 Reactions Deck 觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
 2. Performance Runway These are the main events of the Contest.
 Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>協調訓練家等級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
 If you dedicate yourself to winning Contests you will be able to gain Coordinator Ranks, these do not replace your Pokémon Trainer Rank but add to it.

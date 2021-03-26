@@ -4,52 +4,56 @@ weight = 2
 description = ""
 +++
 ## 華麗大賽的構成
-Let's go over the parts of the Contest and what do you need to host one.
+讓我們依序說明華麗大賽的各個部份，以及你主持華麗大賽會需要的事物。
 
-##### 大賽圖板 The Board
-Contests are represented by a board. There are contests for  all  five  **Social Attributes**  (Tough,  Cool,  Beauty,  Cute and Clever),and mixes of two or more where you'll have to prove true mastery as a Coordinator.
+
+#### 大賽圖板
+華麗大賽會以「遊戲圖板」的形式呈現。所有五種**社交特質**（強壯、帥氣、美麗、可愛、聰明）都有著相對應的華麗大賽，也存在著混合兩種或以上社交屬性，需要你證明自己是一個真正純熟的協調訓練家的華麗大賽。
+{{< img src="/images/06-01-contest-board.JPG" width="90%" position="center" selflink="true" >}}
+
  
-##### 參賽選手 The Contestants
-These people contend not for the thrill of battle, but to show the world their performances.
-Anyone  can  be  a  contestant,  from  a  housewife  to  the League's  Champion.  On  lower-ranked  Contest,  you’ll  find regular people performing simple tricks with their Pokémon; but at higher Ranks, you’ll be facing superstars!
+#### 參賽選手
+這些人之所以奮鬥競爭，並不是為了尋求戰鬥的刺激，而是為了向全世界展現他們的演出。
+任何人，從家庭主婦到聯盟冠軍，都可以報名成為華麗大賽的參賽選手。在階級較低的比賽中，你會遇到普通人與他們的寶可夢一起使用簡單的技巧進行演出；但在更高階級的大賽上，你要面對的將會是超級明星！
 
-<u>**Up to 8 contestants might participate each Contest.**</u>
-Professional contestants are called: Coordinators.
+<u>**每場華麗大賽最多可以有 8 名參賽選手。**</u>
+職業的華麗大賽選手會被稱為：協調訓練家。
 
-##### 評審 The Judges
-Every town has a designated group of Judges for Contests, men and women with good taste. 
-On the red carpets of high-end Contests you'll find Judges with a fame that rivals that of the Champions.
-Secretly,  each  one  has  a  preference  for  a  certain  Social  Attribute they can't help but award more hearts to. **You'll have to appeal to them and impress them in order to win.**
 
-##### 觀眾 The Audience
-People watching your performance want to be entertained, 
-they wish to enjoy themselves. Be good to them and they'll 
-be good to you. 
-If they clap or cheer for you, the judges will be impressed, if 
-they "boo!" you will "boo boo".
+#### 評審
+每個城鎮都會有一組指定的華麗大賽評審團隊，由頗具品味的男男女女組成。
+在最高層級大賽的紅毯上，你能見到那些名氣堪比冠軍的評審們。
+暗地里，每個評審都各自對某一個社交特質有特別的偏好，他們會情不自禁地為相應社交特質的表演給出更多的分數（紅心）。**你將會需要吸引他們的注意力，讓他們留下深刻的印象，才能贏得比賽。**
 
-##### 華麗大賽難度階級 Contest Difficulty
-There are four Contest difficulties, each one with their 
-own challenges and rewards.
+
+#### 觀眾
+觀賞你們表演的觀眾想要被娛樂，他們希望能好好享受。記得善待他們，那麼他們也會善待你。
+如果他們為你鼓掌或歡呼，那麼評審們自然會對你留下深刻的印象；但如果他們噓聲四起，那你可就慘了。
+
+
+---
+#### 華麗大賽難度階級
+華麗大賽分成了 4 個難度階級，每個階級都有它們相應的挑戰和獎勵。
 
 * **一般階級**
 入場費 - $1000
-Amateurs and hobbysts wanting to have a good time.
+只是業餘者和愛好者們想經歷一段愉快的時光，志在參加。
 
 * **超級階級**
 入場費 - $2000
-This is where the rising stars begin to shine.
+這裡是新星開始閃耀的場所。
 
 * **高級階級**
 入場費 - $3000
-Time to leave the small local scenarios, you are a pro!
+是時候走出地區小比賽的藩籬了，你可是個職業的！
 
 * **大師階級**
 入場費 - $5000
-This is it, fame, riches and high-end life are yours if you have what it takes.
+這就是了，只要你有能力──名聲，財富，高品質的生活，就全都是你的。
 
-Choose the difficulty you'll be participating in.
-Each Difficulty requires you to score a minimum number of successes in your performance in order to carter the level of expectations of the Public and the Judges.
+
+選擇你要參加的大賽難度。
+每個難度階級都會要求你在表演中取得最低限度的成功骰數，才能達到公眾和評審所期望的程度。
 
 <table style="width:60%;">
 	<tr><th>難度</th><th>所需成功骰數</th></tr>
@@ -59,69 +63,82 @@ Each Difficulty requires you to score a minimum number of successes in your perf
 	<tr><td>大師</td><td>4</td></tr>
 </table>
 
-If you score the required successes, you get to draw a Reaction Card, more successes can make you draw more cards and ignore bad reactions!
-But you fail to meet the minimum of Successes Required the public will start booing at you.
+如果你骰出了所需的成功骰數，你將可以抽一張「**反應牌**」，你取得的成功骰數越多，你就能抽越多的反應牌，並忽略掉那些不好的反應！
+但如果你沒能取得所需的最低成功骰數，那麼群眾將會開始對你發出噓聲。
 
-##### The Decks
-To run a Contest, you’ll need to read the rules carefully and play with some cards. There are 3 Decks in the game:
 
-###### Reactions Deck
-The  Public  will  react  to  your  Performance.  If  you  score the minimum required successes for the difficulty you are  participating you can draw a card from this Deck.
+---
+#### 牌堆
+要想舉辦一場華麗大賽，你將會需要仔細閱讀規則，並準備一些卡牌來幫助大賽的進行。在遊戲中會有 3 組牌堆：
 
-These are the types of reactions they can have:
+##### 反應牌堆 Reactions Deck
+觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。
+
+下列是他們可能會有的反應類型：
 <div class="Frame">
-<b><u>Booing</u></b>
+<b><u>噓聲四起</u></b>
 <p>
-	This  is  not  a  card,  but  if  you  fail  to  score  the  required successes, the public will get angry. <br/>
-	<b>You will draw 2 Mishap Cards and lose 2 Hearts.</b></p>
+	這不是反應牌。但如果你沒有取得所需的成功骰數，群眾會感到憤怒。<br/>
+	<b>你抽 2 張事故牌，並失去 2 個紅心。</b></p>
 </div><div class="Frame">
-<b><u>Bored Yawns</u></b>
+<b><u>無聊的哈欠</u></b>
 <p>
-	The Public is bored, some are even leaving.<br/>
-	<b>You'll lose 2 Hearts.</b></p>
+	觀眾感到無聊，有些人甚至起身離座。<br/>
+	<b>你失去 2 個紅心。</b></p>
 </div><div class="Frame">
-<b><u>Silence</u></b>
+<b><u>尷尬沉默</u></b>
 <p>
-	You can hear crickets and someone coughing.<br/>
-	<b>You lose 1 Heart.</b></p>
+	台下安靜到你可以聽到蟋蟀的鳴叫聲和某人的咳嗽聲。<br/>
+	<b>你失去 1 個紅心。</b></p>
 </div><div class="Frame">
-<b><u>Smiles</u></b>
+<b><u>微笑</u></b>
 <p>
-	They are amused...but maybe they are expecting more?<br/>
-	<b>No effect.</b></p>
+	他們是被逗樂了……但也許他們期望更多？<br/>
+	<b>無效果。</b></p>
 </div><div class="Frame">
-<b><u>Clapping</u></b>
+<b><u>鼓掌</u></b>
 <p>
-	A round of applause, they are having a good time!<br/>
-	<b>You win 1 Heart.</b></p>
+	一陣掌聲響起，他們看得很開心！<br/>
+	<b>你贏得 1 個紅心。</b></p>
 </div><div class="Frame">
-<b><u>Loud Cheering</u></b>
+<b><u>大聲歡呼</u></b>
 <p>
-	They loved the performance, some rise from their seats to cheer at you!<br/>
-	<b>You win 2 Hearts.</b></p>
+	他們熱愛你的表演，有些人甚至從座位上起身為你歡呼！<br/>
+	<b>你贏得 2 個紅心。</b></p>
 </div><div class="Frame">
-<b><u>Sheer Awe</u></b>
+<b><u>轟然喝采，嘆為觀止</u></b>
 <p>
-	A few seconds of silence and then the audience erupts in a roar of cheering, clapping, whistling and tears of excitement.<br/>
-	<b>You Win 2 Hearts and Get 2 Extra Confidence points.</b></p>
+	在數秒的沉默之後，觀眾爆發出歡呼、掌聲、口哨，並且流下了激動的眼淚。<br/>
+	<b>你贏得 2 個紅心，並獲得 2 點額外的信心值。</b></p>
 </div>
 
 
-###### Mishaps
-If you Perform poorly or if are having bad luck during the  contest you will have to draw a card from this Deck.
-Mishaps  are  everything  that  could  ruin  your  performance from  technical  problems,  forgetting  your  routine  or  even  angry member of the public throwing things at you.
+##### 事故牌堆 Mishaps
+如果你在華麗大賽期間的表現不佳或運氣不好，你將會需要從這個牌堆中抽牌。
+事故牌代表著所有可能破壞你表演的一切，像是技術問題、忘掉你們的舞步、或甚至有憤怒的觀眾向你們扔東西，諸如此類。
 
-###### Tricks 
-There are 5 types of Tricks, one for each Social Attribute.
-* **Tough Tricks**
-Intimidation tactics to make others lose their Confidence.
-* **Cool Tricks**
-Friendly acts meant for keeping your Confidence up. 
-* **Beauty Tricks**
-Tricks meant to make you stand out from the crowd.
-* **Cute Tricks**
-Adorable antics that can become increasingly annoying.
-* **Clever Tricks**
-Mental prowess that will let you anticipate to other's.
+<div style="font-size:.7em; text-align: right;">*譯註：原作團隊尚未完成這一部份的內容。</div>
 
-Use the one that fits your strategy and feel free to create your own.
+
+##### 技倆牌堆 Tricks 
+技倆牌被分成了 5 種，分別對應一個社交特質。
+
+* **強壯技倆**
+讓他人失去信心值的威嚇戰術。
+
+* **帥氣技倆**
+用來維持自己信心值的友善行為。
+
+* **美麗技倆**
+讓你從人群中脫穎而出的手段。
+
+* **可愛技倆**
+賣弄可愛的舉動可能會變得越來越惱人。
+
+* **聰明技倆**
+讓你能夠預測他人行動的高超智力。
+
+
+善用符合你們策略的技倆，並自由去創造屬於你們自己的。
+
+<div style="font-size:.7em; text-align: right;">*譯註：原作團隊尚未完成這一部份的內容。</div>

@@ -103,8 +103,8 @@ Pokémon inhabit the vast majority of this world and they protect themselves usi
 0 點信心值
 崩潰
 所有社交擲骰判定自動失敗。
-壓力懲罰會互相疊加，且只能透過「技巧牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
-有些訓練家會利用技巧牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技巧牌以幫助他們的同伴重拾信心。
+壓力懲罰會互相疊加，且只能透過「技倆牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
+有些訓練家會利用技倆牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技倆牌以幫助他們的同伴重拾信心。
 如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
 壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
 蟲屬性招式並沒有在跟你在乎自己安全的，它們經常全力進攻或乾脆完全不動作。如果你認為這些寶可夢只是想要騷擾你，最好再仔細瞧瞧，牠們的幫手可不少。
@@ -222,9 +222,41 @@ Physical Moves are resisted with Defense. They are close range attacks.</descrip
 ⬛ 關都地區 Kanto 關都地區 與現代日本相當類似。這裡是科技的搖籃，也是世界知名的西爾佛（Silph）公司總部和寶可夢聯盟的誕生地。
 在這個地區，寶可夢戰鬥不只是一種全國性的運動，更是他們的生活方式。
 關都寶可夢聯盟的組織非常龐大，因此也負責了城都地區的聯盟賽註冊事宜。這是一個充滿強大訓練家、豐富多彩的地區。
-⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>華麗大賽的構成 Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
-大賽圖板 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
-參賽選手 The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
+⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>華麗大賽的構成 讓我們依序說明華麗大賽的各個部份，以及你主持華麗大賽會需要的事物。
+大賽圖板 華麗大賽會以「遊戲圖板」的形式呈現。所有五種社交特質（強壯、帥氣、美麗、可愛、聰明）都有著相對應的華麗大賽，也存在著混合兩種或以上社交屬性，需要你證明自己是一個真正純熟的協調訓練家的華麗大賽。
+參賽選手 這些人之所以奮鬥競爭，並不是為了尋求戰鬥的刺激，而是為了向全世界展現他們的演出。
+任何人，從家庭主婦到聯盟冠軍，都可以報名成為華麗大賽的參賽選手。在階級較低的比賽中，你會遇到普通人與他們的寶可夢一起使用簡單的技巧進行演出；但在更高階級的大賽上，你要面對的將會是超級明星！
+每場華麗大賽最多可以有 8 名參賽選手。
+職業的華麗大賽選手會被稱為：協調訓練家。
+評審 每個城鎮都會有一組指定的華麗大賽評審團隊，由頗具品味的男男女女組成。
+在最高層級大賽的紅毯上，你能見到那些名氣堪比冠軍的評審們。
+暗地里，每個評審都各自對某一個社交特質有特別的偏好，他們會情不自禁地為相應社交特質的表演給出更多的分數（紅心）。你將會需要吸引他們的注意力，讓他們留下深刻的印象，才能贏得比賽。
+觀眾 觀賞你們表演的觀眾想要被娛樂，他們希望能好好享受。記得善待他們，那麼他們也會善待你。
+如果他們為你鼓掌或歡呼，那麼評審們自然會對你留下深刻的印象；但如果他們噓聲四起，那你可就慘了。
+華麗大賽難度階級 華麗大賽分成了 4 個難度階級，每個階級都有它們相應的挑戰和獎勵。
+一般階級
+入場費 - $1000
+只是業餘者和愛好者們想經歷一段愉快的時光，志在參加。
+超級階級
+入場費 - $2000
+這裡是新星開始閃耀的場所。
+高級階級
+入場費 - $3000
+是時候走出地區小比賽的藩籬了，你可是個職業的！
+大師階級
+入場費 - $5000
+這就是了，只要你有能力──名聲，財富，高品質的生活，就全都是你的。
+選擇你要參加的大賽難度。
+每個難度階級都會要求你在表演中取得最低限度的成功骰數，才能達到公眾和評審所期望的程度。
+難度所需成功骰數
+一般1
+超級2
+高級3
+大師4
+如果你骰出了所需的成功骰數，你將可以抽一張「反應牌」，你取得的成功骰數越多，你就能抽越多的反應牌，並忽略掉那些不好的反應！
+但如果你沒能取得所需的最低成功骰數，那麼群眾將會開始對你發出噓聲。
+牌堆 要想舉辦一場華麗大賽，你將會需要仔細閱讀規則，並準備一些卡牌來幫助大賽的進行。在遊戲中會有 3 組牌堆：
+反應牌堆 Reactions Deck 觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
 These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
 在受到傷害後，訓練家和寶可夢每經過 8 小時就可以回復 1 點HP。
 如果你需要長時間戰鬥，那麼你必須要盡可能減少寶可夢所受到的傷害。否則你們將會承受相應的後果。
