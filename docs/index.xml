@@ -80,8 +80,33 @@
 強壯: ●○○○○ 美麗: ●●○○○ 帥氣: ●○○○○ 可愛: ●○○○○ 聰明: ●●○○○ 技能 你有 5 點可以分配在技能上，新手的技能上限為 1 點。</description></item><item><title>招式的規則</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid><description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.
 -Grimsley
 Pokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description></item><item><title>華麗大賽介紹</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid><description>寶可夢華麗大賽 寶可夢訓練家們通常會把主要精力放在寶可夢對戰上，如果你喜歡這種粗魯暴力的娛樂方式，那也沒關係。但如果你能夠透過寶可夢華麗大賽過上奢侈富裕的生活，那為什麼還要像野獸一樣互毆呢？
-什麼是寶可夢華麗大賽？ When you talk about Pokémon Contests, you talk about the most profitable show business in this world. These major events take many forms, from Beauty Pageants, to Science Fairs, Staged Battles, Music Festivals, or most commonly, the All-in-one show for everyone to mesmerize at the talent and grace of Trainers and their Pokémon companions.
-They are pretty much like a talent show; You present yourself and your Pokémon before an Audience and the Judges to see if your presentation meets all the required criteria; if it does, you win!</description></item><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
+什麼是寶可夢華麗大賽？ 說到寶可夢華麗大賽，那可是這個世界上最賺錢的演藝事業。這些大型活動有著各種各樣的形式：選美比賽、科學展覽、舞台對戰、音樂節、或者最常見的，那讓群眾沉醉於訓練家和寶可夢的才華優雅的全方位表演秀。
+這很像是才藝比賽；你在觀眾和評審面前展示自己和你的寶可夢，看看你的表演是否達到了所有的要求；如果是，那你就贏了！聽起來很簡單，是吧？
+沒有傷害、沒有擊中要害、也沒有瀕死狀態會擋在你和那條棒呆了的第一名獎章之間。但等等！儘管沒有人會在比賽結束時暈厥倒下，並不意味著競爭不激烈，恰恰相反，最高級別的華麗大賽中到處充滿了訓練家之間的激烈競爭。
+人們會在聚光燈下崩潰。批評會是激烈的，評審們可能冷酷無情，甚至連觀眾都可能成為不好對付的難題。
+這並不是比拼武力的戰鬥，你將會需要運用你所有的社交技巧來充滿自信地晉級，贏得同輩的讚賞以及評審的青睞。
+在寶可夢華麗大賽中，你會嘗試盡你最大的努力來展現你和你寶可夢的天賦、魅力、和專業，做出一場震驚世界的表演。
+信心值與壓力 要在觀眾面前展現你自己，你會需要有足夠的自信心來處理面對數百甚至數千人的沉重壓力。
+性格給了你特定數量的信心值（參見「性格」章節），你可以把信心值想成是一種「社交HP」，幫助你在壓力下保持冷靜。
+失去信心值就像是失去HP，但代表的不是你的身體受到傷害，而是你承受了壓力和情緒傷害。你會逐漸變得緊張、焦慮，然後變得歇斯底里。有些人會在面對觀眾的壓力下不知所措，而如果壓力太大，你甚至可能會徹底當機、大哭一場、或暴跳如雷。這就是我們所說的「崩潰」。
+任何在舞台上崩潰的選手（無論訓練家或寶可夢），都將自動被淘汰。
+信心值情緒狀態壓力懲罰
+信心值全滿
+積極進取
+無。你可以的！
+信心值低於一半(尾數捨去)
+緊張不安
+每過一輪，附近的隊友會失去 1 點信心值。
+僅剩 1 點信心值
+不知所措
+每個行動的擲骰判定都骰二次取低。
+0 點信心值
+崩潰
+所有社交擲骰判定自動失敗。
+壓力懲罰會互相疊加，且只能透過「技巧牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
+有些訓練家會利用技巧牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技巧牌以幫助他們的同伴重拾信心。
+如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
+壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
 蟲屬性招式並沒有在跟你在乎自己安全的，它們經常全力進攻或乾脆完全不動作。如果你認為這些寶可夢只是想要騷擾你，最好再仔細瞧瞧，牠們的幫手可不少。
 效果絕佳:
 惡, 草, 超能力
@@ -198,8 +223,8 @@ Physical Moves are resisted with Defense. They are close range attacks.</descrip
 在這個地區，寶可夢戰鬥不只是一種全國性的運動，更是他們的生活方式。
 關都寶可夢聯盟的組織非常龐大，因此也負責了城都地區的聯盟賽註冊事宜。這是一個充滿強大訓練家、豐富多彩的地區。
 ⬛ 城都地區 Johto 城都地區與關都地區相鄰。這是一個古老的地區，城鎮稀少分散，而且大城市很少。</description></item><item><title>華麗大賽的構成</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/</guid><description>華麗大賽的構成 Let&amp;rsquo;s go over the parts of the Contest and what do you need to host one.
-The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
-The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
+大賽圖板 The Board Contests are represented by a board. There are contests for all five Social Attributes (Tough, Cool, Beauty, Cute and Clever),and mixes of two or more where you&amp;rsquo;ll have to prove true mastery as a Coordinator.
+參賽選手 The Contestants These people contend not for the thrill of battle, but to show the world their performances.</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
 These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
 在受到傷害後，訓練家和寶可夢每經過 8 小時就可以回復 1 點HP。
 如果你需要長時間戰鬥，那麼你必須要盡可能減少寶可夢所受到的傷害。否則你們將會承受相應的後果。
@@ -412,7 +437,7 @@ Think about it as a specialization to being a Pokémon Trainer.</description></i
 共感 人類是具有同理心的生物。這個技能被用來衡量你你同理他人感受、以擊分享他們喜怒哀樂的能力。
 禮儀 有些情境會需要你表現出良好的行為舉止，展現出優雅、教養、溫柔、和風度。正是它們決定了王子與貧民的差別。
 威嚇 在某些情境下，你會需要凶狠的瞪視、說出尖銳的評論、或適時從座位上站起來。威嚇技能在你需要強迫或操縱他人按你的希望做事時相當有用。
-表演 跳舞、唱歌、扮演、模仿、和虛張聲勢！如果你專精於表演技能，那麼所有你用來展現出令人信服的演出所需的行動都會表現得更好。
+表演 跳舞、唱歌、扮演、模仿、和虛張聲勢！如果你專精於表演技能，那麼所有你做出精彩演出所需的行動都會表現得更好。
 ⬛ 知識類技能 人們在他們的生活需要瞭解許許多多的事情。有些人只是學習他們在學校被教導的知識，而有些人則會選擇踏上智慧之道去尋求答案。
 寶可夢需要擁有優異的洞察和聰慧特質（4 或以上）才能掌握這些概念。
 工藝 你能夠藉著雙手、工具、和一些材料來建造出任何物品。像是繪畫、雕刻、烹飪、修理等等。

@@ -1,6 +1,6 @@
 ---
 title: 寶可夢扮演2.0
-description: Hugo zzo, zdoc theme documentation home page
+description: 寶可夢扮演 Pokerole 2.0 的合法授權翻譯網站
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 footer:
@@ -13,6 +13,7 @@ footer:
 sections:
   - bgcolor: "#982320"
     type: card
+    description: "本站係由 免費開源TRPG中文化團隊 翻譯架設。<br>翻譯者: 蝶, Vivianna, 盤龍，寒碧，安生, 藍莓莓, Hazmole"
     cards:
       - subtitle: 寶可夢扮演 2.0
         subtitlePosition: center

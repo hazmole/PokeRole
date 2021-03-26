@@ -136,18 +136,18 @@ Interacting with others is like a chore for them but being isolate also makes th
 {{< /nature >}}
 
 {{< nature "慢吞吞" 8 "溫順、寧靜、令人舒適" >}}
-“Harmless” is the word that best describes a Mild nature. 
-They are patient and calm with others, reliable and caring on every matter. Because of this, others seek their company as stability ground. They seek to understand others and have a natural talent to do it. 
-They tend to keep their needs to themselves and sometimes stay in the background, but they are the ones to turn when you need someone to listen.
+「無害」是最能形容慢吞吞性格的一個詞。
+他們待人耐心平和，做事可靠，並關心每一件事。正因如此，其他人往往會把他們的陪伴當作穩定的基礎。他們冀望能夠理解他人，也擁有著這樣的天賦。
+他們傾向將自己的需求藏在心底，且有時會躲在幕後，但當你需要有人傾聽時，他們會是最佳人選。
 {{< /nature >}}
 
 {{< nature "內斂" 10 "謹慎、自信、努力家" >}}
-When you are aware of your potential you don’t need others to praise you for it. A modest nature knows the reward is the constant improvement of their abilities, not the acknowledging of others. They won’t show off nor will they feel diminished when others display better capabilities. They’ll do their best always and the only one who may judge the right or wrong of their ways is themselves.
+當你意識到了自己的潛力，你就不需要別人的誇獎了。內斂性格的他們知道努力的回報是來自他們能力的持續精進，而非來自他人的認同。他們不會炫耀，也不會在別人展現出更好的能力時感到自卑。他們總是盡自己最大的努力，並認為唯一可以評斷自己對錯的人只有自己。
 {{< /nature >}}
 
 {{< nature "天真" 7 "好奇、無憂無慮、純真" >}}
-The world is full of wonder; there is always something new to discover and many others to befriend. 
-A Naive nature is a curious and innocent nature, they easily trust others because they ignore the many dangers of the world. They still have a lot to learn but they take life as it comes. They rarely stress out due to the fact they still don't know there are many things to stress about. A friend's smile and a hand to take it's all they need.
+這個世界充滿著驚奇；總有新的事物等待著你去發現，總有許多新朋友等待著你去與他們相識。
+天真性格是一個充滿好奇心與純真的性格，他們會輕易去相信別人，因為他們忽視了世界上存在的許多危險。他們仍有許多要學，但他們對此隨遇而安。他們很少感到壓力，但這是因為他們還不知道有很多事情需要緊張。朋友的微笑與幫助，就是他們所需要的一切。
 {{< /nature >}}
 
 {{< nature "頑皮" 6 "狡猾、叛逆、惡作劇" >}}
@@ -155,7 +155,7 @@ A Naive nature is a curious and innocent nature, they easily trust others becaus
 大多數時候，他們會刻意做出一些與你期望相反的事情。為什麼？因為他們能做，就是這樣而已。他們熱愛看到別人生氣，然後再用他們的聰明才智和狡猾個性來開脫他們的過錯。當他們感到壓力時，他們會擺出一臉冷酷的假象，但別被他們騙了。他們需要被別人哄著、或被擺放在他們應在的位置上，才會有合適的表現。
 {{< /nature >}}
 
-{{< nature "冷靜" 5 "沉默、含蓄、觀測者" >}}
+{{< nature "冷靜" 5 "沉默、含蓄、旁觀者" >}}
 他們活在如同他們性格一般的平靜生活之中。
 他們往往對四周的環境採取被動的態度。他們很少會將強烈的想法或意見表達出來，也因此他們並不是很擅長社交。他們可能會害怕犯錯，或覺得採取行動是很麻煩的一件事。當他們遇到需要設法要引起他人注意的情況時，他們幾乎會不知道該怎麼做。
 {{< /nature >}}
@@ -171,7 +171,7 @@ A Naive nature is a curious and innocent nature, they easily trust others becaus
 {{< /nature >}}
 
 {{< nature "悠閒" 8 "無憂無慮、深思的、漠不關心" >}}
-這個世界上發生的問題都不是他們的問題。
+這個世界上發生的問題從來都不是他們的問題。
 悠閒的性格能讓他們從容不迫，永遠不失冷靜。他們從來不會因為繁瑣小事而感到壓力，也不會主動挑起事端。
 如果發生了糾紛，他們會透過深呼吸和冥想來讓彼此冷靜下來，他們會順其自然，逆來順受。有人可能會說他們無憂無慮，但他們會說自己是開明的。
 {{< /nature >}}

@@ -6,57 +6,57 @@ description = ""
 ## 華麗大賽的構成
 Let's go over the parts of the Contest and what do you need to host one.
 
-##### The Board
+##### 大賽圖板 The Board
 Contests are represented by a board. There are contests for  all  five  **Social Attributes**  (Tough,  Cool,  Beauty,  Cute and Clever),and mixes of two or more where you'll have to prove true mastery as a Coordinator.
  
-##### The Contestants
+##### 參賽選手 The Contestants
 These people contend not for the thrill of battle, but to show the world their performances.
 Anyone  can  be  a  contestant,  from  a  housewife  to  the League's  Champion.  On  lower-ranked  Contest,  you’ll  find regular people performing simple tricks with their Pokémon; but at higher Ranks, you’ll be facing superstars!
 
 <u>**Up to 8 contestants might participate each Contest.**</u>
 Professional contestants are called: Coordinators.
 
-##### The Judges
+##### 評審 The Judges
 Every town has a designated group of Judges for Contests, men and women with good taste. 
 On the red carpets of high-end Contests you'll find Judges with a fame that rivals that of the Champions.
 Secretly,  each  one  has  a  preference  for  a  certain  Social  Attribute they can't help but award more hearts to. **You'll have to appeal to them and impress them in order to win.**
 
-##### The Audience
+##### 觀眾 The Audience
 People watching your performance want to be entertained, 
 they wish to enjoy themselves. Be good to them and they'll 
 be good to you. 
 If they clap or cheer for you, the judges will be impressed, if 
 they "boo!" you will "boo boo".
 
-##### Contest Difficulty
+##### 華麗大賽難度階級 Contest Difficulty
 There are four Contest difficulties, each one with their 
 own challenges and rewards.
 
-* **Normal Contest**
-Entry Fee - $1000
+* **一般階級**
+入場費 - $1000
 Amateurs and hobbysts wanting to have a good time.
 
-* **Super Contest**
-Entry Fee - $2000
+* **超級階級**
+入場費 - $2000
 This is where the rising stars begin to shine.
 
-* **Hyper Contest**
-Entry Fee - $3000
+* **高級階級**
+入場費 - $3000
 Time to leave the small local scenarios, you are a pro!
 
-* **Master Contest**
-Entry Fee - $5000
+* **大師階級**
+入場費 - $5000
 This is it, fame, riches and high-end life are yours if you have what it takes.
 
 Choose the difficulty you'll be participating in.
 Each Difficulty requires you to score a minimum number of successes in your performance in order to carter the level of expectations of the Public and the Judges.
 
 <table style="width:60%;">
-	<tr><th>Difficulty</th><th>Required Successes</th></tr>
-	<tr><td>Normal</td><td>1</td></tr>
-	<tr><td>Super</td><td>2</td></tr>
-	<tr><td>Hyper</td><td>3</td></tr>
-	<tr><td>Master</td><td>4</td></tr>
+	<tr><th>難度</th><th>所需成功骰數</th></tr>
+	<tr><td>一般</td><td>1</td></tr>
+	<tr><td>超級</td><td>2</td></tr>
+	<tr><td>高級</td><td>3</td></tr>
+	<tr><td>大師</td><td>4</td></tr>
 </table>
 
 If you score the required successes, you get to draw a Reaction Card, more successes can make you draw more cards and ignore bad reactions!

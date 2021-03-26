@@ -8,26 +8,28 @@ description = ""
 
 ---
 ## 什麼是寶可夢華麗大賽？
-When you talk about **Pokémon Contests**, you talk about the most  profitable  show  business  in  this  world. These  major events take many forms, from **Beauty Pageants**, to **Science Fairs, Staged Battles, Music Festivals**, or most commonly, the All-in-one show for everyone to mesmerize at the talent and grace of Trainers and their Pokémon companions. 
+說到**寶可夢華麗大賽**，那可是這個世界上最賺錢的演藝事業。這些大型活動有著各種各樣的形式：**選美比賽、科學展覽、舞台對戰、音樂節**、或者最常見的，那讓群眾沉醉於訓練家和寶可夢的才華優雅的全方位表演秀。
 
-They  are  pretty  much  like  a  talent  show; You  present yourself and your Pokémon before an Audience and the Judges to see if your presentation meets all the required criteria; if it does, you win! Sounds easy, right? 
-No Damage, Critical Hits, or Fainting standing between you and that awesome First-Place Ribbon. But wait! Just because no one faints at the end of these shows doesn’t mean the competition isn’t fierce but rather the opposite, top tier Contests are full of highly competitive Trainers. 
+這很像是才藝比賽；你在觀眾和評審面前展示自己和你的寶可夢，看看你的表演是否達到了所有的要求；如果是，那你就贏了！聽起來很簡單，是吧？
+沒有傷害、沒有擊中要害、也沒有瀕死狀態會擋在你和那條棒呆了的第一名獎章之間。但等等！儘管沒有人會在比賽結束時暈厥倒下，並不意味著競爭不激烈，恰恰相反，最高級別的華麗大賽中到處充滿了訓練家之間的激烈競爭。
 
-People  fall  apart  under  the  spotlight.  Criticism  is  fierce, Judges can be ruthless and even the audience can be a tough nut to crack.
-These are not battles of power, you will use all of your social skills to confidently advance the rounds and earn the admiration of your peers and the good graces of the judges. 
+人們會在聚光燈下崩潰。批評會是激烈的，評審們可能冷酷無情，甚至連觀眾都可能成為不好對付的難題。
+這並不是比拼武力的戰鬥，你將會需要運用你所有的社交技巧來充滿自信地晉級，贏得同輩的讚賞以及評審的青睞。
 
-In a Pokémon Contest you are trying your best to show that you and your Pokémon have the talent, charisma and  expertise  to  give  a  performance  that  will  astound  the world. 
+在寶可夢華麗大賽中，你會嘗試盡你最大的努力來展現你和你寶可夢的天賦、魅力、和專業，做出一場震驚世界的表演。
+
 
 ---
 ## 信心值與壓力
-To present yourself before an audience you need to be confident enough to handle the stress that comes from having to entertain hundreds if not thousands of people.
+要在觀眾面前展現你自己，你會需要有足夠的自信心來處理面對數百甚至數千人的沉重壓力。
 
-**Natures**  give  a  specific  amount  of  **Confidence  Points** (p. 38) **You may think of Confidence as a “Social HP”** that will help you keep your cool under pressure.
 
-**Losing Confidece**  is similar to losing HP, but instead of suffering damage to your body, you’ll **suffer stress and emotional damage.** You’ll get progressively nervous and  anxious,  then  histerical.  Some  will  crumble  under  the pressure of being before an audience and if the stress gets too heavy you may completely shut down, explode into tears or go into an angry rampage. That is what we call a **Breakdown**.
+**性格**給了你特定數量的**信心值**（參見「性格」章節），你可以把信心值想成是一種「社交HP」，幫助你在壓力下保持冷靜。
+
+**失去信心值**就像是失去HP，但代表的不是你的身體受到傷害，而是你**承受了壓力和情緒傷害**。你會逐漸變得緊張、焦慮，然後變得歇斯底里。有些人會在面對觀眾的壓力下不知所措，而如果壓力太大，你甚至可能會徹底當機、大哭一場、或暴跳如雷。這就是我們所說的「**崩潰**」。
 
 {{< highlight >}}
-Any Contestant, Trainer or Pokémon, who suffers a Breakdown on stage, will be automatically disqualified. 
+任何在舞台上崩潰的選手（無論訓練家或寶可夢），都將自動被淘汰。
 {{< /highlight >}}
 
 <table>
@@ -50,13 +52,13 @@ Any Contestant, Trainer or Pokémon, who suffers a Breakdown on stage, will be a
 		<td>所有社交擲骰判定自動失敗。</td></tr>
 </table>
 
-**Stress Penalizations stack on each other** and can only be removed through **Trick cards** or by spending time relaxing. Will  Points  can  also  help  you  ignore  the  ill  effects  of stress for a short while.
+**壓力懲罰會互相疊加**，且只能透過「**技巧牌**」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
 
-Some Trainers take advantage of the show to bully other Pokémon into losing Confidence using Tricks while others use said Tricks to help their peers to Regain it.
+有些訓練家會利用技巧牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技巧牌以幫助他們的同伴重拾信心。
 
-If  you  or  your  Pokémon  lose  confidence  you'll  need  to regain it ASAP since contests are a team effort you'll be in trouble if one of you starts freaking out.
+如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
 
 {{< mynotice story >}}
-**Stress  Penalizations  are  usually reserved  for  Contest  situations** but they can also come into play in particularly stressful Pokémon Battles at your discretion.
+**壓力懲罰通常只會用於華麗大賽的情境中**，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。
 {{< /mynotice >}}
 
