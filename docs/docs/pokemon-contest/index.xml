@@ -59,8 +59,39 @@
 如果你骰出了所需的成功骰數，你將可以抽一張「反應牌」，你取得的成功骰數越多，你就能抽越多的反應牌，並忽略掉那些不好的反應！
 但如果你沒能取得所需的最低成功骰數，那麼群眾將會開始對你發出噓聲。
 牌堆 要想舉辦一場華麗大賽，你將會需要仔細閱讀規則，並準備一些卡牌來幫助大賽的進行。在遊戲中會有 3 組牌堆：
-反應牌堆 Reactions Deck 觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>Steps of the Show 1. Presentation Stage During this stage, Contestants are parading in their costumes and making their introductions to decide who will go first. Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in which the participants will advance through the runway. Each Contestant will draw 2 Trick Cards.
-2. Performance Runway These are the main events of the Contest.
-Once Presentation is done, each contestant will roll 1 die to advance the spaces through the runway.</description></item><item><title>協調訓練家等級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>Coordinator Ranks We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks for activities besides Pokémon Training, these Ranks will add benefits to your Character.
-If you dedicate yourself to winning Contests you will be able to gain Coordinator Ranks, these do not replace your Pokémon Trainer Rank but add to it.
-Think about it as a specialization to being a Pokémon Trainer.</description></item></channel></rss>
+反應牌堆 Reactions Deck 觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>華麗大賽演出的流程 1. 展示階段 在這個階段，所有參賽選手將會穿上他們的演出服裝並進行自我介紹，以決定誰能夠優先上場。每位選手使用他們（與大賽相符的）最高的社交特質來擲骰，決定他們在伸展台階段中的行動順序。接著，每位選手抽2張技巧牌。
+2. 伸展台演出階段 這是整個華麗大賽最主要的內容。
+在展示階段結束之後，每位選手將擲一顆骰子，並在大賽圖板的伸展台上前進等同該數量的格子數。
+每個格子裡都會寫著評審對你和你寶可夢表演的要求，你必須宣告你想要吸引哪一個評審的青睞，並描述、扮演你的行動。
+為你的表演行動擲骰：
+指定社交特質 + 表演
+根據你獲得的成功骰數，抽取一張或更多的「反應牌」。 說書人必須描述觀眾和評審們對此的反應。
+技倆牌是你的祕密武器！
+在你的回合中，你必須使用一張你手中的「技倆牌」，且這必須在你為你的表演行動擲骰判定之前執行。如果你使用技倆牌的社交特質與你所在格子的社交特質相符，那麼你將會獲得下列好處：
+你的表演將會額外獲得 1 個紅心。
+在你使用技倆牌之後，將其重新洗回牌堆，然後再抽一張。
+3. 最終壓軸階段 這是你給評審們留下深刻印象的最後機會，也是你好好利用你手中剩下的技倆卡的時機。
+第一個到達這裡的玩家將會獲得：
+5 個額外的紅心
+在這裡，你將會獲得進行一次壓軸表演的機會，而這個表演的內容將完全取決於你。這是你最後的行動機會，所以務必讓它與眾不同！
+你可以讓玩家在表演的擲骰判定中獲得額外的獎勵骰，以做為他們創意和優秀角色扮演的回報。
+4. 贏得比賽 一旦所有人都抵達了終點（最終壓軸階段的格子），則由擁有最多紅心的選手獲得優勝。（如果出現平手的情況，那麼優勝者將會是先一步到達終點的選手）。
+評審們將會宣布第一名、第二名、和第三名的名次，並開始頒獎典禮。
+5. 讚揚和獎賞! 這就是你所追求的時刻！
+每個人都為你雀躍，為你鼓掌歡呼，有人向你獻上玫瑰，有人將冠冕戴在你的頭上，為你的寶可夢繫上美麗的緞帶獎章。觀眾愛死你了！真的！
+每當你贏得了華麗大賽的名次，你都能夠獲得一筆現金做為獎勵，且可能提升你的協調訓練家階級。
+你可以透過贏得更多的華麗大賽和獎章來提升你的協調訓練家階級。這些階級將允許你獲得一些只有華麗大賽優勝者才能夠得到的聲譽類技能！
+協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>協調訓練家階級</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/</guid><description>協調訓練家階級 我們曾經提到過，「階級」代表的是你投入到某種特定生活方式中的時間和精力。除了寶可夢訓練之外，其他事業也會有其各自的階級，這些階級也將會為你的角色帶來許多好處。
+如果你投身於贏取華麗大賽的殊榮，你將能獲得所謂的「協調訓練家階級」。它們並不會取代你的寶可夢訓練家階級，而是與其共存。
+你可以把這想是寶可夢訓練家的其中一種專業。
+協調訓練家有他們自己專屬的技能類型，這些技能能讓他們在社交場合中大有益處。其中有些技能甚至能讓他們過上許多訓練家夢寐以求的奢華生活！
+協調訓練家被分成了 4 個階級：
+協調訓練家階級 你成功地給評審們留下了深刻的印象，並最終贏得了自己的第一個獎章。
+晉升這個階級需要達成什麼成就？ 在一般階級的華麗大賽中取得前三名的名次。 好處: 獲得 2 點可供分配於聲譽類技能的點數，技能上限為 1。 你現在可以參加超級階級的華麗大賽了。
+超級協調訓練家階級 你已經通過了協調訓練家的第一次篩選，自豪地展示出你的獎章吧。
+晉升這個階級需要達成什麼成就？ 在超級階級的華麗大賽中取得前三名的名次。 擁有至少 3 隻獲得過一般華麗大賽獎章的寶可夢。 好處: 額外獲得 1 點可供分配於聲譽類技能的點數，技能上限為 2。 你現在可以參加高級階級的華麗大賽了。
+高級協調訓練家階級 帶著自信大步前進吧，大家都渴望跟你一樣。
+晉升這個階級需要達成什麼成就？ 在高級階級的華麗大賽中取得前三名的名次。 擁有至少 3 隻獲得過超級華麗大賽獎章的寶可夢。 好處: 額外獲得 2 點可供分配於聲譽類技能的點數，技能上限為 4。 你現在可以參加大師階級的華麗大賽了。
+大師協調訓練家階級 你現在是VIP階層的一員了，你的社交技能和地位已經遠遠超過了絕大部分的人們。
+晉升這個階級需要達成什麼成就？ 在大師階級的華麗大賽中取得前三名的名次。 擁有至少 3 隻獲得過高級華麗大賽獎章的寶可夢。 好處: 額外獲得 5 點可供分配於聲譽類技能的點數，技能上限為 5。
+聲譽類技能 這些技能是所有協調訓練家的基礎。</description></item></channel></rss>

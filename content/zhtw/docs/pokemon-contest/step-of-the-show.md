@@ -4,104 +4,103 @@ weight = 3
 description = ""
 +++
 
-## Steps of the Show
-### 1. Presentation Stage
-During  this  stage,  Contestants  are  parading  in  their  costumes and making their introductions to decide who will go first. **Each Contestant rolls their highest Social attribute (related to the Contest) to decide the order in  which  the  participants  will  advance  through  the runway. Each Contestant will draw 2 Trick Cards.**
+## 華麗大賽演出的流程
+### 1. 展示階段
+在這個階段，所有參賽選手將會穿上他們的演出服裝並進行自我介紹，以決定誰能夠優先上場。**每位選手使用他們（與大賽相符的）最高的社交特質來擲骰，決定他們在伸展台階段中的行動順序。接著，每位選手抽2張技巧牌。**
 
 ---
-### 2. Performance Runway
-These are the main events of the Contest.
-Once  Presentation  is  done,  each  contestant  will **roll 1 die to advance the spaces** through the runway. 
-Each space has a request from the judges for you and your Pokémon to perform, you must declare the judge you'll appeal to and describe and roleplay your act.
+### 2. 伸展台演出階段
+這是整個華麗大賽最主要的內容。
+在展示階段結束之後，每位選手將**擲一顆骰子，並在大賽圖板的伸展台上前進等同該數量的格子數。**
+每個格子裡都會寫著評審對你和你寶可夢表演的要求，你必須宣告你想要吸引哪一個評審的青睞，並描述、扮演你的行動。
 
-**Roll your performance with:**
-<div class="middle">Social Attribute + Perform</div>
+**為你的表演行動擲骰：**
+<div class="middle">指定社交特質 + 表演</div>
 
-**Depending on how many successes you get, Draw one or more <u>Reaction cards</u>.** Your storyteller must narrate the reactions of the public and the judges.
+**根據你獲得的成功骰數，抽取一張或更多的<u>「反應牌」</u>。** 說書人必須描述觀眾和評審們對此的反應。
 
 {{< highlight >}}
-<b style="font-size: 1.2em;">Tricks up your sleeve!</b>
+<b style="font-size: 1.2em;">技倆牌是你的祕密武器！</b>
 
-On your turn, you must use a Trick card from your  hand,  this  must  be  done  before  your  performance roll, but if the Social Attribute from your Trick card, matches the one on the space you landed you will gain:
+在你的回合中，你必須使用一張你手中的「技倆牌」，且這必須在你為你的表演行動擲骰判定之前執行。如果你使用技倆牌的社交特質與你所在格子的社交特質相符，那麼你將會獲得下列好處：
 
-<b style="font-size: 1.2em;">1 Extra Heart on your Performance.</b>
+<b style="font-size: 1.2em;">你的表演將會額外獲得 1 個紅心。</b>
 
-After you use a Trick Card, shuffle it back in the deck and draw another one.
+在你使用技倆牌之後，將其重新洗回牌堆，然後再抽一張。
 {{< /highlight >}}
 
 ---
-### 3. Grand Finale Stage
-Last chance to impress the Judges and use any Trick you 
-might've been saving.
+### 3. 最終壓軸階段
+這是你給評審們留下深刻印象的最後機會，也是你好好利用你手中剩下的技倆卡的時機。
 
-**The first player to get here gains:**
-<div class="middle">5 Extra Hearts</div>
+**第一個到達這裡的玩家將會獲得：**
+<div class="middle">5 個額外的紅心</div>
 
-In here you will give one **last performance**, and this one is up to you, it's your final act so make sure it's something extraordinary!
+在這裡，你將會獲得進行一次**壓軸表演**的機會，而這個表演的內容將完全取決於你。這是你最後的行動機會，所以務必讓它與眾不同！
 
 {{< mynotice story >}}
-You  may  award  some  Bonus  dice for creativity and good role-playing  on the Player's performances.
+你可以讓玩家在表演的擲骰判定中獲得額外的獎勵骰，以做為他們創意和優秀角色扮演的回報。
 {{< /mynotice >}}
 
 ---
-### 4. Winning the Game
-Once everyone reaches the End Goal, **whoever got the highest  Heart  Count  will  win.**  (In  case  of  a  tie,  the  winner will be that who reached the end first).
-The 1st, 2nd & 3rd Places will be declared by the judges and presented in a ceremony award.
+### 4. 贏得比賽
+一旦所有人都抵達了終點（最終壓軸階段的格子），則由**擁有最多紅心的選手獲得優勝。**（如果出現平手的情況，那麼優勝者將會是先一步到達終點的選手）。
+評審們將會宣布第一名、第二名、和第三名的名次，並開始頒獎典禮。
 
 ---
-### 5. Praises and Prizes!
-These are the moments you live for!
-Everyone is happy, clapping and cheering for you, someone gives you a rose bouquet and puts a crown in your head and a beautiful ribbon on your Pokémon, the people love you! They really do!
+### 5. 讚揚和獎賞!
+這就是你所追求的時刻！
+每個人都為你雀躍，為你鼓掌歡呼，有人向你獻上玫瑰，有人將冠冕戴在你的頭上，為你的寶可夢繫上美麗的緞帶獎章。觀眾愛死你了！真的！
 
-Everytime you win a Contest, you’ll earn a cash prize and may gain a **Coordinator Rank**.
-You can increase your Coordinator Rank by winning more Contests and Ribbons. **These Ranks will allow you to have Notoriety Skills only available to Contest Winners!**
+每當你贏得了華麗大賽的名次，你都能夠獲得一筆現金做為獎勵，且可能提升你的**協調訓練家階級**。
+你可以透過贏得更多的華麗大賽和獎章來提升你的協調訓練家階級。**這些階級將允許你獲得一些只有華麗大賽優勝者才能夠得到的聲譽類技能！**
 
-##### <div class="icon Coor">Coordinator Rank</div>
-* 1st Place: $6,000
-* 2nd Place: $4,000
-* 3rd Place: $2,000
+##### <div class="icon Coor">協調訓練家階級</div>
+* 第一名: $6,000
+* 第二名: $4,000
+* 第三名: $2,000
 
-##### <div class="icon SuperCoor">Super Coordinator Rank</div>
-* 1st Place: $12,000
-* 2nd Place: $6,000
-* 3rd Place: $3,000
+##### <div class="icon SuperCoor">超級協調訓練家階級</div>
+* 第一名: $12,000
+* 第二名: $6,000
+* 第三名: $3,000
 
-##### <div class="icon HyperCoor">Hyper Coordinator Rank</div>
-* 1st Place: $18,000
-* 2nd Place: $8,000
-* 3rd Place: $6,000
+##### <div class="icon HyperCoor">高級協調訓練家階級</div>
+* 第一名: $18,000
+* 第二名: $8,000
+* 第三名: $6,000
 
-##### <div class="icon MasterCoor">Master Coordinator Rank</div>
-* 1st Place: $30,000
-* 2nd Place: $15,000
-* 3rd Place: $10,000
+##### <div class="icon MasterCoor">大師協調訓練家階級</div>
+* 第一名: $30,000
+* 第二名: $15,000
+* 第三名: $10,000
 
 ---
-## Contest Board
-How to Play on a Contest Board
+## 大賽圖板
+大賽圖板的說明：
 {{< img src="/images/06-01-contest-board.JPG" width="90%" position="center" selflink="true" >}}
 
-1. Entire Board, you may create your own.
-2. Presentation Stage, Contestants start here.
-3. Tricks Deck. Use a Trick card on your turn. 
-4. Mishaps Deck. Draw one if you had bad luck on the board or a failed performance.
-5. Reactions Deck. Draw cards according to how well you did in your Performance. More successes will allow you to ignore negative reactions.
-6. Contest Judges.  Storyteller gives them an unrevealed preference for a Social Attribute that awards 1 Extra Heart if they are appealed to.
-7. Contest Edition. Changes for each type of contest.
-8. Performance Runway. The main events of the Contest.
-9. Mishap Spaces. Draw a Mishap Card if you land here.
-10. Grand Finale Stage. One last performace, This one is up to you.
+1. **整個遊戲圖板**，你可以自行創造你們自己的。
+2. **展示階段**，所有參賽選手將從這裡開始。
+3. **技倆牌堆**。 你必須在你的回合使用一張技倆牌。
+4. **事故牌堆**。 如果你運氣不好停在伸展台上對應的格子、或做出了失敗的表演，則抽一張。
+5. **反應牌堆**。 根據你表演的成果抽牌。越多的成功骰將讓你得以忽略掉負面的反應。
+6. **華麗大賽評審**。 說書人將會秘密設定每個評審各自偏好的社交特質，若你使用了該社交特質來吸引評審，你將會額外獲得 1 個紅心。
+7. **華麗大賽類型**。 會根據每種不同類型的華麗大賽而變更。
+8. **表演伸展台**。 整個華麗大賽最主要的內容。
+9. **事故格**。 如果你停在這個格子上，抽一張事故牌。
+10. **最終壓軸階段**。 最後的演出機會，表演內容將完全由你自己決定。
 
 ---
 {{< boxmd >}}
-<center>Pokémon Contests are a Mini-Board Game.</center>
+<center>寶可夢華麗大賽其實就是一場迷你桌遊！</center>
 
-### The Game's Objetive:
-Reach the END GOAL without breaking down, while gaining as many Hearts as possible from the Judges.
+### 遊戲目標：
+在保持不要崩潰的情況下抵達終點，並從評審那裡取得盡可能多的紅心。
 
-### Tips for the aspiring Coordinator
-1. Be prepared to roleplay your performances, as the board will only give you a brief idea of what you must do before the audience.
-2. Save money. Contests are not an everyday event but they are an expensive one at that. Between entry fees, costumes and accesories, be sure to carry extra cash!
-3. Just like Pokémon battles, Contests can be a real challenge, don't be disheartened if you lose because that's part of growth in the Pokémon world.
-4.  Same  as  Pokémon  battles,  you  will  need  to  train and raise Pokémon that stand out and thrive with the  attention. Shy Pokémon won't fare well in contests!
+### 給志向遠大的協調訓練家的建議：
+1. 做好描述扮演你表演內容的準備，因為圖板格子上的內容只會簡單告訴你在觀眾面前必須要做什麼。
+2. 存錢。華麗大賽不是什麼每天都會舉辦的活動，而它的參加成本也相當高昂。除了報名費、演出服裝和飾品之外，還請務必帶上額外的現金！
+3. 就跟寶可夢對戰一樣，華麗大賽也是一項真正的挑戰。即使輸了也不要氣餒，因為這也只是你在寶可夢世界中經歷成長的一部分。
+4. 就跟寶可夢對戰一樣，你將會需要訓練培育寶可夢，讓牠們能脫穎而出，在眾人的注目中茁壯。個性害羞的寶可夢可無法在華麗大賽中取得好成績！
 {{< /boxmd >}}

@@ -1,133 +1,136 @@
 +++
-title = "協調訓練家等級"
+title = "協調訓練家階級"
 weight = 4
 description = ""
 +++
 
-## Coordinator Ranks
-We mentioned before that Rank is a representation of time and effort put into a particular lifestyle, There are Ranks  for  activities  besides  Pokémon  Training,  these Ranks will add benefits to your Character.
+## 協調訓練家階級
+我們曾經提到過，「階級」代表的是你投入到某種特定生活方式中的時間和精力。除了寶可夢訓練之外，其他事業也會有其各自的階級，這些階級也將會為你的角色帶來許多好處。
 
-If you dedicate yourself to winning Contests you will be able  to  gain  Coordinator  Ranks,  these  **do  not  replace your Pokémon Trainer Rank** but add to it.
-Think  about  it  as  a  specialization  to  being  a  Pokémon Trainer. 
+如果你投身於贏取華麗大賽的殊榮，你將能獲得所謂的「協調訓練家階級」。**它們並不會取代你的寶可夢訓練家階級**，而是與其共存。
+你可以把這想是寶可夢訓練家的其中一種專業。
 
-Coordinators have their own types of skills that benefit them greatly in social situations. Some of them can even grant them a life of luxury that many Trainers can only dream of!
+協調訓練家有他們自己專屬的技能類型，這些技能能讓他們在社交場合中大有益處。其中有些技能甚至能讓他們過上許多訓練家夢寐以求的奢華生活！
 
-There are four Coordinator Ranks:
+協調訓練家被分成了 4 個階級：
 
-### <div class="icon Coor">Coordinator Rank</div>
-You’ve  managed  to  impress  the  Judges  and  you  have finally won your first ribbon.
+<div class="Frame">
 
-###### What Achievements do I need to get this Rank?
-* Be among the first 3 places in a Normal Contest
+### <div class="icon Coor">協調訓練家階級</div>
+你成功地給評審們留下了深刻的印象，並最終贏得了自己的第一個獎章。
 
-###### Benefits:     
-* 2 Points to distribute on a Notoriety Skill with Limit 1.
-* You can now participate in Super Contests.
+###### 晉升這個階級需要達成什麼成就？
+* 在一般階級的華麗大賽中取得前三名的名次。
 
+###### 好處:
+* 獲得 2 點可供分配於聲譽類技能的點數，技能上限為 1。
+* 你現在可以參加超級階級的華麗大賽了。
+</div>
+<div class="Frame">
 
-### <div class="icon SuperCoor">Super Coordinator Rank</div>
-You have passed the first filter among the do's and the don'ts, show that Ribbon with pride.
+### <div class="icon SuperCoor">超級協調訓練家階級</div>
+你已經通過了協調訓練家的第一次篩選，自豪地展示出你的獎章吧。
 
-###### What Achievements do I need to get this Rank?
-* Be among the first 3 places in a Super Contest
-* At least 3 of your Pokémon must have a Normal Contest Ribbon.
+###### 晉升這個階級需要達成什麼成就？
+* 在超級階級的華麗大賽中取得前三名的名次。
+* 擁有至少 3 隻獲得過一般華麗大賽獎章的寶可夢。
 
-###### Benefits:     
-* 1 Extra Point to distribute on Notoriety Skills with Limit 2.
-* You can now participate in Hyper Contests.
+###### 好處:
+* 額外獲得 1 點可供分配於聲譽類技能的點數，技能上限為 2。
+* 你現在可以參加高級階級的華麗大賽了。
+</div>
+<div class="Frame">
 
+### <div class="icon HyperCoor">高級協調訓練家階級</div>
+帶著自信大步前進吧，大家都渴望跟你一樣。
 
-### <div class="icon HyperCoor">Hyper Coordinator Rank</div>
-Walk with confidence, everyone wants to be like you.
+###### 晉升這個階級需要達成什麼成就？
+* 在高級階級的華麗大賽中取得前三名的名次。
+* 擁有至少 3 隻獲得過超級華麗大賽獎章的寶可夢。
 
-###### What Achievements do I need to get this Rank?
-* Be among the first 3 places in a Hyper Contest
-* At least 3 of your Pokémon must have a Super Contest Ribbon.
+###### 好處:
+* 額外獲得 2 點可供分配於聲譽類技能的點數，技能上限為 4。
+* 你現在可以參加大師階級的華麗大賽了。
+</div>
+<div class="Frame">
 
-###### Benefits:     
-* 2 Extra Points to distribute on Notoriety Skills with Limit 4.
-* You can now participate in  Master Contests.
+### <div class="icon MasterCoor">大師協調訓練家階級</div>
+你現在是VIP階層的一員了，你的社交技能和地位已經遠遠超過了絕大部分的人們。
 
+###### 晉升這個階級需要達成什麼成就？
+* 在大師階級的華麗大賽中取得前三名的名次。
+* 擁有至少 3 隻獲得過高級華麗大賽獎章的寶可夢。
 
-### <div class="icon MasterCoor">Master Coordinator Rank</div>
-You are now part of the VIP group, your social skills and status are beyond the reach of most.
-
-###### What Achievements do I need to get this Rank?
-* Be among the first 3 places in a Master Contest
-* At least 3 of Pokémon must have an Hyper Contest ribbon.
-
-###### Benefits:     
-* 5 Extra Points to distribute on Notoriety Skills with Limit 5.
+###### 好處:
+* 額外獲得 5 點可供分配於聲譽類技能的點數，技能上限為 5。
+</div>
 
 
 ---
-## Notoriety Skills
-These Skills are fundamental to any Coordinator.
-They  represent  your  Character’s  status,  wealth  and  conections in society. For this reason, they cannot be raised with Trainer Rank Points, only through Coordinator Ranks they may be increased, but they share the same scale of improvement.
+## 聲譽類技能
+這些技能是所有協調訓練家的基礎。
+它們代表著你角色的地位、財富、和社會關係。由於這個原因，這些技能都不能透過訓練家階級給予的技能點數來提升，而只能透過提升協調訓練家階級才能夠被提升；然而，這些技能的數值範圍都是相同的：
 
-* 1 Point  is Low
-* 2 Points is Average
-* 3 Points is Good
-* 4 Points is Excellent
-* 5 Points is Superior
+* 1 點為 低落
+* 2 點為 平均
+* 3 點為 良好
+* 4 點為 優異
+* 5 點為 頂尖卓越
 
 {{< highlight >}}
 <center>
-<b style="font-size: 1.2em;">Notoriety Skills are not Re-trainable</b><br/>
-<u>Choose them wisely.</u>
+<b style="font-size: 1.2em;">聲譽類技能不可重訓</b><br/>
+<u>請謹慎選擇。</u>
 </center>
 {{< /highlight >}}
 
 
-### Fame
-People that know who you are, what you do and are always paying attention to your next move. Whatever you say will be treated as truth, and copied by others.
-More fame means more people know about you!
-Use this to gain trust, access to places, and favors to basically get things for free.
-Everyday you must sign a few autographs and deal with the papparazi, make sure they only see your good side!
+### 名氣
+人們知道你是誰，你做了什麼，並總是關注著你的下一步。你所說的任何話與都會被當作真理，並被他人爭相效仿。名氣技能越高，就意味著有更多的人知道你！
+利用這個技能來博取信任、獲得進入某處的機會、或幫助，好讓你能免費獲得一些玩意兒。
+你每天都必須簽幾個名、跟狗仔記者打交道，確保他們只看到了你好的那一面！
 <table>
-<tr><td align="left"> ●○○○○ </td><td align="left"> You have a few hundred followers on social media. </td></tr>
-<tr><td align="left"> ●●○○○ </td><td align="left"> The media calls you "Influencer" (whatever that means...) </td></tr>
-<tr><td align="left"> ●●●○○ </td><td align="left"> You are a local celebrity on your hometown or a city of your chosing. </td></tr>
-<tr><td align="left"> ●●●●○ </td><td align="left"> Everyone in the region has seen your picture and knows about you. </td></tr>
-<tr><td align="left"> ●●●●● </td><td align="left"> Worldwide fame, everywhere you go people know everything of you. </td></tr>
+<tr><td align="left"> ●○○○○ </td><td align="left"> 你在社交媒體上有數百個粉絲。 </td></tr>
+<tr><td align="left"> ●●○○○ </td><td align="left"> 媒體稱你為「網紅」（不管那意味著什麼……） </td></tr>
+<tr><td align="left"> ●●●○○ </td><td align="left"> 你在你家鄉或你選擇的一個城市中是個大名人。 </td></tr>
+<tr><td align="left"> ●●●●○ </td><td align="left"> 這個地區的每個人都看過你的照片，並知道你的存在。 </td></tr>
+<tr><td align="left"> ●●●●● </td><td align="left"> 你揚名四海，無論你走到哪裡，人們都知道所有關於你的一切。 </td></tr>
 </table>
 
 
-
-### Supporters
-People  to  back  you  up,  you  can  convince  groups  of people to do things for you. The more you develop this skill the further lengths they'll go for you.
-Whenever  you  get  a  point  in  this  Notoriety  Skill  describe  your  supporter's  profile,  their  likes/dislikes goals and ideals.
-Everyday  you  must  thank  your  supporters  and  make them feel special or you will be seen as an opportunist.  
+### 擁護者
+人們支持你，你能夠說服一群人為你做事。你越進一步發展這個技能，他們願意為你做的事就越多。
+每當你分配一點技能點在這個聲譽類技能時，描述你的擁護者們是什麼樣子，他們喜歡／不喜歡的事物、他們的目標和理想。
+你每天都必須感謝你的擁護者們，讓他們感覺自己很特別，否則你將會被視作一個投機取巧的傢伙。
 <table>
-<tr><td align="left"> ●○○○○ </td><td align="left"> They will agree with things you say but won't do more. </td></tr>
-<tr><td align="left"> ●●○○○ </td><td align="left"> They'll take action if they believe you have a good cause. </td></tr>
-<tr><td align="left"> ●●●○○ </td><td align="left"> They'll do as you ask as long as they don't get in trouble for it. </td></tr>
-<tr><td align="left"> ●●●●○ </td><td align="left"> Whatever you ask for, they feel is their responsability to help you get it. </td></tr>
-<tr><td align="left"> ●●●●● </td><td align="left"> You don't even need to ask, they will act on their own for you. </td></tr>
+<tr><td align="left"> ●○○○○ </td><td align="left"> 他們會同意你所說的話，但僅此而已。 </td></tr>
+<tr><td align="left"> ●●○○○ </td><td align="left"> 如果他們相信你有正當理由，他們就會為你行動。 </td></tr>
+<tr><td align="left"> ●●●○○ </td><td align="left"> 只要不會因此惹上麻煩，他們就會按照你的要求去做。 </td></tr>
+<tr><td align="left"> ●●●●○ </td><td align="left"> 無論你要求什麼，他們都會覺得自己有責任幫助你弄到它。 </td></tr>
+<tr><td align="left"> ●●●●● </td><td align="left"> 你甚至不需要主動要求，他們就會自發地為了你行動起來。 </td></tr>
 </table>
 
 
-
-### Connections
-You are friends with people in high places, this can get you information and knowledge not available to the general public. Use this to get advice, clues, jobs or data from the area of expertise of your connections.
-Each  time  you  get  a  point  on  this  Notoriety  Skill  describe the kind of connections you've got.
-Everyday you must make phone calls or work related to the field of your choice.
+### 人脈
+你和一些身居要職的人們是朋友，這可以讓你得到一些平民百姓接觸不到的情報和知識。利用這個技能，你可以得到來自你人脈專業領域中的建議、線索、工作、或資料。
+每當你分配一點技能點在這個聲譽類技能時，描述你得到了什麼樣的人脈關係。你每天都必須跟你所選領域裡的人們通個電話或做個與其有關的工作。
 <table>
-<tr><td align="left"> ●○○○○ </td><td align="left"> You are acquaitances one person on the field of your choice.  </td></tr>
-<tr><td align="left"> ●●○○○ </td><td align="left"> You are friends with a respected person on the field of your choice. </td></tr>
-<tr><td align="left"> ●●●○○ </td><td align="left"> You are a respected person on the field of your choice. </td></tr>
-<tr><td align="left"> ●●●●○ </td><td align="left"> You can choose one more field to be respected in. </td></tr>
-<tr><td align="left"> ●●●●● </td><td align="left"> You can choose one more field to be respected in. </td></tr>
+<tr><td align="left"> ●○○○○ </td><td align="left"> 你在所選擇的領域中有個熟人。 </td></tr>
+<tr><td align="left"> ●●○○○ </td><td align="left"> 你與所選領域中一個受人敬重的人物是朋友。 </td></tr>
+<tr><td align="left"> ●●●○○ </td><td align="left"> 你就是所選領域中一個受人敬重的人物。 </td></tr>
+<tr><td align="left"> ●●●●○ </td><td align="left"> 你可以再選一個領域，並在其中同樣受人敬重。 </td></tr>
+<tr><td align="left"> ●●●●● </td><td align="left"> 你可以再選一個領域，並在其中同樣受人敬重。 </td></tr>
 </table>
 
 
-
-### Sponsors
-What good is being known and respected if you can't make  a  profit?    If  you  don't  mind  carrying  a  few  logos on your clothing or making ads for products you have never used, you will receive a bi-weekly income from your sponsors! Each time you get a point on this  Notoriety  Skill  describe  the  kind  of  sponsors  you've got. Everyday you must do something to promote their brands or risk losing sponsors!
+### 贊助商
+如果不能獲利，那麼出名和受人尊敬又有什麼好處呢？
+假如你不介意在你的衣服印上幾個商標、或為一些你從未使用過的產品做廣告代言，那麼你將可以從你的贊助商那裡收到一筆每兩周入帳的收入！
+每當你分配一點技能點在這個聲譽類技能時，描述你得到了什麼樣的贊助商。你每天都必須做些事情來推廣他們的品牌，否則就會有失去贊助的風險！
 <table>
-<tr><td align="left"> ●○○○○ </td><td align="left"> A small brand offers you an income of $50 for wearing their logo. </td></tr>
-<tr><td align="left"> ●●○○○ </td><td align="left"> You get a contract to wear more brands logos for $200 </td></tr>
-<tr><td align="left"> ●●●○○ </td><td align="left"> Companies pay you $800 to say their products are good. </td></tr>
-<tr><td align="left"> ●●●●○ </td><td align="left"> You appear on TV commercials of a certain brand for $5000 </td></tr>
-<tr><td align="left"> ●●●●● </td><td align="left"> You are the face of a world-recognized brand for $20,000 </td></tr>
+<tr><td align="left"> ●○○○○ </td><td align="left"> 一間小牌贊助商提供了你 $50 的費用來讓你穿上印有他們商標的衣物。 </td></tr>
+<tr><td align="left"> ●●○○○ </td><td align="left"> 你簽下合同，穿上更多印有商標的衣物來獲取 $200 的贊助。 </td></tr>
+<tr><td align="left"> ●●●○○ </td><td align="left"> 公司願意付你 $800 請你宣傳他們的產品。 </td></tr>
+<tr><td align="left"> ●●●●○ </td><td align="left"> 你拍攝某個品牌的電視廣告來獲得 $5000 的贊助。 </td></tr>
+<tr><td align="left"> ●●●●● </td><td align="left"> 你現在是世界知名品牌的代言人，贊助商為此提供 $20,000 的贊助。 </td></tr>
 </table>
