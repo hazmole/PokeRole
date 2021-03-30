@@ -4,36 +4,36 @@ weight = 7
 description = ""
 +++
 
-## Catching Pokemon
-There is a significant difference between human-raised Pokémon  and  wild  ones.  Most  Pokémon  you  find  in towns and cities are the descendants of wild Pokémon  that were domesticated by trainers generations ago. 
-They  have  been  bred  and  taught  to  be  friendly,  loyal,  and  obedient;  They'll  adapt  to  their  owner's  Rank  and depend on their Trainer to get stronger.
+## 收服寶可夢
+人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
+牠們從小就被培育教導成要友善、忠誠、且順從；牠們會跟從牠們主人的階級，且需要仰賴訓練家的幫助才能使自己變得更強大。
 
-But Pokémon that live in the wild can be either Pokémon  turned  feral  after  being  abandoned  or  Pokémon  that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.
+然而那些生活在野外的寶可夢，無論是被遺棄後恢復了野性、或是一輩子都沒有接觸過人類，這都使牠們必須憑藉自己純粹的實力和求生本能，才有辦法提升自己的階級，在野外生存下來。
+無論是哪種情況，這兩種野生的寶可夢都對人類懷抱著不信任感，甚至忌妒人類身邊的寶可夢夥伴。牠們有些會因為恐懼而逃離，有些則會展現出侵略性，盡一切努力從牠們視為生存威脅的存在面前保護自己。
 
-Whatever  the  case,  both  kinds  of  wild  Pokémon  are  distrustful of humans and even jealous of their Pokémon  companions.  Some  will  flee  in  fear,  others  will  get  aggressive and do everything to protect themselves from what they see as a threat to their survival.
+野生寶可夢擁有著那些人類飼養的寶可夢所沒有的生存技巧。同時，野外也存在著一些因為其強大力量而尚未被馴服和眷養的物種。收服任何一隻這類寶可夢，都將讓你變得比其他訓練家更有優勢；此外，牠們還能讓你學習到許多課題，像是團隊合作、性格本質、以及遵循直覺的種種，就如同你能夠教導牠們關於人類世界的知識一樣。
 
-Wild Pokémon have honed skills of survival that human-raised  Pokémon  do  not  have.  Also,  there  are  species that have not been tamed nor domesticated due to their  formidable  strength.  Catching  one  of  these  specimens would  give  you  an  advantage  over  the  other  trainers; And they can teach you as much about teamwork, nature and following your instincts as you can teach them about the human world.
 
 ---
-### Habitats
-The  world  of  Pokémon  is  big,  if  not  bigger  than  ours. 
-There  are  places  where  certain  kinds  of  Pokémon  are drawn to, and there are Pokémon that can only be found in certain parts of the globe.
-  
-Experienced Trainers don’t go around the world throwing  Pokéballs  at  everything  that  moves.  They  study  the  habitats  of  the  Pokémon  and  seek  for  a  specimen that  seems  good-natured  or  try  to  gain  the  trust  and  respect of a Pokémon that seems especially wary.
+### 棲息地
+寶可夢的世界相當遼闊，甚至比我們的世界還要大。
+有些環境能夠吸引到特定種類的寶可夢在該處棲居，也有些寶可夢只會在全世界的某些特定場所中出現。
+
+經驗豐富的訓練家不會隨隨便便往世界各地亂跑，朝任何會動的東西亂丟精靈球。他們會仔細研究寶可夢們的棲息地，尋找那些似乎較為溫和的物種，或試圖獲得那些似乎特別警戒的寶可夢的信任與尊重。
 
 {{< mynotice story >}}
-Some  Pokémon  are  so  rare  that  people don’t know if they are real or legends. 
-To  find  them,  trainers  have  to  venture into uncharted areas.
+有些寶可夢實在太過罕見，以至於人類無法確定這些寶可夢到底是真實存在亦或只是個傳說。
+為了找到牠們，訓練家們將不得不冒險進入未知的領域中。
 {{< /mynotice >}}
 
 
 ---
-### Special Pokémon
-Around the world, there are Pokémon that do not fit their species  stereotypes.  While  every  Pokémon  is  unique, these Pokémon have special qualities to them that can make them literally one in a million. 
-Traits  like  a  different  color  pattern,  a  bigger  size  and even moves or abilities that defy their nature.
+### 特殊的寶可夢
+在世界各處，存在著一些不符合牠們物種刻板印象的寶可夢們。儘管每一隻寶可夢都是獨一無二的，但這些寶可夢的特別性質，讓牠們確實成為了萬中選一的存在。
+這些特殊性質包括了不同的紋路花色、過大的身軀、和甚至違背了牠們天性的招式或特性。
 
 
-#### ⬛ Shiny Pokémon, Alternate Forms & Regional Variants. 
+#### ⬛ 異色寶可夢、形態變化、地區形態
 Some Pokémon have a different coloration in their fur, hide,  feathers  or  scales. This  change  can  be  aesthetic or it can involve a **change in Typing, Attribute Limits, Moves and/or Abilities.**
 
 **Shiny Pokémon** are distinguished by the sparkles they leave behind as if they were coated in a glittery dust. 
@@ -45,15 +45,15 @@ Their  exotic  look  makes  them  highly  appreciated  in  beauty  contests  and
 **Regional  Variants**  are  Alternate  forms  of  Pokémon that can only be found in certain regions, they are the result of introducing foreign Pokémon into an established habitat, over the generations the Pokémon have to adapt to  this  new  environment,  this  can  make  them  **change their type, abilities, move set and even make evolve into something their regular counterparts cannot.**
 
 
-#### ⬛ Overgrown Pokémon
+#### ⬛ 體型過大的寶可夢
 Most Pokémon have a standard size and weight, but there are reported cases of Pokémon that could be considered giants  within  their  own  species.  **Overgrown  Pokémon  are  usually  around  30%  to  60%  bigger  than  their  regular-sized  counterparts**  but  they  are  very  rare  to find.  Their  main  characteristic  is  that  their  size  and weight keep proportion.
 
 Many trainers have overfed their Pokémon with the hopes of making them bigger, only to end up making them fatter.  An overgrown Pokémon is born that way. Even if at birth it has a normal size, it will keep growing until it reaches maturity.
 
-Overgrown  Pokémon  have  a  higher  Base  HP  than  their regular-sized counterparts.
-<div class="middle">Increase their Base HP by 1</div>
+體型過大的寶可夢有著比牠們普通尺寸的同類還要更高的基礎HP。
+<div class="middle">牠們的基礎HP增加 1 點。</div>
 
-#### ⬛ Hidden Moves and Abilities
+#### ⬛ 隱藏的招式和特性
 There  are  records  in  this  world’s  history  that  depict  certain  Pokémon  using  powers  and  Abilities  different from those normally seen on them.
 Only a few proficient trainers like Gym Leaders and Elites are known for owning at least one of this Special Pokémon.
 However, it is unknown if they captured their Pokémon  with those rare abilities or somehow they worked with them to attain them.
@@ -63,140 +63,139 @@ Storyteller's discretion should be applied for Pokémon to  have  Moves  and/or 
 
 
 ---
-### Using Pokéballs
-If you want to catch a Wild Pokémon, you are gonna need Pokéballs. You can buy them at any Pokémart. 
-Greatballs  and  Ultraballs  can  be  more  expensive  than a  regular  Pokéball,  but  in  the  end,  they  can  save  you money by not breaking apart when you need to capture a powerful Pokémon.
+### 使用精靈球
+如果你想要收服野生的寶可夢，那麼你就會需要精靈球。你可以在任何的友好商店中購買到它們。
+儘管超級球和高級球比普通的精靈球還要更昂貴，但最終當你需要捕捉更強大的寶可夢時，它們還是比較划算的，因為它們不會那麼輕易就壞掉。
 
-When you capture a Pokémon within a Pokéball, the chip  will be branded with your Trainer’s ID. That way other  Trainer’s Pokéballs won’t be able to trap your Pokémon to steal it.
-Pokéballs can’t carry Humans, rooted objects like trees or mountain boulders, machinery that contains a lot of small pieces such as motor vehicles and electronics.
+當你使用精靈球捕捉到寶可夢時，裡頭的晶片將會印上你的訓練家ID。這麼一來，其他訓練家的精靈球就無法捕捉你的寶可夢，保障牠不會被輕易偷走。
+精靈球無法收納人類、像是樹木或山上巨石這類根植於地的物件、以及像是汽車或電子產品這類含有大量小型零件的機械。
 
-Big objects like tents, bicycles, and potions in bulk are sold  with  their  own  Pokéball  for  easy  storage.  Once a  Pokéball  is  used  to  carry  something  inside  it  gets  coded into it and cannot carry anything else. Just like with  Pokémon,  the  item  it  carries  will  have  your  ID  number  and  can  be  retrieved  back  to  you  through  a  computer in case you lose them or want to store them.
+像帳篷、自行車、傷藥箱這類的大型物品在販售時都會附有其專屬的精靈球以方便收納。一旦精靈球被使用於收納物品，它將會被重新編碼，並從此不能再拿來攜帶其他物品。就跟寶可夢一樣，它所收納的物品會印上你的訓練家ID，並可以在你弄丟它們、或想儲存它們的時候透過電腦來找回它們。
 
 
-#### ⬛ Catch Roll
-The main use of Pokéballs is catching Pokémon, they all have a seal you need to roll for the catch to be a success:
+#### ⬛ 收服判定
+精靈球的主要用途在於收服寶可夢。它們都有著各自的捕獲強度，而要成功捕捉寶可夢，你需要為其擲骰判定：
 
 <table style="width:60%;">
-	<tr><th>Item</th><th>Seal Potency</th></tr>
-	<tr><td><b class='icon Beginner' style="display: inline-block;">Pokeball</b> </td><td>4 dice</td></tr>
-	<tr><td><b class='icon Amateur' style="display: inline-block;">Greatball</b> </td><td>6 dice</td></tr>
-	<tr><td><b class='icon Ace' style="display: inline-block;">Ultraball</b> </td><td>8 dice</td></tr>
+	<tr><th>道具</th><th>捕獲強度</th></tr>
+	<tr><td><b class='icon Beginner' style="display: inline-block;">精靈球</b> </td><td>4 顆骰子</td></tr>
+	<tr><td><b class='icon Amateur' style="display: inline-block;">超級球</b> </td><td>6 顆骰子</td></tr>
+	<tr><td><b class='icon Ace' style="display: inline-block;">高級球</b> </td><td>8 顆骰子</td></tr>
 </table>
 
-Inflicting damage or a Status Ailments will modify your Catch Roll. These Bonuses Stack with each other, giving you up to +3 extra successes to your Catch Roll. **You lose ALL Bonus Successes against a Fainted Pokémon.**
+對寶可夢造成傷害或使其陷入異常狀態將能夠提高你收服判定的成功機率。
+這些成功骰獎勵會彼此疊加，並為你的收服判定提供最多 +3 的額外成功骰數。**如果寶可夢陷入瀕死狀態，你將失去所有的成功骰獎勵。**
 
 <table style="width:80%;">
-	<tr><th>Wild Pokémon's Condition</th><th>Bonus Successes</th></tr>
-	<tr><td>Pokémon is at half HP </td><td>1</td></tr>
-	<tr><td>Pokémon is at 1 HP </td><td>1</td></tr>
-	<tr><td>Pokémon has a Status Ailment </td><td>1</td></tr>
+	<tr><th>野生寶可夢的狀況</th><th>成功骰獎勵</th></tr>
+	<tr><td>寶可夢的HP低於一半 </td><td>+1</td></tr>
+	<tr><td>寶可夢的HP僅剩 1 點 </td><td>+1</td></tr>
+	<tr><td>寶可夢陷入異常狀態 </td><td>+1</td></tr>
 </table>
 
-Stronger Pokémon are harder to catch, this is why you must score a number of successes that varies with their Rank:
+越強大的寶可夢會越難被收服，這也是為什麼你在收服越高階級的寶可夢時會需要取得越多的成功骰數。
 
 <table style="width:60%;">
-	<tr><th>Pokémon's Rank</th><th>Required Successes</th></tr>
-	<tr><td>Starter</td><td>3</td></tr>
-	<tr><td>Beginner</td><td>4</td></tr>
-	<tr><td>Amateur</td><td>6</td></tr>
-	<tr><td>Ace</td><td>8</td></tr>
-	<tr><td>Professional</td><td>9</td></tr>
+	<tr><th>寶可夢階級</th><th>所需成功骰數</th></tr>
+	<tr><td>新手</td><td>3</td></tr>
+	<tr><td>初學者</td><td>4</td></tr>
+	<tr><td>業餘者</td><td>6</td></tr>
+	<tr><td>菁英</td><td>8</td></tr>
+	<tr><td>專家</td><td>9</td></tr>
 </table>
 
 {{< boxmd >}}
-If you don't score the Required  Successes, the Pokémon breaks free and the Pokéball is rendered unusable.
+若你沒有得到需要的成功骰數，則該寶可夢將會掙脫出來，且該精靈球將無法再被使用。
 {{< /boxmd >}}
 
 {{< example >}}
-Leslie found a wild Clefairy!
+萊斯莉發現了一隻野生的皮皮！
 
-After a fierce battle, she damaged Clefairy down to half its maximum HP. It is time to use a Pokéball!
+在經過一番激烈的戰鬥之後，她成功把皮皮的HP減少到最大HP的一半。是時候使用精靈球了！
+她丟出了精靈球，並擲骰判定：
 
-She throws the Pokéball and rolls:
+{@icon dice|m|4} 精靈球的骰池
+<b style="font-size:1.3em; color:#4cbb4c">+1 成功骰</b>（皮皮的HP低於一半）
 
-{@icon dice|m|4} Pokéball's Dicepool
-\+ <b style="font-size:1.5em; color:#4cbb4c">1 Success</b> (Clefairy’s at Half HP)
+**收服判定**： {@icon rdice|s|4}{@icon rdice|s|5}{@icon rdice|s|2}{@icon rdice|s|1}
 
-**Catch Roll**: {@icon rdice|s|4}{@icon rdice|s|5}{@icon rdice|s|2}{@icon rdice|s|1}
-
-Leslie scored 3 success. Since this Clefairy's Ranking is at Starter. That means...
-**Leslie caught a wild Clefairy!**
+萊斯莉得到了三顆成功骰。由於這隻皮皮的階級是「新手」，這意味著……
+**萊斯莉成功收服了一隻野生的皮皮！**
 {{< /example >}}
 
-Inflicting damage on a Pokémon will reduce its Happiness and Loyalty; don't expect a Pokémon you just beat into a pulp to be a happy and compliant partner.
-Other  Pokémon  take  pride  in  proving  themselves  and handle their defeat against you gracefully.
+對寶可夢造成傷害將會降低牠的幸福度和忠誠度；別指望牠們會在被打了個鼻青臉腫之後會馬上成為你快樂又順從的夥伴。
 
-You may also try and convince a Pokémon to come into adventures with you, no harm in trying.
-A friendly approach may win you their loyalty, although some Pokémon are picky as to whom they allow to train them. 
+其他寶可夢以證明自己為榮，並會優雅地面對牠們被你擊敗的事實。
+
+你也可以嘗試說服寶可夢跟你一起冒險，試試也無妨。
+友善的互動也許能讓你贏得牠們的忠誠，但也有些寶可夢特別挑剔，會挑選被允許能夠訓練牠們的訓練家。
 
 {{< highlight >}}
-Pokémon with a higher Rank than a Trainer won't obey commands and cannot be a part of Training Sessions. 
-If they were caught forcefully, they may even try to escape!
+階級比訓練家還要高的寶可夢並不會服從命令，且不會參與任何「訓練課程」。
+如果牠們被強行收服，牠們甚至可能會嘗試逃跑！
 {{< /highlight >}}
 
-If a recently captured Pokémon dislikes  you, try to be understanding and compensate for it.
-
-Building a relationship with your Pokémon is one of the main aspects for this game.
-
+如果你最近收服的寶可夢看起來不怎麼喜歡你，試著理解牠、補償牠。
+跟你的寶可夢建立關係，是這個遊戲中最主要的面向之一。
 
 
-#### ⬛ Special Pokéballs
-Decades ago, to obtain a Pokéball you had to search for a special kind of fruit called Apricorn and craft the item yourself.  It  was  a  long  and  arduous  process  that  took  several days. Back then, you REALLY had to work hard to catch a Pokémon.
-Nowdays  the  Pokéball  industry  is  constantly  innovating and offering a variety of products for the diligent Trainer.
-These Pokéballs have special effects on the Pokémon you catch  with  them  or  offer  specialization  when  catching Pokémon that meet certain criteria.
+#### ⬛ 特殊的精靈球
+數十年以前，要想得到一顆精靈球，你得先找到一種名叫「球果」的特殊的樹果，然後親自動手製作。這是一個相當漫長且艱辛的過程，甚至需要花上好幾天的時間。在那個年代，你真的得付出大把努力才有辦法收服寶可夢。
+如今，精靈球產業不斷在創新，也為勤奮的訓練家們提供了各種琳瑯滿目的選擇。
+這些精靈球會對你捕捉到的寶可夢帶來特殊的影響、或在更特化於收服特定條件的寶可夢。
 
-**They are limited editions and are usually not found on sale, but when they are, they are not cheap.**
+**這些精靈球全都是限量版，且通常是買不到的；但即使有商店出售，它們也不會便宜到哪去。**
 
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon ball|m|premier}</div>
   <div class="iconDesc-item">
-    <b>Premier Ball</b><br/>
-    These are a sign of status, other trainers might respect you more if you use them.
+    <b>紀念球</b><br/>
+    這種球是地位的象徵，如果你使用了它們，其他訓練家可能會更尊敬你。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon ball|m|luxury}</div>
   <div class="iconDesc-item">
-    <b>Luxury Ball</b><br/>
-    Money CAN buy Pokémon happiness; the trait will improve if you catch them with this ball. 
+    <b>豪華球</b><br/>
+    金錢確實可以買到寶可夢的快樂；如果你用這個球抓到牠們，則牠們的幸福度將會被提升。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon ball|m|cherish}</div>
   <div class="iconDesc-item">
-    <b>Cherish Ball</b><br/>
-    This Ball is only handed to those who have ties or work directly in the League.
+    <b>貴重球</b><br/>
+    這種球只會給予在直接聯盟工作或與其相關的人員。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon ball|m|ub}</div>
   <div class="iconDesc-item">
-    <b>UB-Ball</b><br/>
-    A  ball  specially  designed  by  the  Aether  foundation for their UB-Project.
+    <b>究極球</b><br/>
+    由乙太基金會為了他們的UB計畫而特別設計製作的精靈球。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon ball|m|dynamax}</div>
   <div class="iconDesc-item">
-    <b>Dynamax- Ball</b><br/>
-    Galar  scientist's  pride,  this  virtual  pokeball can create giant holograms that feel real.
+    <b>極巨球</b><br/>
+    伽勒爾科學家的驕傲，這個虛擬的精靈球能夠創造出感覺相當真實的巨大全息投影。
   </div>
 </div>
 <div class="iconDesc-container">
   <div class="iconDesc-item">{@icon ball|m|master}</div>
   <div class="iconDesc-item">
-    <b>Master Ball</b><br/>
-    Silph  co.  star  project,  rumor  has  it  that  it's  capable of catching ANY Pokémon without fail.
+    <b>大師球</b><br/>
+    西爾佛公司的明星項目，傳言說它能夠收服任何寶可夢，從不失手。
   </div>
 </div>
 
 
-There's is a large variety of Pokéballs, finding all of them and their effects is one of the aspects of Pokémon catching. 
-If  you  manage  to  learn  how  to  craft  your  own Pokéballs  you'll  gain  an  edge  over  other  Trainers and save lots of money.
+精靈球的種類相當繁多，收集它們全部並掌握它們各自的效果，也是收服寶可夢的其中一個課題。
+如果你能學會如何製作自己的精靈球，那麼你不只能比其他的訓練家更有優勢，還能省下大筆的金錢。
 
 
 ---
-### Other ways to obtain Pokémon
+### 其他獲得寶可夢的方式
 
 #### ⬛ Buying Pokémon
 Pokémon Breeding is a respected profession where people dedicate their lives to raise and nurture Pokémon that aid humans in their activities. 

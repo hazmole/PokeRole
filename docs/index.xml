@@ -642,8 +642,20 @@ Rules for Max Moves Max Moves can only be used while a Pokémon is under the Eff
 使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。
 其他人可以在戰鬥以外的場合協助撲滅火焰。
 麻痺 你的肌肉抽搐，讓你幾乎難以動彈！
-{@icon frame|paralysis|麻痺}</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>Catching Pokemon There is a significant difference between human-raised Pokémon and wild ones. Most Pokémon you find in towns and cities are the descendants of wild Pokémon that were domesticated by trainers generations ago. They have been bred and taught to be friendly, loyal, and obedient; They&amp;rsquo;ll adapt to their owner&amp;rsquo;s Rank and depend on their Trainer to get stronger.
-But Pokémon that live in the wild can be either Pokémon turned feral after being abandoned or Pokémon that have lived with no human contact all their lives, this has made them grow their Rank through sheer prowess and survival instinct.</description></item><item><title>擲骰判定</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid><description>擲骰判定 我們的生活無時無刻都會受到隨機因素的影響。運氣是我們生活中的一部分，它可以改變我們的未來，而命運也建立在我們的行動結果之上。
+{@icon frame|paralysis|麻痺}</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>收服寶可夢 人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
+牠們從小就被培育教導成要友善、忠誠、且順從；牠們會跟從牠們主人的階級，且需要仰賴訓練家的幫助才能使自己變得更強大。
+然而那些生活在野外的寶可夢，無論是被遺棄後恢復了野性、或是一輩子都沒有接觸過人類，這都使牠們必須憑藉自己純粹的實力和求生本能，才有辦法提升自己的階級，在野外生存下來。
+無論是哪種情況，這兩種野生的寶可夢都對人類懷抱著不信任感，甚至忌妒人類身邊的寶可夢夥伴。牠們有些會因為恐懼而逃離，有些則會展現出侵略性，盡一切努力從牠們視為生存威脅的存在面前保護自己。
+野生寶可夢擁有著那些人類飼養的寶可夢所沒有的生存技巧。同時，野外也存在著一些因為其強大力量而尚未被馴服和眷養的物種。收服任何一隻這類寶可夢，都將讓你變得比其他訓練家更有優勢；此外，牠們還能讓你學習到許多課題，像是團隊合作、性格本質、以及遵循直覺的種種，就如同你能夠教導牠們關於人類世界的知識一樣。
+棲息地 寶可夢的世界相當遼闊，甚至比我們的世界還要大。
+有些環境能夠吸引到特定種類的寶可夢在該處棲居，也有些寶可夢只會在全世界的某些特定場所中出現。
+經驗豐富的訓練家不會隨隨便便往世界各地亂跑，朝任何會動的東西亂丟精靈球。他們會仔細研究寶可夢們的棲息地，尋找那些似乎較為溫和的物種，或試圖獲得那些似乎特別警戒的寶可夢的信任與尊重。
+有些寶可夢實在太過罕見，以至於人類無法確定這些寶可夢到底是真實存在亦或只是個傳說。
+為了找到牠們，訓練家們將不得不冒險進入未知的領域中。
+特殊的寶可夢 在世界各處，存在著一些不符合牠們物種刻板印象的寶可夢們。儘管每一隻寶可夢都是獨一無二的，但這些寶可夢的特別性質，讓牠們確實成為了萬中選一的存在。
+這些特殊性質包括了不同的紋路花色、過大的身軀、和甚至違背了牠們天性的招式或特性。
+⬛ 異色寶可夢、形態變化、地區形態 Some Pokémon have a different coloration in their fur, hide, feathers or scales. This change can be aesthetic or it can involve a change in Typing, Attribute Limits, Moves and/or Abilities.
+Shiny Pokémon are distinguished by the sparkles they leave behind as if they were coated in a glittery dust. Their exotic look makes them highly appreciated in beauty contests and people will pay incredibly high amounts of money to get their hands on one, their appearance does not affect their Type or Attributes.</description></item><item><title>擲骰判定</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/</guid><description>擲骰判定 我們的生活無時無刻都會受到隨機因素的影響。運氣是我們生活中的一部分，它可以改變我們的未來，而命運也建立在我們的行動結果之上。
 在本系統中，所有的變數都會以六面骰來表示。 這種骰子很容易取得，且你可以在幾乎所有的桌遊店、或甚至在你的舊桌遊裡找到它們！
 在故事進行的過程中，你的角色將不得不採取一些不同尋常的行動。
 你需要擲骰判定來執行任何你所想像的動作。

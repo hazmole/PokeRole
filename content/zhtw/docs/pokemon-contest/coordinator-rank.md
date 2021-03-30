@@ -79,7 +79,7 @@ description = ""
 
 {{< highlight >}}
 <center>
-<b style="font-size: 1.2em;">聲譽類技能不可重訓</b><br/>
+<b style="font-size: 1.2em;">聲譽類技能的點數無法透過「重新訓練課程」重新分配</b><br/>
 <u>請謹慎選擇。</u>
 </center>
 {{< /highlight >}}
