@@ -34,32 +34,31 @@ description = ""
 
 
 #### ⬛ 異色寶可夢、形態變化、地區形態
-Some Pokémon have a different coloration in their fur, hide,  feathers  or  scales. This  change  can  be  aesthetic or it can involve a **change in Typing, Attribute Limits, Moves and/or Abilities.**
+有些寶可夢的毛髮、表皮、羽毛、或鱗片會有著不同的顏色差異。這些差異可能僅僅體現在外觀美感上，也可能會涉及**屬性、特質上限、招式、和/或特性的變化**。
 
-**Shiny Pokémon** are distinguished by the sparkles they leave behind as if they were coated in a glittery dust. 
-Their  exotic  look  makes  them  highly  appreciated  in  beauty  contests  and  people  will  pay  incredibly  high amounts  of  money  to  get  their  hands  on  one,  **their  appearance does not affect their Type or Attributes.**
+**「異色寶可夢（或稱色違）」** 與一般寶可夢最大的區別就在於牠們身後留下的閃爍光輝，就彷彿牠們被一層閃耀的星塵給覆蓋一樣。
+牠們奇特的外表使得牠們在華麗大賽中備受青睞，人們願意付出難以置信的高價來得到牠們，但**牠們的外表差異並會不影響牠們的屬性或特質**。
 
-**Alternate Forms** refer to Pokémon of the same species that somehow look different from each other although with some resemblance still. **They can have different Types, Attributes and Abilities.**
-**Some Pokémon may even change forms at will.**
+**「形態變化」** 指的是與牠們同類在某種程度上看起來彼此不同的寶可夢，儘管牠們彼此之間仍保有相似性，但**牠們可能會有著不同的屬性、特質、和特性**。
+**有些寶可夢甚至能夠隨意改變牠們的形態。**
 
-**Regional  Variants**  are  Alternate  forms  of  Pokémon that can only be found in certain regions, they are the result of introducing foreign Pokémon into an established habitat, over the generations the Pokémon have to adapt to  this  new  environment,  this  can  make  them  **change their type, abilities, move set and even make evolve into something their regular counterparts cannot.**
+**「地區形態」** 代表著只會出現在特定地區的一種寶可夢形態變化。牠們是將外地寶可夢引入某個既定棲息地之後，經過幾個世代適應變化後的結果。為了適應新的環境，牠們可能會**改變牠們的屬性、特性、招式表、和甚至進化成牠們其他同類無法進化成的模樣**。
 
 
-#### ⬛ 體型過大的寶可夢
-Most Pokémon have a standard size and weight, but there are reported cases of Pokémon that could be considered giants  within  their  own  species.  **Overgrown  Pokémon  are  usually  around  30%  to  60%  bigger  than  their  regular-sized  counterparts**  but  they  are  very  rare  to find.  Their  main  characteristic  is  that  their  size  and weight keep proportion.
+#### ⬛ 過度成長的寶可夢
+大部分寶可夢的體型和重量都會落在其物種的標準內，但也有報告指出存在著大到足以被視作該物種中的巨人的寶可夢。這些**過度成長的寶可夢通常會比牠們正常體型的同類還要再大上 30% ~ 60% 左右**，但牠們相當罕見。牠們主要的特徵在於其體型和體重仍然保持著同樣的比例。
 
-Many trainers have overfed their Pokémon with the hopes of making them bigger, only to end up making them fatter.  An overgrown Pokémon is born that way. Even if at birth it has a normal size, it will keep growing until it reaches maturity.
+許多訓練家曾為了讓他們的寶可夢長得更大而過度餵食牠們，但最後卻只是讓牠們變得更胖。一個過度成長的寶可夢生來就是如此，即使在剛出生時有著正常的體型，牠仍會不斷成長茁壯直到牠們終於成熟為止。
 
 體型過大的寶可夢有著比牠們普通尺寸的同類還要更高的基礎HP。
 <div class="middle">牠們的基礎HP增加 1 點。</div>
 
 #### ⬛ 隱藏的招式和特性
-There  are  records  in  this  world’s  history  that  depict  certain  Pokémon  using  powers  and  Abilities  different from those normally seen on them.
-Only a few proficient trainers like Gym Leaders and Elites are known for owning at least one of this Special Pokémon.
-However, it is unknown if they captured their Pokémon  with those rare abilities or somehow they worked with them to attain them.
+在這個世界的歷史上，曾有紀錄描述著某些寶可夢使用了與其他常見同類截然不同的力量和特性。
+只有少數熟練的訓練家，像是道館館主或是四天王，才有辦法得到至少一種這樣特殊的寶可夢。
+然而，我們至今仍然不清楚他們是透過收服來獲得這些稀有特性的寶可夢，還是藉著某種方式與寶可夢搭檔鍛鍊來獲得這樣的能力。
 
-Storyteller's discretion should be applied for Pokémon to  have  Moves  and/or  Abilities  it  wouldn't  normally have.
-
+說書人可以酌情考慮，讓寶可夢們獲得牠們通常無法獲得的招式和/或特性。
 
 
 ---
@@ -197,45 +196,45 @@ Storyteller's discretion should be applied for Pokémon to  have  Moves  and/or 
 ---
 ### 其他獲得寶可夢的方式
 
-#### ⬛ Buying Pokémon
-Pokémon Breeding is a respected profession where people dedicate their lives to raise and nurture Pokémon that aid humans in their activities. 
-Many  of  these  professionally  bred  Pokémon  can  be bought, ensuring certain traits such as a non-aggressive nature,  a  good  disposition  for  work,  and  even  special moves. 
- 
-Buying  Pokémon  is  a  luxury,  though.  Their  cost  range from tens of thousands to even millions of pokédollars. Especially if the bred Pokémon is rare to find in the wild or hard to tame. 
-You can also find common Pokémon for sale for a few hundred pokédollars in less reputable places, but it is up to you to trust this kind of establishments.
+#### ⬛ 購買寶可夢
+寶可夢培育家是一個受人尊敬的職業，他們奉獻自己的人生來飼養與培育這些寶可夢們以幫助人類的各種大小事。
+許多這些被專業培養出來的寶可夢可以透過購買的方式入手，這能確保牠們擁有某些特質，例如不具攻擊性的性格、良好的工作能力、或甚至特殊的招式。
 
-#### ⬛ Adopting Pokémon
-All  around  the  world,  there  are  abandoned  Pokémon. Most of the time they are abandoned for being weak, rebellious or afraid of battles. 
-Whatever the case these Pokémon need to be to taken care of. 
+然而，購買寶可夢是一種奢華的行為。牠們的價格從幾萬到幾百萬寶可夢幣都有。尤其那些在野外難得一見、或難以馴服的寶可夢更是如此。
+你當然也可以在一些聲譽較差的地方找到價格在數百寶可夢幣不等的普通寶可夢，但要不要信任這種機構，就全取決於你了。
 
-Some shelters located outside the cities look after them until another trainer wants to adopt them. Abandoned  Pokémon  have  their  own  story  to  tell  and many are wary of humans. If  you  give  them  respect  and  good  care  they  may  become your most loyal companions.
 
-**Adopting is free for all registered trainers.**
-If you see a shelter, take a look inside, perhaps you’ll find the Pokémon you were looking for.
+#### ⬛ 領養寶可夢
+在世界各地，到處都有被遺棄的寶可夢。大多數時候，牠們之所以被遺棄是因為身體變得虛弱、個性叛逆、或是害怕戰鬥。
+無論是哪種情況，這些寶可夢都需要被細心照顧。
+
+有些位於城市之外的收容所會照料牠們，直到有訓練家願意收養牠們。每個被遺棄的寶可夢們背後都有著一段故事，且牠們大多數都對人類抱持警戒。但如果你給予牠們足夠的尊重和照顧，牠們將會成為你最忠誠的夥伴。
+
+**任何有註冊的訓練家都可以免費領養寶可夢。**
+如果你碰巧經過了收容所，請多往裡面看幾眼，也許你能夠找到你正在尋找的那隻寶可夢。
 
 {{< mynotice story >}}
-Adopting a Pokémon is a good way to start your Adventure. However, many times they do not have the best attitude or an easy Nature.
+領養寶可夢是一個開始冒險的好方式。然而很多時候，牠們並不會是有著最友善的態度或容易駕馭性格的夥伴。
 {{< /mynotice >}}
 
 
-#### ⬛ Trading Pokémon
-Sometimes a Pokémon was not what you were expecting. Maybe you have too many Pokémon of the same species or maybe you want to get rid of a bad pet. 
+#### ⬛ 交換寶可夢
+有時候，你的寶可夢或許不如你的預期。也許你擁有了太多同種類的寶可夢、或者你只是想擺脫這隻糟糕的寵物。
+比起遺棄牠們，為什麼不拿牠們跟其他人交換呢？有許多訓練家之所以旅行穿梭在各個城市之間，就是為了尋找新的寶可夢。
 
-Instead of abandoning them, why don’t you trade them? There  are  lots  of  trainers  traveling  from  one  city  to  another looking for a new Pokémon.
+如果你找到了某個願意用一隻寶可夢跟你交換另一隻寶可夢的訓練家，那麼你只需要前往最近的寶可夢中心，將你的精靈球放在交換機器上，然後等待交換過程完成即可。
 
-If you find someone willing to trade you one Pokémon  in exchange for another, head to the nearest Pokémon  center, put your pokéballs on the machine and wait for the process to complete.
+你寶可夢上的晶片仍然會記錄你的名字做為其原本的訓練家，但牠從此之後就是另外一個訓練家的夥伴了。
 
-The chip on your Pokémon will still name you as their original trainer but they will be now on the property of another trainer.
- 
-Be careful as Pokémon you trade will take more time to adjust  to  their  new  trainer.  Whenever  you  trade  a  Pokémon it will lose 1 point of Happiness and Loyalty, even if it is your original Pokémon you’re getting back.
+留意那些你透過交易獲得的寶可夢，牠們會需要更多的時間來適應牠們的新訓練家。每當你交易一隻寶可夢時，該寶可夢的幸福度與忠誠度都會降低 1 點，即使牠是你原本擁有的寶可夢也一樣。
 
 
-#### ⬛ Releasing Pokémon
-There  are  times  when  there  is  no  other  option,  your Pokémon is not happy living with humans or you find that your time together has come to an end.
+#### ⬛ 放生寶可夢
+有時候，你就是沒有其他選擇：你的寶可夢與人類一起的生活並不快樂、或者是你意識到你們在一起的時間已經走到了盡頭。
 
-You can simply let your Pokémon out of its Pokéball on its new home and leave it there,  within a few weeks of not being recalled and not being close to its Pokéball the chip on your Pokémon will deactivate and another trainer will be able to catch it.  Another way is going to a computer  and  manually  deactivate  the  chip  and  ID  of  your Pokémon,  then  allow  the  machine  to  transport  and  release it on a secure location.
-It is always sad to see a companion go, and abandoning  a Pokémon for shallow reasons is frowned upon in the Pokémon League community.
+你可以簡單地讓你的寶可夢離開牠的精靈球，將牠留在牠的新家。在經過數周的時間後，只要寶可夢沒有被收回、或是接近牠的精靈球、牠身上的晶片就會停止運作，而其他訓練家也因此得以再次收服牠。另外一個方式是到電腦，手動停止寶可夢身上的晶片和ID，並讓機器把牠傳送到安全的地方釋放。
+看到同伴的離去總是令人難過。而因為一些膚淺的原因而拋棄寶可夢的行為，在寶可夢聯盟的社群中是絕對無法被接受的。
 
-Pokémon are sensitive creatures and abandonment takes a toll on their emotions and ability to trust humans.
-Be a responsible Trainer and don’t capture Pokémon you don’t intend to take care properly. 
-Make  sure  you  only  release  a  Pokémon  that  wants  to  be released.
+寶可夢是相當敏感的生物，被隨意遺棄將會大大打擊牠們的情緒與信任人類的能力。
+當一個負責任的訓練家，不要隨意收服那些你不打算好好照顧的寶可夢。
+確保你只放生那些想要回歸自然的寶可夢。
