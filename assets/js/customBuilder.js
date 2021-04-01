@@ -194,8 +194,6 @@ class MoveParser{
     var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
     var moveIconArr =moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
 
-    console.log();
-
     return `<div class="Move ${moveObj.type}">
               <div class="MoveHeader">
                 <div class="title" id="${moveObj.name}">${moveObj.name}</div>
@@ -213,6 +211,126 @@ class MoveParser{
             </div>`;
   }
 }
+
+//=================
+// Pokemon Builder
+var Pokedex;
+class PokemonParser{
+
+  static parsePage(){
+    var PokedexPanel = document.getElementById("Pokedex");
+    if(!PokedexPanel) return false;
+    if(!Pokedex || Pokedex.length<=0) return false;
+
+    var self = this;
+    var HtmlPokedex = Pokedex.map( obj => self.getHTML(obj) );
+    PokedexPanel.innerHTML = HtmlPokedex.join("");
+    return true;
+  }
+
+  static getHTML( pokemonObj ){
+    console.log(pokemonObj);
+    var pokemonTypes = pokemonObj.type.map(type=>`<div class="type ${type}" style="width:${pokemonObj.type.length>1? 5: 10}rem;">${FMT(type)}</div>`).join("");
+    var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
+
+    return `<div class="Pokemon">
+              <div class="${pokemonObj.type[0]}">
+                <div class="Header flexContainer">
+                  <div class="title" id="${pokemonObj.display_name}">#${pokemonObj.id} ${pokemonObj.display_name}</div>
+                  ${pokemonTypes}
+                </div>
+              </div>
+              <div class="GameData flexContainer">
+                <div class="block Image" style="text-align: center;">
+                  <img src="${ROOTPATH}/${pokemonObj.info.image}">
+                  <div class="category ${pokemonObj.type[0]}"><div style="background:rgba(255,255,255,.5);">${pokemonObj.info.category}</div></div>
+                  <div class="category">${pokemonObj.info.height}m / ${pokemonObj.info.weight}kg</div>
+                </div>
+                <div class="block" style="width: 180px;">
+                  <div class="entry" style="margin-bottom:.5rem;"><b>建議階級</b> ${getRank(pokemonObj.rank)}</div>
+                  <div class="entry"><b>基礎HP</b> <span style="font-size:1.2em;margin:.2rem;">${pokemonObj.baseHP}</span></div>
+                  <div class="entry"><b>特性</b> ${pokemonObj.ability.join(", ")}</div>
+                  <div class="entry">${getNoviceIcon(pokemonObj.isNovice)}</div>
+                </div>
+                <div class="block" style="width: 180px; margin-left:1rem;">
+                  <div class="entry"><b>力量</b> ${getAttr(pokemonObj.attr.str)}</div>
+                  <div class="entry"><b>靈巧</b> ${getAttr(pokemonObj.attr.dex)}</div>
+                  <div class="entry"><b>活力</b> ${getAttr(pokemonObj.attr.vit)}</div>
+                  <div class="entry"><b>特殊</b> ${getAttr(pokemonObj.attr.spe)}</div>
+                  <div class="entry"><b>洞察</b> ${getAttr(pokemonObj.attr.ins)}</div>
+                </div>
+                <div class="block" style="width: 150px; margin-left:1rem;">
+                  <div class="entry"><b style="background:#b7b7b7">進化階段</b> ${getEvolveStage(pokemonObj.evolution)}</div>
+                  <div class="entry"><b style="background:#b7b7b7">進化時間</b> ${getEvolveTime(pokemonObj.evolution)}</div>
+                </div>
+              </div>
+              <div>
+                <button style="width:100%;" onClick="toggleMoveList(this)">招式表</button>
+                <div class="MoveList">
+                  ${moveList.join("")}
+                </div>
+              </div>
+              <div class="InfoText">
+                ${pokemonObj.info.text}
+              </div>
+            </div>`;
+
+    //=================
+    function getEvolveStage(evolvoObj){
+      if(!evolvoObj || !evolvoObj.stage) return "-";
+      switch(evolvoObj.stage){
+        case "first": return "初階";
+        case "second": return "二階";
+        case "final": return "最終階";
+        case "mega": return "MEGA";
+      }
+      return "-";
+    }
+    function getEvolveTime(evolvoObj){
+      if(!evolvoObj || !evolvoObj.time) return "-";
+      switch(evolvoObj.time){
+        case "fast":   return "快速";
+        case "medium": return "中等";
+        case "slow":   return "緩慢";
+      }
+      return "-";
+    }
+    function getMoveEntryHtml(moveObj){
+      return `<div class="entry">
+                ${getRank(moveObj.rank, true)}
+                <span class="${moveObj.type} moveType">${FMT(moveObj.type)}</span>
+                ${moveObj.name}
+              </div>`;
+    }
+    function getRank(rank, isOnlyMark){
+      return `<span class="icon ${getRankText(rank)}" style="display: inline-block;">${isOnlyMark? "&nbsp": getRankText(rank, true)}</span>`;
+    }
+    function getRankText(rank, isText){
+      switch(rank){
+        case 0: return isText? '新手': 'Starter';
+        case 1: return isText? '初學者': 'Beginner';
+        case 2: return isText? '業餘者': 'Amateur';
+        case 3: return isText? '菁英': 'Ace';
+        case 4: return isText? '專家': 'Pro';
+        case 5: return isText? '大師': 'Master';
+        case 6: return isText? '冠軍': 'Champion';
+      }
+    }
+    function getNoviceIcon(isShow){
+      return (isShow)? "<tag class='NoviceMark'></tag>": "";
+    }
+    function getAttr(attr){
+      var text = "";
+      for(var i=0;i<attr.max;i++){
+        text += (i<attr.value)? "●": "○";
+        if(i==4) text+=" ";
+      }
+      return text;
+    }
+  }
+
+}
+
 
 //=================
 // ToC Injector
@@ -286,8 +404,16 @@ class TocInjector{
 // Language Parser
 var i18n;
 function FMT(langkey){
+    if(!langkey) return "";
     var val = i18n[langkey.toLowerCase()];
     return val? val: langkey;
+}
+
+//=================
+// Toggle
+function toggleMoveList(elem){
+  var displayValue = elem.parentNode.lastElementChild.style.display;
+  elem.parentNode.lastElementChild.style.display = (displayValue=="none")? "block": "none";
 }
 
 //=================
@@ -296,6 +422,7 @@ window.addEventListener("load", () => {
   var isDomChanged = false;
   isDomChanged |= IconParser.parsePage();
   isDomChanged |= MoveParser.parsePage();
+  isDomChanged |= PokemonParser.parsePage();
   
   if(isDomChanged) window.onscroll(true);
 

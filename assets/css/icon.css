@@ -3,15 +3,16 @@
 .icon::before {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: .15em;
+    background-position-y: 0em;
     display: block;
-    height: 1.15em;
+    height: 1em;
     width: 1em;
     content: '';
-    margin: 0em -1em -1.1em -1.2em;
+    margin: 0em -1em -1rem -1.15em;
 }
 .icon {
     margin-left: 1.1em;
+    line-height: 1rem;
 }
 .icon.Starter::before { background-image: url('../images/icons/ball-starter.png'); }
 .icon.Beginner::before { background-image: url('../images/icons/ball-poke.png'); }
@@ -21,11 +22,13 @@
 .icon.Master::before { background-image: url('../images/icons/ball-master.png'); }
 .icon.Champion::before { background-image: url('../images/icons/ball-park.png'); }
 
-.icon.Coor::before, .icon.SuperCoor::before, .icon.HyperCoor::before, .icon.MasterCoor::before{
-    width:1.5em;
-    height:1.75em;
-    margin-bottom:-1.45em;
-    margin-left:-1.5em;
+.icon.Coor::before,
+.icon.SuperCoor::before,
+.icon.HyperCoor::before,
+.icon.MasterCoor::before{
+    width: 1.3em;
+    height: 1.1em;
+    margin-left: -1.3em;
 }
 .icon.Coor::before { background-image: url('../images/icons/rank-coordinator.png'); }
 .icon.SuperCoor::before { background-image: url('../images/icons/rank-super-coordinator.png'); }

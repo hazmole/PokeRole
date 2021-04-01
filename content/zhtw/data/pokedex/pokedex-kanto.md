@@ -4,3 +4,7 @@ weight = 1
 description = "關都地區圖鑑"
 +++
 
+
+<div id="Pokedex"></div>
+
+{{< script "pokedex-kanto.js" >}}

@@ -35,7 +35,33 @@ other = "蟲"
 other = "惡"
 [dragon]
 other = "龍"
+[eletric]
+other = "電"
+[fairy]
+other = "妖精"
+[fight]
+other = "格鬥"
 [fire]
 other = "火"
+[flying]
+other = "飛行"
+[ghost]
+other = "幽靈"
+[grass]
+other = "草"
+[ground]
+other = "地面"
+[ice]
+other = "冰"
+[normal]
+other = "一般"
+[poison]
+other = "毒"
+[psychic]
+other = "超能力"
+[rock]
+other = "岩石"
+[steel]
+other = "鋼"
 [water]
 other = "水"
