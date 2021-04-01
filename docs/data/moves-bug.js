@@ -10,7 +10,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|crit"],
 		"accuracy": "強壯 + 自然",
 		"damage": "力量 + 3",
-		"effect": "容易擊中要害。非接觸類招式。",
+		"effect": "容易擊中要害。遠程招式。",
 		"desc": "使用者召集她的蜂群並下令來對付你。不管你跑哪兒，牠們都會包圍你。希望你不會對蜜蜂過敏。"
 	},
 	{
@@ -142,7 +142,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "非接觸類招式，連續行動。",
+		"effect": "遠程招式，連續行動。",
 		"desc": "寶可夢用下雨般密集的螫針或棘刺像針一般貫穿敵人。"
 	},
 	{
@@ -285,7 +285,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|sact_2", "frame|poison|中毒|number|d2"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "雙重行動。非接觸類招式。每次命中時骰 2 顆機率骰以使敵人陷入「中毒」狀態。",
+		"effect": "雙重行動。遠程招式。每次命中時骰 2 顆機率骰以使敵人陷入「中毒」狀態。",
 		"desc": "寶可夢用牠藏毒的棘刺、利爪、或螫針刺向敵人。"
 	},
 	{

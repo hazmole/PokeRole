@@ -62,8 +62,8 @@ All  Moves  are  presented  with  graphical  elements  and text. They are divide
 
 
 ---
-## Typeless Maneuvers
-Not every attack is a Move. Sometimes you will fight with simple **Typeless Maneuvers.**
+## 無屬性戰技
+並非所有的攻擊都是招式。有時候你會僅僅使用單純的「**無屬性戰技**」來戰鬥。
 Since they don’t use energy, **Typeless Maneuvers can’t be  used  to  clash**,  but  other  than  that  they  share  the same rules as Moves whe used in-battle:
 * Maneuvers can only be used on the user’s Turn.
 * Can only be used once per Round.
@@ -97,7 +97,7 @@ Feel free to create you own.
 		<div class="Damage">-</div>
 		<div class="Additional">
 			目標被阻擋。<br/>
-			目標可以抵抗這個戰技，使用他的力量或靈巧來擲骰判定，並獲得數量等同或超過使用者的成功骰數。</div>
+			目標可以嘗試抵抗這個戰技：使用他的力量或靈巧判定，獲得數量等同或超過使用者的成功骰數則成功抵抗。</div>
 	</div>
 </div>
 <div class="Move">

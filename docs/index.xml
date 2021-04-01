@@ -169,11 +169,39 @@ Dark Types always try to Battle while putting the foes at a complete disadvantag
 效果絕佳:
 幽靈, 超能力
 效果不好:
-惡, 妖精, 格鬥</description></item><item><title>招式效果標記</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>Effect Icons There are many Icons in this Move Encyclopedia. They are a quick reference to show what they target, their accuracy, and most importantly, their effects. Most Moves Icons are self-explainatory and useful.
-Pay Attention to the Effects of your Moves. They will be the key for victory if you learn to combine them.
+惡, 妖精, 格鬥</description></item><item><title>招式效果標誌</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>招式效果標誌 在這個章節中羅列了許許多多的效果標誌。它們是協助你快速參照效果的圖標，用來說明招式的目標、命中率、以及最重要的：招式的效果。
+大部分的效果標誌的意義都相當不言自明，且能幫上你很大的忙。
+留意你招式的效果。
+如果你能學會組合它們，那它們將會成為你邁向勝利的關鍵。
 分類圖示 {@icon moveType|l|physical}
 物理招式
-Physical Moves are resisted with Defense. They are close range attacks.</description></item><item><title>神奇的寶可夢世界</title><link>https://hazmole.github.io/PokeRole/docs/the-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid><description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
+物理招式 會被「防禦」數值抵抗。它們通常會是近距離攻擊。
+有些物理招式可以造成遠距離攻擊，它們會被標註為 遠程招式。
+{@icon moveType|l|special}
+特殊招式
+特殊招式 會被「特防」數值抵抗。它們永遠會是遠程招式。
+{@icon moveType|l|support}
+變化招式
+變化招式 並不會造成任何直接傷害。
+機率骰 這標誌代表著該招式的效果是否發動的機率。
+標誌上的數字代表著你需要用來擲骰判定的機率骰的數量。
+{@icon dice|l|1}{@icon dice|l|2}{@icon dice|l|3}{@icon dice|l|4}{@icon dice|l|5}
+如果至少有一個機率骰骰出了 {@icon rdice|s|6|normal} 的結果，那麼該效果就會發動。有時候機率骰會出現在異常狀態框裡面，用來表示造成該異常狀態的機率，如下圖範例所示：
+{@icon frame|flinch|畏縮|number|d3}
+絕不生效/永遠生效 ✖
+當某個效果帶有這個標誌，代表該效果的目標絕不會被影響。
+✔
+當某個效果帶有這個標誌，代表該效果的目標永遠會被影響。
+這些標誌會出現在效果框之中，如下圖範例所示：
+{@icon frame|flinch|畏縮|never} 永遠會畏縮
+{@icon frame|flinch|畏縮|always} 絕不會畏縮
+降低命中率 {@icon frame|accuracy|命中|down|X}
+該招式的命中判定將會扣除指定數量的成功骰。
+關於更多詳情，請參見「勝利策略」章節。
+目標 這些標誌說明了誰會受到這個招式的影響。
+綠色目標標誌 被用於使用者或牠的隊友：
+紅色目標標誌 被用於敵人：
+{@icon target|l|self} 使用者</description></item><item><title>神奇的寶可夢世界</title><link>https://hazmole.github.io/PokeRole/docs/the-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/the-world/</guid><description>神奇的寶可夢世界 一個嶄新的冒險世界 在這世界中生活的人們與你我無異。他們有家庭和朋友，也同樣追求著財富、愛情、名聲、和平以及刺激。
 然而，他們的世界與我們有許多不同：其中，寶可夢的存在幾乎改變了所有事物。
 在這個世界裡，許多人遊走旅行在各個地區，尋求著冒險、神祕，以及成為頂尖的機會。
 城市的數量較為稀少且相距甚遠，但小型的城鎮倒是相當常見。他們某方面的科技相當進步，但也有些方面看起來已經過時。
