@@ -73,76 +73,74 @@ Feel free to create you own.
 
 <div class="Move">
 	<div class="MoveHeader">
-		<div class="title">Struggle</div>
+		<div class="title">掙扎</div>
 		<div class="power">0</div>
 		<div class="type"><tag class="moveType hybrid"></tag></div>
 	</div>
 	<div class="MoveIconBar">{@icon target|l|foe}</div>
 	<div class="MoveContent">
-		<div class="Type">None</div>
-		<div class="Accuracy">Dexterity + Brawl/Channel</div>
-		<div class="Damage">Strength/Special + 0</div>
-		<div class="Additional"></div>
+		<div class="Type">無</div>
+		<div class="Accuracy">靈巧 + 鬥毆/導引</div>
+		<div class="Damage">力量/特殊 + 0</div>
 	</div>
-	<div class="MoveDesc"></div>
 </div>
 <div class="Move">
 	<div class="MoveHeader">
-		<div class="title">Grapple</div>
+		<div class="title">擒抱</div>
 		<div class="power">-</div>
 		<div class="type"><tag class="moveType support"></tag></div>
 	</div>
 	<div class="MoveIconBar">{@icon target|l|foe}{@icon effect|l|block}</div>
 	<div class="MoveContent">
-		<div class="Type">None</div>
-		<div class="Accuracy">Strength + Brawl</div>
-		<div class="Damage">None</div>
+		<div class="Type">無</div>
+		<div class="Accuracy">力量 + 鬥毆</div>
+		<div class="Damage">-</div>
 		<div class="Additional">
-			The foe is Blocked.<br/>
-			Foe can resist this Maneuver by rolling their Strength or Dexterity score and scoring the same or more successes than the user.</div>
+			目標被阻擋。<br/>
+			目標可以抵抗這個戰技，使用他的力量或靈巧來擲骰判定，並獲得數量等同或超過使用者的成功骰數。</div>
 	</div>
 </div>
 <div class="Move">
 	<div class="MoveHeader">
-		<div class="title">Help Another</div>
-		<div class="power">-</div>
-		<div class="type"><tag class="moveType support"></tag></div>
-	</div>
-	<div class="MoveIconBar">{@icon target|l|ally}</div>
-	<div class="MoveContent">
-		<div class="Type">None</div>
-		<div class="Accuracy">Varies</div>
-		<div class="Damage">None</div>
-		<div class="Additional">
-			Roll your Accuracy as if it was Chance Dice. If Successful, add one die to the Action of an Ally. Up to 6 dice may be added this way.</div>
-	</div>
-</div>
-<div class="Move">
-	<div class="MoveHeader">
-		<div class="title">掩護隊友</div>
+		<div class="title">協助同伴</div>
 		<div class="power">-</div>
 		<div class="type"><tag class="moveType support"></tag></div>
 	</div>
 	<div class="MoveIconBar">{@icon target|l|ally}</div>
 	<div class="MoveContent">
 		<div class="Type">無</div>
-		<div class="Accuracy">無</div>
-		<div class="Damage">無</div>
+		<div class="Accuracy">Varies</div>
+		<div class="Damage">-</div>
+		<div class="Additional">
+			Roll your Accuracy as if it was Chance Dice. If Successful, add one die to the Action of an Ally. Up to 6 dice may be added this way.</div>
+	</div>
+</div>
+<div class="Move">
+	<div class="MoveHeader">
+		<div class="title">掩護同伴</div>
+		<div class="power">-</div>
+		<div class="type"><tag class="moveType support"></tag></div>
+	</div>
+	<div class="MoveIconBar">{@icon target|l|ally}</div>
+	<div class="MoveContent">
+		<div class="Type">無</div>
+		<div class="Accuracy">-</div>
+		<div class="Damage">-</div>
 		<div class="Additional">
 			The user will provide cover to the target from Ranged attacks and is more likely to be hit by close-range attacks. The level of Cover the user provides will depend of its size.</div>
 	</div>
 </div>
 <div class="Move">
 	<div class="MoveHeader">
-		<div class="title">Stabilize an Ally</div>
+		<div class="title">穩定同伴的傷勢</div>
 		<div class="power">-</div>
 		<div class="type"><tag class="moveType support"></tag></div>
 	</div>
 	<div class="MoveIconBar">{@icon target|l|ally}</div>
 	<div class="MoveContent">
-		<div class="Type">None</div>
-		<div class="Accuracy">Clever + Medicine</div>
-		<div class="Damage">None</div>
+		<div class="Type">無</div>
+		<div class="Accuracy">聰明 + 醫藥</div>
+		<div class="Damage">-</div>
 		<div class="Additional">
 			The User applies CPR and/or first aid to an unconcious Ally.<br/>
 			Target won’t receive Lethal Damage each hour anymore. Each Lethal Damage on the Ally reduces 1 Success to the Accuracy Pool of this Maneuver.</div>
@@ -150,15 +148,15 @@ Feel free to create you own.
 </div>
 <div class="Move">
 	<div class="MoveHeader">
-		<div class="title">Run Away</div>
+		<div class="title">逃跑</div>
 		<div class="power">-</div>
 		<div class="type"><tag class="moveType support"></tag></div>
 	</div>
 	<div class="MoveIconBar">{@icon target|l|self}</div>
 	<div class="MoveContent">
-		<div class="Type">None</div>
-		<div class="Accuracy">Dexterity + Athletic</div>
-		<div class="Damage">None</div>
+		<div class="Type">無</div>
+		<div class="Accuracy">靈巧 + 運動</div>
+		<div class="Damage">-</div>
 		<div class="Additional">
 			The User runs away from the battlefield. This effect ends the battle. <br/>
 			Foes might try to prevent this by rolling: Dexterity + Athletic and scoring the same or more successes. If the user is Blocked this Maneuver fails.</div>

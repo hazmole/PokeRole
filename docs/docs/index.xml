@@ -160,8 +160,35 @@
 寶可夢的HP低於一半 +1
 寶可夢的HP僅剩 1 點 +1
 寶可夢陷入異常狀態 +1
-越強大的寶可夢會越難被收服，這也是為什麼你在收服越高階級的寶可夢時會需要取得越多的成功骰數。</description></item><item><title>訓練寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/training-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/training-pokemon/</guid><description>Training Pokemon Training Sessions Pokémon training is probably the most fundamental aspect of becoming stronger.
-A training session usually takes 2 hours of your day within the game. During this time you work with your Pokémon, you try to understand their ways, their motives, their strengths and weaknesses. Before attempting to teach them something new, you have to bond with them, especially if they are newly caught. This way you can raise their Loyalty and Happiness.</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>Trainer’s Basics Traveling alone through the wild can be pretty tough. Your Pokémon companions will keep you safe, but they won’t make it more comfortable. Most of the time you will be sleeping on top of rocks and going hundreds of kilometers on foot.
+越強大的寶可夢會越難被收服，這也是為什麼你在收服越高階級的寶可夢時會需要取得越多的成功骰數。</description></item><item><title>訓練寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/training-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/training-pokemon/</guid><description>訓練寶可夢 訓練課程 要讓寶可夢變強，訓練課程或許是最基本的環節之一。
+訓練課程通常會需要花費遊戲世界中 2 個小時的時間。在這段期間，你和你的寶可夢一起努力，你將試著理解牠們的方式、牠們的動機、牠們的強項以及弱點。在嘗試教導牠們新的東西之前，你必須與牠們建立羈絆，尤其是如果牠們才剛剛被你收服的話。透過這個方式，你將能夠提升牠們的忠誠度和幸福度。
+總的來說，給你的寶可盟提供一些簡單而有趣的身心活動，像是遊戲、拼圖、收集物品、舉重等等。你可以隨意發揮你的創意，但要記住有些寶可夢可能會需要你特別的關注。
+訓練寶可夢需要耐心以及大量的功夫。如果你想要成為一名更好的寶可夢訓練家，那麼你會需要更精進於自己的技能表現。
+你可以透過使用不同的技能來訓練你的寶可夢。
+一旦你準備就緒，你就可以決定該如何強化你的寶可夢了！
+湯姆帶著他的隊伍一起訓練：胖丁、小約克、以及新收服的走路草，湯姆希望提升牠們的速度，因此開始了每天帶著寶可夢們繞圈跑步的訓練。
+數周過後，走路草已經進化成臭臭花，為了準備好再次進化，牠需要大量的陽光和肥料，湯姆知道一些關於園藝的知識，因此到商店買了一些肥料來照料臭臭花。
+訓練寶可夢的方式有很多種，你只需要發揮一些想像力！
+⬛ 提升階級 訓練家最重要的工作就是培育出強大且快樂的寶可夢。
+你初始寶可夢的階級會與你開始遊戲時的階級相同，但是隨著你提升你的階級，你將會需要提升你所有寶可夢的階級。有些野生的寶可夢也許看上去很弱小，但在你這個訓練家的幫助下，牠們很快就會成為冠軍的原石！
+根據你用來訓練寶可夢時使用的技巧，在訓練過程結束之後，進行訓練判定：
+骰 一種特質/社交特質 + 傳聞
+當你取得了所需的成功骰數，寶可夢的階級將會提升一級（比如說，從初學者升至業餘者）。
+階級所需成功骰數
+升至 初學者 3
+升至 業餘者 6
+升至 菁英 12
+升至 專家 24
+升至 大師 36
+升至 冠軍 48
+你無法將寶可夢的階級提升到超過你自己的階級，且訓練判定每天只能進行一次。
+要讓寶可夢的階級完整提升，你將會需要花上好幾天的時間。
+⬛ 重新訓練 大部分訓練家都不會在第一次嘗試就走到正確的方向。考慮到這個世界上有數百種不同的寶可夢種類，對某隻寶可夢有用的訓練方式也許完全無法適用於另一隻寶可夢。因此，做為訓練家，你可能會需要重新考慮培養策略，並重新訓練你的夥伴。這麼做會比重新抓一隻新的寶可夢並從頭提升牠的階級要來的容易得多。
+你可以使用訓練課程來「重新訓練」，而非提升階級。
+若是如此，你只需要在訓練過程結束之後，進行訓練判定：
+骰 一種特質/社交特質 + 傳聞
+當你取得了 3 個成功骰，你將獲得下列數個好處：
+重新分配階級給予的所有特質和社交特質點數。 重新分配階級給予的所有技能點數。分配完一個階級給予的所有技能點數後，再接著分配下一個階級給予的技能點數。 寶可夢可以遺忘牠學到的招式，並從當前階級範圍中學會新的招式。如果被遺忘的招式是進化前專屬的招式，則該招式將被永遠遺忘。 記住，訓練判定每天只能進行一次。</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>Trainer’s Basics Traveling alone through the wild can be pretty tough. Your Pokémon companions will keep you safe, but they won’t make it more comfortable. Most of the time you will be sleeping on top of rocks and going hundreds of kilometers on foot.
 Serious trainers need to carry items to help them reach their goals while diminishing the inconveniences that may arise on the journey.
 Every Trainer should have these Items at all times:</description></item><item><title>寶可夢圖鑑</title><link>https://hazmole.github.io/PokeRole/docs/pokedex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokedex/</guid><description>Pokedex There are almost a thousand known species of Pokémon in the world, some better known than others.
 In this section of the book you’ll find all the information available about most of them.

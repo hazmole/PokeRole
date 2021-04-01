@@ -3,171 +3,169 @@ title = "訓練寶可夢"
 weight = 8
 description = ""
 +++
-# Training Pokemon
-## Training Sessions
-Pokémon  training  is  probably  the  most  fundamental  aspect of becoming stronger.
+# 訓練寶可夢
+## 訓練課程
+要讓寶可夢變強，訓練課程或許是最基本的環節之一。
 
-A training session usually takes 2 hours of your day within the game. During this time you work with your Pokémon,  you  try  to  understand  their  ways,  their  motives,  their strengths and weaknesses. Before attempting  to teach them  something  new,  you  have  to  bond  with  them,  especially  if  they  are  newly  caught. This  way  you  can raise their Loyalty and Happiness.
+訓練課程通常會需要花費遊戲世界中 2 個小時的時間。在這段期間，你和你的寶可夢一起努力，你將試著理解牠們的方式、牠們的動機、牠們的強項以及弱點。在嘗試教導牠們新的東西之前，你必須與牠們建立羈絆，尤其是如果牠們才剛剛被你收服的話。透過這個方式，你將能夠提升牠們的忠誠度和幸福度。
 
-Once everything is said and done, present your Pokémon  with  simple  and  entertaining  physical  and  mental  activities  like  games,  puzzles,  item  gathering,  weight lifting,  etc. You  can  get  as  creative  as  you  want,  just remember  that  some  Pokémon  may  require  special  attention.
+總的來說，給你的寶可盟提供一些簡單而有趣的身心活動，像是遊戲、拼圖、收集物品、舉重等等。你可以隨意發揮你的創意，但要記住有些寶可夢可能會需要你特別的關注。
+訓練寶可夢需要耐心以及大量的功夫。如果你想要成為一名更好的寶可夢訓練家，那麼你會需要更精進於自己的技能表現。
 
-Training a Pokémon requires patience and lots of work. You will need to get better in your own skills if you want to be a better Pokémon Trainer.
+你可以透過使用不同的技能來訓練你的寶可夢。
 
-You may teach a Pokémon by using your different skills.
- 
-Once you are ready, you can choose how to strengthen your Pokémon.
+一旦你準備就緒，你就可以決定該如何強化你的寶可夢了！
 
 {{< example >}}
-Tom  has  been  working  with  his  team,  a  Jigglypuff,  a  Lillipup  and  newly  caught  Oddish  and  wants  to  increase their speed, so he’s staring a routine where all his Pokémon run laps.
+湯姆帶著他的隊伍一起訓練：胖丁、小約克、以及新收服的走路草，湯姆希望提升牠們的速度，因此開始了每天帶著寶可夢們繞圈跑步的訓練。
 
-Weeks later, Oddish has evolved and in preparation for it to evolve again it will need lots of sunlight and nourishment, Tom knows about gardening and goes to a store to buy some fertilizer to treat Gloom with it. 
+數周過後，走路草已經進化成臭臭花，為了準備好再次進化，牠需要大量的陽光和肥料，湯姆知道一些關於園藝的知識，因此到商店買了一些肥料來照料臭臭花。
 
-There  are  many  ways  to  Train  a  Pokémon,  it  just needs a little bit of imagination!
+訓練寶可夢的方式有很多種，你只需要發揮一些想像力！
 {{< /example >}}
 
 
-#### ⬛ Rank Up
-The most essential job of a Trainer is to raise powerful and happy Pokémon. Your Starter will be the same Rank as you when you start the game, but once you increase your  Rank,  you  will  have  to  Rank-Up  all  Pokémon  you have. Some wild Pokémon might seem weak but with you as a Trainer they will become champion material in no time! 
+#### ⬛ 提升階級
+訓練家最重要的工作就是培育出強大且快樂的寶可夢。
+你初始寶可夢的階級會與你開始遊戲時的階級相同，但是隨著你提升你的階級，你將會需要提升你所有寶可夢的階級。有些野生的寶可夢也許看上去很弱小，但在你這個訓練家的幫助下，牠們很快就會成為冠軍的原石！
 
-Depending on the technique used to train a Pokémon,  
+
+根據你用來訓練寶可夢時使用的技巧，在訓練過程結束之後，進行訓練判定：
 {{< highlight >}}
-<b style="font-size: 1.2em;">Roll an Attribute/Social Attribute + Lore</b>
-after a Training Session.
+<b style="font-size: 1.2em;">骰 一種特質/社交特質 + 傳聞</b>
 {{< /highlight >}}
 
-Once you score the required successes, the Pokémon Rank is raised by one level (ex. from Beginner to Amateur).
+當你取得了所需的成功骰數，寶可夢的階級將會提升一級（比如說，從初學者升至業餘者）。
 
 <table style="width:60%;">
-	<tr><th>Rank</th><th>Required Successes</th></tr>
-	<tr><td>to Beginner </td><td>3 </td></tr>
-	<tr><td>to Amateur </td><td>6 </td></tr>
-	<tr><td>to Ace </td><td>12 </td></tr>
-	<tr><td>to Pro </td><td>24 </td></tr>
-	<tr><td>to Master </td><td>36 </td></tr>
-	<tr><td>to Champion </td><td>48 </td></tr>
+	<tr><th>階級</th><th>所需成功骰數</th></tr>
+	<tr><td>升至 初學者 </td><td>3 </td></tr>
+	<tr><td>升至 業餘者 </td><td>6 </td></tr>
+	<tr><td>升至 菁英 </td><td>12 </td></tr>
+	<tr><td>升至 專家 </td><td>24 </td></tr>
+	<tr><td>升至 大師 </td><td>36 </td></tr>
+	<tr><td>升至 冠軍 </td><td>48 </td></tr>
 </table>
 
-**You cannot raise a Pokémon’s Rank beyond your own, and Training Rolls are done only once per day.**
-**To fully Rank Up a Pokémon, you need several days.**
+**你無法將寶可夢的階級提升到超過你自己的階級，且訓練判定每天只能進行一次。**
+**要讓寶可夢的階級完整提升，你將會需要花上好幾天的時間。**
 
 
-#### ⬛ Retrain
-Most Trainers won’t get it right on the first try. Considering there are hundreds of different species, whatever works for a Pokémon might not work for another, so, it is possible for a Trainer to rethink their strategy and retrain a companion. Doing so it’s a lot easier than Ranking Up a newly caught Pokémon.
+#### ⬛ 重新訓練
+大部分訓練家都不會在第一次嘗試就走到正確的方向。考慮到這個世界上有數百種不同的寶可夢種類，對某隻寶可夢有用的訓練方式也許完全無法適用於另一隻寶可夢。因此，做為訓練家，你可能會需要重新考慮培養策略，並重新訓練你的夥伴。這麼做會比重新抓一隻新的寶可夢並從頭提升牠的階級要來的容易得多。
 
-**You may use the Training Session to Retrain instead of Ranking Up. If so, simply:**
+**你可以使用訓練課程來「重新訓練」，而非提升階級。**
+若是如此，你只需要在訓練過程結束之後，進行訓練判定：
 {{< highlight >}}
-<b style="font-size: 1.2em;">Roll an Attribute/Social Attribute + Lore</b>
-after a Training Session.
+<b style="font-size: 1.2em;">骰 一種特質/社交特質 + 傳聞</b>
 {{< /highlight >}}
 
-Once you score 3 Successes, you get several benefits:
-* Redistribute all Attributes and Social Attributes awarded by Rank.
-* Redistribute all Skill Points awarded by Rank. Assign all Skill Points from a Rank, before assigning all Skill Points from the next Rank.
-* Pokémon may forget Moves and learn new Moves from available Ranks. <u>Forgotten Moves exclusive to previous Evolutions are lost forever</u>.
+當你取得了 3 個成功骰，你將獲得下列數個好處：
+* 重新分配階級給予的所有特質和社交特質點數。
+* 重新分配階級給予的所有技能點數。分配完一個階級給予的所有技能點數後，再接著分配下一個階級給予的技能點數。
+* 寶可夢可以遺忘牠學到的招式，並從當前階級範圍中學會新的招式。<u>如果被遺忘的招式是進化前專屬的招式，則該招式將被永遠遺忘。</u>
 
-**Remember, Training Rolls are done only once per day.**
+**記住，訓練判定每天只能進行一次。**
 
 
-#### ⬛ Training a Disobedient Pokémon
-**You cannot train a Pokémon of higher Rank than your own**. Perhaps the disobedient Pokémon simply wants to do things its own way or maybe it’s is not paying attention deliberately. For whatever reason, you haven’t earned its respect.
+#### ⬛ 訓練不聽話的寶可夢
+**你無法訓練一隻階級比你還要高的寶可夢。**
+或許這隻不聽話的寶可夢只是想要按照自己的方式做事，也可能牠是故意不去專心。不論什麼原因，你都還沒有贏得牠的尊重。
 
 {{< example >}}
-Christine is just a **Beginner** but has two Pokémon on her team, her starter Pidgey, and a **recently caught Persian**.
+克莉絲汀還只是個「**新手**」階級的訓練家，但她的隊伍中有兩隻寶可夢：她的初始寶可夢波波、以及一隻**最近收服的貓老大**。
 
-They are gathered for a group Training Session.
-The  trio  begins  by  playing  Dodgeball.  But  during  today’s  game  only  Pidgey  followed  Christine’s  commands.  When  Christine  threw  the  ball,  Persian quickly crushed it with its fangs and went away to sleep under a tree.
+他們聚集在一起進行了一次訓練課程。
+他們先是玩起了躲避球。但在今天的遊戲中，只有波波聽從了克莉絲汀的命令。當克莉絲汀扔出躲避球，貓老大很快地用牠的尖牙咬破了球，然後逕自走到樹蔭下睡覺。
 
-This **Persian’s Rank is Amateur**.This means Christine’s skill is simply not enough to **handle this Pokémon**.
-
-Persian won’t be obeying orders anytime soon.
+這隻**貓老大的階級是「業餘者」**。這代表克莉絲汀的技巧還不足以**應付這隻寶可夢**。
+看來貓老大在短期之內是不會服從任何命令了。
 {{< /example >}}
 
 
 ---
-## Evolve your Pokémon
-Evolving a Pokémon is hard work, it requires hours and hours of Training or years of struggle, but when it finally happens, your companions will get a lot stronger.
+## 讓你的寶可夢進化
+讓寶可夢進化是一件很辛苦的事情，牠將需要經歷長時間的訓練或甚至多年的奮鬥，但當牠終於成功進化時，你的夥伴將會變得更加強大。
 
-The  amount  of  training  required  to  Evolve  a  Pokémon varies from species to species. Bug-Type Pokémon tend to Evolve quickly, while Dragon Pokémon take ages.
+寶可夢進化所需要的訓練量會因為物種的不同而有差異。蟲系寶可夢往往進化比較快，而龍系的寶可夢則會需要很長的時間。
 
-Pokémon may evolve for several reasons, some Evolve to survive in a hostile environment, others Evolve thanks to age and experience, others change when subjected to materials or energies. See a Pokémon’s Entry for details.
+寶可夢的進化可能有很多種原因，有些是為了在惡劣的環境下生存而進化，有些則是因為牠們的年齡與經驗，也有些會在接觸到某些物質或能量時進化。詳情請參見寶可夢圖鑑的條目以了解更多細節。
 
-#### ⬛ Evolve through Battle Experience
-Most Pokémon evolve after battling quite a lot. If you’re interested  on  getting  your  companions  to  their  Final Form, pay attention to their Battles and their ability to win.
 
-Once a Pokémon has met the required number of Victories, it will begin its transformation.
+#### ⬛ 透過戰鬥經驗進化
+大部分的寶可夢會在經歷大量戰鬥之後進化。如果你有興趣讓你的夥伴進化成最終型態，請多加注意牠們的戰鬥與牠們取得勝利的能力。
 
-Each  species  evolves  at  different  rates,  described  as Evolution Time. Follow this simple chart:
+一旦寶可夢達到牠們進化所需的戰鬥勝利次數，牠就會開始蛻變。
+每個物種都會以不同的速度進化，稱之為「進化時間」。如以下表格所示：
 
 <table style="width:60%;">
-	<tr><th>Evolution Time</th><th>Required Victories</th></tr>
-	<tr><td>Fast </td><td>5 </td></tr>
-	<tr><td>Medium </td><td>15 </td></tr>
-	<tr><td>Slow </td><td>45 </td></tr>
+	<tr><th>進化時間</th><th>所需勝利次數</th></tr>
+	<tr><td>快速 </td><td>5 </td></tr>
+	<tr><td>中等 </td><td>15 </td></tr>
+	<tr><td>緩慢 </td><td>45 </td></tr>
 </table>
 
-Newly caught Pokémon may already have some Victories under their belt.
+新收服的寶可夢也可能已經累積了一些勝利次數。
 
 {{< highlight >}}
-When a Pokémon Evolves, use their New Pokédex Entry as a Template and distribute all bonuses from Rank just as you would when Retraining.
+當寶可夢進化時，參照牠們進化後的寶可夢圖鑑條目做為模板，重新分配所有階級給予的獎勵點數，就如同你重新訓練牠們一樣。
 {{< /highlight >}}
 
 
-#### ⬛ Overranking
-When a Pokémon is ready to Evolve, you may choose to stop the Evolution by making it snap out of the trance. If you do, a Pokémon retains some of the power it tapped from the process.
+#### ⬛ 越級 Overranking
+當一隻寶可夢準備好進化時，你可以選擇透過讓牠從恍惚狀態中恢復過來，藉此中斷進化的過程。如果你這樣做的話，寶可夢將會保留一些牠在進化過程中獲得的力量。
 
-**The Pokémon gains access to 1 Move from a Rank higher than its own! This means an Amateur Ranked Pokémon may have 1 Move from Ace Rank.**
+**寶可夢將能夠學會 1 個階級比牠原本高一級的招式！這意味著一隻業餘者階級的寶可夢將能夠學會一個來自菁英階級的招式。**
 
-There is a problem, though, a Pokémon resets the Victory count to zero, so, if it wants to Evolve, it must start all over again. Also, **a Pokémon may not have more than one Overranked Move at a time.**
+然而，這會有一個問題。這隻寶可夢獲得的勝利次數將會被重置歸零。因此如果你想讓牠再次進化，你就必須重新開始。此外，**一隻寶可夢不能同時擁有超過 1 個的越級招式**。
 
-**Final  Forms  may  benefit  from  Overranking  too,  once they achieve 20 Victories, they get access to one and only one Move from a Higher Rank.**
+**最終進化型態同樣能夠從越級中受益，一旦最終進化型態的寶可夢達到了 20 場勝利次數，牠們將能夠從更高的階級中獲得唯一的一個越級招式。**
 
 
-#### ⬛ The Limits of a Pokémon
-Pokémon  bodies  are  quite  different  to  human  bodies, therefore,  they  have  different  capabilities  too.  Some can  be  stronger,  faster,  or  sturdier.    To  reach  the  full  capacity of development on the body is what we call: **Limits**.
+#### ⬛ 寶可夢的特質上限
+寶可夢的身體和人類的身體有很大的差異，牠們也因此具備著跟人類截然不同的能力。牠們有些更強壯、更快速、或是更堅韌結實。而我們所謂的「上限」，就是指達到了身體發展所能及的最大能力。
 
-A human has a Limit of 5 points in all attributes, that means that when you reach 5 points, you have developed the attribute maximum for a human.
+人類的所有特質上限皆為 5 點，這意味著當你的某個特質達到 5 點時，你就已經達到人類在該特質表現所能達到的極限。
 
-The Pokémon’s Limits are different for each species and tend to increase with evolution.
- 
-Even  if  a  Pokémon’s  Limit  may  not  seem  very  high,  remember that all Pokémon posses an attribute that no human has: **Special**. This, alongside the moves they can learn  is  what  allows  them  to  do  incredible  feats  that  humans will never be able to.
+每個寶可夢物種的特質上限皆有不同，且通常會隨著進化而增加。
+就算某個寶可夢的特質上限看起來不怎麼高，但記住，所有寶可夢都擁有一個人類沒有的特質：「特殊」。光憑這點，加上牠們所能學到的各種招式，讓牠們能夠做出人類永遠無法做到的不可思議壯舉。
 
 {{< example >}}
-If we compare the difference of Limits in Strength of a human and a **Tyrogue**, we would have:
-* Human’s Strength: ●●○○○
-* Tyrogue’s Strength: ●○○ 
+如果我們比較一下人類和 **無畏小子** 之間的力量特質上限的差異，我們可以看到：
+* 人類的力量: ●●○○○
+* 無畏小子的力量: ●○○ 
 
-This means that even if **Tyrogue** reached its full Limit in Strength, it would not be stronger than a very fit human with 4 or more points in that attribute.
+這意味著即使**無畏小子**的力量提升到了極限，牠也不會比擁有 4 點或更多力量點的人類更強壯。
 
-But if that same Tyrogue evolves into a **Hitmonlee**, the Strength limit compared to a human would be:
-* Human’s Strength: ●●○○○
-* Hitmonlee’s Strength: ●●●○○○○
+但如果同一隻無畏小子進化成了 **飛腿郎**，那麼牠跟人類的力量上限相比：
+* 人類的力量: ●●○○○
+* 飛腿郎的力量: ●●●○○○○ 
 
-Tyrogue’s Evolution obtains a potential that not even the strongest human could ever match.
+無畏小子的進化蘊藏了連最強壯的人類也無法企及的潛力！
 {{< /example >}}
 
 
-#### ⬛ Teaching New Moves, Forgetting old ones.
-Pokémon are able to learn incredibly good Moves, train hard and show them the real arsenal at their disposal.
+#### ⬛ 教導新招式，遺忘舊招式
+寶可夢能夠學會許多令人難以置信的優秀招式，努力訓練，讓其他人見識一下牠們的真本事吧。
 
-When you Retrain a **Pokémon it is able able to forget a Move they already know to try out something new. When  your  Pokémon  forgets  a  Move  you  may  pick  a new Move from your Rank or lower.**
-However,  if  your  Pokémon  forgets  a  Move  exclusive  to its previous Evolution, it will NOT be able to get it back.
- 
-Remember that your Pokémon has a limit of Moves it can learn equal to: **Insight + 2**.
+當你進行「重新訓練」時，**寶可夢能夠遺忘牠們已經學會的招式，並嘗試學會新的招式。當你的寶可夢遺忘一個招式時，你可以從牠當前階級或更低的階級中挑選一個新的招式。**
+然而，如果你的寶可夢遺忘了一個牠進化前特有的招式，那麼牠將再也無法學會該招式。
 
-
-#### ⬛ Move Tutors
-Some people are even capable of teaching moves that are not usually known by some species. **They are called Move Tutors.**
-
-These  amazing  trainers  are  retired  fighters,  mystic  people or great elders from far away lands. Their secrets  are  kept  away  from  strangers,  but  sometimes  they take  Pokémon  as  pupils  to  teach  them  their  ancient  techniques.
-
-Should you meet one of them, show respect and maybe  they’ll teach you in exchange for a favor.
+記住，你的寶可夢可以學會的招式數量上限等同於：**洞察 + 2**。
 
 
-#### ⬛ Day-Care Centers
-There are establishments that give care and training to Pokémon when their owners are too busy or simply do not have the skills necessary to raise a Pokémon. Think about them as obedience schools for pets in the real world.  
+#### ⬛ 招式傳授者
+有些人能夠教導寶可夢學會一些該物種通常不會知道的招式，**他們被稱為「招式傳授者」**。
 
-They’ll raise and discipline your Pokémon, charging you for every day it stays in their facilities. In the Day-Care, your  Pokémon  will  be  fed,  bathed,  socialized  and  educated.  When  you  get  it  back, **the  number  of  Required Victories to Evolve may be reduced at the Storyteller’s discretion.**
+這些奇妙的訓練家可能是退休的戰士、神秘人物、或是來自遙遠國度的偉大長者。他們不讓陌生人知道他們的秘密，但有時他們會把寶可夢收作徒弟，傳授牠們古老的技術。
 
-Remember that a well-behaved Pokémon is not always equal to a happy or loyal Pokémon.
+如果你有幸遇到了他們，表現出你的尊重，也許他們會為了你善行而教導你一招半式作為回報。
 
 
+
+#### ⬛ 培育屋
+這個世界存在著一些機構，能夠幫助那些太過忙碌、或單純不具備培育寶可夢技巧的訓練家協助照顧並訓練他們的寶可夢。你可以把它想成是現實世界的寵物服從學校。
+
+他們會培養並管教你的寶可夢，並為寶可夢待在這些機構的每一天向你收費。在培育屋，你的寶可夢會餵養、洗澡、社會化、與教育。當你把牠們帶回來時，**進化所需的勝利次數可以根據說書人的裁斷而適度減少**。
+
+然而記住，表現乖巧的寶可夢並不等同於快樂或忠誠的寶可夢。
