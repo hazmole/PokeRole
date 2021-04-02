@@ -81,6 +81,9 @@ tag.text b {
     top: 50%;
     transform: translate(-50%,-50%);
 }
+tag.text.Normal { background-color: #9c9c8a; }
+tag.text.Flying { background-color: #84adff; }
+tag.text.Grass { background-color: #5eb83a; }
 tag.text.Psychic { background-color: #ff99c2; }
 
 

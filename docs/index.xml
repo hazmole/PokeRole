@@ -86,9 +86,24 @@ TocInjector.parsePage("Move");
 你可能會因為你的起始階級不同而有額外可分配的點數。
 力量: ●●○○○ 活力: ●○○○○ 靈巧: ●●○○○ 洞察: ●○○○○ 社交特質 青少年有 2 點可以進行分配在社交特質上。
 你可能會因為你的起始階級不同而有額外可分配的點數。
-強壯: ●○○○○ 美麗: ●●○○○ 帥氣: ●○○○○ 可愛: ●○○○○ 聰明: ●●○○○ 技能 你有 5 點可以分配在技能上，新手的技能上限為 1 點。</description></item><item><title>招式的規則</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid><description>Pokemon Moves It’s more important to master the cards you’re holding than to complain about the ones your opponents were dealt.
--Grimsley
-Pokémon inhabit the vast majority of this world and they protect themselves using wondrous powers. They are able to call upon a certain kind of energy and shape it to attack foes or weaken them; some Pokémon can even use their powers to strengthen or heal themselves and others.</description></item><item><title>華麗大賽介紹</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid><description>寶可夢華麗大賽 寶可夢訓練家們通常會把主要精力放在寶可夢對戰上，如果你喜歡這種粗魯暴力的娛樂方式，那也沒關係。但如果你能夠透過寶可夢華麗大賽過上奢侈富裕的生活，那為什麼還要像野獸一樣互毆呢？
+強壯: ●○○○○ 美麗: ●●○○○ 帥氣: ●○○○○ 可愛: ●○○○○ 聰明: ●●○○○ 技能 你有 5 點可以分配在技能上，新手的技能上限為 1 點。</description></item><item><title>招式的規則</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/</guid><description>寶可夢招式 掌握自己手中的牌，比埋怨對手的牌好更為重要。
+-越橘
+寶可夢居住在這個世界的各個角落，並會使用奇妙的力量來保護自己。牠們能夠操縱特定種類的能量，將其形塑來攻擊或削弱敵人；也有一些寶可夢甚至能夠利用牠們的力量來強化或治療自己或他人。
+這些力量被稱為「招式」。
+所有的寶可夢體內都沉睡著的強大的潛力，尤其你的夥伴們更是如此。
+在野外，寶可夢們會隨著年齡或經驗的增長而學習到新的招式，然而，一名熟練的訓練家將能夠發揮出任何寶可夢的最大潛力。
+記住，你的寶可夢就是反映出你身為訓練家實力的鏡子，你所處的階級將會幫助你的同伴獲得更多強大的招式。
+就跟寶可夢一樣，招式有著 18 種屬性：
+Normal, Bug, Dark, Dragon, Electric, Fairy, Fight, Fire, Flying, Ghost, Grass, Ground, Ice, Poison, Psychic, Rock, Steel, Water
+每種屬性都有著其獨特的戰鬥和解決問題的方式。最強大的訓練家能夠找到與他們思維模式和挑戰類型相符的屬性，藉此與他們的寶可夢夥伴同步，並更容易與牠們建立羈絆。
+所有招式的說明都是由寶可夢聯盟所撰寫、並說明其在戰鬥中的用途。然而，招式最初都是源自於生存與適應的；就連攻擊招式也是如此。透過這些力量，你的寶可夢形塑了牠們的世界，而你也應該要如此，畢竟戰鬥也只是你做為訓練家所要經歷的其中一個面向罷了。
+試著為你寶可夢的招式找出各種有創意的用法。
+招式的基本規則 除非透過「越級」，寶可夢只能學會牠們當前階級或更低階級中的招式（參見「訓練寶可夢」章節）。 寶可夢能夠學會的招式數量上限等同於牠們的 洞察 + 2。 在訓練課程期間，寶可夢可以將牠已經學會的招式替換成另一個牠能夠學會的新招式。 進化過的寶可夢無法學會牠進化前專屬的招式，但如果牠在進化前就已經學會該招式，則牠可以將其保留。 在戰鬥中使用招式的規則 招式只能在該寶可夢的回合中、或進行對抗時被使用。 一個招式在每個戰鬥輪中都只能被使用一次。
+（對抗被視作使用招式） 使用社交特質（帥氣、可愛、強壯、聰明、美麗）來進行命中判定的招式無法被閃避或對抗。 對象為「範圍內所有敵人」和「使用者和範圍內所有隊友」的招式，只能影響特定數量的目標，其數量由你的階級決定。 「範圍全體」招式打中的對象將由說書人決定。你可能會打中你的隊友！ 如何閱讀招式 所有的招式都會透過圖示和文字呈現。它們被分成了九個部分。
+招式的名稱 威力 - 該數量的骰子將被加入傷害骰池中。 分類圖示 - 物理、特殊、或變化招式。 屬性 - 參見「不同的寶可夢屬性」章節。 命中 - 施展這個招式時用來判定的數值。 傷害骰池 - 特質 + 威力 + 其他調整值.</description></item><item><title>特性列表</title><link>https://hazmole.github.io/PokeRole/data/pokemon-abilities/ability-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-abilities/ability-list/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Ability");
+});</description></item><item><title>華麗大賽介紹</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/</guid><description>寶可夢華麗大賽 寶可夢訓練家們通常會把主要精力放在寶可夢對戰上，如果你喜歡這種粗魯暴力的娛樂方式，那也沒關係。但如果你能夠透過寶可夢華麗大賽過上奢侈富裕的生活，那為什麼還要像野獸一樣互毆呢？
 什麼是寶可夢華麗大賽？ 說到寶可夢華麗大賽，那可是這個世界上最賺錢的演藝事業。這些大型活動有著各種各樣的形式：選美比賽、科學展覽、舞台對戰、音樂節、或者最常見的，那讓群眾沉醉於訓練家和寶可夢的才華優雅的全方位表演秀。
 這很像是才藝比賽；你在觀眾和評審面前展示自己和你的寶可夢，看看你的表演是否達到了所有的要求；如果是，那你就贏了！聽起來很簡單，是吧？
 沒有傷害、沒有擊中要害、也沒有瀕死狀態會擋在你和那條棒呆了的第一名獎章之間。但等等！儘管沒有人會在比賽結束時暈厥倒下，並不意味著競爭不激烈，恰恰相反，最高級別的華麗大賽中到處充滿了訓練家之間的激烈競爭。
@@ -807,8 +822,10 @@ Every Trainer should have these Items at all times:</description></item><item><t
 環團 多虧了許多人一起輪流講述故事的性質，環團是一個有著很大優勢的敘事方式。</description></item><item><title>寶可夢圖鑑</title><link>https://hazmole.github.io/PokeRole/docs/pokedex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokedex/</guid><description>Pokedex There are almost a thousand known species of Pokémon in the world, some better known than others.
 In this section of the book you’ll find all the information available about most of them.
 To create and train your Pokémon you’ll need to check its Pokédex entry, Ability and Moves in the Pokémon Abilities and Pokémon Moves sections of this book.
-Now, this might seem like a lot of information to take in.</description></item><item><title>常見問題</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid><description>Frequently Asked Questions Can I Target an Ally with a Move that Targets a Foe? Yes, you can. Very rarely you’ll find a use to it, but sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
-Can my Pokémon Target itself with a Move that Targets an Ally or a Foe? No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit from this power.</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
+Now, this might seem like a lot of information to take in.</description></item><item><title>常見問題</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid><description>經常被詢問的問題 我可以對隊友使用以敵人做為目標的招式嗎？ 可以。儘管這種情況相當罕見，但有時候它仍值得一試，比如說使用虛張聲勢、或對擁有「蓄電」特性的寶可夢使用電屬性招式。
+我的寶可夢可以對自己使用以同伴或敵人為目標的招式嗎？ 不行。大部分以隊友或敵人為目標的招式就是不可能作用在使用者自己身上，比如說你先請或幫助，你需要另一個目標才能從這個招式中受益。或者，假如你是想讓寶可夢用自己的招式攻擊自己？可別指望你的寶可夢會聽從這個命令。
+「脫離範圍」是什麼意思？ What’s the meaning of “Out of Range”? Some moves like Fly or Dig take the Pokémon out of range of the fight. When a Pokémon is out of range, it is unaffected by attacks and Moves of any kind. As always, there may be exceptions depending on the situation.
+If my Pokémon moves away during its turn, is it still in range of the foe?</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
 Always consider the Ability of your Pokémon to aid you in any situation.
 Sometimes Pokémon have more than one ability to choose from, outside of battle they can be used at will.
 At the beginning of a battle, you must inform your storyteller which Ability your Pokemon will use.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。

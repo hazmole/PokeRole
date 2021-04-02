@@ -183,18 +183,18 @@ class MoveParser{
     if(!MoveList || MoveList.length<=0) return false;
 
     var self = this;
-    var HtmlMoveList = MoveList.map( obj => self.getMoveHTML(obj) );
+    var HtmlMoveList = MoveList.map( obj => self.getHTML(obj) );
     MoveListPanel.innerHTML = HtmlMoveList.join("");
     return true;
   }
-//<span class="Fairy TypeBlock">妖精</span>
+
   static parseTypeIcon(){
     var typeObjArr;
     typeObjArr = document.getElementsByClassName("TypeBlockList");
     if(typeObjArr){
       Object.values(typeObjArr).forEach( obj => {
         var arr = obj.innerHTML.split(",").map( t => getTypeHTML(t.trim()));
-        obj.innerHTML = arr.join(" ");
+        obj.innerHTML = arr.join("");
       });
     }
 
@@ -204,7 +204,7 @@ class MoveParser{
   }
 
 
-  static getMoveHTML( moveObj ){
+  static getHTML( moveObj ){
     if(moveObj.tags[0]=="unknown|l") return "";
     var moveEffect = moveObj.effect? `<div><b>額外效果: </b></div><div class="Additional">${moveObj.effect}</div>`: "";
     var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
@@ -229,6 +229,38 @@ class MoveParser{
 }
 
 //=================
+// Ability Builder
+var AbilityList;
+class AbilityParser{
+  static parsePage(){
+    var buildPanel = document.getElementById("AbilityList");
+    if(!buildPanel) return false;
+    if(!AbilityList || AbilityList.length<=0) return false;
+
+    var self = this;
+    var HtmlAbiLust = AbilityList.map( obj => self.getHTML(obj) );
+    buildPanel.innerHTML = HtmlAbiLust.join("");
+    return true;
+  }
+
+  static getHTML( abilityObj ){
+    if(abilityObj.tags[0]=="unknown|l") return "";
+
+    var iconArr =abilityObj.tags? abilityObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
+
+    return `<div class="Ability">
+              <div class="Header">
+                <span class="title">${abilityObj.display_name}</span>
+              </div>
+              <div class="IconBar">${iconArr.join("")}</div>
+              <div class="Content">${abilityObj.effect}</div>
+              <div class="Desc">${abilityObj.desc}</div>
+            </div>`;
+  }
+}
+
+
+//=================
 // Pokemon Builder
 var Pokedex;
 class PokemonParser{
@@ -245,7 +277,6 @@ class PokemonParser{
   }
 
   static getHTML( pokemonObj ){
-    console.log(pokemonObj);
     var pokemonTypes = pokemonObj.type.map(type=>`<div class="type ${type}" style="width:${pokemonObj.type.length>1? 5: 10}rem;">${FMT(type)}</div>`).join("");
     var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
     var evolveStage = getEvolveStage(pokemonObj.evolution)!=""? `<div class="entry"><b style="background:#b7b7b7">進化階段</b>${getEvolveStage(pokemonObj.evolution)}</div>`: "";
@@ -395,6 +426,7 @@ class TocInjector{
       switch(className){
         case "Nature":
         case "Move":
+        case "Ability":
           return domObj.getElementsByClassName("title").item(0).innerText;
       }
       return 'unknown';
@@ -441,8 +473,9 @@ window.addEventListener("load", () => {
 
   var isDomChanged = false;
   isDomChanged |= IconParser.parsePage();
-  isDomChanged |= MoveParser.parsePage();
   isDomChanged |= PokemonParser.parsePage();
+  isDomChanged |= MoveParser.parsePage();
+  isDomChanged |= AbilityParser.parsePage();
   
   if(isDomChanged) window.onscroll(true);
 

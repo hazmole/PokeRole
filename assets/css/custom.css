@@ -251,7 +251,33 @@
     word-break: break-word;
 }
 
-
+/* Ability */
+.Ability {
+    margin: .5em;
+    border: 2px solid black;
+    background: #c0c0c0;
+}
+.Ability .Header {
+    background: rgba(255,255,255,.5); 
+    padding: 0rem;
+    font-size: 1.2rem; font-weight: 700;
+}
+.Ability .Header .title {
+    display: inline-block; width:150px;
+    background-color: rgba(0,0,0,.7); color: #fff;
+    padding:.5rem; 
+    text-align: center;
+}
+.Ability .IconBar { margin-top: .3rem; }
+.Ability .Content {
+    background: rgba(255,255,255,.7); color: #000;
+    margin: .3rem; padding: .3rem;
+}
+.Ability .Desc {
+    background: rgba(0,0,0,.4); color: #fff;
+    padding: .4rem .5rem; 
+    font-size: .8rem; text-indent: .5rem;
+}
 
 
 
@@ -271,7 +297,6 @@
 
 /* Pokemon Type */
 .Normal { background:#BBBBAA; }
-
 .Bug { background:#AABB22; }
 .Dark { background:#775544;color:#fff; }
 .Dragon { background:#7766EE;color: #fff; }
@@ -290,7 +315,7 @@
 .Steel { background:#AAAABB; }
 .Water { background:#3399FF; }
 
-.TypeBlock { display: inline-block; width: 60px; padding:.2rem; text-align: center; }
+.TypeBlock { display: inline-block; width: 60px; padding:.2rem; text-align: center; margin:.1rem;}
 
 /* extra style */
 fill { color: red; }

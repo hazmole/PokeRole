@@ -3,15 +3,15 @@ title = "常見問題"
 weight = 10
 description = ""
 +++
-## Frequently Asked Questions
+## 經常被詢問的問題
 
-##### Can I Target an Ally with a Move that Targets a Foe?
-Yes,  you  can.  Very  rarely  you’ll  find  a  use  to  it,  but  sometimes it’s worth the effort, such as with Swagger or an Electric Move on a Pokémon with Volt Absorb.
+##### 我可以對隊友使用以敵人做為目標的招式嗎？
+可以。儘管這種情況相當罕見，但有時候它仍值得一試，比如說使用**虛張聲勢**、或對擁有「蓄電」特性的寶可夢使用電屬性招式。
 
-##### Can  my  Pokémon  Target  itself  with  a  Move that Targets an Ally or a Foe?
-No, you can’t. Most Moves that target an Ally or a Foe are just impossible to be employed on the User, such as After You or Helping Hand, you need another target to benefit  from this power. Now, if you’re talking about hitting your own  Pokémon  with  its  own  attack,  don’t  expect  your  Pokemon to comply.
+##### 我的寶可夢可以對自己使用以同伴或敵人為目標的招式嗎？
+不行。大部分以隊友或敵人為目標的招式就是不可能作用在使用者自己身上，比如說**你先請**或**幫助**，你需要另一個目標才能從這個招式中受益。或者，假如你是想讓寶可夢用自己的招式攻擊自己？可別指望你的寶可夢會聽從這個命令。
 
-##### What’s the meaning of “Out of Range”?
+##### 「脫離範圍」是什麼意思？ What’s the meaning of “Out of Range”?
 Some  moves  like  Fly  or  Dig  take  the  Pokémon  out  of range of the fight. When a Pokémon is out of range, it is unaffected by attacks and Moves of any kind. As always, there may be exceptions depending on the situation.
 
 ##### If my Pokémon moves away during its turn, is it still in range of the foe?
