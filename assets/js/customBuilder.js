@@ -187,9 +187,25 @@ class MoveParser{
     MoveListPanel.innerHTML = HtmlMoveList.join("");
     return true;
   }
+//<span class="Fairy TypeBlock">妖精</span>
+  static parseTypeIcon(){
+    var typeObjArr;
+    typeObjArr = document.getElementsByClassName("TypeBlockList");
+    if(typeObjArr){
+      Object.values(typeObjArr).forEach( obj => {
+        var arr = obj.innerHTML.split(",").map( t => getTypeHTML(t.trim()));
+        obj.innerHTML = arr.join(" ");
+      });
+    }
+
+    function getTypeHTML(type){
+      return `<span class="TypeBlock ${type}">${FMT(type)}</span>`;
+    }
+  }
 
 
   static getMoveHTML( moveObj ){
+    if(moveObj.tags[0]=="unknown|l") return "";
     var moveEffect = moveObj.effect? `<div><b>額外效果: </b></div><div class="Additional">${moveObj.effect}</div>`: "";
     var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
     var moveIconArr =moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
@@ -232,6 +248,8 @@ class PokemonParser{
     console.log(pokemonObj);
     var pokemonTypes = pokemonObj.type.map(type=>`<div class="type ${type}" style="width:${pokemonObj.type.length>1? 5: 10}rem;">${FMT(type)}</div>`).join("");
     var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
+    var evolveStage = getEvolveStage(pokemonObj.evolution)!=""? `<div class="entry"><b style="background:#b7b7b7">進化階段</b>${getEvolveStage(pokemonObj.evolution)}</div>`: "";
+    var evolveTime  = getEvolveTime(pokemonObj.evolution) !=""? `<div class="entry"><b style="background:#b7b7b7">進化時間</b>${getEvolveTime(pokemonObj.evolution)}</div>`: "";
 
     return `<div class="Pokemon">
               <div class="${pokemonObj.type[0]}">
@@ -259,9 +277,9 @@ class PokemonParser{
                   <div class="entry"><b>特殊</b> ${getAttr(pokemonObj.attr.spe)}</div>
                   <div class="entry"><b>洞察</b> ${getAttr(pokemonObj.attr.ins)}</div>
                 </div>
-                <div class="block" style="width: 150px; margin-left:1rem;">
-                  <div class="entry"><b style="background:#b7b7b7">進化階段</b> ${getEvolveStage(pokemonObj.evolution)}</div>
-                  <div class="entry"><b style="background:#b7b7b7">進化時間</b> ${getEvolveTime(pokemonObj.evolution)}</div>
+                <div class="block" style="width: 180px; margin-left:1rem;">
+                  ${ evolveStage }
+                  ${ evolveTime }
                 </div>
               </div>
               <div>
@@ -277,17 +295,17 @@ class PokemonParser{
 
     //=================
     function getEvolveStage(evolvoObj){
-      if(!evolvoObj || !evolvoObj.stage) return "-";
+      if(!evolvoObj || !evolvoObj.stage) return "";
       switch(evolvoObj.stage){
         case "first": return "初階";
         case "second": return "二階";
         case "final": return "最終階";
-        case "mega": return "MEGA";
+        case "mega": return "超級進化";
       }
       return "-";
     }
     function getEvolveTime(evolvoObj){
-      if(!evolvoObj || !evolvoObj.time) return "-";
+      if(!evolvoObj || !evolvoObj.time) return "";
       switch(evolvoObj.time){
         case "fast":   return "快速";
         case "medium": return "中等";
@@ -419,6 +437,8 @@ function toggleMoveList(elem){
 //=================
 // Global settings
 window.addEventListener("load", () => { 
+  MoveParser.parseTypeIcon();
+
   var isDomChanged = false;
   isDomChanged |= IconParser.parsePage();
   isDomChanged |= MoveParser.parsePage();

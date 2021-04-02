@@ -1,6 +1,7 @@
 +++
 title = "惡屬性"
-weight = 2
+weight = 3
+draft=true
 +++
 
 # 惡屬性
@@ -9,10 +10,10 @@ Dark Types prey on the weak. They rely on hindering the foe and fighting dirty. 
 Dark Types always try to Battle while putting the foes at  a  complete  disadvantage.  Never  underestimate  the power of proper planning.
 
 **效果絕佳:**
-幽靈, 超能力
+<span class="TypeBlockList">Ghost, Psychic</span>
 
 **效果不好:**
-惡, 妖精, 格鬥
+<span class="TypeBlockList">Dark, Fairy, Fight</span>
 
 ---
 

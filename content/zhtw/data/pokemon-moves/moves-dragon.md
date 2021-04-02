@@ -1,6 +1,7 @@
 +++
 title = "龍屬性"
-weight = 3
+weight = 4
+draft=true
 +++
 
 # 龍屬性
@@ -10,13 +11,13 @@ They wish to defeat strong opponents, take over large lands, and covet anything 
 Their attacks are very powerful and devastating.
 
 **效果絕佳:**
-龍
+<span class="TypeBlockList">Dragon</span>
 
 **效果不好:**
-鋼
+<span class="TypeBlockList">Steel</span>
 
 **沒有效果:**
-妖精
+<span class="TypeBlockList">Fairy</span>
 
 ---
 

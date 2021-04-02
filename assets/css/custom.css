@@ -185,6 +185,7 @@
     background: rgba(255,255,255,.3); color: #000;
     margin: .3rem; padding: .2rem;
 }
+.MoveIconBar { margin-top: .3rem; }
 .MoveContent .Type, .MoveContent .Accuracy, .MoveContent .Damage { font-weight: normal; }
 .MoveContent .Type::before { content: "屬性: "; font-weight:bold; }
 .MoveContent .Accuracy::before { content: "命中: "; font-weight:bold; }
@@ -288,6 +289,8 @@
 .Rock { background:#BBAA66; }
 .Steel { background:#AAAABB; }
 .Water { background:#3399FF; }
+
+.TypeBlock { display: inline-block; width: 60px; padding:.2rem; text-align: center; }
 
 /* extra style */
 fill { color: red; }

@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>不同的寶可夢屬性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid><description>不同的寶可夢屬性 世界上充斥著各種寶可夢能夠控制的不同能量。牠們能夠吸收這些能量成為身體的一部分，或者是將其形塑成強大的攻擊。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>一般屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-normal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-normal/</guid><description>一般屬性 一般屬性有著相當強大的通用性和適應性。
+這些招式在所有寶可夢中都相當常見，並能提供包括基本攻擊、弱化效果、對大多數情況的支援、和甚至威力強大得荒謬，無論實力或戰術如何都能夠確實擊潰任何寶可夢的招式
+永遠不要低估一般屬性的招式，它們很有可能是所有招式中最危險的。
+效果不好:
+Rock, Steel
+沒有效果:
+Ghost
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>不同的寶可夢屬性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/</guid><description>不同的寶可夢屬性 世界上充斥著各種寶可夢能夠控制的不同能量。牠們能夠吸收這些能量成為身體的一部分，或者是將其形塑成強大的攻擊。
 那些特別擅長使用某種能量的寶可夢，被貼上我們稱之為「屬性」的標籤。
 截至目前，已經有18 種寶可夢屬性被發現。
 一般
@@ -106,15 +115,7 @@ Pokémon inhabit the vast majority of this world and they protect themselves usi
 壓力懲罰會互相疊加，且只能透過「技倆牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
 有些訓練家會利用技倆牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技倆牌以幫助他們的同伴重拾信心。
 如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
-壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
-蟲屬性招式並沒有在跟你在乎自己安全的，它們經常全力進攻或乾脆完全不動作。如果你認為這些寶可夢只是想要騷擾你，最好再仔細瞧瞧，牠們的幫手可不少。
-效果絕佳:
-惡, 草, 超能力
-效果不好:
-妖精, 格鬥, 火, 飛行, 幽靈, 鋼
-window.addEventListener("parsePage", ()={
-TocInjector.parsePage("Move");
-});</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description/></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
+壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description/></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
 扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
 把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
 儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。
@@ -129,7 +130,7 @@ TocInjector.parsePage("Move");
 初始寶可夢將會成為你旅途中的夥伴，因此如果能挑選與你訓練家個性相合的寶可夢會更好。
 就算沒辦法一開始就獲得你想要的寶可夢也不要絕望，這個世界相當遼闊，且收服寶可夢的過程也是在這個世界冒險的樂趣之一。
 填寫寶可夢角色卡 在填寫寶可夢角色表格時，你將會需要從寶可夢圖鑑中抄寫一些資訊。
-名稱＆圖鑑編號 體型和體重 屬性 起始特質 限制 1 基礎 HP 特性 招式 2 3 *1: 寶可夢的特質可以達到的最高數值。
+名稱＆圖鑑編號 體型和體重 屬性 起始特質 特質上限 1 基礎 HP 特性 招式 2 3 *1: 寶可夢的特質可以達到的最高數值。
 *2: 寶可夢能夠學習的招式數量最多等於: 洞察 + 2。
 *3: 所有寶可夢學會的招式都必須等於或低於其階級。
 你在遊戲開始時的初始寶可夢將擁有與你訓練家相同的階級。這將會影響牠能夠選擇的招式、以及其技能的分配方式。
@@ -164,12 +165,7 @@ TocInjector.parsePage("Move");
 或者
 敵人骰 力量/特殊 + 對抗 如果敵人骰出與你相同或更多的成功骰數，則他對抗抵銷了該攻擊，且雙方寶可夢都將承受 1 點傷害，而非該攻擊原本的傷害。
 進行對抗時，雙方受到的傷害仍會把弱點和抗性的影響納入計算。
-閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>惡屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</guid><description>惡屬性 Dark Types prey on the weak. They rely on hindering the foe and fighting dirty. These Moves use tricks, lies and negative feelings. Dark Pokémon are vicious and their Moves very dangerous. They love it, sometimes being nasty is way more fun.
-Dark Types always try to Battle while putting the foes at a complete disadvantage. Never underestimate the power of proper planning.
-效果絕佳:
-幽靈, 超能力
-效果不好:
-惡, 妖精, 格鬥</description></item><item><title>招式效果標誌</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>招式效果標誌 在這個章節中羅列了許許多多的效果標誌。它們是協助你快速參照效果的圖標，用來說明招式的目標、命中率、以及最重要的：招式的效果。
+閃避和對抗都需要花費一個行動。 對抗同樣會需要使用一個傷害招式。 閃避/對抗每個戰鬥輪都只能各使用一次。 步驟 3: 結算傷害 骰 招式的傷害 - 敵人的防禦/特防。 若招式命中，接著就是時候收集骰池來決定造成多少傷害了。每個招式都會列出它本身所使用的傷害骰池，它們通常會是這樣：</description></item><item><title>招式效果標誌</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/</guid><description>招式效果標誌 在這個章節中羅列了許許多多的效果標誌。它們是協助你快速參照效果的圖標，用來說明招式的目標、命中率、以及最重要的：招式的效果。
 大部分的效果標誌的意義都相當不言自明，且能幫上你很大的忙。
 留意你招式的效果。
 如果你能學會組合它們，那它們將會成為你邁向勝利的關鍵。
@@ -284,7 +280,15 @@ Dark Types always try to Battle while putting the foes at a complete disadvantag
 如果你骰出了所需的成功骰數，你將可以抽一張「反應牌」，你取得的成功骰數越多，你就能抽越多的反應牌，並忽略掉那些不好的反應！
 但如果你沒能取得所需的最低成功骰數，那麼群眾將會開始對你發出噓聲。
 牌堆 要想舉辦一場華麗大賽，你將會需要仔細閱讀規則，並準備一些卡牌來幫助大賽的進行。在遊戲中會有 3 組牌堆：
-反應牌堆 Reactions Deck 觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
+反應牌堆 Reactions Deck 觀眾會對你的表演做出反應。如果你在表演中取得了該難度階級所要求的最低成功骰數，那麼你將可以從這個牌堆中抽一張牌。</description></item><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
+蟲屬性招式並沒有在跟你在乎自己安全的，它們經常全力進攻或乾脆完全不動作。如果你認為這些寶可夢只是想要騷擾你，最好再仔細瞧瞧，牠們的幫手可不少。
+效果絕佳:
+Dark, Grass, Psychic
+效果不好:
+Fairy, Fight, Fire, Flying, Ghost, Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
 These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
 在受到傷害後，訓練家和寶可夢每經過 8 小時就可以回復 1 點HP。
 如果你需要長時間戰鬥，那麼你必須要盡可能減少寶可夢所受到的傷害。否則你們將會承受相應的後果。
@@ -391,18 +395,7 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 每個人都為你雀躍，為你鼓掌歡呼，有人向你獻上玫瑰，有人將冠冕戴在你的頭上，為你的寶可夢繫上美麗的緞帶獎章。觀眾愛死你了！真的！
 每當你贏得了華麗大賽的名次，你都能夠獲得一筆現金做為獎勵，且可能提升你的協調訓練家階級。
 你可以透過贏得更多的華麗大賽和獎章來提升你的協調訓練家階級。這些階級將允許你獲得一些只有華麗大賽優勝者才能夠得到的聲譽類技能！
-協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>龍屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</guid><description>龍屬性 Dragon Types are ferocious and fearsome. They rely on high-power attacks to quickly dispatch the foe. Dragon Pokémon are eager to fight, easily angered and don’t show mercy nor respect towards anyone.
-They wish to defeat strong opponents, take over large lands, and covet anything they find precious.
-Their attacks are very powerful and devastating.
-效果絕佳:
-龍
-效果不好:
-鋼
-沒有效果:
-妖精
-window.addEventListener("parsePage", ()={
-TocInjector.parsePage("Move");
-});</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
+協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>豐緣地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</guid><description/></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
 只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
 沒錯，只要有傑出的策略就能挽回局面！
 在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。

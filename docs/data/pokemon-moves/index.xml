@@ -1,25 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢招式表 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/</link><description>Recent content in 寶可夢招式表 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/data/pokemon-moves/index.xml" rel="self" type="application/rss+xml"/><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
-蟲屬性招式並沒有在跟你在乎自己安全的，它們經常全力進攻或乾脆完全不動作。如果你認為這些寶可夢只是想要騷擾你，最好再仔細瞧瞧，牠們的幫手可不少。
-效果絕佳:
-惡, 草, 超能力
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢招式表 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/</link><description>Recent content in 寶可夢招式表 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><atom:link href="https://hazmole.github.io/PokeRole/data/pokemon-moves/index.xml" rel="self" type="application/rss+xml"/><item><title>一般屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-normal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-normal/</guid><description>一般屬性 一般屬性有著相當強大的通用性和適應性。
+這些招式在所有寶可夢中都相當常見，並能提供包括基本攻擊、弱化效果、對大多數情況的支援、和甚至威力強大得荒謬，無論實力或戰術如何都能夠確實擊潰任何寶可夢的招式
+永遠不要低估一般屬性的招式，它們很有可能是所有招式中最危險的。
 效果不好:
-妖精, 格鬥, 火, 飛行, 幽靈, 鋼
+Rock, Steel
+沒有效果:
+Ghost
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
-});</description></item><item><title>惡屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</guid><description>惡屬性 Dark Types prey on the weak. They rely on hindering the foe and fighting dirty. These Moves use tricks, lies and negative feelings. Dark Pokémon are vicious and their Moves very dangerous. They love it, sometimes being nasty is way more fun.
-Dark Types always try to Battle while putting the foes at a complete disadvantage. Never underestimate the power of proper planning.
+});</description></item><item><title>蟲屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-bug/</guid><description>蟲屬性 蟲屬性招式會為你的所有攻擊都添上螫針。它們依靠著迅捷、低威力但帶有額外效果的打擊以及集群戰術。有些招式甚至能夠召集更多的蟲系寶可夢來阻止敵人逃跑、或者在你行動時幫助你。
+蟲屬性招式並沒有在跟你在乎自己安全的，它們經常全力進攻或乾脆完全不動作。如果你認為這些寶可夢只是想要騷擾你，最好再仔細瞧瞧，牠們的幫手可不少。
 效果絕佳:
-幽靈, 超能力
+Dark, Grass, Psychic
 效果不好:
-惡, 妖精, 格鬥</description></item><item><title>龍屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</guid><description>龍屬性 Dragon Types are ferocious and fearsome. They rely on high-power attacks to quickly dispatch the foe. Dragon Pokémon are eager to fight, easily angered and don’t show mercy nor respect towards anyone.
-They wish to defeat strong opponents, take over large lands, and covet anything they find precious.
-Their attacks are very powerful and devastating.
-效果絕佳:
-龍
-效果不好:
-鋼
-沒有效果:
-妖精
+Fairy, Fight, Fire, Flying, Ghost, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
 });</description></item></channel></rss>

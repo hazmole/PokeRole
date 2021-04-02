@@ -106,7 +106,7 @@ Array.prototype.push.apply(Pokedex, [
         "height": "2.0",
         "weight": "200",
         "category": "種子寶可夢",
-        "text": "Venusaur’s flower is said to take on vivid  colors  if  it  gets  plenty  of  sun light.  The  flower’s  aroma  soothes the emotions of others. If you find one in the wild, it must be the protector of the area."
+        "text": "據說妙蛙花的花朵會在充足的陽光下展現出鮮豔的顏色。花朵散發的香氣能夠療癒人心。如果你在野外遇到一隻妙蛙花，那牠一定是這個區域的守護者。"
     },
     "evolution": {
         "stage": "final"
@@ -126,22 +126,18 @@ Array.prototype.push.apply(Pokedex, [
         { "rank": 0, "type": "Normal", "name": "叫聲" },
         { "rank": 1, "type": "Grass", "name": "寄生種子" },
         { "rank": 1, "type": "Grass", "name": "藤鞭" },
-
         { "rank": 2, "type": "Normal", "name": "猛撞" },
         { "rank": 2, "type": "Normal", "name": "甜甜香氣" },
         { "rank": 2, "type": "Normal", "name": "生長" },
         { "rank": 2, "type": "Normal", "name": "捨身衝撞" },
-
         { "rank": 2, "type": "Grass", "name": "催眠粉" },
         { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
         { "rank": 2, "type": "Grass", "name": "煩惱種子" },
         { "rank": 2, "type": "Grass", "name": "花瓣舞" },
         { "rank": 2, "type": "Poison", "name": "毒粉" },
-        
         { "rank": 3, "type": "Grass", "name": "光合作用" },
         { "rank": 3, "type": "Grass", "name": "落英繽紛" },
         { "rank": 3, "type": "Grass", "name": "日光束" },
-
         { "rank": 4, "type": "Dragon", "name": "逆鱗" },
         { "rank": 4, "type": "Ghost", "name": "詛咒" },
         { "rank": 4, "type": "Grass", "name": "瘋狂植物" },
@@ -158,7 +154,7 @@ Array.prototype.push.apply(Pokedex, [
         "height": "2.4",
         "weight": "300",
         "category": "種子寶可夢",
-        "text": "With the power of the Mega Stone, this  Pokémon  grows  taller  and thicker.  It’s  bark  and  skin  are  now  impervious to the elements. Its  demeanor  becomes  even  more serious and determined."
+        "text": "藉著超級石的力量，這隻寶可夢變得更高更重。牠的厚皮現在不會受到元素所傷，牠的行為舉止也變得更加嚴肅和堅定。"
     },
     "evolution": {
         "stage": "mega"
@@ -178,22 +174,18 @@ Array.prototype.push.apply(Pokedex, [
         { "rank": 0, "type": "Normal", "name": "叫聲" },
         { "rank": 1, "type": "Grass", "name": "寄生種子" },
         { "rank": 1, "type": "Grass", "name": "藤鞭" },
-
         { "rank": 2, "type": "Normal", "name": "猛撞" },
         { "rank": 2, "type": "Normal", "name": "甜甜香氣" },
         { "rank": 2, "type": "Normal", "name": "生長" },
         { "rank": 2, "type": "Normal", "name": "捨身衝撞" },
-
         { "rank": 2, "type": "Grass", "name": "催眠粉" },
         { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
         { "rank": 2, "type": "Grass", "name": "煩惱種子" },
         { "rank": 2, "type": "Grass", "name": "花瓣舞" },
         { "rank": 2, "type": "Poison", "name": "毒粉" },
-        
         { "rank": 3, "type": "Grass", "name": "光合作用" },
         { "rank": 3, "type": "Grass", "name": "落英繽紛" },
         { "rank": 3, "type": "Grass", "name": "日光束" },
-
         { "rank": 4, "type": "Dragon", "name": "逆鱗" },
         { "rank": 4, "type": "Ghost", "name": "詛咒" },
         { "rank": 4, "type": "Grass", "name": "瘋狂植物" },
