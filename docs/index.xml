@@ -130,7 +130,10 @@ TocInjector.parsePage("Ability");
 壓力懲罰會互相疊加，且只能透過「技倆牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
 有些訓練家會利用技倆牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技倆牌以幫助他們的同伴重拾信心。
 如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
-壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description/></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
+壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
+});</description></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
 扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
 把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
 儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。
@@ -410,7 +413,10 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 每個人都為你雀躍，為你鼓掌歡呼，有人向你獻上玫瑰，有人將冠冕戴在你的頭上，為你的寶可夢繫上美麗的緞帶獎章。觀眾愛死你了！真的！
 每當你贏得了華麗大賽的名次，你都能夠獲得一筆現金做為獎勵，且可能提升你的協調訓練家階級。
 你可以透過贏得更多的華麗大賽和獎章來提升你的協調訓練家階級。這些階級將允許你獲得一些只有華麗大賽優勝者才能夠得到的聲譽類技能！
-協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>豐緣地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</guid><description/></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
+協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>豐緣地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
+});</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
 只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
 沒錯，只要有傑出的策略就能挽回局面！
 在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。
@@ -769,9 +775,46 @@ Rules for Max Moves Max Moves can only be used while a Pokémon is under the Eff
 若是如此，你只需要在訓練過程結束之後，進行訓練判定：
 骰 一種特質/社交特質 + 傳聞
 當你取得了 3 個成功骰，你將獲得下列數個好處：
-重新分配階級給予的所有特質和社交特質點數。 重新分配階級給予的所有技能點數。分配完一個階級給予的所有技能點數後，再接著分配下一個階級給予的技能點數。 寶可夢可以遺忘牠學到的招式，並從當前階級範圍中學會新的招式。如果被遺忘的招式是進化前專屬的招式，則該招式將被永遠遺忘。 記住，訓練判定每天只能進行一次。</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>Trainer’s Basics Traveling alone through the wild can be pretty tough. Your Pokémon companions will keep you safe, but they won’t make it more comfortable. Most of the time you will be sleeping on top of rocks and going hundreds of kilometers on foot.
-Serious trainers need to carry items to help them reach their goals while diminishing the inconveniences that may arise on the journey.
-Every Trainer should have these Items at all times:</description></item><item><title>階級</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid><description>階級 就連聯盟冠軍，最初也曾只是個什麼都不懂的菜鳥。
+重新分配階級給予的所有特質和社交特質點數。 重新分配階級給予的所有技能點數。分配完一個階級給予的所有技能點數後，再接著分配下一個階級給予的技能點數。 寶可夢可以遺忘牠學到的招式，並從當前階級範圍中學會新的招式。如果被遺忘的招式是進化前專屬的招式，則該招式將被永遠遺忘。 記住，訓練判定每天只能進行一次。</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>訓練家的基礎 獨自在荒野中旅行是相當辛苦的。你的寶可夢夥伴會保護你的安全，但牠們沒有辦法讓你過得更舒適。大多數時候，你會需要睡在岩石床上，並徒步行走數百公里的路途。
+認真的訓練家會需要攜帶道具以幫助他們達成自己的目標，同時減輕他們在旅途中可能會遭遇的不便。
+每個訓練家都應該隨時備有這些道具：
+金錢 你會需要金錢來買東西。一名剛踏上旅途的訓練家通常會有 $1500 可以使用。你可以透過與其他訓練家的對戰獲勝來賺到更多的寶可幣，但你也可能會因為被打敗而失去它們！
+你也可以透過找一份小兼差來賺到更多金錢。試著找找看那些會同時雇傭人類和寶可夢的工作，好讓你的夥伴們也能幫上你的忙。透過這個方式，你不僅可以賺到一些額外的收入，也能幫助到那些有需要的人們。
+食物 你需要給你自己和你的寶可夢的食物。有些訓練家會讓他們的寶可夢自由閒晃，自己去找些吃的，但親自餵食牠們總是更安全一些。畢竟，有些寶可夢在其他飢餓的野生寶可夢眼中，看起來就跟美味的晚餐沒什麼兩樣。
+寶可夢道具 你的寶可夢會保護你不受到危險，但牠們的安危就是你的責任了。你應該至少要準備一些治療道具好讓牠們恢復健康，以及精靈球以安全地帶著牠們移動。
+露營裝備 在野外要找到安全的庇護所並不容易。那些討厭的生物往往會棲息在洞窟和藏身處，所以除非你想要睡在滿是超音蝠大便的洞穴地面上，否則你最好帶上帳篷、睡袋、或至少一些日常使用的工具。
+交通工具 城鎮之間的距離可能相當漫長。訓練家們會盡可能加快他們旅行的步調，儘管最富有的那群人會使用汽車或摩托車代步，大部分的人們更偏好騎乘自行車，讓旅行速度更快一些，而不需要在燃料上多花錢。也有些訓練家會騎著他們的寶可夢四處旅行。但如果你沒有辦法做到上面這些方法，那你最好買雙舒服點的鞋子，老老實實的走路吧。
+訓練家裝備 如果你有合適的工具，那麼露營可以是一件很有趣的事。以下是一些你旅途中可以攜帶的裝備的例子。你所購買的每個沉重或大型的道具都會附上一個它自己的精靈球，協助你減輕它的重量，並能快速地把它收起來。
+大型露營帳篷
+$2,500
+一個寬敞的帳篷，能讓你的團隊度過一個舒適的夜晚。
+噴灑了能驅趕野生寶可夢的物質。
+小型露營帳篷
+$800
+一個供單人睡覺的舒適空間，或者二人，如果你們不介意擠一點的話。
+睡袋
+$500
+不怎麼舒服。你可以在溫暖且乾燥的情況下入睡，但在幾個晚上之後你的背可能會痛。
+露營爐具＆炊具
+$2,000
+別再像個野人一樣打獵或啃食樹根了。有了這組豪華的設備，你永遠都能享用到一頓熱騰騰的晚餐。
+罐頭食品
+$15
+不怎麼高級，但旅途中沒必要餓著肚子吧。一罐罐頭食品就足以支撐你一天的需求。
+地區地圖
+$50
+標示著你所在地區的道路、城鎮、和寶可夢中心的地圖。
+指南針
+$100
+一個能指示你正確方向的指南針。
+警告：遠離磁鐵！
+寶可夢圖鑑
+$5,000
+記載著關於該地區寶可夢的基本資料的電子百科全書。你可以往裡面添加你自己的研究成果。
+寶可夢圖鑑升級
+$2,500
+升級你的寶可夢圖鑑，獲得新地區的寶可夢資料。
+寶可夢世界中的城市和城鎮就跟我們世界的一樣，有著販售各種商品和服務的的商店。你的玩家們可以以合適的價格購買各種道具。</description></item><item><title>階級</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid><description>階級 就連聯盟冠軍，最初也曾只是個什麼都不懂的菜鳥。
 你從今天開始踏上了你的寶可夢之旅，在前方有無數冒險等待著你。或許你一直夢想著成為訓練家、或也許某些情境迫使你走上這條路。只要你願意付出努力，那麼總有一天你可能就能成為頂尖。
 一名傑出的訓練家有能力把虛弱膽怯的寶可夢培養成冠軍。但想要做到這點，你將必須周遊世界各地並完成許許多多的成就。
 階級決定了你訓練寶可夢的能力，也代表著你個人的整體成長。

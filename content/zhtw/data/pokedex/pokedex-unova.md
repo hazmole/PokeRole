@@ -9,3 +9,8 @@ draft=true
 <div id="Pokedex"></div>
 
 {{< script "pokedex-unova.js" >}}
+<script type="text/javascript">
+  window.addEventListener("parsePage", ()=>{
+    TocInjector.parsePage("Pokemon");
+  });
+</script>

@@ -83,6 +83,7 @@ tag.text b {
 }
 tag.text.Normal { background-color: #9c9c8a; }
 tag.text.Flying { background-color: #84adff; }
+tag.text.Fire { background-color: #ff5c42; }
 tag.text.Grass { background-color: #5eb83a; }
 tag.text.Psychic { background-color: #ff99c2; }
 
@@ -198,6 +199,9 @@ iconFrame.accuracy .frameContent { background-color: #e02a2a; }
     content: "✖";
     color: #e02a2a;
 }
+.frameContent .number .never { width: 1rem; }
+.frameContent .number .never::before { top:-.05rem; }
+
 .frameContent .heal {
     position: absolute; top: 0rem; left: .4rem; width: 2.1rem;
     font-size: 1.3rem;

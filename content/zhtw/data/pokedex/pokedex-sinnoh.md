@@ -9,3 +9,8 @@ draft=true
 <div id="Pokedex"></div>
 
 {{< script "pokedex-sinnoh.js" >}}
+<script type="text/javascript">
+  window.addEventListener("parsePage", ()=>{
+    TocInjector.parsePage("Pokemon");
+  });
+</script>

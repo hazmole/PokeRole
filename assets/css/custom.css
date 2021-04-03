@@ -93,7 +93,7 @@
 
 #list-main .box.highlight {
     margin:0 1em 1em 1em;
-    padding:.5em 1em; background:#ca4343; color:#fff; border-radius:.5em;
+    padding:1em .5em; background:#ca4343; color:#fff; border-radius:.5em;
     border-width: 0;
 }
 
@@ -252,32 +252,48 @@
 }
 
 /* Ability */
+.Item,
 .Ability {
     margin: .5em;
     border: 2px solid black;
     background: #c0c0c0;
 }
+.Item .Header,
 .Ability .Header {
     background: rgba(255,255,255,.5); 
     padding: 0rem;
     font-size: 1.2rem; font-weight: 700;
 }
+.Item .Header .title,
 .Ability .Header .title {
     display: inline-block; width:150px;
     background-color: rgba(0,0,0,.7); color: #fff;
     padding:.5rem; 
     text-align: center;
 }
+.Item .IconBar,
 .Ability .IconBar { margin-top: .3rem; }
+.Item .Content,
 .Ability .Content {
     background: rgba(255,255,255,.7); color: #000;
     margin: .3rem; padding: .3rem;
 }
+.Item .Desc,
 .Ability .Desc {
     background: rgba(0,0,0,.4); color: #fff;
     padding: .4rem .5rem; 
     font-size: .8rem; text-indent: .5rem;
 }
+
+
+.Item .flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.Item .Header .title { width:200px; }
+.Item .Header .price { flex-grow: 1; text-align: right; padding-right: 1rem; }
 
 
 

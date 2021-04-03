@@ -91,6 +91,9 @@ class IconParser {
         content_data = `<tag class="dice small"><b>${content_data[1]}</b></tag>`;
         isDice = true;
       }
+      if(content_data=="never"){
+        content_data = `<tag class="never small"></tag>`;
+      }
 
       // handle prefix
       var prefix = "";
@@ -285,7 +288,7 @@ class PokemonParser{
     return `<div class="Pokemon">
               <div class="${pokemonObj.type[0]}">
                 <div class="Header flexContainer">
-                  <div class="title" id="${pokemonObj.display_name}">#${pokemonObj.id} ${pokemonObj.display_name}</div>
+                  <div class="title" id="#${pokemonObj.id} ${pokemonObj.display_name}">#${pokemonObj.id} ${pokemonObj.display_name}</div>
                   ${pokemonTypes}
                 </div>
               </div>
@@ -427,6 +430,7 @@ class TocInjector{
         case "Nature":
         case "Move":
         case "Ability":
+        case "Pokemon":
           return domObj.getElementsByClassName("title").item(0).innerText;
       }
       return 'unknown';
