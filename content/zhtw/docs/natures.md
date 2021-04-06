@@ -120,18 +120,18 @@ They also want a little validation from others so they'll get attention as the p
 {{< /nature >}}
 
 {{< nature "爽朗" 10 "開朗、迷人、精力充沛" >}}
-They love to spread happiness around and will always have a smile to give you. They rarely feel gloomy and dislike when others do. 
-They easily form close friendships as others enjoy their good mood and affable disposition. They know the power to move a mountain lies in an enthusiastic demeanor and positive thoughts; regardless of the hard times their cheerful smile will brighten your day.
+他們熱愛散播喜悅給周遭的人，且總是會對你露出微笑。他們很少感到憂鬱或沮喪，也不喜歡看到別人這樣。
+他們很容易與其他人形成親密的朋友關係，因為其他人能享受與他們相處所帶來的好心情與親切感。他們知道，能夠改變世界的強大力量是來自熱情的舉止與積極的想法；無論遭遇到任何遇到困難，他們開朗的笑容都能夠照亮你的每一天。
 {{< /nature >}}
 
 {{< nature "樂天" 8 "無憂無慮、懶散、單純" >}}
-Lax is an inconstant nature, those under it will do things whenever they feel like it. 
-Is not that they are lazy, they just don’t see the need to waste energy on stuff that’s not important for them yet. Since they don’t care to fill anyone’s expectations they rarely stress out about social norms, but they'll need a reason to keep motivated and an even better reason to be pro-active instead of indifferent.
+樂天是一個變化無常的性格，他們總是想到什麼就做什麼。
+他們並不是說懶散，他們只是覺得沒有必要把精力浪費在一個對他們來說還沒那麼重要的玩意上。由於他們不在乎滿足任何人的期望，因此他們也很少對社會規範感到壓力。他們會需要一個保持前進動力的理由，或甚至一個更好的理由來讓他們能夠主動積極，而非漠不關心。
 {{< /nature >}}
 
 {{< nature "孤僻" 5 "獨立、內省、孤獨" >}}
-They like to keep their distance and do everything on their own. They often feel it’s up to them and nobody else to get things done and will take the burden of a responsibility that should be shared.
-Interacting with others is like a chore for them but being isolate also makes them feel misunderstood. They are hard to get close to but they can be trusted to do their best even if there's no one to guide them.
+他們喜歡保持距離，什麼事情都自己一個人做。他們經常會覺得他們得靠自己，沒有其他人能把事情做好，且會自己獨自擔起那些應該被共同完成的工作。
+與他人互動對他們來說是件苦差事，但被孤立同時也會讓他們覺得被誤解。他們難以親近，但他們可以被信賴，即使沒有人督導他們，他們也會全力以赴。
 <div style="font-size:.7em; text-align: right;">*這個性格的原文為 さみしがり(中譯: 怕寂寞)，這邊取英譯 Lonely 的解釋</div>
 {{< /nature >}}
 

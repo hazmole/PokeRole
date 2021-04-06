@@ -217,16 +217,15 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 ---
 ## 治療道具
 
-There’s a grand compendium of items in this world. The most basic can be found in a Pokémart, others may be found in the wild if you know how and where to look.
-You’ll need to carry them at all times if your want a safer journey
-
+在這個世界上有著種類繁多的治療道具。大部分基本的治療道具會在友好商店中被販售，而其他的則能在野外被發現──只要你知道該如何以及往哪裡去找。
+如果你想要有一趟更安全的旅途，那麼你將會需要常常帶著它們。
 
 ### 傷藥
-They  usually  come  in  Spray  presentation,  they  are  a mix of pain killer with some other ingredients that heal  injuries almost instantly. **Each point of Damage you heal  using a potion will take one unit out of the bottle. To heal a point of Lethal Damage will take two units.**
+傷藥通常會以噴霧的形式呈現，它們是止痛劑跟一些其他治療藥物的混合，幾乎能在一瞬間治好傷口。**你使用傷藥治療的每一點傷害都將消耗瓶子中 1 單位的傷藥；治療每一點致命傷害則會消耗 2 單位。**
 
-If a Pokémon has fainted, you can use potions on it to stabilize its wounds **but it won’t recover consciousness**.
+如果寶可夢陷入瀕死狀態，你可以對牠使用傷藥來穩定牠的傷勢，但**牠並不會因此恢復意識**。
 
-Potions  that  come  in  capsule  form  are  single  use  and they are so concentrated that will take at least 24 hours to get the formula out of the system for any other potion to take effect on the body again.
+膠囊形式的傷藥僅供一次使用，且其劑量濃度非常高，以至於它需要經過 24 小時才能從體內被排出，讓其他傷藥再次作用於身體上。
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -237,7 +236,7 @@ Potions  that  come  in  capsule  form  are  single  use  and they are so concen
 		2 單位。
 	</div>
 	<div class="Desc">
-		A  pocket  sized  spray  potion  to  relieve the pain and heal bruises.
+		一罐口袋大小的噴霧式傷藥，能夠減緩疼痛並治療瘀傷。
 	</div>
 </div>
 <div class="Item">
@@ -249,7 +248,7 @@ Potions  that  come  in  capsule  form  are  single  use  and they are so concen
 		4 單位。
 	</div>
 	<div class="Desc">
-		A  regular  can  of  concentrated  formula spray. This potion can close open wounds and even heal a cracked bone.
+		一罐普通的濃縮劑量噴霧。這種傷藥可以使傷口癒合，甚至能治好骨折。
 	</div>
 </div>
 <div class="Item">
@@ -261,7 +260,7 @@ Potions  that  come  in  capsule  form  are  single  use  and they are so concen
 		14 單位。
 	</div>
 	<div class="Desc">
-		Best value pack. It can be rationed for smaller injuries on the team, or used all at once on a serious wound.
+		超值套餐。它可以被分配治療隊伍中許多較小的傷口，或一口氣用在一個嚴重的傷勢上。
 	</div>
 </div>
 <div class="Item">
@@ -273,7 +272,7 @@ Potions  that  come  in  capsule  form  are  single  use  and they are so concen
 		回復所有HP。
 	</div>
 	<div class="Desc">
-		A single-use capsule of formula. The Pokémon won’t be able to restore health further until the next day. 
+		一次性使用的藥劑膠囊。寶可夢直到明天之前都無法再透過藥劑來回復健康。
 	</div>
 </div>
 <div class="Item">
@@ -285,18 +284,18 @@ Potions  that  come  in  capsule  form  are  single  use  and they are so concen
 		回復所有HP & 治療所有異常狀態。
 	</div>
 	<div class="Desc">
-		A single-use capsule of deluxe formula. The Pokémon won’t be able to restore health further until the next day. 
+		一次性使用的豪華版藥劑膠囊。寶可夢直到明天之前都無法再透過藥劑來回復健康。
 	</div>
 </div>
 
 {{< highlight >}}
-Max potion & Full Restore bypass the Healing in-battle limitations (p. 56). 
-For that reason they are usually banned from official matches.
+全滿藥 跟 全復藥 能夠無視在戰鬥中治療的限制（參照「勝利策略」章節）。
+也因此，它們在正式對戰中通常會被禁止使用。
 {{< /highlight >}}
 
 
 ### 狀態治癒道具
-Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  from  predators,  some  of  these  include disabling normal functions of the body, poisoning,  paralyzing,  etc.  To  heal  these  conditions  and  its  side  effects,  medicines,  ointments,  and  other  remedies have been developed and are accessible to the public. 
+寶可夢演化出了許多用來狩獵、或保護自己不被狩獵者危害的手段，這些手段包括了使身體的功能失常、中毒、麻痺、諸如此類。要治癒這些異常狀態以及其副作用，人們研發出了藥劑、藥膏、和其他藥物，並把這些成果向大眾開放。
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -307,7 +306,7 @@ Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  f
 		治療「中毒」和「劇毒」狀態。
 	</div>
 	<div class="Desc">
-		A shot that quickly reduces the fever and  relieves the pain.
+		能夠迅速退燒並減緩痛苦的針劑。
 	</div>
 </div>
 <div class="Item">
@@ -319,7 +318,7 @@ Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  f
 		治療「睡眠」狀態。
 	</div>
 	<div class="Desc">
-		Sprays a water-based solution to awake a drowsy Pokémon.
+		能夠使昏昏欲睡的寶可夢清醒的水性藥劑噴霧。
 	</div>
 </div>
 <div class="Item">
@@ -331,6 +330,7 @@ Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  f
 		治療「灼傷 1 級」、「灼傷 2 級」、和「灼傷 3 級」狀態。
 	</div>
 	<div class="Desc">
+		能夠撲滅火焰並促進燒傷區域癒合的藥粉。
 	</div>
 </div>
 <div class="Item">
@@ -342,7 +342,7 @@ Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  f
 		治療「冰凍」狀態。
 	</div>
 	<div class="Desc">
-		Recovers the normal temperature of the  Pokémon and heals frost biting.
+		使寶可夢回復正常體溫並癒合凍傷。
 	</div>
 </div>
 <div class="Item">
@@ -354,7 +354,7 @@ Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  f
 		治療「麻痺」狀態。
 	</div>
 	<div class="Desc">
-		This ointment relaxes the muscles and stops the cramping.
+		這種藥膏能夠舒緩肌肉，並停止痙攣。
 	</div>
 </div>
 <div class="Item">
@@ -366,19 +366,19 @@ Pokémon  have  developed  many  ways  to  catch  prey or  defend  themselves  f
 		治療所有異常狀態。
 	</div>
 	<div class="Desc">
-		A superior spray formula that can heal  any status problem in a second.
+		這種超強的藥劑噴霧能夠在一瞬間治好任何異常狀態。
 	</div>
 </div>
 
 
 ### 樹果
-Medicines are not available in the wild. That’s why wild Pokémon  use  berries  with  healing  properties  to  cure themselves,  although  less  effective  they  are  better than nothing, berries have to be eaten all at once to get their effects.
+在野外是沒有藥物的，這也是為什麼野生寶可夢會使用有著治療性質的樹果來治療自己，儘管它們的效果並不強，但也聊勝於無。樹果必須被一口氣吃完才能夠發揮它們的效果。
 
-There are many kinds of Berries but this list will focus on those with medicine-like properties:
+樹果的種類各式各樣，但這張列表只會列出那些具有藥物功能的樹果：
 
 {{< mynotice story >}}
-Healing Berries are not plentiful. 
-If your players find a berry bush it is possible that there won’t be more than 2 berries available.
+治療性樹果的數量並不怎麼豐富。
+如果你的玩家找到了一個樹果叢，那裡很有可能不會有超過 2 個這類樹果。
 {{< /mynotice >}}
 
 <div class="Item">
@@ -390,7 +390,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療「冰凍」狀態。
 	</div>
 	<div class="Desc">
-		This  sour  berry  shakes  the  body  and rises  its  temperature,  thawing  any  ice surrounding it.
+		這種酸酸的樹果能夠使身體顫抖，提高體溫，融化周圍的寒冰。
 	</div>
 </div>
 <div class="Item">
@@ -402,7 +402,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療「麻痺」狀態。
 	</div>
 	<div class="Desc">
-		Its spicy flavor reinvigorates the muscles  and stops the cramping.
+		它辛辣的味道能夠使肌肉恢復活力，止住抽筋。
 	</div>
 </div>
 <div class="Item">
@@ -414,7 +414,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療「睡眠」狀態。
 	</div>
 	<div class="Desc">
-		It  is  difficult  to  eat,  so  tough  and  dry that it will heal the drowsiness.
+		它吃起來不太容易，又硬又乾，能夠驅散睡意。
 	</div>
 </div>
 <div class="Item">
@@ -426,7 +426,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		回復 1 點傷害。
 	</div>
 	<div class="Desc">
-		A delicious citric berry that numbs pain away.
+		一種能麻痺疼痛的美味檸檬屬樹果。
 	</div>
 </div>
 <div class="Item">
@@ -438,7 +438,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療「中毒」狀態。
 	</div>
 	<div class="Desc">
-		This berry’s sweet pulp will absorb simple poison out of the bloodstream.
+		這種樹果的鮮甜果肉能夠吸收血液中的簡單毒素。
 	</div>
 </div>
 <div class="Item">
@@ -450,7 +450,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療「混亂」狀態。
 	</div>
 	<div class="Desc">
-		A  strong  flavored  berry  to  snap  out  of confusion.
+		這個味道濃郁的樹果能夠讓你從混亂中清醒過來。
 	</div>
 </div>
 <div class="Item">
@@ -462,7 +462,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療「灼傷 1 級」、和「灼傷 2 級」狀態。
 	</div>
 	<div class="Desc">
-		Its liquid pulp is ideal to stop fire from spreading  and  numbs  the  pain  on  the area, it is quite bitter, though.
+		它充滿水分的果肉是阻止火勢擴散並使麻木燒傷痛楚的理想成分，然而它嘗起來相當苦。
 	</div>
 </div>
 <div class="Item">
@@ -474,7 +474,7 @@ If your players find a berry bush it is possible that there won’t be more than
 		回復 3 點傷害 或 1 點致命傷害。
 	</div>
 	<div class="Desc">
-		A  bigger  and  sweeter  berry  from  the Oran family but scarcer in the wild. 
+		一種橙橙果家族中更大也更甜美的品種，但在野外也更為稀少。
 	</div>
 </div>
 <div class="Item">
@@ -486,21 +486,21 @@ If your players find a berry bush it is possible that there won’t be more than
 		治療所有異常狀態。
 	</div>
 	<div class="Desc">
-		This berry is said to cure everything, it is however very rare to find.
+		傳說這種樹果能夠治好一切病痛，然而它也相當罕見。
 	</div>
 </div>
 
 {{< mynotice trainer >}}
-Berries are a common ingredient in Pokémon food. Try to search for them whenever you can and  discover their many properties!
+樹果是寶可夢食物的常見成分。試著有機會就找找它們，並發掘它們的各種性質吧！
 {{< /mynotice >}}
 
-Pokémon will gladly eat any Berry, since most of them are pretty tasty. They may be eaten, even in the middle of a battle (holding more than one is banned from official battles).
+由於樹果大部分都相當美味，寶可夢會很樂意吃掉任何種類的樹果。牠們甚至能在戰鬥中吃掉它們（但在正式對戰中，同時持有超過一個樹果是被禁止的）。
 
-**Pokémon  will  eat  their  held  berry**  the  moment  they feel  they  need  it,  usually  **as  soon  as  they  reach  half of their HP in damage, or when they start to feel the effects  of  status  ailments.**  They  might  eat  it  sooner  than expected or on command of their trainer.
+寶可夢會牠們覺得必要的時候**吃掉牠們持有的樹果**，通常這會發生在**牠們的HP降到一半、或牠們開始感覺到異常狀態發揮作用**。牠們會比預期更快的吃掉樹果、或在牠們訓練家的指示下這麼做。
 
 
 ### 中藥
-While  Berries  are  delicious,  they  are  not  always  on  season or are simply not found in certain parts of the world. In ancient times people resorted to special herbs and roots to make high quality medicine;  however since all of these medicines taste like Croagunk’s sludge they have  lost  popularity  against  healing  sprays  and  cherry flavored cough syrups.
+儘管樹果相當美味，但不會永遠是它們結果的季節，而世界上的某些地方也可能根本找不到它們。在古代，人們求助於特殊的草藥和植物根莖來製作高品質的藥劑；然而由於這些藥劑的味道全都像不良蛙的毒囊一樣噁心，它們並不像傷藥噴霧和櫻桃口味的咳嗽糖漿這麼受歡迎。
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -552,11 +552,10 @@ While  Berries  are  delicious,  they  are  not  always  on  season or are simpl
 </div>
 
 {{< mynotice trainer >}}
-Pokémon  really  dislike  these herbs  and  powders.  Treating their  injuries  with  this  type of  medicine  will  reduce  their  Happiness points if used often.
+寶可夢相當討厭這些中藥草藥和粉末。如果你經常使用這類藥劑治療牠們的傷口，牠們的幸福度將會因此降低。
 {{< /mynotice >}}
 
-Gathering roots and learning to mix herbs into powder medicine can be a lifesaver in dangerous situations when you  are  far  from  a  Pokémon  center.  The  difficult  part isn’t finding the herbs, but convincing your Pokémon to eat them.  
-Well, you know what they say: Nature will give you all you need if you can handle the awful flavor.
+當你位處遠離寶可夢中心的野外，收集根莖並學習如何把中藥材混合成藥劑可以讓你在危險的情境下拯救寶貴的性命。然而最困難的部分並不在於找到藥材，而是說服你的寶可夢吃下它們。嗯，你知道那句老話是怎麼說的：大自然會給你所有你需要的一切，只要你能應付那可怕的味道。
 
 
 ### 復甦道具
@@ -713,12 +712,50 @@ The most common kinds of Pokéballs you can find at your local Pokémart are:
 
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title"> </div>
-		<div class="price"> </div>
+		<div class="title">精靈球</div>
+		<div class="price">$200</div>
 	</div>
 	<div class="Content">
+		捕獲強度: 4 顆骰子。
 	</div>
 	<div class="Desc">
+		A basic ball for catching Pokémon and carrying heavy items.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">超級球</div>
+		<div class="price">$600</div>
+	</div>
+	<div class="Content">
+		捕獲強度: 6 顆骰子。
+	</div>
+	<div class="Desc">
+		A sturdier barrier protects the seal allowing an easier catch.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">高級球</div>
+		<div class="price">$1,200</div>
+	</div>
+	<div class="Content">
+		捕獲強度: 8 顆骰子。
+	</div>
+	<div class="Desc">
+		The best seal in the market to ensure the catch of stronger Pokémon.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">大師球</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Content">
+		捕獲強度: 不明。
+	</div>
+	<div class="Desc">
+		It is said to be in development by some companies in the world, it is rumored to have a seal so strong it would never break.
 	</div>
 </div>
 
@@ -733,20 +770,553 @@ You’ll need to prepare yourself with a few Items if you want to take proper ca
 
 
 ### Food
+Some of your Pokémon might be able to get their own food every day, but if you want to befriend them and gain their trust, a good meal may be a good way to start. 
+Each package of food is enough to feed a single small or medium sized Pokémon for a whole day, **you can also use the food as bait for catching Pokémon**:
+
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Pokémon Dry Food Pack</div>
+		<div class="price">$10</div>
+	</div>
+	<div class="Desc">
+		A bag with dry kibble
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Gourmet Food Can</div>
+		<div class="price">$50</div>
+	</div>
+	<div class="Desc">
+		Made with Premium ingredients. All Pokémon will love you if you feed them this on a regular basis.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">High Performance Food Sack</div>
+		<div class="price">$300</div>
+	</div>
+	<div class="Content">
+		Add 1 dice to the next Training Roll of the Pokémon.
+	</div>
+	<div class="Desc">
+		A high-potein kibble made for athletes.
+	</div>
+</div>
+
 ### Vitamins
+Some Pokémon are not as proficient in certain areas and others have trouble developing certain traits. While some trainers will train hard, others will train smart! 
+Just add these supplements into their diet and your Pokémon will be even stronger. With them, you’ll **have one more Point in the corresponding Attribute for the duration of a month.**
+
+Vitamin effects don’t stack on the same Attribute and can’t raise the Attribute above the Pokémon’s Limit.
+
+{{< example >}}
+Sylveon has been training hard but you need to be ready for your Gym battle in a few days. 
+
+In order to go through the huge defenses built on the Gym Leader’s Pokémon, Sylveon needs to raise its Special quickly.
+
+You buy some Calcium and feed Sylveon with it. 
+In a few moments its effects will be noticeable and Sylveon’s Special will be 1 Point higher for a whole month. 
+
+Now you’re ready for that Gym Leader!
+{{< /example >}}
+
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">攻擊增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 1 點力量。
+	</div>
+	<div class="Desc">
+		A tasty milkshake that aids in the growth of bigger and stronger muscles.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">防禦增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 1 點活力。
+	</div>
+	<div class="Desc">
+		An iron capsule that reduces feebleness and gives you a healthy glow.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">特攻增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 1 點特殊。
+	</div>
+	<div class="Desc">
+		Add this effervescent pills on their drink to help grow stronger bones.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">特防增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 1 點洞察。
+	</div>
+	<div class="Desc">
+		Zinc capsules help with focus and brain development.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">速度增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 1 點靈巧。
+	</div>
+	<div class="Desc">
+		A healthy syrup that fills you with energy!
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">PP增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 2 點意志點。
+	</div>
+	<div class="Desc">
+		It is rumored they are just sugar pills. Who really knows?
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">HP增強劑</div>
+		<div class="price">$9,800</div>
+	</div>
+	<div class="Content">
+		增加 2 點基本生命值。
+	</div>
+	<div class="Desc">
+		A compendium of vitamins and minerals to help your Pokémon grow as big and healthy as it can be.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">神奇糖果</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Content">
+		增加 1 點任意特質。
+	</div>
+	<div class="Desc">
+		This strange candy is made of unknown ingredients but its effects do not stack.
+	</div>
+</div>
+
+Vitamins will help your Pokémon reach their max potential. The best part is that they will notice the changes and will be happy to have you as their trainer. 
+
+**All of these items are a single use. Their effects do not stack with each other and they cannot make your Pokémon develop beyond their Limits.**
+
+When people see your radiant and vigorous Pokémon walking around, they will immediately ask you for your secret.
+
+
 ### Grooming
+Most Pokémon like to be clean and groomed. When they live in the wild they find ways to do it themselves, but since they are not in the wild anymore there is nothing wrong with a little bit of vanity here and there. 
+A groomed Pokémon is a happy Pokémon.
+
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Grooming Kit</div>
+		<div class="price">$100</div>
+	</div>
+	<div class="Desc">
+		No more matted hair, unruly leaves, dry scales or rough rocks!
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Pokémon Costume</div>
+		<div class="price">$250</div>
+	</div>
+	<div class="Desc">
+		Fashionable clothes. Your companions will look amazing in these costumes and they will love it.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Piece of Accessory</div>
+		<div class="price">$10</div>
+	</div>
+	<div class="Desc">
+		Ribbons, hats, collars and everything you need to make them look super special.
+	</div>
+</div>
+
+Even if it is not useful in battle, grooming and clothing will make your Pokémon stand out in the crowd.
+**Looking good will also give your trusted Pokémon 1 more Confidence Point.** If you want to read more about Confidence and its effects head to p.63
 
 
 
 ---
 ## 進化道具
+Pokémon evolution works in mysterious ways. Some Pokémon evolve without any kind of intervention, just by growing stronger ang gaining level, others evolve by being nurtured and gaining Happiness or Loyalty, and finally there are species that Evolve only trough an external influence such as elemental energy in stones and other items or machines.
+
 
 ### Stones
+In this world there many strange stones with peculiar properties that cause sensible Pokémon to have a reaction.
+
+These items vary in shape and size, the most common ones are those with elemental properties: fire, water, thunder and grass; but there are others with luminescent properties and even rocks that came from the moon.
+Very few marts have one in stock and they are usually very expensive. You can also find them as prizes in competitions or get lucky and find one in a cave.
+
+If you get your hands on one, your Pokémon will get a nice boost in power.
+
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">火之石</div>
+		<div class="price">$5,000</div>
+	</div>
+	<div class="Desc">
+		This Stone has a flame inside, it’s hot to the touch.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">雷之石</div>
+		<div class="price">$5,000</div>
+	</div>
+	<div class="Desc">
+		It glows in the dark and can be used to power small electronics.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">水之石</div>
+		<div class="price">$5,000</div>
+	</div>
+	<div class="Desc">
+		Looks like blue glass and can be found at the bottom of the sea.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">葉之石</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Desc">
+		It is said that the leaf encrusted to it comes from the tree of life itself.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">月之石</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Desc">
+		It is a black stone that turns white and luminescent when the moon shines over it.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">日之石</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Desc">
+		A red stone that shines brightly when facing the sun at morning.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">光之石</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Desc">
+		Its crystal-like surface allows you to see a ball of light inside.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">暗之石</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Desc">
+		This stone seems to suck the light around into a small dark hole.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">覺醒之石</div>
+		<div class="price">非賣品</div>
+	</div>
+	<div class="Desc">
+		This cerulean stone shines with blinding light for a minute during sunrise.
+	</div>
+</div>
+
+{{< mynotice trainer >}}
+Once you use an evolutionary stone on a Pokémon, it will become a regular rock. 
+**Choose carefully on which Pokémon you will use it.**
+{{< /mynotice >}}
+
 ### Trading Machines
+Trainers like to exchange Pokémon with each other but it is not as simple as giving each other a Pokéball, as there would be no proof of a consensual exchange. 
+To solve this problem, Trainers get their Pokémon within a Trading Machine to take a Pokémon from one Pokéball to another using a low-radiation energy transfer, this radiation has been known to trigger evolution in some species of Pokémon.
+
 ### Evolution with Held Items
+Some Pokémon might react to special Held Items, such as industrial metals, electric chargers, and even pastries that trigger evolution when combined with the Trading Machine’s radiation waves. In the wild, Pokémon can go all their lives without ever being in contact with any of these artificial items, so it is more difficult to know what object will trigger evolution on which Pokémon. 
+
+You’ll need to be patient and do your share of research to find out what kind of item you will need to evolve your companion.
 
 
 ---
 ## 攜帶物品
+Pokémon have a Held Item slot to carry an Item with them at all times. These Items may be used in battle to give them an advantage and special effects.
 
+{{< highlight >}}
+A Pokémon may only have one active Held Item for the scene. It may be abe to carry more, but only one will be active.
+The active held item may remain with the user, be spent, exchanged or stolen depending on the moves of the user and the foe.
+{{< /highlight >}}
 
+If a Held Item increases or decreases an Attribute, it cannot be stacked with a move that modifies the same attribute. You will instead take into account the effect with the highest modifier. 
+
+Held items are not for sale. You’ll have to find them on your adventures through the world.
+
+{{< mynotice story >}}
+Held Items are exclusive for Pokémon. Humans using them won’t benefit from their special properties.
+{{< /mynotice >}}
+
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">黑帶</div>
+		<div class="price">UNCOMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|格鬥招式|Fight}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		After years of training in martial arts you can proudly wear this.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Black Glasses</div>
+		<div class="price">COMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|惡系招式|Dark}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		These glasses make you look cool and mean.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Charcoal</div>
+		<div class="price">UNCOMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|火系招式|Fire}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A piece of special charcoal that never turns to ash and keeps a steady flame.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Dragon Fang</div>
+		<div class="price">RARE</div>
+	</div>
+	<div class="IconBar">{@icon text|l|龍系招式|Dragon}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		A Dragon Pokémon that fought fiercely lost this fang. It’s sprit lives within.
+	</div>
+	<div class="Desc">
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Hard Stone</div>
+		<div class="price">COMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|岩石招式|Rock}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A Stone that is embed on the body to protect it from impact.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Magnet</div>
+		<div class="price">UNCOMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|電系招式|Electric}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		This magnet keeps positive and negative charge within itself.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Metal Coat</div>
+		<div class="price">RARE</div>
+	</div>
+	<div class="IconBar">{@icon text|l|鋼系招式|Steel}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		This chromed coat keeps all surfaces shiny.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Miracle Seed</div>
+		<div class="price">UNCOMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|草系招式|Grass}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		It is said that this seed came from the same forest as the tree of life.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Mystic Water</div>
+		<div class="price">RARE</div>
+	</div>
+	<div class="IconBar">{@icon text|l|水系招式|Water}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A small vessel with water that emits a mysterious glow.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Never-Melt Ice</div>
+		<div class="price">RARE</div>
+	</div>
+	<div class="IconBar">{@icon text|l|冰系招式|Ice}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A magical piece of ice that never melts.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Poison Barb</div>
+		<div class="price">UNCOMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|毒系招式|Poison}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		This poison-infused barb is sure to take the toxines into the foe.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Sharp Beak</div>
+		<div class="price">COMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|飛行招式|Flying}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A sharp metal cover for the beak of your Pokémon.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Silk Scarf</div>
+		<div class="price">COMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|一般招式|Normal}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		Just a regular everyday normal scarf. Nothing special about it.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Silver Powder</div>
+		<div class="price">COMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|蟲系招式|Bug}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		Be careful as this powder is itchy and gives you allergies.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Soft Sand</div>
+		<div class="price">UNCOMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|地面招式|Ground}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A pouch with special sand that’s smooth and soft to the touch.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Spell Tag</div>
+		<div class="price">RARE</div>
+	</div>
+	<div class="IconBar">{@icon text|l|幽靈招式|Ghost}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		An old piece of paper that once sealed the spirit of an angry spirit.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">Twisted Spoon</div>
+		<div class="price">COMMON</div>
+	</div>
+	<div class="IconBar">{@icon text|l|超能招式|Psychic}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to a certain type of moves.
+	</div>
+	<div class="Desc">
+		A spoon that bends with the power of the mind.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title"></div>
+		<div class="price"></div>
+	</div>
+	<div class="IconBar"></div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+	</div>
+</div>

@@ -86,6 +86,7 @@ tag.text.Flying { background-color: #84adff; }
 tag.text.Fire { background-color: #ff5c42; }
 tag.text.Grass { background-color: #5eb83a; }
 tag.text.Psychic { background-color: #ff99c2; }
+tag.text.Fight { background:#BB5544; }
 
 
 tag.NoviceMark { background-image: url('../images/icons/novice.png'); }

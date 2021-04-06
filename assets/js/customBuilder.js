@@ -253,7 +253,7 @@ class AbilityParser{
 
     return `<div class="Ability">
               <div class="Header">
-                <span class="title">${abilityObj.display_name}</span>
+                <span class="title" id="${abilityObj.display_name}">${abilityObj.display_name}</span>
               </div>
               <div class="IconBar">${iconArr.join("")}</div>
               <div class="Content">${abilityObj.effect}</div>
