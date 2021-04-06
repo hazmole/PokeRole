@@ -82,11 +82,23 @@ tag.text b {
     transform: translate(-50%,-50%);
 }
 tag.text.Normal { background-color: #9c9c8a; }
-tag.text.Flying { background-color: #84adff; }
-tag.text.Fire { background-color: #ff5c42; }
-tag.text.Grass { background-color: #5eb83a; }
-tag.text.Psychic { background-color: #ff99c2; }
+tag.text.Bug { background:#AABB22; }
+tag.text.Dark { background:#775544; }
+tag.text.Dragon { background:#7766EE; }
+tag.text.Electric { background:#FFCC33; }
+tag.text.Fairy { background:#FFAAFF; }
 tag.text.Fight { background:#BB5544; }
+tag.text.Fire { background-color: #ff5c42; }
+tag.text.Flying { background-color: #84adff; }
+tag.text.Ghost { background:#6666BB; }
+tag.text.Grass { background-color: #5eb83a; }
+tag.text.Ground { background:#DDBB55; }
+tag.text.Ice { background:#77DDFF; }
+tag.text.Poison { background:#AA5599;color:#fff; }
+tag.text.Psychic { background-color: #ff99c2; }
+tag.text.Rock { background:#BBAA66; }
+tag.text.Steel { background:#AAAABB; }
+tag.text.Water { background:#BB5544; }
 
 
 tag.NoviceMark { background-image: url('../images/icons/novice.png'); }

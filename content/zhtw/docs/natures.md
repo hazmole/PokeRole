@@ -104,19 +104,19 @@ description = "羅列各性格的說明和對應數值"
 {{< /nature >}}
 
 {{< nature "勤奮" 9 "可靠、適應性強、足智多謀" >}}
-Life has been tough, but they know how to face anything no matter how difficult. The word “disheartened” is not for them, they have a great tolerance for stress and frustration so they rarely get worked up.
-You’ll rarely find them unprepared. They do their best to endure and overcome. Taking things lightly is difficult for them, but they are dependable. They’ll help you get through the hardest of scenarios.
+生活總是艱難，但無論情況有多麼困難，他們都知道如何去面對任何情況。「沮喪」這個詞不適用於他們，他們對於壓力和挫折的容忍度很高，所以他們很少會有心灰意冷的時候。
+你很少會看到他們毫無準備的一面。他們總是會盡他們所能的去忍受與克服難關。放鬆看待事情對他們來說是很困難的一件事，但他們確實值得信賴。他們會幫助你度過哪怕是最困難的情境。
 {{< /nature >}}
 
 {{< nature "急躁" 7 "熱切、熱情、急促" >}}
-Energetic, spontaneous and a little impulsive.
-They live in the moment and don’t have time to mop about past losses or worry about future battles. They are eager to see what comes next, moving from one thing to another. They rarely stress out because they make their lives on the go and rarely sit to relax or meditate things through. There will always be something to do with them around, let them improvise.
+活力充沛、自動自發、還有些衝動。
+他們活在當下，無暇為過去的損失而拖沓，也不會為未來的戰鬥而擔憂。他們急於知道事情接下來的發展，從一件事接著跳到另一件事。他們很少感到壓力，因為他們總是讓自己的生活繁雜忙碌，很少有時間坐下來放鬆或深思。在他們身邊總會有些事情要去做，讓他們即興發揮吧。
 {{< /nature >}}
 
 {{< nature "淘氣" 7 "調皮、詼諧、愛玩耍" >}}
-Free spirits hungry for enjoyment and fun at the expense of others. They carry themselves with a light heart but you can also see a smug smirk on their faces. 
-Playful, irreverent and agile of mind, they dislike routine and chores. They are the kind to circle around a problem as a head-on confrontation will stress them.
-They also want a little validation from others so they'll get attention as the pranksters of the group.
+這些自由自在的靈魂貪圖著享樂與樂趣，即使這會犧牲到他人的權益也一樣。他們總是帶著輕鬆的心情，有時候你也能在他們臉上看見沾沾自喜的笑容。
+他們貪玩、失禮、心思敏捷，不喜歡例行公事和日常瑣事。他們是那種會繞著問題打轉的人，因為正面迎向問題反而會造成他們的壓力。
+他們希望得到認同與關注，所以他們會在群體中做些惡作劇來引起他人的注意。
 {{< /nature >}}
 
 {{< nature "爽朗" 10 "開朗、迷人、精力充沛" >}}

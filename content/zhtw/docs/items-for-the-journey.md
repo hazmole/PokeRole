@@ -511,7 +511,7 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 		等同於 14 單位的傷藥。
 	</div>
 	<div class="Desc">
-		A  nasty  tasting  root  with  mystical properties that can be eaten whole or  turned into up to 4 batches of powder if you know how to do it.
+		一種味道糟糕、具有神秘性質的植物根，可以被整株食用，如果你知道方法的話也可以將其研磨成 4 份粉末。
 	</div>
 </div>
 <div class="Item">
@@ -523,7 +523,7 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 		等同於 4 單位的傷藥。
 	</div>
 	<div class="Desc">
-		This powder leaves a horrid aftertaste, but at least it stops the pain.
+		這種藥粉會留下一股可怕的餘味，但至少它能夠止痛。
 	</div>
 </div>
 <div class="Item">
@@ -535,7 +535,7 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 		治療任意異常狀態。
 	</div>
 	<div class="Desc">
-		A mix of the most foul looking herbs you can find can make this cure-all powder.
+		把所有你能找到最難看的草藥混在一起，就能熬製出這種能治百病的藥粉。
 	</div>
 </div>
 <div class="Item">
@@ -547,21 +547,21 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 		回復所有HP 並恢復意識。
 	</div>
 	<div class="Desc">
-		It may be its magical properties or just its  awful flavor, but this herb will get you back into consciousness numbing all the pain away. <b>Extremely rare to find.</b>
+		或許是因為它神奇的性質、或單純只是因為它那可怕的味道，這種草藥能讓你從昏厥中恢復意識，並抑止所有疼痛。 <b>極其稀有。</b>
 	</div>
 </div>
 
 {{< mynotice trainer >}}
-寶可夢相當討厭這些中藥草藥和粉末。如果你經常使用這類藥劑治療牠們的傷口，牠們的幸福度將會因此降低。
+寶可夢相當討厭這些中藥草藥和粉末。如果你經常使用這類藥劑治療牠們的傷口，牠們的幸福度將會因此降低。There are situations of life and death in which there is no time for stabilizing wounds, and you need to get yourself and others out of danger as quickly as posible. For those situations, Revives are sold.
 {{< /mynotice >}}
 
 當你位處遠離寶可夢中心的野外，收集根莖並學習如何把中藥材混合成藥劑可以讓你在危險的情境下拯救寶貴的性命。然而最困難的部分並不在於找到藥材，而是說服你的寶可夢吃下它們。嗯，你知道那句老話是怎麼說的：大自然會給你所有你需要的一切，只要你能應付那可怕的味道。
 
 
 ### 復甦道具
-There are situations of life and death in which there is no time for stabilizing wounds, and you need to get yourself and others out of danger as quickly as posible. For those situations, Revives are sold.
+在一些生死攸關的情況下，你不會有時間慢慢去穩定傷勢，而是需要盡快讓自己和其他人脫離險境。針對這種情境，讓瀕死狀態的生物立即清醒過來的復甦道具：活力碎片，在商店被出售。
 
-**Revives  are  shards  of  a  stone  with  radiant  energy; when you use them they transfer that energy into you  restoring your awareness after you fainted.**
+**活力碎片是一種輻射出生命能量的石頭的碎片；當你使用它們，它們會把能量轉移到你身上，讓你從瀕死狀態中醒轉，恢復意識。**
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -572,7 +572,7 @@ There are situations of life and death in which there is no time for stabilizing
 		回復 1 點HP 並恢復意識。
 	</div>
 	<div class="Desc">
-		A small energy shard that brings a fainted  Human or Pokémon back into conciousness  and stabilizes their wounds.
+		小型的能量碎片，能讓瀕死狀態的人類或寶可夢重新恢復意識，並穩定他們的傷勢。
 	</div>
 </div>
 <div class="Item">
@@ -584,18 +584,18 @@ There are situations of life and death in which there is no time for stabilizing
 		回復所有HP 並恢復意識。
 	</div>
 	<div class="Desc">
-		A bigger shard that is not available to the  public.
+		較大塊的碎片，沒有對公眾販售。
 	</div>
 </div>
 
 {{< mynotice trainer >}}
-Once  used,  a  Revive  will  lose it’s energy. 
-Try to keep at least one with you for emergencies.
+一旦被使用，活力碎片和活力塊就會失去它蘊含的能量。
+盡量隨身至少帶一個以應付緊急情況。
 {{< /mynotice >}}
 
 {{< mynotice story >}}
-Only  the  most  exclusive Pokémalls  tend  to  have  Revives in stock. 
-Players  and  NPCs  can’t  create their own.
+只有最高級的友好商店會有活力碎片在庫。
+玩家和NPC無法自行生產。
 {{< /mynotice >}}
 
 
@@ -622,7 +622,7 @@ This means that **Energy Drinks do not have any effect In-Battle and they won’
 		回復最多到: 2 HP
 	</div>
 	<div class="Desc">
-		This  mixed  drink  of  various  berries  is also  quite  refreshing.  Some  Pokémon produce it naturally.
+		這種混和了各種樹果的飲品嘗起來相當清爽。有些寶可夢能夠自然生產出這種飲品。
 	</div>
 </div>
 <div class="Item">
@@ -634,7 +634,7 @@ This means that **Energy Drinks do not have any effect In-Battle and they won’
 		回復最多到: 4 HP
 	</div>
 	<div class="Desc">
-		Full  of  electrolytes  and  just  the  right amount of sodium, restores the vitality of those who are tired.
+		充足的電解質和適量的鈉離子，能夠恢復疲憊人們的活力。
 	</div>
 </div>
 <div class="Item">
@@ -646,7 +646,7 @@ This means that **Energy Drinks do not have any effect In-Battle and they won’
 		回復最多到: 5 HP
 	</div>
 	<div class="Desc">
-		This Sugary drink gives you a quick  shot of  energy after being quite tired.
+		這瓶含糖飲料能讓你從疲累中迅速補充能量。
 	</div>
 </div>
 <div class="Item">
@@ -658,7 +658,7 @@ This means that **Energy Drinks do not have any effect In-Battle and they won’
 		回復最多到: 6 HP
 	</div>
 	<div class="Desc">
-		The  Citric  boost  and  added  vitamins make this a favorite after exercise.
+		檸檬酸和補充的維生素使它成為了運動後的最佳選擇。
 	</div>
 </div>
 <div class="Item">
@@ -670,7 +670,7 @@ This means that **Energy Drinks do not have any effect In-Battle and they won’
 		回復最多到: 7 HP
 	</div>
 	<div class="Desc">
-		Found in organic farms, this milk is full of  calcium and is right out of the Miltank.
+		在有機牧場中販售，這種牛奶富含鈣質，且從大奶罐新鮮擠出。
 	</div>
 </div>
 
@@ -680,7 +680,7 @@ Fresh Water can be found in the wild. You can place a source or a fountain befor
 
 
 {{< highlight >}}
-<h4>A quick note on Selling Items</h4>
+<h3>A quick note on Selling Items</h3>
 
 If money is short, you can always try to sell some of your items to the Pokémart.
 
@@ -775,36 +775,36 @@ Each package of food is enough to feed a single small or medium sized Pokémon f
 
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Pokémon Dry Food Pack</div>
+		<div class="title">寶可夢乾燥食物包</div>
 		<div class="price">$10</div>
 	</div>
 	<div class="Desc">
-		A bag with dry kibble
+		一袋乾燥的粗磨口糧。
 	</div>
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Gourmet Food Can</div>
+		<div class="title">美味食物罐</div>
 		<div class="price">$50</div>
 	</div>
 	<div class="Desc">
-		Made with Premium ingredients. All Pokémon will love you if you feed them this on a regular basis.
+		以優質原料製成。如果你定期用這個餵食牠們，所有寶可夢都會愛死你。
 	</div>
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">High Performance Food Sack</div>
+		<div class="title">高效能食物包</div>
 		<div class="price">$300</div>
 	</div>
 	<div class="Content">
-		Add 1 dice to the next Training Roll of the Pokémon.
+		讓該寶可夢下一次的訓練判定額外獲得一顆骰子。
 	</div>
 	<div class="Desc">
-		A high-potein kibble made for athletes.
+		一種專門為運動員準備的高蛋白粗磨口糧。
 	</div>
 </div>
 
-### Vitamins
+### 營養飲料
 Some Pokémon are not as proficient in certain areas and others have trouble developing certain traits. While some trainers will train hard, others will train smart! 
 Just add these supplements into their diet and your Pokémon will be even stronger. With them, you’ll **have one more Point in the corresponding Attribute for the duration of a month.**
 
@@ -1092,11 +1092,11 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 <div class="Item">
 	<div class="Header flexContainer">
 		<div class="title">黑帶</div>
-		<div class="price">UNCOMMON</div>
+		<div class="price">非常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|格鬥招式|Fight}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		增加格鬥屬性招式的傷害。
 	</div>
 	<div class="Desc">
 		After years of training in martial arts you can proudly wear this.
@@ -1104,12 +1104,12 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Black Glasses</div>
-		<div class="price">COMMON</div>
+		<div class="title">黑色眼鏡</div>
+		<div class="price">常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|惡系招式|Dark}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		增加惡屬性招式的傷害。
 	</div>
 	<div class="Desc">
 		These glasses make you look cool and mean.
@@ -1117,8 +1117,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Charcoal</div>
-		<div class="price">UNCOMMON</div>
+		<div class="title">木炭</div>
+		<div class="price">非常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|火系招式|Fire}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1130,8 +1130,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Dragon Fang</div>
-		<div class="price">RARE</div>
+		<div class="title">龍之牙</div>
+		<div class="price">稀有</div>
 	</div>
 	<div class="IconBar">{@icon text|l|龍系招式|Dragon}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1142,8 +1142,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Hard Stone</div>
-		<div class="price">COMMON</div>
+		<div class="title">硬石頭</div>
+		<div class="price">常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|岩石招式|Rock}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1155,8 +1155,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Magnet</div>
-		<div class="price">UNCOMMON</div>
+		<div class="title">磁鐵</div>
+		<div class="price">非常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|電系招式|Electric}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1168,8 +1168,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Metal Coat</div>
-		<div class="price">RARE</div>
+		<div class="title">金屬膜</div>
+		<div class="price">稀有</div>
 	</div>
 	<div class="IconBar">{@icon text|l|鋼系招式|Steel}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1181,8 +1181,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Miracle Seed</div>
-		<div class="price">UNCOMMON</div>
+		<div class="title">奇跡種子</div>
+		<div class="price">非常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|草系招式|Grass}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1194,8 +1194,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Mystic Water</div>
-		<div class="price">RARE</div>
+		<div class="title">神秘水滴</div>
+		<div class="price">稀有</div>
 	</div>
 	<div class="IconBar">{@icon text|l|水系招式|Water}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1207,8 +1207,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Never-Melt Ice</div>
-		<div class="price">RARE</div>
+		<div class="title">不融冰</div>
+		<div class="price">稀有</div>
 	</div>
 	<div class="IconBar">{@icon text|l|冰系招式|Ice}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1220,8 +1220,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Poison Barb</div>
-		<div class="price">UNCOMMON</div>
+		<div class="title">毒針</div>
+		<div class="price">非常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|毒系招式|Poison}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1233,8 +1233,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Sharp Beak</div>
-		<div class="price">COMMON</div>
+		<div class="title">銳利鳥嘴</div>
+		<div class="price">常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|飛行招式|Flying}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1246,8 +1246,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Silk Scarf</div>
-		<div class="price">COMMON</div>
+		<div class="title">絲綢圍巾</div>
+		<div class="price">常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|一般招式|Normal}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1259,8 +1259,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Silver Powder</div>
-		<div class="price">COMMON</div>
+		<div class="title">銀粉</div>
+		<div class="price">常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|蟲系招式|Bug}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1272,8 +1272,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Soft Sand</div>
-		<div class="price">UNCOMMON</div>
+		<div class="title">柔軟沙子</div>
+		<div class="price">非常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|地面招式|Ground}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1285,8 +1285,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Spell Tag</div>
-		<div class="price">RARE</div>
+		<div class="title">詛咒之符</div>
+		<div class="price">稀有</div>
 	</div>
 	<div class="IconBar">{@icon text|l|幽靈招式|Ghost}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1298,8 +1298,8 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Twisted Spoon</div>
-		<div class="price">COMMON</div>
+		<div class="title">彎曲的湯匙</div>
+		<div class="price">常見</div>
 	</div>
 	<div class="IconBar">{@icon text|l|超能招式|Psychic}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
@@ -1311,12 +1311,182 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title"></div>
-		<div class="price"></div>
+		<div class="title">電氣球</div>
+		<div class="price">非常見</div>
 	</div>
-	<div class="IconBar"></div>
+	<div class="IconBar">{@icon frame|self|力量|up|2}{@icon frame|self|特殊|up|2}</div>
+	<div class="Content">
+		只對皮卡丘有效。提升寶可夢的力量和特殊。
+	</div>
+	<div class="Desc">
+		A rare ball of light that reacts only to a Pikachu’s energy
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">吉利拳</div>
+		<div class="price">非常見</div>
+	</div>
+	<div class="IconBar">{@icon frame|self|力量|up|2}</div>
 	<div class="Content">
 	</div>
 	<div class="Desc">
+		A set of boxing gloves specially fit for a Chansey or Blissey’s arms.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">大蔥</div>
+		<div class="price">常見</div>
+	</div>
+	<div class="IconBar">{@icon effect|l|crit}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		A piece of Leek that allows Farfetch’d to fight swiftly. You can also cook it; it is delicious.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">粗骨頭</div>
+		<div class="price">非常見</div>
+	</div>
+	<div class="IconBar">{@icon frame|self|力量|up|2}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		A heavy bone piece, only Cubone and Marowak react to the remains.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">護符金幣</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="Content">
+		DOUBLE ANY  MONEY PRIZE
+	</div>
+	<div class="Desc">
+		A good luck charm that is said to bring money to your pocket. If your Pokémon wears it, it will bring you fortune.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">進化奇石</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="IconBar">{@icon frame|self|防禦|up|1}{@icon frame|self|特防|up|1}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		A strange lump that boosts the defenses of an un-evolved Pokémon.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">達人帶</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="IconBar">{@icon text|l|效果絕佳}{@icon frame|self|傷害|plus|d1}</div>
+	<div class="Content">
+		Adds damage to Super Effective Moves.
+	</div>
+	<div class="Desc">
+		The belt of a seasoned warrior who knows many techniques.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">生命寶珠</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="IconBar">{@icon frame|self|傷害|plus|d2}{@icon effect|l|recoil}</div>
+	<div class="Content">
+		Adds damage & recoil to all attacks
+	</div>
+	<div class="Desc">
+		A magic orb that grants great power at the cost of the life energy of the weilder.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">王者之證</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="IconBar">{@icon frame|flinch|畏縮|number|d1}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		A crown-shaped rock that makes some Pokémon feel like a king, others can’t help but stare in awe at royalty.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">幸運蛋</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="Content">
+		When the Pokémon defeats a foe, it will count as two victories for the purposes of Evolution.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">先制之爪</div>
+		<div class="price">非常見</div>
+	</div>
+	<div class="IconBar">{@icon frame|self|先攻值|plus|2}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		This claw allows you a firm grip on the ground to move faster.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">銳利之爪</div>
+		<div class="price">稀有</div>
+	</div>
+	<div class="IconBar">{@icon effect|l|crit}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		This sharp claw can pierce through tough surfaces with ease.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">銳利之牙</div>
+		<div class="price">非常見</div>
+	</div>
+	<div class="IconBar">{@icon frame|flinch|畏縮|number|d1}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		A big pair of fangs that make you look like a vampire.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">凸凸頭盔</div>
+		<div class="price">非常見</div>
+	</div>
+	<div class="IconBar">{@icon frame|target|傷害|number|d1}</div>
+	<div class="Content">
+		Deal damage to a foe attacking you with a Non-ranged Physical Attack.
+	</div>
+	<div class="Desc">
+		A helmet covered with sharp edges and rocks.
+	</div>
+</div>
+<div class="Item">
+	<div class="Header flexContainer">
+		<div class="title">廣角鏡</div>
+		<div class="price">常見</div>
+	</div>
+	<div class="IconBar">{@icon frame|self|命中|plus|d1}</div>
+	<div class="Content">
+	</div>
+	<div class="Desc">
+		A magnifying glass used to see the small details.
 	</div>
 </div>
