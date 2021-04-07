@@ -125,6 +125,18 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 但記得要強調他們使用寶可夢的招式和特性來克服他們面對的挑戰。比如說，與其花錢買繩子，為什麼不乾脆讓你的妙蛙種子使用藤鞭就好呢？
 {{< /mynotice >}}
 
+{{< highlight >}}
+<h3>關於販售道具的快速筆記</h3>
+
+如果你手頭困窘，你永遠可以試著把你身上的一些道具賣給友好商店。
+
+記住，他們能提供給你最好的價格只會是該道具的市場售價的一半，他們總是要賺錢的嘛！
+但如果你找到了他們通常不會販售的稀有道具，那他們會慷慨得多！
+
+你也可以在城鎮中直接找到買家，他們可能會想要某些你能提供的道具。
+{{< /highlight >}}
+
+
 
 
 ### 旅途用的道具
@@ -552,7 +564,7 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 </div>
 
 {{< mynotice trainer >}}
-寶可夢相當討厭這些中藥草藥和粉末。如果你經常使用這類藥劑治療牠們的傷口，牠們的幸福度將會因此降低。There are situations of life and death in which there is no time for stabilizing wounds, and you need to get yourself and others out of danger as quickly as posible. For those situations, Revives are sold.
+寶可夢相當討厭這些中藥草藥和粉末。如果你經常使用這類藥劑治療牠們的傷口，牠們的幸福度將會因此降低。
 {{< /mynotice >}}
 
 當你位處遠離寶可夢中心的野外，收集根莖並學習如何把中藥材混合成藥劑可以讓你在危險的情境下拯救寶貴的性命。然而最困難的部分並不在於找到藥材，而是說服你的寶可夢吃下它們。嗯，你知道那句老話是怎麼說的：大自然會給你所有你需要的一切，只要你能應付那可怕的味道。
@@ -601,17 +613,18 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 
 
 ### 能量飲品
-After all the exercise, training and battling, people and Pokémon need to keep themselves well hydrated, it is  always a good idea to give your companions a delicious refreshment  after  a  hard  battle  or  a  long  training  session. 
+在經歷了所有運動、訓練、和戰鬥之後，人們和寶可夢都需要讓自己補充水分。而讓你的同伴們在艱辛的戰鬥或長時間訓練後喝上一杯美味的清涼飲料永遠都會是一個好主意。
 
-Energy  drinks  are  sold  in  Pokémon  centers  or  special  dispensing  machines  and  have  been  designed  by  the Counselors of Pokémon Performance on the League.
+能量飲品是由寶可夢聯盟的專業營養顧問所設計，且在寶可夢中心和特殊的販賣機皆有出售。
+
+能量飲品僅供一次性使用，且儘管它們的效果並非立竿見影，但非常有效。
+
+這意味著**能量飲品在戰鬥中並不會發揮任何效果，且它們無法治療致命傷害。**但當你有時間好好放鬆並享用清爽甜品時，它們會是一個相當優質的選擇。
 
 {{< mynotice trainer >}}
-Energy  drinks  cannot  to  be used during battle or as held items. They also do not cure Lethal Damage.
+能量飲品不能在戰鬥中使用，也無法做為攜帶道具發揮效果。它們也無法治療致命傷害。
 {{< /mynotice >}}
 
-Energy  Drinks  are  single-use  and  their  effects  are  not  immediate but are very potent. 
-
-This means that **Energy Drinks do not have any effect In-Battle and they won’t cure Lethal Damage.** But they are a good option if you have some time to relax and enjoy a cool refreshment.
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -675,40 +688,24 @@ This means that **Energy Drinks do not have any effect In-Battle and they won’
 </div>
 
 {{< mynotice story >}}
-Fresh Water can be found in the wild. You can place a source or a fountain before a grand-scale battle.
+美味之水 可以在野外被找到。你可以在一場大規模的戰鬥發生之前安排一個這樣的水源或噴泉。
 {{< /mynotice >}}
-
-
-{{< highlight >}}
-<h3>A quick note on Selling Items</h3>
-
-If money is short, you can always try to sell some of your items to the Pokémart.
-
-Keep in mind that the best price they can give you is half of the Item’s market cost, they’ve gotta make a profit!
-
-But  if  you  find  rare  items  that  they  don’t  usually carry on their stock, they can be a lot more generous than that!
-
-You may also find direct buyers in town who may want what you are offering.
-{{< /highlight >}}
-
 
 
 ---
 ## 精靈球
-Long  ago,  there  weren’t  any  Pokéballs  around  and  people just hid away from the creatures roaming nearby.
+很久很久以前，這個世界上並不存在任何的精靈球，且人們只能縮著躲避這些在他們附近遊蕩的生物。
+當人們開始與寶可夢接觸，把牠們當作同伴相處時，人們也只能仰賴這些生物的忠誠心來讓牠們協助自己。
 
-When humans started getting along with Pokémon and taking them as companions, they could only depend on the loyalty of the creature to aid them.
+隨著時間推移，有些人發現了一種被稱作「球果」，具有特殊性質的樹果，可以在搭配一種魔法水晶後把寶可夢給裝進去。
 
-As  time  passed,  someone  discovered  that  some  fruits called Apricorns had special properties that could be used along with a magical crystal to hold a creature inside.  
+如今，人們已經知道這並不是魔法，而是科學！
 
-Nowdays people know it’s not magic, it’s Science! 
+隨著科技的進展，儲存裝置也在不斷升級，它們的強度在這幾年被不斷提升，但它們的用途仍然是一致的：用來捕捉並把寶可夢收在裡頭，以及更便捷的攜帶和儲存道具。
 
-Technology has upgraded the storage devices, improving   their  power  many  times  through  the  years,  but  their  purpose has always been the same: To catch and keep Pokémon inside and carry items for easier storage.
+我們並不想把精靈球的運作原理弄得太專業，你只需要知道，任何一個有抱負的訓練家都清楚知道精靈球會是他們最有用的工具之一，且他們身上永遠應該帶著一些。
 
-We don’t wanna get too technical about how Pokéballs work, but any aspiring trainer needs to know that they’ll be one of their most useful tools and they should always carry some.
-
-
-The most common kinds of Pokéballs you can find at your local Pokémart are:
+你在當地友好商店中能找到最常見的幾種精靈球種類如下：
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -719,7 +716,7 @@ The most common kinds of Pokéballs you can find at your local Pokémart are:
 		捕獲強度: 4 顆骰子。
 	</div>
 	<div class="Desc">
-		A basic ball for catching Pokémon and carrying heavy items.
+		用來收服寶可夢和攜帶重物的基礎球種。
 	</div>
 </div>
 <div class="Item">
@@ -731,7 +728,7 @@ The most common kinds of Pokéballs you can find at your local Pokémart are:
 		捕獲強度: 6 顆骰子。
 	</div>
 	<div class="Desc">
-		A sturdier barrier protects the seal allowing an easier catch.
+		一個更堅固的屏障保護著封口，讓其更容易捕捉寶可夢。
 	</div>
 </div>
 <div class="Item">
@@ -743,7 +740,7 @@ The most common kinds of Pokéballs you can find at your local Pokémart are:
 		捕獲強度: 8 顆骰子。
 	</div>
 	<div class="Desc">
-		The best seal in the market to ensure the catch of stronger Pokémon.
+		有著市面上最優質的封口，確保你能夠捕捉到更強大的寶可夢。
 	</div>
 </div>
 <div class="Item">
@@ -755,21 +752,20 @@ The most common kinds of Pokéballs you can find at your local Pokémart are:
 		捕獲強度: 不明。
 	</div>
 	<div class="Desc">
-		It is said to be in development by some companies in the world, it is rumored to have a seal so strong it would never break.
+		據說世界上的幾間公司正在開發它，且傳說它擁有著無比堅固，永遠不會被破壞的封口。
 	</div>
 </div>
 
-You can still find artisans who create the old-fashioned Apricorn Pokéballs, but they are getting more and more difficult  to  find  in  big  cities  with  the  whole  Pokéball  industry growing everyday. The good news is that many awesome designs are available for you to customize the look of your Pokéballs to what you like the most.
-
+你仍然可以找到一些會使用球果打造舊式精靈球的工匠，但隨著整個精靈球產業蓬勃發展，要在大城市找到他們也就越來越困難。好消息是，市面上也提供了許多酷炫的設計，讓你把你精靈球的外觀客製化成你想要的樣貌。
 
 
 ---
 ## 寶可夢照護道具
-Your  **Pokémon  companions  need  to  be  looked  after**,  you guys will be a team, so you depend on each other for care and safety. Your Pokémon require their basic needs to  be  covered  in  order  to  grow  healthy  and  be  comfortable  with  you.  **They  cannot  be  kept  within  their Pokéballs for various days only coming out to battle**.
-You’ll need to prepare yourself with a few Items if you want to take proper care of your partners.
+你的**寶可夢同伴們需要被好好照顧**，你們是一個團隊，所以你們要依靠彼此的照顧和安全。 寶可夢們的基本需求需要被滿足才能夠健康的成長，也才能與你相處舒適。**牠們不該被持續關在精靈球裡好幾天，然後只在戰鬥時才被放出來**。
+如果你想要好好照顧你的搭檔，那麼你將需要準備一些照護用的道具。
 
 
-### Food
+### 食物
 Some of your Pokémon might be able to get their own food every day, but if you want to befriend them and gain their trust, a good meal may be a good way to start. 
 Each package of food is enough to feed a single small or medium sized Pokémon for a whole day, **you can also use the food as bait for catching Pokémon**:
 
@@ -804,7 +800,7 @@ Each package of food is enough to feed a single small or medium sized Pokémon f
 	</div>
 </div>
 
-### 營養飲料
+### 營養劑
 Some Pokémon are not as proficient in certain areas and others have trouble developing certain traits. While some trainers will train hard, others will train smart! 
 Just add these supplements into their diet and your Pokémon will be even stronger. With them, you’ll **have one more Point in the corresponding Attribute for the duration of a month.**
 
@@ -925,7 +921,7 @@ Vitamins will help your Pokémon reach their max potential. The best part is tha
 When people see your radiant and vigorous Pokémon walking around, they will immediately ask you for your secret.
 
 
-### Grooming
+### 梳妝用具
 Most Pokémon like to be clean and groomed. When they live in the wild they find ways to do it themselves, but since they are not in the wild anymore there is nothing wrong with a little bit of vanity here and there. 
 A groomed Pokémon is a happy Pokémon.
 
@@ -967,7 +963,7 @@ Even if it is not useful in battle, grooming and clothing will make your Pokémo
 Pokémon evolution works in mysterious ways. Some Pokémon evolve without any kind of intervention, just by growing stronger ang gaining level, others evolve by being nurtured and gaining Happiness or Loyalty, and finally there are species that Evolve only trough an external influence such as elemental energy in stones and other items or machines.
 
 
-### Stones
+### 進化石
 In this world there many strange stones with peculiar properties that cause sensible Pokémon to have a reaction.
 
 These items vary in shape and size, the most common ones are those with elemental properties: fire, water, thunder and grass; but there are others with luminescent properties and even rocks that came from the moon.
@@ -1062,11 +1058,11 @@ Once you use an evolutionary stone on a Pokémon, it will become a regular rock.
 **Choose carefully on which Pokémon you will use it.**
 {{< /mynotice >}}
 
-### Trading Machines
+### 寶可夢交換機器
 Trainers like to exchange Pokémon with each other but it is not as simple as giving each other a Pokéball, as there would be no proof of a consensual exchange. 
 To solve this problem, Trainers get their Pokémon within a Trading Machine to take a Pokémon from one Pokéball to another using a low-radiation energy transfer, this radiation has been known to trigger evolution in some species of Pokémon.
 
-### Evolution with Held Items
+### 持有攜帶道具進化
 Some Pokémon might react to special Held Items, such as industrial metals, electric chargers, and even pastries that trigger evolution when combined with the Trading Machine’s radiation waves. In the wild, Pokémon can go all their lives without ever being in contact with any of these artificial items, so it is more difficult to know what object will trigger evolution on which Pokémon. 
 
 You’ll need to be patient and do your share of research to find out what kind of item you will need to evolve your companion.
@@ -1096,7 +1092,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|格鬥招式|Fight}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		增加格鬥屬性招式的傷害。
+		使格鬥屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		After years of training in martial arts you can proudly wear this.
@@ -1109,7 +1105,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|惡系招式|Dark}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		增加惡屬性招式的傷害。
+		使惡屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		These glasses make you look cool and mean.
@@ -1122,7 +1118,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|火系招式|Fire}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使火屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A piece of special charcoal that never turns to ash and keeps a steady flame.
@@ -1135,9 +1131,10 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|龍系招式|Dragon}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		A Dragon Pokémon that fought fiercely lost this fang. It’s sprit lives within.
+		使龍屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
+		A Dragon Pokémon that fought fiercely lost this fang. It’s sprit lives within.
 	</div>
 </div>
 <div class="Item">
@@ -1147,7 +1144,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|岩石招式|Rock}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使岩石屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A Stone that is embed on the body to protect it from impact.
@@ -1160,7 +1157,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|電系招式|Electric}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使電屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		This magnet keeps positive and negative charge within itself.
@@ -1173,7 +1170,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|鋼系招式|Steel}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使鋼屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		This chromed coat keeps all surfaces shiny.
@@ -1186,7 +1183,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|草系招式|Grass}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使草屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		It is said that this seed came from the same forest as the tree of life.
@@ -1199,7 +1196,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|水系招式|Water}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使水屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A small vessel with water that emits a mysterious glow.
@@ -1212,7 +1209,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|冰系招式|Ice}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使冰屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A magical piece of ice that never melts.
@@ -1225,7 +1222,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|毒系招式|Poison}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使毒屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		This poison-infused barb is sure to take the toxines into the foe.
@@ -1238,7 +1235,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|飛行招式|Flying}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使飛行屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A sharp metal cover for the beak of your Pokémon.
@@ -1251,7 +1248,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|一般招式|Normal}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使一般屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		Just a regular everyday normal scarf. Nothing special about it.
@@ -1264,7 +1261,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|蟲系招式|Bug}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使蟲屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		Be careful as this powder is itchy and gives you allergies.
@@ -1277,7 +1274,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|地面招式|Ground}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使地面屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A pouch with special sand that’s smooth and soft to the touch.
@@ -1290,7 +1287,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|幽靈招式|Ghost}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使幽靈屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		An old piece of paper that once sealed the spirit of an angry spirit.
@@ -1303,7 +1300,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|超能招式|Psychic}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to a certain type of moves.
+		使超能力屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A spoon that bends with the power of the mind.
@@ -1316,7 +1313,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|力量|up|2}{@icon frame|self|特殊|up|2}</div>
 	<div class="Content">
-		只對皮卡丘有效。提升寶可夢的力量和特殊。
+		限定皮卡丘攜帶時有效。寶可夢的力量和特殊提升 2 點。
 	</div>
 	<div class="Desc">
 		A rare ball of light that reacts only to a Pikachu’s energy
@@ -1329,6 +1326,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|力量|up|2}</div>
 	<div class="Content">
+		限定吉利蛋和幸福蛋攜帶時有效。寶可夢的力量提升 2 點。
 	</div>
 	<div class="Desc">
 		A set of boxing gloves specially fit for a Chansey or Blissey’s arms.
@@ -1341,6 +1339,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon effect|l|crit}</div>
 	<div class="Content">
+		限定大蔥鴨攜帶時有效。寶可夢的所有傷害招式獲得「高要害率」效果。
 	</div>
 	<div class="Desc">
 		A piece of Leek that allows Farfetch’d to fight swiftly. You can also cook it; it is delicious.
@@ -1353,6 +1352,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|力量|up|2}</div>
 	<div class="Content">
+		限定卡拉卡拉和嘎啦嘎啦攜帶時有效。寶可夢的力量提升 2 點。
 	</div>
 	<div class="Desc">
 		A heavy bone piece, only Cubone and Marowak react to the remains.
@@ -1364,7 +1364,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		<div class="price">稀有</div>
 	</div>
 	<div class="Content">
-		DOUBLE ANY  MONEY PRIZE
+		使所有的金錢獎勵變為兩倍。
 	</div>
 	<div class="Desc">
 		A good luck charm that is said to bring money to your pocket. If your Pokémon wears it, it will bring you fortune.
@@ -1377,6 +1377,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|防禦|up|1}{@icon frame|self|特防|up|1}</div>
 	<div class="Content">
+		只對尚未進化到最終階段的寶可夢有效。寶可夢的防禦和特防提升 1 點。
 	</div>
 	<div class="Desc">
 		A strange lump that boosts the defenses of an un-evolved Pokémon.
@@ -1389,7 +1390,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon text|l|效果絕佳}{@icon frame|self|傷害|plus|d1}</div>
 	<div class="Content">
-		Adds damage to Super Effective Moves.
+		使效果絕佳招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
 		The belt of a seasoned warrior who knows many techniques.
@@ -1402,7 +1403,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|傷害|plus|d2}{@icon effect|l|recoil}</div>
 	<div class="Content">
-		Adds damage & recoil to all attacks
+		使所有攻擊的傷害增加一顆骰子，且所有攻擊獲得「反作用力傷害」效果。
 	</div>
 	<div class="Desc">
 		A magic orb that grants great power at the cost of the life energy of the weilder.
@@ -1415,6 +1416,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|flinch|畏縮|number|d1}</div>
 	<div class="Content">
+		進行攻擊時，骰 1 顆機率骰以使敵人陷入「畏縮」狀態。
 	</div>
 	<div class="Desc">
 		A crown-shaped rock that makes some Pokémon feel like a king, others can’t help but stare in awe at royalty.
@@ -1426,7 +1428,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		<div class="price">稀有</div>
 	</div>
 	<div class="Content">
-		When the Pokémon defeats a foe, it will count as two victories for the purposes of Evolution.
+		當寶可夢擊敗一個敵人時，將其視作 2 次牠進化所需的勝利次數。
 	</div>
 </div>
 <div class="Item">
@@ -1436,6 +1438,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|先攻值|plus|2}</div>
 	<div class="Content">
+		寶可夢的先攻值額外增加 2 點。
 	</div>
 	<div class="Desc">
 		This claw allows you a firm grip on the ground to move faster.
@@ -1448,6 +1451,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon effect|l|crit}</div>
 	<div class="Content">
+		寶可夢的所有傷害招式獲得「高要害率」效果。
 	</div>
 	<div class="Desc">
 		This sharp claw can pierce through tough surfaces with ease.
@@ -1460,6 +1464,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|flinch|畏縮|number|d1}</div>
 	<div class="Content">
+		進行攻擊時，骰 1 顆機率骰以使敵人陷入「畏縮」狀態。
 	</div>
 	<div class="Desc">
 		A big pair of fangs that make you look like a vampire.
@@ -1472,7 +1477,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|target|傷害|number|d1}</div>
 	<div class="Content">
-		Deal damage to a foe attacking you with a Non-ranged Physical Attack.
+		當敵人對你使用非遠程物理攻擊時，骰一顆骰子對牠造成傷害。
 	</div>
 	<div class="Desc">
 		A helmet covered with sharp edges and rocks.
@@ -1485,6 +1490,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="IconBar">{@icon frame|self|命中|plus|d1}</div>
 	<div class="Content">
+		寶可夢的命中判定額外增加一顆骰子。
 	</div>
 	<div class="Desc">
 		A magnifying glass used to see the small details.
