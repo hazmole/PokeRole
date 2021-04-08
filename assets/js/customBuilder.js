@@ -156,7 +156,7 @@ class IconParser {
 
       case "effect block":    return "阻擋";
       case "effect crit":     return "高要害率";
-      case "effect charge":   return "蓄能";
+      case "effect charge":   return "蓄力";
       case "effect lethal":   return "致命傷害";
       case "effect neverfail":return "必中";
       case "effect recoil":   return "反作用力傷害";
@@ -375,7 +375,7 @@ class PokemonParser{
       var text = "";
       for(var i=0;i<attr.max;i++){
         text += (i<attr.value)? "●": "○";
-        if(i==4) text+=" ";
+        //if(i==4) text+=" ";
       }
       return text;
     }

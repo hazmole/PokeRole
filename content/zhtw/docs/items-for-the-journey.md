@@ -619,7 +619,7 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 
 能量飲品僅供一次性使用，且儘管它們的效果並非立竿見影，但非常有效。
 
-這意味著**能量飲品在戰鬥中並不會發揮任何效果，且它們無法治療致命傷害。**但當你有時間好好放鬆並享用清爽甜品時，它們會是一個相當優質的選擇。
+這意味著**能量飲品在戰鬥中並不會發揮任何效果，且它們無法治療致命傷害**。但當你有時間好好放鬆並享用清爽甜品時，它們會是一個相當優質的選擇。
 
 {{< mynotice trainer >}}
 能量飲品不能在戰鬥中使用，也無法做為攜帶道具發揮效果。它們也無法治療致命傷害。
@@ -766,8 +766,8 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 
 
 ### 食物
-Some of your Pokémon might be able to get their own food every day, but if you want to befriend them and gain their trust, a good meal may be a good way to start. 
-Each package of food is enough to feed a single small or medium sized Pokémon for a whole day, **you can also use the food as bait for catching Pokémon**:
+你的某些寶可夢或許能夠自行張羅牠們每天的食物，但如果你想和牠們成為朋友並得到牠們的信任，那麼提供品質良好的飲食或許會是個不錯的開始。
+每一包食物都能夠滿足一隻小型或中型寶可夢一整天的需求，**你也可以使用食物做為誘餌來捕捉野生的寶可夢**。
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -801,20 +801,20 @@ Each package of food is enough to feed a single small or medium sized Pokémon f
 </div>
 
 ### 營養劑
-Some Pokémon are not as proficient in certain areas and others have trouble developing certain traits. While some trainers will train hard, others will train smart! 
-Just add these supplements into their diet and your Pokémon will be even stronger. With them, you’ll **have one more Point in the corresponding Attribute for the duration of a month.**
+有些寶可夢就是不怎麼精熟於特定的領域，或者不容易鍛鍊發展特定能力。有些訓練家會選擇加倍刻苦訓練，而有些訓練家則會選擇更聰明的方式！
+只需要在牠們的飲食中加入這些補給品，你的寶可夢就會變得更加強壯。藉著使用它們，你將能讓**寶可夢的對應特質提升 1 點，持續一整個月的時間**。
 
-Vitamin effects don’t stack on the same Attribute and can’t raise the Attribute above the Pokémon’s Limit.
+營養劑在相同特質上的效果並不會疊加，且無法讓特質因此超過該寶可夢的特質上限。
 
 {{< example >}}
-Sylveon has been training hard but you need to be ready for your Gym battle in a few days. 
+仙子伊布已經經歷了艱苦的訓練，但你需要為數天後的道館挑戰賽做好準備。
 
-In order to go through the huge defenses built on the Gym Leader’s Pokémon, Sylveon needs to raise its Special quickly.
+為了突破道館館主寶可夢的堅強防禦能力，仙子伊布需要盡快地提升牠的特殊特質。
 
-You buy some Calcium and feed Sylveon with it. 
-In a few moments its effects will be noticeable and Sylveon’s Special will be 1 Point higher for a whole month. 
+因此你購買了 特攻增強劑，並將其餵食給仙子伊布。
+一小段時間汁後，它的效果開始浮現，且仙子伊布在接下來一整個月內的特殊都將提升 1 點。
 
-Now you’re ready for that Gym Leader!
+現在你準備好面對道館館主了！
 {{< /example >}}
 
 <div class="Item">
@@ -826,7 +826,7 @@ Now you’re ready for that Gym Leader!
 		增加 1 點力量。
 	</div>
 	<div class="Desc">
-		A tasty milkshake that aids in the growth of bigger and stronger muscles.
+		美味的蛋白奶昔，有助於長出又大又壯的肌肉。
 	</div>
 </div>
 <div class="Item">
@@ -838,7 +838,7 @@ Now you’re ready for that Gym Leader!
 		增加 1 點活力。
 	</div>
 	<div class="Desc">
-		An iron capsule that reduces feebleness and gives you a healthy glow.
+		鐵質膠囊，能減緩衰弱並讓你散發出健康的光彩。
 	</div>
 </div>
 <div class="Item">
@@ -850,7 +850,7 @@ Now you’re ready for that Gym Leader!
 		增加 1 點特殊。
 	</div>
 	<div class="Desc">
-		Add this effervescent pills on their drink to help grow stronger bones.
+		將這個發泡錠加入牠們的飲料中，幫助牠們長出更健壯的骨骼。
 	</div>
 </div>
 <div class="Item">
@@ -862,7 +862,7 @@ Now you’re ready for that Gym Leader!
 		增加 1 點洞察。
 	</div>
 	<div class="Desc">
-		Zinc capsules help with focus and brain development.
+		鋅質膠囊有助於集中注意力和大腦發育。
 	</div>
 </div>
 <div class="Item">
@@ -874,7 +874,7 @@ Now you’re ready for that Gym Leader!
 		增加 1 點靈巧。
 	</div>
 	<div class="Desc">
-		A healthy syrup that fills you with energy!
+		能讓你充滿能量的健康糖漿！
 	</div>
 </div>
 <div class="Item">
@@ -886,7 +886,7 @@ Now you’re ready for that Gym Leader!
 		增加 2 點意志點。
 	</div>
 	<div class="Desc">
-		It is rumored they are just sugar pills. Who really knows?
+		有傳言說這些只不過是藥丸形狀的糖果。誰知道呢？
 	</div>
 </div>
 <div class="Item">
@@ -898,7 +898,7 @@ Now you’re ready for that Gym Leader!
 		增加 2 點基本生命值。
 	</div>
 	<div class="Desc">
-		A compendium of vitamins and minerals to help your Pokémon grow as big and healthy as it can be.
+		充滿維生素和礦物質的綜合維他命，能幫助你的寶可夢盡其所能地成長得又大又健康。
 	</div>
 </div>
 <div class="Item">
@@ -910,52 +910,51 @@ Now you’re ready for that Gym Leader!
 		增加 1 點任意特質。
 	</div>
 	<div class="Desc">
-		This strange candy is made of unknown ingredients but its effects do not stack.
+		這種奇妙的糖果是由未知成分製成，但它的效果並不會疊加。
 	</div>
 </div>
 
-Vitamins will help your Pokémon reach their max potential. The best part is that they will notice the changes and will be happy to have you as their trainer. 
+營養劑能幫助你的寶可夢發揮牠們的最大潛能。而最棒的是，牠們會意識到這個改變，並且很高興你能成為牠們的訓練家。
 
-**All of these items are a single use. Their effects do not stack with each other and they cannot make your Pokémon develop beyond their Limits.**
+**所有這些道具都僅供一次性使用。它們的效果不能彼此疊加，且它們無法使你的寶可夢超越牠們的極限。**
 
-When people see your radiant and vigorous Pokémon walking around, they will immediately ask you for your secret.
+當人們看見你容光煥發、精力充沛的寶可夢，他們將會立刻過來想要打聽你培養寶可夢的祕訣。
 
 
 ### 梳妝用具
-Most Pokémon like to be clean and groomed. When they live in the wild they find ways to do it themselves, but since they are not in the wild anymore there is nothing wrong with a little bit of vanity here and there. 
-A groomed Pokémon is a happy Pokémon.
+大部分寶可夢都喜歡被梳理得乾淨整潔。當牠們獨自在野外生活時，牠們會想辦法自己做這件事，但既然牠們現在已經不在野外了，那麼偶爾有點虛榮心也沒什麼不對的。
+一隻梳妝整潔的寶可夢肯定會是個快樂的寶可夢。
 
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Grooming Kit</div>
+		<div class="title">梳理套組</div>
 		<div class="price">$100</div>
 	</div>
 	<div class="Desc">
-		No more matted hair, unruly leaves, dry scales or rough rocks!
+		不會再有亂糟糟的毛髮、凌亂的樹葉、乾燥的鱗片、或粗糙的岩石了！
 	</div>
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Pokémon Costume</div>
+		<div class="title">寶可夢服裝</div>
 		<div class="price">$250</div>
 	</div>
 	<div class="Desc">
-		Fashionable clothes. Your companions will look amazing in these costumes and they will love it.
+		時尚的衣物。你的夥伴穿上這些服裝後一定會很漂亮，牠們會喜歡的。
 	</div>
 </div>
 <div class="Item">
 	<div class="Header flexContainer">
-		<div class="title">Piece of Accessory</div>
+		<div class="title">裝飾品</div>
 		<div class="price">$10</div>
 	</div>
 	<div class="Desc">
-		Ribbons, hats, collars and everything you need to make them look super special.
+		緞帶、帽子、項圈、以及所有你需要的一切，讓牠們看上去超級特別。
 	</div>
 </div>
 
-Even if it is not useful in battle, grooming and clothing will make your Pokémon stand out in the crowd.
-**Looking good will also give your trusted Pokémon 1 more Confidence Point.** If you want to read more about Confidence and its effects head to p.63
-
+即使這在戰鬥中沒什麼用處，但衣著打扮能讓你的寶可夢在人群中脫穎而出。
+**漂亮的外觀同時能讓你信任的寶可夢獲得 1 點額外的信心值。** 如果你想要知道更多關於信心值和其效果，請參閱「寶可夢華麗大賽」章節。
 
 
 ---
@@ -977,7 +976,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">$5,000</div>
 	</div>
 	<div class="Desc">
-		This Stone has a flame inside, it’s hot to the touch.
+		這顆石頭內部蘊藏著烈火，摸起來很燙。
 	</div>
 </div>
 <div class="Item">
@@ -986,7 +985,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">$5,000</div>
 	</div>
 	<div class="Desc">
-		It glows in the dark and can be used to power small electronics.
+		它在黑暗中會散發光芒，且可以被用來為小型電子產品供電﹐
 	</div>
 </div>
 <div class="Item">
@@ -995,7 +994,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">$5,000</div>
 	</div>
 	<div class="Desc">
-		Looks like blue glass and can be found at the bottom of the sea.
+		看起來像湛藍色的玻璃，可以在海底被發現。
 	</div>
 </div>
 <div class="Item">
@@ -1004,7 +1003,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">非賣品</div>
 	</div>
 	<div class="Desc">
-		It is said that the leaf encrusted to it comes from the tree of life itself.
+		據說它內部封嵌的樹葉來自於生命之樹。
 	</div>
 </div>
 <div class="Item">
@@ -1013,7 +1012,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">非賣品</div>
 	</div>
 	<div class="Desc">
-		It is a black stone that turns white and luminescent when the moon shines over it.
+		這顆黑色的石頭會在月光照耀它時變成白色並散發出冷色光輝。
 	</div>
 </div>
 <div class="Item">
@@ -1022,7 +1021,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">非賣品</div>
 	</div>
 	<div class="Desc">
-		A red stone that shines brightly when facing the sun at morning.
+		這顆赤紅色的石頭會在面對早晨朝陽時散發出明亮的光芒。
 	</div>
 </div>
 <div class="Item">
@@ -1031,7 +1030,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">非賣品</div>
 	</div>
 	<div class="Desc">
-		Its crystal-like surface allows you to see a ball of light inside.
+		它結晶般的表面讓你能看見石頭內部的光球。
 	</div>
 </div>
 <div class="Item">
@@ -1040,7 +1039,7 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">非賣品</div>
 	</div>
 	<div class="Desc">
-		This stone seems to suck the light around into a small dark hole.
+		這顆石頭似乎把周圍的光線都吸進了一個小型黑洞。
 	</div>
 </div>
 <div class="Item">
@@ -1049,13 +1048,13 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 		<div class="price">非賣品</div>
 	</div>
 	<div class="Desc">
-		This cerulean stone shines with blinding light for a minute during sunrise.
+		在日出時段，這顆天藍色的石頭會閃耀著炫目的光芒長達一分鐘。
 	</div>
 </div>
 
 {{< mynotice trainer >}}
-Once you use an evolutionary stone on a Pokémon, it will become a regular rock. 
-**Choose carefully on which Pokémon you will use it.**
+一旦你把進化石用在寶可夢上，它就會變回普通的石頭。
+**請謹慎選擇你要在哪一隻寶可夢身上使用它。**
 {{< /mynotice >}}
 
 ### 寶可夢交換機器
@@ -1070,19 +1069,20 @@ You’ll need to be patient and do your share of research to find out what kind 
 
 ---
 ## 攜帶物品
-Pokémon have a Held Item slot to carry an Item with them at all times. These Items may be used in battle to give them an advantage and special effects.
+寶可夢身上有一個攜帶物品的欄位，讓牠們能夠隨時帶著一個道具。這些道具可以在戰鬥中被使用，為牠們帶來一些優勢和特殊效果。
 
 {{< highlight >}}
-A Pokémon may only have one active Held Item for the scene. It may be abe to carry more, but only one will be active.
-The active held item may remain with the user, be spent, exchanged or stolen depending on the moves of the user and the foe.
+一隻寶可夢在同個場景只能有一個在發揮作用的攜帶物品。牠也許能夠同時持有一個以上的攜帶物品，但只會有一個能發揮作用。
+根據使用者或敵人使用的招式，這個攜帶物品可能會一直留在使用者身上、或被消耗、被交換、被偷走等等。
 {{< /highlight >}}
 
-If a Held Item increases or decreases an Attribute, it cannot be stacked with a move that modifies the same attribute. You will instead take into account the effect with the highest modifier. 
+如果某個攜帶物品會提升或降低寶可夢的特質，那麼其效果不會與能調整相同特質的招式疊加。你改為適用調整值最高的那個效果。
 
-Held items are not for sale. You’ll have to find them on your adventures through the world.
+攜帶物品並沒有在市面上販售。你將必須在你探索這個世界的旅途中找到它們。
+
 
 {{< mynotice story >}}
-Held Items are exclusive for Pokémon. Humans using them won’t benefit from their special properties.
+攜帶道具只對寶可夢有效。人類就算使用它們也無法從它們的特殊性質中受益。
 {{< /mynotice >}}
 
 <div class="Item">
@@ -1095,7 +1095,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使格鬥屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		After years of training in martial arts you can proudly wear this.
+		經過多年的武術訓練後，你可以自傲的穿上它。
 	</div>
 </div>
 <div class="Item">
@@ -1108,7 +1108,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使惡屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		These glasses make you look cool and mean.
+		這雙墨鏡能讓你看起來更酷更壞。
 	</div>
 </div>
 <div class="Item">
@@ -1121,7 +1121,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使火屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A piece of special charcoal that never turns to ash and keeps a steady flame.
+		一塊永遠不會燒成灰燼的特殊木炭，能保持火焰的穩定。
 	</div>
 </div>
 <div class="Item">
@@ -1134,7 +1134,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使龍屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A Dragon Pokémon that fought fiercely lost this fang. It’s sprit lives within.
+		一隻龍屬性寶可夢曾經在經歷激烈戰鬥後遺落了這根尖牙。牠的精神仍然寄宿其中。
 	</div>
 </div>
 <div class="Item">
@@ -1147,7 +1147,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使岩石屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A Stone that is embed on the body to protect it from impact.
+		一顆嵌於身體以保護其不受衝擊的堅硬石頭。
 	</div>
 </div>
 <div class="Item">
@@ -1160,7 +1160,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使電屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		This magnet keeps positive and negative charge within itself.
+		這個磁鐵將正電荷和負電荷保持在自身內部。
 	</div>
 </div>
 <div class="Item">
@@ -1173,7 +1173,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使鋼屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		This chromed coat keeps all surfaces shiny.
+		這個鉻鋼鍍膜能讓所有表面都閃閃發光。
 	</div>
 </div>
 <div class="Item">
@@ -1186,7 +1186,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使草屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		It is said that this seed came from the same forest as the tree of life.
+		傳說這個種子和生命之樹來自同一片森林。
 	</div>
 </div>
 <div class="Item">
@@ -1199,7 +1199,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使水屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A small vessel with water that emits a mysterious glow.
+		一個裝有散發神秘光輝的清水的小容器。
 	</div>
 </div>
 <div class="Item">
@@ -1212,7 +1212,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使冰屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A magical piece of ice that never melts.
+		一塊永遠不會融化的神奇冰塊。
 	</div>
 </div>
 <div class="Item">
@@ -1225,7 +1225,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使毒屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		This poison-infused barb is sure to take the toxines into the foe.
+		這根充滿毒素的棘針可以確保你把毒素注入敵人體內。
 	</div>
 </div>
 <div class="Item">
@@ -1238,7 +1238,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使飛行屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A sharp metal cover for the beak of your Pokémon.
+		鋒利的金屬包覆著你寶可夢的鳥喙。
 	</div>
 </div>
 <div class="Item">
@@ -1251,7 +1251,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使一般屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		Just a regular everyday normal scarf. Nothing special about it.
+		只是一條尋常無奇的普通圍巾。沒什麼特別的。
 	</div>
 </div>
 <div class="Item">
@@ -1264,7 +1264,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使蟲屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		Be careful as this powder is itchy and gives you allergies.
+		小心點，這些粉塵會讓你發癢並產生過敏反應。
 	</div>
 </div>
 <div class="Item">
@@ -1277,7 +1277,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使地面屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A pouch with special sand that’s smooth and soft to the touch.
+		一包摸起來光滑柔軟的特殊沙子。
 	</div>
 </div>
 <div class="Item">
@@ -1290,7 +1290,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使幽靈屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		An old piece of paper that once sealed the spirit of an angry spirit.
+		一張曾經用來封印憤怒怨靈的老舊符紙。
 	</div>
 </div>
 <div class="Item">
@@ -1303,7 +1303,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使超能力屬性招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A spoon that bends with the power of the mind.
+		透過精神力量而被折彎的湯匙。
 	</div>
 </div>
 <div class="Item">
@@ -1316,7 +1316,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		限定皮卡丘攜帶時有效。寶可夢的力量和特殊提升 2 點。
 	</div>
 	<div class="Desc">
-		A rare ball of light that reacts only to a Pikachu’s energy
+		罕見的電氣球，只會對皮卡丘的能量起反應。
 	</div>
 </div>
 <div class="Item">
@@ -1329,7 +1329,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		限定吉利蛋和幸福蛋攜帶時有效。寶可夢的力量提升 2 點。
 	</div>
 	<div class="Desc">
-		A set of boxing gloves specially fit for a Chansey or Blissey’s arms.
+		一雙的拳擊手套，特別適合吉利蛋和幸福蛋的手臂形狀。
 	</div>
 </div>
 <div class="Item">
@@ -1342,7 +1342,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		限定大蔥鴨攜帶時有效。寶可夢的所有傷害招式獲得「高要害率」效果。
 	</div>
 	<div class="Desc">
-		A piece of Leek that allows Farfetch’d to fight swiftly. You can also cook it; it is delicious.
+		一根能讓大蔥鴨迅速揮舞戰鬥的大蔥。你也可以把它給煮了；它可美味的呢。
 	</div>
 </div>
 <div class="Item">
@@ -1355,7 +1355,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		限定卡拉卡拉和嘎啦嘎啦攜帶時有效。寶可夢的力量提升 2 點。
 	</div>
 	<div class="Desc">
-		A heavy bone piece, only Cubone and Marowak react to the remains.
+		一根沉重的骨頭，只有卡拉卡拉和嘎啦嘎啦會對這個遺骸有所反應。
 	</div>
 </div>
 <div class="Item">
@@ -1367,7 +1367,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使所有的金錢獎勵變為兩倍。
 	</div>
 	<div class="Desc">
-		A good luck charm that is said to bring money to your pocket. If your Pokémon wears it, it will bring you fortune.
+		據說能讓你錢包鼓鼓的幸運護符。如果你的寶可夢戴上它，牠將為你帶來財富。
 	</div>
 </div>
 <div class="Item">
@@ -1380,7 +1380,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		只對尚未進化到最終階段的寶可夢有效。寶可夢的防禦和特防提升 1 點。
 	</div>
 	<div class="Desc">
-		A strange lump that boosts the defenses of an un-evolved Pokémon.
+		一塊能夠強化未進化寶可夢防禦能力的奇怪團塊。
 	</div>
 </div>
 <div class="Item">
@@ -1393,7 +1393,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使效果絕佳招式的傷害增加一顆骰子。
 	</div>
 	<div class="Desc">
-		The belt of a seasoned warrior who knows many techniques.
+		一名百戰歷練，通曉許多技藝的戰士的腰帶。
 	</div>
 </div>
 <div class="Item">
@@ -1406,7 +1406,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		使所有攻擊的傷害增加一顆骰子，且所有攻擊獲得「反作用力傷害」效果。
 	</div>
 	<div class="Desc">
-		A magic orb that grants great power at the cost of the life energy of the weilder.
+		一顆能夠賦予強大力量的魔法寶珠，但會以持有者的生命能量做為代價。
 	</div>
 </div>
 <div class="Item">
@@ -1419,7 +1419,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		進行攻擊時，骰 1 顆機率骰以使敵人陷入「畏縮」狀態。
 	</div>
 	<div class="Desc">
-		A crown-shaped rock that makes some Pokémon feel like a king, others can’t help but stare in awe at royalty.
+		一塊王冠造型的岩石，能讓一些寶可夢覺得自己就像是國王，其他人將忍不住敬畏地凝視著牠的威嚴。
 	</div>
 </div>
 <div class="Item">
@@ -1429,6 +1429,9 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 	</div>
 	<div class="Content">
 		當寶可夢擊敗一個敵人時，將其視作 2 次牠進化所需的勝利次數。
+	</div>
+	<div class="Desc">
+		滿載著幸福的蛋。攜帶的寶可夢能得到更多的經驗值。
 	</div>
 </div>
 <div class="Item">
@@ -1441,7 +1444,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		寶可夢的先攻值額外增加 2 點。
 	</div>
 	<div class="Desc">
-		This claw allows you a firm grip on the ground to move faster.
+		這個爪子能讓你更牢固的抓地以更快速地移動。
 	</div>
 </div>
 <div class="Item">
@@ -1454,7 +1457,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		寶可夢的所有傷害招式獲得「高要害率」效果。
 	</div>
 	<div class="Desc">
-		This sharp claw can pierce through tough surfaces with ease.
+		這個鋒利的爪子可以輕易刺穿堅硬的表面。
 	</div>
 </div>
 <div class="Item">
@@ -1467,7 +1470,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		進行攻擊時，骰 1 顆機率骰以使敵人陷入「畏縮」狀態。
 	</div>
 	<div class="Desc">
-		A big pair of fangs that make you look like a vampire.
+		一雙會讓你看起來像吸血鬼的大尖牙。
 	</div>
 </div>
 <div class="Item">
@@ -1480,7 +1483,7 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		當敵人對你使用非遠程物理攻擊時，骰一顆骰子對牠造成傷害。
 	</div>
 	<div class="Desc">
-		A helmet covered with sharp edges and rocks.
+		一頂覆蓋著鋒利稜角和岩石的安全帽。
 	</div>
 </div>
 <div class="Item">
@@ -1493,6 +1496,6 @@ Held Items are exclusive for Pokémon. Humans using them won’t benefit from th
 		寶可夢的命中判定額外增加一顆骰子。
 	</div>
 	<div class="Desc">
-		A magnifying glass used to see the small details.
+		一種用來觀察渺小細節的放大鏡。
 	</div>
 </div>

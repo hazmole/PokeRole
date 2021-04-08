@@ -614,7 +614,16 @@ Rules for Max Moves Max Moves can only be used while a Pokémon is under the Eff
 訓練師必須教導他的寶可夢以掌握這種內在力量。 或許在這之後牠們將能夠學會自行運用自己意志帶來的力量。如果訓練家從來沒有發揮過這種內在力量的經驗，那麼他或她的寶可夢可能也就學不會。
 大部分的NPC都不會使用他們的意志點，只有最熟練的訓練家和寶可夢才能夠使用它們。
 要回復1點花掉的意志點，你的角色必須：
-經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>幸福度與忠誠度</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</guid><description>幸福度 與 忠誠度 這些數值定義了你和你寶可夢之間的關係，這兩個數值同時也是遊戲中最有價值的數值之一，因為它們將會決定你和你同伴之間關係有多好。
+經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>妖精屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</guid><description>妖精屬性 妖精屬性的寶可夢通常是可愛、淘氣、又狡詐的。牠們大部分的招式都在玩弄敵人的感情：天真、悲傷、快樂、情愛、和憤怒。尤其當牠們在等待攻擊時機的期間，牠們看起來會特別人畜無害。
+並非所有妖精屬性的寶可夢都是善良和友好的，牠們之中有一些可能令人討厭，而且遠比牠們外表看起來還要強大。
+當你在野外遇到妖精屬性的寶可夢時，你最好先搞清楚牠們惹人憐愛的微笑背後的含義，也許牠們其實有著和惡屬性寶可夢一樣的壞心腸。
+效果絕佳:
+Dark, Dragon, Fight
+效果不好:
+Fire, Poison, Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>幸福度與忠誠度</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/</guid><description>幸福度 與 忠誠度 這些數值定義了你和你寶可夢之間的關係，這兩個數值同時也是遊戲中最有價值的數值之一，因為它們將會決定你和你同伴之間關係有多好。
 畢竟，就算擁有了再強大的寶可夢，如果牠討厭你、或甚至想要逃跑，那又有什麼意義呢？
 訓練家而言，和新捉到的寶可夢相處不融洽是很常見的情況，他們甚至可能會被上述的寶可夢攻擊，因為對牠來說這不過就只是上一場戰鬥的延續。這些反應將取決於該寶可夢被捕捉時發生的狀況，也同時取決於牠們的性格和物種天性。
 我們能給你最好的建議是：試著在一開始就留下好印象。
