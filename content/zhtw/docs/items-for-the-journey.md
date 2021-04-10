@@ -959,16 +959,16 @@ description = "介紹所有旅途中會使用的道具以及其規則"
 
 ---
 ## 進化道具
-Pokémon evolution works in mysterious ways. Some Pokémon evolve without any kind of intervention, just by growing stronger ang gaining level, others evolve by being nurtured and gaining Happiness or Loyalty, and finally there are species that Evolve only trough an external influence such as elemental energy in stones and other items or machines.
+寶可夢進化的運作方式相當神秘。有些寶可夢無須任何干預，只要成長茁壯並提升等級便會自然而然進化；有些需要透過養育並提升幸福度或忠誠度來進化；而也有些物種只能透過外在的影響才能進化，像是蘊藏在石頭的元素能量、或其他道具或機器。
 
 
 ### 進化石
-In this world there many strange stones with peculiar properties that cause sensible Pokémon to have a reaction.
+在這個世界中存在著許多奇怪的石頭，其特別的性質能夠讓敏感的寶可夢產生反應。
 
-These items vary in shape and size, the most common ones are those with elemental properties: fire, water, thunder and grass; but there are others with luminescent properties and even rocks that came from the moon.
-Very few marts have one in stock and they are usually very expensive. You can also find them as prizes in competitions or get lucky and find one in a cave.
+這些道具有著各種不同的形狀和尺寸，且以蘊含著元素能量的種類最為常見：火焰、閃電、水、和草；但也存在著其他像是具備發光性質、或甚至來自月球的石頭。
+會販售這些道具的商店極其稀少，且即使有也價格不斐。除此之外，你或許也能在一些競賽中發現它們作為獎項登場、或幸運地在洞窟中找到它們。
 
-If you get your hands on one, your Pokémon will get a nice boost in power.
+如果你有幸獲得了其中之一，那麼你寶可夢的力量將能得到大幅的提升。
 
 <div class="Item">
 	<div class="Header flexContainer">
@@ -1058,13 +1058,13 @@ If you get your hands on one, your Pokémon will get a nice boost in power.
 {{< /mynotice >}}
 
 ### 寶可夢交換機器
-Trainers like to exchange Pokémon with each other but it is not as simple as giving each other a Pokéball, as there would be no proof of a consensual exchange. 
-To solve this problem, Trainers get their Pokémon within a Trading Machine to take a Pokémon from one Pokéball to another using a low-radiation energy transfer, this radiation has been known to trigger evolution in some species of Pokémon.
+訓練家們能夠交換彼此的寶可夢，但其過程並不只是交換彼此的精靈球這麼簡單，畢竟這樣並無法證明這個交換是雙方自願的。
+為了解決這個問題，訓練家們需要將他們的寶可夢放到交換機器中，透過低輻射能量，將寶可夢從原本的精靈球轉移到另一個精靈球。而眾所周知，這種輻射能夠促使特定品種的寶可夢進化。
 
 ### 持有攜帶道具進化
-Some Pokémon might react to special Held Items, such as industrial metals, electric chargers, and even pastries that trigger evolution when combined with the Trading Machine’s radiation waves. In the wild, Pokémon can go all their lives without ever being in contact with any of these artificial items, so it is more difficult to know what object will trigger evolution on which Pokémon. 
+有些寶可夢可能會對一些特殊的攜帶物品產生反應，像是工業金屬、充電器、和甚至糕點，這些物品在與交換機器的輻射波結合時將可能觸發某些寶可夢的進化反應。在野外，寶可夢也許終其一生都不會有機會接觸到這些人工製品，因此想要知道什麼物品能夠促使哪些寶可夢進化，就更為困難了。 
 
-You’ll need to be patient and do your share of research to find out what kind of item you will need to evolve your companion.
+你將會需要大量的耐心，努力研究，才能夠瞭解你需要什麼樣的道具來讓你的夥伴進化。
 
 
 ---
