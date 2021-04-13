@@ -3,6 +3,14 @@
 **********************/
 
 /* box */
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* box */
 .theme__dark #list-main .box {
     color: #e8e8e8;
     margin-top: 0rem;
@@ -294,6 +302,20 @@
 }
 .Item .Header .title { width:200px; }
 .Item .Header .price { flex-grow: 1; text-align: right; padding-right: 1rem; }
+
+
+/* Search Panel */
+#SearchPanel {
+    background: #757575; border: 5px #464646 solid;
+    color:#fff; font-weight: bold;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+
+
+
+
 
 
 

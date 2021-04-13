@@ -247,3 +247,7 @@ iconFrame.self .number{ color: #20b1ff; }
 iconFrame.priority .number{ color: #8aca83; }
 iconFrame.accuracy .number{ color: #fff; }
 iconFrame.heal .heal{ color: #fff; }
+
+.disable tag,
+.disable iconFrame
+ { filter: grayscale(.8) contrast(.5); }

@@ -22,6 +22,8 @@ other = "WRITTEN BY"
 [edit-this-page]
 other = "EDIT THIS PAGE"
 
+[can-not-found]
+other = "找不到結果"
 
 [trainer_tip]
 other = "訓練家小技巧"
