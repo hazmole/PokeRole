@@ -204,7 +204,7 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 聯盟舉辦的正式比賽可能會限制你堆疊異常狀態。比如說，如果你對手的寶可夢已經陷入中毒或睡眠狀態，那麼聯盟職員可能會阻止你在繼續施加另外一個異常狀態，或者在你這麼做時懲處你。
 以下是這些異常狀態及其效果的列表：
 灼傷 1 級 某個相當炙熱的東西灼燒著你的肌膚，並開始起了水泡。
-{@icon frame|burn1|灼傷1}
+{@icon frame|burn1|}
 效果:
 每個戰鬥輪結束時造成 1 點傷害。火屬性寶可夢免疫這個狀態。
 抵抗:
@@ -213,7 +213,7 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 4 顆成功骰數。
 其他人可以在戰鬥以外的場合協助舒緩灼傷。
 灼傷 2 級 你身體的一部份著火了！
-{@icon frame|burn2|灼傷2}
+{@icon frame|burn2|}
 效果:
 每個戰鬥輪結束時造成 2 點致命傷害。火屬性寶可夢免疫這個狀態。
 抵抗:
@@ -222,7 +222,7 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 6 顆成功骰數。
 其他人可以在戰鬥以外的場合協助撲滅火焰。
 灼傷 3 級 你完全被火焰吞噬了！
-{@icon frame|burn3|灼傷3}
+{@icon frame|burn3|}
 效果:
 每個戰鬥輪結束時造成 3 點致命傷害。火屬性寶可夢免疫這個狀態。
 抵抗:
@@ -231,7 +231,7 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。
 其他人可以在戰鬥以外的場合協助撲滅火焰。
 麻痺 你的肌肉抽搐，讓你幾乎難以動彈！
-{@icon frame|paralysis|麻痺}</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
+{@icon frame|paralysis|}</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
 2. 發揮你的優勢 除了屬性優勢之外，也要考慮你的寶可夢擅長什麼，並思考如何運用這些優勢來幫助自己占上風。
 3. 利用或創造弱點 如果敵人太過強壯或快速，你會用什麼來反擊？也許敵人使用了一個低命中率的招式可以讓你加以閃避，而善用能降低敵人特質的特性也肯定能夠妨礙對手的表現。
 4. 瞭解你的招式 瞭解你經常使用的招式的威力、命中、與效果，能讓你更容易將其發揮到最大化。

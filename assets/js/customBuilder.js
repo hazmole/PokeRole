@@ -1,184 +1,4 @@
 //=================
-// Icon Builder
-class IconParser {
-
-  static parsePage(){
-    var article = document.getElementById("list-main");
-    if(!article) return false;
-
-    var hasIcon = false;
-    var raw_icon;
-    while((raw_icon = article.innerHTML.match(/{@icon ([^\}]+)}/)) != null){
-      var originText = raw_icon[0];
-      var tagArr = raw_icon[1].split("|");
-      
-      var iconHtml = this.getIconHTML(tagArr);
-
-      article.innerHTML = article.innerHTML.replace(originText, iconHtml);
-      hasIcon = true;
-    }
-    return hasIcon;
-  }
-
-  static getClickableIconHTML( tagArr, isOn, funcName ){
-    return `<a href="javascript:void(0)" onClick="${funcName}" class="${isOn? "": "disable"}" data-string="${tagArr.join("|")}">${this.getIconHTML(tagArr)}</a>`
-  }
-  static getIconHTML( tagArr ){
-    var icon_type = tagArr[0];
-    var icon_size = this.getSizeClass(tagArr[1]);
-
-    switch(icon_type){
-      case "novice": return this.getHTML_normalIcon("NoviceMark", icon_size);
-
-      case "heal":   return this.getHTML_normalIcon("basicHeal", icon_size);
-      case "c_heal":   return this.getHTML_normalIcon("compHeal", icon_size);
-
-      case "weather":
-      case "ball":
-      case "moveType":
-      case "target":
-      case "effect":
-        return this.getHTML_normalIcon(icon_type+" "+tagArr[2], icon_size);
-
-      case "text":   return this.getHTML_text(icon_size, tagArr[2], tagArr[3]);
-      case "dice":   return this.getHTML_diceIcon(icon_size, tagArr[2]);
-      case "rdice":  return this.getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
-      case "frame":  return this.getHTML_frame(tagArr.slice(1));
-      default:
-        return this.getHTML_normalIcon("unknown", icon_size);
-    }
-  }
-  
-  //====================
-  //====================
-  static getHTML_normalIcon(iconClass, iconSize){
-    var titleText = this.getTooltipsText(iconClass);
-    var titleAttr = (!!titleText)? `title="${titleText}"`: '';
-    return `<tag class="${iconClass} ${iconSize}" ${titleAttr}></tag>`;
-  }
-  static getHTML_text(iconSize, text, colorClass){
-    return `<tag class="text ${iconSize} ${colorClass}"><b>${text}</b></tag>`;
-  }
-  static getHTML_diceIcon(iconSize, number){
-    return `<tag class="dice ${iconSize}"><b>${number}</b></tag>`;
-  }
-  static getHTML_rdiceIcon(iconSize, number, extraClass){
-    var diceClass;
-    switch(parseInt(number)){
-      case 1: diceClass="one"; break;
-      case 2: diceClass="two"; break;
-      case 3: diceClass="three"; break;
-      case 4: diceClass="four"; break;
-      case 5: diceClass="five"; break;
-      case 6: diceClass="six"; break;
-    }
-    if(parseInt(number)>=4 && extraClass!="normal") extraClass+=" success";
-    return `<tag class="rdice ${iconSize} ${diceClass} ${extraClass}"></tag>`;
-  }
-  static getHTML_frame(parameters){
-    var frame_type = parameters[0];
-    var frame_title = parameters[1];
-    var frame_content = getFrameContent(parameters.slice(2));
-    return `<iconFrame class="${frame_type}">
-              <span class="frameTitle">${frame_title}</span>
-              <span class="frameContent">${frame_content}</span>
-            </iconFrame>`;
-
-    function getFrameContent(parameters){
-      var content_type = parameters[0];
-      var content_data = parameters[1] || null;
-      var isDice = false;
-
-      // handle dice
-      if(content_data && content_data[0]=="d"){
-        content_data = `<tag class="dice small"><b>${content_data[1]}</b></tag>`;
-        isDice = true;
-      }
-      if(content_data=="never"){
-        content_data = `<tag class="never small"></tag>`;
-      }
-
-      // handle prefix
-      var prefix = "";
-      switch(content_type){
-        case "up": prefix = "↑"; break;
-        case "down": prefix = "↓"; break;
-        case "plus": prefix = "+"; break;
-        case "minus": prefix = "-"; break;
-      }
-      if(!isDice){
-        prefix = `<prefix>${prefix}</prefix>`;
-      } else if(prefix!=""){
-        prefix = `<dprefix>${prefix}</dprefix>`;
-      }
-
-      switch(content_type){
-        case "always": return `<span class="always"></span>`;
-        case "never":  return `<span class="never"></span>`;
-        case "heal":   return `<span class="heal">${content_data}</span>`;
-        case "c_heal": return `<span class="heal comp">${content_data}</span>`;
-        case "number":
-        case "up":
-        case "down":
-        case "plus":
-        case "minus":
-          return `<span class="number">${prefix}${content_data}</span>`;
-        default:
-          return "";
-      }
-    }
-  }
-
-  //====================
-  static getSizeClass(size){
-    if(size=="s") return "small";
-    if(size=="l") return "large";
-    return "";
-  }
-  static getTooltipsText(effect){
-    switch(effect){
-      case "basicHeal": return "基礎治癒";
-      case "compHeal":  return "強效治癒";
-
-      case "weather sun":   return "大晴天";
-      case "weather sun2":  return "大日照";
-      case "weather rain":  return "下雨";
-      case "weather rain2": return "暴風雨";
-      case "weather sand":  return "沙暴";
-      case "weather wind":  return "亂流";
-      case "weather hail":  return "冰雹";
-      
-      case "target self":   return "使用者";
-      case "target ally":   return "單體隊友";
-      case "target allally":return "使用者&全體隊友";
-      case "target foe":    return "單體敵人";
-      case "target rfoe":   return "隨機敵人";
-      case "target allfoe": return "全體敵人";
-      case "target area":   return "範圍全體";
-      case "target field":  return "戰鬥場地";
-
-      case "effect block":    return "阻擋";
-      case "effect crit":     return "高要害率";
-      case "effect charge":   return "蓄力";
-      case "effect lethal":   return "致命傷害";
-      case "effect neverfail":return "必中";
-      case "effect recoil":   return "反作用力傷害";
-      case "effect rampage":  return "狂暴";
-      case "effect recharge": return "必須重新充能";
-      case "effect shield":   return "護盾";
-      case "effect switcher": return "替換寶可夢";
-      case "effect fist":     return "拳頭類招式";
-      case "effect sound":    return "聲音類招式";
-      case "effect sact_2":   return "雙重行動";
-      case "effect sact_5":   return "連續行動";
-
-      default:
-        return "";
-    }
-  }
-}
-
-//=================
 // Move Builder
 var MoveList;
 class MoveParser{
@@ -212,13 +32,14 @@ class MoveParser{
 
   static getHTML( moveObj ){
     if(moveObj.tags[0]=="unknown|l") return "";
+    var moveAlias = moveObj.alias? [moveObj.name].concat(moveObj.alias?.split("|")): [moveObj.name];
     var moveEffect = moveObj.effect? `<div><b>額外效果: </b></div><div class="Additional">${moveObj.effect}</div>`: "";
     var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
     var moveIconArr =moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
 
     return `<div class="Move ${moveObj.type}">
               <div class="MoveHeader">
-                <div class="title" id="${moveObj.name}">${moveObj.name}</div>
+                <div class="title" id="${moveObj.name}" title="${moveAlias.join("/")}">${moveObj.name}</div>
                 <div class="power">${moveObj.power}</div>
                 <div class="type"><tag class="moveType ${moveObj.category}"></tag></div>
               </div>
@@ -256,7 +77,7 @@ class AbilityParser{
 
     return `<div class="Ability">
               <div class="Header">
-                <span class="title" id="${abilityObj.display_name}">${abilityObj.display_name}</span>
+                <span class="title" id="${abilityObj.name}">${abilityObj.name}</span>
               </div>
               <div class="IconBar">${iconArr.join("")}</div>
               <div class="Content">${abilityObj.effect}</div>
@@ -385,199 +206,6 @@ class PokemonParser{
 
 }
 
-//=================
-// Search Panel Builder
-class SearchParser{
-  static parsePage(){
-    var panel = document.getElementById("SearchPanel");
-    if(!panel) return false;
-
-    this.renderSearchPanel(panel, SearchType);
-
-    return true;
-  }
-
-  static renderSearchPanel(panelObj, searchType){
-    var html = "";
-    switch(searchType){
-      case "Move":
-      default:
-        html = renderMoveSearchPanel(panelObj); break;
-    }
-    panelObj.innerHTML = `
-      <form id="searchForm" onkeydown="return event.key != 'Enter';">${html}</form>`;
-
-    function renderMoveSearchPanel(panelObj){
-      return `
-      <div>招式名稱 <input type="text" name="name" onkeyup="SearchParser.search()"></div>
-      <div>招式類型 <select name="category" onchange="SearchParser.search()">
-        ${ getOptionsHtml(getMoveCategoryOptions()) }
-      </select></div>
-      <div>招式屬性 <select name="type" onchange="SearchParser.search()">
-        ${ getOptionsHtml(getTypeOptions()) }
-      </select></div>
-      <div>目標 (OR)<div class="flexContainer">${getIconOptionsHtml(getTargetIconOptions())}</div></div>
-      <div>效果標誌 (AND)<div class="flexContainer">${getIconOptionsHtml(getEffectIconOptions())}</div></div>`;
-    }
-
-
-    //=============
-    function getIconOptionsHtml(itemList){
-      return `<div class="searchBarForIcons">${itemList.map(icon => IconParser.getClickableIconHTML(icon.split("|"), false, "toggleSearchLabel(this)")).join("")}</div>`;
-    }
-    function getTargetIconOptions(){
-      var arr = ["self", "ally", "allally", "foe", "rfoe", "allfoe", "field", "area"];
-      return arr.map(key=>`target|l|${key}`);
-    }
-    function getEffectIconOptions(){
-      var effect_arr = ["block", "charge", "crit", "fist", "lethal", "recharge", "neverfail", "rampage", "recoil", "shield", "sound", "switcher", "sact_2", "sact_5" ];
-      var status_arr = ["target|任意|up|n", "target|任意|down|n", "self|任意|up|n", "self|任意|down|n", "priority|優先度|up|n", "priority|優先度|down|n", "accuracy|命中|down|n" ];
-      return effect_arr.map(key=>`effect|l|${key}`).concat(status_arr.map(key=>`frame|${key}`));
-    }
-
-    function getOptionsHtml(itemList){
-      return itemList.map( item => `<option value="${item.value}" ${item.value=="any"? "selected": ""} class="${item.class? item.class: ""}">${item.text}</option>` ).join("");
-    }
-    function getMoveCategoryOptions(){
-      return [
-        { value: "any", text: "任意" },
-        { value: "physical", text: "物理招式" },
-        { value: "special", text: "特殊招式" },
-        { value: "support", text: "變化招式" }
-      ];
-    }
-    function getTypeOptions(){
-      var arr = [
-        { value: "any", text: "任意" },
-        { value: "None", text: "無" }
-      ];
-      var typeArr = ["Normal", "Bug", "Dark", "Dragon", "Electric", "Fairy", "Fight", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Poison", "Psychic", "Rock", "Steel", "Water"];
-      typeArr.forEach(type => {
-        arr.push( { value: type, text: FMT(type), class: type } );
-      })
-      return arr;
-    }
-  }
-
-  static search(){
-    var list = null, parser = null, listObj = null;
-    var form = document.forms["searchForm"]?.elements;
-    switch(SearchType){
-      case "Move":
-        list=MoveList; parser=MoveParser; listObj=document.getElementById("MoveList"); break;
-    }
-    //console.log(Object.keys(form));
-
-    var paramKeys = Object.keys(list[0]).filter(key => form[key]!=undefined);
-    if(SearchType == "Move") paramKeys.push("tags");
-
-    var isEmptySearch = isSearchConditionEmpty(form, paramKeys);
-
-    if(isEmptySearch){
-      listObj.innerHTML = "<p>請輸入搜尋條件</p>";
-      TocInjector.clear();
-      return ;
-    }
-
-    var htmlArr = list.filter(item => {
-      var isItemMatch = true;
-      paramKeys.forEach(key => {
-        var formVal = (key==="tags")? getFormTagValue(): form[key].value;
-        isItemMatch &= isValueMatch(key, formVal, item[key]);
-      });
-      return isItemMatch;
-    }).map(item => parser.getHTML(item));
-
-    if(htmlArr.length>0){
-      listObj.innerHTML = htmlArr.join("");
-    }
-    else{
-      listObj.innerHTML = `<p>${FMT("can-not-found")}</p>`;
-    }
-    TocInjector.clear();
-    TocInjector.parsePage(SearchType);
-
-    //==================
-    function isValueMatch(key, formVal, itemVal){
-      switch(key){
-        case "name":
-        case "display_name":
-          return (formVal.trim()=="")? true: (itemVal.indexOf(formVal)>=0);
-        case "tags":
-          return isFormTagMatch(itemVal);
-        default:
-          return (formVal=="any")? true: (itemVal == formVal);
-      }
-    }
-    function isSearchConditionEmpty(form, searchParams){
-      return searchParams.map(key => {
-        switch(key){
-          case "name":
-          case "display_name":
-            return (form[key].value.trim()=="");
-          case "tags":
-            return getFormTagValue().length==0;
-          default:
-            return (form[key].value=="any");
-        }
-      }).reduce((a,b) => a&&b);
-    }
-    function isFormTagMatch(itemValList){
-      var formValList = getFormTagValue();
-      if(formValList.length==0) return true;
-
-      // split type
-      var targetValList = formValList.filter(string=>string.split("|")[0]=="target");
-      var effectValList = formValList.filter(string=>string.split("|")[0]!="target");
-
-      var isTargetMatch = targetValList.length==0? true: false;
-      for(var formVal of targetValList){
-        for(var itemVal of itemValList){
-          if(isTagIconMatch(itemVal,formVal)){
-            isTargetMatch=true;
-            break;
-          }
-        }
-        if(isTargetMatch) break;
-      }
-
-      var isEffectMatch = true;
-      for(var formVal of effectValList){
-        var flag = false;
-        for(var itemVal of itemValList){
-          if(isTagIconMatch(itemVal,formVal)){
-            flag=true;
-            break;
-          }
-        }
-        if(!flag){
-          isEffectMatch=false;
-          break;
-        }
-      }
-
-      return isTargetMatch && isEffectMatch;
-
-      function isTagIconMatch(a, b){
-        var a_arr = a.split("|");
-        var b_arr = b.split("|");
-        if(b_arr[0] == "frame"){
-          return a_arr[1]==b_arr[1] && (b_arr.length<4 || a_arr[3]==b_arr[3]);
-        }
-        return a.indexOf(b) >= 0;
-      }
-    }
-    function getFormTagValue(id){
-      var obj = document.getElementsByClassName("searchBarForIcons");
-      if(!obj) return [];
-
-      var allTagsArr = Object.values(obj).map(arr => Object.values(arr.children)).reduce((a,b)=>a.concat(b));
-      return allTagsArr.filter(elem=>!elem.classList.contains("disable")).map(elem=>elem.dataset.string);
-    }
-  }
-
-}
-
 
 //=================
 // ToC Injector
@@ -655,24 +283,13 @@ class TocInjector{
 
 
 
-//=================
-// Language Parser
-var i18n;
-function FMT(langkey){
-    if(!langkey) return "";
-    var val = i18n[langkey.toLowerCase()];
-    return val? val: langkey;
-}
+
 
 //=================
 // Toggle
 function toggleMoveList(elem){
   var displayValue = elem.parentNode.lastElementChild.style.display;
   elem.parentNode.lastElementChild.style.display = (displayValue=="none")? "block": "none";
-}
-function toggleSearchLabel(elem){
-  elem.classList.toggle("disable");
-  SearchParser.search();
 }
 
 //=================

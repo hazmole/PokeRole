@@ -278,14 +278,14 @@ description = ""
 有些寶可夢能夠學習到能讓目標回復健康的招式。這些招式會帶有下列標記：
 
 <div class="iconDesc-container">
-  <div class="iconDesc-item">{@icon heal|l}</div>
+  <div class="iconDesc-item">{@icon effect|l|heal}</div>
   <div class="iconDesc-item">
     <b>基礎治癒 </b><br/>
     治療 3 點普通傷害。
   </div>
 </div>
 <div class="iconDesc-container">
-  <div class="iconDesc-item">{@icon c_heal|l}</div>
+  <div class="iconDesc-item">{@icon effect|l|c_heal}</div>
   <div class="iconDesc-item">
     <b>強效治癒 </b><br/>
     治療 5 點普通傷害和致命傷害。
@@ -316,7 +316,7 @@ description = ""
 
 當你使用傷藥和大部分的治癒招式時，你每個戰鬥輪只能回復最多 3 點HP。
 但是帶有<b>強效治癒</b>標記的招式每個戰鬥輪能夠回復最多 5 點HP。
-{@icon c_heal|l}
+{@icon effect|l|c_heal}
 
 
 一旦你達到治療上限，或者目標的HP已經被回復到全滿，則治療效果將會停止，且任何溢出的治療量都會被浪費掉。
@@ -333,7 +333,7 @@ description = ""
 你跑到牠身邊使用手中的傷藥進行援助，並消耗了 3 單位的傷藥來使大竺葵回復 3 點HP。然而，青草場地在這一輪回復的HP就不會發揮作用，也不會被帶到下一個戰鬥輪。
 
 好幾個戰鬥輪過去，有人使場地的天氣變成了大晴天，大竺葵現在剩下 5 點HP，因此你命令牠使用招式「**光合作用**」，它的其中一個效果如下：
-{@icon c_heal|l}
+{@icon effect|l|c_heal}
 **如果當前天氣狀態為大晴天，這個招式將變為 強效治癒。**
 
 這意味著這個招式能夠回復 5 點HP，但大竺葵現在只受到了 4 點傷害，因此牠只會回復 4 點HP，且剩餘的治療量將被浪費掉。

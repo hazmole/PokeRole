@@ -103,9 +103,6 @@ tag.text.Water { background:#3399FF; }
 
 tag.NoviceMark { background-image: url('../images/icons/novice.png'); }
 
-tag.basicHeal { background-image: url('../images/icons/heal_basic.png'); }
-tag.compHeal { background-image: url('../images/icons/heal_complete.png'); }
-
 tag.weather.sun, .icon.weather.sun::before { background-image: url('../images/icons/weather_sun.png'); }
 tag.weather.sun2, .icon.weather.sun2::before { background-image: url('../images/icons/weather_sun2.png'); }
 tag.weather.rain, .icon.weather.rain::before { background-image: url('../images/icons/weather_rain.png'); }
@@ -152,6 +149,9 @@ tag.effect.recoil { background-image: url('../images/icons/effect_recoil.png'); 
 tag.effect.sound { background-image: url('../images/icons/effect_sound.png'); }
 tag.effect.shield { background-image: url('../images/icons/effect_shield.png'); }
 tag.effect.switcher { background-image: url('../images/icons/effect_switcher.png'); }
+
+tag.effect.heal { background-image: url('../images/icons/heal_basic.png'); }
+tag.effect.c_heal { background-image: url('../images/icons/heal_complete.png'); }
 
 tag.effect.sact_2 { background-image: url('../images/icons/MultiAct_2.png'); }
 tag.effect.sact_5 { background-image: url('../images/icons/MultiAct_5.png'); }
@@ -250,4 +250,4 @@ iconFrame.heal .heal{ color: #fff; }
 
 .disable tag,
 .disable iconFrame
- { filter: grayscale(.8) contrast(.5); }
+ { filter: grayscale(.8) contrast(.35); }

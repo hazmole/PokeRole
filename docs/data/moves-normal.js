@@ -3,7 +3,7 @@ if(!MoveList) MoveList = [];
 
 Array.prototype.push.apply(MoveList, [
 	{
-		"name": "點穴",
+		"name": "點穴", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -14,7 +14,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者開始按壓穴道，激發身體內的活力。"
 	},
 	{
-		"name": "您先請",
+		"name": "您先請", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -25,7 +25,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者鞠躬，並禮貌地讓一名隊友或敵人優先進行他們的行動。"
 	},
 	{
-		"name": "Assist",
+		"name": "Assist", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -36,7 +36,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Attract",
+		"name": "Attract", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -47,7 +47,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Barrage",
+		"name": "Barrage", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -69,7 +69,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "腹鼓",
+		"name": "腹鼓", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -80,7 +80,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢在拍打腹部的時候發出戰吼。"
 	},
 	{
-		"name": "傳遞禮物",
+		"name": "傳遞禮物", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -91,7 +91,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢會恭敬地給予一個道具，目標將接受並收著它以保持禮貌。"
 	},
 	{
-		"name": "Bide",
+		"name": "Bide", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -102,7 +102,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Bind",
+		"name": "Bind", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -113,7 +113,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Block",
+		"name": "Block", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -135,7 +135,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Boomburst",
+		"name": "Boomburst", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -146,7 +146,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Camouflage",
+		"name": "Camouflage", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -157,7 +157,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Captivate",
+		"name": "Captivate", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -190,7 +190,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Confide",
+		"name": "Confide", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -201,7 +201,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Constrict",
+		"name": "Constrict", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -212,7 +212,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Conversion",
+		"name": "Conversion", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -234,7 +234,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Copycat",
+		"name": "Copycat", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -256,7 +256,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "渴望",
+		"name": "渴望", "alias": "",
 		"power": "2",
 		"category": "physical",
 		"type": "Normal",
@@ -289,7 +289,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Cut",
+		"name": "Cut", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -311,7 +311,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Disable",
+		"name": "Disable", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -366,7 +366,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "捨身衝撞",
+		"name": "捨身衝撞", "alias": "",
 		"power": "5",
 		"category": "physical",
 		"type": "Normal",
@@ -399,7 +399,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Encore",
+		"name": "Encore", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -410,7 +410,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Endeavor",
+		"name": "Endeavor", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -421,7 +421,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Endure",
+		"name": "Endure", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -432,7 +432,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Entrainment",
+		"name": "Entrainment", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -443,7 +443,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Explosion",
+		"name": "Explosion", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -454,7 +454,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "神速",
+		"name": "神速", "alias": "",
 		"power": "3",
 		"category": "physical",
 		"type": "Normal",
@@ -465,7 +465,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者以炫目的高速向目標衝過去。"
 	},
 	{
-		"name": "Facade",
+		"name": "Facade", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -498,7 +498,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Feint",
+		"name": "Feint", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -509,7 +509,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Flail",
+		"name": "Flail", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -520,7 +520,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Flash",
+		"name": "Flash", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -553,7 +553,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Foresight",
+		"name": "Foresight", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -564,7 +564,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Frustration",
+		"name": "Frustration", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -608,7 +608,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Glare",
+		"name": "Glare", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -619,7 +619,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "叫聲",
+		"name": "叫聲", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -630,7 +630,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "無論是透過凶狠的態度或可愛的舉止，敵人都會遲疑著是否該用全力攻擊使用者。"
 	},
 	{
-		"name": "Growth",
+		"name": "Growth", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -641,7 +641,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Guillotine",
+		"name": "Guillotine", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -652,7 +652,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Harden",
+		"name": "Harden", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -674,7 +674,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "頭錘",
+		"name": "頭錘", "alias": "",
 		"power": "3",
 		"category": "physical",
 		"type": "Normal",
@@ -740,7 +740,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Howl",
+		"name": "Howl", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -784,7 +784,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Judgment",
+		"name": "Judgment", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -817,7 +817,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Leer",
+		"name": "Leer", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -905,7 +905,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Metronome",
+		"name": "Metronome", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -927,7 +927,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Mimic",
+		"name": "Mimic", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -949,7 +949,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Minimize",
+		"name": "Minimize", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1015,7 +1015,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "氣味偵測",
+		"name": "氣味偵測", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -1070,7 +1070,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Pound",
+		"name": "Pound", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1081,7 +1081,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Present",
+		"name": "Present", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1092,7 +1092,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Protect",
+		"name": "Protect", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1125,7 +1125,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Rage",
+		"name": "Rage", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1158,7 +1158,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Recover",
+		"name": "Recover", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1169,7 +1169,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Recycle",
+		"name": "Recycle", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1191,7 +1191,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Refresh",
+		"name": "Refresh", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1213,7 +1213,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Retaliate",
+		"name": "Retaliate", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1224,7 +1224,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Return",
+		"name": "Return", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1246,7 +1246,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Roar",
+		"name": "Roar", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1268,7 +1268,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Round",
+		"name": "Round", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1279,7 +1279,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Safeguard",
+		"name": "Safeguard", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1301,7 +1301,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Scratch",
+		"name": "Scratch", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1312,7 +1312,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Screech",
+		"name": "Screech", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1345,7 +1345,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sharpen",
+		"name": "Sharpen", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1378,7 +1378,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sing",
+		"name": "Sing", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1389,7 +1389,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sketch",
+		"name": "Sketch", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1422,7 +1422,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Slam",
+		"name": "Slam", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1433,7 +1433,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Slash",
+		"name": "Slash", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1466,7 +1466,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Smokescreen",
+		"name": "Smokescreen", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1477,7 +1477,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Snore",
+		"name": "Snore", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1532,7 +1532,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Splash",
+		"name": "Splash", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1543,7 +1543,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Spotlight",
+		"name": "Spotlight", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1554,7 +1554,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Stockpile",
+		"name": "Stockpile", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1565,7 +1565,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Stomp",
+		"name": "Stomp", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1576,7 +1576,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Strength",
+		"name": "Strength", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1598,7 +1598,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Substitute",
+		"name": "Substitute", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1620,7 +1620,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Supersonic",
+		"name": "Supersonic", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1631,7 +1631,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swagger",
+		"name": "Swagger", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1642,7 +1642,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swallow",
+		"name": "Swallow", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1664,7 +1664,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swift",
+		"name": "Swift", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1686,7 +1686,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "撞擊",
+		"name": "撞擊", "alias": "",
 		"power": "2",
 		"category": "physical",
 		"type": "Normal",
@@ -1708,7 +1708,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "搖尾巴",
+		"name": "搖尾巴", "alias": "",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -1719,7 +1719,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢以如此可愛的方式搖著尾巴，讓敵人很容易放鬆戒備。"
 	},
 	{
-		"name": "猛撞",
+		"name": "猛撞", "alias": "",
 		"power": "3",
 		"category": "physical",
 		"type": "Normal",
@@ -1741,7 +1741,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Teatime",
+		"name": "Teatime", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1774,7 +1774,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Thrash",
+		"name": "Thrash", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1785,7 +1785,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Tickle",
+		"name": "Tickle", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1796,7 +1796,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Transform",
+		"name": "Transform", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1829,7 +1829,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Uproar",
+		"name": "Uproar", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1873,7 +1873,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Whirlwind",
+		"name": "Whirlwind", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1884,7 +1884,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Wish",
+		"name": "Wish", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1906,7 +1906,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Wrap",
+		"name": "Wrap", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1928,7 +1928,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Yawn",
+		"name": "Yawn", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",

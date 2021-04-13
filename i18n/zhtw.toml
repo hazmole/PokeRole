@@ -31,6 +31,11 @@ other = "訓練家小技巧"
 other = "說書人筆記"
 
 
+[any]
+other = "(任意)"
+[none]
+other = "無"
+
 [bug]
 other = "蟲"
 [dark]
@@ -67,3 +72,10 @@ other = "岩石"
 other = "鋼"
 [water]
 other = "水"
+
+[move_physical]
+other="物理招式"
+[move_special]
+other="特殊招式"
+[move_support]
+other="變化招式"

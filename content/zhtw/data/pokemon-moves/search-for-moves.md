@@ -4,8 +4,6 @@ weight = 1
 +++
 
 # 招式查詢器
-實驗功能
-
 <div id="SearchPanel"></div>
 
 ---

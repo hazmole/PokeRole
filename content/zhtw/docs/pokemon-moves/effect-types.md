@@ -129,7 +129,7 @@ description = "說明各項招式效果標誌的意義"
 
 ---
 #### 治癒
-{@icon heal|l} {@icon c_heal|l}
+{@icon effect|l|heal} {@icon effect|l|c_heal}
 這個招式能夠回復HP。有時候治療量會是個固定的數值：
  
 {@icon frame|heal|治療|heal|X} {@icon frame|heal|治療|c_heal|X}

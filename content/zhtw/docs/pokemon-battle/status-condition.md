@@ -24,7 +24,7 @@ description = ""
 #### 灼傷 1 級
 <div class="description">某個相當炙熱的東西灼燒著你的肌膚，並開始起了水泡。</div>
 
-{@icon frame|burn1|灼傷1} 
+{@icon frame|burn1|} 
 
 <div class="title">效果:</div>
 <p>每個戰鬥輪結束時造成 1 點傷害。火屬性寶可夢免疫這個狀態。</p>
@@ -41,7 +41,7 @@ description = ""
 #### 灼傷 2 級
 <div class="description">你身體的一部份著火了！</div>
 
-{@icon frame|burn2|灼傷2} 
+{@icon frame|burn2|} 
 
 <div class="title">效果:</div>
 <p>每個戰鬥輪結束時造成 2 點致命傷害。火屬性寶可夢免疫這個狀態。</p>
@@ -58,7 +58,7 @@ description = ""
 #### 灼傷 3 級
 <div class="description">你完全被火焰吞噬了！</div>
 
-{@icon frame|burn3|灼傷3} 
+{@icon frame|burn3|} 
 
 <div class="title">效果:</div>
 <p>每個戰鬥輪結束時造成 3 點致命傷害。火屬性寶可夢免疫這個狀態。</p>
@@ -75,7 +75,7 @@ description = ""
 #### 麻痺
 <div class="description">你的肌肉抽搐，讓你幾乎難以動彈！</div>
 
-{@icon frame|paralysis|麻痺} 
+{@icon frame|paralysis|} 
 
 <div class="title">效果:</div>
 <p>在這個狀態的持續時間內，目標失去 2 點靈巧，且只能以一半的速度移動或根本無法移動。電屬性寶可夢免疫這個狀態。</p>
@@ -91,7 +91,7 @@ description = ""
 #### 冰凍
 <div class="description">你被困在一大塊冰塊裡頭！</div>
 
-{@icon frame|frozen|冰凍} 
+{@icon frame|frozen|} 
 
 <div class="title">效果:</div>
 <p>目標無法採取任何行動。冰屬性寶可夢免疫這個狀態。</p>
@@ -107,7 +107,7 @@ description = ""
 #### 中毒
 <div class="description">你感到不舒服、噁心，伴隨著輕度發燒。</div>
 
-{@icon frame|poison|中毒} 
+{@icon frame|poison|} 
 
 <div class="title">效果:</div>
 <p>每個戰鬥輪結束時造成 1 點傷害。毒屬性和鋼屬性寶可夢免疫這個狀態。</p>
@@ -123,7 +123,7 @@ description = ""
 #### 劇毒
 <div class="description">你發著高燒，且你的身體正受到可怕的疼痛所苦。</div>
 
-{@icon frame|poison2|劇毒} 
+{@icon frame|poison2|} 
 
 <div class="title">效果:</div>
 <p>每個戰鬥輪結束時造成 1 點致命傷害。毒屬性和鋼屬性寶可夢免疫這個狀態。</p>
@@ -149,7 +149,7 @@ description = ""
 #### 睡眠
 <div class="description">你的眼皮感覺好沉重……也許你……應該……zzz</div>
 
-{@icon frame|sleep|睡眠} 
+{@icon frame|sleep|} 
 
 <div class="title">效果:</div>
 <p>目標陷入深度沉睡，在醒來之前無法進行任何行動。</p>
@@ -170,7 +170,7 @@ description = ""
 #### 混亂
 <div class="description">剛剛是有人命令你攻擊你自己嗎？</div>
 
-{@icon frame|confuse|混亂} 
+{@icon frame|confuse|} 
 
 <div class="title">效果:</div>
 <p>目標所有行動的擲骰判定都必須扣除一個成功骰。如果該行動失敗，則目標將受到 1 點傷害。</p>
@@ -186,7 +186,7 @@ description = ""
 #### 定身法
 <div class="description">有什麼正在阻止你使用你的招式！</div>
 
-{@icon frame|disabled|定身法} 
+{@icon frame|disabled|} 
 
 <div class="title">效果:</div>
 <p>目標無法施展被定身法禁用的招式。<br/>
@@ -203,7 +203,7 @@ description = ""
 #### 畏縮
 <div class="description">你想要做出反應，但你的身體卻沒有回應！</div>
 
-{@icon frame|flinch|畏縮} 
+{@icon frame|flinch|} 
 
 <div class="title">效果:</div>
 <p>目標失去他的下一個行動。</p>
@@ -219,7 +219,7 @@ description = ""
 #### 著迷
 <div class="description">你要保護你的摯愛！……她的名字叫什麼來著？</div>
 
-{@icon frame|love|著迷} 
+{@icon frame|love|} 
 
 <div class="title">效果:</div>
 <p>目標會對敵人以及敵人的同伴手下留情（只造成一半的傷害）。相同性別或無性別的寶可夢免疫這個狀態。</p>
