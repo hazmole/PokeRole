@@ -1724,7 +1724,7 @@ Array.prototype.push.apply(MoveList, [
 		"category": "physical",
 		"type": "Normal",
 		"tags": ["target|l|foe", "frame|accuracy|命中|down|2", "effect|l|recoil"],
-		"accuracy": "靈敏 + 鬥毆",
+		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 3",
 		"effect": "反作用力傷害。",
 		"desc": "寶可夢魯莽地抓住敵人並將其撞倒在地上。"

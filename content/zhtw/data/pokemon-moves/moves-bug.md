@@ -22,5 +22,4 @@ weight = 2
   window.addEventListener("parsePage", ()=>{
     TocInjector.parsePage("Move");
   });
-
 </script>

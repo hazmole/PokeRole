@@ -5,7 +5,7 @@ Array.prototype.push.apply(Pokedex, [
   {
 	"id": 263,
 	"region": "hoenn",
-	"display_name": "蛇紋熊", "name": "Zigzagoon",
+	"name": "蛇紋熊", "alias": "Zigzagoon|",
 	"type": ["Normal"],
 	"info": {
 		"image": "images/pokedex/263.png",
@@ -54,7 +54,7 @@ Array.prototype.push.apply(Pokedex, [
   {
     "id": 264,
     "region": "hoenn",
-    "display_name": "直衝熊", "name": "Linoone",
+    "name": "直衝熊", "alias": "Linoone",
     "type": ["Normal"],
     "info": {
         "image": "images/pokedex/264.png",

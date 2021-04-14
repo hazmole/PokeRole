@@ -310,8 +310,19 @@ Dark, Grass, Psychic
 Fairy, Fight, Fire, Flying, Ghost, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
-});</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z-Moves Ancient People from the Alola Region had traditional rituals and dances to boost their fighting spirits and comune with their Pokémon. The Kahuna chiefs and their Pokémon wore special jewels with crystals that shone with energy ready to be unleashed to defend their people.
-These Jewels are now known as Z-Crystals, if you and your Pokémon hold them and perform the ritual dances, you’ll be able to use what is known as a Z-Move to give a taste of the power of friendship to those who oppose you.</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
+});</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z招式 阿羅拉地區的古老住民們流傳著一種傳統的儀式和舞蹈，能夠增強他們的戰魂，並與他們的寶可夢融為一體。
+島嶼之王和他們的寶可夢會穿戴一種嵌有特殊結晶的配飾，這些結晶閃耀著強大的能量，隨時準備好被釋放來保護他們的人民。
+這些結晶現在被稱之為「Z純晶」，如果你和你的寶可夢攜帶著它們，並演出一段儀式舞蹈的話，你們將能夠使用所謂的「Z招式」，讓你的對手好好感受一下你們友誼的力量！
+Z招式 的規則 要使用Z招式，訓練家和寶可夢都必須攜帶Z純晶並進行儀式舞蹈。 Z招式每天只能使用一次。超額使用將會消耗掉訓練家和寶可夢各 5 點意志點。 寶可夢只能選擇牠已經學會的招式做為基底招式，來進行相同屬性的Z招式。 Z招式的招式分類（物理、特殊、或變化）將取決於它的基底招式。 傷害類的Z招式的威力等同於基底招式的威力，再加上該寶可夢的幸福度和忠誠度的點數總和。 基底招式的額外效果會被Z招式的額外效果給取代。 Z招式的額外效果和目標可以在說書人的許可下被完全客製化。 Z招式不能被用來對抗。 自訂 Z招式 的效果 要自訂 Z招式的效果，你可以從Z招式條目的建議效果中挑選、或完全自行決定。你能夠選擇的效果數量取決於你的階級：
+初學者: 1 個效果 業餘者: 2 個效果 菁英:　3 個效果 專家:　4 個效果 大師:　5 個效果 冠軍:　6 個效果 Z招式只能夠指定一個目標，它可以是使用者、單體隊友、或單體敵人。 這不會被計入你選擇的效果數量中。
+{@icon target|l|self} {@icon target|l|ally} {@icon target|l|foe}
+Z招式可以提升或降低特質。每一點被提升或降低的特質都會被視作一個效果。
+{@icon frame|self|特質|up|1} {@icon frame|self|特質|up|2} {@icon frame|self|特質|up|3}
+我們建議讓某些異常狀態效果是透過機率骰造成，而不是直接造成，除非它在說書人的判斷下有著夠好的敘事理由。
+{@icon frame|burn1|灼傷1|number|d3} {@icon frame|flinch|畏縮|number|d3} {@icon frame|sleep|睡眠|number|d3}
+Z招式可以完全如你所想的那般獨特而強大，因為它就是你和你寶可夢之間羈絆的體現，你也可以隨意改變你們Z招式的名稱。
+Z招式無法造成致命傷害，畢竟友情的力量絕不是毀滅性的。當寶可夢因為Z招式而陷入瀕死狀態時，牠就不會再受到進一步的傷害。
+只有一個你寶可夢攜帶的Z純晶會與你的產生共鳴，因此在你的隊伍中也只會有一隻寶可夢攜帶Z純晶。如果你想要換掉它，那你必須在戰鬥外這麼做。</description></item><item><title>傷害</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/</guid><description>傷害 每當你的角色或你的寶可夢被攻擊命中時，他們都有可能會因此受到傷害；只有屬性抗性有辦法避免這件事發生，且你每次遭受攻擊時都很有可能都受到至少 1 點傷害。
 在受到傷害後，訓練家和寶可夢每經過 8 小時就可以回復 1 點HP。
 如果你需要長時間戰鬥，那麼你必須要盡可能減少寶可夢所受到的傷害。否則你們將會承受相應的後果。
 瀕死狀態 承受等同或多於你總HP的傷害會使你陷入瀕死狀態。
@@ -553,10 +564,16 @@ TocInjector.parsePage("Pokemon");
 傳聞 關於不同種類寶可夢的知識，牠們的傳說和民間故事、以及該地區稀有寶可夢的位置和起源。
 醫藥 如果你專精於醫藥技能，那麼你會知道如何處理傷口、急救、用藥、甚至發明你自己獨特的醫療方法。
 科學 選擇任何你想要的科學或研究領域。例如：電腦、科技、化學、物理學、地質學、工程學、寶可夢進化學等。你可以選擇任何你想要的領域！
-你能繼續學習並追加選擇其他「科學」領域來進一步專業化。</description></item><item><title>極巨招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid><description>Max Moves Dynamax and G-Max Pokémon
-So you think you are ready for the BIG leagues?
-When a Pokémon is under the Effects of the Dynamax Phenomenon it grows not just on size but on power as well and Max Moves will ad an extra layer of complexity to your strategy!
-Rules for Max Moves Max Moves can only be used while a Pokémon is under the Effects of Dynamax or Gigantamax.</description></item><item><title>天氣狀態 &amp; 環境</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>天氣狀態 &amp;amp; 環境 寶可夢、牠們的招式、以及牠們與特性，這些都可能因為天氣狀態而被增強或是減弱。
+你能繼續學習並追加選擇其他「科學」領域來進一步專業化。</description></item><item><title>極巨招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/</guid><description>極巨和超極巨招式 所以，你覺得你已經準備好參加真正的「大聯盟」了嗎？
+當寶可夢處於極巨化現象的影響時，牠們不僅只是體型會變大，在力量上也會有所增長，而且極巨招式將會使你的戰術策略再額外增添一層複雜性！
+極巨招式 的規則 極巨招式只能在寶可夢處於極巨化或超極巨化的樣子時被使用。 寶可夢只能選擇牠已經學會的傷害類招式做為基底招式，來進行相同屬性的極巨招式。 極巨招式的招式分類（物理、或特殊）取決於它的基底招式。 極巨招式的威力等同於基底招式的威力，再加上 2 點。 基底招式的額外效果會被極巨招式的額外效果給取代。 極巨招式每個戰鬥輪只能使用一次。 極巨招式不能被用來對抗。 如果你覺得這還不夠，那麼我們還準備了另一個超極巨大的驚喜！
+有些特定的寶可夢體內擁有著被稱為「超極巨化因子」的物質，這讓牠們能夠更進一步的成長，甚至大幅度改變牠們的外形。當寶可夢釋放出超極巨化型態的全部力量時，極巨招式就會變成超極巨招式，超極巨化招式的效果將能夠完全自訂，讓其能更好地適應你寶可夢的戰術策略和能力。
+超極巨招式 的規則 超極巨招式只能在寶可夢處於超極巨化的樣子時被使用。 所有極巨招式的其他規則也都同樣適用於超極巨招式。 每隻寶可夢都只能使用一種超極巨招式。 要將極巨招式升級並自訂成超極巨招式，從超極巨招式條目中的建議效果中挑選。你能夠選擇的效果數量取決於你的階級： 初學者: 1 個額外效果 業餘者: 2 個額外效果 菁英:　4 個額外效果 專家:　4 個額外效果（可自訂） 大師:　6 個額外效果（可自訂） 保留極巨招式條目中的效果，並將超極巨招式的建議效果添加或替換上去。
+當你達到專家階級，你將可以在說書人的許可下自行添加你想要的效果。
+你甚至可以加入其他招式的完整效果，看一看招式效果標誌列表來尋找靈感吧。你也可以隨意為你寶可夢的超極巨招式取個獨特的名字。 (之後再補)
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>天氣狀態 &amp; 環境</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>天氣狀態 &amp;amp; 環境 寶可夢、牠們的招式、以及牠們與特性，這些都可能因為天氣狀態而被增強或是減弱。
 日照、降雨、飄雪、以及沙塵暴是許多寶可夢棲息地的重要環境因子。
 要記住，絕大部分的對戰都發生在野外。從森林和熱帶叢林，到火山地帶、苔原、甚至地底下或水中。
 這讓戰場變成了一個不斷變換局勢的場景，而不僅僅是個空蕩單調的對戰場地。時間與地點都會影響你取得勝利的機會。

@@ -35,7 +35,10 @@ class MoveParser{
     var moveAlias = moveObj.alias? [moveObj.name].concat(moveObj.alias?.split("|")): [moveObj.name];
     var moveEffect = moveObj.effect? `<div><b>額外效果: </b></div><div class="Additional">${moveObj.effect}</div>`: "";
     var moveDescription = moveObj.desc? `<div class="MoveDesc">${moveObj.desc}</div>`: "";
-    var moveIconArr =moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
+    var moveIconArr = moveObj.tags? moveObj.tags.map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
+
+    var gMaxMoveIconArr = moveObj["gmax-tags"]? moveObj["gmax-tags"].map( tagStr => IconParser.getIconHTML(tagStr.split("|")) ) :[];
+    var gMaxIconBar = (gMaxMoveIconArr.length==0)? "": `<div class="MoveIconBar GMax"><div><b>超極巨建議效果</b></div> ${gMaxMoveIconArr.join("")}</div>`;
 
     return `<div class="Move ${moveObj.type}">
               <div class="MoveHeader">
@@ -44,6 +47,7 @@ class MoveParser{
                 <div class="type"><tag class="moveType ${moveObj.category}"></tag></div>
               </div>
               <div class="MoveIconBar">${moveIconArr.join("")}</div>
+              ${gMaxIconBar}
               <div class="MoveContent">
                 <div class="Type">${FMT(moveObj.type)}</div>
                 <div class="Accuracy">${moveObj.accuracy}</div>
@@ -112,7 +116,7 @@ class PokemonParser{
     return `<div class="Pokemon">
               <div class="${pokemonObj.type[0]}">
                 <div class="Header flexContainer">
-                  <div class="title" id="#${pokemonObj.id} ${pokemonObj.display_name}">#${pokemonObj.id} ${pokemonObj.display_name}</div>
+                  <div class="title" id="#${pokemonObj.id} ${pokemonObj.name}">#${pokemonObj.id} ${pokemonObj.name}</div>
                   ${pokemonTypes}
                 </div>
               </div>

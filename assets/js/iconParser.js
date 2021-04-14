@@ -39,6 +39,7 @@ class IconParser {
 
       case "text":   return this.getHTML_text(icon_size, tagArr[2], tagArr[3]);
       case "dice":   return this.getHTML_diceIcon(icon_size, tagArr[2]);
+      case "pdice":  return this.getHTML_pdiceIcon(icon_size, tagArr[2]);
       case "rdice":  return this.getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
       case "frame":  return this.getHTML_frame(tagArr.slice(1));
       default:
@@ -58,6 +59,9 @@ class IconParser {
   }
   static getHTML_diceIcon(iconSize, number){
     return `<tag class="dice ${iconSize}"><b>${number}</b></tag>`;
+  }
+  static getHTML_pdiceIcon(iconSize, number){
+    return `<tag class="dice plus ${iconSize}"><b>${number}</b></tag>`;
   }
   static getHTML_rdiceIcon(iconSize, number, extraClass){
     var diceClass;

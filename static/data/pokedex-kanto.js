@@ -5,7 +5,7 @@ Array.prototype.push.apply(Pokedex, [
   {
 	"id": 1,
 	"region": "kanto",
-	"display_name": "妙蛙種子", "name": "Bulbasaur",
+	"name": "妙蛙種子", "alias": "Bulbasaur",
 	"type": ["Grass", "Poison"],
 	"info": {
 		"image": "images/pokedex/001.png",
@@ -52,7 +52,7 @@ Array.prototype.push.apply(Pokedex, [
   {
 	"id": 2,
 	"region": "kanto",
-	"display_name": "妙蛙草", "name": "Ivysaur",
+	"name": "妙蛙草", "alias": "Ivysaur",
 	"type": ["Grass", "Poison"],
 	"info": {
 		"image": "images/pokedex/002.png",
@@ -99,7 +99,7 @@ Array.prototype.push.apply(Pokedex, [
   {
     "id": 3,
     "region": "kanto",
-    "display_name": "妙蛙花", "name": "Venusaur",
+    "name": "妙蛙花", "alias": "Venusaur",
     "type": ["Grass", "Poison"],
     "info": {
         "image": "images/pokedex/003.png",
@@ -147,7 +147,7 @@ Array.prototype.push.apply(Pokedex, [
   {
     "id": 3,
     "region": "kanto",
-    "display_name": "超級妙蛙花", "name": "Mega-Venusaur",
+    "name": "超級妙蛙花", "alias": "Mega-Venusaur",
     "type": ["Grass", "Poison"],
     "info": {
         "image": "images/pokedex/003-M.png",
