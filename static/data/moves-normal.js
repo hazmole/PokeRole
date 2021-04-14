@@ -3,7 +3,7 @@ if(!MoveList) MoveList = [];
 
 Array.prototype.push.apply(MoveList, [
 	{
-		"name": "點穴", "alias": "",
+		"name": "點穴", "alias": "つぼをつく|Acupressure",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -14,7 +14,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者開始按壓穴道，激發身體內的活力。"
 	},
 	{
-		"name": "您先請", "alias": "",
+		"name": "您先請", "alias": "おさきにどうぞ|After You",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -25,51 +25,51 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者鞠躬，並禮貌地讓一名隊友或敵人優先進行他們的行動。"
 	},
 	{
-		"name": "Assist", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "藉助", "alias": "ねこのて|Assist",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": " + ",
-		"damage": " +　",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|ally"],
+		"accuracy": "聰明 + 表演",
+		"damage": "-",
+		"effect": "從你的隊伍中的一個隨機成員中選擇一個牠知道的招式。你使用這個招式的命中判定來施展該招式。",
+		"desc": "寶可夢倉促回想起了一個搭檔使用過的行動。有些寶可夢甚至能執行人類能做的事，並協助他完成任何任務。"
 	},
 	{
-		"name": "Attract", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "迷人", "alias": "メロメロ|Attract",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": " + ",
-		"damage": " +　",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|love||always"],
+		"accuracy": "美麗 + 誘惑",
+		"damage": "-",
+		"effect": "若成功，目標將陷入「著迷」狀態。若目標為無性別或與使用者的性別相同，則這個招式自動失敗。",
+		"desc": "使用者利用牠的美貌和態度來迷惑牠的對手。"
 	},
 	{
-		"name": "Barrage", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "投球", "alias": "たまなげ|Barrage",
+		"power": "1",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": " + ",
-		"damage": " +　",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "遠程招式，連續行動。",
+		"desc": "寶可夢朝著目標投擲許多的圓形物體，一個接著一個。"
 	},
 	{
-		"name": "Baton Pass",
-		"power": "",
-		"category": "",
+		"name": "接棒", "alias": "バトンタッチ|Baton Pass",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": " + ",
-		"damage": " +　",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "effect|l|switcher"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "替換招式。由另一隻寶可夢替換使用者出場。使用者身上任何被提升的特質都會繼承給下一隻寶可夢。直到該場景結束之前，使用者都無法再提升自己的特質。",
+		"desc": "使用者將其一部份的力量儲存在樹枝或棍棒上，任何觸碰到該物體的對象都將接受其力量。"
 	},
 	{
-		"name": "腹鼓", "alias": "",
+		"name": "腹鼓", "alias": "はらだいこ|Belly Drum",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -80,7 +80,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢在拍打腹部的時候發出戰吼。"
 	},
 	{
-		"name": "傳遞禮物", "alias": "",
+		"name": "傳遞禮物", "alias": "ギフトパス|Bestow",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -91,7 +91,161 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢會恭敬地給予一個道具，目標將接受並收著它以保持禮貌。"
 	},
 	{
-		"name": "Bide", "alias": "",
+		"name": "忍耐", "alias": "がまん|Bide",
+		"power": "*",
+		"category": "physical",
+		"type": "Normal",
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "不定",
+		"effect": "使用者承受接下來的兩次攻擊。在承受這兩次攻擊之後，你可以再次使用這個招式，以「力量 + 這兩次攻擊所承受傷害的兩倍」來反擊。",
+		"desc": "使用者忍受打擊，接著還以更強大的攻擊。"
+	},
+	{
+		"name": "綁緊", "alias": "しめつける|Bind",
+		"power": "1",
+		"category": "physical",
+		"type": "Normal",
+		"tags": ["target|l|foe", "frame|accuracy||down|2", "effect|l|block"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "阻擋。每個戰鬥輪結束時，骰 2 顆傷害骰以對敵人造成傷害。持續 4 輪。",
+		"desc": "寶可夢使用牠的身體來綑綁敵人，束縛並擠壓牠。"
+	},
+	{
+		"name": "擋路", "alias": "とおせんぼう|Block",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|foe", "effect|l|block"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "-",
+		"effect": "阻擋。",
+		"desc": "使用者迅速移動，阻擋敵人的逃跑路線。"
+	},
+	{
+		"name": "泰山壓頂", "alias": "のしかかり|Body Slam",
+		"power": "3",
+		"category": "physical",
+		"type": "Normal",
+		"tags": ["target|l|foe", "frame|paralysis||number|d3"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3",
+		"effect": "骰 3 顆機率骰以使敵人陷入「麻痺」狀態。",
+		"desc": "使用者衝向敵人並運用牠的身體將其壓倒，使目標暈眩。"
+	},
+	{
+		"name": "爆音波", "alias": "ばくおんぱ|Boomburst",
+		"power": "6",
+		"category": "special",
+		"type": "Normal",
+		"tags": ["target|l|area", "effect|l|sound"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 6",
+		"effect": "範圍攻擊。聲音類招式。",
+		"desc": "使用者製造出爆炸般的聲響，使戰場上的所有人震耳欲聾。"
+	},
+	{
+		"name": "保護色", "alias": "ほごしょく|Camouflage",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|self"],
+		"accuracy": "特殊 + 自然",
+		"damage": "-",
+		"effect": "在這個場景期間，使用者的屬性將改變成與牠所處地形相符的屬性。（例如：若使用者處於岩石洞窟內，則牠改變為岩石屬性。）",
+		"desc": "使用者模仿牠所在的環境，與周圍融為一體。"
+	},
+	{
+		"name": "誘惑", "alias": "ゆうわく|Captivate",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|allfoe", "frame|target|特殊|down|2"],
+		"accuracy": "美麗 + 誘惑",
+		"damage": "-",
+		"effect": "以所有範圍內的敵人為目標。若目標的性別與使用者相反，則降低目標的特殊。",
+		"desc": "寶可夢展現出牠的魅力，甚至與對手調情，讓那些被牠迷住的對手無法專注於戰鬥。"
+	},
+	{
+		"name": "逐步擊破", "alias": "なしくずし|Chip Away",
+		"power": "3",
+		"category": "physical",
+		"type": "Normal",
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3",
+		"effect": "這個攻擊能夠無視敵人身上的防禦和迴避加值。",
+		"desc": "使用者尋找破綻並向該處直擊，牠一步一步地踏破著最堅固的防禦。"
+	},
+	{
+		"name": "連續拳", "alias": "れんぞくパンチ|Comet Punch",
+		"power": "1",
+		"category": "physical",
+		"type": "Normal",
+		"tags": ["target|l|foe", "effect|l|fist", "effect|l|sact_5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "連續行動。拳頭類招式。",
+		"desc": "使用者向敵人迅速揮出一連串的拳擊。"
+	},
+	{
+		"name": "密語", "alias": "ないしょばなし|Confide",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|foe", "frame|target|特殊|down|1"],
+		"accuracy": "可愛 + 誘惑",
+		"damage": "-",
+		"effect": "降低敵人的特殊。",
+		"desc": "寶可夢將一個祕密告訴了目標。敵人因此失去了專注的餘裕。"
+	},
+	{
+		"name": "纏繞", "alias": "からみつく|Constrict",
+		"power": "1",
+		"category": "physical",
+		"type": "Normal",
+		"tags": ["target|l|foe", "effect|l|block"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "阻擋。每個戰鬥輪結束時，骰 2 顆傷害骰以對敵人造成傷害。持續 4 輪。",
+		"desc": "寶可夢運用牠的身體制住並纏繞敵人。牠可不會輕易放手。"
+	},
+	{
+		"name": "紋理", "alias": "テクスチャー|Conversion",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|self"],
+		"accuracy": "意志 + 導引",
+		"damage": "-",
+		"effect": "使用者隨機改變自己的屬性。",
+		"desc": "使用者下載一個招式的數據，並將其加入自己的代碼中。"
+	},
+	{
+		"name": "紋理２", "alias": "テクスチャー２|Conversion 2",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|self"],
+		"accuracy": "意志 + 導引",
+		"damage": "-",
+		"effect": "在承受傷害之後，選擇一個對該攻擊有抗性的屬性。使用者的屬性將改變成該屬性，持續直到牠再次使用此招式。",
+		"desc": "使用者下載被用來對付牠的招式數據，並把自己的代碼修改成對該招式有抗性的屬性。"
+	},
+	{
+		"name": "仿效", "alias": "まねっこ|Copycat",
+		"power": "-",
+		"category": "support",
+		"type": "Normal",
+		"tags": ["target|l|foe"],
+		"accuracy": "與被仿效的招式相同。",
+		"damage": "與被仿效的招式相同。",
+		"effect": "施展敵人最後使用的招式。",
+		"desc": ""
+	},
+	{
+		"name": "換場", "alias": "コートチェンジ|Court Change",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -102,161 +256,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Bind", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Block", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Body Slam",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Boomburst", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Camouflage", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Captivate", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Chip Away",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Comet Punch",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Confide", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Constrict", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Conversion", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Conversion 2",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Copycat", "alias": "",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "Court Change",
-		"power": "",
-		"category": "",
-		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "渴望", "alias": "",
+		"name": "渴望", "alias": "ほしがる|Covet",
 		"power": "2",
 		"category": "physical",
 		"type": "Normal",
@@ -267,7 +267,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者小心地靠近，快速出擊，並逮住機會偷走目標的道具。"
 	},
 	{
-		"name": "Crush Claw",
+		"name": "撕裂爪", "alias": "ブレイククロー|Crush Claw",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -278,7 +278,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Crush Grip",
+		"name": "捏碎", "alias": "にぎりつぶす|Crush Grip",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -289,7 +289,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Cut", "alias": "",
+		"name": "居合斬", "alias": "いあいぎり|Cut",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -300,7 +300,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Defense Curl",
+		"name": "變圓", "alias": "まるくなる|Defense Curl",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -311,7 +311,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Disable", "alias": "",
+		"name": "定身法", "alias": "かなしばり|Disable",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -322,7 +322,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Dizzy Punch",
+		"name": "迷昏拳", "alias": "ピヨピヨパンチ|Dizzy Punch",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -333,7 +333,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Double Hit",
+		"name": "二連擊", "alias": "ダブルアタック|Double Hit",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -344,7 +344,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Double Slap",
+		"name": "連環巴掌", "alias": "おうふくビンタ|Double Slap",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -355,7 +355,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Double Team",
+		"name": "影子分身", "alias": "かげぶんしん|Double Team",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -366,7 +366,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "捨身衝撞", "alias": "",
+		"name": "捨身衝撞", "alias": "すてみタックル|Double-Edge",
 		"power": "5",
 		"category": "physical",
 		"type": "Normal",
@@ -377,7 +377,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者不顧後果地猛撞敵人造成大量傷害，但這個過程很可能也會傷到他自己。"
 	},
 	{
-		"name": "Echoed Voice",
+		"name": "回聲", "alias": "エコーボイス|Echoed Voice",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -388,7 +388,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Egg Bomb",
+		"name": "炸蛋", "alias": "タマゴばくだん|Egg Bomb",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -399,7 +399,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Encore", "alias": "",
+		"name": "再來一次", "alias": "アンコール|Encore",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -410,7 +410,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Endeavor", "alias": "",
+		"name": "蠻幹", "alias": "がむしゃら|Endeavor",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -421,7 +421,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Endure", "alias": "",
+		"name": "挺住", "alias": "こらえる|Endure",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -432,7 +432,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Entrainment", "alias": "",
+		"name": "找夥伴", "alias": "なかまづくり|Entrainment",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -443,7 +443,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Explosion", "alias": "",
+		"name": "大爆炸", "alias": "だいばくはつ|Explosion",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -454,7 +454,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "神速", "alias": "",
+		"name": "神速", "alias": "しんそく|Extreme Speed",
 		"power": "3",
 		"category": "physical",
 		"type": "Normal",
@@ -465,7 +465,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者以炫目的高速向目標衝過去。"
 	},
 	{
-		"name": "Facade", "alias": "",
+		"name": "硬撐", "alias": "からげんき|Facade",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -476,7 +476,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Fake Out",
+		"name": "擊掌奇襲", "alias": "ねこだまし|Fake Out",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -487,7 +487,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "False Swipe",
+		"name": "點到為止", "alias": "みねうち|False Swipe",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -498,7 +498,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Feint", "alias": "",
+		"name": "佯攻", "alias": "フェイント|Feint",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -509,7 +509,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Flail", "alias": "",
+		"name": "抓狂", "alias": "じたばた|Flail",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -520,7 +520,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Flash", "alias": "",
+		"name": "閃光", "alias": "フラッシュ|Flash",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -531,7 +531,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Focus Energy",
+		"name": "聚氣", "alias": "きあいだめ|Focus Energy",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -542,7 +542,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Follow Me",
+		"name": "看我嘛", "alias": "跟我來|このゆびとまれ|Follow Me",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -553,7 +553,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Foresight", "alias": "",
+		"name": "識破", "alias": "みやぶる|Foresight",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -564,7 +564,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Frustration", "alias": "",
+		"name": "遷怒", "alias": "やつあたり|Frustration",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -575,7 +575,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Fury Attack",
+		"name": "亂擊", "alias": "みだれづき|Fury Attack",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -586,7 +586,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Fury Swipes",
+		"name": "亂抓", "alias": "みだれひっかき|Fury Swipes",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -597,7 +597,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Giga Impact",
+		"name": "終極衝擊", "alias": "ギガインパクト|Giga Impact",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -608,7 +608,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Glare", "alias": "",
+		"name": "大蛇瞪眼", "alias": "へびにらみ|Glare",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -630,7 +630,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "無論是透過凶狠的態度或可愛的舉止，敵人都會遲疑著是否該用全力攻擊使用者。"
 	},
 	{
-		"name": "Growth", "alias": "",
+		"name": "生長", "alias": "せいちょう|Growth",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -641,7 +641,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Guillotine", "alias": "",
+		"name": "斷頭鉗", "alias": "ハサミギロチン|Guillotine",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -663,7 +663,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Head Charge",
+		"name": "Head Charge", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -685,7 +685,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者用堅硬的頭部撞擊敵人。非常適合用來摘下樹上的水果、或把寶可夢從樹梢上的巢穴掉下來。"
 	},
 	{
-		"name": "Heal Bell",
+		"name": "Heal Bell", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -696,7 +696,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Helping Hand",
+		"name": "Helping Hand", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -707,7 +707,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Hidden Power",
+		"name": "Hidden Power", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -718,7 +718,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Horn Attack",
+		"name": "Horn Attack", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -729,7 +729,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Horn Drill",
+		"name": "Horn Drill", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -751,7 +751,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Hyper Beam",
+		"name": "Hyper Beam", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -762,7 +762,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Hyper Fang",
+		"name": "Hyper Fang", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -773,7 +773,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Hyper Voice",
+		"name": "Hyper Voice", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -795,7 +795,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Laser Focus",
+		"name": "Laser Focus", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -806,7 +806,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Last Resort",
+		"name": "Last Resort", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -828,7 +828,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Lock-On",
+		"name": "Lock-On", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -839,7 +839,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Lovely Kiss",
+		"name": "Lovely Kiss", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -850,7 +850,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Lucky Chant",
+		"name": "Lucky Chant", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -861,7 +861,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Me First",
+		"name": "Me First", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -872,7 +872,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Mean Look",
+		"name": "Mean Look", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -883,7 +883,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Mega Kick",
+		"name": "Mega Kick", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -894,7 +894,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Mega Punch",
+		"name": "Mega Punch", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -916,7 +916,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Milk Drink",
+		"name": "Milk Drink", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -938,7 +938,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Mind Reader",
+		"name": "Mind Reader", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -960,7 +960,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Morning Sun",
+		"name": "Morning Sun", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -971,7 +971,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Multi-Attack",
+		"name": "Multi-Attack", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -982,7 +982,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Natural Gift",
+		"name": "Natural Gift", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -993,7 +993,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Nature Power",
+		"name": "Nature Power", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1004,7 +1004,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Noble Roar",
+		"name": "Noble Roar", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1026,7 +1026,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "使用者運用牠敏銳的嗅覺來偵測敵人。"
 	},
 	{
-		"name": "Pain Split",
+		"name": "Pain Split", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1037,7 +1037,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Pay Day",
+		"name": "Pay Day", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1048,7 +1048,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Perish Song",
+		"name": "Perish Song", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1059,7 +1059,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Play Nice",
+		"name": "Play Nice", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1103,7 +1103,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Psych Up",
+		"name": "Psych Up", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1114,7 +1114,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Quick Attack",
+		"name": "Quick Attack", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1136,7 +1136,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Rapid Spin",
+		"name": "Rapid Spin", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1147,7 +1147,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Razor Wind",
+		"name": "Razor Wind", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1180,7 +1180,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Reflect Type",
+		"name": "Reflect Type", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1202,7 +1202,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Relic Song",
+		"name": "Relic Song", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1235,7 +1235,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Revelation Dance",
+		"name": "Revelation Dance", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1257,7 +1257,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Rock Climb",
+		"name": "Rock Climb", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1290,7 +1290,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Scary Face",
+		"name": "Scary Face", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1323,7 +1323,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Secret Power",
+		"name": "Secret Power", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1334,7 +1334,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Self Destruct",
+		"name": "Self Destruct", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1356,7 +1356,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Shell Smash",
+		"name": "Shell Smash", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1367,7 +1367,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Simple Beam",
+		"name": "Simple Beam", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1400,7 +1400,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Skull Bash",
+		"name": "Skull Bash", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1411,7 +1411,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Slack Off",
+		"name": "Slack Off", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1444,7 +1444,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sleep Talk",
+		"name": "Sleep Talk", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1455,7 +1455,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Smelling Salts",
+		"name": "Smelling Salts", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1488,7 +1488,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Soft Boiled",
+		"name": "Soft Boiled", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1499,7 +1499,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sonic Boom",
+		"name": "Sonic Boom", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1510,7 +1510,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Spike Cannon",
+		"name": "Spike Cannon", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1521,7 +1521,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Spit Up",
+		"name": "Spit Up", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1587,7 +1587,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Stuff Cheeks",
+		"name": "Stuff Cheeks", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1609,7 +1609,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Super Fang",
+		"name": "Super Fang", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1653,7 +1653,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sweet Scent",
+		"name": "Sweet Scent", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1675,7 +1675,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swords Dance",
+		"name": "Swords Dance", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1697,7 +1697,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "向敵人衝撞的一種基本攻擊。"
 	},
 	{
-		"name": "Tail Slap",
+		"name": "Tail Slap", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1730,7 +1730,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢魯莽地抓住敵人並將其撞倒在地上。"
 	},
 	{
-		"name": "Tearful Look",
+		"name": "Tearful Look", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1752,7 +1752,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Techno Blast",
+		"name": "Techno Blast", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1763,7 +1763,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Teeter Dance",
+		"name": "Teeter Dance", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1807,7 +1807,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Tri Attack",
+		"name": "Tri Attack", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1818,7 +1818,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Trump Card",
+		"name": "Trump Card", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1829,7 +1829,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Uproar", "alias": "",
+		"name": "吵鬧", "alias": "さわぐ|Uproar",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1840,7 +1840,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Veevee Volley",
+		"name": "砰砰擊破", "alias": "ブイブイブレイク|Veevee Volley",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1851,7 +1851,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Vice Grip",
+		"name": "夾住", "alias": "はさむ|Vise Grip",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1862,7 +1862,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Weather Ball",
+		"name": "氣象球", "alias": "天氣球|ウェザーボール|Weather Ball",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1873,7 +1873,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Whirlwind", "alias": "",
+		"name": "吹飛", "alias": "ふきとばし|Whirlwind",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1884,7 +1884,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Wish", "alias": "",
+		"name": "祈願", "alias": "ねがいごと|Wish",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1895,7 +1895,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Work Up",
+		"name": "自我激勵", "alias": "ふるいたてる|Work Up",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1906,7 +1906,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Wrap", "alias": "",
+		"name": "緊束", "alias": "まきつく|Wrap",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1917,7 +1917,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Wring Out",
+		"name": "絞緊", "alias": "しぼりとる|Wring Out",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1928,7 +1928,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Yawn", "alias": "",
+		"name": "哈欠", "alias": "あくび|Yawn",
 		"power": "",
 		"category": "",
 		"type": "Normal",

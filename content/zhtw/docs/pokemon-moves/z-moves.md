@@ -47,11 +47,13 @@ Z招式可以完全如你所想的那般獨特而強大，因為它就是你和�
 
 
 ---
+## Z招式列表
+
 <div id="MoveList"></div>
 
 {{< script "moves-z.js" >}}
 <script type="text/javascript">
   window.addEventListener("parsePage", ()=>{
-    TocInjector.parsePage("Move");
+    TocInjector.parsePage("Move", "Z招式列表");
   });
 </script>

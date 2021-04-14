@@ -47,13 +47,13 @@ class MoveParser{
                 <div class="type"><tag class="moveType ${moveObj.category}"></tag></div>
               </div>
               <div class="MoveIconBar">${moveIconArr.join("")}</div>
-              ${gMaxIconBar}
               <div class="MoveContent">
                 <div class="Type">${FMT(moveObj.type)}</div>
                 <div class="Accuracy">${moveObj.accuracy}</div>
                 <div class="Damage">${moveObj.damage}</div>
                 ${ moveEffect }
               </div>
+              ${ gMaxIconBar }
               ${ moveDescription }
             </div>`;
   }

@@ -78,7 +78,7 @@ class IconParser {
   }
   static getHTML_frame(parameters){
     var frame_type = parameters[0];
-    var frame_title = this.getDefaultTitle(parameters[0], parameters[1]);
+    var frame_title = this.getDefaultTitle(parameters[0], parameters[1], parameters[2]);
     var frame_content = getFrameContent(parameters.slice(2));
     return `<iconFrame class="${frame_type}">
               <span class="frameTitle">${frame_title}</span>
@@ -136,11 +136,16 @@ class IconParser {
     if(size=="l") return "large";
     return "";
   }
-  static getDefaultTitle(type, title){
+  static getDefaultTitle(type, title, subType){
     switch(type){
       case "priority": return "優先度";
       case "accuracy": return "命中";
-      case "heal": return "治療";
+      case "heal":
+        switch(subType){
+          case "heal": return "治療";
+          case "c_heal": return "強治療";
+          default: return title;
+        }
 
       case "paralysis": return "麻痺";
       case "burn1": return "灼傷1";

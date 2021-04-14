@@ -74,6 +74,7 @@ tag.rdice.six { background-image: url('../images/icons/dice_6.svg'); }
 tag.text {
     position: relative;
     background-color: #333; color: #fff;
+    border: rgba(0,0,0,0.2) solid 1px;
     padding: .6em 0;
     line-height: 2em;
     font-size: .5em; text-align: center;
@@ -87,7 +88,7 @@ tag.text.Normal { background-color: #9c9c8a; }
 tag.text.Bug { background:#AABB22; }
 tag.text.Dark { background:#775544; }
 tag.text.Dragon { background:#7766EE; }
-tag.text.Electric { background:#FFCC33; }
+tag.text.Electric { background:#FFCC33; color:#000;}
 tag.text.Fairy { background:#FFAAFF; }
 tag.text.Fight { background:#BB5544; }
 tag.text.Fire { background-color: #ff5c42; }
@@ -189,8 +190,8 @@ iconFrame.disabled { background-color: #ff3600; }
 iconFrame .frameTitle {
     position: absolute;
     width: 3.25rem;
-    margin-top: -.1rem;
-    text-align: center; font-size: .8rem; color: #fff;
+    margin-top: 0rem;
+    text-align: center; font-size: .7rem; color: #fff;
 }
 iconFrame .frameContent {
     position: absolute;

@@ -195,7 +195,7 @@
     margin: .3rem; padding: .2rem;
 }
 .MoveIconBar { margin-top: .3rem; }
-.MoveIconBar.GMax { background: rgba(255,255,255,.2); padding:0 .5rem; }
+.MoveIconBar.GMax { background: rgba(255,255,255,.2); padding:0 .5rem; padding-bottom: .2rem; }
 .MoveContent .Type, .MoveContent .Accuracy, .MoveContent .Damage { font-weight: normal; }
 .MoveContent .Type::before { content: "屬性: "; font-weight:bold; }
 .MoveContent .Accuracy::before { content: "命中: "; font-weight:bold; }
