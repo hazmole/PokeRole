@@ -5,18 +5,28 @@ var SearchType;
 //=================
 // Search Panel Builder
 class SearchParser{
+  static searchType = "";
+  static extraConfig = {
+    isUnion: {
+      target: true,
+      effect: false,
+    }
+  };
+
   static parsePage(){
     var panel = document.getElementById("SearchPanel");
     if(!panel) return false;
 
+    this.searchType = SearchType;
     this.renderSearchPanel(panel, SearchType);
     return true;
   }
 
-  static renderSearchPanel(panelObj, searchType){
+  static renderSearchPanel(panelObj){
     var html = "";
-    switch(searchType){
+    switch(this.searchType){
       case "Move": html = getMovePanelTemplate(panelObj); break;
+      default: html = "Error!"; break;
     }
     panelObj.innerHTML = `<form id="searchForm" onkeydown="return event.key != 'Enter';">${html}</form>`;
 
@@ -28,11 +38,16 @@ class SearchParser{
       <div>招式類型 ${getInput_MoveCategory()}</div>
       <div>招式屬性 ${getInput_Type()}</div>
       <div>命中判定 ${getInput_Accuracy()}</div>
-      <div>目標 (OR) ${getIconBarHtml(getTargetIconOptions())}</div>
-      <div>效果標誌 (AND) <div>${getInput_AllEffectIcons()}</div></div>`;
+      <div>目標 ${getInput_UniontoggleButton("target")} ${getIconBarHtml(getTargetIconOptions())}</div>
+      <div>效果標誌  ${getInput_UniontoggleButton("effect")} <div>${getInput_AllEffectIcons()}</div></div>`;
     }
 
     //=============
+    function getInput_UniontoggleButton(key){
+      var isUnion = SearchParser.extraConfig.isUnion[key];
+      if(isUnion) return `<button type="button" class="isUnion true" onclick="toggleSearchUnion('${key}', this)">OR</button>`;
+      else        return `<button type="button" class="isUnion" onclick="toggleSearchUnion('${key}', this)">AND</button>`;
+    }
     function getInput_Name(){
       return `<input type="text" name="name" onkeyup="SearchParser.search()">`;
     }
@@ -114,8 +129,10 @@ class SearchParser{
       itemList: null,
       parser: null,
       panel: null,
-      searchParameter: null
+      searchParameter: null,
+      searchExtraPara: null,
     };
+    var extraConfig = this.extraConfig;
     // Initial
     switch(SearchType){
       case "Move":
@@ -179,9 +196,9 @@ class SearchParser{
         case "name":
           return (isContainIgnoreCase(item[key], form[key].value) || (item["alias"] && isContainIgnoreCase(item["alias"], form[key].value)));
         case "target":
-          return (isFormTagMatch(item.tags, key, true));
+          return (isFormTagMatch(item.tags, key, extraConfig.isUnion[key]));
         case "effect":
-          return (isFormTagMatch(item.tags, key, false));
+          return (isFormTagMatch(item.tags, key, extraConfig.isUnion[key]));
         case "acc_attr":
           var acc = item["accuracy"].split(" + ");
           return (acc.length>1 && isContainIgnoreCase(acc[0], form[key].value));
@@ -217,7 +234,7 @@ class SearchParser{
         var a_arr = a.split("|");
         var b_arr = b.split("|");
         if(b_arr[0] == "frame"){
-          return a_arr[1]==b_arr[1] && (b_arr.length<4 || a_arr[3]==b_arr[3]);
+          return a_arr[1]==b_arr[1] && (a_arr.length<4 || a_arr[3]==b_arr[3]);
         }
         return a.indexOf(b) >= 0;
       }
@@ -232,6 +249,12 @@ class SearchParser{
 
 function toggleSearchLabel(elem){
   elem.classList.toggle("disable");
+  SearchParser.search();
+}
+function toggleSearchUnion(key, elem){
+  SearchParser.extraConfig.isUnion[key] ^= true;
+  elem.innerHTML = SearchParser.extraConfig.isUnion[key]? "OR": "AND";
+  elem.classList.toggle("true");
   SearchParser.search();
 }
 

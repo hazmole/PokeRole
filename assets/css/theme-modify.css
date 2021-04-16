@@ -38,6 +38,7 @@
 
 
 /* Table of Contents */
+.toc { top: 0px;  }
 .toc ul li,
 .toc ul li li {
     margin-top: .5em;
@@ -96,6 +97,10 @@ td:not([align]), th:not([align]) { text-align: center; }
     padding: .25rem .5rem;
     border: 1px double rgba(150,40,40,.2);
 }
+
+/* <button> */
+button.isUnion { background-color:#ff0000; }
+button.isUnion.true { background-color:#0000ff; }
 
 /* <hr> */
 .single__contents hr {
