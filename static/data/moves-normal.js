@@ -285,7 +285,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|lethal"],
 		"accuracy": "力量 + 鬥毆",
 		"damage": "力量 + 1*",
-		"effect": "致命傷害。如果敵人的基礎HP高於 3 點，則每超過 1 點，這個攻擊的傷害骰池就會增加 1 顆骰子。你最多可以透過這個方式將傷害骰池增加到 9 顆骰子。",
+		"effect": "致命傷害。如果敵人的基礎HP高於 3 點，則每超過 1 點，這個攻擊的傷害骰池就會增加 1 顆骰子。你最多可以透過這個方式增加 9 顆骰子。",
 		"desc": "寶可夢擒住敵人並開始輾壓牠。小型目標也許不容易被抓住，但身軀較大的目標在撐不住之前都不會被釋放。"
 	},
 	{
@@ -378,80 +378,80 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "回聲", "alias": "エコーボイス|Echoed Voice",
-		"power": "",
-		"category": "",
+		"power": "2*",
+		"category": "special",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "effect|l|sound"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 2*",
+		"effect": "聲音類招式。這個招式在同一個戰鬥輪中可以被使用好幾次。你每連續使用這個招式一次，它的傷害骰池就會額外增加 1 顆骰子。你最多可以透過這個方式增加 8 顆骰子。如果使用者使用了其他招式、或進行了閃避或對抗，則將累積的傷害骰重置。",
+		"desc": "使用者大聲呼喊，回聲返響，每當回聲重複響起，牠就會喊得越來越大聲。"
 	},
 	{
 		"name": "炸蛋", "alias": "タマゴばくだん|Egg Bomb",
-		"power": "",
-		"category": "",
+		"power": "4",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|2"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 4",
+		"effect": "遠程招式。",
+		"desc": "使用者朝著敵人丟出帶有強大衝擊力的大型蛋。"
 	},
 	{
-		"name": "再來一次", "alias": "アンコール|Encore",
-		"power": "",
-		"category": "",
+		"name": "再來一次", "alias": "安可|アンコール|Encore",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|priority||up|3"],
+		"accuracy": "帥氣 + 誘惑",
+		"damage": "-",
+		"effect": "先制招式。在這個效果持續期間，目標將會重複進行牠在這個戰鬥輪中進行過相同的一連串行動。目標必須要有一連串的行動。持續 4 輪。",
+		"desc": "使用者鼓掌喝采，鼓勵目標重複一遍牠剛剛採取過的行動。"
 	},
 	{
 		"name": "蠻幹", "alias": "がむしゃら|Endeavor",
-		"power": "",
-		"category": "",
+		"power": "*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "意志 + 導引",
+		"damage": "-",
+		"effect": "骰等同於使用者最大HP和當前HP差額的傷害骰（最多 10 顆）。使用者無法將目標的HP降到低於自己當前HP的數值。這個招式無視敵人的防禦。",
+		"desc": "藉著純粹的意志力，使用者無視著身上的痛楚與敵人纏鬥著。"
 	},
 	{
 		"name": "挺住", "alias": "こらえる|Endure",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|priority||up|5", "effect|l|shield"],
+		"accuracy": "意志 + 導引",
+		"damage": "-",
+		"effect": "先制招式。護盾。在這個戰鬥輪期間，傷害類招式將無法讓使用者的HP降到低於 1。然而異常狀態、天氣狀態、反作用力傷害、和自己造成的傷害仍然能夠如常造成傷害。",
+		"desc": "使用者做好準備接受致命打擊。儘管遭受嚴重傷害，牠仍然撐過了痛楚。"
 	},
 	{
 		"name": "找夥伴", "alias": "なかまづくり|Entrainment",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "帥氣 + 表演",
+		"damage": "-",
+		"effect": "目標的特性將被使用者的特性給取代。（例如：愛心魚的悠游自如特性將會被取代成小拳石的結實特性）",
+		"desc": "寶可夢以好記的節奏開始翩翩起舞。目標同樣開始跳舞，且兩人透過這個表演締結了相當親密的連結。"
 	},
 	{
 		"name": "大爆炸", "alias": "だいばくはつ|Explosion",
-		"power": "",
-		"category": "",
+		"power": "10",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|area", "effect|l|lethal"],
+		"accuracy": "力量 + 鬥毆",
+		"damage": "力量 + 10",
+		"effect": "致命傷害。範圍攻擊。在造成傷害之後，使用者陷入瀕死狀態。",
+		"desc": "使用者專注於讓牠的身體爆炸，且這個爆炸將造成巨大的傷害衝擊波。非常危險的招式。"
 	},
 	{
 		"name": "神速", "alias": "しんそく|Extreme Speed",
@@ -461,165 +461,165 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|priority|優先度|up|2"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 3",
-		"effect": "先制。將寶可夢的移動速度提升三倍。",
+		"effect": "先制招式。將寶可夢的移動速度提升三倍。",
 		"desc": "使用者以炫目的高速向目標衝過去。"
 	},
 	{
 		"name": "硬撐", "alias": "からげんき|Facade",
-		"power": "",
-		"category": "",
+		"power": "3*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3 (或 + 6)",
+		"effect": "如果使用者處於任何異常狀態（麻痺、中毒、灼傷等等），額外增加 3 顆骰子到傷害骰池中。",
+		"desc": "寶可夢進行一次正面攻擊，如果使用者正在受難，這個攻擊將會變得更強大。"
 	},
 	{
 		"name": "擊掌奇襲", "alias": "ねこだまし|Fake Out",
-		"power": "",
-		"category": "",
+		"power": "2",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|priority||up|1", "frame|flinch||always"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 2",
+		"effect": "先制招式。使敵人陷入「畏縮」狀態。這個招式只會在該寶可夢進入戰鬥的第一輪發揮作用。從第二輪開始，這個招式將會自動失敗。",
+		"desc": "趁著仍在準備戰鬥的空隙，使用者忽然對敵人發起奇襲。"
 	},
 	{
 		"name": "點到為止", "alias": "みねうち|False Swipe",
-		"power": "",
-		"category": "",
+		"power": "2",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 2",
+		"effect": "使用者不會因為被這個招式命中而使HP降到低於 1。",
+		"desc": "使用者命中敵人，但在最後一刻手下留情。"
 	},
 	{
 		"name": "佯攻", "alias": "フェイント|Feint",
-		"power": "",
-		"category": "",
+		"power": "1",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|priority||up|2"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "先制招式。這個招式能夠無視任何護盾招式的效果。",
+		"desc": "這個寶可夢發起佯攻，並接著用真正的攻擊命中對手，就算對方嘗試保護自己也一樣。"
 	},
 	{
 		"name": "抓狂", "alias": "じたばた|Flail",
-		"power": "",
-		"category": "",
+		"power": "1*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1*",
+		"effect": "每 1 點使用者失去的HP都會使這個招式的傷害骰池額外增加 1 顆骰子。你最多可以透過這個方式增加 5 顆骰子。",
+		"desc": "使用者抓狂掙扎著求生，牠的身體越虛弱，這個攻擊就會變得越強力。"
 	},
 	{
 		"name": "閃光", "alias": "フラッシュ|Flash",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|命中|down|1"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "敵人的所有命中判定將被扣除 1 顆成功骰。",
+		"desc": "使用者的身體周遭忽然釋放出一道刺眼的強光。讓敵人因此頭暈目眩。"
 	},
 	{
 		"name": "聚氣", "alias": "きあいだめ|Focus Energy",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"accuracy": "洞察 + 導引",
+		"damage": "-",
+		"effect": "使用者的所有傷害類招式現在起都將獲得「高要害率」的效果。這個效果將持續直到這個場景結束、或直到使用者從戰鬥中退場。",
+		"desc": "寶可夢的能量被提升，讓牠的所有打擊都變得更加精準。"
 	},
 	{
 		"name": "看我嘛", "alias": "跟我來|このゆびとまれ|Follow Me",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|priority||up|5"],
+		"accuracy": "帥氣 + 表演",
+		"damage": "-",
+		"effect": "直到這個戰鬥輪結束之前，敵人的所有招式都將以使用者為目標。",
+		"desc": "寶可夢將吸引所有人的注意力。所有敵人都將被惹火並做出最壞的行動。"
 	},
 	{
 		"name": "識破", "alias": "みやぶる|Foresight",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "洞察 + 警覺",
+		"damage": "-",
+		"effect": "敵人無法閃避使用者施展的招式。使用者將無視幽靈屬性對一般屬性招式的免疫能力，反之亦然。",
+		"desc": "寶可夢利用牠發達的感官和心靈能力來預見即將到來的未來。"
 	},
 	{
 		"name": "遷怒", "alias": "やつあたり|Frustration",
-		"power": "",
-		"category": "",
+		"power": "*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + *",
+		"effect": "每 1 點使用者缺少的幸福度都會使這個招式的傷害骰池額外增加 1 顆骰子。",
+		"desc": "這個招式的威力取決於寶可夢被多惡劣的對待而變得多惡毒和冷漠。"
 	},
 	{
 		"name": "亂擊", "alias": "みだれづき|Fury Attack",
-		"power": "",
-		"category": "",
+		"power": "1",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "連續行動。",
+		"desc": "寶可夢用一種特別紊亂的方式去做所有事情。"
 	},
 	{
 		"name": "亂抓", "alias": "みだれひっかき|Fury Swipes",
-		"power": "",
-		"category": "",
+		"power": "1",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "連續行動。",
+		"desc": "使用者迅速地使用牠的爪子攻擊敵人好幾次。"
 	},
 	{
 		"name": "終極衝擊", "alias": "ギガインパクト|Giga Impact",
-		"power": "",
-		"category": "",
+		"power": "6",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|lethal", "effect|l|recharge"],
+		"accuracy": "力量 + 鬥毆",
+		"damage": "力量 + 6",
+		"effect": "必須重新充能。致命傷害。",
+		"desc": "寶可夢用盡牠全身的力量進行一次野蠻的攻擊。這個衝擊的反作用力將讓使用者有些暈眩。"
 	},
 	{
 		"name": "大蛇瞪眼", "alias": "へびにらみ|Glare",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "frame|paralysis||always"],
+		"accuracy": "強壯 + 威嚇",
+		"damage": "-",
+		"effect": "使敵人陷入「麻痺」狀態。",
+		"desc": "寶可夢使用牠那威嚇性的目光使敵人因為深陷純粹的恐懼而動彈不得。"
 	},
 	{
-		"name": "叫聲", "alias": "",
+		"name": "叫聲", "alias": "なきごえ|Growl",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
@@ -631,47 +631,47 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "生長", "alias": "せいちょう|Growth",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|up|1", "frame|self|特殊|up|1"],
+		"accuracy": "特殊 + 自然",
+		"damage": "-",
+		"effect": "提升使用者的力量和特殊。",
+		"desc": "寶可夢增長牠的身體，長得更大更壯。"
 	},
 	{
 		"name": "斷頭鉗", "alias": "ハサミギロチン|Guillotine",
-		"power": "",
-		"category": "",
+		"power": "*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "-",
+		"effect": "直接造成等同於目標剩餘HP的傷害，外加 1 點致命傷害。",
+		"desc": "寶可夢使用牠身體最鋒利的部位，幾乎要斬斷敵人的脖子。這是個相當毀滅性的攻擊，敵人必須要夠幸運才能從中活下來。"
 	},
 	{
 		"name": "變硬", "alias": "かたくなる|Harden",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|防禦|up|1"],
+		"accuracy": "活力 + 自然",
+		"damage": "-",
+		"effect": "提升使用者的防禦。",
+		"desc": "使用者讓自己的身體僵硬，以迎接任何即將到來的攻擊。"
 	},
 	{
 		"name": "爆炸頭突擊", "alias": "アフロブレイク|Head Charge",
-		"power": "",
-		"category": "",
+		"power": "5",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "effect|l|recoil"],
+		"accuracy": "力量 + 鬥毆",
+		"damage": "力量 + 5",
+		"effect": "反作用力傷害。",
+		"desc": "寶可夢把牠的腦袋當作巨石來衝撞對手。"
 	},
 	{
 		"name": "頭錘", "alias": "ずつき|Headbutt",
@@ -686,80 +686,79 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "治癒鈴聲", "alias": "いやしのすず|Heal Bell",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "frame|heal|治療狀態|always", "effect|l|sound"],
+		"accuracy": "特殊 + 表演",
+		"damage": "-",
+		"effect": "聲音類招式。治療使用者和隊友的異常狀態，牠們甚至不需要在戰場上就能從這個效果中受益。",
+		"desc": "寶可夢敲響魔法鈴鐺，傳說這個使人平靜的聲音具有治療的功效。"
 	},
 	{
 		"name": "幫助", "alias": "てだすけ|Helping Hand",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|ally", "frame|priority||up|5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "-",
+		"effect": "先制招式。做為目標的寶可夢將在牠的下一個技能、命中、和傷害判定中額外獲得 2 顆骰子。",
+		"desc": "寶可夢協助牠的同伴。兄弟同心，其利斷金！"
 	},
 	{
 		"name": "覺醒力量", "alias": "めざめるパワー|Hidden Power",
-		"power": "",
-		"category": "",
+		"power": "*",
+		"category": "special",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "不定。",
+		"damage": "不定。",
+		"effect": "這個招式的威力和屬性將由說書人決定。",
+		"desc": "每個寶可夢體內都隱藏著未知的力量，可以在釋放時帶來令人驚訝的結果。"
 	},
 	{
 		"name": "角撞", "alias": "つのでつく|Horn Attack",
-		"power": "",
-		"category": "",
+		"power": "2",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 2",
+		"desc": "寶可夢用牠的角攻擊敵人，這一擊會相當痛喔。"
 	},
 	{
 		"name": "角鑽", "alias": "尖角鑽|つのドリル|Horn Drill",
-		"power": "",
-		"category": "",
+		"power": "*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "-",
+		"effect": "直接造成等同於目標剩餘HP的傷害，外加 1 點致命傷害。",
+		"desc": "使用者如同鑽頭一樣使用牠的角來戳刺目標，敵人經常會因此陷入命危的狀態。這是個需要警惕的招式。"
 	},
 	{
 		"name": "長嚎", "alias": "とおぼえ|Howl",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|up|1"],
+		"accuracy": "帥氣 + 威嚇",
+		"damage": "-",
+		"effect": "提升使用者的力量。",
+		"desc": "寶可夢發出令人印象深刻的嚎叫，讓牠顯得更加兇猛。"
 	},
 	{
 		"name": "破壞光線", "alias": "はかいこうせん|Hyper Beam",
-		"power": "",
-		"category": "",
+		"power": "6",
+		"category": "special",
 		"type": "Normal",
-		"tags": ["unknown|l"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|lethal", "effect|l|recharge"],
+		"accuracy": "特殊 + 導引",
+		"damage": "特殊 + 6",
+		"effect": "必須重新充能。致命傷害。",
+		"desc": "寶可夢噴射出一道驚人的光束，留下一道巨大毀滅性的痕跡。使用者的體力將因此耗竭。"
 	},
 	{
 		"name": "必殺門牙", "alias": "ひっさつまえば|Hyper Fang",
@@ -1279,7 +1278,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Safeguard", "alias": "",
+		"name": "神秘守護", "alias": "しんぴのまもり|Safeguard",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1290,7 +1289,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Scary Face", "alias": "",
+		"name": "鬼面", "alias": "こわいかお|Scary Face",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1301,7 +1300,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Scratch", "alias": "",
+		"name": "抓", "alias": "ひっかく|Scratch",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1312,7 +1311,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Screech", "alias": "",
+		"name": "刺耳聲", "alias": "いやなおと|Screech",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1323,7 +1322,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Secret Power", "alias": "",
+		"name": "秘密之力", "alias": "ひみつのちから|Secret Power",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1334,7 +1333,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Self Destruct", "alias": "",
+		"name": "自爆", "alias": "じばく|Self-Destruct",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1345,7 +1344,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sharpen", "alias": "",
+		"name": "稜角化", "alias": "かくばる|Sharpen",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1356,7 +1355,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Shell Smash", "alias": "",
+		"name": "破殼", "alias": "からをやぶる|Shell Smash",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1367,7 +1366,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Simple Beam", "alias": "",
+		"name": "單純光束", "alias": "シンプルビーム|Simple Beam",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1378,7 +1377,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sing", "alias": "",
+		"name": "唱歌", "alias": "うたう|Sing",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1389,7 +1388,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sketch", "alias": "",
+		"name": "寫生", "alias": "スケッチ|Sketch",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1400,7 +1399,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Skull Bash", "alias": "",
+		"name": "火箭頭錘", "alias": "ロケットずつき|Skull Bash",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1411,7 +1410,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Slack Off", "alias": "",
+		"name": "偷懶", "alias": "なまける|Slack Off",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1422,7 +1421,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Slam", "alias": "",
+		"name": "摔打", "alias": "たたきつける|Slam",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1433,7 +1432,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Slash", "alias": "",
+		"name": "劈開", "alias": "きりさく|Slash",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1444,7 +1443,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sleep Talk", "alias": "",
+		"name": "夢話", "alias": "ねごと|Sleep Talk",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1455,7 +1454,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Smelling Salts", "alias": "",
+		"name": "清醒", "alias": "きつけ|Smelling Salts",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1466,7 +1465,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Smokescreen", "alias": "",
+		"name": "煙幕", "alias": "えんまく|Smokescreen",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1477,7 +1476,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Snore", "alias": "",
+		"name": "打鼾", "alias": "いびき|Snore",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1723,7 +1722,7 @@ Array.prototype.push.apply(MoveList, [
 		"power": "3",
 		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|foe", "frame|accuracy|命中|down|2", "effect|l|recoil"],
+		"tags": ["target|l|foe", "frame|accuracy||down|2", "effect|l|recoil"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 3",
 		"effect": "反作用力傷害。",

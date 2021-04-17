@@ -99,8 +99,8 @@ td:not([align]), th:not([align]) { text-align: center; }
 }
 
 /* <button> */
-button.isUnion { background-color:#ff0000; }
-button.isUnion.true { background-color:#0000ff; }
+button.isUnion { background-color:#ff2424; }
+button.isUnion.true { background-color:#3b8dff; }
 
 /* <hr> */
 .single__contents hr {

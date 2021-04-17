@@ -226,7 +226,7 @@ Array.prototype.push.apply(MoveList, [
 		"power": "3",
 		"category": "special",
 		"type": "Fairy",
-		"tags": ["target|l|foe", "frame|accuracy|命中|down|1", "target|l|allally", "text|l|治療狀態"],
+		"tags": ["target|l|foe", "frame|accuracy|命中|down|1", "target|l|allally", "frame|heal|治療狀態|always"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "特殊 + 3",
 		"effect": "若成功，治療使用者和所有隊友的所有異常狀態。如果這個招式的使用者處於最終進化階段，則這個招式自動失敗。",

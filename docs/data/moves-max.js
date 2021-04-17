@@ -80,7 +80,7 @@ Array.prototype.push.apply(MoveList, [
 		"category": "hybrid",
 		"type": "Fire",
 		"tags": ["target|l|foe", "weather|l|sun"],
-		"gmax-tags": ["target|l|allfoe", "weather|l|sun2", "無視特性", "frame|burn3||number|d3", "effect|l|block", "text|l|火系招式|Fire"],
+		"gmax-tags": ["target|l|allfoe", "weather|l|sun2", "text|l|無視特性", "frame|burn3||number|d3", "effect|l|block", "text|l|火系招式|Fire"],
 		"accuracy": "原招式命中 + 2",
 		"damage": "力量/特殊 + 原招式傷害 + 2",
 		"effect": "發動大晴天天氣狀態的效果。持續 4 個戰鬥輪。",
