@@ -263,7 +263,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe"],
 		"accuracy": "聰明 + 隱匿",
 		"damage": "力量 + 2",
-		"effect": "如果使用者未持有道具，則偷走目標持有的道具。",
+		"effect": "如果使用者未持有道具，則偷走目標持有的攜帶物品。",
 		"desc": "使用者小心地靠近，快速出擊，並逮住機會偷走目標的道具。"
 	},
 	{
@@ -1487,7 +1487,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Soft Boiled", "alias": "",
+		"name": "生蛋", "alias": "タマゴうみ|Soft Boiled",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1498,7 +1498,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sonic Boom", "alias": "",
+		"name": "音爆", "alias": "ソニックブーム|Sonic Boom",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1509,7 +1509,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Spike Cannon", "alias": "",
+		"name": "尖刺加農炮", "alias": "とげキャノン|Spike Cannon",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1520,7 +1520,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Spit Up", "alias": "",
+		"name": "噴出", "alias": "はきだす|Spit Up",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1531,7 +1531,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Splash", "alias": "",
+		"name": "躍起", "alias": "はねる|Splash",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1542,7 +1542,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Spotlight", "alias": "",
+		"name": "聚光燈", "alias": "スポットライト|Spotlight",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1553,7 +1553,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Stockpile", "alias": "",
+		"name": "蓄力", "alias": "たくわえる|Stockpile",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1564,7 +1564,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Stomp", "alias": "",
+		"name": "踩踏", "alias": "ふみつけ|Stomp",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1575,7 +1575,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Strength", "alias": "",
+		"name": "怪力", "alias": "かいりき|Strength",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1586,7 +1586,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Stuff Cheeks", "alias": "",
+		"name": "大快朵頤", "alias": "ほおばる|Stuff Cheeks",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1597,7 +1597,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Substitute", "alias": "",
+		"name": "替身", "alias": "みがわり|Substitute",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1608,7 +1608,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Super Fang", "alias": "",
+		"name": "憤怒門牙", "alias": "いかりのまえば|Super Fang",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1619,7 +1619,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Supersonic", "alias": "",
+		"name": "超音波", "alias": "ちょうおんぱ|Supersonic",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1630,7 +1630,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swagger", "alias": "",
+		"name": "虛張聲勢", "alias": "いばる，英文︰Swagger",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1641,7 +1641,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swallow", "alias": "",
+		"name": "吞下", "alias": "のみこむ|Swallow",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1652,7 +1652,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Sweet Scent", "alias": "",
+		"name": "甜甜香氣", "alias": "あまいかおり|Sweet Scent",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1663,7 +1663,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swift", "alias": "",
+		"name": "高速星星", "alias": "スピードスター|Swift",
 		"power": "",
 		"category": "",
 		"type": "Normal",
@@ -1674,7 +1674,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "Swords Dance", "alias": "",
+		"name": "劍舞", "alias": "つるぎのまい|Swords Dance",
 		"power": "",
 		"category": "",
 		"type": "Normal",

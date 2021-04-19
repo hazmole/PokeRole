@@ -12,6 +12,7 @@ weight = 1
 
 {{< script "moves-normal.js" >}}
 {{< script "moves-bug.js" >}}
+{{< script "moves-dark.js" >}}
 {{< script "moves-fairy.js" >}}
 
 <script type="text/javascript">

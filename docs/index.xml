@@ -406,7 +406,15 @@ HP低於一半</description></item><item><title>多重行動 (可選)</title><li
 ●●●●○ 你可以擔當危險動作片中的替身演員。
 ●●●●● 你可以代替車禍測試中的假人。
 ●●●●●● 你可以用彷彿可多拉般堅硬的胸肌和大鋼蛇般的腹肌去抵擋種子機關槍的掃射。
-⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>華麗大賽演出的流程 1. 展示階段 在這個階段，所有參賽選手將會穿上他們的演出服裝並進行自我介紹，以決定誰能夠優先上場。每位選手使用他們（與大賽相符的）最高的社交特質來擲骰，決定他們在伸展台階段中的行動順序。接著，每位選手抽2張技巧牌。
+⬛ 靈巧 這個特質決定了你身體的敏捷性、靈活性、和協調性。</description></item><item><title>惡屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dark/</guid><description>惡屬性 惡屬性寶可夢以捕獵弱者為樂。牠們憑藉著妨礙敵人和骯髒下流的手段來進行戰鬥。這些招式會用到詭計、謊言、和負面情緒。惡屬性寶可夢是邪惡的，牠們使用的招式亦相當危險。但牠們熱衷於此，畢竟有時候耍點壞可有趣多了。
+惡屬性寶可夢總是企圖在戰鬥中置對手於完全不利的狀態。永遠不要低估妥善計畫的力量。
+效果絕佳:
+Ghost, Psychic
+效果不好:
+Dark, Fairy, Fight
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>華麗大賽的流程</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/</guid><description>華麗大賽演出的流程 1. 展示階段 在這個階段，所有參賽選手將會穿上他們的演出服裝並進行自我介紹，以決定誰能夠優先上場。每位選手使用他們（與大賽相符的）最高的社交特質來擲骰，決定他們在伸展台階段中的行動順序。接著，每位選手抽2張技巧牌。
 2. 伸展台演出階段 這是整個華麗大賽最主要的內容。
 在展示階段結束之後，每位選手將擲一顆骰子，並在大賽圖板的伸展台上前進等同該數量的格子數。
 每個格子裡都會寫著評審對你和你寶可夢表演的要求，你必須宣告你想要吸引哪一個評審的青睞，並描述、扮演你的行動。
