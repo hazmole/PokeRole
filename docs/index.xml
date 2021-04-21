@@ -583,6 +583,17 @@ TocInjector.parsePage("Pokemon");
 你甚至可以加入其他招式的完整效果，看一看招式效果標誌列表來尋找靈感吧。你也可以隨意為你寶可夢的超極巨招式取個獨特的名字。 極巨招式列表
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move", "極巨招式列表");
+});</description></item><item><title>龍屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</guid><description>龍屬性 龍屬性寶可夢兇猛而可怕。牠們憑藉高威力的攻擊來迅速殲滅敵人。龍屬性寶可夢渴望戰鬥，牠們易怒，且不會對任何人展現憐憫或尊重。
+牠們渴望著擊敗強大的對手，佔領大片的土地，並覬覦任何牠們找到的寶物。
+牠們施展的攻擊既強力，且充滿毀滅性。
+效果絕佳:
+Dragon
+效果不好:
+Steel
+沒有效果:
+Fairy
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item><item><title>天氣狀態 &amp; 環境</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/</guid><description>天氣狀態 &amp;amp; 環境 寶可夢、牠們的招式、以及牠們與特性，這些都可能因為天氣狀態而被增強或是減弱。
 日照、降雨、飄雪、以及沙塵暴是許多寶可夢棲息地的重要環境因子。
 要記住，絕大部分的對戰都發生在野外。從森林和熱帶叢林，到火山地帶、苔原、甚至地底下或水中。
