@@ -656,7 +656,19 @@ TocInjector.parsePage("Move");
 訓練師必須教導他的寶可夢以掌握這種內在力量。 或許在這之後牠們將能夠學會自行運用自己意志帶來的力量。如果訓練家從來沒有發揮過這種內在力量的經驗，那麼他或她的寶可夢可能也就學不會。
 大部分的NPC都不會使用他們的意志點，只有最熟練的訓練家和寶可夢才能夠使用它們。
 要回復1點花掉的意志點，你的角色必須：
-經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>妖精屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</guid><description>妖精屬性 妖精屬性的寶可夢通常是可愛、淘氣、又狡詐的。牠們大部分的招式都在玩弄敵人的感情：天真、悲傷、快樂、情愛、和憤怒。尤其當牠們在等待攻擊時機的期間，牠們看起來會特別人畜無害。
+經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>電屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</guid><description>電屬性 電屬性寶可夢在大城市裡相當常見。
+牠們會被電力和科技所吸引，並視其為提升自己帶電能力的一種手段。
+電屬性招式能夠麻痹敵人來使牠們難以移動。
+牠們可以透過放電來進行大範圍的攻擊，或者影響區域內的電離子、電流、和磁場。牠們也能通過積蓄能量來釋放更強力的攻擊。
+效果絕佳:
+Flying, Water
+效果不好:
+Dragon, Electric, Grass
+沒有效果:
+Ground
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>妖精屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</guid><description>妖精屬性 妖精屬性的寶可夢通常是可愛、淘氣、又狡詐的。牠們大部分的招式都在玩弄敵人的感情：天真、悲傷、快樂、情愛、和憤怒。尤其當牠們在等待攻擊時機的期間，牠們看起來會特別人畜無害。
 並非所有妖精屬性的寶可夢都是善良和友好的，牠們之中有一些可能令人討厭，而且遠比牠們外表看起來還要強大。
 當你在野外遇到妖精屬性的寶可夢時，你最好先搞清楚牠們惹人憐愛的微笑背後的含義，也許牠們其實有著和惡屬性寶可夢一樣的壞心腸。
 效果絕佳:
