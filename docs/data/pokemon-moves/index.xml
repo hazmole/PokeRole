@@ -59,4 +59,13 @@ Dark, Dragon, Fight
 Fire, Poison, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>格鬥屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fighting/</guid><description>格鬥屬性 格鬥屬性的寶可夢為了榮譽而戰，並會為了牠們的朋友挺身面對任何挑戰。牠們會盡全力保護弱小。
+格鬥屬性的招式傾向進行直接而強大的攻擊，運用蠻力和嫺熟的武術技巧來擊敗敵人。牠們強大的力量只有牠們自己的驚人高速能夠匹敵。
+只要運用得當，就誰也不能阻擋這群真正的戰士。
+效果絕佳:
+Ice, Normal, Rock, Steel
+效果不好:
+Bug, Fairy, Flying, Poison, Psychic
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item></channel></rss>

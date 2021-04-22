@@ -142,6 +142,7 @@ class PokemonParser{
                 <div class="block" style="width: 180px; margin-left:1rem;">
                   ${ evolveStage }
                   ${ evolveTime }
+                  ${ pokemonObj.evolution.note? pokemonObj.evolution.note: "" }
                 </div>
               </div>
               <div>

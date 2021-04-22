@@ -712,8 +712,8 @@ Array.prototype.push.apply(MoveList, [
 		"category": "special",
 		"type": "Normal",
 		"tags": ["target|l|foe"],
-		"accuracy": "不定。",
-		"damage": "不定。",
+		"accuracy": "不定",
+		"damage": "不定",
 		"effect": "這個招式的威力和屬性將由說書人決定。",
 		"desc": "每個寶可夢體內都隱藏著未知的力量，可以在釋放時帶來令人驚訝的結果。"
 	},
