@@ -3,13 +3,13 @@ if(!MoveList) MoveList = [];
 
 Array.prototype.push.apply(MoveList, [
 	{
-		"name": "",
+		"name": "", "alias": "",
 		"power": "",
 		"category": "",
 		"type": "Ground",
-		"tags": ["target|l|foe"],
+		"tags": ["target|l|"],
 		"accuracy": " + ",
-		"damage": " +　",
+		"damage": "",
 		"effect": "",
 		"desc": ""
 	},

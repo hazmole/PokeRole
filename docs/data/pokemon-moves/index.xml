@@ -68,4 +68,13 @@ Ice, Normal, Rock, Steel
 Bug, Fairy, Flying, Poison, Psychic
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>火屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fire/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fire/</guid><description>火屬性 火屬性招式是最強大也最危險的攻擊之一。它們用不滅的火焰吞沒敵人和戰鬥場地，在數秒內就把空間內的一切化為灰燼。
+火屬性寶可夢依靠進攻性的遠程攻擊來擊潰敵人。
+這些寶可夢和招式都應該被謹慎使用，畢竟鎮上的人們和野生寶可夢可不希望看到他們的家園變成灰燼。
+效果絕佳:
+Bug, Grass, Ice, Steel
+效果不好:
+Dragon, Fire, Rock, Water
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item></channel></rss>
