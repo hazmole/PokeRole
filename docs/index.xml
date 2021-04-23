@@ -859,7 +859,16 @@ TocInjector.parsePage("Move");
 若是如此，你只需要在訓練過程結束之後，進行訓練判定：
 骰 一種特質/社交特質 + 傳聞
 當你取得了 3 個成功骰，你將獲得下列數個好處：
-重新分配階級給予的所有特質和社交特質點數。 重新分配階級給予的所有技能點數。分配完一個階級給予的所有技能點數後，再接著分配下一個階級給予的技能點數。 寶可夢可以遺忘牠學到的招式，並從當前階級範圍中學會新的招式。如果被遺忘的招式是進化前專屬的招式，則該招式將被永遠遺忘。 記住，訓練判定每天只能進行一次。</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>訓練家的基礎 獨自在荒野中旅行是相當辛苦的。你的寶可夢夥伴會保護你的安全，但牠們沒有辦法讓你過得更舒適。大多數時候，你會需要睡在岩石床上，並徒步行走數百公里的路途。
+重新分配階級給予的所有特質和社交特質點數。 重新分配階級給予的所有技能點數。分配完一個階級給予的所有技能點數後，再接著分配下一個階級給予的技能點數。 寶可夢可以遺忘牠學到的招式，並從當前階級範圍中學會新的招式。如果被遺忘的招式是進化前專屬的招式，則該招式將被永遠遺忘。 記住，訓練判定每天只能進行一次。</description></item><item><title>飛行屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-flying/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-flying/</guid><description>飛行屬性 飛行屬性的寶可夢通常透過在空中以遠程攻擊的方式戰鬥，如此一來地面上的敵人就碰不到牠們。牠們迅速而精準，且能從速度中受益良多。
+飛行屬性的寶可夢在戰鬥中通常以閃躲為最優先事項，且牠們比起戰鬥更傾向於規避危險。
+飛行屬性的招式非常適合突襲。藉著埋伏戰術以及出其不意的速度，牠們甚至能在戰鬥開始之前就結束戰鬥。
+效果絕佳:
+Bug, Fight, Grass
+效果不好:
+Electric, Rock, Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>訓練家的基礎 獨自在荒野中旅行是相當辛苦的。你的寶可夢夥伴會保護你的安全，但牠們沒有辦法讓你過得更舒適。大多數時候，你會需要睡在岩石床上，並徒步行走數百公里的路途。
 認真的訓練家會需要攜帶道具以幫助他們達成自己的目標，同時減輕他們在旅途中可能會遭遇的不便。
 每個訓練家都應該隨時備有這些道具：
 金錢 你會需要金錢來買東西。一名剛踏上旅途的訓練家通常會有 $1500 可以使用。你可以透過與其他訓練家的對戰獲勝來賺到更多的寶可幣，但你也可能會因為被打敗而失去它們！

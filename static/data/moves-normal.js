@@ -239,9 +239,9 @@ Array.prototype.push.apply(MoveList, [
 		"category": "support",
 		"type": "Normal",
 		"tags": ["target|l|foe"],
-		"accuracy": "與被仿效的招式相同。",
-		"damage": "與被仿效的招式相同。",
-		"effect": "施展敵人最後使用的招式。",
+		"accuracy": "與被複製的招式相同。",
+		"damage": "與被複製的招式相同。",
+		"effect": "複製並使用敵人最後使用的招式。",
 		"desc": ""
 	},
 	{
