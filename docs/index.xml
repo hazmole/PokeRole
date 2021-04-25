@@ -868,6 +868,17 @@ Bug, Fight, Grass
 Electric, Rock, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>幽靈屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-ghost/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-ghost/</guid><description>幽靈屬性 幽靈屬性的寶可夢透過牠們超自然的能量和詛咒來在敵人身上種下恐懼和痛苦。牠們潛伏在陰影之中，等待著從黑暗中現身的時刻，並把活物帶到神秘的地方去。
+這些招式讓幽靈屬性的寶可夢得以隨意出沒並襲擾他人，使受害者受到長時間的折磨。
+很多人會提到他們在醒來後發現身上多了新的傷口、疤痕、或感覺到有某種詭異的存在跟蹤著他們──那多半是這些小搗蛋鬼在作祟。
+效果絕佳:
+Ghost, Psychic
+效果不好:
+Dark
+沒有效果:
+Normal
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item><item><title>旅途中的道具</title><link>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/items-for-the-journey/</guid><description>訓練家的基礎 獨自在荒野中旅行是相當辛苦的。你的寶可夢夥伴會保護你的安全，但牠們沒有辦法讓你過得更舒適。大多數時候，你會需要睡在岩石床上，並徒步行走數百公里的路途。
 認真的訓練家會需要攜帶道具以幫助他們達成自己的目標，同時減輕他們在旅途中可能會遭遇的不便。
 每個訓練家都應該隨時備有這些道具：
