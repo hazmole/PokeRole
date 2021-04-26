@@ -1,7 +1,6 @@
 +++
 title = "草屬性"
 weight = 10
-draft=true
 +++
 
 # 草屬性

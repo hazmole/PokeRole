@@ -972,7 +972,16 @@ To create and train your Pokémon you’ll need to check its Pokédex entry, Abi
 Now, this might seem like a lot of information to take in.</description></item><item><title>常見問題</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/</guid><description>經常被詢問的問題 我可以對隊友使用以敵人做為目標的招式嗎？ 可以。儘管這種情況相當罕見，但有時候它仍值得一試，比如說使用虛張聲勢、或對擁有「蓄電」特性的寶可夢使用電屬性招式。
 我的寶可夢可以對自己使用以同伴或敵人為目標的招式嗎？ 不行。大部分以隊友或敵人為目標的招式就是不可能作用在使用者自己身上，比如說你先請或幫助，你需要另一個目標才能從這個招式中受益。或者，假如你是想讓寶可夢用自己的招式攻擊自己？可別指望你的寶可夢會聽從這個命令。
 「脫離範圍」是什麼意思？ What’s the meaning of “Out of Range”? Some moves like Fly or Dig take the Pokémon out of range of the fight. When a Pokémon is out of range, it is unaffected by attacks and Moves of any kind. As always, there may be exceptions depending on the situation.
-If my Pokémon moves away during its turn, is it still in range of the foe?</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
+If my Pokémon moves away during its turn, is it still in range of the foe?</description></item><item><title>草屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-grass/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-grass/</guid><description>草屬性 草屬性寶可夢是安詳寧靜的生物，習慣於忍受嚴酷的環境。
+牠們的招式運用牠們體內的能量來提供庇護、攻擊敵人、以及躲避天敵的追捕。牠們的能力因其能彷彿吸收陽光一樣汲取牠們敵人的能量而聞名。除此之外，草屬性的招式也會透過藤蔓、孢子、或沁人心脾的香氣來牽制敵人。
+這些花朵們可不喜歡自己的花瓣被隨意觸碰。
+效果絕佳:
+Ground, Rock, Water
+效果不好:
+Bug, Dragon, Fire, Flying, Grass, Poison, Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
 Always consider the Ability of your Pokémon to aid you in any situation.
 Sometimes Pokémon have more than one ability to choose from, outside of battle they can be used at will.
 At the beginning of a battle, you must inform your storyteller which Ability your Pokemon will use.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
