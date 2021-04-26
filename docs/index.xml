@@ -981,6 +981,17 @@ Ground, Rock, Water
 Bug, Dragon, Fire, Flying, Grass, Poison, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>地面屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-ground/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-ground/</guid><description>地面屬性 地面屬性的寶可夢是頑強又孤獨的生物。牠們的招式能夠控制戰場，透過大範圍的攻擊和場地招式來阻止大部分的敵人、或造成嚴重的傷害。
+這些力量能夠減緩大多數追擊者的速度、陷困任何毫無戒心的旅行者、並切斷能保全寶可夢安危的退路。
+注意你的腳下，地面系寶可夢就像是一顆會行走的地雷。
+效果絕佳:
+Electric, Fire, Poison, Rock, Steel
+效果不好:
+Bug, Grass
+沒有效果:
+Flying
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
 Always consider the Ability of your Pokémon to aid you in any situation.
 Sometimes Pokémon have more than one ability to choose from, outside of battle they can be used at will.
