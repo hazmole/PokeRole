@@ -23,6 +23,8 @@ weight = 1
 {{< script "moves-grass.js" >}}
 {{< script "moves-ground.js" >}}
 
+{{< script "moves-poison.js" >}}
+
 <script type="text/javascript">
   var SearchType="Move";
   window.addEventListener("parsePage", ()=>{

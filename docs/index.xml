@@ -995,7 +995,17 @@ TocInjector.parsePage("Move");
 });</description></item><item><title>寶可夢特性</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-abilities/</guid><description>Pokemon Abilities Along with their amazing powers, Pokémon are born with special Abilities that define their species. These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
 Always consider the Ability of your Pokémon to aid you in any situation.
 Sometimes Pokémon have more than one ability to choose from, outside of battle they can be used at will.
-At the beginning of a battle, you must inform your storyteller which Ability your Pokemon will use.</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
+At the beginning of a battle, you must inform your storyteller which Ability your Pokemon will use.</description></item><item><title>毒屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-poison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-poison/</guid><description>毒屬性 毒屬性寶可夢特別擅長於透過牠們的攻擊散佈汙染和疾病。這些寶可夢在野外極度危險，也是你之所以能在森林中或遠離道路之地仍能找到寶可夢中心的主要原因。
+毒屬性寶可夢能夠使其他寶可夢退卻、毒害河川、或是在幾天之內就把環境摧殘殆盡。你或許能夠打敗寶可夢，但你能夠戰勝毒素嗎？
+效果絕佳:
+Fairy, Grass
+效果不好:
+Ghost, Ground, Poison, Rock
+沒有效果:
+Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
 2. 發揮你的優勢 除了屬性優勢之外，也要考慮你的寶可夢擅長什麼，並思考如何運用這些優勢來幫助自己占上風。
 3. 利用或創造弱點 如果敵人太過強壯或快速，你會用什麼來反擊？也許敵人使用了一個低命中率的招式可以讓你加以閃避，而善用能降低敵人特質的特性也肯定能夠妨礙對手的表現。
 4. 瞭解你的招式 瞭解你經常使用的招式的威力、命中、與效果，能讓你更容易將其發揮到最大化。

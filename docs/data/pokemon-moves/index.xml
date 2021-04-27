@@ -117,4 +117,14 @@ Bug, Grass
 Flying
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>毒屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-poison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-poison/</guid><description>毒屬性 毒屬性寶可夢特別擅長於透過牠們的攻擊散佈汙染和疾病。這些寶可夢在野外極度危險，也是你之所以能在森林中或遠離道路之地仍能找到寶可夢中心的主要原因。
+毒屬性寶可夢能夠使其他寶可夢退卻、毒害河川、或是在幾天之內就把環境摧殘殆盡。你或許能夠打敗寶可夢，但你能夠戰勝毒素嗎？
+效果絕佳:
+Fairy, Grass
+效果不好:
+Ghost, Ground, Poison, Rock
+沒有效果:
+Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item></channel></rss>
