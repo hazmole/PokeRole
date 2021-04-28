@@ -470,7 +470,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "連續行動。最後一下踢擊的傷害骰池將額外增加 1 顆骰子。",
+		"effect": "連續行動。若使用者前一次的踢擊命中，則這一次踢擊的傷害骰池將額外增加 1 顆骰子。",
 		"desc": "使用者使出三次或更多的強力踢擊，最後一記踢擊的力度最強。"
 	},
 	{
