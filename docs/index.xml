@@ -1014,6 +1014,15 @@ Ghost, Ground, Poison, Rock
 Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>岩石屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-rock/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-rock/</guid><description>岩石屬性 岩石屬性的寶可夢就如同牠們棲息的山脈一樣堅韌結實。這些寶可夢是荒野中的資深老將，身上的裂痕彷彿傷疤，被附近的生物尊敬或懼怕著。
+岩石屬性的招式通常緩慢但極度強大，能夠將任何敵人壓垮在落石之中。遠距離的物理攻擊尤其是他們的專長。
+如果你夠勇敢去面對這群頑石，等待著你的或許無異於全速撞上磚牆。
+效果絕佳:
+Bug, Fire, Flying, Ice
+效果不好:
+Fight, Ground, Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。
 2. 發揮你的優勢 除了屬性優勢之外，也要考慮你的寶可夢擅長什麼，並思考如何運用這些優勢來幫助自己占上風。
 3. 利用或創造弱點 如果敵人太過強壯或快速，你會用什麼來反擊？也許敵人使用了一個低命中率的招式可以讓你加以閃避，而善用能降低敵人特質的特性也肯定能夠妨礙對手的表現。

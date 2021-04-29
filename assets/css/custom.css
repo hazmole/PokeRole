@@ -180,6 +180,7 @@
 .MoveHeader .power{ 
     margin: .05rem; padding: 0 1rem;
     line-height: 3rem;
+    min-width: 90px;
     background: rgba(0,0,0,.4); color: #fff;
     font-size: 1.1rem;
     font-weight: bold;
