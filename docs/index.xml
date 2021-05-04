@@ -1014,6 +1014,16 @@ Ghost, Ground, Poison, Rock
 Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>超能力屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-psychic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-psychic/</guid><description>超能力屬性 超能力屬性寶可夢都是聰明伶俐的生物，一些比較罕見的物種甚至可能擁有與人類相近的智力。儘管如此，這些寶可夢仍然被相當程度的誤解了。牠們能透過意念來控制物質、能量、以及其他生物的思想。由於牠們強大的思想，牠們鮮少會服從人類的命令。
+超能力屬性的招式能夠凝視未來、使用精神衝擊波攻擊、使敵人混亂、並耍弄那些脆弱的心智。
+效果絕佳:
+Fight, Poison
+效果不好:
+Psychic, Steel
+沒有效果:
+Dark
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
 });</description></item><item><title>岩石屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-rock/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-rock/</guid><description>岩石屬性 岩石屬性的寶可夢就如同牠們棲息的山脈一樣堅韌結實。這些寶可夢是荒野中的資深老將，身上的裂痕彷彿傷疤，被附近的生物尊敬或懼怕著。
 岩石屬性的招式通常緩慢但極度強大，能夠將任何敵人壓垮在落石之中。遠距離的物理攻擊尤其是他們的專長。
 如果你夠勇敢去面對這群頑石，等待著你的或許無異於全速撞上磚牆。
@@ -1021,6 +1031,15 @@ TocInjector.parsePage("Move");
 Bug, Fire, Flying, Ice
 效果不好:
 Fight, Ground, Steel
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Move");
+});</description></item><item><title>水屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-water/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-water/</guid><description>水屬性 水屬性的寶可夢既常見又危險，而當你在開放海域或大洋深處面對牠們尤其如此。幸運的是，其中一部分的物種相當容易馴服，且能提供很好的保護能力。
+水屬性招式的運作方式與火屬性招式截然相反，但它們同樣都具有強大的毀滅潛力。水屬性的攻擊能夠產生出足以掃平人類和寶可夢家園的洪水。有些水屬性的寶可夢由於無法離開水中呼吸，因此不能在陸地上生活。
+無論牠們在什麼時候投入戰鬥，善加利用牠們。
+效果絕佳:
+Fire, Ground, Rock
+效果不好:
+Dragon, Grass, Water
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
 });</description></item><item><title>總結</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/</guid><description>總結 邁向成功戰鬥的 10 個訣竅 1. 訓練你的寶可夢 透過訓練，你可以嘗試構築不同的屬性、技能、與招式，並找到強大的組合。如果你想要成為一名傑出的訓練師，那麼你會需要強大的寶可夢。

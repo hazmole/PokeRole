@@ -1,7 +1,6 @@
 +++
 title = "超能力屬性"
 weight = 14
-draft=true
 +++
 
 # 超能力屬性

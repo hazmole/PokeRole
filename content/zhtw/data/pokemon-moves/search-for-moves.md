@@ -25,6 +25,7 @@ weight = 1
 {{< script "moves-ice.js" >}}
 {{< script "moves-poison.js" >}}
 {{< script "moves-rock.js" >}}
+{{< script "moves-water.js" >}}
 
 <script type="text/javascript">
   var SearchType="Move";
