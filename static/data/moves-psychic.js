@@ -3,7 +3,7 @@ if(!MoveList) MoveList = [];
 
 Array.prototype.push.apply(MoveList, [
 	{
-		"name": "高速移動", "alias": "こうそくいどう	Agility",
+		"name": "高速移動", "alias": "こうそくいどう|Agility",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -14,7 +14,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "交換場地", "alias": "サイドチェンジ	Ally Switch",
+		"name": "交換場地", "alias": "サイドチェンジ|Ally Switch",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -25,7 +25,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "瞬間失憶", "alias": "ドわすれ	Amnesia",
+		"name": "瞬間失憶", "alias": "ドわすれ|Amnesia",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -36,7 +36,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "屏障", "alias": "バリアー	Barrier",
+		"name": "屏障", "alias": "バリアー|Barrier",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -47,7 +47,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "冥想", "alias": "",
+		"name": "冥想", "alias": "めいそう|Calm Mind",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -58,7 +58,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "念力", "alias": "",
+		"name": "念力", "alias": "ねんりき|Confusion",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -69,7 +69,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "宇宙力量", "alias": "",
+		"name": "宇宙力量", "alias": "コスモパワー|Cosmic Power",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -80,7 +80,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "食夢", "alias": "",
+		"name": "食夢", "alias": "ゆめくい|Dream Eater",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -91,7 +91,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "神通力", "alias": "",
+		"name": "神通力", "alias": "じんつうりき|Extrasensory",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -102,7 +102,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "預知未來", "alias": "",
+		"name": "預知未來", "alias": "みらいよち|Future Sight",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -113,7 +113,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "嘩嘩氣場", "alias": "",
+		"name": "嘩嘩氣場", "alias": "どばどばオーラ|Glitzy Glow",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -124,7 +124,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "重力", "alias": "",
+		"name": "重力", "alias": "じゅうりょく|Gravity",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -135,7 +135,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "防守平分", "alias": "",
+		"name": "防守平分", "alias": "ガードシェア|Guard Split",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -146,7 +146,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "防守互換", "alias": "",
+		"name": "防守互換", "alias": "ガードスワップ|Guard Swap",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -157,7 +157,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "回復封鎖", "alias": "",
+		"name": "回復封鎖", "alias": "かいふくふうじ|Heal Block",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -168,7 +168,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "治癒波動", "alias": "",
+		"name": "治癒波動", "alias": "いやしのはどう|Heal Pulse",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -179,7 +179,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "治癒之願", "alias": "",
+		"name": "治癒之願", "alias": "いやしのねがい|Healing Wish",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -190,7 +190,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "愛心印章", "alias": "",
+		"name": "愛心印章", "alias": "ハートスタンプ|Heart Stamp",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -201,7 +201,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "心靈互換", "alias": "",
+		"name": "心靈互換", "alias": "ハートスワップ|Heart Swap",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -212,7 +212,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "異次元洞", "alias": "",
+		"name": "異次元洞", "alias": "いじげんホール|Hyperspace Hole|",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -223,7 +223,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "催眠術", "alias": "",
+		"name": "催眠術", "alias": "さいみんじゅつ|Hypnosis",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -234,7 +234,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "封印", "alias": "",
+		"name": "封印", "alias": "ふういん|Imprison",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -245,7 +245,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "號令", "alias": "",
+		"name": "號令", "alias": "さいはい|Instruct",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -256,7 +256,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "折彎湯匙", "alias": "",
+		"name": "折彎湯匙", "alias": "スプーンまげ|Kinesis",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -267,7 +267,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "光牆", "alias": "",
+		"name": "光牆", "alias": "ひかりのかべ|Light Screen",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -278,7 +278,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "新月舞", "alias": "",
+		"name": "新月舞", "alias": "みかづきのまい|Lunar Dance",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -289,7 +289,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "潔淨光芒", "alias": "",
+		"name": "潔淨光芒", "alias": "ラスターパージ|Luster Purge",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -300,7 +300,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "魔法反射", "alias": "",
+		"name": "魔法反射", "alias": "マジックコート|Magic Coat",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -311,7 +311,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "魔法粉", "alias": "",
+		"name": "魔法粉", "alias": "まほうのこな|Magic Powder",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -322,7 +322,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "魔法空間", "alias": "",
+		"name": "魔法空間", "alias": "マジックルーム|Magic Room",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -333,7 +333,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "瑜珈姿勢", "alias": "",
+		"name": "瑜伽姿勢", "alias": "ヨガのポーズ|Meditate",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -344,7 +344,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "奇蹟之眼", "alias": "",
+		"name": "奇跡之眼", "alias": "ミラクルアイ|Miracle Eye",
 		"power": "",
 		"category": "",
 		"type": "Psychic",
@@ -355,333 +355,333 @@ Array.prototype.push.apply(MoveList, [
 		"desc": ""
 	},
 	{
-		"name": "鏡面反射", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "鏡面反射", "alias": "ミラーコート|Mirror Coat",
+		"power": "*",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "不定",
+		"effect": "這個招式只有在敵人剛使用過特殊攻擊後才會生效。這個招式的傷害骰池等同於你敵人最後使用的傷害骰池再額外增加 2 顆骰子。無視敵人的防禦。",
+		"desc": "使用者偏折引導受到的能量傷害，並朝著其源頭反射回去。"
 	},
 	{
-		"name": "薄霧球", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "薄霧球", "alias": "ミストボール|Mist Ball",
+		"power": "2",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "dice|l|5", "frame|target|特殊|down|1"],
+		"accuracy": "特殊 + 導引",
+		"damage": "特殊 + 2",
+		"effect": "骰 5 顆機率骰以降低敵人的特殊。這個效果可以在每個目標身上疊加最多三次。",
+		"desc": "使用者用厚重的濃霧淹沒敵人，這股柔順的迷霧將阻止邪念從敵人的心底浮現。"
 	},
 	{
-		"name": "光子噴湧", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "光子噴涌", "alias": "フォトンゲイザー|Photon Geyser",
+		"power": "4",
+		"category": "hybrid",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "力量/特殊 + 4",
+		"effect": "這個招式的傷害骰池可以使用力量或特殊特質，並分別造成物理或特殊傷害。由使用者選擇。",
+		"desc": "寶可夢透過出現在敵人位置的巨大光柱進行攻擊，無論是它熾烈的能量或強勁的衝擊都足以擊倒任何人。"
 	},
 	{
-		"name": "力量平分", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "力量平分", "alias": "パワーシェア|Power Split",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "將使用者的力量和特殊特質各自與敵人相加後取平均。",
+		"desc": "使用者施展超能力均分自己與敵人的力量。雙方將會覺得彼此有著相同的力量。"
 	},
 	{
-		"name": "力量互換", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "力量互換", "alias": "パワースワップ|Power Swap",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "將你的力量和特殊特質和敵人交換。",
+		"desc": "寶可夢施展超能力，讓對手覺得自己變得跟你一樣虛弱，而讓使用者覺得自己得到了目標的力量。"
 	},
 	{
-		"name": "力量戲法", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "力量戲法", "alias": "パワートリック|Power Trick",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "將使用者的力量和防禦交換，特殊和特防交換。",
+		"desc": "使用者愚弄自己的心靈，使自己相信自己的力量來自身體活力，而體質就等同於自己的力量。"
 	},
 	{
-		"name": "稜鏡鐳射", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "稜鏡鐳射", "alias": "プリズムレーザー|Prismatic Laser",
+		"power": "6",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "effect|l|lethal", "effect|l|recharge"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 6",
+		"effect": "必須重新充能。致命傷害。",
+		"desc": "透過稜鏡，使用者發射出能夠射穿任何一切的強聚雷射光束。這個行動將會讓使用者的精神耗弱。"
 	},
 	{
-		"name": "幻象光線", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "幻象光線", "alias": "サイケこうせん|Psybeam",
+		"power": "2",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|confuse||number|d1"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 2",
+		"effect": "骰 1 顆機率骰以使敵人陷入「混亂」狀態。",
+		"desc": "以一道能夠直擊目標心靈的精神能量光束發動攻擊。"
 	},
 	{
-		"name": "幻象光線", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神強念", "alias": "サイコキネシス|Psychic",
+		"power": "3",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "dice|l|1", "frame|target|特防|down|1"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 3",
+		"effect": "骰 1 顆機率骰以降低敵人的特防。",
+		"desc": "使用者的念動力足以對目標造成嚴重傷害，這道精神念力可不怎麼纖細。"
 	},
 	{
-		"name": "精神之牙", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神之牙", "alias": "サイコファング|Psychic Fangs",
+		"power": "3",
+		"category": "physical",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3",
+		"effect": "如果敵方設有任何屏障（像是〈光牆〉、〈反射壁〉），摧毀屏障。",
+		"desc": "寶可夢露出獠牙咬向敵人，精神能量將在獠牙觸碰到物體之前率先貫穿它。"
 	},
 	{
-		"name": "精神場地", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神場地", "alias": "サイコフィールド|Psychic Terrain",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "在接下來 4 輪中，所有超能力屬性攻擊的傷害骰池都將額外增加 1 顆骰子。任何站在戰場上的生物都將無法使用先制招式。",
+		"desc": "戰場開始輻射出精神波動。所有人都將因為腦內的雜訊而變得思考遲鈍，所有行動都將花費更多的時間。"
 	},
 	{
-		"name": "精神突進", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神突進", "alias": "サイコブースト|Psycho Boost",
+		"power": "6",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|lethal", "frame|self|特殊|down|2"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 6",
+		"effect": "致命傷害。降低使用者的特殊。",
+		"desc": "寶可夢將自己所有的匯聚集中的精神能量並釋放出一陣毀滅性的爆炸，使用者在這之後將會感到極度疲憊。"
 	},
 	{
-		"name": "精神利刃", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神利刃", "alias": "サイコカッター|Psycho Cut",
+		"power": "3",
+		"category": "physical",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "effect|l|crit"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3",
+		"effect": "容易擊中要害。",
+		"desc": "創造出精神能量的利刃來將敵人一刀兩斷。"
 	},
 	{
-		"name": "精神轉移", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神轉移", "alias": "サイコシフト|Psycho Shift",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "聰明 + 導引",
+		"damage": "-",
+		"effect": "將使用者身上的異常狀態轉移到目標身上。使用者將因此解除所有的異常狀態。",
+		"desc": "用超能力施加暗示，目標將感覺自己被使用者身上的異常狀態給折磨。"
 	},
 	{
-		"name": "精神衝擊", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神衝擊", "alias": "サイコショック|Psyshock",
+		"power": "3",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 3",
+		"effect": "在抵抗這個招式的傷害時，使用敵人的防禦來取代敵人的特防。",
+		"desc": "將精神波動實體化後，以真實物理衝擊來推撞目標。"
 	},
 	{
-		"name": "精神擊破", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神擊破", "alias": "サイコブレイク|Psystrike",
+		"power": "4",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 4",
+		"effect": "在抵抗這個招式的傷害時，使用敵人的防禦來取代敵人的特防。",
+		"desc": "透過純粹的超能力，使用者將牠的能量實體化後對目標進行強力打擊。"
 	},
 	{
-		"name": "精神波", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "精神波", "alias": "サイコウェーブ|Psywave",
+		"power": "*",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "洞察 + 導引",
+		"damage": "不定",
+		"effect": "根據使用者的階級決定這個招式的傷害骰池：新手 1 顆、初學者 2 顆、業餘者 3 顆、菁英 4 顆、專家為 5 顆。這個招式無視敵人的防禦。",
+		"desc": "釋放出心靈的內在能量來產生出能夠傷害目標的精神波。"
 	},
 	{
-		"name": "反射壁", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "反射壁", "alias": "リフレクター|Reflect",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "frame|self|受傷|minus|1"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "物理攻擊對使用者和所有隊友造成的傷害將減少 1 點，持續 4 輪。",
+		"desc": "使用者將其精神能量釋放到這個世界，創造出隱形的牆壁和地面來阻擋物質穿越。"
 	},
 	{
-		"name": "睡覺", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "睡覺", "alias": "ねむる|Rest",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|sleep||always", "effect|l|c_heal"],
+		"accuracy": "活力 + 自然",
+		"damage": "-",
+		"effect": "強效治癒。若成功，則消耗 1 點意志點以使其生效。使用者將陷入「沉睡」狀態並持續一整個戰鬥輪的時間（從戰鬥輪開始到結束）。",
+		"desc": "使用者陷入沉睡。在這段期間內，牠的身體將處於超高速自癒的狀態。"
 	},
 	{
-		"name": "扮演", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "扮演", "alias": "なりきり|Role Play",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "聰明 + 表演",
+		"damage": "-",
+		"effect": "複製目標的特性。下列特性無法被複製：花之禮、幻覺、變身者、戰鬥切換、神奇守護、以及其他與形態變化有關的特性。",
+		"desc": "使用者模仿目標，並從牠的角色上獲得大部分的基礎特性。"
 	},
 	{
-		"name": "特性互換", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "特性互換", "alias": "スキルスワップ|Skill Swap",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "聰明 + 表演",
+		"damage": "-",
+		"effect": "與敵人交換彼此的特性。下列特性無法被交換：花之禮、幻覺、變身者、戰鬥切換、神奇守護、以及其他與形態變化有關的特性。",
+		"desc": "使用者和目標互換身分，使雙方都覺得自己變成了對方的同類。"
 	},
 	{
-		"name": "速度互換", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "速度互換", "alias": "スピードスワップ|Speed Swap",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "將你的靈巧特質和敵人交換。",
+		"desc": "寶可夢施展牠的超能力使對手對週遭事物發生速度的感覺變得更快或更慢，取決於使用者的速度。"
 	},
 	{
-		"name": "輔助力量", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "輔助力量", "alias": "アシストパワー|Stored Power",
+		"power": "1*",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 導引",
+		"damage": "特殊 + 1*",
+		"effect": "使用者身上的每一點特質增益都將使這個招式的傷害骰池額外增加 1 顆骰子。你最多可以透過這個方式增加 7 顆骰子。（例如：皮皮的防禦和特防各增加了 1 點，則這個招式的傷害骰池將因此 +2 骰子）",
+		"desc": "這個招式能讓使用者釋放出自己的力量，如果使用者擁有任何強化，這個招式的傷害也將隨之增加。"
 	},
 	{
-		"name": "同步干擾", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "同步干擾", "alias": "シンクロノイズ|Synchronoise",
+		"power": "5",
+		"category": "special",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|area", "effect|l|sound"],
+		"accuracy": "特殊 + 表演",
+		"damage": "特殊 + 5",
+		"effect": "範圍攻擊。聲音類招式。選擇一個屬性（火、毒、鋼等等），這個招式只會影響該屬性的目標。",
+		"desc": "使用者讓特定屬性的能量開始振動共鳴，周遭所有該屬性的生物和物體都將受到傷害。"
 	},
 	{
-		"name": "意念移物", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "意念移物", "alias": "テレキネシス|Telekinesis",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "所有對目標進行的攻擊都將獲得「必中」效果。目標將免疫於地面屬性招式的影響。持續 2 輪。",
+		"desc": "使用者能夠透過意念來操控物體和生物，寶可夢和人類因為移動受限而變得容易被擊中。"
 	},
 	{
-		"name": "瞬間移動", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "瞬間移動", "alias": "テレポート|Teleport",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "若在野外使用，則戰鬥直接結束。若在正式對戰中使用，則視為該寶可夢被換下場。瞬間移動的距離取決於特殊特質的數值以及說書人的裁斷。",
+		"desc": "將使用者和一個生物傳送到一處安寧且與超能力高度共振的場所，比如寶可夢中心。天花板和牆壁會阻礙這個招式的效果"
 	},
 	{
-		"name": "戲法", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "戲法", "alias": "トリック|Trick",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "特殊 + 誘惑",
+		"damage": "-",
+		"effect": "敵人和使用者互換彼此的持有道具。",
+		"desc": "控制目標的思想來完成一件無害的行為，比如說四處走動或交出道具。"
 	},
 	{
-		"name": "戲法空間", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "戲法空間", "alias": "トリックルーム|Trick Room",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "反轉先攻的順序。持續 4 輪。",
+		"desc": "這個能扭轉現實的招式可以操控時間，讓緩慢的生物變得迅速，迅速的生物變得遲緩。"
 	},
 	{
-		"name": "奇妙空間", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "奇妙空間", "alias": "ワンダールーム|Wonder Room",
+		"power": "-",
+		"category": "support",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "防禦和特防將會使用洞察特質來計算，而非活力特質。持續 4 輪。",
+		"desc": "在奇妙空間內，強健的心智會造就強健的肉體，且堅韌的肉體也將產生堅韌的意志。然而，如果心智薄弱，那麼肉體也會跟著虛弱，反之亦然。"
 	},
 	{
-		"name": "意念頭槌", "alias": "",
-		"power": "",
-		"category": "",
+		"name": "意念頭錘", "alias": "しねんのずつき|Zen Headbutt",
+		"power": "3",
+		"category": "physical",
 		"type": "Psychic",
-		"tags": ["target|l|"],
-		"accuracy": " + ",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "frame|flinch||number|d3"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3",
+		"effect": "骰 3 顆機率骰以使敵人陷入「畏縮」狀態。",
+		"desc": "使用者將意志力匯聚在自己頭上並用頭錘發動攻擊。"
 	}
 ]);
