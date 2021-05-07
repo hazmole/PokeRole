@@ -24,6 +24,7 @@ weight = 1
 {{< script "moves-ground.js" >}}
 {{< script "moves-ice.js" >}}
 {{< script "moves-poison.js" >}}
+{{< script "moves-psychic.js" >}}
 {{< script "moves-rock.js" >}}
 {{< script "moves-water.js" >}}
 

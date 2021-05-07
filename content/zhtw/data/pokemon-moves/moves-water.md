@@ -1,6 +1,6 @@
 +++
 title = "水屬性"
-weight = 16
+weight = 17
 +++
 
 # 水屬性
