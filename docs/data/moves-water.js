@@ -338,7 +338,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|priority||up|1", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "特殊 + 1",
-		"effect": "遠程招式。先制招式。連續行動。",
+		"effect": "遠程攻擊。先制招式。連續行動。",
 		"desc": "寶可夢快速地投擲出手裡劍形狀的鋒利水流。"
 	},
 	{

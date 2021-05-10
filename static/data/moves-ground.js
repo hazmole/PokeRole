@@ -32,7 +32,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_2"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。雙重行動。",
+		"effect": "遠程攻擊。雙重行動。",
 		"desc": "寶可夢扔出一根骨頭擊打敵人。骨頭像會像回力鏢一樣，攻擊兩次。"
 	},
 	{
@@ -87,7 +87,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|area"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 4",
-		"effect": "範圍攻擊。遠程招式。",
+		"effect": "範圍攻擊。遠程攻擊。",
 		"desc": "寶可夢集中力量震動地面，周圍的所有人都會像布娃娃一樣搖搖晃晃。"
 	},
 	{
@@ -119,7 +119,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|allfoe", "effect|l|lethal"],
 		"accuracy": "力量 + 導引",
 		"damage": "力量 + 3",
-		"effect": "致命傷害。遠程招式。以所有範圍內的敵人為目標。",
+		"effect": "致命傷害。遠程攻擊。以所有範圍內的敵人為目標。",
 		"desc": "視野內沒有攻擊者，大地卻自己震動起來。地層崩塌，地表塌陷吞噬它的受害者。廢墟之中，茂盛的大樹會在短時間之後長成。"
 	},
 	{
@@ -130,7 +130,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|area"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 不定",
-		"effect": "遠程招式。骰 1 顆骰子來決定這個招式的威力。",
+		"effect": "遠程攻擊。骰 1 顆骰子來決定這個招式的威力。",
 		"desc": "使用者震動那裡的地面板塊。有些板塊會比其他板塊更容易鬆動。"
 	},
 	{
@@ -185,7 +185,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|allfoe", "frame|accuracy||down|2", "effect|l|lethal"],
 		"accuracy": "力量 + 導引",
 		"damage": "力量 + 5",
-		"effect": "致命傷害。遠程招式。",
+		"effect": "致命傷害。遠程攻擊。",
 		"desc": "使用者每走一步，就會有巨大的石刃從地面迸出。如果你不小心被命中，那幾乎不可能存活下來。"
 	},
 	{
@@ -218,7 +218,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|2", "effect|l|block"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。阻擋。每個戰鬥輪結束時，骰 2 顆傷害骰以對敵人造成傷害。持續 4 輪。",
+		"effect": "遠程攻擊。阻擋。每個戰鬥輪結束時，骰 2 顆傷害骰以對敵人造成傷害。持續 4 輪。",
 		"desc": "寶可夢在敵人周圍製造一個流沙坑，使牠無法逃脫。"
 	},
 	{
@@ -262,7 +262,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|allfoe", "effect|l|lethal"],
 		"accuracy": "力量 + 導引",
 		"damage": "力量 + 3",
-		"effect": "致命傷害。遠程招式。若成功，在這個場景期間，飛行屬性或飄浮特性的寶可夢將能夠被地面屬性的招式命中。",
+		"effect": "致命傷害。遠程攻擊。若成功，在這個場景期間，飛行屬性或飄浮特性的寶可夢將能夠被地面屬性的招式命中。",
 		"desc": "不知從何處射出的密密麻麻的尖銳碎片，從空中朝著敵人們如雨般落下，就算是在空中的生物們在被擊中後也會摔落到地面上。找個掩護吧，這還挺疼的。"
 	},
 	{
@@ -273,7 +273,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|allfoe", "effect|l|block"],
 		"accuracy": "特殊 + 鬥毆",
 		"damage": "力量 + 3",
-		"effect": "阻擋。遠程招式。以所有範圍內的敵人為目標。",
+		"effect": "阻擋。遠程攻擊。以所有範圍內的敵人為目標。",
 		"desc": "固體地表化成了流沙，裂開的土壤逐步接近並拉住你的腿，就彷彿這片大地本身想要困住你一樣。視線內完全看不見攻擊者或任何的逃跑路線。"
 	}
 ]);

@@ -65,7 +65,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|charge", "frame|priority||down|3", "frame|burn2||always"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 4",
-		"effect": "遠程招式。蓄力招式。後制招式。如果使用者在這個招式蓄力期間被非遠程的物理攻擊給命中，則敵人將陷入「灼傷 2 級」狀態。",
+		"effect": "遠程攻擊。蓄力招式。後制招式。如果使用者在這個招式蓄力期間被非遠程的物理攻擊給命中，則敵人將陷入「灼傷 2 級」狀態。",
 		"desc": "寶可夢準備用牠的鳥喙釋放出一陣滾燙的氣流。這發加農炮在發射時的爆破聲就彷彿火車的汽笛。"
 	},
 	{

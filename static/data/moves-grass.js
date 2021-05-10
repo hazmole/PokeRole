@@ -53,7 +53,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "遠程招式。連續行動。",
+		"effect": "遠程攻擊。連續行動。",
 		"desc": "寶可夢迅速地射出種子，就彷彿它們是子彈一樣。"
 	},
 	{
@@ -185,7 +185,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|target|防禦|down|1"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 3",
-		"effect": "遠程招式。降低敵人的防禦。",
+		"effect": "遠程攻擊。降低敵人的防禦。",
 		"desc": "寶可夢飛到敵人的正上方並朝牠的頭丟下一顆蘋果。敵人會忍不住去吃掉蘋果，在戰鬥中分心。"
 	},
 	{
@@ -251,7 +251,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。",
+		"effect": "遠程攻擊。",
 		"desc": "使用者向敵人投擲飛鏢一般的樹葉。"
 	},
 	{
@@ -338,7 +338,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|allfoe", "effect|l|crit"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "以所有範圍內的敵人為目標。遠程招式。容易擊中要害。",
+		"effect": "以所有範圍內的敵人為目標。遠程攻擊。容易擊中要害。",
 		"desc": "寶可夢射出一片或更多的鋒利葉片，彷彿飛刀一樣把所有的目標都切開。"
 	},
 	{
@@ -360,7 +360,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 3",
-		"effect": "遠程招式。",
+		"effect": "遠程攻擊。",
 		"desc": "使用者丟出一顆大型的種子，會在接觸到敵人時爆炸。"
 	},
 	{

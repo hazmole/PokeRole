@@ -32,7 +32,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|allfoe", "dice|l|5", "frame|self|防禦|up|2"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 4",
-		"effect": "遠程招式。骰 5 顆機率骰以提升使用者的防禦。",
+		"effect": "遠程攻擊。骰 5 顆機率骰以提升使用者的防禦。",
 		"desc": "寶可夢召喚出席捲整個戰場的鑽石風暴，這些鑽石同時能做為屏障為使用者提供掩護。"
 	},
 	{
@@ -64,7 +64,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "遠程招式。連續行動。",
+		"effect": "遠程攻擊。連續行動。",
 		"desc": "寶可夢噴射出小巧石塊，會在接觸到敵人時爆破成碎片。"
 	},
 	{
@@ -97,7 +97,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。",
+		"effect": "遠程攻擊。",
 		"desc": "使用者撿起岩石或石頭並丟向敵人。"
 	},
 	{
@@ -108,7 +108,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "frame|target|靈巧|down|1"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。降低敵人的靈巧。",
+		"effect": "遠程攻擊。降低敵人的靈巧。",
 		"desc": "寶可夢將使敵人埋進石頭和岩石中，使牠無法任意行動。"
 	},
 	{
@@ -119,7 +119,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|lethal", "effect|l|recharge"],
 		"accuracy": "力量 + 導引",
 		"damage": "力量 + 6",
-		"effect": "遠程招式。必須重新充能。致命傷害。",
+		"effect": "遠程攻擊。必須重新充能。致命傷害。",
 		"desc": "使用者射出如同砲彈一般，甚至能夠擊穿厚實牆壁的巨大石塊。然而，這個招式將會消耗使用者大量的能量。"
 	},
 	{
@@ -152,7 +152,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。使敵人不再免疫於地面屬性的攻擊。",
+		"effect": "遠程攻擊。使敵人不再免疫於地面屬性的攻擊。",
 		"desc": "使用者扔出物體，通常是沉重的巨岩，來把敵人擊落在地上，讓牠在這之後無法再離開地表。"
 	},
 	{
@@ -174,7 +174,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|2", "effect|l|lethal", "effect|l|crit"],
 		"accuracy": "力量 + 導引",
 		"damage": "力量 + 4",
-		"effect": "遠程招式。致命傷害。容易擊中要害。",
+		"effect": "遠程攻擊。致命傷害。容易擊中要害。",
 		"desc": "使用者將尖銳的岩石砸向敵人。岩石的速度和重量將會造成嚴重的傷害。"
 	},
 	{

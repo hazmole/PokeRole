@@ -109,7 +109,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|2", "frame|poison||number|d3"],
 		"accuracy": "力量 + 鬥毆",
 		"damage": "力量 + 5",
-		"effect": "遠程招式。骰 3 顆機率骰以使敵人陷入「中毒」狀態。",
+		"effect": "遠程攻擊。骰 3 顆機率骰以使敵人陷入「中毒」狀態。",
 		"desc": "寶可夢自己製造出最具毒性的物質來射出一連串帶有腐蝕性的垃圾。光是聞到臭味就會讓人感到十分不舒服。"
 	},
 	{
@@ -164,7 +164,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|poison||number|d3"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 1",
-		"effect": "遠程招式。骰 3 顆機率骰以使敵人陷入「中毒」狀態。",
+		"effect": "遠程攻擊。骰 3 顆機率骰以使敵人陷入「中毒」狀態。",
 		"desc": "使用者射出細小的針來向對手注入毒素。"
 	},
 	{

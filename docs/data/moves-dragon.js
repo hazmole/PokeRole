@@ -97,7 +97,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|sact_2"],
 		"accuracy": "靈巧 + 導引",
 		"damage": "力量 + 2",
-		"effect": "遠程招式。雙重行動。",
+		"effect": "遠程攻擊。雙重行動。",
 		"desc": "這隻寶可夢的頭部同時也是養育牠族群初生寶可夢的巢穴，這些小傢伙有時會被當作導彈發射出去。"
 	},
 	{

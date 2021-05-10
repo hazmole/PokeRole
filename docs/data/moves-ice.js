@@ -65,7 +65,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|charge", "effect|l|lethal", "frame|paralysis||number|d3"],
 		"accuracy": "特殊 + 導引",
 		"damage": "力量 + 6",
-		"effect": "致命傷害。蓄力招式。遠程招式。骰 3 顆機率骰以使敵人陷入「麻痺」狀態。",
+		"effect": "致命傷害。蓄力招式。遠程攻擊。骰 3 顆機率骰以使敵人陷入「麻痺」狀態。",
 		"desc": "使用者彷彿變成了一大塊冰塊，接著牠伴隨著毀滅性的電流爆發將自己從冰塊中釋放出來。爆發四散的冰塊碎片和強烈閃電遍佈了整個戰場。"
 	},
 	{
@@ -153,7 +153,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|charge", "effect|l|lethal", "frame|burn1||number|d3"],
 		"accuracy": "特殊 + 導引",
 		"damage": "特殊 + 6",
-		"effect": "致命傷害。蓄力招式。遠程招式。骰 3 顆機率骰以使敵人陷入「灼傷 1 級」狀態。",
+		"effect": "致命傷害。蓄力招式。遠程攻擊。骰 3 顆機率骰以使敵人陷入「灼傷 1 級」狀態。",
 		"desc": "使用者彷彿變成了一大塊冰塊，接著牠伴隨著毀滅性的爆炸將自己從冰塊中釋放出來。爆發四散的冰塊碎片和烈火遍佈了整個戰場。"
 	},
 	{
@@ -197,7 +197,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|priority||up|1"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 2",
-		"effect": "先制招式。遠程招式。",
+		"effect": "先制招式。遠程攻擊。",
 		"desc": "使用者瞬間凝結出冰塊並將向目標投擲而出。"
 	},
 	{
@@ -219,7 +219,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "遠程招式。連續行動。",
+		"effect": "遠程攻擊。連續行動。",
 		"desc": "使用者朝著目標發射一波小巧而尖銳的冰錐。"
 	},
 	{

@@ -54,7 +54,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 1",
-		"effect": "遠程招式，連續行動。",
+		"effect": "遠程攻擊，連續行動。",
 		"desc": "寶可夢朝著目標投擲許多的圓形物體，一個接著一個。"
 	},
 	{
@@ -395,7 +395,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe", "frame|accuracy||down|2"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 4",
-		"effect": "遠程招式。",
+		"effect": "遠程攻擊。",
 		"desc": "使用者朝著敵人丟出帶有強大衝擊力的大型蛋。"
 	},
 	{
