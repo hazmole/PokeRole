@@ -6,59 +6,54 @@ description = ""
 ## 經常被詢問的問題
 
 ##### 我可以對隊友使用以敵人做為目標的招式嗎？
-可以。儘管這種情況相當罕見，但有時候它仍值得一試，比如說使用**虛張聲勢**、或對擁有「蓄電」特性的寶可夢使用電屬性招式。
+可以。儘管這種情況相當罕見，但有時候它仍值得一試，比如說使用**〈虛張聲勢〉**、或對擁有「蓄電」特性的寶可夢使用電屬性招式。
 
 ##### 我的寶可夢可以對自己使用以同伴或敵人為目標的招式嗎？
-不行。大部分以隊友或敵人為目標的招式就是不可能作用在使用者自己身上，比如說**你先請**或**幫助**，你需要另一個目標才能從這個招式中受益。或者，假如你是想讓寶可夢用自己的招式攻擊自己？可別指望你的寶可夢會聽從這個命令。
+不行。大部分以隊友或敵人為目標的招式就是不可能作用在使用者自己身上，比如說**〈你先請〉**或**〈幫助〉**，你需要另一個目標才能從這個招式中受益。或者，假如你是想讓寶可夢用自己的招式攻擊自己？可別指望你的寶可夢會聽從這個命令。
 
-##### 「脫離範圍」是什麼意思？ What’s the meaning of “Out of Range”?
-Some  moves  like  Fly  or  Dig  take  the  Pokémon  out  of range of the fight. When a Pokémon is out of range, it is unaffected by attacks and Moves of any kind. As always, there may be exceptions depending on the situation.
+##### 「脫離影響範圍」是什麼意思？
+有些招式，像是〈飛翔〉或〈挖洞〉能讓寶可夢脫離戰鬥的範圍。當寶可夢脫離戰鬥的影響範圍時，牠將不會受到任何類型的攻擊或招式影響。一如既往，根據情境不同仍可能存在例外情況。
 
-##### If my Pokémon moves away during its turn, is it still in range of the foe?
-Yes. Fight’s are not static, people and Pokémon don’t stay rooted the whole scene exchanging blows until someone falls unconscious. Pokémon Battles are dynamic, everyone  is constantly moving even if they’re not explicitly saying so. If you decide to run away, the Battle may end.
+##### 如果我的寶可夢在牠的回合遠離了敵人，那牠還算是在敵人的影響範圍之內嗎？
+是的。戰場並不是靜止不變的，人們和寶可夢並不會整個場景都傻傻站在原地彼此互毆直到某人倒下。相反的，寶可夢對戰是瞬息萬變的，除非另有說明，否則每個人都將不斷地改變位置。如果你決定要遠離敵人並逃之夭夭，那麼戰鬥有可能會就此結束。
 
-##### My  Pokémon  is  able  to  float/fly  is  it  still  affected by Ground-Type Moves?
-If your Pokémon is not Flying-Type or harthe ability Levitate, or any other stated immunity to Ground, it will be affected.
+##### 我的寶可夢能夠漂浮／飛翔，那牠還會受到地面屬性招式的影響嗎？
+如果你的寶可夢不是飛行屬性、沒有「漂浮」特性、也沒有任何能免疫地面屬性招式的效果，那牠就仍然會受到影響。
 
-##### What’s the meaning of “Ready to Fight”?
-When a Pokémon switches in it cannot act until it stays Begining of the next Round.
-At that time, the Pokémon is finally “Ready to Fight” and it can act normally. 
+##### 「在有所準備的狀況下上場」是什麼意思？
+正常來說，當寶可夢被替換上場時，牠將無法採取任何行動，直到下一個戰鬥輪開始。在這時，該寶可夢才算終於「做好準備」，並能夠如常採取行動。
+有些帶有「替換寶可夢」標籤的招式能讓被替換上場的寶可夢能「在有所準備的狀況下上場」，這讓牠可以直接在該戰鬥輪如常採取行動。
 
-##### Can  Protect/Detect/Wide  Guard  and  the  like stack with each other?
-No.
-Some  Moves  are  labeled  as  “Switcher  Moves”  this  allows the next Pokémon you send to switch in “Ready to Fight”.
+##### 如果我的寶可夢陷入瀕死狀態，那我下一隻替換上場的寶可夢會被視作「做好準備」嗎？
+是的。當你的寶可夢陷入瀕死狀態，你的回合也就此結束。你可以在下一個戰鬥輪開始的時候派出你的下一隻寶可夢，而牠也將因此做好戰鬥的準備。
 
+##### 〈守住〉〈看穿〉〈廣域防守〉和其他類似招式的效果可以彼此疊加嗎？
+不行。
 
-##### If my Pokémon fainted, will my next Pokémon be “Ready to Fight”?
-Yes. When your Pokémon faints your turn is over. You may send  your  next  Pokémon  at  the  Beginning  of  the  next Round and it will be Ready to Fight.
+##### 如果我命令我的寶可夢進行攻擊，但敵人使用了先制招式先一步攻擊我的話，我可以把我的命令改成閃避嗎？
+可以，只要你的寶可夢還沒有處理牠原本的行動，你就可以命令牠改為採取閃避、或甚至使用另一個先制招式。
 
-##### If my Pokémon moves away during its turn, is it still in range of the foe?
-Yes. Fight’s are not static, people and Pokémon don’t stay rooted the whole scene exchanging blows until someone falls unconscious. Pokémon Battles are dynamic, everyone  is constantly moving even if they’re not explicitly saying so.
+##### 請問像是〈求雨〉或〈幸運咒語〉這類招式的效果的持續時間有可能被延長嗎？
+可以，根據說書人的判斷。
 
-##### I ordered my Pokémon to attack but the foe used a priority Move to attack me first, can I change the order into an Evasion?
-Yes. As long as your Pokémon wasn’t able to resolve its original action, you may order it to evade or even use another Priority Move.
+##### 我可以疊加寶可夢身上的特質增益嗎？
+招式對同一個特質的增益並不會疊加，而只會取效果最大的增益。
+它們也不會跟攜帶物品帶來的增益疊加，它們只會跟特性帶來的增益互相疊加。
 
-##### Is it possible to extend the duration of effects such as Rain Dance or Lucky Chant?
-Yes, at Storyteller’s discretion.
+##### 我可以提升Z招式、極巨招式、和超極巨招式造成的傷害嗎？
+如果你處於合適的階級，那你可以這麼做。
+但要記住，你每增加一顆傷害骰，都會花費你一個自訂招式效果的額度。
 
-##### Can I stack Attribute Increases on my Pokémon? 
-Moves that increase the same Attribute won’t stack, but take the higher increase into account instead. 
-They don’t stack with Items either, only with Abilities.
+##### 我的寶可夢可以同時擁有Z招式、極巨招式、和超極巨招式嗎？
+這當然是有可能的，但是否能實行仍取決於你說書人的判斷。
 
-##### Can  I  increase  the  Damage  on  Z-Moves,  Max Moves and G-Max Moves? 
-If you are of the appropiate Rank, you may. 
-Take into account that each Damage Dice you increase will cost you an Effect.
+##### 如果我使用了多重行動，那麼我在閃避或對抗時會需要多少顆成功骰？
+你只需要得到與你敵人相同的成功骰即可，無論這是你的第一個、第二個或第五個行動都不會影響「閃避」和「對抗」所需的成功骰。
+然而，由於「閃避」和「對抗」仍會被視作一個行動，因此你的下一個行動將會需要額外的成功骰。
 
-##### Can my Pokémon have Z-Moves, Max Moves and G-Max Moves at the same time? 
-It is certainly possible, but it will be up to your Storyteller.
+##### 請問我有可能在每個戰鬥輪進行好幾次「閃避」嗎？
+只能透過使用〈影子分身〉、〈變小〉或其他類似的招式。
 
-##### If I’m using Multiple Actions, how many successes do I need to Evade or Clash an attack? 
-You just need to score as many successes as your foe, it doesn’t matter if it’s your first, second or fifth action. 
-However,  your  next  action  WILL  require  an  additional success, as Evading and Clashing do count as an Action.
-
-##### Is it possible to Evade more than once per Round?
-Only by using Double Team, Minimize or similar Moves.
-
-##### Can I use the Move Dig to escape from a building  or a cave?
-Definetly. However, it may take some time depending on the terrain.
-Use common sense.
+##### 我可以使用〈挖洞〉來逃出建築物或洞穴嗎？
+當然可以。然而，取決於地形環境，這可能會需要花上一些時間。
+用你的常識來判斷吧。
