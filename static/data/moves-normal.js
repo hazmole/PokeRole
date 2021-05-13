@@ -1221,80 +1221,80 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "報恩", "alias": "おんがえし|Return",
-		"power": "",
-		"category": "",
+		"power": "*",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + *",
+		"effect": "使用者的每一點幸福度，都會使這個招式的傷害骰池額外增加 1 顆骰子。",
+		"desc": "如果寶可夢平常被充滿愛與關照的方式對待，那牠將會透過在戰鬥中全力以赴來回報這份恩情。"
 	},
 	{
 		"name": "覺醒之舞", "alias": "めざめるダンス|Revelation Dance",
-		"power": "",
-		"category": "",
+		"power": "3",
+		"category": "special",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 表演",
+		"damage": "特殊 + 3",
+		"effect": "這個招式的屬性將會改變以符合使用者的第一屬性。",
+		"desc": "寶可夢表演起舞蹈，舞蹈本身的能量將影響這個招式的屬性。"
 	},
 	{
 		"name": "吼叫", "alias": "ほえる|Roar",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|priority||down|6", "effect|l|switcher"],
+		"accuracy": "強壯 + 威嚇",
+		"damage": "-",
+		"effect": "後制招式。替換招式。若在野外使用，則戰鬥直接結束。若在正式對戰中使用，則目標寶可夢將被強制換下場。如果牠是隊伍中的最後一隻或唯一一隻寶可夢，則這個招式將自動失敗。",
+		"desc": "一陣強猛的怒吼將使敵人受到驚嚇。"
 	},
 	{
 		"name": "攀岩", "alias": "ロッククライム|Rock Climb",
-		"power": "",
-		"category": "",
+		"power": "3",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|2", "frame|confuse||number|d2"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 3",
+		"effect": "骰 2 顆機率骰以使敵人陷入「混亂」狀態。在戰鬥外的場合，這個招式可以被用來輕易地攀爬垂直表面。",
+		"desc": "使用者攀爬到敵人頂上，這可能會讓某些寶可夢感到混亂。"
 	},
 	{
 		"name": "輪唱", "alias": "りんしょう|Round",
-		"power": "",
-		"category": "",
+		"power": "2*",
+		"category": "special",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "effect|l|sound"],
+		"accuracy": "特殊 + 表演",
+		"damage": "特殊 + 2*",
+		"effect": "如果使用者和一名隊友都能夠使用〈輪唱〉，則雙方可以選擇同時這麼做。如果牠們這麼做，則兩隻寶可夢各自的傷害骰池都可以額外增加 2 顆骰子。",
+		"desc": "使用者利用歌聲攻擊敵人，如果隊友加入合唱，則這波攻擊將會變得更強大。"
 	},
 	{
 		"name": "神秘守護", "alias": "しんぴのまもり|Safeguard",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "在接下來 4 輪中，使用者和所有隊友都將免疫於陷入異常狀態（麻痺、灼傷、中毒、劇毒、冰凍、睡眠）。之前造成的異常狀態仍會保留。",
+		"desc": "寶可夢創造出一道能量護盾，保護所有人不受傷害。"
 	},
 	{
 		"name": "鬼面", "alias": "こわいかお|Scary Face",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|靈巧|down|2"],
+		"accuracy": "強壯 + 威嚇",
+		"damage": "-",
+		"effect": "降低敵人的靈巧。",
+		"desc": "藉著做出可怕的鬼臉，寶可夢將讓其他人再三考慮是否要接近過來。"
 	},
 	{
 		"name": "抓", "alias": "ひっかく|Scratch",
@@ -1374,14 +1374,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "唱歌", "alias": "うたう|Sing",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|3", "effect|l|sound", "frame|sleep||always"],
+		"accuracy": "可愛 + 表演",
+		"damage": "-",
+		"effect": "聲音類招式。使敵人陷入「睡眠」狀態。",
+		"desc": "藉著迷人的歌曲，使用者將牠的敵人哄入夢鄉。"
 	},
 	{
 		"name": "寫生", "alias": "スケッチ|Sketch",
@@ -1461,14 +1461,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "煙幕", "alias": "えんまく|Smokescreen",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|命中|down|1"],
+		"accuracy": "特殊 + 導引",
+		"damage": "-",
+		"effect": "敵人的所有命中判定將被扣除 1 顆成功骰。",
+		"desc": "使用者將牠的敵人籠罩在一團煙幕之中。有些寶可夢會躲在這團煙霧中，而有些寶可夢則會把煙幕當做遮蔽物來趁機逃跑。"
 	},
 	{
 		"name": "打鼾", "alias": "いびき|Snore",
@@ -1505,14 +1505,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "尖刺加農炮", "alias": "とげキャノン|Spike Cannon",
-		"power": "",
-		"category": "",
+		"power": "1",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "effect|l|sact_5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "遠程攻擊。連續行動。",
+		"desc": "寶可夢朝著敵人射出一波尖銳的物體。"
 	},
 	{
 		"name": "噴出", "alias": "はきだす|Spit Up",
@@ -1560,14 +1560,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "踩踏", "alias": "ふみつけ|Stomp",
-		"power": "",
-		"category": "",
+		"power": "2",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|flinch||number|d3"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 2",
+		"effect": "骰 3 顆機率骰以使敵人陷入「畏縮」狀態。",
+		"desc": "寶可夢大腳踩踏敵人，其重量可能會使敵人深深陷在地板中。"
 	},
 	{
 		"name": "怪力", "alias": "かいりき|Strength",
@@ -1615,14 +1615,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "超音波", "alias": "ちょうおんぱ|Supersonic",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|3", "frame|confuse||always"],
+		"accuracy": "強壯 + 導引",
+		"damage": "-",
+		"effect": "使敵人陷入「混亂」狀態。",
+		"desc": "寶可夢發送出一連串能使敵人頭暈目眩，動作失調的超音波。"
 	},
 	{
 		"name": "虛張聲勢", "alias": "いばる，英文︰Swagger",
@@ -1670,14 +1670,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "劍舞", "alias": "つるぎのまい|Swords Dance",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|up|2"],
+		"accuracy": "靈巧 + 表演",
+		"damage": "-",
+		"effect": "提升使用者的力量。",
+		"desc": "寶可夢跳起能夠激發其戰鬥之魂的舞蹈。"
 	},
 	{
 		"name": "撞擊", "alias": "たいあたり|Tackle",
@@ -1687,19 +1687,18 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|foe"],
 		"accuracy": "靈巧 + 鬥毆",
 		"damage": "力量 + 2",
-		"effect": "",
 		"desc": "向敵人衝撞的一種基本攻擊。"
 	},
 	{
 		"name": "掃尾拍打", "alias": "スイープビンタ|Tail Slap",
-		"power": "",
-		"category": "",
+		"power": "1",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|1", "effect|l|sact_5"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 1",
+		"effect": "連續行動。",
+		"desc": "寶可夢用牠強勁的尾巴連續拍打敵人的臉。"
 	},
 	{
 		"name": "搖尾巴", "alias": "しっぽをふる|Tail Whip",
@@ -1780,14 +1779,14 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "搔癢", "alias": "くすぐる|Tickle",
-		"power": "",
-		"category": "",
+		"power": "-",
+		"category": "support",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|力量|down|1", "frame|target|防禦|down|1"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "-",
+		"effect": "降低敵人的力量和防禦。",
+		"desc": "寶可夢開始搔起敵人的癢。這些笑聲會對敵人的戰鬥姿態造成相當的干擾。"
 	},
 	{
 		"name": "變身", "alias": "へんしん|Transform",
@@ -1846,14 +1845,13 @@ Array.prototype.push.apply(MoveList, [
 	},
 	{
 		"name": "夾住", "alias": "はさむ|Vise Grip",
-		"power": "",
-		"category": "",
+		"power": "2",
+		"category": "physical",
 		"type": "Normal",
-		"tags": ["target|l|"],
-		"accuracy": "",
-		"damage": "",
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"accuracy": "靈巧 + 鬥毆",
+		"damage": "力量 + 2",
+		"desc": "寶可夢用牠的鉗爪或下顎夾住敵人，並施加壓力以留下可怕的瘀青。"
 	},
 	{
 		"name": "氣象球", "alias": "天氣球|ウェザーボール|Weather Ball",
