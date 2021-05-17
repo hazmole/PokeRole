@@ -1181,7 +1181,7 @@ Array.prototype.push.apply(Pokedex, [
     "alias": "Rattata",
     "type": [ "Dark", "Normal" ],
     "info": {
-      "image": "images/pokedex/019-Alola.png",
+      "image": "images/pokedex/019-A.png",
       "height": "0.3",
       "weight": "3",
       "category": "鼠寶可夢",
