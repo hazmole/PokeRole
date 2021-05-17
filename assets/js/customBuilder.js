@@ -112,6 +112,7 @@ class PokemonParser{
     var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
     var evolveStage = getEvolveStage(pokemonObj.evolution)!=""? `<div class="entry"><b style="background:#b7b7b7">進化階段</b>${getEvolveStage(pokemonObj.evolution)}</div>`: "";
     var evolveTime  = getEvolveTime(pokemonObj.evolution) !=""? `<div class="entry"><b style="background:#b7b7b7">進化時間</b>${getEvolveTime(pokemonObj.evolution)}</div>`: "";
+    var evolveMethod= getEvolveMethod(pokemonObj.evolution) !=""? `<div class="entry">${getEvolveMethod(pokemonObj.evolution)}</div>`: "";
 
     return `<div class="Pokemon">
               <div class="${pokemonObj.type[0]}">
@@ -142,12 +143,13 @@ class PokemonParser{
                 <div class="block" style="width: 180px; margin-left:1rem;">
                   ${ evolveStage }
                   ${ evolveTime }
+                  ${ evolveMethod }
                   ${ pokemonObj.evolution.note? pokemonObj.evolution.note: "" }
                 </div>
               </div>
               <div>
                 <button style="width:100%;" onClick="toggleMoveList(this)">招式表</button>
-                <div class="MoveList">
+                <div class="MoveList" style="display:none;">
                   ${moveList.join("")}
                 </div>
               </div>
@@ -164,6 +166,7 @@ class PokemonParser{
         case "second": return "二階";
         case "final": return "最終階";
         case "mega": return "超級進化";
+        case "unknown": return "未知";
       }
       return "-";
     }
@@ -175,6 +178,13 @@ class PokemonParser{
         case "slow":   return "緩慢";
       }
       return "-";
+    }
+    function getEvolveMethod(evolvoObj){
+      if(!evolvoObj) return "";
+      if(evolvoObj.with) return `透過 <u>${evolvoObj.with}</u> 進化`;
+      if(evolvoObj.by) return `經由 <u>${evolvoObj.by}</u> 進化`;
+      if(evolvoObj.happiness) return `在 <u>幸福度${evolvoObj.happiness}</u> 時進化`;
+      return "";
     }
     function getMoveEntryHtml(moveObj){
       return `<div class="entry">

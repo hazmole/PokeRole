@@ -1,0 +1,126 @@
+<head>
+  <meta charset="UTF-8">
+  <script src="pokedex-kanto_raw.js"></script>
+</head>
+
+<textarea id="output" style="width:100%;height:600px;"></textarea>
+
+
+<script>
+  var Pokedex;
+  var outputObj = document.getElementById("output");
+
+  var singleLineObjectKey = ["moves", "str", "dex", "vit", "spe", "ins"];
+  var singleLineArrayKey = ["ability", "type"];
+  var Translate = {
+    "關都": "kanto",
+    
+    "入門": 0,
+    "初學者": 1,
+    "業餘": 2,
+    "菁英": 3,
+    "專家": 4,
+    "大師": 5,
+
+    "一般": "Normal",
+    "蟲": "Bug",
+    "惡": "Dark",
+    "龍": "Dragon",
+    "電": "Electric",
+    "妖精": "Fairy",
+    "格鬥": "Fight",
+    "火": "Fire",
+    "飛行": "Flying",
+    "幽靈": "Ghost",
+    "草": "Grass",
+    "地面": "Ground",
+    "冰": "Ice",
+    "毒": "Poison",
+    "超能": "Psychic",
+    "超能力": "Psychic",
+    "岩石": "Rock",
+    "鋼": "Steel",
+    "水": "Water",
+
+    "1": "first",
+    "2": "second",
+    "F": "final",
+    "MEGA": "mega",
+    "快速": "fast",
+    "中等": "medium",
+    "緩慢": "slow",
+    "慢": "slow",
+  };
+
+
+  //var pokemon = Pokedex[0];
+  Pokedex.splice(0, 65+18);
+  Pokedex.forEach( (pokemon) =>{
+    if(pokemon.id.indexOf("Mega")>=0)  pokemon.id = pokemon.id.replace("Mega", "-M");
+    if(pokemon.id.indexOf("Alola")>=0) pokemon.id = pokemon.id.replace("Alola", "-A");
+
+    pokemon.info.image = `images/pokedex/${pokemon.id}.png`;
+    pokemon.alias = pokemon.alias[0].toUpperCase()+pokemon.alias.substring(1);
+    pokemon.region = FMT(pokemon.region);
+    pokemon.rank = FMT(pokemon.rank);
+    pokemon.moves.sort((a,b) => {
+        if(a.rank==b.rank){
+           if(FMT(a.type)=="Normal") return -1;
+           if(FMT(b.type)=="Normal") return 1;
+           return FMT(a.type)>FMT(b.type)? 1:-1;
+        }
+        return a.rank>b.rank? 1: -1;
+    });
+
+    if(pokemon.evolution.time == "nan") delete pokemon.evolution.time;
+    if(pokemon.isNovice != true) delete pokemon.isNovice;
+  });
+  outputObj.innerHTML += toString('root', Pokedex, 0);
+  
+
+  function toString(attrKey, val, depth){
+    var prefixTab = "", oneTab = "  ";
+    for(var i=0; i<depth; i++) prefixTab += oneTab;
+
+    var ret = "";
+    var retArr = [];
+    if(val instanceof Array){
+      retArr = Object.values(val).map(item => `${toString(attrKey, item, depth+1)}`);
+
+      if(singleLineArrayKey.indexOf(attrKey)>=0){
+        return `[ ${retArr.join(", ")} ]`;
+      }
+      else{
+        retArr = retArr.map(text => `${oneTab+prefixTab}${text}`);
+        return `[\n${retArr.join(",\n")}\n${prefixTab}]`;
+      }
+    }
+    else if(val instanceof Object){
+      retArr = Object.keys(val).map(key => `"${key}": ${toString(key, val[key], depth+1)}`);
+
+      if(singleLineObjectKey.indexOf(attrKey)>=0){
+        return `{ ${retArr.join(", ")} }`;
+      }
+      else{
+        retArr = retArr.map(text => `${oneTab+prefixTab}${text}`);
+        return `{\n${retArr.join(",\n")}\n${prefixTab}}`;
+      }
+    }
+    else if(attrKey == "isNovice")
+      return `${val}`;
+    else if(attrKey == "height" || attrKey == "weight")
+      return `"${val}"`;
+    else if(attrKey=="stage" || attrKey=="time")
+      return `"${FMT(val)}"`;
+    else if(parseInt(val) == val && attrKey!="id")
+      return val;
+    else
+      return `"${FMT(val)}"`;
+  }
+
+  function FMT(val){
+    if(Translate[val]!=undefined) return Translate[val];
+    return val;
+  }
+
+</script>
