@@ -14,7 +14,11 @@ description = "產生特定條件的寶可夢"
 <div id="MoveList"></div>
 
 {{< script "pokedex-kanto.js" >}}
+{{< script "pokedex-hoenn.js" >}}
+{{< script "pokedex-sinnoh.js" >}}
+
 {{< script "abilities.js" >}}
+
 {{< script "moves-normal.js" >}}
 {{< script "moves-bug.js" >}}
 {{< script "moves-dark.js" >}}

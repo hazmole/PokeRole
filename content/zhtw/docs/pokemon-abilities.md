@@ -3,7 +3,7 @@ title = "寶可夢特性"
 weight = 12
 description = ""
 +++
-## Pokemon Abilities
+## 寶可夢特性
 Along with their amazing powers, Pokémon are born with special Abilities that define their species. 
 These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
 
@@ -22,24 +22,24 @@ A Pokémon can make use of an Ability that is not listed on their Pokédex entry
 Remember to check on important notes at the end of this section.
 
 {{< boxmd >}}
-## Form-altering Abilities 
-Certain  Abilities  will  allow  Pokémon  to change between forms. When this happens it means only that Pokémon can make use of  that  Ability  unless  there  is  a  convincing  explanation as to how another Pokémon would alter their form to match the Ability’s effects.
+## 形態變化特性
+有些特性能夠讓寶可夢在不同型態之間變化。當發生這種情況，通常代表著只有該寶可夢有辦法利用這個特性，除非另有能讓人信服的解釋說明其他寶可夢可以如何改變自己的形態以符合該特性的效果。
 
-<u>It  is  convenient  you  have  a  character sheet for each of your Pokémon’s Forms.</u>
+<u>為你寶可夢的每個型態都預備一張角色卡，能在進行遊戲時讓你方便許多。</u>
 
-Each Form will have their Attribute points distriubted according to their rank but they do not necesarily have to match each other.
+每個形態都會根據該寶可夢的階級分配其特質點，但不同形態彼此之間的特質點數總和不一定會相同。
 {{< /boxmd >}}{{< boxmd >}}
-## Ignoring or Negating?
-When  an  Ability  calls  for  Ignoring  an  effect,  it  means  that  only  that  Pokémon can  act  around  the  effect  being  ignored, but everything and everyone else will still be affected by it.
+## 忽略 或 無效？
+當某個特性表示它能夠「忽略」某個效果，則這意味著只有該寶可夢能夠忽略該效果的影響，但其他人事物仍然會被該效果給影響。
 
-When  an  Ability  calls  for  negating  an  effect, it means thet the Pokémon who has their effects negated cannot access to their power due to external forces preventing it to do so. 
+當某個特性表示它能夠「無效」某個效果，則這意味著效果被無效的寶可夢將因為外在因素的阻礙而無法發揮該能力的效果。
 {{< /boxmd >}}{{< boxmd >}}
-## Curse Abilities
+## 詛咒特性
 Some  effects  of  Moves  or Abilities  may require  help  from  mediums  to  remove them.  If  such  help  is  not  available  you can try to change it with another Move or  Ability  at  your  disposition.  And  if  that doesn’t work, you can try to do it through sheer  willpower  or  hoping  the  effects  go away on their own after a few days...
 
 That can happen, right? right?!
 {{< /boxmd >}}{{< boxmd >}}
-## Hidden Abilities
+## 隱藏特性
 Some  Pokémon  might  have  Abilities  that are not listed on their Pokédex Entry.
 These  Hidden  Abilities  are  the  result  of  uncommon  circumstances  in  a  Pokémon’s life.
 
@@ -49,5 +49,5 @@ Keep  in  mind  that  Pokémon  with Abilities not usually seen on them are rare
 {{< /boxmd >}}
 
 ---
-## Abilities Lists
-<a href="#">see here.</a>
+## 特性列表
+<a href="#">參見此頁。</a>

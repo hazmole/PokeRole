@@ -37,7 +37,7 @@ class PokemonGenerator{
 
     //=============
     function getPokemonIdOptions(){
-      var arr = [ { value:"any", text:"隨機" }, getDivideOption() ];
+      var arr = [ { value:"any", text:"任意" }, getDivideOption() ];
       Array.prototype.push.apply(arr, Pokedex.map(pokemon => { 
         var pokemonID = pokemon.id.replace(/-\w+/, "");
         return { value:pokemon.id, text:`#${pokemonID}:${pokemon.name}` };
@@ -45,7 +45,7 @@ class PokemonGenerator{
       return arr;
     }
     function getRankOptions(){
-      return [ { value:"any", text:"隨機" }, getDivideOption(),
+      return [ { value:"any", text:"任意" }, getDivideOption(),
         { value:"starter", text:"新手" },
         { value:"beginner", text:"初學者" },
         { value:"amateur", text:"業餘者" },
@@ -102,7 +102,9 @@ class PokemonGenerator{
       socialAttrPt: 0,
       skillPt: 0, skillCap: 1
     };
-    if(config.form.rank.value=="any")
+    if(pokemonObj.isLegend)
+      rankConfig.value = "master";
+    else if(config.form.rank.value=="any")
       rankConfig.value = randomArrayElement(Util.getAllRank());
     else
       rankConfig.value = Util.getAllRank().find(obj => obj==config.form.rank.value);
@@ -119,6 +121,8 @@ class PokemonGenerator{
     new_pokemonObj.abilityIdx = random(new_pokemonObj.ability.length);
     new_pokemonObj.maxHP = new_pokemonObj.baseHP + new_pokemonObj.attr.vit.value + ((rankConfig.index>=5)? 2: 0);
     new_pokemonObj.maxWP = 2                     + new_pokemonObj.attr.ins.value + ((rankConfig.index>=5)? 2: 0);
+    new_pokemonObj.def    = new_pokemonObj.attr.vit.value;
+    new_pokemonObj.sp_def = new_pokemonObj.attr.ins.value;
 
     PokemonGenerator.render(new_pokemonObj);
 
@@ -147,8 +151,6 @@ class PokemonGenerator{
       newObj.sAttr = {};
       newObj.skill = {};
       newObj.knownMoves = [];
-      newObj.abilityIdx = 0;
-      newObj.maxHP = 0;
 
       Util.getSocialAttribute().forEach( item => { newObj.sAttr[item] = { max:5, base:1, value:1 }; });
       Util.getAllPokemonSkills().forEach( item => { newObj.skill[item] = { max:5, base:0, value:0 }; });
@@ -194,13 +196,7 @@ class PokemonGenerator{
 
   }
 
-  static render(pokemonObj){
-    // Render Pokemon
-    var PokemonPanel = document.getElementById("Pokemon");
-    if(PokemonPanel){
-      PokemonPanel.innerHTML = getHTML(pokemonObj);
-    }
-    // Render Ability
+  static renderAbility(pokemonObj){
     var AbilityPanel = document.getElementById("AbilityList");
     var ability = null;
     if(AbilityPanel){
@@ -208,10 +204,10 @@ class PokemonGenerator{
         var abilityName = pokemonObj.ability[pokemonObj.abilityIdx];
         ability = AbilityList.find(item => item.name==abilityName);
       }
-      AbilityPanel.innerHTML = ability==null? "<center>-找不到特性-</center>": (AbilityParser.getHTML(ability));
+      AbilityPanel.innerHTML = ability==null? "<center>-找不到特性-</center>": (AbilityParser.getHTML(ability, true));
     }
-
-    // Render Moves
+  }
+  static renderMoves(pokemonObj){
     var MovesPanel = document.getElementById("MoveList");
     var moves = [];
     if(MovesPanel){
@@ -224,6 +220,19 @@ class PokemonGenerator{
       }
       MovesPanel.innerHTML = moves.length==0? "<center>-找不到招式-</center>": (moves.map(move => MoveParser.getHTML(move)).join(""));
     }
+  }
+
+  static render(pokemonObj){
+    // Render Pokemon
+    var PokemonPanel = document.getElementById("Pokemon");
+    if(PokemonPanel){
+      PokemonPanel.innerHTML = getHTML(pokemonObj);
+    }
+    // Render Ability
+    PokemonGenerator.renderAbility(pokemonObj);
+
+    // Render Moves
+    PokemonGenerator.renderMoves(pokemonObj);
 
     return true;
 
@@ -249,9 +258,9 @@ class PokemonGenerator{
             <div class="block" style="width: 180px;">
               <div class="entry"><b>階級</b> ${getRank(pokemonObj.rank)}</div>
               <div class="entry"><b>生命值</b> ${pokemonObj.maxHP} / ${pokemonObj.maxHP}</div>
-              <div class="entry" style="margin-bottom:1rem;"><b>意志點</b> ${pokemonObj.maxWP} / ${pokemonObj.maxWP}</div>
-              <div class="entry"><b>性格</b> ${pokemonObj.natureObj.name}</div>
-              <div class="entry"><b>信心值</b> ${pokemonObj.natureObj.confident} / ${pokemonObj.natureObj.confident}</div>
+              <div class="entry"><b>意志點</b> ${pokemonObj.maxWP} / ${pokemonObj.maxWP}</div>
+              <div class="entry"><b>防禦</b> ${pokemonObj.def}</div>
+              <div class="entry"><b>特防</b> ${pokemonObj.sp_def}</div>
             </div>
             <div class="block" style="width: 180px; margin-left:1rem;">
               <div class="entry"><b>力量</b> ${getAttr(pokemonObj.attr.str)}</div>
@@ -284,7 +293,6 @@ class PokemonGenerator{
             </div>
             <div class="block" style="width: 140px; margin-left:1rem;">
               <div class="entry"><b>誘惑</b> ${getAttr(pokemonObj.skill["誘惑"])}</div>
-              <div class="entry"><b>共感</b> ${getAttr(pokemonObj.skill["共感"])}</div>
               <div class="entry"><b>禮儀</b> ${getAttr(pokemonObj.skill["禮儀"])}</div>
               <div class="entry"><b>威嚇</b> ${getAttr(pokemonObj.skill["威嚇"])}</div>
               <div class="entry"><b>表演</b> ${getAttr(pokemonObj.skill["表演"])}</div>

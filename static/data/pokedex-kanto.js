@@ -331,7 +331,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "006-M",
+    "id": "006-MY",
     "region": "kanto",
     "name": "超級噴火龍Y",
     "alias": "Mega-Charizard Y",
@@ -381,7 +381,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "006-M",
+    "id": "006-MX",
     "region": "kanto",
     "name": "超級噴火龍X",
     "alias": "Mega-Charizard X",
@@ -8372,7 +8372,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Psychic", "name": "奇蹟之眼" },
       { "rank": 5, "type": "Psychic", "name": "預知未來" },
       { "rank": 5, "type": "Psychic", "name": "念力" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "150-MY",
@@ -8402,7 +8403,8 @@ Array.prototype.push.apply(Pokedex, [
     "ability": [ "不眠" ],
     "moves": [
 
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "150-MX",
@@ -8432,7 +8434,8 @@ Array.prototype.push.apply(Pokedex, [
     "ability": [ "不屈之心" ],
     "moves": [
 
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "151",
@@ -8475,6 +8478,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Psychic", "name": "屏障" },
       { "rank": 5, "type": "Rock", "name": "原始之力" },
       { "rank": 5, "type": "???", "name": "任何招式" }
-    ]
+    ],
+    "isLegend": true
   }
 ]);
