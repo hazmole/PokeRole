@@ -3,7 +3,7 @@ if(!Pokedex) Pokedex = [];
 
 Array.prototype.push.apply(Pokedex, [
   {
-    "id": 261,
+    "id": "261",
     "region": "hoenn",
     "name": "土狼犬", "alias": "ポチエナ|Poochyena",
     "type": ["Dark"],
@@ -51,7 +51,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true,
   },
   {
-    "id": 262,
+    "id": "262",
     "region": "hoenn",
     "name": "大狼犬", "alias": "グラエナ|Mightyena",
     "type": ["Dark"],
@@ -104,7 +104,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": false,
   },
   {
-	"id": 263,
+	"id": "263",
 	"region": "hoenn",
 	"name": "蛇紋熊", "alias": "Zigzagoon|",
 	"type": ["Normal"],
@@ -153,7 +153,7 @@ Array.prototype.push.apply(Pokedex, [
 	"isNovice": true,
   },
   {
-    "id": 264,
+    "id": "264",
     "region": "hoenn",
     "name": "直衝熊", "alias": "Linoone",
     "type": ["Normal"],

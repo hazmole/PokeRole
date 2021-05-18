@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>[招式查詢器]</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</guid><description>招式查詢器
-var SearchType="Move";
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</title><link>https://hazmole.github.io/PokeRole/</link><description>Recent content in 寶可夢扮演2.0 on 寶可夢扮演2.0 Pokerole</description><generator>Hugo -- gohugo.io</generator><language>zhtw</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate><atom:link href="https://hazmole.github.io/PokeRole/index.xml" rel="self" type="application/rss+xml"/><item><title>[寶可夢產生器]</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokemon-generator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokemon-generator/</guid><description>寶可夢產生器
+var isNotAutoBuild = true;
+/*window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
+});*/</description></item><item><title>[招式查詢器]</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</guid><description>招式查詢器
+var isNotAutoBuild = true;
+var SearchType = "Move";
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
 });</description></item><item><title>一般屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-normal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-normal/</guid><description>一般屬性 一般屬性有著相當強大的通用性和適應性。
@@ -134,10 +139,7 @@ TocInjector.parsePage("Ability");
 壓力懲罰會互相疊加，且只能透過「技倆牌」或花時間放鬆來消除。意志點也可以幫助你在短時間內無視壓力帶來的負面影響。
 有些訓練家會利用技倆牌來取得優勢，欺凌其他寶可夢來讓牠們失去信心，而有些訓練家則會運用技倆牌以幫助他們的同伴重拾信心。
 如果你或你的寶可夢失去信心值，你會需要盡快讓牠恢復過來。因為華麗大賽講究的是團隊合作，而你們之中任何一個開始失控，都會使你們身陷困境。
-壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description>
-window.addEventListener("parsePage", ()={
-TocInjector.parsePage("Pokemon");
-});</description></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
+壓力懲罰通常只會用於華麗大賽的情境中，但它們也可以在壓力特別大的寶可夢對戰中發揮作用。</description></item><item><title>創建寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/</guid><description>創建寶可夢 儘管寶可夢會聽從牠們訓練家的指揮，但在遊戲中牠們並不是由玩家控制。
 扮演寶可夢是說書人的工作之一，說書人將會告訴你寶可夢是如何回應牠們周遭的環境、又是如何與玩家溝通。
 把它想像成擁有一隻寵物，你可以要求牠跟著你、或停止咀嚼地毯，但你並不是真的在牠的腦子裡控制牠。你只能透過與牠互動、解讀牠的表達和態度來理解牠的想法和感受。
 儘管相似，但寶可夢並不是人類。 牠們大部分都不會說話，而牠們所看到的世界也與人類不同。
@@ -310,6 +312,9 @@ Dark, Grass, Psychic
 Fairy, Fight, Fire, Flying, Ghost, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>關都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kanto/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
 });</description></item><item><title>Z招式</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/</guid><description>Z招式 阿羅拉地區的古老住民們流傳著一種傳統的儀式和舞蹈，能夠增強他們的戰魂，並與他們的寶可夢融為一體。
 島嶼之王和他們的寶可夢會穿戴一種嵌有特殊結晶的配飾，這些結晶閃耀著強大的能量，隨時準備好被釋放來保護他們的人民。
 這些結晶現在被稱之為「Z純晶」，如果你和你的寶可夢攜帶著它們，並演出一段儀式舞蹈的話，你們將能夠使用所謂的「Z招式」，讓你的對手好好感受一下你們友誼的力量！
@@ -436,10 +441,7 @@ TocInjector.parsePage("Move");
 每個人都為你雀躍，為你鼓掌歡呼，有人向你獻上玫瑰，有人將冠冕戴在你的頭上，為你的寶可夢繫上美麗的緞帶獎章。觀眾愛死你了！真的！
 每當你贏得了華麗大賽的名次，你都能夠獲得一筆現金做為獎勵，且可能提升你的協調訓練家階級。
 你可以透過贏得更多的華麗大賽和獎章來提升你的協調訓練家階級。這些階級將允許你獲得一些只有華麗大賽優勝者才能夠得到的聲譽類技能！
-協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>豐緣地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</guid><description>
-window.addEventListener("parsePage", ()={
-TocInjector.parsePage("Pokemon");
-});</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
+協調訓練家階級 第一名: $6,000 第二名: $4,000 第三名: $2,000 超級協調訓練家階級 第一名: $12,000 第二名: $6,000 第三名: $3,000 高級協調訓練家階級 第一名: $18,000 第二名: $8,000 第三名: $6,000 大師協調訓練家階級 第一名: $30,000 第二名: $15,000 第三名: $10,000 大賽圖板 大賽圖板的說明：</description></item><item><title>勝利策略</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/</guid><description>勝利策略 在戰鬥中，那些能獲得勝利的贏家並不永遠是那些最強壯、最快速、或階級最高的寶可夢。
 只憑一隻小小隻的皮丘，要怎麼能夠勝過一條大岩蛇呢？
 沒錯，只要有傑出的策略就能挽回局面！
 在這個章節，你將能學習到許多訣竅和技巧，讓你能購贏下幾乎所有戰鬥的勝利。
@@ -583,7 +585,7 @@ TocInjector.parsePage("Pokemon");
 你甚至可以加入其他招式的完整效果，看一看招式效果標誌列表來尋找靈感吧。你也可以隨意為你寶可夢的超極巨招式取個獨特的名字。 極巨招式列表
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move", "極巨招式列表");
-});</description></item><item><title>神奧地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</guid><description>
+});</description></item><item><title>豐緣地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-hoenn/</guid><description>
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");
 });</description></item><item><title>龍屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-dragon/</guid><description>龍屬性 龍屬性寶可夢兇猛而可怕。牠們憑藉高威力的攻擊來迅速殲滅敵人。龍屬性寶可夢渴望戰鬥，牠們易怒，且不會對任何人展現憐憫或尊重。
@@ -659,7 +661,10 @@ TocInjector.parsePage("Move");
 訓練師必須教導他的寶可夢以掌握這種內在力量。 或許在這之後牠們將能夠學會自行運用自己意志帶來的力量。如果訓練家從來沒有發揮過這種內在力量的經驗，那麼他或她的寶可夢可能也就學不會。
 大部分的NPC都不會使用他們的意志點，只有最熟練的訓練家和寶可夢才能夠使用它們。
 要回復1點花掉的意志點，你的角色必須：
-經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>電屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</guid><description>電屬性 電屬性寶可夢在大城市裡相當常見。
+經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>神奧地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
+});</description></item><item><title>電屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</guid><description>電屬性 電屬性寶可夢在大城市裡相當常見。
 牠們會被電力和科技所吸引，並視其為提升自己帶電能力的一種手段。
 電屬性招式能夠麻痹敵人來使牠們難以移動。
 牠們可以透過放電來進行大範圍的攻擊，或者影響區域內的電離子、電流、和磁場。牠們也能通過積蓄能量來釋放更強力的攻擊。

@@ -30,7 +30,8 @@ weight = 1
 {{< script "moves-water.js" >}}
 
 <script type="text/javascript">
-  var SearchType="Move";
+  var isNotAutoBuild = true;
+  var SearchType = "Move";
   window.addEventListener("parsePage", ()=>{
     TocInjector.parsePage("Move");
   });

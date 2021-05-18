@@ -108,6 +108,7 @@ class PokemonParser{
   }
 
   static getHTML( pokemonObj ){
+    var pokemonID = pokemonObj.id.replace(/-\w+/, "");
     var pokemonTypes = pokemonObj.type.map(type=>`<div class="type ${type}" style="width:${pokemonObj.type.length>1? 5: 10}rem;">${FMT(type)}</div>`).join("");
     var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
     var evolveStage = getEvolveStage(pokemonObj.evolution)!=""? `<div class="entry"><b style="background:#b7b7b7">進化階段</b>${getEvolveStage(pokemonObj.evolution)}</div>`: "";
@@ -117,7 +118,7 @@ class PokemonParser{
     return `<div class="Pokemon">
               <div class="${pokemonObj.type[0]}">
                 <div class="Header flexContainer">
-                  <div class="title" id="#${pokemonObj.id} ${pokemonObj.name}">#${pokemonObj.id} ${pokemonObj.name}</div>
+                  <div class="title" id="#${pokemonID} ${pokemonObj.name}">#${pokemonID} ${pokemonObj.name}</div>
                   ${pokemonTypes}
                 </div>
               </div>
@@ -310,11 +311,12 @@ function toggleMoveList(elem){
 //=================
 // Global settings
 var SearchType;
+var isNotAutoBuild;
 window.addEventListener("load", () => { 
   MoveParser.parseTypeIcon();
 
   var isDomChanged = false;
-  if(!SearchType){
+  if(!isNotAutoBuild){
     isDomChanged |= IconParser.parsePage();
     isDomChanged |= PokemonParser.parsePage();
     isDomChanged |= MoveParser.parsePage();
@@ -322,6 +324,7 @@ window.addEventListener("load", () => {
   }
   else{
     SearchParser.parsePage();
+    PokemonGenerator.parsePage();
   }
   
   if(isDomChanged) window.onscroll(true);

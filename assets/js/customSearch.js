@@ -242,9 +242,7 @@ class SearchParser{
     function isContainIgnoreCase(a, b){
       return a.toLowerCase().indexOf(b.toLowerCase())>=0;
     }
-
   }
-
 }
 
 function toggleSearchLabel(elem){

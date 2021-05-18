@@ -1175,7 +1175,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "019",
+    "id": "019-A",
     "region": "kanto",
     "name": "小拉達（阿羅拉的樣子）",
     "alias": "Rattata",
@@ -1222,7 +1222,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true
   },
   {
-    "id": "020",
+    "id": "020-A",
     "region": "kanto",
     "name": "拉達（阿羅拉的樣子）",
     "alias": "Raticate",
@@ -1553,7 +1553,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "026",
+    "id": "026-A",
     "region": "kanto",
     "name": "雷丘（阿羅拉的樣子）",
     "alias": "Raichu",
@@ -1692,7 +1692,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "027",
+    "id": "027-A",
     "region": "kanto",
     "name": "穿山鼠（阿羅拉的樣子）",
     "alias": "Sandshrew",
@@ -1743,7 +1743,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true
   },
   {
-    "id": "028",
+    "id": "028-A",
     "region": "kanto",
     "name": "穿山王（阿羅拉的樣子）",
     "alias": "Sandslash",
@@ -2236,7 +2236,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "037",
+    "id": "037-A",
     "region": "kanto",
     "name": "六尾（阿羅拉的樣子）",
     "alias": "Vulpix",
@@ -2290,7 +2290,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true
   },
   {
-    "id": "038",
+    "id": "038-A",
     "region": "kanto",
     "name": "九尾（阿羅拉的樣子）",
     "alias": "Ninetales",
@@ -2352,7 +2352,7 @@ Array.prototype.push.apply(Pokedex, [
       "dex": { "value": 1, "max": 3 },
       "vit": { "value": 1, "max": 3 },
       "spe": { "value": 2, "max": 4 },
-      "ins": { "value": 11, "max": 3 }
+      "ins": { "value": 1, "max": 3 }
     },
     "ability": [ "迷人之軀", "好勝" ],
     "moves": [
@@ -2588,7 +2588,7 @@ Array.prototype.push.apply(Pokedex, [
     "rank": 2,
     "attr": {
       "str": { "value": 2, "max": 4 },
-      "dex": { "value": 2, "max": 1 },
+      "dex": { "value": 2, "max": 3 },
       "vit": { "value": 2, "max": 5 },
       "spe": { "value": 2, "max": 5 },
       "ins": { "value": 2, "max": 5 }
@@ -2942,7 +2942,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "050",
+    "id": "050-A",
     "region": "kanto",
     "name": "地鼠（阿羅拉的樣子）",
     "alias": "Diglett",
@@ -2990,7 +2990,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true
   },
   {
-    "id": "051",
+    "id": "051-A",
     "region": "kanto",
     "name": "三地鼠（阿羅拉的樣子）",
     "alias": "Dugtrio",
@@ -3140,7 +3140,7 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
-    "id": "052",
+    "id": "052-A",
     "region": "kanto",
     "name": "喵喵（阿羅拉的樣子）",
     "alias": "Meowth",
@@ -3190,7 +3190,7 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true
   },
   {
-    "id": "053",
+    "id": "053-A",
     "region": "kanto",
     "name": "貓老大（阿羅拉的樣子）",
     "alias": "Persian",

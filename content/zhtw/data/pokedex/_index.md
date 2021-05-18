@@ -4,12 +4,12 @@ weight: 1
 collapsible: true
 ---
 
-關都地區
-城都地區
-豐緣地區
-神奧地區
-合眾地區
-卡洛斯地區
-阿羅拉地區
-伽勒爾地區
+* <a href='{{< relref path="data/pokedex/pokedex-kanto" >}}'>關都地區</a>
+* <a href='{{< relref path="data/pokedex/" >}}'>城都地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-hoenn" >}}'>豐緣地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-sinnoh" >}}'>神奧地區</a>
+* <a href='{{< relref path="data/pokedex/" >}}'>合眾地區</a>
+* <a href='{{< relref path="data/pokedex/" >}}'>卡洛斯地區</a>
+* <a href='{{< relref path="data/pokedex/" >}}'>阿羅拉地區</a>
+* <a href='{{< relref path="data/pokedex/" >}}'>伽勒爾地區</a>
 
