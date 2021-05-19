@@ -5,7 +5,9 @@ description = "產生特定條件的寶可夢"
 +++
 
 # 寶可夢產生器
-<div id="GeneratePanel"></div>
+<div id="GeneratePanel">
+  <center>讀取中...</center>
+</div>
 
 ---
 
@@ -14,6 +16,7 @@ description = "產生特定條件的寶可夢"
 <div id="MoveList"></div>
 
 {{< script "pokedex-kanto.js" >}}
+{{< script "pokedex-johto.js" >}}
 {{< script "pokedex-hoenn.js" >}}
 {{< script "pokedex-sinnoh.js" >}}
 

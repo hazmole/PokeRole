@@ -2,7 +2,6 @@
 title = "城都地區"
 weight = 3
 description = "城都地區圖鑑"
-draft=true
 +++
 
 

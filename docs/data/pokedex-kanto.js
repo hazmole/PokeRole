@@ -6119,7 +6119,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "evolution": {
       "stage": "final",
-      "by": "力量最高時"
+      "by": "將力量最大化"
     },
     "baseHP": 4,
     "rank": 2,
@@ -6169,7 +6169,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "evolution": {
       "stage": "final",
-      "by": "活力最高時"
+      "by": "將活力最大化"
     },
     "baseHP": 4,
     "rank": 2,

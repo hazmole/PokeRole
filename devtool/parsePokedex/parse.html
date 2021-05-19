@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <script src="pokedex-kanto_raw.js"></script>
+  <script src="pokedex_new_20210518.js"></script>
 </head>
 
 <textarea id="output" style="width:100%;height:600px;"></textarea>
@@ -14,6 +14,7 @@
   var singleLineArrayKey = ["ability", "type"];
   var Translate = {
     "關都": "kanto",
+    "城都": "johto",
     
     "入門": 0,
     "初學者": 1,
@@ -50,11 +51,16 @@
     "中等": "medium",
     "緩慢": "slow",
     "慢": "slow",
+    "未知": "unknown",
   };
 
 
   //var pokemon = Pokedex[0];
-  Pokedex.splice(0, 65+18);
+  Pokedex.splice(0, 151+33); // 關都
+  Pokedex.splice(0, 2); // 美錄坦??
+  Pokedex.splice(0, 106); // 成都
+
+
   Pokedex.forEach( (pokemon) =>{
     if(pokemon.id.indexOf("Mega")>=0)  pokemon.id = pokemon.id.replace("Mega", "-M");
     if(pokemon.id.indexOf("Alola")>=0) pokemon.id = pokemon.id.replace("Alola", "-A");

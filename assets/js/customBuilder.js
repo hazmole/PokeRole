@@ -184,7 +184,10 @@ class PokemonParser{
       if(!evolvoObj) return "";
       if(evolvoObj.with) return `透過 <u>${evolvoObj.with}</u> 進化`;
       if(evolvoObj.by) return `經由 <u>${evolvoObj.by}</u> 進化`;
-      if(evolvoObj.happiness) return `在 <u>幸福度${evolvoObj.happiness}</u> 時進化`;
+      if(evolvoObj.happiness){
+        var addition = (evolvoObj.in)? ` & <u>${evolvoObj.in}</u>`: "";
+        return `在 <u>幸福度${evolvoObj.happiness}</u>${addition} 時進化`;
+      }
       return "";
     }
     function getMoveEntryHtml(moveObj){
