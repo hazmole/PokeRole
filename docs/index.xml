@@ -2,7 +2,7 @@
 var isNotAutoBuild = true;
 /*window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");
-});*/</description></item><item><title>[招式查詢器]</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</guid><description>招式查詢器
+});*/</description></item><item><title>[招式查詢器]</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/search-for-moves/</guid><description>招式查詢器 讀取中...
 var isNotAutoBuild = true;
 var SearchType = "Move";
 window.addEventListener("parsePage", ()={

@@ -4,7 +4,9 @@ weight = 1
 +++
 
 # 招式查詢器
-<div id="SearchPanel"></div>
+<div id="SearchPanel">
+  <center>讀取中...</center>
+</div>
 
 ---
 
