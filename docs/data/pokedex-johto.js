@@ -2203,8 +2203,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "evolution": {
       "stage": "final",
-      "happiness": 4,
-      "in": "日光"
+      "by": "日光 & 幸福度4時",
     },
     "baseHP": 4,
     "rank": 2,
@@ -2251,8 +2250,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "evolution": {
       "stage": "final",
-      "happiness": 4,
-      "in": "月光"
+      "by": "月光 & 幸福度4時",
     },
     "baseHP": 4,
     "rank": 2,

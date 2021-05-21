@@ -2,7 +2,6 @@
 title = "合眾地區"
 weight = 6
 description = "合眾地區圖鑑"
-draft=true
 +++
 
 

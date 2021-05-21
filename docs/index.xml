@@ -679,6 +679,9 @@ Dragon, Electric, Grass
 Ground
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>合眾地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-unova/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-unova/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
 });</description></item><item><title>妖精屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-fairy/</guid><description>妖精屬性 妖精屬性的寶可夢通常是可愛、淘氣、又狡詐的。牠們大部分的招式都在玩弄敵人的感情：天真、悲傷、快樂、情愛、和憤怒。尤其當牠們在等待攻擊時機的期間，牠們看起來會特別人畜無害。
 並非所有妖精屬性的寶可夢都是善良和友好的，牠們之中有一些可能令人討厭，而且遠比牠們外表看起來還要強大。
 當你在野外遇到妖精屬性的寶可夢時，你最好先搞清楚牠們惹人憐愛的微笑背後的含義，也許牠們其實有著和惡屬性寶可夢一樣的壞心腸。

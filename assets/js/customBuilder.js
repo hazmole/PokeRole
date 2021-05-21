@@ -134,7 +134,7 @@ class PokemonParser{
                   <div class="entry"><b>特性</b> ${pokemonObj.ability.join(", ")}</div>
                   <div class="entry">${getNoviceIcon(pokemonObj.isNovice)}</div>
                 </div>
-                <div class="block" style="width: 180px; margin-left:1rem;">
+                <div class="block" style="width: 185px; margin-left:1rem;">
                   <div class="entry"><b>力量</b> ${getAttr(pokemonObj.attr.str)}</div>
                   <div class="entry"><b>靈巧</b> ${getAttr(pokemonObj.attr.dex)}</div>
                   <div class="entry"><b>活力</b> ${getAttr(pokemonObj.attr.vit)}</div>
@@ -145,7 +145,6 @@ class PokemonParser{
                   ${ evolveStage }
                   ${ evolveTime }
                   ${ evolveMethod }
-                  ${ pokemonObj.evolution.note? pokemonObj.evolution.note: "" }
                 </div>
               </div>
               <div>
@@ -182,13 +181,16 @@ class PokemonParser{
     }
     function getEvolveMethod(evolvoObj){
       if(!evolvoObj) return "";
-      if(evolvoObj.with) return `透過 <u>${evolvoObj.with}</u> 進化`;
-      if(evolvoObj.by) return `經由 <u>${evolvoObj.by}</u> 進化`;
-      if(evolvoObj.happiness){
-        var addition = (evolvoObj.in)? ` & <u>${evolvoObj.in}</u>`: "";
-        return `在 <u>幸福度${evolvoObj.happiness}</u>${addition} 時進化`;
-      }
-      return "";
+
+      var note = pokemonObj.evolution.note? ` & <u>${pokemonObj.evolution.note}</u>`: "";
+      if(evolvoObj.with) return `透過 <u>${evolvoObj.with}</u> 進化${note}`;
+      if(evolvoObj.beauty) return `在 <u>美麗${evolvoObj.beauty}</u> 時進化${note}`;
+      if(evolvoObj.loyalty) return `在 <u>忠誠度${evolvoObj.loyalty}</u> 時進化${note}`;
+      if(evolvoObj.happiness) return `在 <u>幸福度${evolvoObj.happiness}</u> 時進化${note}`;
+      if(evolvoObj.limitby) return `限定由 <u>${evolvoObj.limitby}</u> 進化${note}`;
+      if(evolvoObj.by) return `經由 <u>${evolvoObj.by}</u> 進化${note}`;
+
+      return '';
     }
     function getMoveEntryHtml(moveObj){
       return `<div class="entry">
