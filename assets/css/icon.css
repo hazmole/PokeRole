@@ -152,12 +152,20 @@ tag.effect.recoil { background-image: url('../images/icons/effect_recoil.png'); 
 tag.effect.sound { background-image: url('../images/icons/effect_sound.png'); }
 tag.effect.shield { background-image: url('../images/icons/effect_shield.png'); }
 tag.effect.switcher { background-image: url('../images/icons/effect_switcher.png'); }
-
 tag.effect.heal { background-image: url('../images/icons/heal_basic.png'); }
 tag.effect.c_heal { background-image: url('../images/icons/heal_complete.png'); }
-
 tag.effect.sact_2 { background-image: url('../images/icons/MultiAct_2.png'); }
 tag.effect.sact_5 { background-image: url('../images/icons/MultiAct_5.png'); }
+
+tag.nftext {
+    width: auto;
+    height: 3.2rem;
+    font-size: .9rem;
+    line-height: 3.2rem;
+    padding: 0 .5rem;
+    //border: 1px solid rgba(0,0,0,.5);
+}
+
 
 iconFrame {
     text-align: left;

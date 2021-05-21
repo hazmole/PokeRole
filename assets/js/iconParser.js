@@ -42,6 +42,9 @@ class IconParser {
       case "pdice":  return this.getHTML_pdiceIcon(icon_size, tagArr[2]);
       case "rdice":  return this.getHTML_rdiceIcon(icon_size, tagArr[2], tagArr[3]);
       case "frame":  return this.getHTML_frame(tagArr.slice(1));
+
+      case "nftext": return this.getHTML_noFrameText(icon_size, tagArr[2]);
+
       default:
         return this.getHTML_normalIcon("unknown", icon_size);
     }
@@ -75,6 +78,9 @@ class IconParser {
     }
     if(parseInt(number)>=4 && extraClass!="normal") extraClass+=" success";
     return `<tag class="rdice ${iconSize} ${diceClass} ${extraClass}"></tag>`;
+  }
+  static getHTML_noFrameText(icon_size, text){
+    return `<tag class="nftext">${text}</tag>`;
   }
   static getHTML_frame(parameters){
     var frame_type = parameters[0];

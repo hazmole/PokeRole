@@ -202,7 +202,7 @@ class PokemonGenerator{
     if(AbilityPanel){
       if(AbilityList){
         var abilityName = pokemonObj.ability[pokemonObj.abilityIdx];
-        ability = AbilityList.find(item => item.name==abilityName);
+        ability = AbilityList.find(item => item.name==abilityName && item.tags[0]!="unknown|l");
       }
       AbilityPanel.innerHTML = ability==null? "<center>-找不到特性-</center>": (AbilityParser.getHTML(ability, true));
     }
