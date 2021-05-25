@@ -238,10 +238,11 @@ class PokemonGenerator{
   }
   static renderMoves(pokemonObj){
     var MovesPanel = document.getElementById("MoveList");
+    var moveCount = pokemonObj.attr.ins.value + 2;
     var moves = [];
     if(MovesPanel){
       if(MoveList){
-        for(var i=0; i<pokemonObj.knownMoves.length; i++){
+        for(var i=0; i<moveCount; i++){
           var moveName = pokemonObj.knownMoves[i].name;
           var move = MoveList.find(item => item.name==moveName);
           if(move) moves.push(move);
