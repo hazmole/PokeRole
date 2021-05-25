@@ -256,9 +256,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "畫皮", "alias": "ばけのかわ|Disguise",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|第一次受到的攻擊只會造成", "frame|target|傷害|number|0"],
+		"effect": "這隻寶可夢在戰鬥中第一次要受到傷害時，將該傷害降低到零。入場危害、天氣狀態、和異常狀態並不會觸發這個特性。",
+		"desc": "這隻寶可夢穿著一件其他寶可夢外觀的可信偽裝。當牠受到傷害時，偽裝將會被破壞，看起來就像是牠承受了致命傷勢一樣。"
 	},
 	{
 		"name": "下載", "alias": "ダウンロード|Download",
@@ -328,9 +328,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "火焰之軀", "alias": "ほのおのからだ|Flame Body",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|burn1||number|d3"],
+		"effect": "當這隻寶可夢被非遠程攻擊的物理攻擊給命中時，骰 3 顆機率骰以使敵人陷入「灼傷 1 級」狀態。",
+		"desc": "這隻寶可夢可以隨心所欲點燃自己的身軀，且不會因此受到任何傷害。接觸到這隻寶可夢的物體可能會起火燃燒。"
 	},
 	{
 		"name": "受熱激升", "alias": "ねつぼうそう|Flare Boost",
@@ -820,9 +820,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "遲鈍", "alias": "どんかん|Oblivious",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|love||never"],
+		"effect": "這隻寶可夢不會受到「著迷」狀態的影響，且牠免疫任何會影響牠情緒的招式的效果，像是〈挑釁〉、〈撒嬌〉、〈誘惑〉等等",
+		"desc": "這隻寶可夢很少會做出令人滿意的社交互動，牠太只顧自己，以至於會忽略掉任何期待牠做出什麼反應的暗示。"
 	},
 	{
 		"name": "防塵", "alias": "ぼうじん|Overcoat",
@@ -1072,9 +1072,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "撥沙", "alias": "すなかき|Sand Rush",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|sand", "frame|self|靈巧|up|1", "nftext|l|免疫沙暴傷害"],
+		"effect": "如果當前天氣狀態為沙暴，則這隻寶可夢的靈巧特質提升 1 點。這隻寶可夢免疫沙暴天氣造成的傷害。",
+		"desc": "當沙塵橫掃這個戰場，這隻寶可夢能夠穿梭其中，如魚得水。"
 	},
 	{
 		"name": "吐沙", "alias": "すなはき|Sand Spit",
@@ -1132,9 +1132,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "踩影", "alias": "かげふみ|Shadow Tag",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allfoe", "effect|l|block"],
+		"effect": "所有敵人被阻擋。幽靈屬性和相同特性的寶可夢將免疫這個效果。",
+		"desc": "這隻寶可夢踩住對手的影子，不讓對方離自己太遠。"
 	},
 	{
 		"name": "蛻皮", "alias": "だっぴ|Shed Skin",
@@ -1156,9 +1156,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "鱗粉", "alias": "りんぷん|Shield Dust",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫機率骰造成的額外效果"],
+		"effect": "如果這隻寶可夢被帶有會造成額外效果的機率骰的攻擊給命中，則牠不會受到該額外效果的影響。",
+		"desc": "這隻寶可夢總是不斷產生鱗粉來遮蔽並保護自己。"
 	},
 	{
 		"name": "界限盾殼", "alias": "リミットシールド|Shields Down",
@@ -1186,9 +1186,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "撥雪", "alias": "ゆきかき|Slush Rush",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|hail", "frame|self|靈巧|up|1", "nftext|l|免疫冰雹傷害"],
+		"effect": "如果當前天氣狀態為冰雹，則這隻寶可夢的靈巧特質提升 1 點。這隻寶可夢免疫冰雹天氣造成的傷害。",
+		"desc": "這隻寶可夢相當習慣於在冰雪環境中奔跑狩獵，甚至能夠在狂風暴雪中於雪地迅速移動。"
 	},
 	{
 		"name": "狙擊手", "alias": "スナイパー|Sniper",
@@ -1198,9 +1198,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "雪隱", "alias": "ゆきがくれ|Snow Cloak",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|hail", "frame|self|閃避|up|1", "nftext|l|免疫冰雹傷害"],
+		"effect": "如果當前天氣狀態為冰雹，則這隻寶可夢的閃避技能提升 1 點。這隻寶可夢免疫冰雹天氣造成的傷害。",
+		"desc": "這隻寶可夢的外表能很好地融入冰天雪地之中，你很難辨識出牠的身影。"
 	},
 	{
 		"name": "降雪", "alias": "ゆきふらし|Snow Warning",
@@ -1276,9 +1276,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "不屈之心", "alias": "ふくつのこころ|Steadfast",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|flinch||always", "frame|self|靈巧|up|1"],
+		"effect": "當這隻寶可夢第一次陷入「畏縮」狀態時，牠的靈巧提升 1 點。",
+		"desc": "當逆境來襲，這隻寶可夢將會變得更加可靠。"
 	},
 	{
 		"name": "蒸汽機", "alias": "じょうききかん|Steam Engine",
@@ -1324,9 +1324,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "結實", "alias": "がんじょう|Sturdy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"effect": "當這隻寶可夢第一次因為傷害類招式而將要陷入瀕死狀態時，改為將牠維持在 1 點HP的狀態。異常狀態和自己造成的傷害仍然會導致牠陷入瀕死狀態。這隻寶可夢必須休息至少一個小時才能夠再次使用這個特性的效果。",
+		"desc": "這隻寶可夢的身體在面對傷害時能表現出極端強韌的性質，牠可以忍受幾乎所有一切。"
 	},
 	{
 		"name": "吸盤", "alias": "きゅうばん|Suction Cups",
