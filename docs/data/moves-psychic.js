@@ -674,7 +674,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "在奇妙空間內，強健的心智會造就強健的肉體，且堅韌的肉體也將產生堅韌的意志。然而，如果心智薄弱，那麼肉體也會跟著虛弱，反之亦然。"
 	},
 	{
-		"name": "意念頭錘", "alias": "しねんのずつき|Zen Headbutt",
+		"name": "意念頭鎚", "alias": "しねんのずつき|Zen Headbutt",
 		"power": "3",
 		"category": "physical",
 		"type": "Psychic",

@@ -172,7 +172,7 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "唱反調", "alias": "あまのじゃく|Contrary",
-		"tags": ["target|l|self", "frame|self|特質|down|x", "nftext|l|兩者互換", "frame|self|特質|up|x"],
+		"tags": ["target|l|self", "nftext|l|兩者互換", "frame|self|特質|down|x", "frame|self|特質|up|x"],
 		"effect": "如果有任何效果會降低這隻寶可夢的特質，改為將其提升；如果有任何效果會提升這隻寶可夢的特質，改為將其降低。",
 		"desc": "在大部分情況下，這隻寶可夢會想要去做那些與你所想相反的事情。有時牠甚至會因此做出自相矛盾的行為。"
 	},
@@ -190,7 +190,7 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "詛咒之軀", "alias": "のろわれボディ|Cursed Body",
-		"tags": ["target|l|foe", "frame|disable||number|d3"],
+		"tags": ["target|l|foe", "frame|disabled||number|d3"],
 		"effect": "每當這隻寶可夢因某個招式而受到傷害，骰 3 顆機率骰以使對方陷入「定身法」狀態。這個方式可以禁用一個以上的招式。",
 		"desc": "這隻寶可夢的體內帶有一種詛咒。跟這隻寶可夢作對可不是什麼好主意。"
 	},
@@ -1120,9 +1120,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "天恩", "alias": "てんのめぐみ|Serene Grace",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "pdice|l|2"],
+		"effect": "這隻寶可夢造成的所有效果都將額外增加 2 顆機率骰。（例如：一個會骰 3 顆機率骰以使敵人陷入「畏縮」狀態的招式，將會變成骰 5 顆機率骰。）",
+		"desc": "這隻寶可夢會帶來好運，就彷彿牠被上天祝福一樣。牠的存在能讓人感到撫慰，使你感到平靜且充滿喜悅。"
 	},
 	{
 		"name": "幻影防守", "alias": "ファントムガード|Shadow Shield",

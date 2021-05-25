@@ -5739,4 +5739,4 @@ Array.prototype.push.apply(Pokedex, [
     "isLegend": true
   }
 ]);
-console.log(Pokedex.length)
+//console.log(Pokedex.length)
