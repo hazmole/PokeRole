@@ -61,6 +61,7 @@ tag.dice b {
     color: #fff;
 }
 tag.dice.plus { background-image: url('../images/icons/dice-plus.png'); background-color: #eee; }
+tag.dice.minus { background-image: url('../images/icons/dice-minus.png'); background-color: #eee; }
 
 tag.rdice { filter: invert(45%) sepia(20%) saturate(16%) hue-rotate(314deg) brightness(91%) contrast(88%); }
 tag.rdice.success { filter: invert(64%) sepia(73%) saturate(483%) hue-rotate(75deg) brightness(94%) contrast(88%); } //#3ad451

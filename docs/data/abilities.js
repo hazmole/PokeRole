@@ -197,7 +197,7 @@ Array.prototype.push.apply(AbilityList, [
 	{
 		"name": "迷人之軀", "alias": "メロメロボディ|Cute Charm",
 		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|love||number|d3"],
-		"effect": "如果這隻寶可夢被敵人以非遠程物理攻擊給命中，骰 3 顆機率骰以使敵人陷入「著迷」狀態。",
+		"effect": "當這隻寶可夢被敵人以非遠程物理攻擊給命中時，骰 3 顆機率骰以使敵人陷入「著迷」狀態。",
 		"desc": "也許是因為牠動人的雙眸、或是牠紅潤的臉頰，但無論如何，其他人和寶可夢都會為了贏得這隻寶可夢的芳心而努力。"
 	},
 	{
@@ -256,9 +256,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "畫皮", "alias": "ばけのかわ|Disguise",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|第一次受到的攻擊只會造成", "frame|target|傷害|number|0"],
+		"effect": "這隻寶可夢在戰鬥中第一次要受到傷害時，將該傷害降低到零。入場危害、天氣狀態、和異常狀態並不會觸發這個特性。",
+		"desc": "這隻寶可夢穿著一件其他寶可夢外觀的可信偽裝。當牠受到傷害時，偽裝將會被破壞，看起來就像是牠承受了致命傷勢一樣。"
 	},
 	{
 		"name": "下載", "alias": "ダウンロード|Download",
@@ -328,9 +328,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "火焰之軀", "alias": "ほのおのからだ|Flame Body",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|burn1||number|d3"],
+		"effect": "當這隻寶可夢被非遠程攻擊的物理攻擊給命中時，骰 3 顆機率骰以使敵人陷入「灼傷 1 級」狀態。",
+		"desc": "這隻寶可夢可以隨心所欲點燃自己的身軀，且不會因此受到任何傷害。接觸到這隻寶可夢的物體可能會起火燃燒。"
 	},
 	{
 		"name": "受熱激升", "alias": "ねつぼうそう|Flare Boost",
@@ -748,9 +748,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "破格", "alias": "かたやぶり|Mold Breaker",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|忽略其他寶可夢的免疫能力"],
+		"effect": "如果敵人擁有任何屬性、特性、或其他免疫能力能阻止這隻寶可夢使用某個招式對其進行攻擊，將其忽略。",
+		"desc": "這隻寶可夢將找出不尋常的手段來達成牠的目的。牠們善於創新，繞過難題。"
 	},
 	{
 		"name": "心情不定", "alias": "ムラっけ|Moody",
@@ -820,9 +820,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "遲鈍", "alias": "どんかん|Oblivious",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|love||never"],
+		"effect": "這隻寶可夢不會受到「著迷」狀態的影響，且牠免疫任何會影響牠情緒的招式的效果，像是〈挑釁〉、〈撒嬌〉、〈誘惑〉等等",
+		"desc": "這隻寶可夢很少會做出令人滿意的社交互動，牠太只顧自己，以至於會忽略掉任何期待牠做出什麼反應的暗示。"
 	},
 	{
 		"name": "防塵", "alias": "ぼうじん|Overcoat",
@@ -922,9 +922,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "惡作劇之心", "alias": "いたずらごころ|Prankster",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|變化招式", "frame|priority||up|1"],
+		"effect": "這隻寶可夢的所有變化類招式的先制+1。",
+		"desc": "這隻寶可夢的雙眼總是閃爍著調皮的光芒，這附近沒有任何人能夠逃過牠的惡作劇。"
 	},
 	{
 		"name": "壓迫感", "alias": "プレッシャー|Pressure",
@@ -994,15 +994,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "雨盤", "alias": "あめうけざら|Rain Dish",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|rain", "frame|heal||heal|1"],
+		"effect": "如果當前天氣狀態為下雨，則這隻寶可夢可以在每輪結束時回復 1 點HP。",
+		"desc": "這隻寶可夢會儲存雨水以供飲用或滋養所需。"
 	},
 	{
 		"name": "膽怯", "alias": "びびり|Rattled",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當被", "text|l|蟲系招式|Bug", "text|l|惡系招式|Dark", "text|l|幽靈招式|Ghost", "nftext|l|命中時", "frame|self|靈巧|up|1"],
+		"effect": "當這隻寶可夢第一次被蟲、惡、或幽靈屬性的攻擊命中時，這隻寶可夢的靈巧特質將提升 1 點。",
+		"desc": "當這隻膽戰心驚的寶可夢感到害怕或受驚嚇時，牠將加速以匆忙逃離危險。"
 	},
 	{
 		"name": "接球手", "alias": "レシーバー|Receiver",
@@ -1054,33 +1054,33 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "粗糙皮膚", "alias": "さめはだ|Rough Skin",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|target|傷害|number|d1"],
+		"effect": "當這隻寶可夢被非遠程攻擊的物理攻擊給命中時，骰 1 顆傷害骰以對敵人造成傷害。",
+		"desc": "在觸碰這隻寶可夢時請務必保護好你的雙手，因為牠的身體覆蓋著能夠割傷肌膚的鋒利鱗片或棘刺。"
 	},
 	{
 		"name": "逃跑", "alias": "にげあし|Run Away",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫於", "effect|l|block"],
+		"effect": "這隻寶可夢不會被阻擋。根據說書人的判斷，牠在為從戰鬥中逃跑或逃離囚禁時進行的判定也可能會得到額外的獎勵骰。",
+		"desc": "這隻寶可夢是逃跑大師，牠相當難以捕捉，且甚至能夠鑽進最狹窄的隙縫來逃出生天。"
 	},
 	{
 		"name": "沙之力", "alias": "すなのちから|Sand Force",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|sand", "text|l|地系招式|Ground", "text|l|岩系招式|Rock", "text|l|鋼系招式|Steel", "frame|self|傷害|plus|d1", "nftext|l|免疫沙暴傷害"],
+		"effect": "如果當前天氣狀態為沙暴，則這隻寶可夢地面、岩石、和鋼屬性招式的傷害骰池都會額外增加 1 顆骰子。這隻寶可夢免疫沙暴天氣造成的傷害。",
+		"desc": "這隻寶可夢能控制戰場周遭的沙塵微粒以增強牠的攻擊。"
 	},
 	{
 		"name": "撥沙", "alias": "すなかき|Sand Rush",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|sand", "frame|self|靈巧|up|1", "nftext|l|免疫沙暴傷害"],
+		"effect": "如果當前天氣狀態為沙暴，則這隻寶可夢的靈巧特質提升 1 點。這隻寶可夢免疫沙暴天氣造成的傷害。",
+		"desc": "當沙塵橫掃這個戰場，這隻寶可夢能夠穿梭其中，如魚得水。"
 	},
 	{
 		"name": "吐沙", "alias": "すなはき|Sand Spit",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field", "nftext|l|當被物理攻擊命中時", "weather|l|sand"],
+		"effect": "當這隻寶可夢被非遠程攻擊的物理攻擊給命中時，牠將把天氣狀態變為沙暴。這個效果將持續 4 輪。",
+		"desc": "這隻寶可夢蜿蜒穿過沙漠中的沙土，並在過程中吃掉一些沙子。如果牠被擊中（或打了個噴嚏），則牠將噴出一股沙塵暴。"
 	},
 	{
 		"name": "揚沙", "alias": "すなおこし|Sand Stream",
@@ -1090,15 +1090,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "沙隱", "alias": "すながくれ|Sand Veil",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|sand", "frame|self|閃避|up|1", "nftext|l|免疫沙暴傷害"],
+		"effect": "如果當前天氣狀態為沙暴，則這隻寶可夢的閃避技能提升 1 點。這隻寶可夢免疫沙暴天氣造成的傷害。",
+		"desc": "這隻寶可夢的身體能輕易地被空氣中的沙塵粒子給遮蔽。"
 	},
 	{
 		"name": "食草", "alias": "そうしょく|Sap Sipper",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "text|l|草系招式|Grass", "nftext|l|的傷害", "frame|self|力量|up|1"],
+		"effect": "當這隻寶可夢第一次被草屬性招式命中，這隻寶可夢的力量將因此提升 1 點，而非造成傷害。草屬性招式不會對這隻寶可夢造成傷害。",
+		"desc": "這隻寶可夢完全以植物為食，牠特別喜歡攝食植物的鮮甜汁液以獲取養分。"
 	},
 	{
 		"name": "魚群", "alias": "ぎょぐん|Schooling",
@@ -1108,9 +1108,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "膽量", "alias": "きもったま|Scrappy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|一般招式|Normal", "text|l|格鬥招式|Fight", "nftext|l|可以命中", "text|l|幽靈屬性|Ghost"],
+		"effect": "這隻寶可夢得到能以一般和格鬥屬性招式命中幽靈屬性寶可夢的能力，並無視其免疫能力以造成傷害。如果該寶可夢擁有第二屬性，則如常應用其抗性或弱點。",
+		"desc": "這隻寶可夢完全不相信幽靈的存在。"
 	},
 	{
 		"name": "除障", "alias": "バリアフリー|Screen Cleaner",
@@ -1132,15 +1132,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "踩影", "alias": "かげふみ|Shadow Tag",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allfoe", "effect|l|block"],
+		"effect": "所有敵人被阻擋。幽靈屬性和相同特性的寶可夢將免疫這個效果。",
+		"desc": "這隻寶可夢踩住對手的影子，不讓對方離自己太遠。"
 	},
 	{
 		"name": "蛻皮", "alias": "だっぴ|Shed Skin",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|heal|治療狀態|number|d3"],
+		"effect": "在每個戰鬥輪結束時，如果這隻寶可夢正處於異常狀態，則骰 3 顆機率骰以治療自己的異常狀態。",
+		"desc": "這隻寶可夢的身體總是不斷長出新的外皮，並在舊的表皮損壞時將其蛻去。"
 	},
 	{
 		"name": "強行", "alias": "ちからずく|Sheer Force",
@@ -1150,33 +1150,33 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "硬殼盔甲", "alias": "シェルアーマー|Shell Armor",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|要害獎勵|never"],
+		"effect": "如果敵人對這隻寶可夢造成了擊中要害，則牠不會因為擊中要害而獲得任何額外的獎勵骰。",
+		"desc": "這隻寶可夢的硬殼保護著牠的脆弱弱點不被對手所傷。"
 	},
 	{
 		"name": "鱗粉", "alias": "りんぷん|Shield Dust",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫機率骰造成的額外效果"],
+		"effect": "如果這隻寶可夢被帶有會造成額外效果的機率骰的攻擊給命中，則牠不會受到該額外效果的影響。",
+		"desc": "這隻寶可夢總是不斷產生鱗粉來遮蔽並保護自己。"
 	},
 	{
 		"name": "界限盾殼", "alias": "リミットシールド|Shields Down",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|型態變化"],
+		"effect": "只有小隕星能夠使用這個特性。當牠的HP剩一半或以下，將小隕星的數據取代為滿HP的「小隕星（核心型態）」。若要恢復其原本的型態，小隕星（核心型態）必須被放生，並在數天後等牠回來後再重新捕捉。",
+		"desc": "這隻寶可夢的核心被一層堅硬的盾殼給保護，如果盾殼被擊碎，這隻寶可夢的行動將變得瘋狂起來。"
 	},
 	{
 		"name": "單純", "alias": "たんじゅん|Simple",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|特質|down|-1", "frame|self|特質|up|+1"],
+		"effect": "若這隻寶可夢的特質將被降低，則該特質額外降低 1 點。若這隻寶可夢的特質將被提升，則該特質額外提升 1 點。",
+		"desc": "這隻寶可夢天真的心靈很容易被自己和外在的影響給動搖。牠總是能找到把事情簡單化的方法。"
 	},
 	{
 		"name": "連續攻擊", "alias": "スキルリンク|Skill Link",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "effect|l|sact_2", "effect|l|sact_5", "frame|self|命中|plus|d2"],
+		"effect": "當使用雙重行動或連續行動招式時，該招式的命中判定將額外增加 2 顆骰子。",
+		"desc": "這隻寶可夢可以熟練地連鎖施展一系列猛攻。牠同時也喜歡重複且連續的行動。"
 	},
 	{
 		"name": "慢啟動", "alias": "スロースタート|Slow Start",
@@ -1186,21 +1186,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "撥雪", "alias": "ゆきかき|Slush Rush",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|hail", "frame|self|靈巧|up|1", "nftext|l|免疫冰雹傷害"],
+		"effect": "如果當前天氣狀態為冰雹，則這隻寶可夢的靈巧特質提升 1 點。這隻寶可夢免疫冰雹天氣造成的傷害。",
+		"desc": "這隻寶可夢相當習慣於在冰雪環境中奔跑狩獵，甚至能夠在狂風暴雪中於雪地迅速移動。"
 	},
 	{
 		"name": "狙擊手", "alias": "スナイパー|Sniper",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|要害獎勵|plus|d1"],
+		"effect": "當這隻寶可夢擊中要害時，牠地傷害骰池將會增加 3 顆骰子，而非原本的 2 顆骰子。",
+		"desc": "這隻寶可夢將悄悄地讓自己位處優勢位置，好狠狠打擊敵人的弱點。"
 	},
 	{
 		"name": "雪隱", "alias": "ゆきがくれ|Snow Cloak",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|hail", "frame|self|閃避|up|1", "nftext|l|免疫冰雹傷害"],
+		"effect": "如果當前天氣狀態為冰雹，則這隻寶可夢的閃避技能提升 1 點。這隻寶可夢免疫冰雹天氣造成的傷害。",
+		"desc": "這隻寶可夢的外表能很好地融入冰天雪地之中，你很難辨識出牠的身影。"
 	},
 	{
 		"name": "降雪", "alias": "ゆきふらし|Snow Warning",
@@ -1234,9 +1234,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "加速", "alias": "かそく|Speed Boost",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|靈巧|up|1"],
+		"effect": "在每個戰鬥輪結束時，這隻寶可夢的靈巧特質提升 1 點。你最多可以透過這個方式提升 3 點。",
+		"desc": "這隻寶可夢將開始不斷加速的勢頭高速機動，牠將彷彿瞬間移動一般從這個地方移動到另一個地方。"
 	},
 	{
 		"name": "監視", "alias": "はりこみ|Stakeout",
@@ -1264,99 +1264,99 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "戰鬥切換", "alias": "バトルスイッチ|Stance Change",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|型態變化"],
+		"effect": "只有堅盾劍怪能夠使用這個特性。在每個戰鬥輪開始時，從「劍型態」和「盾型態」中選擇一個型態。當處於「劍型態」時，牠只能使用攻擊招式；當處於「盾型態」時，牠只能使用變化類招式。根據階級和特質上限調整牠各個形態的特質。",
+		"desc": "這隻寶可夢能夠改變型態，變成一面堅毅的盾牌或一把強力的寶劍，牠的特質屬性會隨著型態切換而改變。"
 	},
 	{
 		"name": "靜電", "alias": "せいでんき|Static",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|paralysis||number|d3"],
+		"effect": "當這隻寶可夢被非遠程攻擊的物理攻擊給命中時，骰 3 顆機率骰以使對方陷入「麻痺」狀態。",
+		"desc": "這隻寶可夢的身體總是準備好在哪怕是最輕微的觸碰下釋放出一道靜電。"
 	},
 	{
 		"name": "不屈之心", "alias": "ふくつのこころ|Steadfast",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|flinch||always", "frame|self|靈巧|up|1"],
+		"effect": "當這隻寶可夢第一次陷入「畏縮」狀態時，牠的靈巧提升 1 點。",
+		"desc": "當逆境來襲，這隻寶可夢將會變得更加可靠。"
 	},
 	{
 		"name": "蒸汽機", "alias": "じょうききかん|Steam Engine",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當被", "text|l|火系招式|Fire", "text|l|水系招式|Water", "nftext|l|命中時", "frame|self|靈巧|up|3"],
+		"effect": "當這隻寶可夢第一次被火或水屬性招式命中時，牠的靈巧提升 3 點。",
+		"desc": "這隻寶可夢就如同一座蒸汽爐，只要一點點的火或水，牠就能以極快的速度移動任何東西。煤炭是牠最愛的食物。"
 	},
 	{
 		"name": "鋼能力者", "alias": "はがねつかい|Steelworker",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|鋼系招式|Steel", "frame|self|傷害|plus|d1"],
+		"effect": "這隻寶可夢使用的鋼屬性招式的傷害骰池將額外增加 1 顆骰子。",
+		"desc": "這隻寶可夢能夠融塑並吃食鋼鐵，賦予牠觸碰的任何金屬新的外型和更鋒利的邊緣。"
 	},
 	{
 		"name": "鋼之意志", "alias": "はがねのせいしん|Steely Spirit",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "text|l|鋼系招式|Steel", "frame|self|傷害|plus|d1"],
+		"effect": "這隻寶可夢和牠隊友使用的鋼屬性招式的傷害骰池都將額外增加 1 顆骰子。",
+		"desc": "這隻寶可夢在大部分時候都有著執著倔強的表現。如果牠下定了決心去做某事，那牠就會去做，這個姿態將能激勵鼓舞他人。"
 	},
 	{
 		"name": "惡臭", "alias": "あくしゅう|Stench",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|flinch||number|d1"],
+		"effect": "當這隻寶可夢被非遠程攻擊的物理攻擊給命中時，骰 1 顆機率骰以使敵人陷入「畏縮」狀態。降低遭遇野生寶可夢的機率。",
+		"desc": "這隻寶可夢能夠發出一股足以趕走其他人或寶可夢的可怕惡臭。"
 	},
 	{
 		"name": "黏著", "alias": "ねんちゃく|Sticky Hold",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|持有物品不會被偷走/交換"],
+		"effect": "這隻寶可夢持有的物品不會被招式或特性的效果給移除、偷走、或交換。",
+		"desc": "這隻寶可夢的身體總是分泌著黏性物質，如果有什麼東西被黏住，那要把它拔出來可會相當困難。"
 	},
 	{
 		"name": "引水", "alias": "よびみず|Storm Drain",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|吸引並免疫", "text|l|水系招式|Fire", "frame|self|傷害|plus|d1"],
+		"effect": "如果有任何人使用了單一目標的水屬性招式，則該招式的目標將會引導變更為這隻寶可夢；這隻寶可夢免疫任何水屬性招式的傷害。當這隻寶可夢第一次被水屬性招式命中，這隻寶可夢的特殊特質提升 1 點。",
+		"desc": "這隻寶可夢能像海綿一樣吸收水分和液體，接著利用它們來增強自己的力量，並讓自己能在沒有水的環境下待上更長的時間。"
 	},
 	{
 		"name": "強壯之顎", "alias": "がんじょうあご|Strong Jaw",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|傷害|plus|d1"],
+		"effect": "如果這隻寶可夢使用了名字帶有「牙」或「咬」關鍵字的招式，則該招式的傷害骰池將額外增加 1 顆骰子。",
+		"desc": "這隻寶可夢強壯的下顎賦予牠無與倫比的咬合力。牠的牙齒能夠撕開幾乎所有一切。"
 	},
 	{
 		"name": "結實", "alias": "がんじょう|Sturdy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"effect": "當這隻寶可夢第一次因為傷害類招式而將要陷入瀕死狀態時，改為將牠維持在 1 點HP的狀態。異常狀態和自己造成的傷害仍然會導致牠陷入瀕死狀態。這隻寶可夢必須休息至少一個小時才能夠再次使用這個特性的效果。",
+		"desc": "這隻寶可夢的身體在面對傷害時能表現出極端強韌的性質，牠可以忍受幾乎所有一切。"
 	},
 	{
 		"name": "吸盤", "alias": "きゅうばん|Suction Cups",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "effect|l|swither"],
+		"effect": "這隻寶可夢免疫於強制替換寶可夢下場的效果。",
+		"desc": "這隻寶可夢的肢體有著能幫助牠根植在原地的吸盤。牠可以吸附在任何表面上，甚至倒掛在天花板上。"
 	},
 	{
 		"name": "超幸運", "alias": "きょううん|Super Luck",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "effect|l|crit"],
+		"effect": "這隻寶可夢使用的攻擊招式獲得「高要害率」效果。如果該招式已經擁有「高要害率」效果，則這隻寶可夢只需要比需求成功骰數還要多 1 顆成功骰的擲骰結果（而非原本的 2 顆）就能夠擊中要害。",
+		"desc": "這隻寶可夢有著不可思議的好運，經常會有好事發生。"
 	},
 	{
 		"name": "衝浪之尾", "alias": "サーフテール|Surge Surfer",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|電氣場地|Electric", "frame|self|靈巧|up|2"],
+		"effect": "如果〈電氣場地〉正在發揮效果，則這隻寶可夢的靈巧特質提升 2 點。",
+		"desc": "這隻寶可夢的磁場使牠能夠乘著電流衝浪，就彷彿牠飄浮著一樣。"
 	},
 	{
 		"name": "蟲之預感", "alias": "むしのしらせ|Swarm",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|HP降到一半或以下時", "text|l|蟲系招式|Bug", "frame|self|傷害|plus|d1"],
+		"effect": "當這隻寶可夢的HP剩一半或以下，牠蟲屬性招式的傷害骰池並不會因為疼痛懲罰而被扣除成功骰，且牠蟲屬性招式的傷害骰池會額外增加 1 顆骰子。",
+		"desc": "這隻寶可夢將在命懸一線時進入蟲巢意志狀態，變得更兇猛且侵略性。"
 	},
 	{
 		"name": "甜幕", "alias": "スイートベール|Sweet Veil",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "frame|sleep||never"],
+		"effect": "這隻寶可夢和牠的隊友免疫於「睡眠」狀態。提升遭遇野生寶可夢的機率。",
+		"desc": "這隻寶可夢甜美的香氣將喚醒所有附近寶可夢的食慾。"
 	},
 	{
 		"name": "悠遊自如", "alias": "すいすい|Swift Swim",
@@ -1480,9 +1480,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "緊張感", "alias": "きんちょうかん|Unnerve",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|無法食用樹果"],
+		"effect": "當這隻寶可夢在場上時，對手將無法吃掉牠持有的樹果。",
+		"desc": "也許是因為牠迫力十足的瞪視、又或許是因為牠凶狠的存在，這隻寶可夢附近的其他人將變得相當緊張，甚至到失去食慾的程度。"
 	},
 	{
 		"name": "無形拳", "alias": "ふかしのこぶし|Unseen Fist",
@@ -1498,9 +1498,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "幹勁", "alias": "やるき|Vital Spirit",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|sleep||never"],
+		"effect": "這隻寶可夢免疫於「睡眠」狀態。",
+		"desc": "這隻寶可夢異常的活躍且充滿元氣。牠必須經常活動並鍛鍊，否則牠將做出破壞性的行動。牠從來不睡覺。"
 	},
 	{
 		"name": "蓄電", "alias": "ちくでん|Volt Absorb",
@@ -1534,9 +1534,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "水幕", "alias": "みずのベール|Water Veil",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|burn1||never", "frame|burn2||never", "frame|burn3||never"],
+		"effect": "這隻寶可夢免疫於所有「灼傷」狀態。",
+		"desc": "這隻寶可夢總是潮濕且會製造水分以讓牠保持濕潤。多虧於此，這隻寶可夢能夠長時期離開水體生活。"
 	},
 	{
 		"name": "碎裂鎧甲", "alias": "くだけるよろい|Weak Armor",
@@ -1558,15 +1558,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "神奇守護", "alias": "ふしぎなまもり|Wonder Guard",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫所有除了效果絕佳傷害以外的傷害源"],
+		"effect": "這隻寶可夢只會受到來自異常狀態、以及能對牠造成效果絕佳傷害的招式的傷害。這隻寶可夢免疫於其他來源的傷害，像是天氣狀態和入場危害。",
+		"desc": "這隻寶可夢的身體被一種神奇的超自然氣場給保護。大部分的東西都會穿過牠，就彷彿那裏什麼東西都沒有一樣。"
 	},
 	{
 		"name": "奇跡皮膚", "alias": "ミラクルスキン|Wonder Skin",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "mdice|l|2"],
+		"effect": "其他人對這隻寶可夢的所有效果都將減少 2 顆機率骰。（例如：招式〈火花〉會骰 1 顆機率骰以使敵人陷入「灼傷」狀態，在對這隻寶可夢使用時將會變成 0 顆機率骰。）",
+		"desc": "這隻寶可夢的皮膚披覆著一層薄薄的保護膜，能夠幫助牠減輕危害的威脅。"
 	},
 	{
 		"name": "達摩模式", "alias": "ダルマモード|Zen Mode",
