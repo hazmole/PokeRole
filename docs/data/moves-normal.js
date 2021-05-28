@@ -674,7 +674,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢把牠的腦袋當作巨石來衝撞對手。"
 	},
 	{
-		"name": "頭錘", "alias": "ずつき|Headbutt",
+		"name": "頭鎚", "alias": "頭錘|ずつき|Headbutt",
 		"power": "3",
 		"category": "physical",
 		"type": "Normal",

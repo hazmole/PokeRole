@@ -10,7 +10,7 @@ weight = 7
 只要運用得當，就誰也不能阻擋這群真正的戰士。
 
 **效果絕佳:**
-<span class="TypeBlockList">Ice, Normal, Rock, Steel</span>
+<span class="TypeBlockList">Ice, Normal, Rock, Steel, Dark</span>
 
 **效果不好:**
 <span class="TypeBlockList">Bug, Fairy, Flying, Poison, Psychic</span>

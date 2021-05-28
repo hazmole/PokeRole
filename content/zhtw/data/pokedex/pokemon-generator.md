@@ -20,6 +20,8 @@ description = "產生特定條件的寶可夢"
 {{< script "pokedex-hoenn.js" >}}
 {{< script "pokedex-sinnoh.js" >}}
 {{< script "pokedex-unova.js" >}}
+{{< script "pokedex-alola.js" >}}
+{{< script "pokedex-galar.js" >}}
 
 {{< script "abilities.js" >}}
 

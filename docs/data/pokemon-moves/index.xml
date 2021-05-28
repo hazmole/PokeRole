@@ -64,7 +64,7 @@ TocInjector.parsePage("Move");
 格鬥屬性的招式傾向進行直接而強大的攻擊，運用蠻力和嫺熟的武術技巧來擊敗敵人。牠們強大的力量只有牠們自己的驚人高速能夠匹敵。
 只要運用得當，就誰也不能阻擋這群真正的戰士。
 效果絕佳:
-Ice, Normal, Rock, Steel
+Ice, Normal, Rock, Steel, Dark
 效果不好:
 Bug, Fairy, Flying, Poison, Psychic
 window.addEventListener("parsePage", ()={

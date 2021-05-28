@@ -560,7 +560,7 @@ Array.prototype.push.apply(MoveList, [
 		"tags": ["target|l|self", "frame|sleep||always", "effect|l|c_heal"],
 		"accuracy": "活力 + 自然",
 		"damage": "-",
-		"effect": "強效治癒。若成功，則消耗 1 點意志點以使其生效。使用者將陷入「沉睡」狀態並持續一整個戰鬥輪的時間（從戰鬥輪開始到結束）。",
+		"effect": "強效治癒。若成功，則消耗 1 點意志點以使其生效。使用者將陷入「睡眠」狀態並持續一整個戰鬥輪的時間（從戰鬥輪開始到結束）。",
 		"desc": "使用者陷入沉睡。在這段期間內，牠的身體將處於超高速自癒的狀態。"
 	},
 	{
