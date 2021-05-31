@@ -220,39 +220,39 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "不屈之盾", "alias": "ふくつのたて|Dauntless Shield",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|防禦|up|2"],
+		"effect": "當這隻寶可夢進入戰鬥時，使牠自己的防禦提升 2 點。在戰鬥之外的情況，這隻寶可夢免疫物理傷害。",
+		"desc": "這隻寶可夢的英勇決心讓牠能透過純粹的意志使自己不受物理傷害。牠的存在本身可能會使人膽怯不安。"
 	},
 	{
 		"name": "鮮艷之軀", "alias": "ビビッドボディ|Dazzling",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|priority||up|never"],
+		"effect": "敵人無法對這隻寶可夢使用先制招式。",
+		"desc": "牠美麗的鱗片能如同鏡子一樣反射光輝。一旦瞥見這隻寶可夢，就沒有人能夠移開他們的視線。"
 	},
 	{
 		"name": "軟弱", "alias": "よわき|Defeatist",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|HP降到一半或以下時", "frame|self|力量|down|2", "frame|self|特殊|down|2"],
+		"effect": "當這隻寶可夢的HP降到一半或以下時，為這隻寶可夢的每個行動進行忠誠度的判定。若判定失敗，則這隻寶可夢在該行動的力量和特殊特質將被視作降低 2 點。若判定成功，則牠的特質保持不變。",
+		"desc": "這隻寶可夢是個天生的悲觀主義者。當情況變得艱難，牠將會第一個放棄。"
 	},
 	{
 		"name": "不服輸", "alias": "まけんき|Defiant",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當特質降低時", "frame|self|力量|up|2"],
+		"effect": "當這隻寶可夢在戰鬥中第一次被敵人降低特質時，使牠自己的力量特質提升 2 點。",
+		"desc": "這隻寶可夢絕不會屈服，情況變得越艱難，牠的鬥志就會變得更高昂。然而，這也可能使牠表現的有點叛逆。"
 	},
 	{
 		"name": "德爾塔氣流", "alias": "デルタストリーム|Delta Stream",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field", "weather|l|wind"],
+		"effect": "當這隻寶可夢出場時，天氣狀態將會自動變為亂流。這個效果將會在這隻寶可夢退場時結束。（若效果互相衝突，則由意志較高的寶可夢影響天氣狀態。）",
+		"desc": "整個戰場颳起強風亂流，不知道如何飛行的寶可夢可能會被遠遠吹飛出去。"
 	},
 	{
 		"name": "終結之地", "alias": "おわりのだいち|Desolate Land",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field", "weather|l|sun2"],
+		"effect": "當這隻寶可夢出場時，天氣狀態將會自動變為大日照。這個效果將會在這隻寶可夢退場時結束。（若效果互相衝突，則由意志較高的寶可夢影響天氣狀態。）",
+		"desc": "烈日焦灼是如此酷熱，你的皮膚開始發紅起泡，所有的水分都被蒸發殆盡，且這隻寶可夢的每一步都會使地表熔化成岩漿。"
 	},
 	{
 		"name": "畫皮", "alias": "ばけのかわ|Disguise",
@@ -262,15 +262,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "下載", "alias": "ダウンロード|Download",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
-	},
-	{
-		"name": "龍顎", "alias": "りゅうのあぎと|Dragon's Maw",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|up|1", "nftext|l|或", "frame|self|特殊|up|1"],
+		"effect": "當這隻寶可夢出場時，牠將會掃描牠的敵人並提供關於對方的情報。接著牠將會在說書人的裁斷下提升 1 點力量或 1 點特殊特質。",
+		"desc": "這隻寶可夢能夠掃描敵人，連上電腦中的數據並將其下載到牠自己體內。太過大量的資料可能會讓牠感到有些沉重。"
 	},
 	{
 		"name": "降雨", "alias": "あめふらし|Drizzle",
@@ -346,21 +340,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "花之禮", "alias": "フラワーギフト|Flower Gift",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "weather|l|sun", "frame|self|力量|up|2", "frame|self|特防|up|2"],
+		"effect": "如果當前天氣狀態為大晴天，則這隻寶可夢和牠隊友的力量和特防特質都將提升 2 點。",
+		"desc": "這隻寶可夢的花瓣將在陽光普照時散發出滿滿的能量，這股能量能讓周遭的人們感到更強大。"
 	},
 	{
 		"name": "花幕", "alias": "フラワーベール|Flower Veil",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "frame|self|特質|down|never", "text|l|免疫異常"],
+		"effect": "使用者和隊友的特質不會被降低，且不會陷入任何異常狀態。在這之前被影響的特質或異常狀態仍會保留。",
+		"desc": "這隻寶可夢能使花朵盛開，並保護周遭的其他寶可夢不受傷害。"
 	},
 	{
 		"name": "毛茸茸", "alias": "もふもふ|Fluffy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|物理攻擊", "frame|self|受傷|minus|2", "text|l|火系招式", "frame|self|受傷|plus|2"],
+		"effect": "所有物理攻擊對這隻寶可夢造成的傷害降低 2 點。所有火屬性攻擊對這隻寶可夢造成的傷害增加 2 點。",
+		"desc": "這隻寶可夢的毛皮蓬鬆到能讓人溺死在裡面。它是如此柔軟而舒適，彷彿在邀請你擁抱它一樣。請使用無溫烘乾機乾燥，不可熨燙。"
 	},
 	{
 		"name": "陰晴不定", "alias": "てんきや|Forecast",
