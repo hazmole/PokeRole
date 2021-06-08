@@ -412,21 +412,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "黏滑", "alias": "ぬめぬめ|Gooey",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當被物理攻擊命中時", "frame|target|靈巧|down|1"],
+		"effect": "當敵人第一次以非遠程攻擊的物理攻擊命中這隻寶可夢時，使敵人的靈巧特質降低 1 點。",
+		"desc": "這隻寶可夢的黏性分泌物會黏在任何接觸牠的人身上，並可能會在行動上造成相當程度的負擔。往好處想，這可是純天然的有機膠水耶！"
 	},
 	{
 		"name": "一猩一意", "alias": "ごりむちゅう|Gorilla Tactics",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|up|1", "nftext|l|只能進行閃避和使用一個招式"],
+		"effect": "在戰鬥開始時，選擇一個招式。這隻寶可夢的力量特質提升 1 點，且牠每個戰鬥輪都只能使用所選擇的招式或進行閃避。這個效果會在這隻寶可夢被從戰鬥中收回時重置。",
+		"desc": "這隻寶可夢的儀態有許多待改進的空間，牠野蠻而粗俗，且面對難題的唯一手段就是「砸了它！」"
 	},
 	{
 		"name": "草之毛皮", "alias": "くさのけがわ|Grass Pelt",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|青草場地|Grass", "frame|self|防禦|up|2"],
+		"effect": "如果〈青草場地〉正在發揮效果，則這隻寶可夢的防禦提升 2 點。",
+		"desc": "這隻寶可夢披著一層茂盛的草皮來保護自己的身體，即使你將其割除，它也會在幾天內就重新長回來。"
 	},
 	{
 		"name": "青草製造者", "alias": "グラスメイカー|Grassy Surge",
@@ -454,9 +454,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "治癒之心", "alias": "いやしのこころ|Healer",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|ally", "frame|heal|治療狀態|number|d3"],
+		"effect": "如果戰場上的某個隊友處於異常狀態，則在該戰鬥輪結束時，這隻寶可夢可以骰 3 顆機率骰以治療該狀態。",
+		"desc": "這隻寶可夢擁有治療之力，且牠會毫不猶豫地運用這股力量來幫助他人。"
 	},
 	{
 		"name": "耐熱", "alias": "たいねつ|Heatproof",
@@ -484,9 +484,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "飽了又餓", "alias": "はらぺこスイッチ|Hunger Switch",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|型態變化"],
+		"effect": "只有莫魯貝可能夠使用這個特性。這個特性無法被複製或交換。在戰鬥輪結束時，切換這隻寶可夢的型態（「滿腹型態」／「空腹型態」）。",
+		"desc": "這隻寶可夢會在感到飢餓時變得相當暴躁，除非你經常給牠零食，否則牠將會抓狂咬人。"
 	},
 	{
 		"name": "活力", "alias": "はりきり|Hustle",
@@ -616,7 +616,7 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "葉子防守", "alias": "リーフガード|Leaf Guard",
-		"tags": ["target|l|self", "weather|l|sun", "免疫異常"],
+		"tags": ["target|l|self", "weather|l|sun", "text|l|免疫異常"],
 		"effect": "如果當前天氣狀態為大晴天，則這隻寶可夢不會陷入任何異常狀態。在這之前陷入的異常狀態仍會保留。",
 		"desc": "這隻寶可夢身上的葉片隨著陽光延展以遮蓋自己的身體。"
 	},
