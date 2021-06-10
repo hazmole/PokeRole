@@ -352,7 +352,7 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "毛茸茸", "alias": "もふもふ|Fluffy",
-		"tags": ["target|l|self", "text|l|物理攻擊", "frame|self|受傷|minus|2", "text|l|火系招式", "frame|self|受傷|plus|2"],
+		"tags": ["target|l|self", "text|l|物理攻擊", "frame|self|受傷|minus|2", "text|l|火系招式|Fire", "frame|self|受傷|plus|2"],
 		"effect": "所有物理攻擊對這隻寶可夢造成的傷害降低 2 點。所有火屬性攻擊對這隻寶可夢造成的傷害增加 2 點。",
 		"desc": "這隻寶可夢的毛皮蓬鬆到能讓人溺死在裡面。它是如此柔軟而舒適，彷彿在邀請你擁抱它一樣。請使用無溫烘乾機乾燥，不可熨燙。"
 	},
@@ -496,33 +496,33 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "濕潤之軀", "alias": "うるおいボディ|Hydration",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|rain", "frame|heal|治療狀態|always"],
+		"effect": "如果當前天氣狀態為下雨，則這隻寶可夢會在戰鬥輪結束時治療自己的所有異常狀態。",
+		"desc": "這隻寶可夢的身體會吸收水分並利用其來維持自己的健康狀態。"
 	},
 	{
 		"name": "怪力鉗", "alias": "かいりきバサミ|Hyper Cutter",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|down|never"],
+		"effect": "這隻寶可夢的力量特質不會被任何方式降低。",
+		"desc": "這隻寶可夢的鉗爪相當鋒利，不會變鈍。"
 	},
 	{
 		"name": "冰凍之軀", "alias": "アイスボディ|Ice Body",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|hail", "frame|heal||heal|1"],
+		"effect": "如果當前天氣狀態為冰雹，則這隻寶可夢可以在戰鬥輪結束時回復 1 點HP。這隻寶可夢免疫冰雹天氣造成的傷害。",
+		"desc": "這隻寶可夢的身體彷彿結凍，零度以下的溫度對牠來說就像是老家一樣。"
 	},
 	{
 		"name": "結凍頭", "alias": "アイスフェイス|Ice Face",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "weather|l|hail", "text|l|型態變化"],
+		"effect": "當這隻寶可夢處於「結凍頭型態」時，這隻寶可夢擁有 2 點額外HP。如果結凍頭受到 2 點傷害，則這隻寶可夢將變為「解凍頭型態」。要重新變回「結凍頭型態」，這隻寶可夢必須在冰雹天氣狀態中待上一整輪的時間。",
+		"desc": "這隻寶可夢的頭部被厚實的冰塊給遮蓋，形成一道保護自己的屏障。如果它被破壞，那牠會需要相當寒冷的溫度才能使冰塊重新成形。"
 	},
 	{
 		"name": "冰鱗粉", "alias": "こおりのりんぷん|Ice Scales",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當被特殊攻擊命中時", "frame|self|受傷|minus|2"],
+		"effect": "所有特殊攻擊對這隻寶可夢造成的傷害將減少 2 點。",
+		"desc": "這隻寶可夢的身軀被冰晶鱗片給覆蓋。總是散發著寒氣，牠能夠輕易用體表偏折掉大多數的投射物、能量、光線。"
 	},
 	{
 		"name": "發光", "alias": "はっこう|Illuminate",
@@ -532,21 +532,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "幻覺", "alias": "イリュージョン|Illusion",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|改變自己的外觀"],
+		"effect": "當這隻寶可夢出場時，牠會以隊伍中的另一隻寶可夢的外型登場；牠會在受到傷害時變回牠原本的外型。當牠變為人類的外觀時，牠不會說話，且牠的尾巴仍可能會露出來。",
+		"desc": "這隻寶可夢會對自己施加幻象，讓牠看起來就像另外一隻牠曾經看過的生物。這道幻象與本尊幾乎毫無區別。"
 	},
 	{
 		"name": "免疫", "alias": "めんえき|Immunity",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|poison||never", "frame|poison2||never"],
+		"effect": "「中毒」和「劇毒」異常狀態不會對這隻寶可夢造成任何傷害。",
+		"desc": "這隻寶可夢擁有非常強大的免疫系統，且牠很少會生病。牠甚至能夠食用腐爛的食物而不至於得病。"
 	},
 	{
 		"name": "變身者", "alias": "かわりもの|Imposter",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|自動使用〈變身〉招式"],
+		"effect": "當這隻寶可夢進入戰鬥時，牠將直接受到〈變身〉招式的效果影響。",
+		"desc": "這隻寶可夢能夠以極快的速度改變牠自己的細胞結構，變身成另一個生物的複製體。"
 	},
 	{
 		"name": "穿透", "alias": "すりぬけ|Infiltrator",
@@ -556,21 +556,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "飛出的內在物", "alias": "とびだすなかみ|Innards Out",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|傷害|number|n"],
+		"effect": "如果某個攻擊將使這隻寶可夢陷入瀕死狀態，則牠會對敵人造成等同於自己剩餘HP的傷害。",
+		"desc": "由於缺少四肢，這隻寶可夢會吐出自己的內臟來當作肢體使用、或用來保護自己不受傷害。噁心但有用。"
 	},
 	{
 		"name": "精神力", "alias": "せいしんりょく|Inner Focus",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|flinch||never"],
+		"effect": "這隻寶可夢不會陷入「畏縮」狀態，且不會被威嚇。（「威嚇」特性不會對這隻寶可夢產生任何效果）",
+		"desc": "這隻寶可夢極度認真且專注在牠所做的任何事情上。即使受了重傷，牠也會保持冷靜，絕不退縮。"
 	},
 	{
 		"name": "不眠", "alias": "ふみん|Insomnia",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|sleep||never"],
+		"effect": "這隻寶可夢不會受到「睡眠」狀態的影響。",
+		"desc": "這隻寶可夢不需要睡覺，牠無論何時都會維持清醒。"
 	},
 	{
 		"name": "威嚇", "alias": "いかく|Intimidate",
