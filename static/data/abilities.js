@@ -89,7 +89,7 @@ Array.prototype.push.apply(AbilityList, [
 	{
 		"name": "牽絆變身", "alias": "きずなへんげ|Battle Bond",
 		"tags": ["target|l|self"],
-		"effect": "在敵人被這隻寶可夢給擊敗<b>之後</b>，如果牠的忠誠度為 5 點，則牠會變化為「戰鬥牽絆型態」持續直到該場景結束，或直到牠或牠的訓練家陷入拚死狀態。每個隊伍只能有一個擁有這個特性的寶可夢。擁有這個特性的寶可夢不能持有超級石。<br><b>戰鬥牽絆型態：</b><ul><li>寶可夢的力量和特殊的上限增加 2 點。</li><li>依照你的判斷為戰鬥牽絆型態重新分配階級給予的特質點數。</li><li>你所選擇的一個招式的威力增加 1 點。</li><li>讓HP和意志點回復至全滿，並解除所有異常狀態。</li><li>當處於戰鬥牽絆型態時，所有該寶可夢受到的戰鬥傷害也都會傷害到牠的訓練家。</li></ul>",
+		"effect": "在敵人被這隻寶可夢給擊敗<b>之後</b>，如果牠的忠誠度為 5 點，則牠會變化為「戰鬥牽絆型態」持續直到該場景結束，或直到牠或牠的訓練家陷入拚死狀態。每個隊伍只能有一個擁有這個特性的寶可夢。擁有這個特性的寶可夢不能持有超級石。<br><b>戰鬥牽絆型態：</b><ul><li>寶可夢的力量和特殊的上限增加 2 點。</li><li>依照你的判斷為戰鬥牽絆型態重新分配階級給予的特質點數。</li><li>你所選擇的一個招式的威力增加 1 點。</li><li>讓，並解除所有異常狀態。</li><li>當處於戰鬥牽絆型態時，所有該寶可夢受到的戰鬥傷害也都會傷害到牠的訓練家。</li></ul>",
 		"desc": "這隻寶可夢與那跟牠一起經歷過最激烈戰鬥的夥伴建立了緊密的聯繫。在贏得勝利之後，因為他們之間的友誼，一股強大的力量湧現了。"
 	},
 	{
@@ -168,7 +168,7 @@ Array.prototype.push.apply(AbilityList, [
 		"name": "複眼", "alias": "ふくがん|Compound Eyes",
 		"tags": ["target|l|self", "frame|accuracy||down|x", "frame|self|命中|plus|d2"],
 		"effect": "這隻寶可夢在使用任何帶有「降低命中率」標誌的招式時，其命中判定將額外獲得 2 顆骰子。",
-		"desc": "這隻寶可夢有著環繞式視覺,讓牠能夠以更好的精確度來鎖定目標的位置。"
+		"desc": "這隻寶可夢有著環繞式視覺，讓牠能夠以更好的精確度來鎖定目標的位置。"
 	},
 	{
 		"name": "唱反調", "alias": "あまのじゃく|Contrary",
@@ -460,9 +460,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "耐熱", "alias": "たいねつ|Heatproof",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|burn1||never", "text|l|火系招式|Fire", "frame|self|受傷|minus|2"],
+		"effect": "「灼傷 1 級」狀態不會對這隻寶可夢造成傷害。如果這隻寶可夢被火屬性的攻擊命中，減少 2 點受到的傷害。",
+		"desc": "這隻寶可夢能夠毫無困難的抵抗高溫。"
 	},
 	{
 		"name": "重金屬", "alias": "ヘヴィメタル|Heavy Metal",
@@ -569,7 +569,7 @@ Array.prototype.push.apply(AbilityList, [
 	{
 		"name": "不眠", "alias": "ふみん|Insomnia",
 		"tags": ["target|l|self", "frame|sleep||never"],
-		"effect": "這隻寶可夢不會受到「睡眠」狀態的影響。",
+		"effect": "這隻寶可夢不會陷入「睡眠」狀態。",
 		"desc": "這隻寶可夢不需要睡覺，牠無論何時都會維持清醒。"
 	},
 	{
@@ -647,62 +647,62 @@ Array.prototype.push.apply(AbilityList, [
 	{
 		"name": "柔軟", "alias": "じゅうなん|Limber",
 		"tags": ["target|l|self", "frame|paralysis||never"],
-		"effect": "這隻寶可夢不會受到「麻痺」狀態的影響。",
+		"effect": "這隻寶可夢不會陷入「麻痺」狀態。",
 		"desc": "這隻寶可夢的肌肉靈活地令人驚異且有彈性，使牠能輕鬆地行動，迅捷且優雅。"
 	},
 	{
 		"name": "污泥漿", "alias": "ヘドロえき|Liquid Ooze",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe"],
+		"effect": "如果這隻寶可夢被會吸收牠生命能量的招式給命中（比如說〈寄生種子〉、〈食夢〉、〈吸收拳〉等），則該招式會改為對使用者造成等量的傷害。",
+		"desc": "這隻寶可夢的身體會產生出一種有害且帶毒素的分泌物，不要嘗試吃了它！"
 	},
 	{
 		"name": "濕潤之聲", "alias": "うるおいボイス|Liquid Voice",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "effect|l|sound", "nftext|l|變為", "text|l|水系招式|Water"],
+		"effect": "這隻寶可夢使用的所有聲音類招式都將被視為水屬性。",
+		"desc": "嗓音中的聲波將使空氣中的水分化作水體，就彷彿從無中召喚出水珠、降雨、或甚至瀑布流水。"
 	},
 	{
 		"name": "遠隔", "alias": "えんかく|Long Reach",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|所有招式", "nftext|l|變為遠程招式"],
+		"effect": "這隻寶可夢進行的所有攻擊都被視為遠程攻擊。",
+		"desc": "這隻寶可夢能夠攻擊物體和敵人的影子，並同時讓真正的目標承受傷害。"
 	},
 	{
 		"name": "魔法鏡", "alias": "マジックミラー|Magic Bounce",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|反彈變化系招式"],
+		"effect": "所有以這隻寶可夢或牠那一方的戰場為目標的變化系招式全都會改為以敵人為目標。",
+		"desc": "這隻寶可夢會對他的敵人施展精神控制來讓牠間接傷害牠自己，使其看起來就像魔法一樣。"
 	},
 	{
 		"name": "魔法防守", "alias": "マジックガード|Magic Guard",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"effect": "這隻寶可夢不會受到來自 異常狀態、反作用力傷害、持有物品、或天氣狀態　的傷害。",
+		"desc": "這隻寶可夢身上包覆著微弱的能量，能夠阻止任何可能發生的微小傷害。"
 	},
 	{
 		"name": "魔術師", "alias": "マジシャン|Magician",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|偷走敵人的持有物品"],
+		"effect": "這隻寶可夢會偷走牠擊中的敵人身上的持有物品。",
+		"desc": "這隻寶可夢擅於表演簡單的魔術技倆來讓其他人感到驚豔，像是變出小東西，或把附近的東西在眨眼間變不見。"
 	},
 	{
 		"name": "熔岩鎧甲", "alias": "マグマのよろい|Magma Armor",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|frozen||never"],
+		"effect": "這隻寶可夢不會陷入「冰凍」狀態。",
+		"desc": "這隻寶可夢的身軀總是灼熱難觸，牠只需要站在大房間裏頭就能夠讓其變得溫暖，且牠可以忍受高溫環境。"
 	},
 	{
 		"name": "磁力", "alias": "じりょく|Magnet Pull",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field", "text|l|鋼屬性|Steel", "effect|l|block"],
+		"effect": "所有戰場上的鋼屬性寶可夢都被「阻擋」。",
+		"desc": "這隻寶可夢能夠發動牠周遭的磁場來吸引各式各樣的金屬。"
 	},
 	{
 		"name": "神奇鱗片", "alias": "ふしぎなうろこ|Marvel Scale",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|陷入異常狀態時", "frame|self|防禦|up|2"],
+		"effect": "如果這隻寶可夢陷入異常狀態，則牠的防禦提升 2 點。",
+		"desc": "這隻寶可夢身上的美麗鱗片會在牠的身體感到壓力時硬化。"
 	},
 	{
 		"name": "超級發射器", "alias": "メガランチャー|Mega Launcher",
@@ -712,27 +712,27 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "不仁不義", "alias": "ひとでなし|Merciless",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|對", "frame|poison||always", "frame|poison2||always", "target|l|foe", "nftext|l|永遠擊中要害"],
+		"effect": "如果敵人處於「中毒」或「劇毒」狀態，則這隻寶可夢對牠使用的所有招式都將視為擊中要害。根據說書人的判斷，這隻寶可夢在使用會造成致命傷害的招式時將不會「手下留情」。",
+		"desc": "一旦這隻寶可夢查覺到對方的虛弱，牠就會開始順從自己的殘忍天性行事。在沒有自知之明的情況下，牠們可能會表現的無比殘酷。"
 	},
 	{
 		"name": "擬態", "alias": "ぎたい|Mimicry",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|根據場地", "text|l|改變屬性"],
+		"effect": "如果有任何場地招式正在生效（像是〈電氣場地〉、〈精神場地〉等），則這隻寶可夢的主要屬性將會變為與該場地相符的屬性。如果該場地效果結束，則牠的主要屬性也會變回原樣。",
+		"desc": "這隻寶可夢的身體能夠完美地偽裝融入地面，有時會很容易把牠搞丟，但你總是能在某個不幸的受害者踩到牠時找到牠。"
 	},
 	{
 		"name": "負電", "alias": "マイナス|Minus",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|若有「正電」特性的隊友", "frame|self|特殊|up|2"],
+		"effect": "如果戰場上有寶可夢隊友的特性為「正電」，則這隻寶可夢的特殊特質提升 2 點。",
+		"desc": "這隻寶可夢身上帶有天生的負電荷。牠會吸引正電荷，並排斥其他的負電荷。牠們很容易感到藍色憂鬱。"
 	},
 	{
 		"name": "鏡甲", "alias": "ミラーアーマー|Mirror Armor",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|反彈", "frame|self|特質|down|n"],
+		"effect": "所有以這隻寶可夢或牠那一方的戰場為目標，會降低特質的效果都將被反彈，改為以敵人為目標。",
+		"desc": "這隻寶可夢的身軀被閃亮的鏡甲給包覆，這套鎧甲能夠擊退並反彈任何意圖弱化牠的事物。"
 	},
 	{
 		"name": "薄霧製造者", "alias": "ミストメイカー|Misty Surge",
@@ -748,57 +748,57 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "心情不定", "alias": "ムラっけ|Moody",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|隨機", "frame|self|特質|up|1", "frame|self|特質|down|1"],
+		"effect": "在每個戰鬥輪結束時，重置「心情不定」造成的特質調整，接著讓一個隨機特質降低 1 點，並讓另一個隨機特質提升 1 點。",
+		"desc": "這隻寶可夢的情緒起伏劇烈，且大多數時候都喜怒無常。但願這只是暫時性的問題。"
 	},
 	{
 		"name": "電氣引擎", "alias": "でんきエンジン|Motor Drive",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "text|l|電系招式|Electric", "nftext|l|的傷害", "frame|self|靈巧|up|1"],
+		"effect": "當這隻寶可夢第一次被電屬性招式命中，這隻寶可夢的靈巧將因此提升 1 點。電屬性招式不會對這隻寶可夢造成傷害。",
+		"desc": "這隻寶可夢會吸收電力並將其能量儲存起來，讓牠能跑得更快。"
 	},
 	{
 		"name": "自信過度", "alias": "じしんかじょう|Moxie",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|讓敵人陷入瀕死狀態後", "frame|self|力量|up|1"],
+		"effect": "如果敵人因為這隻寶可夢的攻擊而陷入瀕死狀態，則這隻寶可夢的力量提升 1 點。你最多可以透過這個方式提升 3 點。",
+		"desc": "這隻寶可夢天性兇猛無比，且會嘗試藉著擊敗群體中的老大來取得權力地位。"
 	},
 	{
 		"name": "多重鱗片", "alias": "マルチスケイル|Multiscale",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當自己滿HP時", "frame|self|受傷|minus|1"],
+		"effect": "如果這隻寶可夢的HP全滿，則這隻寶可夢因為被攻擊而受到的傷害將減少 1 點。",
+		"desc": "這隻寶可夢被兩層堅硬的鱗片給覆蓋，如果其中一層鱗片破損，則它們會脫落並在稍後重新長回來。"
 	},
 	{
 		"name": "多屬性", "alias": "マルチタイプ|Multitype",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|改變屬性"],
+		"effect": "這隻寶可夢能夠在任何時候自由的改變自己的屬性。這個特性無法被任何手段給複製、交換、改變、忽略、或無效。",
+		"desc": "創造出這個宇宙的所有能量都在這隻寶可夢的體內流竄，且牠能夠駕馭最符合當前所需的能量類型。"
 	},
 	{
 		"name": "木乃伊", "alias": "ミイラ|Mummy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當用物理攻擊命中這隻寶可夢時", "text|l|改變特性"],
+		"effect": "當這隻寶可夢被非遠程物理攻擊命中、或使用非遠程物理攻擊命中敵人時，將敵人的特性變為「木乃伊」。",
+		"desc": "這隻寶可夢會詛咒任何膽敢對牠造成傷害的事物，這個詛咒甚至可能會持續好幾個世代，且會需要靈媒的協助才能將其解除。"
 	},
 	{
 		"name": "自然回復", "alias": "しぜんかいふく|Natural Cure",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|heal|治療狀態|number|d3"],
+		"effect": "在每個戰鬥輪結束時，如果這隻寶可夢處於任何異常狀態，則骰 3 顆機率骰以治療自己。",
+		"desc": "這隻寶可夢的身體能夠製造物質來治療自己。牠們的這個特性也能被用來生產藥物。"
 	},
 	{
 		"name": "腦核之力", "alias": "ブレインフォース|Neuroforce",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|效果絕佳的招式", "frame|self|傷害|plus|1"],
+		"effect": "這隻寶可夢使用的任何會對敵人造成效果絕佳傷害的招式，都將自動造成 1 點傷害。",
+		"desc": "這隻寶可夢的超能力是如此強大，即使站在附近都能感覺到那股壓倒性。牠會利用任何牠在你心中找到的弱點。"
 	},
 	{
 		"name": "化學變化氣體", "alias": "かがくへんかガス|Neutralizing Gas",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allfoe", "nftext|l|無效所有目標的特性"],
+		"effect": "只要這隻寶可夢在戰場上，範圍內所有敵人的特性效果都會被無效。",
+		"desc": "這隻寶可夢身邊環繞著帶有甜味香氣的有毒氣體。儘管如此，大部分人們和寶可夢都會忍不住停下來並嗅聞這些氣體。"
 	},
 	{
 		"name": "無防守", "alias": "ノーガード|No Guard",
@@ -815,7 +815,7 @@ Array.prototype.push.apply(AbilityList, [
 	{
 		"name": "遲鈍", "alias": "どんかん|Oblivious",
 		"tags": ["target|l|self", "frame|love||never"],
-		"effect": "這隻寶可夢不會受到「著迷」狀態的影響，且牠免疫任何會影響牠情緒的招式的效果，像是〈挑釁〉、〈撒嬌〉、〈誘惑〉等等",
+		"effect": "這隻寶可夢不會陷入「著迷」狀態，且牠免疫任何會影響牠情緒的招式的效果，像是〈挑釁〉、〈撒嬌〉、〈誘惑〉等等",
 		"desc": "這隻寶可夢很少會做出令人滿意的社交互動，牠太只顧自己，以至於會忽略掉任何期待牠做出什麼反應的暗示。"
 	},
 	{
@@ -833,7 +833,7 @@ Array.prototype.push.apply(AbilityList, [
 	{
 		"name": "我行我素", "alias": "マイペース|Own Tempo",
 		"tags": ["target|l|self", "frame|confuse||never"],
-		"effect": "這隻寶可夢不會受到「混亂」狀態的影響。",
+		"effect": "這隻寶可夢不會陷入「混亂」狀態。",
 		"desc": "這隻寶可夢以自己的步調做事，忽略所有同儕壓力。牠的行為舉止出於本能，且相當冷靜……或許有點太冷靜了。"
 	},
 	{
@@ -844,15 +844,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "粉彩護幕", "alias": "パステルベール|Pastel Veil",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "frame|poison||never", "frame|poison2||never"],
+		"effect": "使用者和所有範圍內的隊友都將免疫於「中毒」和「劇毒」狀態。如果這些異常狀態是在這隻寶可夢出場之前造成的，則它仍會保留。",
+		"desc": "這隻寶可夢被柔和的微光包圍著。這股能量感覺起來相當純潔且天真，不可玷污，超凡俗世。"
 	},
 	{
 		"name": "滅亡之軀", "alias": "ほろびのボディ|Perish Body",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當使用物理攻擊命中時，在三輪後陷入瀕死狀態"],
+		"effect": "如果這隻寶可夢被非遠程物理攻擊給命中，則除非敵人脫離戰鬥，否則敵人將會在三個戰鬥輪之後受到等同於牠剩餘HP的傷害並陷入瀕死狀態。",
+		"desc": "這隻寶可夢會無聲地詛咒任何膽敢冒犯牠的對象，讓他們的靈魂承受牠所遭受的痛苦。試著避開這隻寶可夢，以免你承受牠降下的怨恨。"
 	},
 	{
 		"name": "撿拾", "alias": "ものひろい|Pick up",
@@ -862,9 +862,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "順手牽羊", "alias": "わるいてぐせ|Pickpocket",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|在這隻寶可夢使用物理攻擊後偷走持有物品"],
+		"effect": "如果這隻寶可夢沒有持有任何物品，則牠會在以非遠程物理攻擊命中敵人時偷走牠身上的持有物品。",
+		"desc": "這隻寶可夢會本能地從他人身上順手牽羊。在沒有人注意的時候，牠會偷走任何牠能偷的東西。"
 	},
 	{
 		"name": "妖精皮膚", "alias": "フェアリースキン|Pixilate",
@@ -874,15 +874,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "正電", "alias": "プラス|Plus",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|若有「負電」特性的隊友", "frame|self|特殊|up|2"],
+		"effect": "如果戰場上有寶可夢隊友的特性為「負電」，則這隻寶可夢的特殊特質提升 2 點。",
+		"desc": "這隻寶可夢身上帶有天生的正電荷。牠會吸引負電荷，並排斥其他的正電荷。牠們的臉頰總是帶著熱情的紅色。"
 	},
 	{
 		"name": "毒療", "alias": "ポイズンヒール|Poison Heal",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|poison||always", "frame|poison2||always", "frame|heal||heal|1"],
+		"effect": "如果這隻寶可夢處於「中毒」或「劇毒」狀態，則牠會在每個戰鬥輪結束時回復 1 點HP，而非受到傷害。這些毒素會在三個戰鬥輪之後被完全吸收。",
+		"desc": "這隻寶可夢具有能抵抗任何毒素的免疫系統，且能夠把毒液吸收當成能量來源。"
 	},
 	{
 		"name": "毒刺", "alias": "どくのトゲ|Poison Point",
@@ -898,21 +898,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "群聚變形", "alias": "スワームチェンジ|Power Construct",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|型態變化"],
+		"effect": "在戰鬥輪結束時，如果這隻寶可夢的HP低於或等於一半，則牠將會變化成下一個階段的型態。當這隻寶可夢的型態發生改變，牠將解除任何異常狀態，且將HP和意志點回復至全滿。這個特性無法被複製、交換、或改變。<ul><li>基格爾德(核心) → 基格爾德(10%)</li><li>基格爾德(10%) → 基格爾德(50%)</li><li>基格爾德(50%) → 基格爾德(100%)</li></ul>",
+		"desc": "微小的細胞會聚集在這隻寶可夢身邊，並被吸收進牠的體內。隨著更多的細胞群聚在一起，牠將會變得越來越大也越來越強。"
 	},
 	{
 		"name": "化學之力", "alias": "かがくのちから|Power of Alchemy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|改變特性"],
+		"effect": "在接下來的24小時中，這隻寶可夢將會複製一個陷入瀕死狀態的敵人寶可夢的特性。這個方式能夠同時複製多個特性，但在戰鬥期間只能有一個特性可以發揮作用。（在說書人的判斷下，某些特性可能會無法被複製。）",
+		"desc": "這隻寶可夢可以吸收牠所觸碰的任何事物的精髓。將其與化學成分和甚至丟棄垃圾的基因融合在一起。"
 	},
 	{
 		"name": "能量點", "alias": "パワースポット|Power Spot",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|ally", "frame|self|傷害|plus|d1"],
+		"effect": "其中一個隊友的招式的傷害骰池將額外增加 1 顆骰子。如果有複數個寶可夢使用這個特性，這個效果也不會疊加在同一個隊友身上。",
+		"desc": "這隻寶可夢會釋放出一種神秘的能量，它會干擾電子設備和指南針的運作，但也能夠讓你感到活力充沛。"
 	},
 	{
 		"name": "惡作劇之心", "alias": "いたずらごころ|Prankster",
@@ -928,27 +928,27 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "始源之海", "alias": "はじまりのうみ|Primordial Sea",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field", "weather|l|rain2"],
+		"effect": "當這隻寶可夢出場時，天氣狀態將會自動變為暴風雨。這個效果將會在這隻寶可夢退場時結束。（若效果互相衝突，則由意志較高的寶可夢影響天氣狀態。）",
+		"desc": "狂風暴雨幾乎讓你喘不過氣，地面很快就被淹沒，你必須奮力游泳才能夠浮在水面上。在這種時候，任何火焰都點不著。"
 	},
 	{
 		"name": "稜鏡裝甲", "alias": "プリズムアーマー|Prism Armor",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|效果絕佳的傷害", "frame|self|受傷|minus|X"],
+		"effect": "無效任何效果絕佳招式對這隻寶可夢造成的額外傷害。",
+		"desc": "這隻寶可夢的身體就是驚人堅韌的盔甲。它能夠抵禦那些甚至能將牠毀成碎片的衝擊。"
 	},
 	{
 		"name": "螺旋尾鰭", "alias": "スクリューおびれ|Propeller Tail",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|忽略任何會重新引導目標的招式或特性"],
+		"effect": "忽略任何會將這隻寶可夢的招式引導到其他目標的招式或特性效果。（像是〈看我嘛〉或「避雷針」特性。）",
+		"desc": "這隻寶可夢的尾鰭能夠讓牠在水中非常輕易地四處移動。牠能夠毫無困難地做出急轉彎來追趕或抓捕牠的獵物。"
 	},
 	{
 		"name": "變幻自如", "alias": "へんげんじざい|Protean",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|改變屬性"],
+		"effect": "每當這隻寶可夢使用了一個招式，把牠的屬性先改變為該招式的屬性。若該招式為攻擊招式且會造成傷害，則適用屬性一致加成。",
+		"desc": "這隻寶可夢多才多藝的身體使牠能熟練掌握幾乎所有牠要做的事情。"
 	},
 	{
 		"name": "精神製造者", "alias": "サイコメイカー|Psychic Surge",
@@ -958,21 +958,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "龐克搖滾", "alias": "パンクロック|Punk Rock",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "effect|l|sound", "frame|self|傷害|plus|d1", "frame|self|受傷|minus|2"],
+		"effect": "這隻寶可夢使用的聲音類招式的傷害骰池額外增加 1 顆骰子。聲音類招式對這隻寶可夢造成的傷害將減少 2 點。",
+		"desc": "這隻寶可夢熱愛音樂和大聲喧嘩，牠經常彈奏著牠的空氣吉他，並能夠輕易地從無中生有，即興創作曲目。"
 	},
 	{
 		"name": "瑜伽之力", "alias": "ヨガパワー|Pure Power",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|力量|up|1"],
+		"effect": "這隻寶可夢的力量特質永久提升 1 點。",
+		"desc": "這隻寶可夢能夠利用牠的超能力來移動數倍大小的物體。"
 	},
 	{
 		"name": "女王的威嚴", "alias": "じょおうのいげん|Queenly Majesty",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|priority||up|never"],
+		"effect": "敵人無法對這隻寶可夢使用任何先制招式。",
+		"desc": "這隻寶可夢的存在本身就能讓人敬畏與尊敬，其他人別無選擇，只能遵循她的話語。任何打算僭越她的人都將感受到她的不悅。"
 	},
 	{
 		"name": "速擊", "alias": "クイックドロウ|Quick Draw",
@@ -1396,9 +1396,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "兆級電壓", "alias": "テラボルテージ|Teravolt",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"effect": "如果有任何招式、物品、或特性會阻止這隻寶可夢以某個敵人為目標、或造成任何效果，將其忽略。（例如：「免疫」特性的寶可夢仍然會陷入「中毒」狀態、「飄浮」特性仍會被地面屬性招式給命中。）",
+		"desc": "一團青色閃電球從這隻寶可夢中射出，阻止牠的敵人離開牠的觸及範圍，無論你做什麼，霹靂都將臨到你身上。"
 	},
 	{
 		"name": "厚脂肪", "alias": "あついしぼう|Thick Fat",
@@ -1450,21 +1450,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "渦輪火焰", "alias": "ターボブレイズ|Turboblaze",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"effect": "如果有任何招式、物品、或特性會阻止這隻寶可夢以某個敵人為目標、或造成任何效果，將其忽略。（例如：「免疫」特性的寶可夢仍然會陷入「中毒」狀態、「飄浮」特性仍會被地面屬性招式給命中。）",
+		"desc": "這隻寶可夢創造出一個旋轉不停的巨大火球包圍著一切，阻止牠的敵人離開牠的觸及範圍。沒有任何人能夠從高熱中逃脫。"
 	},
 	{
 		"name": "純樸", "alias": "てんねん|Unaware",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|忽略", "frame|target|特質|up|n", "frame|target|特質|down|n"],
+		"effect": "在雙方攻擊和承受傷害時，這隻寶可夢忽略任何敵人提升或降低的特質。",
+		"desc": "這隻寶可夢總是會忽略周遭環境中的許多細節，牠很少會注意到正在發生的事情。"
 	},
 	{
 		"name": "輕裝", "alias": "かるわざ|Unburden",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|失去或消耗持有物品時", "frame|self|靈巧|up|2"],
+		"effect": "當這隻寶可夢第一次失去或消耗掉牠持有的物品，且牠不再持有任何物品時，牠的靈巧特質提升 2 點。",
+		"desc": "在從隨身攜帶的東西中解放的瞬間就是這隻寶可夢感到最為舒適的時候。牠樂於不受拘束地四處亂跑。"
 	},
 	{
 		"name": "緊張感", "alias": "きんちょうかん|Unnerve",
@@ -1492,9 +1492,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "蓄電", "alias": "ちくでん|Volt Absorb",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "text|l|電系招式|Electric", "nftext|l|的傷害", "frame|heal||heal|1"],
+		"effect": "當這隻寶可夢被電屬性招式命中時，這隻寶可夢可以回復 1 點HP而非受到傷害。電屬性招式不會對這隻寶可夢造成傷害。",
+		"desc": "實際上這隻寶可夢的身體就是個電池，永遠樂於把電充滿。"
 	},
 	{
 		"name": "遊魂", "alias": "さまようたましい|Wandering Spirit",
@@ -1504,15 +1504,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "儲水", "alias": "ちょすい|Water Absorb",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "text|l|水系招式|Water", "nftext|l|的傷害", "frame|heal||heal|1"],
+		"effect": "當這隻寶可夢被水屬性招式命中時，這隻寶可夢可以回復 1 點HP而非受到傷害。水屬性招式不會對這隻寶可夢造成傷害。",
+		"desc": "這隻寶可夢的身體大部分都是由水構成，牠能夠將水儲存在體內，並利用它作為營養。"
 	},
 	{
 		"name": "水泡", "alias": "すいほう|Water Bubble",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|burn1||never", "frame|burn2||never", "text|l|火系招式|Fire", "frame|self|受傷|minus|1", "text|l|水系招式|Water", "frame|self|傷害|plus|d2"],
+		"effect": "這隻寶可夢免疫於「灼傷 1 級」和「灼傷 2 級」狀態。火屬性招式對這隻寶可夢造成的傷害減少 1 點。這隻寶可夢使用的水屬性招式的傷害骰池額外增加 2 顆骰子。",
+		"desc": "這隻寶可夢被泡泡給保護著。奇怪的是，這個泡泡裡頭並不是空氣，而是純淨的水。"
 	},
 	{
 		"name": "遇水凝固", "alias": "みずがため|Water Compaction",
