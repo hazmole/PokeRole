@@ -904,8 +904,8 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "化學之力", "alias": "かがくのちから|Power of Alchemy",
-		"tags": ["target|l|self", "text|l|改變特性"],
-		"effect": "在接下來的24小時中，這隻寶可夢將會複製一個陷入瀕死狀態的敵人寶可夢的特性。這個方式能夠同時複製多個特性，但在戰鬥期間只能有一個特性可以發揮作用。（在說書人的判斷下，某些特性可能會無法被複製。）",
+		"tags": ["target|l|self", "text|l|改變特性", "target|l|foe"],
+		"effect": "這隻寶可夢將會複製一個陷入瀕死狀態的敵人寶可夢的特性，持續24小時。這個方式能夠同時複製多個特性，但在戰鬥期間只能有一個特性可以發揮作用。（在說書人的判斷下，某些特性可能會無法被複製。）",
 		"desc": "這隻寶可夢可以吸收牠所觸碰的任何事物的精髓。將其與化學成分和甚至丟棄垃圾的基因融合在一起。"
 	},
 	{
@@ -975,16 +975,10 @@ Array.prototype.push.apply(AbilityList, [
 		"desc": "這隻寶可夢的存在本身就能讓人敬畏與尊敬，其他人別無選擇，只能遵循她的話語。任何打算僭越她的人都將感受到她的不悅。"
 	},
 	{
-		"name": "速擊", "alias": "クイックドロウ|Quick Draw",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
-	},
-	{
 		"name": "飛毛腿", "alias": "はやあし|Quick Feet",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|陷入異常狀態時", "frame|self|靈巧|up|2"],
+		"effect": "當這隻寶可夢陷入任何異常狀態時，牠的靈巧特質提升 2 點。這隻寶可夢仍會陷入「麻痺」狀態，但這個特性將避免其效果發揮作用。",
+		"desc": "這隻寶可夢在大部分時候看起來都相當匆忙。當處於壓力下時，牠移動的速度會比原本還要更快。"
 	},
 	{
 		"name": "雨盤", "alias": "あめうけざら|Rain Dish",
@@ -1000,15 +994,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "接球手", "alias": "レシーバー|Receiver",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|改變特性", "target|l|ally"],
+		"effect": "如果一個隊友在戰鬥中陷入瀕死狀態，這隻寶可夢能夠複製牠的特性並持續24小時。這個方式同時只能複製一個特性。（在說書人的判斷下，某些特性可能會無法被複製。）",
+		"desc": "這隻寶可夢向來擅於學習其他與牠之間有著羈絆的寶可夢的戰術行為。"
 	},
 	{
 		"name": "捨身", "alias": "すてみ|Reckless",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "effect|l|recoil", "frame|self|傷害|plus|d2"],
+		"effect": "當這隻寶可夢使用帶有「反作用力傷害」標誌的招式時，該招式的傷害骰池額外增加 2 顆骰子。",
+		"desc": "為了得到牠想要的事物，這隻寶可夢經常攪入危險的情境。牠們很容易不考慮後果就冒著生命危險。"
 	},
 	{
 		"name": "冰凍皮膚", "alias": "フリーズスキン|Refrigerate",
@@ -1018,15 +1012,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "再生力", "alias": "さいせいりょく|Regenerator",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|heal||heal|4", "frame|heal||c_heal|2"],
+		"effect": "這隻寶可夢每天都可以自行回復最多 4 點傷害或最多 2 點致命傷害。這隻寶可夢必須脫離戰鬥才能得到這個效果的好處。",
+		"desc": "這隻寶可夢的身體能夠以非常快的速度自我再生，需要好幾天才能恢復的傷勢只需要幾個小時就能明顯好轉。"
 	},
 	{
 		"name": "熟成", "alias": "じゅくせい|Ripen",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self"],
+		"effect": "使用樹果來增加效果的招式（例如〈自然之恩〉）的傷害骰池將額外增加 2 顆骰子。在說書人的判斷下，樹果的治療效果也可能會有所提升。",
+		"desc": "這隻寶可夢能夠使水果或樹果在短時間內熟成，使它們增添額外的甜度和風味，樹果的治療效果也將獲得提升。"
 	},
 	{
 		"name": "鬥爭心", "alias": "とうそうしん|Rivalry",
@@ -1036,9 +1030,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "ＡＲ系統", "alias": "ＡＲシステム|RKS System",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "text|l|改變屬性"],
+		"effect": "這隻寶可夢的屬性會變更為與其持有的記憶碟相符的屬性。（例如：「電子記憶碟」會使這隻寶可夢變為電屬性。）",
+		"desc": "這隻寶可夢的生理型態會根據插入牠ＡＲ系統的記憶碟而產生變化。記憶碟一共有17種，每個屬性各一種。（沒有一般屬性的記憶碟。）"
 	},
 	{
 		"name": "堅硬腦袋", "alias": "いしあたま|Rock Head",
@@ -1108,9 +1102,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "除障", "alias": "バリアフリー|Screen Cleaner",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|field"],
+		"effect": "當這隻寶可夢出場時，移除雙方場上存在的任何屏障（例如〈光牆〉、〈反射壁〉等）。",
+		"desc": "這隻寶可夢總是不斷在清潔看不見的屏幕，牠清理的手法是如此高超，甚至連真正的玻璃牆都會在牠清潔完成時消失不見。"
 	},
 	{
 		"name": "天恩", "alias": "てんのめぐみ|Serene Grace",
@@ -1120,9 +1114,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "幻影防守", "alias": "ファントムガード|Shadow Shield",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當自己滿HP時", "frame|self|受傷|minus|2"],
+		"effect": "如果這隻寶可夢的HP全滿，則這隻寶可夢因為被攻擊而受到的傷害將減少 2 點。這個特性無法被招式或特性給忽略。",
+		"desc": "當在充滿力量的狀態下，這隻寶可夢鬼魅般的身體將不會被任何東西給碰觸或刺穿，牠甚至能夠穿透牆壁，就彷彿牠不存在這個世界上一樣。"
 	},
 	{
 		"name": "踩影", "alias": "かげふみ|Shadow Tag",
@@ -1138,9 +1132,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "強行", "alias": "ちからずく|Sheer Force",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|忽略機率骰", "frame|self|傷害|plus|d2"],
+		"effect": "每當這隻寶可夢進行一個使用機率骰造成額外效果的攻擊時，你可以忽略這些機率骰，以使該招式的傷害骰池額外增加 2 顆骰子。",
+		"desc": "這隻寶可夢只對展現牠那驚人的戰鬥能力有興趣。"
 	},
 	{
 		"name": "硬殼盔甲", "alias": "シェルアーマー|Shell Armor",
