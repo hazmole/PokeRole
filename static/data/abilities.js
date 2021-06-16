@@ -1168,9 +1168,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "慢啟動", "alias": "スロースタート|Slow Start",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|前五輪的先攻順序為最後"],
+		"effect": "在戰鬥的前五個戰鬥輪期間，這隻寶可夢的先攻順序永遠會是最後一個。在經過這五個戰鬥輪之後，這隻寶可夢的力量和靈巧特質提升 2 點，且牠的先攻順序改成永遠會是第一個。這個效果會在這隻寶可夢脫離戰鬥時重置。",
+		"desc": "這隻寶可夢已經沉睡了數千年，牠的動作緩慢而沉重。最好在牠釋放全力之前逃跑！"
 	},
 	{
 		"name": "撥雪", "alias": "ゆきかき|Slush Rush",
@@ -1204,21 +1204,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "堅硬岩石", "alias": "ハードロック|Solid Rock",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|效果絕佳的招式", "frame|self|受傷|minus|1"],
+		"effect": "如果這隻寶可夢被會造成效果絕佳傷害的招式給命中，減少 1 點受到的傷害。",
+		"desc": "這隻寶可夢的身體是由極度堅硬的岩石所構成，保護牠不受任何事物傷害──就算是牠的弱點也一樣。"
 	},
 	{
 		"name": "魂心", "alias": "ソウルハート|Soul-Heart",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|讓敵人陷入瀕死狀態後", "frame|self|特殊|up|1"],
+		"effect": "如果敵人因為這隻寶可夢的攻擊而陷入瀕死狀態，則這隻寶可夢的特殊提升 1 點。你最多可以透過這個方式提升 3 點。",
+		"desc": "這隻寶可夢有著關懷與養育他人的天性，如果牠所愛的人們受到威脅，牠的靈魂將會因為愛而變得更強大。"
 	},
 	{
 		"name": "隔音", "alias": "ぼうおん|Soundproof",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "effect|l|sound"],
+		"effect": "這隻寶可夢免疫於聲音類招式造成的傷害和效果。",
+		"desc": "這隻寶可夢的身體結構能保護牠不受噪音的干擾。所以牠不是故意無視你，牠只是沒聽到而已。"
 	},
 	{
 		"name": "加速", "alias": "かそく|Speed Boost",
@@ -1228,27 +1228,27 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "監視", "alias": "はりこみ|Stakeout",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|target|傷害|plus|1"],
+		"effect": "每當敵方寶可夢被換上場時，這隻寶可夢對牠進行的第一次成功的攻擊將額外造成 1 點傷害。",
+		"desc": "這隻寶可夢總是監看著周遭環境，找尋可能的獵物，並在牠們最為脆弱的瞬間發起攻勢。"
 	},
 	{
 		"name": "慢出", "alias": "あとだし|Stall",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|先攻順序永遠為最後"],
+		"effect": "這隻寶可夢的先攻順序永遠為最後一個。",
+		"desc": "這隻寶可夢優柔寡斷，總是在他人先行動之後才決定自己該做什麼。"
 	},
 	{
 		"name": "堅毅", "alias": "すじがねいり|Stalwart",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|忽略任何會重新引導目標的招式或特性"],
+		"effect": "忽略任何會將這隻寶可夢的招式引導到其他目標的招式或特性效果。（像是〈看我嘛〉或「避雷針」特性。）",
+		"desc": "這隻寶可夢天生具有高度的責任感和忠誠心，一旦你交付牠某個任務，則直到完成任務之前牠都不會偏離原路。"
 	},
 	{
 		"name": "持久力", "alias": "じきゅうりょく|Stamina",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "frame|self|防禦|up|1", "frame|self|特防|up|1"],
+		"effect": "這隻寶可夢在戰鬥中第一次受到傷害時，提升牠的防禦和特防各 1 點。",
+		"desc": "這隻寶可夢不會疲憊。牠會在感到虛弱時恢復堅毅，即使牠幾乎不吃不睡也一樣。"
 	},
 	{
 		"name": "戰鬥切換", "alias": "バトルスイッチ|Stance Change",
@@ -1354,15 +1354,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "共生", "alias": "きょうせい|Symbiosis",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|ally", "nftext|l|把持有物品交給隊友"],
+		"effect": "當某個隊友失去或消耗掉自己的持有物品時，這隻寶可夢將立刻以一個自由動作把自己的持有物品交給該隊友。",
+		"desc": "這隻寶可夢喜歡與任何跟牠搭檔的隊友共組一個互利的羈絆關係。"
 	},
 	{
 		"name": "同步", "alias": "シンクロ|Synchronize",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame||異常狀態|always"],
+		"effect": "如果敵人使這隻寶可夢陷入異常狀態，則敵人也將陷入相同的異常狀態（除非敵人免疫該異常狀態）。",
+		"desc": "這隻寶可夢可以與他人共享牠的情緒、感覺、和感官，尤其是與那些對牠施加痛苦的傢伙。"
 	},
 	{
 		"name": "蹣跚", "alias": "ちどりあし|Tangled Feet",
