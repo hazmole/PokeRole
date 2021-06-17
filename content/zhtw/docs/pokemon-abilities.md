@@ -4,22 +4,23 @@ weight = 12
 description = ""
 +++
 ## 寶可夢特性
-Along with their amazing powers, Pokémon are born with special Abilities that define their species. 
-These Abilities may affect their personality and skill sets, and give them advantages in-and-out of battle.
+除了牠們驚人的能力之外，寶可夢生來就擁有一些定義了牠們之間物種差異的特性。
+這些特性可能會影響牠們的性格和技能組成，並讓牠們在戰鬥或以外的場合都獲得優勢。
 
-**Always consider the Ability of your Pokémon to aid you in any situation.**
- 
-Sometimes  Pokémon  have  more  than  one  ability  to choose from, outside of battle they can be used at will.
+**永遠記得考慮你寶可夢的特性，這能在任何情況下幫上你的忙。**
 
-**At  the  beginning  of  a  battle,  you  must  inform  your  storyteller which Ability your Pokemon will use.**
-**It cannot be changed once the battle has started.**
+有時候，寶可夢會有一種以上的特性可以選擇，此外，在戰鬥外的場合，這些特性都能被隨意使用。
 
-Wild Pokémon will always use the Ability that benefits them most in-battle, and the one that’s most useful for their survival out of it.
+**在戰鬥開始時，你必須告知你的說書人你的寶可夢要使用哪個特性。**
+**一旦戰鬥開始，特性就不能被改變。**
 
-Effects on Abilities do stack with effects on Moves, such as increasing or reducing attributes, but they rarely stack with each other, meaning that if two Pokémon have the same Ability only one will have effect.  
+野生寶可夢永遠會使用在戰鬥中對牠們最有利的特性，或是在戰鬥外最有幫助牠們生存下來的特性。
 
-A Pokémon can make use of an Ability that is not listed on their Pokédex entry at storyteller’s discretion.
-Remember to check on important notes at the end of this section.
+特性的效果**可以**跟招式的效果互相疊加，像是提升或降低特質。
+然而，特性的效果之間很少能夠互相疊加，這意味著即使有兩隻寶可夢擁有相同的特性，也只有其中一隻的特性會發揮效果（例如「威嚇」特性的力量降低效果只會作用一次）。
+
+在說書人的裁斷下，寶可夢可以使用那些沒有被列在其圖鑑條目上的特性。
+
 
 {{< boxmd >}}
 ## 形態變化特性
@@ -35,17 +36,17 @@ Remember to check on important notes at the end of this section.
 當某個特性表示它能夠「無效」某個效果，則這意味著效果被無效的寶可夢將因為外在因素的阻礙而無法發揮該能力的效果。
 {{< /boxmd >}}{{< boxmd >}}
 ## 詛咒特性
-Some  effects  of  Moves  or Abilities  may require  help  from  mediums  to  remove them.  If  such  help  is  not  available  you can try to change it with another Move or  Ability  at  your  disposition.  And  if  that doesn’t work, you can try to do it through sheer  willpower  or  hoping  the  effects  go away on their own after a few days...
+有些招式或特性的效果會要求你借助靈媒的力量來解除它們。如果你無法獲得這類的協助，你可以嘗試透過其他招式或特性來改變它。如果這仍然不起作用，那麼你可以試著透過純粹的意志力來克服它、或是祈禱它的效果會在幾天之後自然消退……
 
-That can happen, right? right?!
+這是有可能發生的，對吧？對吧！？
 {{< /boxmd >}}{{< boxmd >}}
 ## 隱藏特性
-Some  Pokémon  might  have  Abilities  that are not listed on their Pokédex Entry.
-These  Hidden  Abilities  are  the  result  of  uncommon  circumstances  in  a  Pokémon’s life.
+有些寶可夢可能會擁有沒有被列在其圖鑑條目上的特性。
+這些隱藏特性是寶可夢在不尋常的環境中生活所造成的結果。
 
-It’s up to the Storyteller to determine which Pokémon will obtain a certain Ability. Talk to him or her about how your Pokémon may obtain the Hidden Ability you want.
+寶可夢是否擁有這類特性，將由說書人決定。你可以跟他或她討論看看，決定你的寶可夢是否能獲得，又可能是如何獲得你想要的隱藏特性。
 
-Keep  in  mind  that  Pokémon  with Abilities not usually seen on them are rare and will turn a few heads among Pokémon scholars.
+千萬記住，那些擁有罕見特性的寶可夢相當稀少，且牠們的存在通常會在寶可夢學界中引發一些關注。
 {{< /boxmd >}}
 
 ---

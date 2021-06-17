@@ -1366,15 +1366,15 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "蹣跚", "alias": "ちどりあし|Tangled Feet",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|accuracy||down|2", "nftext|l|當這隻寶可夢", "frame|confuse||always"],
+		"effect": "當這隻寶可夢處於「混亂」狀態時，敵人以這隻寶可夢為目標的所有招式都將追加「降低命中率」的標誌。",
+		"desc": "這隻寶可夢在暈眩或混亂時會以一種奇怪且特別的方式移動，這通常能反過來成為牠的優勢。"
 	},
 	{
 		"name": "捲髮", "alias": "カーリーヘアー|Tangling Hair",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "nftext|l|當用物理攻擊命中這隻寶可夢時", "frame|target|靈巧|down|1"],
+		"effect": "當敵人第一次以非遠程物理攻擊命中這隻寶可夢時，該敵人的靈巧特質降低 1 點。",
+		"desc": "這隻寶可夢的頭髮又粗又硬，很容易纏上任何接近牠的傢伙。建議每天梳理兩次，讓秀髮保持絲滑光澤。"
 	},
 	{
 		"name": "技術高手", "alias": "テクニシャン|Technician",
@@ -1384,9 +1384,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "心靈感應", "alias": "テレパシー|Telepathy",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫隊友造成的傷害"],
+		"effect": "這隻寶可夢不會受到牠隊友施展的招式造成的傷害。",
+		"desc": "這隻寶可夢可以透過心靈感應溝通。牠可以傳訊給其他生物，但沒有辦法反過來接收訊息。"
 	},
 	{
 		"name": "兆級電壓", "alias": "テラボルテージ|Teravolt",
@@ -1467,16 +1467,10 @@ Array.prototype.push.apply(AbilityList, [
 		"desc": "也許是因為牠迫力十足的瞪視、又或許是因為牠凶狠的存在，這隻寶可夢附近的其他人將變得相當緊張，甚至到失去食慾的程度。"
 	},
 	{
-		"name": "無形拳", "alias": "ふかしのこぶし|Unseen Fist",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
-	},
-	{
 		"name": "勝利之星", "alias": "しょうりのほし|Victory Star",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|allally", "effect|l|neverfail"],
+		"effect": "在這隻寶可夢處於戰場期間，這隻寶可夢和牠的所有隊友的傷害類招式全都獲得「必中」標誌。這個特性無法被交換或改變。",
+		"desc": "這隻寶可夢的存在本身就是對士氣的驚人鼓舞。那些受到牠青睞的將被引導往勝利的方向前進。"
 	},
 	{
 		"name": "幹勁", "alias": "やるき|Vital Spirit",
@@ -1492,9 +1486,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "遊魂", "alias": "さまようたましい|Wandering Spirit",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當使用物理攻擊命中敵人時", "target|l|foe", "text|l|交換特性"],
+		"effect": "如果這隻寶可夢使用非遠程物理攻擊命中敵人，則牠將與敵人交換特性。根據說書人的判斷，某些特性將無法被交換（例如「花之禮」、「幻覺」、「戰鬥切換」、「神奇守護」等）。",
+		"desc": "這隻寶可夢是個臉上總掛著哀傷表情的遊魂。牠不會聽從你的呼喚，且可能會在漫無目的的飄浮中迷失方向。最好找個靈媒來治療牠。"
 	},
 	{
 		"name": "儲水", "alias": "ちょすい|Water Absorb",
@@ -1510,9 +1504,9 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "遇水凝固", "alias": "みずがため|Water Compaction",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|免疫", "text|l|水系招式|Water", "nftext|l|的傷害", "frame|self|防禦|up|2"],
+		"effect": "當這隻寶可夢第一次被水屬性招式命中，牠的防禦提升 2 點而非受到傷害。水屬性招式不會對這隻寶可夢造成傷害。",
+		"desc": "這隻寶可夢的身體能夠已經人的速度吸收水分，牠的身軀也會在迅速乾燥的同時變得堅硬無比。"
 	},
 	{
 		"name": "水幕", "alias": "みずのベール|Water Veil",
@@ -1522,21 +1516,21 @@ Array.prototype.push.apply(AbilityList, [
 	},
 	{
 		"name": "碎裂鎧甲", "alias": "くだけるよろい|Weak Armor",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|當被物理攻擊命中時", "frame|self|靈巧|up|1", "frame|self|防禦|down|1"],
+		"effect": "當這隻寶可夢第一次被任何物理攻擊命中時，牠的靈巧特質提升 1 點，但防禦降低 1 點。",
+		"desc": "這隻寶可夢的外層防護可以被脫下來，讓牠能更自由靈活的移動。"
 	},
 	{
 		"name": "白色煙霧", "alias": "しろいけむり|White Smoke",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|foe", "frame|self|特質|down|never"],
+		"effect": "敵人無法降低這隻寶可夢的任何特質。然而，這隻寶可夢仍然能夠降低自己的特質。",
+		"desc": "這隻寶可夢總是不斷釋放著白色煙霧，使敵人難以看見牠。牠能夠利用這些煙霧來隱藏自己的身影。"
 	},
 	{
 		"name": "躍躍欲逃", "alias": "にげごし|Wimp Out",
-		"tags": ["unknown|l"],
-		"effect": "",
-		"desc": ""
+		"tags": ["target|l|self", "nftext|l|HP降到一半或以下時", "effect|l|switcher"],
+		"effect": "每當這隻寶可夢的HP降到最大值的一半或以下時，牠就會回到自己的精靈球內，並派出另一個隊友來代替牠。如果牠沒有任何其他隊友，則戰鬥可能會因此結束。這個特性的效果不會被「阻擋」給影響。",
+		"desc": "每當牠的外骨骼被削弱時，這隻寶可夢就會承受莫大的壓力，出於純粹的怯懦，牠會從任何情境中逃之夭夭。"
 	},
 	{
 		"name": "神奇守護", "alias": "ふしぎなまもり|Wonder Guard",
@@ -1557,4 +1551,4 @@ Array.prototype.push.apply(AbilityList, [
 		"desc": "在極端壓力下，這隻寶可夢將會透過冥想解放牠隱藏的超能力。牠會在隔天變回原本的模樣。"
 	}
 ]);
-console.log(AbilityList.filter(a=>!(a.tags[0].indexOf("unknown"))).length, "remain..");
+//console.log(AbilityList.filter(a=>!(a.tags[0].indexOf("unknown"))).length, "remain..");
