@@ -5,62 +5,61 @@ description = ""
 +++
 
 ## 面對挑戰
-There are many challenges for a Trainer within the world of Pokémon.
+在寶可夢的世界中，訓練家將會面對許多的挑戰。
+在這個章節，我們將會提供你一些關於故事情節和長期戰役的想法與框架，善用它們做為你與朋友們一起遊戲的靈感吧。
 
-In this section of the book, we’ll give you some ideas and frameworks for episodic tales and campaigns. Use them as inspiration for your games with your friends.
-
-These  are  some  settings  you  can  choose  for  your  Role playing sessions:
-
----
-### ⬛ Episode of the week
-A  whole  adventure  in  a  single  session.  It  can  be some  light  hearted  fun  about  helping  people  in  need with  the  aid  of  your  Pokémon,  an  evening  exploring  a  cave  and  its  secrets,  an  exhausting Training  session,  or the search for a specific Pokémon to complete your Pokémon encyclopedia. 
-
-This  format  is  simple  and  good  for  beginners,  simply  create  your  own  encounters  at  a  rank  appropiate  for your players as a way to test their abilities.
- 
-For inspiration you may take a look at short fables or at the Pokémon TV series. You may even reenact one of its episodes and see the different outcome you have with your friends!
-
-Keep it simple but meaningful.
-
-Everything in the adventure must come full circle by the end of the session.
-
+以下是一些你可以選擇的遊戲聚會設定：
 
 ---
-### ⬛ Defeat Rival/Evil Team
-Some people want to irk you personally and others for criminal groups that cause mayhem.
+### ⬛ 本周劇集
+一次聚會就是一個完整的冒險故事。
+這可以是與你的寶可夢一起幫助有需要人們的輕快物語、在夜晚探索洞窟以及其中隱藏的秘密、一場耗費心力的特訓過程、或者是努力尋找某種特定的寶可夢好完成你的寶可夢圖鑑。
 
-You and your players can also take the episode of the week format to defeat your player’s Rivals or evil teams in the different regions. 
+這種形式既簡單且適合新手，你只需要創造出符合玩家們訓練家階級的故事遭遇，作為考驗他們能力的挑戰就好。
 
-It  may  be  a  friendly  match  with  “Gary”,  or  working alongside a detective to uncover the criminal’s evil plans and bring them to justice once and for all.
+做為靈感參考， 你也可以看看短篇寓言故事或寶可夢的動畫影集。你甚至可以重演其中一些集數的情境，並看看你和你的朋友們是否會得到不一樣的結果！
 
-It’s  up  to  you  to  decide  the  length  of  the  conflict  between trainers and rivals or evil teams. It may be a casual encounter from time to time or their life-misison to finally put them in their place.
+讓故事單純但意義深刻。
 
-You may find them in one session and not see them again until 2 or 3 sessions later or it may be a recurring theme appearing in all sessions trying to ruin the Trainer’s day.
+冒險中的一切都將在聚會尾聲時跟著圓滿結束。
 
 
 ---
-### ⬛ Pokémon League Challenge
-The  League  offers  various  challenges  to  their  trainers, some of them are:
+### ⬛ 對抗勁敵/邪惡組織
+有些討厭鬼總是想針對你，讓你惱怒困擾；而有些則投身犯罪集團，到處製造混亂。
 
-##### Gym Leader Challenge
-A novice trainer can go against a Gym leader with the right strategy, while a veteran trainer will have to prove he has what it takes to earn the last badge. 
-You can play the specific matches or embark on the whole journey. Traveling to the next Gym can be an adventure on its own.
+你和你的玩家們可以採用「本周劇集」的形式去對抗玩家們的勁敵或甚至不同地區的邪惡組織。
+這可能會是一場與「小茂」的友誼賽、或也許是與偵探一起搜查揭露罪犯的邪惡計畫並將他們統統繩之以法。
 
-##### Annual Tournament Challenge
-If you manage to obtain 8 Gym Badges within a year, you will be invited to participate in the Annual Tournament of the region. In there, you’ll be given the title of Ace Trainer. You can battle against the strongest Pokémon in the region. Official matches in shifting scenarios with a big crowd cheering or booing at your battle. Be sure to give your best as only the winner may take the trophy home.
+要花多長的篇幅去處理訓練家們與勁敵或邪惡組織之間的衝突，將由你來決定。這也許會是時不時發生的遭遇、也可能是他們人生中重要的使命。
 
-##### Victory Road Challenge
-If you get to the Top 5 on the famous Annual Tournament  Challenge you are now allowed to take the Victory Road, a treacherous labrynth full of hazards. It is a very long journey through the region’s most dangerous area.
+你可能會在某次聚會中遭遇他們，接著在兩到三次聚會之後才又再次看見他們的蹤影；或者他們可能會在每一次聚會中反覆出現，嘗試毀了你們訓練家的好日子。
+
 
 ---
-### ⬛ Legends of the Pokémon World
-Enough with humans and their affairs. If you want real action,  thrill,  and  danger;  you  must  follow  the  rumor  and lore and go deep into corners of the world where no  human  has  ever  gone.  There  you  will  find  an  ungraspable  power.  Can  you  face  it?  Can  you  tame it?Level-up  your  adventure  with  Mega-Evolutions,  Dynamax  and  Gigantamax  forms,  and  pass  the  legendary hero’s ritual to hold the power of Z-Moves in your hands.
+### ⬛ 寶可夢聯盟挑戰
+寶可夢聯盟為訓練家們提供了各種不同的挑戰，其中一些包括：
 
-And  if  that  is  not  enough  for  you,  Upgrade  into  the  Legendary Ranks, exclusive for Legendary Pokémon and those who ear their favor. 
-Each  Legendary  Pokémon  could  sustain  a  whole  campaign on their own. From a casual clue about their existence, to the greatest finding of your generation.
+##### 道館館主挑戰
+新手訓練家能夠藉著正確的戰術策略來挑戰道館館主，而老練的訓練家則會需要證明自己擁有足以贏得最後一枚徽章的實力。
+你可以選擇直接遊玩特定的道館對戰賽，或者從挑戰道館的整個旅途開始遊戲。畢竟，前往下一個道館所在地的旅途本身就是一場精彩的冒險了！
 
-**Legendary Pokémon are not mindless beasts to be final bosses at  the  bottom  of  a  dungeon. They  all  have  a defined personality and their own motivations.**
+##### 年度錦標賽挑戰
+如果你成功在一年內蒐集到 8 枚道館徽章，那麼你將會被邀請參加該地區的年度錦標賽。在那裏，你將備授予「菁英訓練家」的頭銜，並有機會跟該地區最強大的寶可夢們對戰。在戰鬥場地不斷改變的官方對戰中，大量的觀眾們將為你的戰鬥喝采歡呼或噓聲倒讚。確保你竭盡全力，因為只有贏家才能把獎杯帶回家。
 
-You have seen them at their weakest on their Pokédex entries, let’s see if you dare to face them at full power.
-They are not humans and they are not regular Pokémon, they are beyond this plane and its concerns.
+##### 冠軍之路挑戰
+如果你在著名的年度錦標賽中奪得了前５名的殊榮，那麼你將獲准前往冠軍之路──這是個充滿危險的可怕迷宮。這將是一段漫長的征途，你會需要使出渾身解數來穿過這個地區最最危險的區域。
 
-Are they allies or foes? That will depend on your story.
+---
+### ⬛ 寶可夢世界的傳說
+受夠人類和他們繁瑣的事務了嗎？如果你想要真正的動作、刺激、和危險，那麼你就必須追尋那些謠言和傳說，深入那些人類尚未涉足的世界邊陲。在那裏，你將發現倒你無法掌握的力量。你是否能直面它？又是否能夠馴服它？透過超級進化、極巨型態和超極巨型態來讓你的冒險升級，並藉著通過傳奇英雄的諸島巡禮來將Z招式的力量握在手中。
+
+如果就連這些都無法滿足你的話，那麼昇華到「傳說階級」吧，這是個專屬於傳說級寶可夢與那些受祂們青睞的人們的崇高位置。
+每個傳說級寶可夢本身都可以做為維繫一整個戰役的主題：從關於祂們存在本身的偶然線索開始，一路進展到你們這個世代最偉大的發現。
+
+**要記住，傳說級寶可夢並不是那種做為迷宮底層大魔王的毫無理智的野獸。祂們全都有著明確的個性、以及祂們各自的行事動機。**
+
+你在寶可夢圖鑑上看到的不過是祂們最弱小時的狀態數據，來瞧瞧你是否夠膽面對發揮出全力的祂們吧！
+祂們既不是人類，更不是尋常的寶可夢，祂們的存在與力量超乎了這個世界和其中的一切。
+
+祂們會是盟友、還是敵人？這都將取決於你們的故事而定。
