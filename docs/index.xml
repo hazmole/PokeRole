@@ -390,9 +390,17 @@ HP狀態
 HP全滿
 無
 沒有任何痛苦或不適。
-HP低於一半</description></item><item><title>勁敵系統（可選規則）</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/</guid><description>Rival System (Optional) It is said “As you get better, more people will want to see you fail”. Your Rival is the worst of those people.
-Good or bad, known or unknown, a Rival is always one step ahead and they show up on your path to remind you that it doesn’t matter how hard you work, you’ll never be as good as them.
-Your Rival is more than an obstacle, they might portray the same essence as your character but for all the wrong reasons or they may be your complete opposite.</description></item><item><title>城都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-johto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-johto/</guid><description>
+HP低於一半</description></item><item><title>勁敵系統（可選規則）</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/</guid><description>勁敵系統（可選規則） 俗話說：「你表現越好，就有越多人希望看到你失敗」。而你的勁敵就是這群人中最糟糕的那一個。
+無論好壞，無論相熟已否，勁敵總是領先你一步，他們在你行走的道路上出現，提醒著你無論你多麼努力，你也永遠無法像他們一樣優秀。
+你的勁敵不僅僅是個需要克服的障礙，他們的存在或許描繪出了一個與你角色相同但卻往錯誤方向發展的本質；或者，他們可能與你的角色完全相反。他們比你更強大、更聰明、更有魅力，且他們也清楚知道這一點。
+在你的旅途中，他們會把握每一個機會使你的人生變得艱難，他們有資格把你搞得一團糟，並且每一次都表現得比你更加出色。然而，也許，只是也許，如果你設法克服了你自己所有的弱點，那麼你也許能夠一勞永逸地戰勝他們。
+當你創建你的角色時，你也同時創建你的勁敵。
+勁敵角色的創建與發展 下列這些數據將透過隨機的方式決定，但在說書人的允許下，你也可以直接決定它們。
+在創建勁敵角色時，選擇 1 種態度。 在創建勁敵角色時，選擇 1 種關係。 在創建勁敵角色時，選擇 1 種背景。 在創建勁敵角色時，選擇 1 項異質特性。
+你的勁敵會在 初學者、業餘者、菁英、專家、大師、和冠軍階級時額外獲得 1 項異質特性。 決定你勁敵的寶可夢。
+牠們必須要比玩家的寶可夢更強大。 勁敵的階級永遠比玩加角色的階級高一階。 ⬛ 態度 Attitudes 善良 混蛋 虛偽 嫉妒 邪惡 ⬛ 關係 Relationship 親戚 - 家庭競爭關係是最糟糕的了…… 朋友 - 友好的競爭關係。 神秘 - 這傢伙到底是誰？ 惡霸 - 他會為了娛樂自己而折磨你。 死敵 - 他執著於看到你的毀滅。 ⬛ 背景 Backgrounds 勁敵是優秀的訓練家，他們有著豐富的背景故事來合理化他們那些強大的技能。
+珍獸黑客 Hax0rus 你勁敵的寶可夢也許不是透過合法手段獲得的。牠們是色違品種，且超級稀有。
+潮酷守則 Rule of Tenta-Cool 你的勁敵生來就是個明星，他的社交特質和社交類技能數值全都為最大值，並因此相當出名。他總是說著關於你的謊話，且每個人都相信他，就連你的家人和最要好的朋友也是。</description></item><item><title>城都地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-johto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-johto/</guid><description>
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");
 });</description></item><item><title>多重行動 (可選)</title><link>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/</guid><description>多重行動 (可選) 你將在這個章節學到如何變得更快，更兇猛。你可以窮盡你的速度和智力來分配你的專注力，讓你能在同一時間完成多個任務。

@@ -4,137 +4,144 @@ weight = 3
 description = ""
 +++
 
-## Rival System (Optional)
-It is said “As you get better, more people will want to see you fail”. Your Rival is the worst of those people.
+## 勁敵系統（可選規則）
+俗話說：「你表現越好，就有越多人希望看到你失敗」。而你的勁敵就是這群人中最糟糕的那一個。
 
-Good or bad, known or unknown, a Rival is always one step ahead and they  show up on your path to remind you that it doesn’t matter how hard you work, you’ll never be as good as them.
+無論好壞，無論相熟已否，勁敵總是領先你一步，他們在你行走的道路上出現，提醒著你無論你多麼努力，你也永遠無法像他們一樣優秀。
 
-Your Rival is more than an obstacle, they might portray the same essence as your character but for all the wrong reasons  or  they  may  be  your  complete  opposite. They are stronger, smarter, more charming, and they know it. 
-Along your journey, they will make your life as hard as they can, and they are qualified to get you in trouble and outperform you at every turn. However, maybe, just maybe, if you manage to overcome all your weaknesses, you might be able to defeat them once and for all.
+你的勁敵不僅僅是個需要克服的障礙，他們的存在或許描繪出了一個與你角色相同但卻往錯誤方向發展的本質；或者，他們可能與你的角色完全相反。他們比你更強大、更聰明、更有魅力，且他們也清楚知道這一點。
+在你的旅途中，他們會把握每一個機會使你的人生變得艱難，他們有資格把你搞得一團糟，並且每一次都表現得比你更加出色。然而，也許，只是也許，如果你設法克服了你自己所有的弱點，那麼你也許能夠一勞永逸地戰勝他們。
 
-When  you  create  your  character,  create  your  Rival  as well.
+當你創建你的角色時，你也同時創建你的勁敵。
 
 ---
 
-### Rival Character Creation and Progress
-The following Traits are chosen at Random, but they may be chosen with the Storyteller’s permission.
+### 勁敵角色的創建與發展
+下列這些數據將透過隨機的方式決定，但在說書人的允許下，你也可以直接決定它們。
 
-* Choose 1 Attitude at Rival Creation.
-* Choose 1 Relationship at Rival Creation.
-* Choose 1 Background at Rival Creation.
-* Choose 1 Unlike-Aibility at Rival Creation. 
-  Your Rival gains 1 additional Unlike-Ability at Beginner, Amateur, Ace, Professional, Master and Champion.
-* Select the Rival’s Pokémon. 
-  They must be strong against the Player’s Pokémon.
-* Rivals  are  always  one  Rank  above  the  Player’s Character.
-
-
-#### ⬛ Attitudes
-* Virtuous
-* Jerk
-* Deceitful
-* Envious
-* Evil
+* 在創建勁敵角色時，選擇 1 種態度。
+* 在創建勁敵角色時，選擇 1 種關係。
+* 在創建勁敵角色時，選擇 1 種背景。
+* 在創建勁敵角色時，選擇 1 項異質特性。
+  你的勁敵會在 初學者、業餘者、菁英、專家、大師、和冠軍階級時額外獲得 1 項異質特性。
+* 決定你勁敵的寶可夢。
+  牠們必須要比玩家的寶可夢更強大。
+* 勁敵的階級永遠比玩加角色的階級高一階。
 
 
-#### ⬛ Relationship
-* **Relative** - Family rivalries are the worst.
-* **Friend** - Friendly competition.
-* **Myterious** - Who is this person?
-* **Bully** - They torture you for their own amusement.
-* **Nemesis** - Their obsession is your destuction.
+#### ⬛ 態度 Attitudes
+* **善良**
+* **混蛋**
+* **虛偽**
+* **嫉妒**
+* **邪惡**
 
 
-#### ⬛ Backgrounds
-Rivals are exceptional Trainers with long and juicy backstories  to back up their great skills. 
+#### ⬛ 關係 Relationship
+* **親戚** - 家庭競爭關係是最糟糕的了……
+* **朋友** - 友好的競爭關係。
+* **神秘** - 這傢伙到底是誰？
+* **惡霸** - 他會為了娛樂自己而折磨你。
+* **死敵** - 他執著於看到你的毀滅。
 
+
+#### ⬛ 背景 Backgrounds
+勁敵是優秀的訓練家，他們有著豐富的背景故事來合理化他們那些強大的技能。
   
-##### Hax0rus
-Your  Rival  may  not  have  gotten  his  Pokémon  by  legal means. They are Shiny and insanely rare.
+##### 珍獸黑客 Hax0rus
+你勁敵的寶可夢也許不是透過合法手段獲得的。牠們是色違品種，且超級稀有。
 
-##### Rule of Tenta-Cool
-Your Rival was born to be a star, he’s famous with maxed out Social Attributes and Contest Skills. He always tells lies  about  you  and  everyone  believes  him,  even  your close friends and family.
+##### 潮酷守則 Rule of Tenta-Cool
+你的勁敵生來就是個明星，他的社交特質和社交類技能數值全都為最大值，並因此相當出名。他總是說著關於你的謊話，且每個人都相信他，就連你的家人和最要好的朋友也是。
 
-##### Cursed with Awesome
-Your Rival has what you want the most, however, your Rival plainly dislikes it and sees it as a curse. This “curse” can take the form of a Pokémon, a Job, an Object, or a Person.
+##### 傑出的詛咒 Cursed with Awesome
+你的勁敵擁有著你最想要得到的東西，然而，你的勁敵顯然不怎麼喜歡它，且將其視為一種詛咒。這個「詛咒」可以是任何形式的事物，包括寶可夢、工作、物體、或某個人。
 
-##### Richboy
-Your Rival has an unlimited source of money and yet, he will never bet more than $50. If he’s in town, prices are 3 times higher and nothing is free, not even the Pokémon Center. Multiple Richboys, multiply the prices further.
+##### 富家大少 Richboy
+你的勁敵有著無限的金錢來源，但他打賭時的籌碼永遠不會超過 $50。如果他在鎮上，那鎮上所有商品和服務的價格都將變為原本的３倍，且沒有任何東西會是免費──就連寶可夢中心也是。如果同時有好幾個富家大少，那麼價格會再翻倍。
 
-##### Team Member
-Your Rival belongs to a criminal organization.
-Him and his friends will gang on you to do Battle. At the end of each Round,  your  Rival’s  Pokémon  automatically  hits  your Pokémon with a Typeless version of the Move “Beat Up” (at min. Power). This is considered legal... somehow.
+##### 組織成員 Team Member
+你的勁敵隸屬於某個犯罪組織。
+他和他的狐群狗黨會結夥跟你對戰。在每個戰鬥輪結束時，你勁敵的寶可夢會自動使用無屬性版本的〈圍攻〉招式（最低威力）並直接命中你的寶可夢。這……因為某些原因並不被視為違規。
    
-##### Disabled/Orphan
-Your Rival has suffered a lot throughout his life. People get mad at you for “bullying” this poor troubled kid.
+##### 殘疾/孤兒 Disabled/Orphan
+你勁敵的一生已經受了不少苦。人們會因為你「欺負」這可憐的孩子而對你生氣。
  
-##### Anti-Hero
-Anywhere you go, you find your Rival’s accomplishments. Whatever you do, he did it first and better.
+##### 反英雄 Anti-Hero
+不管你去到哪裡，你都會發現你勁敵的成就。無論你做什麼，他都先你一步，且做的比你更好。
              
-##### Tyrant Mentor
-Your Rival thinks he should teach you a lesson.
-Perhaps he believes you have the potential to be something greater.
-He often shows up to power-up whatever villain you’re facing, lending Items, Healing, giving Stat-Increases and tips about how to beat you.
+##### 專橫導師 Tyrant Mentor
+你的勁敵覺得他有義務給你上一課，也許他相信你有潛力成為更偉大的人物。
+他經常會現身，強化並幫助你的敵人，像是出借他們道具、治療、給予提升特質的營養劑、或關於如何擊敗你的技巧。
 
 
-#### ⬛ Unlike-Abilities
-What good is a Rival that you can push around and stomp at every turn? None. Rivals are designed to make your Character yell at the top of his lungs: “It’s not fair!“ But it’s up to you to serve justice. Unlike-Abilities are not balanced, they aren’t meant to be, they are incredible Abilities for the strongest Trainer Antagonists.
+#### ⬛ 異質特性 Unlike-Abilities
+一個你每次都能夠隨意擺弄、踩在腳下的勁敵有什麼好的？當然不好。勁敵就是設計來要讓你的角色用盡全力怒吼：「這不公平！」，而正義能否得到伸張將全取決於你。異質特性的強度是不平衡的，且它們本意如此。它們就是設計給那些最強大的反派訓練家使用的超強能力。
    
-###### Licence to Cheat.
-Your  Rival  does  not  suffer  any  consequences  from  breaking the League’s rules. He may use forbidden Items, send  several  Pokémon,  punch  you  or  your  Pokémon during  an Official Battle, but beware, if you also break the rules, you WILL be sanctioned heavily.
+###### 作弊許可 Licence to Cheat.
+你的勁敵並不會因為違反寶可夢聯盟的規定而承受任何後果。他可能會使用違禁道具、一次派出好幾隻寶可夢、或者在正式對戰中攻擊你或你的寶可夢。但注意，如果你也違反了規定，你**會**被嚴重懲處的！
 
-###### OverPowered
-Your  Rival  and  his  Pokémon  unleash  their  hidden  power. Their Damage Rolls are always successful.
+###### 壓倒性力量 OverPowered
+你的勁敵和他的寶可夢釋放出他們隱藏的力量。他們的傷害骰永遠視作成功。
 
-###### Overconfidence
-Your Rival and his Pokémon have an unlimited amount of Will Points.
+###### 過度自信 Overconfidence
+你的勁敵和他的寶可夢擁有無限數量的意志點。
 
-###### Unbearable
-Your Rival knows what to say to make you angry. When he talks to you, you and all your Pokémon automatically  lose  their  cool,  clever,  tough  and  cute.  Any  roll  that  involves those Social Attributes will fail automatically no matter what.
+###### 忍無可忍 Unbearable
+你的勁敵清楚知道該如何激怒你。當他和你交談時，你和你所有的寶可夢都將自動失去你們的 帥氣、聰明、強壯、可愛 社交特質。所有涉及這些社交特質的擲骰判定都將自動失敗。
 
-###### Leftover Maniac
-All of your Rival’s Pokémon have Leftovers as a Held Item (Leftovers  Heal  1  HP  per  Round.  Up  to  10  HP  may  be healed daily).
+###### 吃剩的東西狂熱者 Leftover Maniac
+你勁敵的所有寶可夢都持有「吃剩的東西」做為持有物品。
+<div class="Item">
+  <div class="Header flexContainer">
+    <div class="title">吃剩的東西</div>
+  </div>
+  <div class="Content">
+    每輪回復 1 點HP。每天可以回復最多 10 點HP。
+  </div>
+</div>
 
-###### Cruel Training
-Your Rival trains his Pokémon without mercy but they are all fully evolved.
+###### 殘忍訓練 Cruel Training
+你的勁敵毫不留情地鍛鍊他的寶可夢，且牠們全都進化到最終階段。
 
-###### Move Master
-Choose  one  very  powerful  or  extremely  useful  Move. All  of  your  Rival’s  Pokémon  may  use  that  Move.  
-This Unlike-Ability may be chosen multiple times.
+###### 招式大師 Move Master
+選擇一個非常強大或極度實用的招式。你勁敵的所有寶可夢都能夠使用這個招式。
+這個異質特性可以被重複選擇好幾次。
 
-###### Gary Stu/Mary Sue
-Your Rival always succeeds at everything he does as if he had rolled 5 successes. His Pokémon never fail to live up to his expectations. All their Moves gain the Never Fail Effect.
+###### 傑克蘇/瑪麗蘇 Gary Stu/Mary Sue
+你勁敵所做的每一件事都會如同他骰出了 5 顆成功骰一樣成功。他的寶可夢永遠不會失敗且從來不會辜負他的期望。牠們的所有招式都獲得「必中」效果。
 
-###### Suspected Thief
-Everytime you meet your Rival, you’ll have missing Items by  the  time  they  leave  the  scene.  He  may  even  steal your Pokémon! If your Rival is not Evil, you may find your Pokéball at a nearby Pokémon Center, Adoption Center or Daycare, but if he’s Evil, finding your companion may not be that easy. 
+###### 可疑竊賊 Suspected Thief
+每次你遇見你的勁敵，你身上的東西總是會在他們離開場景時消失不見。他甚至可能會偷走你的寶可夢！如果你的勁敵的態度不是「邪惡」，那麼你也許能在附近的寶可夢中心、收容所、或培育屋找到你的精靈球；但如果他是「邪惡」的，那麼要找回你的夥伴可能就沒那麼容易了。
 
-###### Spotlight Thief
-Everytime  you  do  something  amazing,  your  Rival  ends taking  all  the  credit  and  even  making  it  look  like  he saved you.
+###### 鎂光燈小偷 Spotlight Thief
+每次你做出什麼驚人事蹟，你的勁敵最終都會拿走所有的功勞，甚至會讓情況看起來像是他拯救了你一樣。
 
-###### Silver Tongue
-Your Rival knows how to manipulate you. 
-You’ll  do  whatever  he  wants  even  if  it  opposes  your  beliefs or plans. Even worse, you’ll think they’re doing it in your own best interest.
+###### 如簧巧舌 Silver Tongue
+你的勁敵清楚知道該如何操弄你。
+你會去做任何他想要你去做的事情，即使那違背了你的信念或計畫。更糟的是，你會覺得他們這麼做是為了你好。
 
-###### Rider of Misfortune
-Your Rival decided to make your everyday life a living hell. 
-Everything  you  do  gets  unbelievably  complicated,  you have no proof, but you know he’s behind it! No-one believes you, though. 
-You can’t regain Confidence and you lose 2 Confidence everyday. When you lose all your Confidence, you suffer a mental breakdown and regain all your Confidence the next day.
+###### 不幸馭手 Rider of Misfortune
+你的勁敵決定要讓你的日常生活彷彿地獄般難受。
+你所做的每一件事都變得難以置信地複雜麻煩，你沒有任何證據，但你知道他就是幕後黑手！然而沒有人相信你。
+你無法回復你的信心值，且你每天會失去 2 點信心值。當你失去所有的信心值時，你的精神將會崩潰，並在隔天回復你所有的信心值。
 
-###### Double Agent
-One of your Pokémon works for your Rival and you don’t even suspect it. They may lose Battles on purpose (modify successes in secret) and sabotage plans. 
-They are really good at covering up their misdeeds. This Unlike-Ability may be chosen multiple times. If you store or  release  a  Double  Agent,  another  Pokémon  in  your  party takes its place... but who?
+###### 雙面間諜 Double Agent
+你的其中一隻寶可夢效忠於你的勁敵，你甚至不曾懷疑過牠。牠可能會故意在戰鬥中敗北（偷偷修改成功骰數）並搞砸你的計劃。
+牠們相當擅長掩蓋牠們的罪行，如果你存放或釋放了做為雙面間諜的寶可夢，那麼你隊伍中的另外一隻寶可夢將會接替牠的位置……但會是誰呢？
+這個異質特性可以被重複選擇好幾次。
 
-###### Undefeatable Foe
-Your Rival is destinied to beat you Every. Single. Time. 
-No matter how often you train, how hard you try, which of your Pokémon fights, you always end up losing. 
-Every    you  roll  while  battling  your  Rival,  will  subtract one success from your roll.
+###### 無法擊敗的對手 Undefeatable Foe
+你的勁敵註定要擊敗你。每，一，次，都，是。
+無論你訓練多少次，無論多麼努力嘗試，無論派了哪隻寶可夢去戰鬥，你最終總是會敗北。
+當你在與你的勁敵對戰時，你的所有擲骰判定全都會扣除一顆成功骰。
 
 
 {{< boxmd >}}
-Players can’t be Rivals with each other, Rivals and their unlike-abilities impose an almost-impossible challenge, their skills are not appropiate for Player Characters.
+玩家不能成為彼此的勁敵。勁敵和其異質特性是為了給玩家帶來幾乎不可能的挑戰，因此它們並不適合給玩家角色使用。
 
-By pure numbers, you might lose everytime, but a well thought strategy will take you far. 
-You need to defeat your Rival eventually if you’re looking to reach the Ace Rank. Even more, the Storyteller might want to add new Rival-related Achievements to get to Beginner, and Amateur Rank.
+從純粹的數值面來看，你可能每一次都會嘗到敗北的滋味，但周全準備的策略將帶你走得更遠。
+如果你打算晉升到「菁英」階級，那麼你最終仍必須要打敗你的勁敵。又或者更進一步，說書人可能會添加其他跟勁敵有關的成就，要你達成它們後才能晉升到「初學者」或「業餘者」階級。
 
-You’ll Love to hate your Rival, have fun trying to surpass this formidable foe.
+你會愛上討厭你勁敵的感覺，去享受努力嘗試戰勝這可怕敵人的樂趣吧！
 {{< /boxmd >}}
