@@ -384,3 +384,20 @@ select {
     font-size: .9em;
     padding: .1em;
 }
+
+@font-face {
+    font-family: 'sealScript';
+    src: url('../fonts/KouzanBrushFontSousyo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.mythos {
+    font-family: 'sealScript';
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    background: #d0ceb8;
+    border: .5rem #a9a890 solid;
+    border-radius: 1rem;
+}

@@ -4,64 +4,68 @@ weight = 7
 description = ""
 +++
 
-## Myths and Legends from the Pokémon World
-As  you  embark  on  your  first  journey,  **Pokémon:  The Role Playing Game** will deal with some ordinary affairs  and  people’s  everyday  lives,  their  customs,  their  aspirations, the relevance of Pokémon and your own in this beautiful and innocent world.
+## 寶可夢世界的神話與傳說
 
-It’s  a  time  to  learn  about  teamwork,  leadership,  friendship,  camaraderie  and  valor.  A  journey  about  pursuing your dreams, climbing to the top, and realizing  that  you  are  able  to  do  anything  you  want  if  you  persevere and work together.
+當你開始你的第一次旅程，〈寶可夢：角色扮演遊戲〉會專注於一些你在旅途中會遇到的尋常事務，呈現著人們的日常生活、他們的風俗民情、願望與抱負、以及在這美好天真世界中你與寶可夢之間的關係。
 
-There is, however, another side to this world. A realm of legends and gods. Beings who molded the landscapes  and  gave  birth  to  humans  and  Pokémon.  Creatures older  than  this  world  to  which  death  means  nothing.  Pokémon who rule the vast ocean, the clear skies or the  wide continents you inhabit.
+這是個學習團隊合作、領導、友情、同伴情誼、以及勇氣的時刻。這是一趟追求夢想的旅程，攀上巔峰，並意識到只要你堅持不懈、同心協力，就能夠達成任何你想要做到的成就。
 
-Famous  libraries  and  old  tablets  talk  about  creatures out  of  the  ordinary,  even  by  Pokémon  standards.  Most  believe  these  are  nothing  but  tales  from  another  era, but maybe eventually you’ll bear witness to something  simply  unexplainable.  This  is  the  first  time  you’ll  be  facing Legendary Pokémon.
+然而，這個世界還存在著另一面：諸神與傳說的國度。那能夠形塑山河、創造人類與寶可夢的存在。遠比世界本身還要久遠，不知何謂死亡的古老生物。掌管廣袤海洋、清澈蒼空、以及堅實大陸的寶可夢……
+
+著名圖書館和古老石板上記載著關於這些就算以寶可夢標準來看都超乎尋常的生物。大多數的人們相信這些祂們不過是好幾世代以前的傳說，但也許最終你將在旅途中見證一些無法用常理解釋的神秘。這也將會是你第一次面對傳說中的寶可夢。
 
 ---
-### ⬛ Myths
-We  know  you  want  to  use  a  couple  of  Legendaries  to spice up your Chronicle, and that’s completely fine. They can turn a simple story into a quest that will change the characters lives, forever.
-A  Myth  is  your  main  tool  to  build  up  the  importance of  a  Legendary  Pokémon,  to  reveal  the  first  clue  to  a  mysterious  happening,  or  answer  the  many  questions about this amazing technology.
+### ⬛ 神話
+我們知道你很想要加入一些傳說寶可夢到你的史詩長團中，這完全沒有問題。祂們的存在可以將簡單的故事轉變成一個能永遠改變角色人生的任務。
+「神話」是你用來營造傳說寶可夢的重要性的主要工具，運用它來揭露關於神秘事件的第一個線索、或用來回答關於某個驚人科技帶出的疑問。
 
-People’s  eyes  are  veiled  in  a  cloak  of  ignorance  and  comfort. Before revealing the truth behind a Myth, make sure to inspire an air of ancient eras, when gods walked the lands in times long forgotten.
+人們的雙眼總被無知與舒適生活的面紗給蒙蔽。在揭露神話背後的真相之前，確保你營造出了遠古時代特有的氛圍：那諸神仍行走在大地上，世人早已遺忘的遠古時光。
 
-### ⬛ Legendary Pokémon
-Despite  having  a  Pokédex  entry,  Legendary  Pokémon should always be treated with great care. When building a story arc revolving around these creatures always take these tips into consideration:
+
+### ⬛ 傳說寶可夢
+儘管數據被記錄在寶可夢圖鑑上，在故事中，傳說寶可夢的存在永遠應該被謹慎處理。當你圍繞著這些存在建構與之相關的故事弧線時，永遠記得把以下幾點納入考量：
 
 {{< boxmd >}}
-* Their presence actively modifies everything  happening around them.
-* They cannot be caught or contained in most Pokéballs.
-* Most of them should be more intelligent and wiser than humans.
-* They know any number of Moves that may match their Types or not.
-* They may know Z-Moves, Max or G-Max Moves and even Mega-Evolve at will.
-* Some of them may be able to talk, either through telepathy or rough voices.
-* There is only one of each. Although some may have powers that allow them to copy themselves. 
-* If you wish to take their myths further you may start applying what we call: “Legendary Ranks”
+* 祂們的存在會主動影響發生在祂們周遭的一切。
+* 祂們無法被大部分的精靈球給捕捉或收納。
+* 祂們之中的大部分存在應該要比人類還要更聰明且有智慧。
+* 祂們知道任意數量個符合祂們屬性和類型的招式。
+* 祂們可能會知道Z招式、極巨招式、超極巨招式，並甚至能夠憑自己的意志超級進化。
+* 祂們之中的一部份存在能夠說話，透過心靈感應、或者直接的言語。
+* 每種傳說寶可夢都只有一個個體。但一部份存在擁有著自我複製或製造化身的能力。
+* 如果你希望讓祂們展現出更符合祂們神話的強度，那麼你可以試著為牠們套用我們稱之為「傳說階級」的階級。
 {{< /boxmd >}}
 
-Legendary Pokémon are found in the Pokédex Chapter. 
-Their entry shows most of them as Master Rank, which would be their base form. They can be tamed only by the strongest trainers, and they can’t be weaker than shown on their entry.
+你可以在「寶可夢圖鑑」章節中找到關於傳說寶可夢的數據和介紹。
+圖鑑資料記錄著祂們大多屬於大師級階級，但這僅僅是祂們的基本型態。只有最強大的訓練家能夠馴服祂們，且祂們永遠不會弱於祂們在圖鑑上的數據。
 
 {{< mynotice story >}}
-Legendaries  aren’t  regular  Pokémon  and they are not human. 
-**They shouldn’t think nor act as such. All  of  their  actions  are  beyond good and evil**. At most they may be  caring or uncaring.
+傳說寶可夢既不是普通的寶可夢，也不是人類。
+**祂們的思考和行動方式與其截然不同。祂們的所有行動全都超乎了善與惡。**祂們之間的差異頂多就只是關心與否。
 {{< /mynotice >}}
 
 ---
 
 <div class="mythos">
-Before the beginning of everything, from a vortex of chaos emerged an egg. Arceus hatched from this egg and shaped the universe with its thousand arms, first creating the land of Sinnoh. 
-Arceus then created the First Born, a being of the void, a being of time, and a being space Eventually, humans appeared to inhabit Sinnoh.
-
-Arceus then created three new gods to give humans knowledge, emotions, and willpower. These three gods still inhabit the lakes in the land of Sinnoh.
+在萬象之初, 從混沌渦流中湧起一顆蛋。阿爾宙斯從這顆蛋中誕生, <br>他用千臂形塑了這個宇宙, 首先創造了神奧大陸。<br>
+阿爾宙斯接著創造了原初之子們, 是為: 虚空之子、時間之子、空間之子。<br>
+<br>
+最後, 人類出現, 定居於神奧。<br>
+阿爾宙斯接著創造三神, 給予人類知識、情感、意志。時至今日, 三神依然棲居於神奧大陸池中
 </div>
 <div class="mythos">
-A stone whose energy comes from the gods themselves.
-Shall the chosen pokemon and the chosen human unleash its power, the pokemon will come forth with godly power.
+巨石之靈, 出於諸神本源。<br>
+當命定之獸與天選之人解放其力, 寶可夢將挾神之力現身於世。
 </div>
 <div class="mythos">
-Long ago, when Sinnoh had just been made, Pokemon and humans led separate lives.
-That is not to say they did not help each other. No, indeed they did. They supplied ONE ANOTHER with goods. A PokEmon proposed to the others to always help humans.
-
-It asked that PokEmon be ready to appear before MEn AND WOMEN. 
-Thus, to this day, PokEmon appear to us if we venture into tall grass.
+久遠以前, 神奧新創之時, 人與寶可夢分地而居。<br>
+他們並非互不來往, 不, 相反, 他們彼此協助, 互利共生。<br>
+一只寶可夢向他的同伴請求, 請求他們永遠要向人類伸出援手。<br>
+<br>
+他要求寶可夢做好準備, 現身於人類面前。<br>
+因此, 時至今日, 當行走於草叢, 寶可夢就會現身在我們面前。
 </div>
 <div class="mythos">
-There lived a PokEmon in a forest It shed its hide to sleep as a human.
-Awakened, the human dons the PokEmon hide to roam villages.
+深森之中, 他褪去寶可夢的外皮, 以人之姿沉睡。<br>
+如今甦醒, 他披上寶可夢的外皮, 於村潛伏漫遊。
 </div>
