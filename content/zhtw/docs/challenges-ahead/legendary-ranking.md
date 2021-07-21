@@ -4,128 +4,131 @@ weight = 8
 description = ""
 +++
 
-## Legendary Ranking (Optional)
+## 傳說階級（可選規則）
 
-**Pokémon: The Roleplaying Game** is mainly focused on low Adventure, it deals with the comings and goings of regular people’s lives and their relationship with nature and Pokémon. However, there is a larger mythology in this world. 
+**〈寶可夢：角色扮演遊戲〉** 主要著眼於較低層級的冒險，它處理普通人生活中的來來去去，以及他們與自然和寶可夢之間的關係。然而，這個世界的角落確實存在更為宏偉的神話。
 
-Here,  we  open  up  the  door  to  the  universe  of  High  Adventure which extends further away into the primordial forces of creation. These powers manifest on the Pokémon World  in  a  straight-forward  fashion,  but  only  the  most  worthy and brave have the fortitude to comprehend and face the events that will decide the future.
+在這裡，我們開啟了一扇通往高層級冒險的大門，甚至觸及了那些創世起初便存在的原始力量。這些力量以一種直接了當的形式體現在寶可夢世界中。然而，只有那些最勇敢且配得上這一切的角色才有足夠的毅力去理解、面對這些大幅決定未來的事件。
 
-**The Legendary Ranking is an addition to the Ranking System**,  in  that  sense,  it  is  possible  to  be  of Amateur  Rank  and  also  have  a  Hero  Rank.  In  practice,  most  Heroes in the world are  positioned among the Pros and Champions, but  this does not prevent Heroes from being of any Rank.
+**傳說階級獨立於一般的階級系統之外**，換句話說，身處「業餘者」階級的寶可夢是有可能同時擁有「英雄」階級的。儘管實際上這個世界上大部分的英雄都落在「職業」或「冠軍」階級，但這並不會阻止其他階級的角色成為英雄。
 
-It’s important to note that it is NOT possible for a Trainer to  raise  or  assign  a  Legendary  Ranking  to  their  Pokémon through Training Sessions. Only a Legendary Pokémon is able to do that, and will do it ONLY for outstanding and worthy Pokémon that go along their Philosophy, a Shaymin won’t be turning a Muk into one of its heroes anytime soon.
+值得注意的一點是，訓練家**不可能**透過訓練課程來使他的寶可夢獲得或晉升到傳說階級。只有傳說寶可夢有辦法這麼做，且祂們**只會**對符合祂們價值觀，傑出且有價值的寶可夢這麼做；舉例來說，謝米就不太會讓臭臭泥成為祂底下的英雄。
 
-**Legendary Ranking  is  more than  just a power scale, it’s your hierarchy in the cosmic order.**
+**傳說階級並不僅僅只是用來衡量力量的尺規，它更代表著你在這個宇宙秩序中所屬的層級。**
 
-In here we will comment on the most essential aspects regarding the Legendary Ranking, but its real scope will be found in the future supplement: 
+在這個章節，我們將會談論關於傳說階級最重要的幾個面向，但其完整的內容將在未來的擴充中補足：
 
 {{< mynotice story >}}
-Heroic  Rite  of  the  Power  of  One  is simply a rite for communication with a  Legendary  Pokémon.  The  rite  on  itself doesn’t have any real power to grant Legendary Rankings.
-Pokéballs  can  catch  a  Pokémon  with  a  Legendary Ranking, but Legendary Pokémon are capable of breaking the Pokéball at will. 
-Only a Masterball could hold them.
+「幻神的英雄儀式」僅僅是一個用來與傳說寶可夢溝通交流的儀式。這個儀式本身並不具備任何能賦予傳說階級的實質力量。
+{{< /mynotice >}}
+{{< mynotice story >}}
+精靈球可以抓住傳說階級的寶可夢，但傳說寶可夢有能力憑意志破壞精靈球的束縛。只有大師球有辦法真正抓住祂們。
 {{< /mynotice >}}
 
 ---
 <div class="Frame">
 
-### <div class='icon Champion'>Hero Rank</div>
-Heroes act as the labor force of Legendary Pokémon, usually they’re extraordinary people with a strict code of conduct and an relentless higher purpose. 
-Most of them are oblivious to their position as a Hero and the identity of their benefactor. Knowingly or unknowingly, a Hero’s got a job to do and they are expected to accomplish great deeds.
+### <div class='icon Champion'>英雄階級</div>
+英雄們是傳說寶可夢底下的勞動力，他們通常會是遵循著嚴格行為法則、且堅持不懈追尋著崇高目標的非凡人物。
+他們之中大部分都對自己英雄和救世主的身分毫不知情。無論知情與否，英雄們背負著應盡的使命，且他們被期許去成就偉業。
 
-For that reason they have the following benefits:
+也因此，他們得益於下列好處：
 
-###### Individual Value
-A character with the Hero Rank has capabilities vastly superior to the other members of his species, even at their weakest state, you can tell they are prodigies. 
-They  are  beginning  to  realize  that  life  and  power  are more than just a biological composition, there is a greater  power sleeping inside each living being.
+###### 獨特價值
+英雄階級的角色擁有著遠比他同族更為優秀卓越的能力，即使是在他們最為虛弱的時候，你也能一眼就看出他們的天賦異稟。
+他們開始意識到生命與力量並不只是源自生物性構成，還存在著一股更為強大的力量，沉睡在每一個生物的體內。
 
-* Attribute Minimums are increased by 1.
-* Attribute Limits are Increased by 1.
+* 所有起始特質增加 1 點。
+* 所有特質的上限增加 1 點。
 
-###### Move User
-The character awakens to a completely new and strange power running inside them like a far away memory. 
-This power is a Move that they are capable of performing even if they arehuman.
+###### 招式使用者
+角色覺醒進入一個嶄新的境界，奇妙的力量流竄於全身上下，就彷彿久遠的記憶一樣。
+這股力量將以一個他們能夠施展的招式來呈現，即使他們身為人類，他們也能夠使用這個招式。
 
-* Gain one Move. Usually a Support Move but it can be any Move at Storyteller’s Discretion.
-* The  Hero  gains  a  score  in  the  Special  Attribute  identical to that of their main Pokémon on the battle field.
+* 獲得一個招式。通常這會是一個變化系招式，但在說書人的裁斷下這可以是任意一個招式。
+* 英雄階級的人類角色將獲得「特殊」特質，其數值與他們在戰場上的主要寶可夢相同。
 
-###### Heroic Ability
-The Hero develops a supernatural Ability that attaches to their body, it can be activated or deactivated at will. 
-At this point, the Hero is undeniably beyond ordinary.
+###### 英雄級特性
+英雄發展出了一個附在他們肉體上的超自然特性，且該特性可以被隨意發動或中止。
+到了這一步，已經沒有人能否認英雄是個超凡的存在了。
 
-* Gain  one Ability  related  to  the  Legendary  Pokémon providing its blessing. A Heroic Pokémon’s native Ability and a Legendary Ability can be active at the same time. Heroic Trainers may use this Ability themselves.
+* 獲得一個與賜予祝福的傳說寶可夢有關的特性。英雄階級寶可夢原本的特性以及英雄級特性可以被同時發動，而英雄階級的訓練家則可以自行使用英雄級特性。
 
-###### How do I get this Rank?
-The Hero and a Pokémon who wish to obtain the blessing enter communion with the greatest forces of destiny.
-A Legendary Pokémon will determine If both are worthy in its eyes.
+###### 我該如何晉升到這個階級？
+想要獲得恩賜祝福的英雄和寶可夢必須與命運的宏偉之力交流溝通。
+傳說寶可夢將會決定他們在祂的眼中是否有足夠的價值。
 
-If the communion succeeds it may decide to grant the Legendary Rank of Hero to you, your Pokémon or both.
+如果交流順利成功，那麼祂可能會決定賜予祝福給你、你的寶可夢、或兩者皆賜，讓其晉升為英雄階級。
 </div>
 <div class="Frame">
 
-### <div class='icon Champion'>Guardian Rank</div>
-Certain Pokémon are part of folklore they use or used to be revered by humans as Guardians.
-On  few  occasions  these  Guardians  create  or  rise  creatures that can’t be rivaled by mortal beings.
+### <div class='icon Champion'>守護神階級</div>
+某些寶可夢就是傳說奇談的一部份，祂們正在或曾被人們奉為守護神。
+在少數情況下，這些守護神會創造或提拔起那些凡俗存在無法匹敵的生物。
 
-They serve on highly specific stationary positions. 
-Contrary to Heroes, Guardians can be recognized on sight as beings beyond natural, therefore, they commonly take part  on  legends  from  tribes  and  cultures  all  around  the Pokémon World.
+祂們在相當特定且固定的位置上服務於祂們的使命。
+與英雄正好相反，你一眼就能夠辨識出守護神那超乎自然的存在本質。也因此，祂們經常會成為寶可夢世界各地文化和傳統的神話傳說的一部分。
 
-###### Hidden Value
-Guardians have a vitality completely out of norm, they are virtually immune to attacks from ordinary creatures. 
-On  occasions  this  vitality  manifests  itself  on  bodies  of prodigious size, but this characteristic is not always the case. Their destructive power is enough to fend off invaders or take control of deadly situations that would be too easy to bother a God.
+###### 隱藏價值
+守護神擁有著全然非凡的生命力，祂們幾乎可以說是免疫於所有凡俗生物的攻擊。
+有時候，這種生命力會表現在他們巨大的體型上，但並不是所有守護神都會有這樣的特徵。祂們毀滅性的力量足以應付那些不足以打擾諸神插手的麻煩，像是抵禦入侵者或控制住危險致命的情境。
 
-* HP Is increased by 20.
-* Max Out all Attributes.
+* HP 增加 20點。
+* 所有特質直接取最大值。
 
+###### 全 Z 招式
+守護神的招式通常可以視作祂們承擔使命的延伸，且祂們無須休息或努力就能夠自由的施展這些攻擊，將最普通的招式變成最強大的力量，在眨眼間掃蕩所有非英雄階級的敵人。
 
-###### All Z-Moves
-Moves  from  Guardians  are  usually  an  extension  of  their  assigned duty and they can perform those attacks freely without need for rest or effort, turning even the most basic Move  into  a  power  capable  of  wiping  out  all  non-Heroic foes in a blink.
+* 守護神可以選擇以Z招式的形式使用他的招式，但在一個戰鬥輪中不能使用重複相同的Z招式。除此之外不受到任何其他限制。
 
-* Guardians may choose to use the Z-Move version of their Moves, without any restriction except they can’t use the same Z-Move twice during the same Round.
+###### 傳說級特性
+守護神的天性被增強到一個程度，讓祂們能以神性能量行事，而不用受限於肉體凡軀。祂們的所有天生能力將劇烈燃燒，揭示出祂們在這個凡俗世界中的非凡層級。
 
-###### Legendary Ability
-The nature of a Guardian is augmented to such a level that they are working out of divine energy and not so much because of a physical body. All of their innate capabilities burn intensely, revealing their hierarchy on the mortal world.
+* 守護者可以同時擁有最多三個特性。
+* 其中一個特性的效果變為兩倍。
 
-* Double the effects of one Ability.
-* Guardians may have three Abilities at the same time.
-
-###### How do I get this Rank?
-When a Hero has continuosly proven their worth and caliber, it may be summoned by a higher being. 
-On this very moment their destiny is revealed, the line which divides the myth from reality will be erased, and just like that a new Guardian is led into the real battle where the future of the world will be forged.
+###### 我該如何晉升到這個階級？
+當一名英雄持續不斷地證明了自己的價值和才幹，那他將有可能被更高位的存在給召喚。
+就在這一刻，他們的命運終於被揭曉，神話與現實之間的分界線將被抹去，就這樣，一名新的守護神誕生，並被引領前往真正的戰場，鍛造出這個世界的未來。
 
 </div>
 
 ---
 
-This is just the first few steps you’ll take when entering the legend.
-For Pokémon of great power over the forces of nature, life and death and even from cosmic proportions exists, and shall you ever encounter them be prepared to deal with Heros, Guardians and:
+前面這不過是你初踏入傳說領域的前幾步罷了。
+這個世界上存在著那些身懷超乎自然與生死等宏偉之力的寶可夢們，而如果你遇見祂們，準備好面對英雄階級、守護神階級，以及：
 
 <div class="Frame">
 
-### <div class='icon Champion'>Demi-God Rank</div>
-Demi  Gods  make  this  World  move.  Rulers  but  not  creators of powers that surpass anything seen on the world, theirs is a kingdom of terrible fantasy.
+### <div class='icon Champion'>半神階級</div>
+半神推動著這個世界前進發展。祂們是超越世界萬物之力的統治者，而不是創造者。祂們的國度是瘋狂幻想的王國。
 </div>
 <div class="Frame">
 
-### <div class='icon Champion'>God Rank</div>
-A God cannot be understood through the natural laws of the world. They crafted the world, built the continents, and rule over life and death.
+### <div class='icon Champion'>神階級</div>
+諸神無法透過這個世界的自然法則而被理解。
+祂們形塑了這個世界、建造大陸與海洋、掌管生與死。
 </div>
 <div class="Frame">
 
-### <div class='icon Champion'>Firstborn Rank</div>
-The  few  true  children  of  the  Original  One,  born  from eggs hatched in the void before Creation.
-They built the laws of physics, the abstractions of the mind and the commandments of the divine according to the Original One’s will.
+### <div class='icon Champion'>原初之子階級</div>
+原初之神的少數幾個真正的孩子，從創世之前的虛空中誕生。
+祂們遵從原初之神的意志，建立了物理法則、心靈的抽象、以及神聖的誡命。
 </div>
 <div class="Frame">
 
-### <div class='icon Champion'>Original One Rank</div>
-In accordance to its concept, it has no limits of any kind but the imagination.
+### <div class='icon Champion'>原初之神階級</div>
+根據其概念，這個階級不受任何限制的規範──唯一的限制就是你的想像力。
 </div>
 
 ---
-Be ready for an exponential burst of power for each one of the Legendary Ranks. New Atributtes, New Abilities, New Powers for Pokémon and Trainers.
 
-High adventure where you’ll face the most unsurmountable odds, this is more than a challenge for you and your Pokémon companions to surpass, this is Destiny.
+準備好為每一個傳說階級指數性暴漲的力量而驚呼吧，無論是對寶可夢或訓練家而言，那都是嶄新的特質、新的特性、以及新的力量。
+
+在這高層級的冒險中，你們將面對最最難以征服的困難。這已經不只是你和你寶可夢搭檔需要克服的挑戰，而是命運。
 
 
 {{< mynotice story >}}
-Legendary  Pokémon  and  Legendary Ranking  will  turn  the  game  into  a deadly  journey.  High  Damage,  High Risk, and Global Damnation. Time to take away your training wheels.
+導入傳說寶可夢和傳說階級將會把整個遊戲變成一場致命的冒險之旅。
+是時候拆掉你的輔助輪，準備好面對大量的傷害、超高風險、以及席捲世界的災難吧。
 {{< /mynotice >}}
