@@ -4,21 +4,20 @@ weight = 4
 description = ""
 +++
 
-## Conquering the Pokémon League
-Every  Trainer’s  dream  is  to  participate  at  least once  in  the  intense  adventure  that  is  the  **Pokémon  League  Challenge**.  A  grand  scale  journey  across  an  entire  region  to  train  and  prove  your  skills. All  of  the greatest trainers have made this journey and it is said to be the only way to become the strongest.
- 
-During  the  Pokémon  League  Challenge  you  will  face  a great amount of danger to test your skills as a trainer, the power of your Pokémon, your own survival ability, and your intelligence and wits.
-Sometimes your body and mind will be put to their limits.  
-Although many try to beat it, only the migthy will endure this journey.
+## 征服寶可夢聯盟
+每個寶可夢訓練家都有這樣的夢想，就是參加至少一次「**寶可夢聯盟挑戰**」這場刺激的冒險。這是一場橫跨整個地區的宏大旅途，能夠訓練並證明你的技巧。所有最偉大的訓練家都曾參加過這場冒險，且據說這也是成為頂尖訓練家的唯一方法。
+
+在寶可夢聯盟挑戰期間，你將會面對大量的危險情境來考驗自己做為寶可夢訓練家的技巧、你寶可夢夥伴的力量、你自己的求生能力、以及你的聰明才智。有時候，你甚至會需要把自己的身體和腦袋推到極限。
+儘管許多人嘗試攻克這項挑戰，但只有強者才能夠熬過這趟旅程。
 
 
 ---
-### ⬛ Pokémon Gyms Challenge
+### ⬛ 寶可夢道館挑戰
+寶可夢聯盟挑戰最主要的目標就是促使你和你的寶可夢提升自己的技巧與能力。
 The main objective of the Pokémon League Challenge is to make you and your Pokémon grow in skill and power. 
 To test your progress, the League has eight testing arenas called Pokémon Gyms, where powerful Trainers abound under the tutelage of one of the strongest and renowned Trainer in the region, this person is called a Gym Leader.
 
-They  will  test  your  skills  in  battle  as  a  result  of  your  training  talent  and  the  relationship  between  you  and 
-your companions. 
+They  will  test  your  skills  in  battle  as  a  result  of  your  training  talent  and  the  relationship  between  you  and your companions. 
 Their  Pokémon  vary  in  power,  depending  on  who’s  challenging them and how many badges the Trainer has won. They usually focus on a single type of Pokémon.
  
 If you manage to beat them, you’ll be rewarded with a badge to prove your skill. Badges may also be bought for incredibly high amounts of money.
@@ -28,7 +27,7 @@ Defeating  the  eight  Gym  Leaders  and  getting  the eight  badges,  allows  y
 Just remember that you have less than a year to defeat the  eight  Gym  Leaders,  otherwise  you’ll  have  to  start over  for  the  next  year’s  challenge.  Get  prepared  and train hard.
 
 
-### ⬛ Annual Tournament
+### ⬛ 年度錦標賽
 There is nothing like the Pokémon League Tournament, this is the only place and event of the year where people can watch the highest level battles, final evolutions and extremely rare Pokémon in a parade of moves they may have never seen before.
 
 Some of the trainers you’ll find here may be as strong as some of the Gym Leaders, although most people get their badges by taking advantage of a Gym’s preferred type. They will be smart, resourceful and you should not take them lightly.
@@ -45,7 +44,7 @@ To participate in the League Tournament is a great honor.
 After months of enduring hardships, facing great danger,  battling  wild  Pokémon,  competing  against  powerful  trainers, challenging Gym Leaders, surviving in the wild, eating from nature, taming your newly caught Pokémon  and overcoming your own fears; you are finally known  as a formidable Ace Trainer. Whether  you win  or lose, this is the end of the journey for a regular person.
 
 
-### ⬛ Victory Road
+### ⬛ 冠軍之路
 Whoever got to the Top 5 in the Annual Pokémon League Tournament  earns  the  right  to  go  through  the  most  dangerous  test  in  the  region  and  probably  one  of  the most deadly places in the entire world: The Victory Road.
 
 This is the final testing ground, only amazingly powerful  trainers may go inside due to the tremendously strong wild Pokémon that dwell in there. This place is a maze-like dungeon, wide as a city, dark as a cave, perilous as war. Here you will be alone with your Pokémon, crawling in enemy territory, surrounded by massive and aggressive  Pokémon gathered by unknown forces. 
@@ -59,10 +58,10 @@ Life is short and humans are weak, here you will realize the feebleness of your 
 Whoever goes through the Victory Road is now in a whole new level.
 
 
-### ⬛ Elite Four Challenge
+### ⬛ 挑戰四天王
 <div class="quote">
-	"Are you ready to lose? Your League challenge ends with me, Red!"
-	<div class="author">-Elite Four Lance</div>
+	「做好敗北的心理準備了嗎？你的聯盟挑戰就到此為止了，赤紅！」
+	<div class="author">-四天王 阿渡</div>
 </div>
 
 There comes a time when everyone must look directly into the eyes of Destiny. For a trainer, this is It. The last steps, the final confrontation of power. 
@@ -84,13 +83,13 @@ Sometimes Elites show legendary capabilities. If they do, you can’t win. They 
 These  battles  are  not  broadcasted  and  there  is  no  audience. Everything is extremely confidential.
 
 
-### ⬛ Becoming Champion
+### ⬛ 成為冠軍
 <div class="quote">
-	“One  look  at  you  tells  me  many  things  about  you. 
-	Together,  you  and  your  Pokémon  overcame  all  the challenges you faced, however difficult. 
-	It  means  that  you’ve  triumphed  over  any  personal weaknesses, too. The power you earned... I can feel it emanating from you. 
-	That’s enough talking. Let’s get on with why you’re here. I, Cynthia, accept your challenge as the Pokémon League Champion! There won’t be any letup from me!” 
-	<div class="author">-Pokémon Champion Cynthia</div>
+	「看著你的表情我就知道了。不管有多少困難，你都能和寶可夢一同克服。
+	這意味著你們也已經戰勝了任何個人會有的弱點。你們所贏得的力量……我可以感覺你身上散發著這股力量。
+	話說的夠多了。讓我們直接進入主題吧。我，竹蘭，以寶可夢聯盟冠軍的身分接受你的挑戰！
+	我可不會放水的！」
+	<div class="author">-寶可夢聯盟冠軍 竹蘭</div>
 </div>
 
 A great arena suited for kings extends in front of you, tall and strong, built as a fortress to withstand your last  battle. A booming sound of power fills the room and it’s not a Pokémon but a human, frightening and wise, with an  unbreakable force of will that’s more resilient than these walls.
