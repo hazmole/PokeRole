@@ -526,8 +526,35 @@ TocInjector.parsePage("Move");
 晉升這個階級需要達成什麼成就？ 在高級階級的華麗大賽中取得前三名的名次。 擁有至少 3 隻獲得過超級華麗大賽獎章的寶可夢。 好處: 額外獲得 2 點可供分配於聲譽類技能的點數，技能上限為 4。 你現在可以參加大師階級的華麗大賽了。
 大師協調訓練家階級 你現在是VIP階層的一員了，你的社交技能和地位已經遠遠超過了絕大部分的人們。
 晉升這個階級需要達成什麼成就？ 在大師階級的華麗大賽中取得前三名的名次。 擁有至少 3 隻獲得過高級華麗大賽獎章的寶可夢。 好處: 額外獲得 5 點可供分配於聲譽類技能的點數，技能上限為 5。
-聲譽類技能 這些技能是所有協調訓練家的基礎。</description></item><item><title>征服寶可夢聯盟</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/</guid><description>Conquering the Pokémon League Every Trainer’s dream is to participate at least once in the intense adventure that is the Pokémon League Challenge. A grand scale journey across an entire region to train and prove your skills. All of the greatest trainers have made this journey and it is said to be the only way to become the strongest.
-During the Pokémon League Challenge you will face a great amount of danger to test your skills as a trainer, the power of your Pokémon, your own survival ability, and your intelligence and wits.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
+聲譽類技能 這些技能是所有協調訓練家的基礎。</description></item><item><title>征服寶可夢聯盟</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/</guid><description>征服寶可夢聯盟 每個寶可夢訓練家都有這樣的夢想，就是參加至少一次「寶可夢聯盟挑戰」這場刺激的冒險。這是一場橫跨整個地區的宏大旅途，能夠訓練並證明你的技巧。所有最偉大的訓練家都曾參加過這場冒險，且據說這也是成為頂尖訓練家的唯一方法。
+在寶可夢聯盟挑戰期間，你將會面對大量的危險情境來考驗自己做為寶可夢訓練家的技巧、你寶可夢夥伴的力量、你自己的求生能力、以及你的聰明才智。有時候，你甚至會需要把自己的身體和腦袋推到極限。
+儘管許多人嘗試攻克這項挑戰，但只有強者才能夠熬過這趟旅程。
+⬛ 寶可夢道館挑戰 寶可夢聯盟挑戰最主要的目標就是促使你和你的寶可夢提升自己的技巧與能力。
+為了測試你的進步成果，聯盟設置了八個被稱作「道館」的測驗場地，許多強大的訓練家聚集在那裏，接受該區域最頂尖且最知名的訓練家之一的指導──這個人物被稱作「道館館主」。
+他們會測試你在戰鬥中展現的技巧，並藉此考驗你的訓練家才能、以及你與寶可夢夥伴之間的羈絆。
+道館館主手下有著各種不同強度的寶可夢，且他們應戰的隊伍成員將取決於是誰來挑戰他們、以及訓練家已經贏得的徽章數量而定。他們通常會專精於單一種寶可夢屬性。
+如果你成功擊敗他們，那麼你將贏得一個道館徽章來證明你自己的技巧。徽章也可以透過花費難以置信的高額金錢來購買入手。
+擊敗八名道館館主並獲得八個道館，將讓你得以參加那最興奮刺激，也最盛大的年度盛事：年度錦標賽！在那裏，最頂尖的訓練家們將竭盡全力，彼此競爭！
+但要記住，你必須在一年不到的時間內打敗八個道館館主，否則你就得重頭開始，才能參與明年的挑戰。做好準備，努力鍛鍊吧！
+⬛ 年度錦標賽 再也沒有什麼能比得上寶可夢聯盟年度錦標賽了！這是每年唯一一場人們能夠觀賞到最高級別戰鬥的活動與場地，在這裡，最終進化階段以及極度稀有的寶可夢將伴隨著種種前所未見的招式登場，展現出一幕幕精采絕倫的對戰演出。
+儘管大部分挑戰者是利用道館的偏好屬性來贏得他們的徽章，但你仍然能在這裡遇到一些幾乎與部分道館館主一樣強勁的訓練家。他們會是相當聰明且強大的對手，而你也絕對不該小看他們。
+在年度錦標賽中，寶可夢訓練家將在每場戰鬥中使用三隻寶可夢彼此對戰，且被允許在戰鬥中替換寶可夢。戰鬥場地有著各種不同的主題，從最單純的類森林場地、到建築物的室內、或甚至科幻小說般的設置。這麼做的主要目的不僅僅是為參賽者增添一些挑戰性，更是為群眾提供了更多樣化的演出與娛樂性。
+準決賽通常會把賽制改成在一場戰鬥中使用完整六隻寶可夢的隊伍，而最終決賽的賽制可能又會完全不同。最終決賽的規則總是出乎意料，且可能會有著許多不同的場景，為戰鬥增添更多挑戰性。
+除了菁英訓練家們彼此之間的對戰之外，寶可夢聯盟也會在錦標賽期間舉辦一些特別的活動，像是道館館主、四天王、或甚至地區聯盟冠軍之間的表演賽。這些對戰會在電視上同步轉播。
+儘管大部分群眾都沒有意識到這一點，但這些頂尖訓練家之間的對戰其實不過是友誼賽；在錦標賽期間，四天王和聯盟冠軍都不會展現他們真正的實力。
+參與聯盟年度錦標賽可以說是一項莫大的榮耀。
+在經歷數個月的艱苦訓練、面對可怕危險、與野生寶可夢戰鬥、擊敗其他強大的訓練家、挑戰道館館主、在野外求生覓食、馴服新收服的寶可夢、並戰勝你自己的恐懼；你終於以令人欽佩的菁英訓練家的身分為人所知。無論你在錦標賽中是勝是敗，對於一般人來說，這就會是漫長旅途的終點。
+⬛ 冠軍之路 在寶可夢聯盟年度錦標賽中奪得前五名殊榮的訓練家，將獲得通過冠軍之路的權利：這是該地區中最危險的考驗、甚至可能是全世界最為致命的場所。
+這就是最後的試驗場，因為棲息在該處的野生寶可夢是如此的強大且危險，只有實力驚人的訓練家能夠獲准進入。這個地方是一個迷宮一般的地城，如城市一般寬廣、像洞穴一樣漆黑、也跟戰場中央一樣危險致命。你將與你的寶可夢夥伴孤身闖蕩，在敵人的領地中匍匐前進、被不明力量聚集起來的大量危險寶可夢給環繞。
+冠軍之路的總路長可以長達數哩，且這趟旅程可能會長達數天或甚至數周，一路上沒有任何食物補給、寶可夢中心、或友好商店。你必須忍受艱苦、你必須想方設法生存下去，你必須抵達終點，而且你必須盡快。
+無論棲息在這星球黑暗角落的那些存在是什麼，如果你們待得太久，牠們會讓你們深刻體悟：這裡可不歡迎你們。
+穿越冠軍之路可不是什麼簡單的任務，大部分人們都會在搭上幾個小時之後，在意識到裏頭除了自己攜帶的傷藥之外沒有其他恢復手段後就撒手放棄。
+你將深刻體會寶可夢中心的存在是一個多麼值得尊重且感謝的禮物。
+生命苦短，人類如此脆弱，你將在這裡體悟到自己的力量在大自然面前是多麼不值一提。任何成功穿越冠軍之路的人，都將邁入一個全新的境界。
+⬛ 挑戰四天王 「做好敗北的心理準備了嗎？你的聯盟挑戰就到此為止了，赤紅！」
+-四天王 阿渡
+There comes a time when everyone must look directly into the eyes of Destiny. For a trainer, this is It. The last steps, the final confrontation of power.
+The Elite Four are the ultimate league of badasses and they will smite you with unmatched fury and great vengeance.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
 所有人類和寶可夢都有著獨特的人格特質，但性格決定了他們在特定情況會採取什麼樣的反應。
 你的性格會顯示出你內心的想法，而這些想法又會反映於外在的行為舉止。有些性格能夠對生活中的某些面向帶來助益，而無論如何，所有的性格在面對特定情況時也都會遭遇到各自的阻礙。
 寶可夢可以在訓練家的幫助下克服性格上的限制。即使是膽怯或帶有攻擊性的寶可夢，也能透過適當的引導而變得友好及具社交性。

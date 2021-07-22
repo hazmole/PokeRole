@@ -14,48 +14,45 @@ description = ""
 ---
 ### ⬛ 寶可夢道館挑戰
 寶可夢聯盟挑戰最主要的目標就是促使你和你的寶可夢提升自己的技巧與能力。
-The main objective of the Pokémon League Challenge is to make you and your Pokémon grow in skill and power. 
-To test your progress, the League has eight testing arenas called Pokémon Gyms, where powerful Trainers abound under the tutelage of one of the strongest and renowned Trainer in the region, this person is called a Gym Leader.
+為了測試你的進步成果，聯盟設置了八個被稱作「道館」的測驗場地，許多強大的訓練家聚集在那裏，接受該區域最頂尖且最知名的訓練家之一的指導──這個人物被稱作「道館館主」。
 
-They  will  test  your  skills  in  battle  as  a  result  of  your  training  talent  and  the  relationship  between  you  and your companions. 
-Their  Pokémon  vary  in  power,  depending  on  who’s  challenging them and how many badges the Trainer has won. They usually focus on a single type of Pokémon.
- 
-If you manage to beat them, you’ll be rewarded with a badge to prove your skill. Badges may also be bought for incredibly high amounts of money.
+他們會測試你在戰鬥中展現的技巧，並藉此考驗你的訓練家才能、以及你與寶可夢夥伴之間的羈絆。
+道館館主手下有著各種不同強度的寶可夢，且他們應戰的隊伍成員將取決於是誰來挑戰他們、以及訓練家已經贏得的徽章數量而定。他們通常會專精於單一種寶可夢屬性。
 
-Defeating  the  eight  Gym  Leaders  and  getting  the eight  badges,  allows  you  to  participate  in  the  most  exciting  and  gigantic  event  of  the  year:  The  Annual  Tournament! Where Trainers compete and do their best!
+如果你成功擊敗他們，那麼你將贏得一個道館徽章來證明你自己的技巧。徽章也可以透過花費難以置信的高額金錢來購買入手。
 
-Just remember that you have less than a year to defeat the  eight  Gym  Leaders,  otherwise  you’ll  have  to  start over  for  the  next  year’s  challenge.  Get  prepared  and train hard.
+擊敗八名道館館主並獲得八個道館，將讓你得以參加那最興奮刺激，也最盛大的年度盛事：年度錦標賽！在那裏，最頂尖的訓練家們將竭盡全力，彼此競爭！
+
+但要記住，你必須在一年不到的時間內打敗八個道館館主，否則你就得重頭開始，才能參與明年的挑戰。做好準備，努力鍛鍊吧！
 
 
 ### ⬛ 年度錦標賽
-There is nothing like the Pokémon League Tournament, this is the only place and event of the year where people can watch the highest level battles, final evolutions and extremely rare Pokémon in a parade of moves they may have never seen before.
+再也沒有什麼能比得上寶可夢聯盟年度錦標賽了！這是每年唯一一場人們能夠觀賞到最高級別戰鬥的活動與場地，在這裡，最終進化階段以及極度稀有的寶可夢將伴隨著種種前所未見的招式登場，展現出一幕幕精采絕倫的對戰演出。
 
-Some of the trainers you’ll find here may be as strong as some of the Gym Leaders, although most people get their badges by taking advantage of a Gym’s preferred type. They will be smart, resourceful and you should not take them lightly.
+儘管大部分挑戰者是利用道館的偏好屬性來贏得他們的徽章，但你仍然能在這裡遇到一些幾乎與部分道館館主一樣強勁的訓練家。他們會是相當聰明且強大的對手，而你也絕對不該小看他們。
 
-In this tournament, Pokémon Trainers battle each other using  3  Pokémon  in  a  single  battle  where  switching  is  allowed. The Battle arenas are themed, they range from a simple forest-like field to the inside of a house or a sci-fi set. This is mainly to add more challenges for the participants and to give more variety and entertainment to the public.
+在年度錦標賽中，寶可夢訓練家將在每場戰鬥中使用三隻寶可夢彼此對戰，且被允許在戰鬥中替換寶可夢。戰鬥場地有著各種不同的主題，從最單純的類森林場地、到建築物的室內、或甚至科幻小說般的設置。這麼做的主要目的不僅僅是為參賽者增添一些挑戰性，更是為群眾提供了更多樣化的演出與娛樂性。
 
-The semifinals usually change the battle to a full party  of 6 Pokémon in single-battle while the Grand Final may  be different altogether. The Final match always comes as a surprise, and may have lots of different scenarios and added challenges to the fight.
+準決賽通常會把賽制改成在一場戰鬥中使用完整六隻寶可夢的隊伍，而最終決賽的賽制可能又會完全不同。最終決賽的規則總是出乎意料，且可能會有著許多不同的場景，為戰鬥增添更多挑戰性。
 
-Apart from the battles between Ace Trainers, the League shows  special  events  in  this  tournament  such  as  fights between Gym Leaders, Elite Four and even the Champion  of the region. They are broadcasted on TV.
-
-Their fights are friendly matches and most people don’t realize this, but during this tournament the Elites and Champion do not show their full power.
+除了菁英訓練家們彼此之間的對戰之外，寶可夢聯盟也會在錦標賽期間舉辦一些特別的活動，像是道館館主、四天王、或甚至地區聯盟冠軍之間的表演賽。這些對戰會在電視上同步轉播。
+儘管大部分群眾都沒有意識到這一點，但這些頂尖訓練家之間的對戰其實不過是友誼賽；在錦標賽期間，四天王和聯盟冠軍都不會展現他們真正的實力。
  
-To participate in the League Tournament is a great honor.
-After months of enduring hardships, facing great danger,  battling  wild  Pokémon,  competing  against  powerful  trainers, challenging Gym Leaders, surviving in the wild, eating from nature, taming your newly caught Pokémon  and overcoming your own fears; you are finally known  as a formidable Ace Trainer. Whether  you win  or lose, this is the end of the journey for a regular person.
+參與聯盟年度錦標賽可以說是一項莫大的榮耀。
+在經歷數個月的艱苦訓練、面對可怕危險、與野生寶可夢戰鬥、擊敗其他強大的訓練家、挑戰道館館主、在野外求生覓食、馴服新收服的寶可夢、並戰勝你自己的恐懼；你終於以令人欽佩的菁英訓練家的身分為人所知。無論你在錦標賽中是勝是敗，對於一般人來說，這就會是漫長旅途的終點。
 
 
 ### ⬛ 冠軍之路
-Whoever got to the Top 5 in the Annual Pokémon League Tournament  earns  the  right  to  go  through  the  most  dangerous  test  in  the  region  and  probably  one  of  the most deadly places in the entire world: The Victory Road.
+在寶可夢聯盟年度錦標賽中奪得前五名殊榮的訓練家，將獲得通過冠軍之路的權利：這是該地區中最危險的考驗、甚至可能是全世界最為致命的場所。
 
-This is the final testing ground, only amazingly powerful  trainers may go inside due to the tremendously strong wild Pokémon that dwell in there. This place is a maze-like dungeon, wide as a city, dark as a cave, perilous as war. Here you will be alone with your Pokémon, crawling in enemy territory, surrounded by massive and aggressive  Pokémon gathered by unknown forces. 
+這就是最後的試驗場，因為棲息在該處的野生寶可夢是如此的強大且危險，只有實力驚人的訓練家能夠獲准進入。這個地方是一個迷宮一般的地城，如城市一般寬廣、像洞穴一樣漆黑、也跟戰場中央一樣危險致命。你將與你的寶可夢夥伴孤身闖蕩，在敵人的領地中匍匐前進、被不明力量聚集起來的大量危險寶可夢給環繞。
 
-The Victory Road can extend for miles and this journey may  last  for  days  or  weeks  without  food,  Pokémarts or a Pokémon Center. You have to endure, you have to  survive, you have to reach the end, and you have to hurry. 
-Whatever  entities  reside  in  these  dark  corners  of  the  planet will let you know that you are not welcome.
+冠軍之路的總路長可以長達數哩，且這趟旅程可能會長達數天或甚至數周，一路上沒有任何食物補給、寶可夢中心、或友好商店。你必須忍受艱苦、你必須想方設法生存下去，你必須抵達終點，而且你必須盡快。
+無論棲息在這星球黑暗角落的那些存在是什麼，如果你們待得太久，牠們會讓你們深刻體悟：這裡可不歡迎你們。
 
-Going through the Victory Road is not an easy task, most people give up after a few hours inside, once they realize  there is no way of healing besides the potions you carry. 
-The Pokémon center is a gift you learn to respect.
-Life is short and humans are weak, here you will realize the feebleness of your power as nature is a force to be reckoned with.
-Whoever goes through the Victory Road is now in a whole new level.
+穿越冠軍之路可不是什麼簡單的任務，大部分人們都會在搭上幾個小時之後，在意識到裏頭除了自己攜帶的傷藥之外沒有其他恢復手段後就撒手放棄。
+你將深刻體會寶可夢中心的存在是一個多麼值得尊重且感謝的禮物。
+生命苦短，人類如此脆弱，你將在這裡體悟到自己的力量在大自然面前是多麼不值一提。任何成功穿越冠軍之路的人，都將邁入一個全新的境界。
 
 
 ### ⬛ 挑戰四天王
@@ -85,10 +82,12 @@ These  battles  are  not  broadcasted  and  there  is  no  audience. Everything 
 
 ### ⬛ 成為冠軍
 <div class="quote">
-	「看著你的表情我就知道了。不管有多少困難，你都能和寶可夢一同克服。
-	這意味著你們也已經戰勝了任何個人會有的弱點。你們所贏得的力量……我可以感覺你身上散發著這股力量。
-	話說的夠多了。讓我們直接進入主題吧。我，竹蘭，以寶可夢聯盟冠軍的身分接受你的挑戰！
-	我可不會放水的！」
+	「看著你的表情我就知道了。不管有多少困難，你都能和寶可夢一同克服。<br>
+	　這意味著你們也已經戰勝了任何個人會有的弱點。<br>
+	　你們所贏得的力量……我可以感覺你身上散發著這股力量。<br>
+	　話說的夠多了。讓我們直接進入主題吧。<br>
+	　我，竹蘭，以寶可夢聯盟冠軍的身分接受你的挑戰！<br>
+	　我可不會放水的！」
 	<div class="author">-寶可夢聯盟冠軍 竹蘭</div>
 </div>
 
