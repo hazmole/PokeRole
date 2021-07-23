@@ -553,8 +553,26 @@ TocInjector.parsePage("Move");
 生命苦短，人類如此脆弱，你將在這裡體悟到自己的力量在大自然面前是多麼不值一提。任何成功穿越冠軍之路的人，都將邁入一個全新的境界。
 ⬛ 挑戰四天王 「做好敗北的心理準備了嗎？你的聯盟挑戰就到此為止了，赤紅！」
 -四天王 阿渡
-There comes a time when everyone must look directly into the eyes of Destiny. For a trainer, this is It. The last steps, the final confrontation of power.
-The Elite Four are the ultimate league of badasses and they will smite you with unmatched fury and great vengeance.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
+總有那麼一天，每個人都必須直視命運的雙眼。
+對於訓練家而言，這就是那一天。最後幾步，通往崇高力量的最後對峙。
+四天王是終極的強者集團，且他們會以無與倫比的狂猛力量狠狠對你降下痛擊。
+規則相當簡單，你必須擊敗這個地區中最頂尖的四個訓練家。他們之中的每一個人都有能力單槍匹馬擊敗八個道館、闖越冠軍之路、並對峙或擊敗一個或更多四天王成員。
+他們是如此瘋狂的強大，且擁有超乎你想像以上的實力。
+這些訓練家和其寶可夢並不受到特質上限的限制。四天王只需要一隻寶可夢就能夠掃平道館館主的隊伍，而他們身上總是帶著完整六隻寶可夢的隊伍。
+當你終於到達了冠軍之路的盡頭，你將發現自己注視著四天王設施的光輝與榮耀。在裡面，有著一台寶可夢治療裝置、傳輸用的電腦、一間友好商店、以及某個負責歡迎接待你的人員。很快的，在稍作歇息整頓之後，你將踏出你的最後幾步，去面對真正的怪物。一旦你踏過門檻，你就再也無法回頭、沒有退路、也無法投降，你必須與四天王全力奮戰，直到你的所有寶可夢都失去意識、或直到你戰勝他們全員。
+有高的機率，你甚至連擊敗第一個四天王的成員都做不到。但如果你成功擊敗他或她，那麼你將必須繼續前進挑戰下一位，幾乎連喘息的機會都沒有。
+這正是這個挑戰的重點，你必須擊敗他們全部，一個接著一個，沒有任何休息或猶豫的空隙。基本上，你必須擊敗他們總共二十四隻超級強大的寶可夢，且最好只使用你隊伍中的四隻寶可夢達到這個目標。保留至少兩隻寶可夢的實力，你會需要牠們來攻克你最後的高牆：聯盟冠軍。
+有時候，四天王會展現出傳說級的高強實力。如果他們這麼做，那麼你毫無勝算。你就是無法與他們匹敵。
+這些戰鬥並不會在電視上轉播，也不會有任何觀眾。
+這一切都將在極度機密的情況下進行。
+⬛ 成為冠軍 「看著你的表情我就知道了。不管有多少困難，你都能和寶可夢一同克服。
+這意味著你們也已經戰勝了任何個人會有的弱點。
+你們所贏得的力量……我可以感覺你身上散發著這股力量。
+話說的夠多了。讓我們直接進入主題吧。
+我，竹蘭，以寶可夢聯盟冠軍的身分接受你的挑戰！
+我可不會放水的！」
+-寶可夢聯盟冠軍 竹蘭
+A great arena suited for kings extends in front of you, tall and strong, built as a fortress to withstand your last battle.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
 所有人類和寶可夢都有著獨特的人格特質，但性格決定了他們在特定情況會採取什麼樣的反應。
 你的性格會顯示出你內心的想法，而這些想法又會反映於外在的行為舉止。有些性格能夠對生活中的某些面向帶來助益，而無論如何，所有的性格在面對特定情況時也都會遭遇到各自的阻礙。
 寶可夢可以在訓練家的幫助下克服性格上的限制。即使是膽怯或帶有攻擊性的寶可夢，也能透過適當的引導而變得友好及具社交性。
@@ -730,7 +748,7 @@ TocInjector.parsePage("Move");
 經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>神奧地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</guid><description>
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");
-});</description></item><item><title>超級進化的力量</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</guid><description>The Power of Mega-Evolution People in Hoenn mention the legendary Pokémon Rayquaza, as the first Pokémon to ever Mega-Evolve; but the first records of Mega-Evolution as we know it today come from Kalos.
+});</description></item><item><title>超級進化的力量</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</guid><description>超級進化的力量 People in Hoenn mention the legendary Pokémon Rayquaza, as the first Pokémon to ever Mega-Evolve; but the first records of Mega-Evolution as we know it today come from Kalos.
 The ancestor of a family that still exists to this day, discovered how to harness this god-like power and embed it into energy stones, later called Mega Stones.
 Mega-Evolution consists on infusing your Pokémon with the power contained inside the Mega-Stone.</description></item><item><title>電屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</guid><description>電屬性 電屬性寶可夢在大城市裡相當常見。
 牠們會被電力和科技所吸引，並視其為提升自己帶電能力的一種手段。
@@ -826,7 +844,7 @@ TocInjector.parsePage("Move");
 使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。
 其他人可以在戰鬥以外的場合協助撲滅火焰。
 麻痺 你的肌肉抽搐，讓你幾乎難以動彈！
-{@icon frame|paralysis|}</description></item><item><title>英雄巡禮與Z招式</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</guid><description>The Ritual of the Hero In the Alolan Region, children of a certain age go through a coming-of-age ritual where they embark on a journey to commune with their Pokémon and the land.
+{@icon frame|paralysis|}</description></item><item><title>英雄巡禮與Z招式</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</guid><description>英雄巡禮與Z招式 In the Alolan Region, children of a certain age go through a coming-of-age ritual where they embark on a journey to commune with their Pokémon and the land.
 Each of the four Islands in Alola has a Legendary Pokémon who acts as a Guardian. Once in a while, they show themselves, urging one of the young to begin the four trials.
 With the guidance of the Kahuna’s, the child goes through these tests.</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>收服寶可夢 人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
 牠們從小就被培育教導成要友善、忠誠、且順從；牠們會跟從牠們主人的階級，且需要仰賴訓練家的幫助才能使自己變得更強大。
@@ -1048,9 +1066,45 @@ $5,000
 寶可夢圖鑑升級
 $2,500
 升級你的寶可夢圖鑑，獲得新地區的寶可夢資料。
-寶可夢世界中的城市和城鎮就跟我們世界的一樣，有著販售各種商品和服務的的商店。你的玩家們可以以合適的價格購買各種道具。</description></item><item><title>超極巨聯盟</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/</guid><description>The BIG Leagues Galarian region is home to a strange phenomenon not seen anywhere else in the world.
-In their wild areas is not that rare to find giant Pokémon on a rampage. It seems there are certain underground deposits of energy called “Power Spots” will make a Pokémon grow to an enormous size, you’ll recognize them as tall pillars of red light coming out of the ground.
-This is known as the Dynamax phenomenon, and it doesn’t stop there, some Pokémon are so sensitive to this strange energy that upon harnessing it they won’t only increase their size but also modify their appearance and use even more powerful moves, this is called Gigantamax Form.</description></item><item><title>階級</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid><description>階級 就連聯盟冠軍，最初也曾只是個什麼都不懂的菜鳥。
+寶可夢世界中的城市和城鎮就跟我們世界的一樣，有著販售各種商品和服務的的商店。你的玩家們可以以合適的價格購買各種道具。</description></item><item><title>超極巨聯盟</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/</guid><description>超極巨聯盟 迦勒爾地區是一種奇怪現象的發源地，你在世界的其他地方可看不到這種現象。
+在迦勒爾的曠野地帶，巨大的寶可夢肆虐撒野並不是什麼罕見的景象。在這裡似乎有某種積蓄在地底的能量節點，能夠使寶可夢成長到超乎想像巨大的尺寸，它們被稱作「能量點」，且你可以從地底噴湧而出的紅色高聳光柱這個特徵來輕易辨認出它們。
+這種現象被稱作「極巨化現象」，而且它還不止於此。一部分寶可夢對於這種古怪的能量特別敏感，在牠們駕馭這股力量時，牠們不只會使自己的體型變得巨大無比，甚至還會改變自己的外型，並得以使用更加強大的招式，這也被稱作「超極巨型態」。
+當寶可夢處於這類轉變的影響下時，牠們只能夠使用被稱作「極巨招式」和「超極巨招式」的招式，也就是牠們所知的任意招式的加強版本。
+在迦勒爾的科學家們長久以來的研究之下，因應公眾需求，他們開發出了一種能夠複製上述現象影響的精靈球，用來在迦勒爾地區的寶可夢對戰賽中娛樂觀眾和粉絲們！
+因此當我們說迦勒爾地區有著「最龐大」的聯盟時，我們確實是百分之百字面上的意思！
+但這裡有個玄機，儘管極巨化現象在曠野地帶可以長時間持續，但當透過極巨球來人工重製這個現象時，這種強大的型態就只會持續一分鐘左右。所以，趁它持續的其間充分利用你的全力，取得你最偉大的勝利吧！
+準備好見證你的寶可夢在各方面的成長！因為一旦你踏入了超極巨化的領域，你就再也回不去了！
+大部分的寶可夢都能夠進行極巨化，讓自己的身體體型成長到驚人的大小（大約15呎/5公尺 到 32呎/10公尺），但只有少數物種有超極巨型態的紀錄；甚至就連同一個物種之間都可能會有能不能超極巨化的差異。
+即使是相同物種的兩隻寶可夢，也可能會有一隻擁有超極巨型態，而另一隻沒有的差異。
+這是因為有些寶可夢生來就擁有「超極巨因子」，而有些沒有。 超極巨型態是真的超級巨大，從 45呎/14公尺 到甚至難以置信的 328呎/100公尺 ，取決於寶可夢的品種而定。
+其基本生命值和特質的增長幅度也會因為極巨化和超極巨化而有不同，後者要比前者強上更多。
+無論是極巨型態還是超極巨型態都無法持續太長的時間，且超極巨化的轉換過程可能會給寶可夢的行為舉止留下些許後遺症。
+極巨化的規則 除了某些傳說寶可夢之外，所有寶可夢都能夠極巨化。
+要讓寶可夢極巨化，其訓練家必須穿戴「極巨腕帶」，並身處寶可夢競技場的設施內才行。
+位於曠野地帶的能量點能夠讓寶可夢在沒有「極巨腕帶」的輔助下極巨化。
+當寶可夢處於極巨型態時，牠將會獲得下列好處：
+基本生命值 + 6
+使用極巨招式
+「極巨腕帶」觸發的極巨化現象的持續時間為 3 個戰鬥輪，替換寶可夢會解除極巨化的效果。
+「能量點」觸發的極巨化現象的持續時間不固定。
+極巨型態的寶可夢免疫於下列效果：
+「畏縮」狀態
+根據雙方的體重影響威力的招式（如〈踢倒〉）
+一擊必殺的招式（如〈絕對零度〉）
+〈同命〉
+強制從戰場中退場
+被改變或移除特性
+其他寶可夢也無法透過〈變身〉或類似效果變化成牠們的樣子。
+極巨招式 和 超極巨招式 無法被複製。
+超極巨化的規則 在說書人的裁定下，只有某些寶可夢能夠超極巨化。
+要讓寶可夢超極巨化，該寶可夢必須擁有超極巨因子，且其訓練家必須穿戴「極巨腕帶」，並身處寶可夢競技場的設施內才行。
+位於曠野地帶的能量點能夠讓寶可夢在沒有「極巨腕帶」的輔助下超極巨化。
+當寶可夢處於超極巨型態時，牠將會獲得下列好處：
+基本生命值 + 12
+使用超極巨招式
+除此之外，所有其他極巨化的規則也都將適用於超極巨化。
+現在一切準備就緒！
+是時候跟你的寶可夢夥伴一起展開一場屬於你們的大冒險吧！</description></item><item><title>階級</title><link>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/</guid><description>階級 就連聯盟冠軍，最初也曾只是個什麼都不懂的菜鳥。
 你從今天開始踏上了你的寶可夢之旅，在前方有無數冒險等待著你。或許你一直夢想著成為訓練家、或也許某些情境迫使你走上這條路。只要你願意付出努力，那麼總有一天你可能就能成為頂尖。
 一名傑出的訓練家有能力把虛弱膽怯的寶可夢培養成冠軍。但想要做到這點，你將必須周遊世界各地並完成許許多多的成就。
 階級決定了你訓練寶可夢的能力，也代表著你個人的整體成長。

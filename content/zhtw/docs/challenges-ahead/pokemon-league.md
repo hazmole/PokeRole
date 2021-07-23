@@ -61,23 +61,25 @@ description = ""
 	<div class="author">-四天王 阿渡</div>
 </div>
 
-There comes a time when everyone must look directly into the eyes of Destiny. For a trainer, this is It. The last steps, the final confrontation of power. 
+總有那麼一天，每個人都必須直視命運的雙眼。
+對於訓練家而言，這就是那一天。最後幾步，通往崇高力量的最後對峙。
 
-The Elite Four are the ultimate league of badasses and they  will  smite  you  with  unmatched  fury  and  great vengeance.
+四天王是終極的強者集團，且他們會以無與倫比的狂猛力量狠狠對你降下痛擊。
 
-The rules are simple, you must defeat the four strongest trainers in the region, each of them was able to beat all gyms, go through the Victory Road, and has faced and defeated one or more Elites. 
+規則相當簡單，你必須擊敗這個地區中最頂尖的四個訓練家。他們之中的每一個人都有能力單槍匹馬擊敗八個道館、闖越冠軍之路、並對峙或擊敗一個或更多四天王成員。
 
-They  are  crazy  strong  and  wield  powers  beyond  your comprehension. 
-**The attribute limit does not apply to these trainers or their Pokémon**. An Elite can wipe a Gym Leader with a single Pokémon and they always carry a party of six.
+他們是如此瘋狂的強大，且擁有超乎你想像以上的實力。
+**這些訓練家和其寶可夢並不受到特質上限的限制**。四天王只需要一隻寶可夢就能夠掃平道館館主的隊伍，而他們身上總是帶著完整六隻寶可夢的隊伍。
 
-As soon as you reach the end of the Victory Road, you will find yourself looking right into the lights and glory of the Elite Four Facilities. Within, there is a Pokémon healing machine, a transfer PC, a store and someone to welcome you. Soon after you heal you will take your last few steps and go after some real monsters. Once you get in, there’s no turning back, no backing down, and you cannot surrender, you must fight the Elites until either all your Pokémon loose consciousness or you win it all.
-The odds suggest you won’t beat the first Elite, but if you manage to defeat him or her, you’ll have to move on to the next one barely catching a breath.
+當你終於到達了冠軍之路的盡頭，你將發現自己注視著四天王設施的光輝與榮耀。在裡面，有著一台寶可夢治療裝置、傳輸用的電腦、一間友好商店、以及某個負責歡迎接待你的人員。很快的，在稍作歇息整頓之後，你將踏出你的最後幾步，去面對真正的怪物。一旦你踏過門檻，你就再也無法回頭、沒有退路、也無法投降，你必須與四天王全力奮戰，直到你的所有寶可夢都失去意識、或直到你戰勝他們全員。
+有高的機率，你甚至連擊敗第一個四天王的成員都做不到。但如果你成功擊敗他或她，那麼你將必須繼續前進挑戰下一位，幾乎連喘息的機會都沒有。
 
-Here’s the Challenge, you have to defeat them all, one by one, without rest or hesitation. Basically, you must beat their twenty four super strong Pokémon preferably  using just four of yours. Save at least two Pokémon, you will need them to face the Champion.
+這正是這個挑戰的重點，你必須擊敗他們全部，一個接著一個，沒有任何休息或猶豫的空隙。基本上，你必須擊敗他們總共二十四隻超級強大的寶可夢，且最好只使用你隊伍中的四隻寶可夢達到這個目標。保留至少兩隻寶可夢的實力，你會需要牠們來攻克你最後的高牆：聯盟冠軍。
 
-Sometimes Elites show legendary capabilities. If they do, you can’t win. They are out of your league.
+有時候，四天王會展現出傳說級的高強實力。如果他們這麼做，那麼你毫無勝算。你就是無法與他們匹敵。
 
-These  battles  are  not  broadcasted  and  there  is  no  audience. Everything is extremely confidential.
+這些戰鬥並不會在電視上轉播，也不會有任何觀眾。
+這一切都將在極度機密的情況下進行。
 
 
 ### ⬛ 成為冠軍

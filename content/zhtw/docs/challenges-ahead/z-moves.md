@@ -4,7 +4,7 @@ weight = 6
 description = ""
 +++
 
-## The Ritual of the Hero
+## 英雄巡禮與Z招式
 
 In the Alolan Region, children of a certain age go through a coming-of-age ritual where they embark on a journey to commune with their Pokémon and the land.
 Each of the four Islands in Alola has a Legendary Pokémon who acts as a Guardian. Once in a while, they show themselves, urging one of the young to begin the four trials.

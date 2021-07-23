@@ -4,7 +4,7 @@ weight = 5
 description = ""
 +++
 
-## The Power of Mega-Evolution
+## 超級進化的力量
 People  in  Hoenn  mention  the  legendary  Pokémon  Rayquaza, as the first Pokémon to ever Mega-Evolve; but the first records of Mega-Evolution as we know it today come from Kalos.
 
 The  ancestor  of  a  family  that  still  exists  to  this  day,  discovered  how  to  harness  this  god-like  power  and  embed it into energy stones, later called Mega Stones.
@@ -24,10 +24,10 @@ Beware  of  evil  doers  who  wish  to  harness  their  power and create chaos u
 Some  people  report  seeing  Trainers  with  permanently Mega-Evolved Pokémon. Could the rumors be true?
 
 {{< boxmd >}}
-### Rules for Mega-Evolution
-* Mega-Evolution requires the Pokémon to hold a Mega-Stone in their Item slot and the Trainer to wear a Key Stone.
-* Only Pokémon at their Final Stage are capable of Mega-Evolving.
-* Undergoing Mega-Evolution costs 1 Will Point.
-* Mega-Evolution lasts for a whole scene or one battle.
-* Mega-Evolved Pokémon may lose control at Storyteller’s discretion.  
+### 超級進化的規則
+* 要讓寶可夢進行超級進化，寶可夢本身必須攜帶對應的「超級石」在牠們的道具欄位中，且其訓練家必須穿戴「鑰石」才行。
+* 只有處於最終進化階段的寶可夢有能力進行超級進化。
+* 經歷超級進化的過程會消耗 1 點意志點。
+* 超級進化會持續一整個場景 或 一場戰鬥。
+* 在說書人的判斷下，超級進化的寶可夢可能會失去控制。
 {{< /boxmd >}}

@@ -4,73 +4,87 @@ weight = 9
 description = ""
 +++
 
-## The BIG Leagues 
+## 超極巨聯盟
 
-Galarian  region  is  home  to  a  strange  phenomenon  not seen anywhere else in the world.
+迦勒爾地區是一種奇怪現象的發源地，你在世界的其他地方可看不到這種現象。
 
-In their wild areas is not that rare to find giant Pokémon on a rampage. It seems there are certain underground deposits  of  energy  called  “Power  Spots”  will  make  a Pokémon  grow  to  an  enormous  size,  you’ll  recognize them as tall pillars of red light coming out of the ground.
+在迦勒爾的曠野地帶，巨大的寶可夢肆虐撒野並不是什麼罕見的景象。在這裡似乎有某種積蓄在地底的能量節點，能夠使寶可夢成長到超乎想像巨大的尺寸，它們被稱作「能量點」，且你可以從地底噴湧而出的紅色高聳光柱這個特徵來輕易辨認出它們。
 
-This  is  known  as  the  **Dynamax  phenomenon**,  and  it doesn’t stop there, some Pokémon are so sensitive to this strange  energy  that  upon  harnessing  it  they  won’t  only increase their size but also modify their appearance and use even more powerful moves, this is called **Gigantamax Form**.
+這種現象被稱作「**極巨化現象**」，而且它還不止於此。一部分寶可夢對於這種古怪的能量特別敏感，在牠們駕馭這股力量時，牠們不只會使自己的體型變得巨大無比，甚至還會改變自己的外型，並得以使用更加強大的招式，這也被稱作「**超極巨型態**」。
 
-When Pokémon are under any of these transformations they’ll only be able to use what is know as **Max Moves** and **G-Max Moves** which are an improved version of any Move they already know.
+當寶可夢處於這類轉變的影響下時，牠們只能夠使用被稱作「**極巨招式**」和「**超極巨招式**」的招式，也就是牠們所知的任意招式的加強版本。
 
-Scientists  of  Galar  have  long  studied  the  Dynamax  phenomenon and due to popular demand, have created a Pokéball that can replicate the effects of said phenomenon as a simulation to enternain spectators and fans of Galarian Pokémon matches!
+在迦勒爾的科學家們長久以來的研究之下，因應公眾需求，他們開發出了一種能夠複製上述現象影響的精靈球，用來在迦勒爾地區的寶可夢對戰賽中娛樂觀眾和粉絲們！
+因此當我們說迦勒爾地區有著「最龐大」的聯盟時，我們確實是百分之百字面上的意思！
 
-When we said Galar is the Big Leagues, we mean it in a complete literal way!
+但這裡有個玄機，儘管極巨化現象在曠野地帶可以長時間持續，但當透過極巨球來人工重製這個現象時，這種強大的型態就只會持續一分鐘左右。所以，趁它持續的其間充分利用你的全力，取得你最偉大的勝利吧！
 
-There is a catch though, while in the wild this phemonenon can be long lasting, when reproduced artificially with a Dynamaxball
-the duration of this powerful forms will be of less than a minute, so make use of all your strength while it lasts to attain your greatest victory yet!
+準備好見證你的寶可夢在各方面的成長！因為一旦你踏入了超極巨化的領域，你就再也回不去了！
 
-Prepare to see your Pokémon grow in every way, because once you go G-Max you’ll never go back!
 
-While  most  Pokémon  can  Dynamax,  with  their  bodies  increazing their size  (around 15’00”/5 m to 32’00”/10m)  only a few that have been reported to have Gigantamax form; and even then it may vary between members of the same species.
+大部分的寶可夢都能夠進行極巨化，讓自己的身體體型成長到驚人的大小（大約15呎/5公尺 到 32呎/10公尺），但只有少數物種有超極巨型態的紀錄；甚至就連同一個物種之間都可能會有能不能超極巨化的差異。
+
 
 {{< boxmd >}}
-From two Pokémon of the same species, one can have a Gigantamax form and the other not.
-
-That’s because some Pokémon are born with the  Gigantamax factor and others are not.
+即使是相同物種的兩隻寶可夢，也可能會有一隻擁有超極巨型態，而另一隻沒有的差異。
+這是因為有些寶可夢生來就擁有「超極巨因子」，而有些沒有。
 {{< /boxmd >}}
 
-Gigantamax forms are truly titanic (45’00”/ 14m to an incredible 328’00”/100m) it all depends on the species.
+超極巨型態是真的超級巨大，從 45呎/14公尺 到甚至難以置信的 328呎/100公尺 ，取決於寶可夢的品種而定。
 
-The  increase  of  Base  HP  and Attributes  will  vary  from Dynamax  to  Gigantamax,  the  latter  being  much  more powerful.
-
-Neither  form  can  be  sustained  for  very  long,  and  Gigantamax  transformations  may  leave  sequels  on  the Pokémon’s demeanor. 
+其基本生命值和特質的增長幅度也會因為極巨化和超極巨化而有不同，後者要比前者強上更多。
+無論是極巨型態還是超極巨型態都無法持續太長的時間，且超極巨化的轉換過程可能會給寶可夢的行為舉止留下些許後遺症。
 
 ---
 
 {{< boxmd >}}
-## Rules for Dynamax
-* For a Pokémon to Dynamax requires the Trainer  to  wear  a  Dynamax  Band  and  to  be  inside  the  facilities of a Pokémon Stadium.
-*  Power  Spots  exist  in  the  wild  and  can  make a  Pokémon  Dynamax  without  the  need  of  the  Dynamax band.
-*  All  Pokémon  except  certain  Legendaries  can  Dynamax.
+## 極巨化的規則
+除了某些傳說寶可夢之外，所有寶可夢都能夠極巨化。
 
-While a Pokémon is in Dynamax form it will obtain the next benefits:
+要讓寶可夢極巨化，其訓練家必須穿戴「極巨腕帶」，並身處寶可夢競技場的設施內才行。
+位於曠野地帶的能量點能夠讓寶可夢在沒有「極巨腕帶」的輔助下極巨化。
 
-  - Base HP + 6
-  - Use Max Moves (p.425)
 
-*  Dynamax  has  a  duration  of  3  Rounds  when  it is  triggered  by  a  Dynamax  band,  switching  out  removes the effects.
-* Dynamax has an indefinite duration when it is triggered by a Power Spot.
-* Dynamax Pokémon are immune to: 
-Flinch,  Moves  based  on  weight,  OHKO  Moves,  Destiny  Bond,  Being  removed  from  combat  and having ther Ability Changed or Removed. 
-Other Pokémon cannot transform into them either.
-* Max and G-Max Moves cannot be copied.
+當寶可夢處於極巨型態時，牠將會獲得下列好處：
+<ul class="narrowList">
+  <li>基本生命值 + 6</li>
+  <li>使用極巨招式</li>
+</ul>
+
+「極巨腕帶」觸發的極巨化現象的持續時間為 3 個戰鬥輪，替換寶可夢會解除極巨化的效果。
+「能量點」觸發的極巨化現象的持續時間不固定。
+
+極巨型態的寶可夢免疫於下列效果：
+<ul class="narrowList">
+  <li>「畏縮」狀態
+  <li>根據雙方的體重影響威力的招式（如〈踢倒〉）</li>
+  <li>一擊必殺的招式（如〈絕對零度〉）</li>
+  <li>〈同命〉</li>
+  <li>強制從戰場中退場</li>
+  <li>被改變或移除特性</li>
+</ul>
+
+其他寶可夢也無法透過〈變身〉或類似效果變化成牠們的樣子。
+
+極巨招式 和 超極巨招式 無法被複製。
 {{< /boxmd >}}
 {{< boxmd >}}
-## Rules for Gigantamax
-*  For  a  Pokémon  to  Gigantamax  requires  it  to have Gigantamax Factor and the Trainer to wear a Dynamax Band and to be inside the facilities of a Pokémon Stadium.
-* Power Spots exist in the wild and can make a Pokémon  Gigantamax  without  the  need  of  the  Dynamax band.
-* Only certain Pokémon at Storyteller’s Discretion can Gigantamax.
+## 超極巨化的規則
+在說書人的裁定下，只有某些寶可夢能夠超極巨化。
 
-While  a  Pokémon  is  in  Gigantamax  form  it  will  obtain the next benefits:
-  - Base HP + 12
-  - Use G-Max Moves (p.425)
+要讓寶可夢超極巨化，該寶可夢必須擁有超極巨因子，且其訓練家必須穿戴「極巨腕帶」，並身處寶可夢競技場的設施內才行。
+位於曠野地帶的能量點能夠讓寶可夢在沒有「極巨腕帶」的輔助下超極巨化。
 
-* All other rules for Dynamax apply for Gigantamax as well.
+當寶可夢處於超極巨型態時，牠將會獲得下列好處：
+<ul class="narrowList">
+  <li>基本生命值 + 12</li>
+  <li>使用超極巨招式</li>
+</ul>
+
+除此之外，所有其他極巨化的規則也都將適用於超極巨化。
 {{< /boxmd >}}
 
 ---
 
-You are all set now!
-Time for you to start your own big adventure with your Pokémon companions!
+現在一切準備就緒！
+是時候跟你的寶可夢夥伴一起展開一場屬於你們的大冒險吧！

@@ -401,3 +401,6 @@ select {
     border: .5rem #a9a890 solid;
     border-radius: 1rem;
 }
+#list-main  .narrowList li {
+    margin-bottom: 2px;
+}
