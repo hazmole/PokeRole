@@ -572,7 +572,15 @@ TocInjector.parsePage("Move");
 我，竹蘭，以寶可夢聯盟冠軍的身分接受你的挑戰！
 我可不會放水的！」
 -寶可夢聯盟冠軍 竹蘭
-A great arena suited for kings extends in front of you, tall and strong, built as a fortress to withstand your last battle.</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
+一座為諸王建設的巨大競技場在你的眼前延伸開來，崇高而莊重，如同堡壘一般，見證著你的最後一場戰鬥。力量的嗡鳴聲迴盪在整個房間，卻不是出自寶可夢，而僅僅是一個人類：令人畏懼、充滿智慧、懷著比周圍磚牆還要強韌不可破的意志。
+她走向你，彷彿崇山峻嶺，她的雙眼曾看過關於寶可夢的一切，牠們的傳說、神話、以及諸神。或許，她也曾經見證過跟你一樣的景象？
+如果你能抵達這最後的舞台，那麼你或許也已經不是普通人類了，你所攜帶的寶可夢們也已經不再尋常。
+如果真有奇蹟，在沒有任何神秘意志的幫助下，你僥倖擊敗了四天王，那麼冠軍將會在這裡終結你的好運。
+歷任冠軍以及他們的寶可夢搭檔，無論自知與否，全都超乎了天生特性能力的限制。面對他們，就如同面對傳說級的寶可夢。他們的招式是如此強大，以至於它們甚至會直接被視為一種劇情裝置。
+從他們展現出的力量中，你或許還能看出他們與寶可夢諸神或半神之間的關聯。
+這些超乎尋常的個體已經向那些偉大的存在證明過他們的價值、力量、以其智慧，這讓他們得以達成真正的傳奇壯舉。
+你必須在這一場允許攜帶道具、治療、事先強化的戰鬥中擊敗冠軍。
+如果你成功得勝，那麼你將會被授予「冠軍」的無上頭銜，並得以進入名人殿堂，在這裡，你和你的寶可夢們將被永遠地紀錄與傳誦下去。</description></item><item><title>性格</title><link>https://hazmole.github.io/PokeRole/docs/natures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/natures/</guid><description>性格 性格就是你的本質。人類和寶可夢都有著各自的價值觀，而對他們來說重要的是什麼也由此而定。
 所有人類和寶可夢都有著獨特的人格特質，但性格決定了他們在特定情況會採取什麼樣的反應。
 你的性格會顯示出你內心的想法，而這些想法又會反映於外在的行為舉止。有些性格能夠對生活中的某些面向帶來助益，而無論如何，所有的性格在面對特定情況時也都會遭遇到各自的阻礙。
 寶可夢可以在訓練家的幫助下克服性格上的限制。即使是膽怯或帶有攻擊性的寶可夢，也能透過適當的引導而變得友好及具社交性。
@@ -748,9 +756,16 @@ TocInjector.parsePage("Move");
 經歷數天的休息、透過達成成就以取得成就感、遵循他們的天性，或讓其成為良好扮演的獎勵。</description></item><item><title>神奧地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-sinnoh/</guid><description>
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");
-});</description></item><item><title>超級進化的力量</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</guid><description>超級進化的力量 People in Hoenn mention the legendary Pokémon Rayquaza, as the first Pokémon to ever Mega-Evolve; but the first records of Mega-Evolution as we know it today come from Kalos.
-The ancestor of a family that still exists to this day, discovered how to harness this god-like power and embed it into energy stones, later called Mega Stones.
-Mega-Evolution consists on infusing your Pokémon with the power contained inside the Mega-Stone.</description></item><item><title>電屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</guid><description>電屬性 電屬性寶可夢在大城市裡相當常見。
+});</description></item><item><title>超級進化的力量</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/</guid><description>超級進化的力量 豐原地區的人們認為傳說寶可夢：烈空坐，是有史以來第一隻經歷超級進化的寶可夢；但目前我們所知第一起關於超級進化的紀錄實際上是來自卡洛斯地區。
+一個至今仍然存在家族的祖先，在過去曾發現了該如何駕馭這股神一般的強大力量，並將之封存在能量石內，這種石頭在日後被人們稱為「超級石」。
+超級進化的過程就是將超級石內蘊含的力量注入你的寶可夢體內。這個過程會使牠們的身體經歷一種類似於進化的轉變，使牠們的身體發生變化，並提升牠們的能力值。
+然而，不像一般的進化，超級進化的效果會在寶可夢不再與超級石接觸的數分鐘後消散。
+值得注意的是，超級進化的劇烈過程可能會使寶可夢被突然激增的力量給壓倒，讓牠們感到不適或甚至痛苦。因此，與訓練家之間的強大羈絆是必須的，這樣牠們才能夠忍受這個轉化過程而不至於暴走，並能夠充分利用發揮超級進化的好處。
+每一種能夠超級進化的寶可夢都有一個對應的超級石存在。它們相當罕見，且通常沒辦法在野外被找到。它們通常會是家族的傳家之寶、或者被守護的遺物。
+它們通常會被它們超級進化的寶可夢的名字稱呼，像是「妙蛙花進化石」、「噴火龍進化石」、「 路卡利歐進化石」等等。
+小心那些妄想掌握這股力量來在這個寶可夢世界製造混亂的惡人，因為如果這股力量落到了邪惡之人的手中，其產生的破壞將難以匹敵。
+曾有報告指出，有些人看過訓練家帶著永久處於超級進化狀態的寶可夢……這個謠言究竟是真是假？
+超級進化的規則 要讓寶可夢進行超級進化，寶可夢本身必須攜帶對應的「超級石」在牠們的道具欄位中，且其訓練家必須穿戴「鑰石」才行。 只有處於最終進化階段的寶可夢有能力進行超級進化。 經歷超級進化的過程會消耗 1 點意志點。 超級進化會持續一整個場景 或 一場戰鬥。 在說書人的判斷下，超級進化的寶可夢可能會失去控制。</description></item><item><title>電屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-electric/</guid><description>電屬性 電屬性寶可夢在大城市裡相當常見。
 牠們會被電力和科技所吸引，並視其為提升自己帶電能力的一種手段。
 電屬性招式能夠麻痹敵人來使牠們難以移動。
 牠們可以透過放電來進行大範圍的攻擊，或者影響區域內的電離子、電流、和磁場。牠們也能通過積蓄能量來釋放更強力的攻擊。
@@ -844,9 +859,11 @@ TocInjector.parsePage("Move");
 使用一個行動來擲骰判定：靈巧 + 運動，這個判定可以重複進行，直到你累積獲得總共 8 顆成功骰數。
 其他人可以在戰鬥以外的場合協助撲滅火焰。
 麻痺 你的肌肉抽搐，讓你幾乎難以動彈！
-{@icon frame|paralysis|}</description></item><item><title>英雄巡禮與Z招式</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</guid><description>英雄巡禮與Z招式 In the Alolan Region, children of a certain age go through a coming-of-age ritual where they embark on a journey to commune with their Pokémon and the land.
-Each of the four Islands in Alola has a Legendary Pokémon who acts as a Guardian. Once in a while, they show themselves, urging one of the young to begin the four trials.
-With the guidance of the Kahuna’s, the child goes through these tests.</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>收服寶可夢 人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
+{@icon frame|paralysis|}</description></item><item><title>英雄巡禮與Z招式</title><link>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/</guid><description>英雄巡禮與Z招式 在阿羅拉地區，成長到一定年齡的孩童們將會出發進行一項成年儀式，開始他們與寶可夢和土地本身溝通交流的巡禮。
+阿羅拉的四座島嶼上都各有著一隻作為島嶼守護神的傳說寶可夢。偶爾，祂們會現身，敦促其中一個年輕人開始他的諸島巡禮。
+在島嶼之王的指引下，這名孩童將會經歷許多試煉。島嶼之王知曉人與寶可夢之間羈絆真正力量的秘密，並能透過Z招式來駕馭這股力量。如果你能夠掌握這股力量，那麼你就是走在成為真正英雄的道路上了。
+要使用Z招式，寶可夢本身必須攜帶對應的「Z純晶」在牠們的道具欄位中，且其訓練家必須穿戴「Z手環」才行。 施展Z招式時需要進行一段特殊的儀式舞蹈。 要獲得Z純晶，你必須要通過四座島嶼其中之一的試煉。 關於使用Z招式和自訂Z招式效果的規則，請參閱「Z招式」章節。 玩家可以在你的裁斷下以任何方式獲得「Z純晶」和「超級石」。
+它們可能會是某個家族的傳家寶、贈禮、獎品、或在一場偶然遭遇中發現的物品。</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>收服寶可夢 人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
 牠們從小就被培育教導成要友善、忠誠、且順從；牠們會跟從牠們主人的階級，且需要仰賴訓練家的幫助才能使自己變得更強大。
 然而那些生活在野外的寶可夢，無論是被遺棄後恢復了野性、或是一輩子都沒有接觸過人類，這都使牠們必須憑藉自己純粹的實力和求生本能，才有辦法提升自己的階級，在野外生存下來。
 無論是哪種情況，這兩種野生的寶可夢都對人類懷抱著不信任感，甚至忌妒人類身邊的寶可夢夥伴。牠們有些會因為恐懼而逃離，有些則會展現出侵略性，盡一切努力從牠們視為生存威脅的存在面前保護自己。

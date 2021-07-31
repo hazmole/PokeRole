@@ -5,23 +5,22 @@ description = ""
 +++
 
 ## 超級進化的力量
-People  in  Hoenn  mention  the  legendary  Pokémon  Rayquaza, as the first Pokémon to ever Mega-Evolve; but the first records of Mega-Evolution as we know it today come from Kalos.
+豐原地區的人們認為傳說寶可夢：烈空坐，是有史以來第一隻經歷超級進化的寶可夢；但目前我們所知第一起關於超級進化的紀錄實際上是來自卡洛斯地區。
 
-The  ancestor  of  a  family  that  still  exists  to  this  day,  discovered  how  to  harness  this  god-like  power  and  embed it into energy stones, later called Mega Stones.
+一個至今仍然存在家族的祖先，在過去曾發現了該如何駕馭這股神一般的強大力量，並將之封存在能量石內，這種石頭在日後被人們稱為「超級石」。
 
-Mega-Evolution  consists  on  infusing  your  Pokémon  with the power contained inside the Mega-Stone. This  process will make their bodies go through a transformation similar  to  Evolution,  where  their  body  changes  and  their  attributes increase.
+超級進化的過程就是將超級石內蘊含的力量注入你的寶可夢體內。這個過程會使牠們的身體經歷一種類似於進化的轉變，使牠們的身體發生變化，並提升牠們的能力值。
+然而，不像一般的進化，超級進化的效果會在寶可夢不再與超級石接觸的數分鐘後消散。
 
-Unlike a normal Evolution process, Mega-Evolution effects will disappear after not being in contact with the mega stone for a couple of minutes.
+值得注意的是，超級進化的劇烈過程可能會使寶可夢被突然激增的力量給壓倒，讓牠們感到不適或甚至痛苦。因此，與訓練家之間的強大羈絆是必須的，這樣牠們才能夠忍受這個轉化過程而不至於暴走，並能夠充分利用發揮超級進化的好處。
 
-It is worth noting that Mega-Evolution can be a violent process that causes the Pokémon to be overwhelmed by the  sudden  surge  of  power,  causing  them  distress  and even pain, so a strong relationship with their Trainer is needed for them to be able to endure the transformation without going on a rampage and get the most out of it.
+每一種能夠超級進化的寶可夢都有一個對應的超級石存在。它們相當罕見，且通常沒辦法在野外被找到。它們通常會是家族的傳家之寶、或者被守護的遺物。
+它們通常會被它們超級進化的寶可夢的名字稱呼，像是「妙蛙花進化石」、「噴火龍進化石」、「 
+路卡利歐進化石」等等。
 
-There  is  a  Mega-Stone  for  every  Pokémon  capable  of  Mega-Evolving.  They  are  incredibly  rare,  not  usually found in the wild. They are usually family heirlooms or guarded relics.
+小心那些妄想掌握這股力量來在這個寶可夢世界製造混亂的惡人，因為如果這股力量落到了邪惡之人的手中，其產生的破壞將難以匹敵。
 
-They are often called by the name of the Pokémon they Mega-Evolve, for example “Venusaurite”, “Charizardite” “Lucarionite”, etc.
-
-Beware  of  evil  doers  who  wish  to  harness  their  power and create chaos upon the world of Pokémon, for this power in the hands of bad people will bring a destruction like no other.
-
-Some  people  report  seeing  Trainers  with  permanently Mega-Evolved Pokémon. Could the rumors be true?
+曾有報告指出，有些人看過訓練家帶著永久處於超級進化狀態的寶可夢……這個謠言究竟是真是假？
 
 {{< boxmd >}}
 ### 超級進化的規則

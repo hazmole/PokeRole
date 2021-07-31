@@ -93,20 +93,21 @@ description = ""
 	<div class="author">-寶可夢聯盟冠軍 竹蘭</div>
 </div>
 
-A great arena suited for kings extends in front of you, tall and strong, built as a fortress to withstand your last  battle. A booming sound of power fills the room and it’s not a Pokémon but a human, frightening and wise, with an  unbreakable force of will that’s more resilient than these walls.
+一座為諸王建設的巨大競技場在你的眼前延伸開來，崇高而莊重，如同堡壘一般，見證著你的最後一場戰鬥。力量的嗡鳴聲迴盪在整個房間，卻不是出自寶可夢，而僅僅是一個人類：令人畏懼、充滿智慧、懷著比周圍磚牆還要強韌不可破的意志。
 
-She comes down on you as a mountain and with eyes that have seen all there is to know about Pokémon and their legends, myths, and gods. Could she have witnessed the same phenomenons as you?
+她走向你，彷彿崇山峻嶺，她的雙眼曾看過關於寶可夢的一切，牠們的傳說、神話、以及諸神。或許，她也曾經見證過跟你一樣的景象？
 
-If  you  reached  this  Stage,  you  are  probably  not  an  ordinary  human  anymore,  neither  ordinary  are  the  Pokémon you’re carrying. 
-If by some miracle you defeated the Elite Four without the help of a mythical being, the Champion will put an end to your luck streak. 
+如果你能抵達這最後的舞台，那麼你或許也已經不是普通人類了，你所攜帶的寶可夢們也已經不再尋常。
+如果真有奇蹟，在沒有任何神秘意志的幫助下，你僥倖擊敗了四天王，那麼冠軍將會在這裡終結你的好運。
 
-All  champions  and  their  Pokémon,  knowingly  or  not, are beyond any natural ability. They work the same as  facing legendary Pokémon and their Moves are so strong that they are considered Plot Deviced versions.
-They may show powers related to Pokémon deities and demi-deities.  
+歷任冠軍以及他們的寶可夢搭檔，無論自知與否，全都超乎了天生特性能力的限制。面對他們，就如同面對傳說級的寶可夢。他們的招式是如此強大，以至於它們甚至會直接被視為一種劇情裝置。
+從他們展現出的力量中，你或許還能看出他們與寶可夢諸神或半神之間的關聯。
 
-These  extraordinary  individuals  have  already  proved their  worth,  usefulness  and  resourcefulness  to  great creatures,  allowing  them  to  perform  true  feats  of  legends. 
+這些超乎尋常的個體已經向那些偉大的存在證明過他們的價值、力量、以其智慧，這讓他們得以達成真正的傳奇壯舉。
 
-You  must  defeat  the  Champion  in  an  Item-Holding,  Medicine-Allowed, Previously-Boosted Single Battle. 
-If  you  prevail,  you  will  receive  the  Title  of  Champion and gain access to the Hall of Fame, where you and your Pokémon will be recorded to be remembered forever.
-Many new paths are revealed as you draw the attention  of  many  unnatural  people  and  unravel  the  deepest  secrets of this universe.
+你必須在這一場允許攜帶道具、治療、事先強化的戰鬥中擊敗冠軍。
+如果你成功得勝，那麼你將會被授予「冠軍」的無上頭銜，並得以進入名人殿堂，在這裡，你和你的寶可夢們將被永遠地紀錄與傳誦下去。
 
-**A Champion, a Master, a Legend. This is only your first step inside the Marvelous World of Pokémon.**
+隨著你吸引了眾多超自然存在的注意，解開了這個宇宙最深沉的秘密，無數條嶄新的道路將在你面前展開。
+
+**你成為了冠軍，寶可夢大師，真正的傳奇。但這也只不過是你踏入寶可夢這個奇妙世界的第一步罷了。**
