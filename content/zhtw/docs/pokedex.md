@@ -3,98 +3,99 @@ title = "寶可夢圖鑑"
 weight = 10
 description = ""
 +++
-## Pokedex
-There are almost a thousand known species of Pokémon in the world, some better known than others.
+## 寶可夢圖鑑
+在這個世界上存在著將近一千種已知的寶可夢物種，其中有些又比其他種更為人所知。
+在這個章節，你可以找到關於牠們大部分的所有已知情報。
 
-In this section of the book you’ll find all the information available about most of them.
+為了創建和訓練你的寶可夢，你會需要查看牠們的圖鑑條目；關於牠們各自的特性和招式，則請參閱「寶可夢特性」和「寶可夢招式」章節。
 
-To create and train your Pokémon you’ll need to check its  Pokédex  entry,  Ability  and  Moves  in  the  Pokémon  Abilities and Pokémon Moves sections of this book.
+乍看之下，這個章節的資訊量可能會有些過於龐大。一個人要怎麼記住所有寶可夢的名字、數據、招式和特性呢？
 
-Now, this might seem like a lot of information to take in. How will you ever memorize all these names, data, Moves and special Abilities?
-
-Don’t worry! You don’t have to memorize it at all! 
-Simply take this information to customize your Pokémon and build a unique character.
+別擔心！你不需要記住它們全部！
+你只需要使用你所需要的資訊來創建屬於你的，獨一無二的寶可夢就好！
 
 {{< mynotice trainer >}}
-Think of your Pokémon as an extension of  your  Trainer’s  abilities.  Pokémon  work like powers at your disposition. 
-If  you  want  Ice  powers  you  should  capture an Ice Pokémon. If you want to be a bard, get a Pokémon with Sing.
+把你的寶可夢想成是你訓練家能力的延伸。牠們的功能就彷彿是你角色的超能力一樣。
+如果你想要冰屬性的力量，那麼你就應該收服冰屬性的寶可夢。如果你想要成為一名吟遊詩人，那麼就把會〈唱歌〉的寶可夢搞到手吧。
 {{< /mynotice >}}
 
-Your Pokémon are capable of working wonders with ease. They have many abilities and maybe a dozen moves to learn. Focus only on what you want.
+你的寶可夢有能力輕易地創造奇蹟。牠們擁有各式各樣的特性，且能夠學會或許數十種不同的招式。
+專注在你想要的能力上！
 
-Think about it this way: 
-**You have 6 slots available for customization.**
+試著用這種方式去思考：
+**你有六個可以用來自訂你角色的欄位。**
 
-Each and every Pokémon you carry will have a special role in your party. You can complement your team any way you want.
+你帶在身上的每隻寶可夢都將在你的隊伍中扮演特殊的角色定位。你可以用任何你想要的方式來完善你的團隊。
+也許你會想要有一隻能夠承受攻擊的硬漢寶可夢、或一隻能夠橫掃敵人隊伍的神速搭檔；也許一隻只為了吸引女孩而存在的可愛貓貓、或者一隻能夠鼓舞所有人戰意的熱情小鼠。
 
-Perhaps you want a bulky Pokémon that can take a hit or a fast companion to sweep an enemy party, a cute kitten  who’s only there to charm the girls or a passionate mouse to cheer everyone’s fighting spirit.
-
-Your imagination is the limit.
+唯一的限制就是你自己的想像力。
 
 {{< mynotice story >}}
-Use  the  tools  on  this  book  and your imagination to create unique Pokémon. They are part of a living world, take your time and describe their behaviors.
+善用規則提供的工具以及你的想像力來創造你獨一無二的寶可夢。
+牠們是這個活生生世界的一部份，花點時間，仔細描述牠們會有的行為舉止吧。
 {{< /mynotice >}}
 {{< mynotice story >}}
-Keep in mind that a Pokémon’s uniqueness is not in its Strength or its high Attributes, but in the role playing you get from your players thanks to it.
+牢記在心，寶可夢的獨特性並不是體現在牠們的力量或者某個高數值，而是你透過牠們從玩家那裏得到的角色扮演。
 {{< /mynotice >}}
 
 
-### Form Variations
-A few Pokémon have different looks even when they are the same species. Sometimes this change is merely aesthetic, other times they evolve into a variant and cannot change  back. And  other  times  a  certain  move  or  item triggers these changes.
-Some  of  these  variants  can  only  be  found  in  certain parts of the world. The different forms may change their  attribute  Limit  distribution,  grant  them  a  new  power and/or change their Type.
-For Mega-Evolution your trainer will have to meet certain conditions for the form to be stable and long-lasting.
+### 型態差異
+少數寶可夢即使物種相同也會有不同的外表。有時候，這種差異僅僅是外觀美學上的，但有時候牠們則會一路進化成不同型態的樣子，且再也無法變回來。有時候，某些特定的招式或道具會觸發這些變化。
 
-**Make sure to read all the entries on the different Form Variations of these Pokémon.**
+有些這類型態差異只能在這個世界的特定區塊被發現。這些型態差異可能會改變牠們的特質上限分布、賦予牠們新的力量、或改變牠們的屬性。
+超級進化也被視作一種型態差異，要進行超級進化，你的訓練家將會需要滿足特定條件才能讓這個型態穩定且長久持續。
 
-Should one of your Pokémon change forms, during the game, **it is convenient to have the character sheets of all its Form variations.**
-**<u>Each  Form  would  have  its  own  set  of  Attributes  and points on them according to your Rank, even if they are different from each other.</u>**
+**當你使用這些不同型態的寶可夢時，確保你已經仔細看過這些不同型態的條目差異。**
+
+如果你的其中一隻寶可夢能夠改變型態，那麼**為每種不同型態各準備一張角色卡會讓你在遊戲期間方便許多**。
+**<u>每個不同型態都會有它們各自的特質上限，以及根據你的階級而得的可分配點數。</u>**
 
 {{< mynotice story >}}
-You  may  use  your  own  discretion as to what triggers the changes on  certain Pokémon. It may be an Item, energy or perhaps they are able to change at will.
+你可以根據你自己的判斷來決定什麼條件會觸發特定寶可夢的變化。這可能會是某個道具、某種能量、或也許牠們有能力憑自己的意志發生改變。
 {{< /mynotice >}}
 
 {{< boxmd >}}
-## A Note on World Building
-This world is vast and extense with many regions to  explore. It is very easy to get carried away, wanting  to  start  really  big,  however,  we  recommend  you start small.
+## 關於建構世界的說明
+這個世界相當廣闊，有許多可以探索的地區。一開始你可能會很容易得意忘形而想要大展宏圖，然而，我們會建議你從小規模的冒險開始。
 
-Start in a town or a Small city, let the world expand in the direction your players want to explore rather than putting them on a big world map with no direction  on where to start.
-In the end they can end up going through every city, just  not  in  the  “expected”  order,  or  even  travel through  regions,  changing  leagues,  skipping  gyms,  or even end up in a completely made up place.
+從一個村鎮或小城市起步，讓這個世界朝著你玩家們想要探索的方向擴展，而不是把他們放到一個沒有方向、不知從何開始的大地圖上。
+最終，他們會行經每一座城市，只不過不是以「預期中」的順序，甚至可能會行經不同的地區、換聯盟、跳過某個道館、或甚至來到一個完全虛構的場所。
 
-You  will  notice  this  method  will  develop  a  much more  organic  adventure  than  trying  to  railroad  a party through a map of cities, going from point A to point B each time an objective is “cleared”.
-
-This  is  also  beneficial  for  the  Storyteller  as  you won’t have to prepare a grand set of chained events  unfolding all through the region, but simply prepare the small sections the players will be exploring for the day.
+你會發現，比起軌道式地讓玩家團隊按照指定路線行經地圖上的城鎮，在每次「完成」一個目標後從A點移動到B點，這種方式將能夠發展出一種更有結構性的冒險故事。
+這對說書人來說也是好處多多，因為你不再需要準備一連串貫穿整個區域的連鎖事件，而只需要準備玩家當天將要探索的小區域的事件就好了。
 {{< /boxmd >}}
 
 {{< boxmd >}}
-## A Note on Breeding Pokémon
-When  two  Pokémon  love  each  other  very  very much they’ll spend some time together and then a Pokémon Egg will appear. This is not just a tale that the adults tell children; no one really knows how these eggs pop into existence. It is one of the many mysteries in the world of Pokémon.
+## 關於繁殖寶可夢的說明
+當兩隻寶可夢深深愛著彼此，牠們將會花些時間相處，接著一顆寶可夢的蛋就會忽然出現。
+這並不是什麼大人們敷衍小孩的瞎扯蛋；事實是，沒有人真的知道這些蛋是怎麼忽然出現的。這也不過是寶可夢世界中許多神秘的其中之一罷了。
 
-Baby Pokémon need a lot of nurturing and love to grow happy and strong. 
-All  Pokémon  can  fall  in  love  with  each  other, regardless  of  their  species. The  baby  will  often come out as the First-stage species of the mother.
+寶可夢寶寶需要大量的愛與養育才能夠快樂且健康地成長茁壯。
+無論種族，所有寶可夢都可以彼此相愛。寶可夢寶寶通常會繼承母親那一方的物種，並以初階進化階段誕生。
 
-Due  to  parents  not  always  being  of  the  same  species,  **Baby  Pokémon  may  show  traits  that their species doesn’t normally have thanks to having a parent with a different set of powers.**
+由於寶可夢的雙親並不總是相同物種。**寶可夢寶寶可能會因為雙親各自的能力不同，而展現出牠們種族正常不會擁有的能力。**
 
-This isn’t a game to get endless Pokémon eggs in search  for  the  perfect  offspring,  should  players  get  their  hands  on  a  Pokémon  egg,  remember to  give  it  the  importance  it  deserves,  it’s  not just time and heat what will make it hatch, it is through love and kindness that the baby Pokémon will come out. 
+這並不是那種要為了孵出完美個體而開始無止盡孵蛋的廢人遊戲，如果玩家們得到了寶可夢蛋，記得提醒他們為它付出應有的重視。孵化寶可夢蛋需要的不僅僅是時間與溫暖，透過愛與關懷，寶可夢寶寶才會誕生。
 
-It  may  take  a  few  weeks  or  a  few  months  but when  the  shell  begins  to  crack  it’ll  be  a  big  moment of happiness!  
-Be ready to change diapers and bottle-feed your new bundle of joy.
+這個過程可能會需要數周或幾個月的時間，但當蛋殼裂開、新生命誕生的時候到來，那將會是一個幸福滿載的重大時刻！
+準備好為你新生的喜悅餵奶瓶和換尿布吧！
 {{< /boxmd >}}
 
 
 {{< mynotice trainer >}}
-If you want to try out breeding Pokémon head to your nearest  day-care center. 
+如果你想要繁殖寶可夢的話，立刻前往距離你最近的培育屋吧。
 {{< /mynotice >}}
 
 {{< boxmd >}}
-## A Note on Ecosystems
-What you just saw is only the first part of a great variety of creatures, how many of them you’ll end up seeing? It’s up to you!
+## 關於生態系統的說明
+你在這裡看到的只不過是關於生物的第一部分，你究竟能見到多少種？一切全操之在你！
 
-This world has many ecosystems which you can fill with whatever number of creatures you want to bring it  closer  to  life,  with  almost  a  thousand  Pokémon  to choose from.
+這個世界存在著許多種生態系，你可以從將近一千種寶可夢中挑選，將任意數量你想要的生物點綴其中，使其益發生意盎然。
 
-Adding variety to the creatures you encounter will increase the sense of wonder and discovery.
+增加玩家遭遇到生物的多樣性能夠大大提升探索感與驚奇感。
 {{< /boxmd >}}
 
 ---
 
-### Pokedex list
-<a href="#">see here.</a>
+### 寶可夢圖鑑列表
+<a href="#">參見此頁。</a>

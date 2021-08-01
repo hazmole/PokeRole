@@ -152,8 +152,8 @@ class PokemonGenerator{
     // Data Handle
     function completeRankConfigByValue(){
       var idx = Util.getAllRank().indexOf(PokemonGenerator.rankConfig.value);
-      var totalMainAttrPt   = [2, 4, 6, 8,10,10,14];
-      var totalSocialAttrPt = [2, 4, 6, 8,10,14,14];
+      var totalMainAttrPt   = [0, 2, 4, 6, 8, 8,12];
+      var totalSocialAttrPt = [0, 2, 4, 6, 8,12,12];
       var totalSkillPt      = [5, 9,12,14,15,15,16];
       var skillCap          = [1, 2, 3, 4, 5, 5, 5];
 

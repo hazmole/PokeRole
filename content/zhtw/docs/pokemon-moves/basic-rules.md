@@ -5,7 +5,7 @@ description = ""
 +++
 ## 寶可夢招式
 <div class="quote">
-	掌握自己手中的牌，比埋怨對手的牌好更為重要。
+	善用自己手中的牌，比埋怨對手的好牌更為重要。
 	<div class="author">-越橘</div>
 </div>
 

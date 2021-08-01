@@ -11,9 +11,24 @@ footer:
       Copyright © 2020. All rights reserved.
 
 sections:
-  - bgcolor: "#982320"
+  - bgcolor: '#982320'
+    type: normal
+    header:
+      title: 歡迎來到寶可夢角色扮演遊戲！
+      hlcolor: "#690300"
+      color: "#fff"
+      fontSize: 32
+      width: 450
+    body:
+      description: "這是一本關於如何創造一個屬於你自己的故事，帶領你的角色以及寶可夢前往未知之旅的規則！<br><br>
+本站係由 免費開源TRPG中文化團隊 翻譯架設。<br>
+<u>翻譯者: Hazmole, 蝶, Vivianna, 盤龍, 寒碧, 安生, 藍莓莓</u><br><br>
+原站：<a href='https://www.pokeroleproject.com'>https://www.pokeroleproject.com</a>"
+      color: white
+      image: images/pokedex/025.png
+      imagePosition: left
+  - bgcolor: "#bc533e"
     type: card
-    description: "本站係由 免費開源TRPG中文化團隊 翻譯架設。<br>翻譯者: 蝶, Vivianna, 盤龍, 寒碧, 安生, 藍莓莓, Hazmole"
     cards:
       - subtitle: 寶可夢扮演 2.0
         subtitlePosition: center
