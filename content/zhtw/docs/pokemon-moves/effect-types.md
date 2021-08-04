@@ -56,8 +56,8 @@ description = "說明各項招式效果標誌的意義"
 
 這些標誌會出現在效果框之中，如下圖範例所示：
 
-{@icon frame|flinch|畏縮|never} 永遠會畏縮
-{@icon frame|flinch|畏縮|always} 絕不會畏縮
+{@icon frame|flinch|畏縮|never} 絕不會畏縮
+{@icon frame|flinch|畏縮|always} 永遠會畏縮
 
 ---
 #### 降低命中率
