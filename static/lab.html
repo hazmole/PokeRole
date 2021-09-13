@@ -1,0 +1,561 @@
+<head>
+  <title>哈絲博士的寶可夢實驗室</title>
+
+
+  <script src="./data/abilities.js"></script>
+  <script src="./data/moves-normal.js"></script>
+  <script src="./data/moves-bug.js"></script>
+  <script src="./data/moves-dark.js"></script>
+  <script src="./data/moves-electric.js"></script>
+  <script src="./data/moves-fairy.js"></script>
+  <script src="./data/moves-fighting.js"></script>
+  <script src="./data/moves-fire.js"></script>
+  <script src="./data/moves-flying.js"></script>
+  <script src="./data/moves-ghost.js"></script>
+  <script src="./data/moves-grass.js"></script>
+  <script src="./data/moves-ground.js"></script>
+  <script src="./data/moves-ice.js"></script>
+  <script src="./data/moves-normal.js"></script>
+  <script src="./data/moves-poison.js"></script>
+  <script src="./data/moves-psychic.js"></script>
+  <script src="./data/moves-rock.js"></script>
+  <script src="./data/moves-steel.js"></script>
+  <script src="./data/moves-water.js"></script>
+  <script>
+    var TYPE_Arr = ["Normal", "Bug", "Dark", "Dragon", "Electric", "Fairy", "Fight", "Fire", "Flying", "Ghost", "Grass", "Ground", "Ice", "Poison", "Psychic", "Rock", "Steel", "Water"];
+    var RANK_Arr = [0,1,2,3,4,5];
+
+
+    function getPokemonObjFromInput(){
+      var formData = document.forms['pokemonForm'].elements;
+      var pokemonObj = {};
+
+      var id = parseInt(formData.id.value);
+
+      pokemonObj.id = (id<10? "00": id<100? "0": "")+id;
+      pokemonObj.region = formData.region.value;
+      pokemonObj.name = formData.name.value;
+      pokemonObj.alias = "";
+      pokemonObj.type = [formData.typeA.value];
+      if(formData.typeB.value!="") pokemonObj.type.push(formData.typeB.value);
+      pokemonObj.info = {
+        image: `images/pokedex/${pokemonObj.id}.png`,
+        height: formData.height.value,
+        weight: formData.weight.value,
+        category: formData.category.value+"寶可夢",
+        text: formData.desc.value,
+      };
+
+      // Evolve
+      pokemonObj.evolution = { stage: formData.evolveStage.value };
+      if(pokemonObj.evolution.stage=="first" || pokemonObj.evolution.stage=="second"){
+        pokemonObj.evolution.time = formData.evolveTime.value;
+      }
+      if(formData.evolveMethod.value!=""){
+        pokemonObj.evolution.method = formData.evolveMethod.value;
+      }
+
+      // Statistics
+      pokemonObj.baseHP = formData.baseHP.value;
+      pokemonObj.rank = parseInt(formData.rank.value);
+      pokemonObj.attr = {
+        str: { value:formData.baseStr.value, max:formData.maxStr.value },
+        dex: { value:formData.baseDex.value, max:formData.maxDex.value },
+        vit: { value:formData.baseVit.value, max:formData.maxVit.value },
+        spe: { value:formData.baseSpe.value, max:formData.maxSpe.value },
+        ins: { value:formData.baseIns.value, max:formData.maxIns.value },
+      };
+
+      // Abilities
+      pokemonObj.ability = [formData.abilityA.value];
+      if(formData.abilityB.value!="") pokemonObj.ability.push(formData.abilityB.value);
+      pokemonObj.ability = pokemonObj.ability.map(abi=>{
+        var result = searchAbility(abi);
+        return result? result.name: abi;
+      });
+
+
+      // Moves
+      pokemonObj.moves = [];
+      if(formData.moveName){
+        if(!formData.moveName.length){
+          var move = searchMove(formData.moveName.value);
+          pokemonObj.moves.push({
+            rank:formData.moveRank.value,
+            type:move.type,
+            name:move.name
+          });
+        }
+        else{
+          for(var i=0; i<formData.moveName.length; i++){
+            var move = searchMove(formData.moveName[i].value);
+            pokemonObj.moves.push({
+              rank:formData.moveRank[i].value,
+              type:move.type,
+              name:move.name
+            });
+          }  
+        }
+      }
+      
+      if(formData.isNovice.checked)
+        pokemonObj.isNovice = true;
+
+      return pokemonObj;
+    }
+
+    function genPokemon(){
+      var DOM = document.getElementById("displayDemo");
+      var ROOTPATH = "./images/pokedex";
+
+      var pokemonObj = getPokemonObjFromInput();
+      console.log(pokemonObj);
+
+      var pokemonID = pokemonObj.id.replace(/-\w+/, "");
+      var pokemonTypes = pokemonObj.type.map(type=>`<div class="type ${type}" style="width:${pokemonObj.type.length>1? 5: 10}rem;">${FMT(type)}</div>`).join("");
+      var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
+      var evolveStage = getEvolveStage(pokemonObj.evolution)!=""? `<div class="entry"><b style="background:#b7b7b7">進化階段</b>${getEvolveStage(pokemonObj.evolution)}</div>`: "";
+      var evolveTime  = getEvolveTime(pokemonObj.evolution) !=""? `<div class="entry"><b style="background:#b7b7b7">進化時間</b>${getEvolveTime(pokemonObj.evolution)}</div>`: "";
+      var evolveMethod= getEvolveMethod(pokemonObj.evolution) !=""? `<div class="entry">${getEvolveMethod(pokemonObj.evolution)}</div>`: "";
+
+      var content = `<div class="Pokemon">
+        <div class="${pokemonObj.type[0]}">
+          <div class="Header flexContainer">
+            <div class="title" id="#${pokemonID} ${pokemonObj.name}">#${pokemonID} ${pokemonObj.name}</div>
+            ${pokemonTypes}
+          </div>
+        </div>
+        <div class="GameData flexContainer">
+          <div class="block Image" style="text-align: center;">
+            <img src="${pokemonObj.info.image}">
+            <div class="category ${pokemonObj.type[0]}"><div style="background:rgba(255,255,255,.5);">${pokemonObj.info.category}</div></div>
+            <div class="category">${pokemonObj.info.height}m / ${pokemonObj.info.weight}kg</div>
+          </div>
+          <div class="block" style="width: 180px;">
+            <div class="entry" style="margin-bottom:.5rem;"><b>建議階級</b> ${getRank(pokemonObj.rank)}</div>
+            <div class="entry"><b>基礎HP</b> <span style="font-size:1.2em;margin:.2rem;">${pokemonObj.baseHP}</span></div>
+            <div class="entry"><b>特性</b> ${pokemonObj.ability.join(", ")}</div>
+            <div class="entry">${getNoviceIcon(pokemonObj.isNovice)}</div>
+          </div>
+          <div class="block" style="width: 185px; margin-left:1rem;">
+            <div class="entry"><b>力量</b> ${getAttr(pokemonObj.attr.str)}</div>
+            <div class="entry"><b>靈巧</b> ${getAttr(pokemonObj.attr.dex)}</div>
+            <div class="entry"><b>活力</b> ${getAttr(pokemonObj.attr.vit)}</div>
+            <div class="entry"><b>特殊</b> ${getAttr(pokemonObj.attr.spe)}</div>
+            <div class="entry"><b>洞察</b> ${getAttr(pokemonObj.attr.ins)}</div>
+          </div>
+          <div class="block" style="width: 180px; margin-left:1rem;">
+            ${ evolveStage }
+            ${ evolveTime }
+            ${ evolveMethod }
+          </div>
+        </div>
+        <div>
+          <button style="width:100%;">招式表</button>
+          <div class="MoveList" style="display:block;">
+            ${moveList.join("")}
+          </div>
+        </div>
+        <div class="InfoText">
+          ${pokemonObj.info.text}
+        </div>
+      </div>`;
+
+      DOM.innerHTML = content;
+
+      var JSON_DOM = document.getElementById("script");
+      JSON_DOM.value = JSON.stringify(pokemonObj, null, '  ');
+    }
+
+    function addMoveInput(){
+      var DOM = document.getElementById("moveListInput");
+      var selectRankObj = `<select class='short' name='moveRank'>${getRankOptions().join("")}</select>`;
+      var selectMoveObj = "<input type=text name='moveName'>";
+      DOM.insertAdjacentHTML('beforeend', `<div>　<b onClick="deleteMe(this)">[x]</b>　階級${selectRankObj}: 招式${selectMoveObj}</div>`);
+    }
+    function deleteMe(elem){
+      elem.parentNode.remove();
+    }
+  </script>
+  <style>
+input { width:120px; }
+input.short { width:50px; }
+select { width:120px; }
+select.short { width:80px; }
+
+#script {
+  margin: .5rem;
+  width: 800px;
+  height: 200px;
+}
+#displayDemo {
+  margin: 1rem 0;
+}
+#addMoveBtn {
+  margin-left: 1rem;
+  color: red;
+}
+#addMoveBtn:hover {
+  color: yellow;
+}
+
+.inputPanel {
+  border:1px solid #aaa;
+  padding:.5rem;
+  width: 600px;
+}
+  </style>
+</head>
+<body>
+  <h2>哈絲博士的寶可夢實驗室</h2>
+
+  <form id="pokemonForm">
+  <div class="inputPanel" style="background:#982320; color:#fcfcfa;">
+    <div>全國編號：<input type="number" name="id" value="1"></div>
+    <div>地區：
+      <select name="region">
+        <option value="kanto">關都</option>
+        <option value="johto">城都</option>
+        <option value="hoenn">豐緣</option>
+        <option value="sinnoh">神奧</option>
+        <option value="unova">合眾</option>
+        <option value="kalos">卡洛斯</option>
+        <option value="alola">阿羅拉</option>
+        <option value="galar">伽勒爾</option>
+      </select>
+    </div>
+    <div>名稱：<input type="text" name="name"></div>
+    <div>第一屬性：<select name="typeA" class="pokemonType"></select></div>
+    <div>第二屬性：<select name="typeB" class="pokemonTypeWithNone"></select></div>
+  </div>
+  <div class="inputPanel" style="background:#989898; color:#fff;">
+    <div>進化階段：
+      <select name="evolveStage">
+        <option value="first">初階</option>
+        <option value="second">二階</option>
+        <option value="final">最終階</option>
+        <option value="mega">超級進化</option>
+        <option value="unknown">未知</option>
+      </select>
+    </div>
+    <div>進化時間：
+      <select name="evolveTime">
+        <option value="">--</option>
+        <option value="fast">快速</option>
+        <option value="medium">中等</option>
+        <option value="slow">緩慢</option>
+      </select>
+    </div>
+    <div>進化方式：
+      <select name="evolveMethod">
+        <option value="">正常升級</option>
+        <option value="other">其他</option>
+      </select>
+    </div>
+  </div>
+  <div class="inputPanel" style="background:#e4e4e4; color:#000;">
+    <div>分類：<input type="text" name="category">寶可夢</div>
+    <div>身高：<input class="short" type="number" name="height" value="0.0"> m</div>
+    <div>體重：<input class="short" type="number" name="weight" value="0.0"> kg</div>
+    <div>描述：<br><textarea name="desc" style="width:100%;"></textarea></div>
+  </div>
+  <div class="inputPanel" style="background:#fcffd5; color:#000;">
+    <div>建議階級：
+      <select name="rank">
+        <option value="0">新手</option>
+        <option value="1">初學者</option>
+        <option value="2">業餘者</option>
+        <option value="3">菁英</option>
+        <option value="4">專家</option>
+        <option value="5">大師</option>
+      </select>
+    </div>
+    <div>適合新手訓練家?：<input type="checkbox" name="isNovice"></div>
+  </div>
+  <div class="inputPanel" style="background:#fff; color:#000;">
+    <div>基本HP：<input type="number" name="baseHP"></div>
+    <div>力量：<input class="short" type="number" name="baseStr"> / <input class="short" type="number" name="maxStr"></div>
+    <div>靈巧：<input class="short" type="number" name="baseDex"> / <input class="short" type="number" name="maxDex"></div>
+    <div>活力：<input class="short" type="number" name="baseVit"> / <input class="short" type="number" name="maxVit"></div>
+    <div>特殊：<input class="short" type="number" name="baseSpe"> / <input class="short" type="number" name="maxSpe"></div>
+    <div>洞察：<input class="short" type="number" name="baseIns"> / <input class="short" type="number" name="maxIns"></div>
+  </div>
+  <div class="inputPanel" style="background:#464646; color:#fff;">
+    <div>特性：<br/>
+      <input type="text" name="abilityA"><br/>
+      <input type="text" name="abilityB">
+    </div>
+    <div>招式表：
+      <div id="moveListInput"></div>
+      <div id="addMoveBtn" onClick="addMoveInput()">[+]</div>
+    </div>
+  </div>
+  </form>
+  <button onClick="genPokemon()">確定</button>
+
+  <hr/>
+  <b>預覽:</b><br/>
+  <div id="displayDemo">...</div>
+
+  <b>JSON:</b><br/>
+  <textarea id="script"></textarea>
+
+</body>
+<script>
+function getRank(rankVal){
+  switch(parseInt(rankVal)){
+    case 0: return "新手";
+    case 1: return "初學者";
+    case 2: return "業餘者";
+    case 3: return "菁英";
+    case 4: return "專家";
+    case 5: return "大師";
+  }
+}
+function getRankIcon(rankVal){
+  var classText = "";
+  switch(parseInt(rankVal)){
+    case 0: classText = "Starter";break;
+    case 1: classText = "Beginner";break;
+    case 2: classText = "Amateur";break;
+    case 3: classText = "Ace";break;
+    case 4: classText = "Pro";break;
+    case 5: classText = "Master";break;
+  }
+  return `<span class="icon ${classText}" style="display: inline-block;">&nbsp</span>`;
+}
+function getNoviceIcon(isShow){
+  return (isShow)? "<tag class='NoviceMark'></tag>": "";
+}
+function getAttr(attr){
+  var text = "";
+  for(var i=0;i<attr.max;i++){
+    text += (i<attr.value)? "●": "○";
+  }
+  return text;
+}
+function getEvolveStage(evolvoObj){
+  if(!evolvoObj || !evolvoObj.stage) return "";
+  switch(evolvoObj.stage){
+    case "first": return "初階";
+    case "second": return "二階";
+    case "final": return "最終階";
+    case "mega": return "超級進化";
+    case "unknown": return "未知";
+  }
+  return "-";
+}
+function getEvolveTime(evolvoObj){
+  if(!evolvoObj || !evolvoObj.time) return "";
+  switch(evolvoObj.time){
+    case "fast":   return "快速";
+    case "medium": return "中等";
+    case "slow":   return "緩慢";
+  }
+  return "-";
+}
+function getEvolveMethod(evolvoObj){
+  if(!evolvoObj) return "";
+  if(evolvoObj.method) return `透過 <u>特殊方式</u> 進化`;
+  return '';
+}
+function getMoveEntryHtml(moveObj){
+  return `<div class="entry">
+            ${getRankIcon(moveObj.rank)}
+            <span class="${moveObj.type} moveType">${FMT(moveObj.type)}</span>
+            ${moveObj.name}
+          </div>`;
+}
+
+var MoveList;
+function searchMove(name){
+  name = name.trim();
+  var result;
+  if(name!=""){
+    result = MoveList.find(move => {
+      var aliasArr = move.alias.split("|");
+      return (move.name.toLowerCase() == name.toLowerCase()) || (aliasArr.map(n=>n.toLowerCase()==name.toLowerCase()).reduce((a,b)=>a||b));
+    });
+  }
+  if(!result) return { type:"-", name:"找不到這個招式:"+name };
+  return result;
+}
+
+var AbilityList;
+function searchAbility(name){
+  name = name.trim();
+  var result;
+  if(name!=""){
+    result = AbilityList.find(move => {
+      var aliasArr = move.alias.split("|");
+      return (move.name.toLowerCase() == name.toLowerCase()) || (aliasArr.map(n=>n.toLowerCase()==name.toLowerCase()).reduce((a,b)=>a||b));
+    });
+  }
+  if(!result) return { name:"???" };
+  return result;
+}
+
+
+function FMT(key){
+  if(LANGKEY[key.toLowerCase()]===undefined) return key;
+  return LANGKEY[key.toLowerCase()];
+}
+var LANGKEY = {
+  "normal":"一般",
+  "bug":"蟲",
+  "dark":"惡",
+  "dragon":"龍",
+  "electric":"電",
+  "fairy":"妖精",
+  "fight":"格鬥",
+  "fire":"火",
+  "flying":"飛行",
+  "ghost":"幽靈",
+  "grass":"草",
+  "ground":"地面",
+  "ice":"冰",
+  "poison":"毒",
+  "psychic":"超能力",
+  "rock":"岩石",
+  "steel":"鋼",
+  "water":"水",
+};
+
+</script>
+<script>
+  autogenTypeOptions();
+
+  function autogenTypeOptions(){
+    var collection;
+    var options = TYPE_Arr.map(text=>`<option value="${text}">${FMT(text)}</option>`);
+
+    collection = document.getElementsByClassName("pokemonType");
+    for(var i=0; i<collection.length; i++){
+      collection[i].innerHTML = options.join("");
+    }
+
+    collection = document.getElementsByClassName("pokemonTypeWithNone");
+    options.unshift(`<option value="">--</option>`);
+    for(var i=0; i<collection.length; i++){
+      collection[i].innerHTML = options.join("");
+    }
+  }
+
+  function getRankOptions(){
+    var options = RANK_Arr.map(val=>`<option value="${val}">${getRank(val)}</option>`);
+    return options;
+  }
+
+</script>
+<style>
+/* Pokemon */
+.Pokemon {
+    margin: .5em;
+    border: 2px solid black;
+    background: #ddd;
+    width: 800px;
+}
+.Pokemon .flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Pokemon .Header { background: rgba(255,255,255,.5); }
+.Pokemon .Header .title {
+    padding: .5em;
+    font-size: 1.2rem; font-weight: bold; color: #000;
+    flex-grow: 1;
+}
+.Pokemon .Header .type{
+    margin: 0rem; padding: 0 .2rem;
+    line-height: 3.1rem; font-weight: bold;
+    text-align: center;
+}
+.Pokemon .Image { width: 100px; }
+.Pokemon .Image img { max-width: 100%; }
+.Pokemon .GameData { justify-content:flex-start; background:#fff; align-items:flex-start; flex-wrap:wrap; }
+.Pokemon .GameData .block { margin:.5rem; }
+.Pokemon .GameData .block.Image { margin: 1rem; margin-bottom:0; }
+.Pokemon .GameData .block.Image .category { font-size: .8rem; }
+.Pokemon .GameData .entry { margin:.3rem; }
+.Pokemon .GameData .entry b { padding:.2rem .5rem; background-color: #ddd; margin-right:.2rem; }
+
+.Pokemon .MoveList .entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 .5rem;
+}
+.Pokemon .MoveList .entry:nth-child(2n+1){ background: #ececec; }
+.Pokemon .MoveList .entry:nth-child(2n){ background: #d6d6d2; }
+.Pokemon .MoveList .entry .moveType {
+    margin-right:.5rem; width:60px; text-align:center; font-size: .9rem;
+}
+
+.Pokemon .InfoText {
+    background:#d2d2d2;
+    border-top: .5px solid rgba(0,0,0,.5);
+    padding: .5rem;
+    font-size: .8rem;
+    text-indent: .5rem;
+    word-break: break-word;
+}
+
+tag {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 2.5rem; height: 2.5rem;
+    margin: .2rem;
+    border-radius: .5rem;
+    background-size: 100%;
+    font-size: 1rem;
+    content: ""; 
+}
+tag.NoviceMark { background-image: url('./images/icons/novice.png'); }
+
+.icon::before {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0em;
+    display: block;
+    height: 1em;
+    width: 1em;
+    content: '';
+    margin: 0em -1em -1rem -1.15em;
+}
+.icon {
+    margin-left: 1.1em;
+    line-height: 1rem;
+}
+.icon.Starter::before { background-image: url('./images/icons/ball-starter.png'); }
+.icon.Beginner::before { background-image: url('./images/icons/ball-poke.png'); }
+.icon.Amateur::before { background-image: url('./images/icons/ball-greater.png'); }
+.icon.Ace::before { background-image: url('./images/icons/ball-ultra.png'); }
+.icon.Pro::before { background-image: url('./images/icons/ball-cherish.png'); }
+.icon.Master::before { background-image: url('./images/icons/ball-master.png'); }
+.icon.Champion::before { background-image: url('./images/icons/ball-park.png'); }
+</style>
+<style>
+/* Pokemon Type */
+.Normal { background:#BBBBAA; }
+.Bug { background:#AABB22; }
+.Dark { background:#775544;color:#fff; }
+.Dragon { background:#7766EE;color: #fff; }
+.Electric { background:#FFCC33; }
+.Fairy { background:#FFAAFF; }
+.Fight { background:#BB5544;color:#fff; }
+.Fire { background:#ff5c42; }
+.Flying { background:#84adff; }
+.Ghost { background:#6666BB;color:#fff; }
+.Grass { background:#77CC55; }
+.Ground { background:#DDBB55; }
+.Ice { background:#77DDFF; }
+.Poison { background:#AA5599;color:#fff; }
+.Psychic { background:#fd79ae; }
+.Rock { background:#BBAA66; }
+.Steel { background:#AAAABB; }
+.Water { background:#3399FF; }
+</style>
