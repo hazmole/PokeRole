@@ -10,3 +10,9 @@
   url = "data"
   weight = 2
 
+[[main]]
+  identifier = "角色卡"
+  name = "線上角色卡"
+  url = "https://docs.google.com/spreadsheets/d/1IQGBW50eJtib8fq7IgLVlzFxzwfhNs-5cpjy0WOu9XI/edit#gid=0"
+  weight = 3
+

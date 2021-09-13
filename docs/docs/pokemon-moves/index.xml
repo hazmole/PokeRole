@@ -36,8 +36,8 @@ Normal, Bug, Dark, Dragon, Electric, Fairy, Fight, Fire, Flying, Ghost, Grass, G
 ✔
 當某個效果帶有這個標誌，代表該效果的目標永遠會被影響。
 這些標誌會出現在效果框之中，如下圖範例所示：
-{@icon frame|flinch|畏縮|never} 永遠會畏縮
-{@icon frame|flinch|畏縮|always} 絕不會畏縮
+{@icon frame|flinch|畏縮|never} 絕不會畏縮
+{@icon frame|flinch|畏縮|always} 永遠會畏縮
 降低命中率 {@icon frame|accuracy|命中|down|X}
 該招式的命中判定將會扣除指定數量的成功骰。
 關於更多詳情，請參見「勝利策略」章節。

@@ -4,6 +4,9 @@ weight: 1
 collapsible: true
 ---
 
+<a href='{{< relref path="data/pokedex/pokemon-generator" >}}'>[寶可夢產生器]</a>
+
+按地區分類：
 * <a href='{{< relref path="data/pokedex/pokedex-kanto" >}}'>關都地區</a>
 * <a href='{{< relref path="data/pokedex/" >}}'>城都地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-hoenn" >}}'>豐緣地區</a>
