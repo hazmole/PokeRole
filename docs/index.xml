@@ -1033,6 +1033,9 @@ Bug, Fight, Grass
 Electric, Rock, Steel
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Move");
+});</description></item><item><title>伽勒爾地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-galar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-galar/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
 });</description></item><item><title>幽靈屬性</title><link>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-ghost/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokemon-moves/moves-ghost/</guid><description>幽靈屬性 幽靈屬性的寶可夢透過牠們超自然的能量和詛咒來在敵人身上種下恐懼和痛苦。牠們潛伏在陰影之中，等待著從黑暗中現身的時刻，並把活物帶到神秘的地方去。
 這些招式讓幽靈屬性的寶可夢得以隨意出沒並襲擾他人，使受害者受到長時間的折磨。
 很多人會提到他們在醒來後發現身上多了新的傷口、疤痕、或感覺到有某種詭異的存在跟蹤著他們──那多半是這些小搗蛋鬼在作祟。

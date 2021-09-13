@@ -1,113 +1,725 @@
-<!doctype html><html lang=zhtw dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>勁敵系統（可選規則） – 寶可夢扮演2.0 Pokerole</title><script defer src=/PokeRole/js/customUtil.min.1ab45d7d052b407d45caa7c0af2e3ffe7952abc17a9d112cbc1bd8e25b0c46f1.js></script><script defer src=/PokeRole/js/iconParser.min.93edc1163c9cffaa047d04df5de73c5f6d27f36c995e9323c58f8b0f411356d8.js></script><script defer src=/PokeRole/js/customBuilder.min.a7dbb65fa31e3dbc6cb3fea53eb09a2e7182a01413d42326b914c4f69df5f5e6.js></script><script defer src=/PokeRole/js/customSearch.min.2078a2c634782da086b1472cb1e247f5835045737f50f782ca35b498b6f0c2a5.js></script><script defer src=/PokeRole/js/pokemonGenerator.min.3c584b768918380fdd066ce92aaa565f4959cac681c4efa3246c3d71c151ef1c.js></script><script defer src=/PokeRole/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js></script><script src=/PokeRole/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js></script><script defer src=/PokeRole/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js></script><script defer src=/PokeRole/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js></script><script defer src=/PokeRole/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js></script><script>"use strict";window.onload=function(){var languagedir=JSON.parse("\"ltr\"");var baseurl=JSON.parse("\"https://hazmole.github.io/PokeRole\"");var permalink=JSON.parse("\"https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/\"");var toggleSidebarElem=document.getElementById("toggle-sidebar");var toggleMenuElem=document.getElementById("toggle-menu");var tocBodyElem=document.querySelector('.toc__body');var tocLabelElem=document.querySelector('.toc__label');var listMainElem=document.getElementById('list-main');var listSideElem=document.getElementById('list-side');var singleMenuElem=document.getElementById('single-menu');var sliderIcons=document.querySelectorAll('.slider__icon');toggleSidebarElem?toggleSidebarElem.addEventListener('change',function(e){if(e.target.checked){if(tocBodyElem){fadeIn(tocBodyElem,200);}
-if(tocLabelElem){fadeIn(tocLabelElem,200);}
-if(listMainElem&&listSideElem){listMainElem.className='m';listSideElem.className='r';}
-sliderIcons&&sliderIcons.forEach(function(elem){if(elem.classList.contains('hide')){elem.classList.remove('hide');}else{elem.classList.add('hide');}});}else{if(tocBodyElem){fadeOut(tocBodyElem,200);}
-if(tocLabelElem){fadeOut(tocLabelElem,200);}
-if(listMainElem&&listSideElem){listMainElem.className='mr';listSideElem.className='hide';}
-sliderIcons&&sliderIcons.forEach(function(elem){if(elem.classList.contains('hide')){elem.classList.remove('hide');}else{elem.classList.add('hide');}});}}):null;toggleMenuElem?toggleMenuElem.addEventListener('change',function(e){if(e.target.checked){if(listMainElem&&singleMenuElem){listMainElem.className='m';singleMenuElem.className='l';}
-sliderIcons&&sliderIcons.forEach(function(elem){if(elem.classList.contains('hide')){elem.classList.remove('hide');}else{elem.classList.add('hide');}});}else{if(listMainElem&&singleMenuElem){listMainElem.className='lm';singleMenuElem.className='hide';}
-sliderIcons&&sliderIcons.forEach(function(elem){if(elem.classList.contains('hide')){elem.classList.remove('hide');}else{elem.classList.add('hide');}});}}):null;var navCollapseBtn=document.getElementById('navCollapseBtn');navCollapseBtn?navCollapseBtn.addEventListener('click',function(e){var navCollapse=document.querySelector('.navbar__collapse');if(navCollapse){var dataOpen=navCollapse.getAttribute('data-open');if(dataOpen==='true'){navCollapse.setAttribute('data-open','false');navCollapse.style.maxHeight=0;}else{navCollapse.setAttribute('data-open','true');navCollapse.style.maxHeight=navCollapse.scrollHeight+"px";}}}):null;var expandBtn=document.querySelectorAll('.expand__button');for(let i=0;i<expandBtn.length;i++){expandBtn[i].addEventListener("click",function(){var content=this.nextElementSibling;if(content.style.maxHeight){content.style.maxHeight=null;this.querySelector('svg').classList.add('expand-icon__right');this.querySelector('svg').classList.remove('expand-icon__down');}else{content.style.maxHeight=content.scrollHeight+"px";this.querySelector('svg').classList.remove('expand-icon__right');this.querySelector('svg').classList.add('expand-icon__down');}});}
-document.querySelectorAll('.tab')?document.querySelectorAll('.tab').forEach(function(elem,idx){var containerId=elem.getAttribute('id');var containerElem=elem;var tabLinks=elem.querySelectorAll('.tab__link');var tabContents=elem.querySelectorAll('.tab__content');var ids=[];tabLinks&&tabLinks.length>0?tabLinks.forEach(function(link,index,self){link.onclick=function(e){for(var i=0;i<self.length;i++){if(index===parseInt(i,10)){if(!self[i].classList.contains('active')){self[i].classList.add('active');tabContents[i].style.display='block';}}else{self[i].classList.remove('active');tabContents[i].style.display='none';}}}}):null;}):null;document.querySelectorAll('.codetab')?document.querySelectorAll('.codetab').forEach(function(elem,idx){var containerId=elem.getAttribute('id');var containerElem=elem;var codetabLinks=elem.querySelectorAll('.codetab__link');var codetabContents=elem.querySelectorAll('.codetab__content');var ids=[];codetabLinks&&codetabLinks.length>0?codetabLinks.forEach(function(link,index,self){link.onclick=function(e){for(var i=0;i<self.length;i++){if(index===parseInt(i,10)){if(!self[i].classList.contains('active')){self[i].classList.add('active');codetabContents[i].style.display='block';}}else{self[i].classList.remove('active');codetabContents[i].style.display='none';}}}}):null;}):null;var enableDarkMode=JSON.parse("true");var root=document.getElementById('root');var toggleToLightBtn=document.getElementById('toggleToLight');var toggleToDarkBtn=document.getElementById('toggleToDark');if(!enableDarkMode){root.className='theme__light';localStorage.setItem('theme','light');}
-if(toggleToDarkBtn){toggleToDarkBtn.onclick=function(e){root.className='theme__dark';localStorage.setItem('theme','dark');toggleToLightBtn.className='navbar__icons--icon';toggleToDarkBtn.className='hide';}}
-if(toggleToLightBtn){toggleToLightBtn.onclick=function(e){root.className='theme__light';localStorage.setItem('theme','light');toggleToLightBtn.className='hide';toggleToDarkBtn.className='navbar__icons--icon';}}
-document.querySelectorAll('.menu__list').forEach(function(elem){if(elem.classList.contains('active')){elem.style.maxHeight=elem.scrollHeight+"px";}});document.querySelectorAll('.menu__title--collapse').forEach(function(elem){elem.addEventListener('click',function(e){var content=this.nextElementSibling;var menuTitleIcon=this.querySelector('.menu__title--icon');if(!content){return null;}
-var parent=elem.parentNode;while(parent.classList.contains('menu__list')&&parent.classList.contains('active')){parent.style.maxHeight=100*parent.children.length+"px";parent=parent.parentNode;}
-if(content.style.maxHeight){content.style.maxHeight=null;content.classList.remove('active');menuTitleIcon.classList.add('right');if(languagedir==='rtl'){menuTitleIcon.classList.remove('downrtl');}else{menuTitleIcon.classList.remove('down');}}else{content.style.maxHeight=content.scrollHeight+"px";content.classList.add('active');menuTitleIcon.classList.remove('right');if(languagedir==='rtl'){menuTitleIcon.classList.add('downrtl');}else{menuTitleIcon.classList.add('down');}}});});var mobileLogo=document.getElementById('mobileLogo');var modal=document.getElementById("myModal");var drawer=document.getElementById('myDrawer');var drawerCloseBtn=document.querySelector('.drawer__close');var openDrawer=function(){modal.style.opacity=1;if(languagedir==='rtl'){modal.style.right=0;drawer.style.right=0;}else{modal.style.left=0;drawer.style.left=0;}}
-var closeDrawer=function(){modal.style.opacity=0;if(languagedir==='rtl'){drawer.style.right='-100%';}else{drawer.style.left='-100%';}
-setTimeout(function(){if(languagedir==='rtl'){modal.style.right='-100%';}else{modal.style.left='-100%';}},250);}
-mobileLogo.onclick=function(){openDrawer();localStorage.setItem('isDrawerOpen','true');}
-modal.onclick=function(){closeDrawer();localStorage.setItem('isDrawerOpen','false');}
-drawerCloseBtn.onclick=function(){closeDrawer();localStorage.setItem('isDrawerOpen','false');}
-var lastScrollTop=window.pageYOffset||document.documentElement.scrollTop;var tocElem=document.querySelector('.toc');var tableOfContentsElem=tocElem?tocElem.querySelector('#TableOfContents'):null;var singleContentsElem=document.querySelector('.single__contents');var dataBGImgs=document.querySelectorAll('div[data-bgimg]');var tocLevels=JSON.parse("[\"h2\",\"h3\",\"h4\"]");if(tocLevels){tocLevels=tocLevels.toString();}else{tocLevels="h1, h2, h3, h4, h5, h6";}
-var isLandingBgImg=JSON.parse("null");var isHome=JSON.parse("false");function setNavbarBG(scrollTop){if(isHome&&isLandingBgImg&&Object.keys(isLandingBgImg).length){if(isLandingBgImg.height<=scrollTop){dataBGImgs.forEach(function(elem){elem.setAttribute('data-bgimg','false');});}else{dataBGImgs.forEach(function(elem){elem.setAttribute('data-bgimg','true');});}}}
-setNavbarBG(lastScrollTop);window.onscroll=onScrollFunc;function onScrollFunc(isRefresh){if(isRefresh){singleContentsElem=document.querySelector('.single__contents');}
-var st=window.pageYOffset||document.documentElement.scrollTop;if(st>lastScrollTop){singleContentsElem?singleContentsElem.querySelectorAll(tocLevels.toString()).forEach(function(elem){if(document.documentElement.scrollTop>=elem.offsetTop){if(tableOfContentsElem){var id=elem.getAttribute('id');tocElem.querySelectorAll('a').forEach(function(elem){elem.classList.remove('active');});tocElem.querySelector('a[href="#'+id+'"]')?tocElem.querySelector('a[href="#'+id+'"]').classList.add('active'):null;}}}):null;setNavbarBG(st);}else{singleContentsElem?singleContentsElem.querySelectorAll(tocLevels.toString()).forEach(function(elem){if(document.documentElement.scrollTop>=elem.offsetTop){if(tableOfContentsElem){var id=elem.getAttribute('id');tocElem.querySelectorAll('a').forEach(function(elem){elem.classList.remove('active');});tocElem.querySelector('a[href="#'+id+'"]')?tocElem.querySelector('a[href="#'+id+'"]').classList.add('active'):null;}}}):null;setNavbarBG(st);}
-lastScrollTop=st<=0?0:st;};var mobileSearchInputElem=document.querySelector('#search-mobile');var mobileSearchClassElem=document.querySelector('.mobile-search');var mobileSearchBtnElem=document.querySelector('#mobileSearchBtn');var mobileSearchCloseBtnElem=document.querySelector('#search-mobile-close');var mobileSearchContainer=document.querySelector('#search-mobile-container');var mobileSearchResultsElem=document.querySelector('#search-mobile-results');var htmlElem=document.querySelector('html');if(mobileSearchClassElem){mobileSearchClassElem.style.display='none';}
-mobileSearchBtnElem?mobileSearchBtnElem.addEventListener('click',function(){if(mobileSearchContainer){mobileSearchContainer.style.display='block';}
-if(mobileSearchInputElem){mobileSearchInputElem.focus();}
-if(htmlElem){htmlElem.style.overflowY='hidden';}}):null;mobileSearchCloseBtnElem?mobileSearchCloseBtnElem.addEventListener('click',function(){if(mobileSearchContainer){mobileSearchContainer.style.display='none';}
-if(mobileSearchInputElem){mobileSearchInputElem.value='';}
-if(mobileSearchResultsElem){while(mobileSearchResultsElem.firstChild){mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);}}
-if(htmlElem){htmlElem.style.overflowY='visible';}}):null;mobileSearchInputElem?mobileSearchInputElem.addEventListener('keydown',function(e){if(e.key==='Escape'){if(mobileSearchContainer){mobileSearchContainer.style.display='none';}
-if(mobileSearchInputElem){mobileSearchInputElem.value='';}
-if(mobileSearchResultsElem){while(mobileSearchResultsElem.firstChild){mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);}}
-if(htmlElem){htmlElem.style.overflowY='visible';}}}):null;var localTheme=localStorage.getItem('theme');var rootEleme=document.getElementById('root');var selectThemeElem=document.querySelectorAll('.select-theme');var selectThemeItemElem=document.querySelectorAll('.select-theme__item');if(localTheme){selectThemeItemElem?selectThemeItemElem.forEach(function(elem){if(elem.text.trim()===localTheme){elem.classList.add('is-active');}else{elem.classList.remove('is-active');}}):null;}
-selectThemeItemElem?selectThemeItemElem.forEach(function(v,i){v.addEventListener('click',function(e){var selectedThemeVariant=e.target.text.trim();localStorage.setItem('theme',selectedThemeVariant);rootEleme.removeAttribute('class');rootEleme.classList.add(`theme__${selectedThemeVariant}`);selectThemeElem.forEach(function(rootElem){rootElem.querySelectorAll('a').forEach(function(elem){if(elem.classList){if(elem.text.trim()===selectedThemeVariant){if(!elem.classList.contains('is-active')){elem.classList.add('is-active');}}else{if(elem.classList.contains('is-active')){elem.classList.remove('is-active');}}}});});if(window.mermaid){if(selectedThemeVariant==="dark"||selectedThemeVariant==="hacker"){mermaid.initialize({theme:'dark'});location.reload();}else{mermaid.initialize({theme:'default'});location.reload();}}
-var utterances=document.querySelector('iframe');if(utterances){utterances.contentWindow.postMessage({type:'set-theme',theme:selectedThemeVariant==="dark"||selectedThemeVariant==="hacker"?'photon-dark':selectedThemeVariant==='kimbie'?'github-dark-orange':'github-light',},'https://utteranc.es');}});}):null;var langprefix=JSON.parse("\"\"");var searchResults=null;var searchMenu=null;var searchText=null;var enableSearchHighlight=JSON.parse("true");var enableSearch=JSON.parse("true");var fuse=null;if(enableSearch){(function initFuse(){var xhr=new XMLHttpRequest();xhr.open('GET',baseurl+langprefix+"/index.json");xhr.setRequestHeader('Content-Type','application/json; charset=utf-8');xhr.onload=function(){if(xhr.status===200){fuse=new Fuse(JSON.parse(xhr.response.toString('utf-8')),{keys:['title','description','content'],includeMatches:enableSearchHighlight,shouldSort:true,threshold:0.4,location:0,distance:100,maxPatternLength:32,minMatchCharLength:1,});}
-else{console.error(`[${xhr.status}]Error:`,xhr.statusText);}};xhr.send();})();}
-function makeLi(ulElem,obj){var li=document.createElement('li');li.className='search-result__item';var a=document.createElement('a');a.innerHTML=obj.title;a.setAttribute('class','search-result__item--title');a.setAttribute('href',obj.permalink);var descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');if(obj.description){descDiv.innerHTML=obj.description;}else if(obj.content){descDiv.innerHTML=obj.content.substring(0,80);}
-li.appendChild(a);li.appendChild(descDiv);ulElem.appendChild(li);}
-function makeHighlightLi(ulElem,obj){var li=document.createElement('li');li.className='search-result__item';var descDiv=null;var a=document.createElement('a');a.innerHTML=obj.item.title;a.setAttribute('class','search-result__item--title');a.setAttribute('href',obj.item.uri);if(obj.matches&&obj.matches.length){for(var i=0;i<obj.matches.length;i++){if('title'===obj.matches[i].key){a=document.createElement('a');a.innerHTML=generateHighlightedText(obj.matches[i].value,obj.matches[i].indices);a.setAttribute('class','search-result__item--title');a.setAttribute('href',obj.item.uri);}
-if('description'===obj.matches[i].key){descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=generateHighlightedText(obj.item.description,obj.matches[i].indices);}else if('content'===obj.matches[i].key){if(!descDiv){descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=generateHighlightedText(obj.item.content.substring(0,80),obj.matches[i].indices);}}else{if(obj.item.description){descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=obj.item.description;}else{descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=obj.item.content.substring(0,80);}}}
-li.appendChild(a);if(descDiv){li.appendChild(descDiv);}
-if(li){ulElem.appendChild(li);}}}
-function renderSearchResults(searchText,results){searchResults=document.getElementById('search-results');searchMenu=document.getElementById('search-menu');searchResults.setAttribute('class','dd is-active');var ul=document.createElement('ul');ul.setAttribute('class','dd-content search-content');if(results.length){results.forEach(function(result){var li=document.createElement('li');var a=document.createElement('a');a.setAttribute('href',result.uri);a.setAttribute('class','dd-item');a.appendChild(li);var titleDiv=document.createElement('div');titleDiv.innerHTML=result.title;titleDiv.setAttribute('class','search-result__item--title');var descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');if(result.description){descDiv.innerHTML=result.description;}else if(result.content){descDiv.innerHTML=result.content.substring(0,80);}
-li.appendChild(titleDiv);li.appendChild(descDiv);ul.appendChild(a);});}else{var li=document.createElement('li');li.setAttribute('class','dd-item');li.innerText='No results found';ul.appendChild(li);}
-while(searchMenu.hasChildNodes()){searchMenu.removeChild(searchMenu.lastChild);}
-searchMenu.appendChild(ul);}
-function renderSearchHighlightResults(searchText,results){searchResults=document.getElementById('search-results');searchMenu=document.getElementById('search-menu');searchResults.setAttribute('class','dd is-active');var ul=document.createElement('ul');ul.setAttribute('class','dd-content search-content');if(results.length){results.forEach(function(result){var li=document.createElement('li');var a=document.createElement('a');var descDiv=null;a.setAttribute('href',result.item.uri);a.setAttribute('class','dd-item');a.appendChild(li);var titleDiv=document.createElement('div');titleDiv.innerHTML=result.item.title;titleDiv.setAttribute('class','search-result__item--title');if(result.matches&&result.matches.length){for(var i=0;i<result.matches.length;i++){if('title'===result.matches[i].key){titleDiv.innerHTML=generateHighlightedText(result.matches[i].value,result.matches[i].indices);}
-if('description'===result.matches[i].key){descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=generateHighlightedText(result.item.description,result.matches[i].indices);}else if('content'===result.matches[i].key){if(!descDiv){descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=generateHighlightedText(result.item.content.substring(0,80),result.matches[i].indices);}}else{if(result.item.description){descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=result.item.description;}else{descDiv=document.createElement('div');descDiv.setAttribute('class','search-result__item--desc');descDiv.innerHTML=result.item.content.substring(0,80);}}}
-li.appendChild(titleDiv);if(descDiv){li.appendChild(descDiv);}
-ul.appendChild(a);}});}else{var li=document.createElement('li');li.setAttribute('class','dd-item');li.innerText='No results found';ul.appendChild(li);}
-while(searchMenu.hasChildNodes()){searchMenu.removeChild(searchMenu.lastChild);}
-searchMenu.appendChild(ul);}
-function renderSearchResultsMobile(searchText,results){searchResults=document.getElementById('search-mobile-results');var content=document.createElement('div');content.setAttribute('class','mobile-search__content');if(results.length>0){results.forEach(function(result){var item=document.createElement('a');item.setAttribute('href',result.uri);item.innerHTML='<div class="mobile-search__item"><div class="mobile-search__item--title">📄 '+result.title+'</div><div class="mobile-search__item--desc">'+(result.description?result.description:result.content)+'</div></div>';content.appendChild(item);});}else{var item=document.createElement('span');content.appendChild(item);}
-let wrap=document.getElementById('search-mobile-results');while(wrap.firstChild){wrap.removeChild(wrap.firstChild)}
-searchResults.appendChild(content);}
-function renderSearchHighlightResultsMobile(searchText,results){searchResults=document.getElementById('search-mobile-results');var ul=document.createElement('div');ul.setAttribute('class','mobile-search__content');if(results.length){results.forEach(function(result){var li=document.createElement('li');var a=document.createElement('a');var descDiv=null;a.setAttribute('href',result.item.uri);a.appendChild(li);li.setAttribute('class','mobile-search__item');var titleDiv=document.createElement('div');titleDiv.innerHTML=result.item.title;titleDiv.setAttribute('class','mobile-search__item--title');if(result.matches&&result.matches.length){for(var i=0;i<result.matches.length;i++){if('title'===result.matches[i].key){titleDiv.innerHTML=generateHighlightedText(result.matches[i].value,result.matches[i].indices);}
-if('description'===result.matches[i].key){descDiv=document.createElement('div');descDiv.setAttribute('class','mobile-search__item--desc');descDiv.innerHTML=generateHighlightedText(result.item.description,result.matches[i].indices);}else if('content'===result.matches[i].key){if(!descDiv){descDiv=document.createElement('div');descDiv.setAttribute('class','mobile-search__item--desc');descDiv.innerHTML=generateHighlightedText(result.item.content.substring(0,150),result.matches[i].indices);}}else{if(result.item.description){descDiv=document.createElement('div');descDiv.setAttribute('class','mobile-search__item--desc');descDiv.innerHTML=result.item.description;}else{descDiv=document.createElement('div');descDiv.setAttribute('class','mobile-search__item--desc');descDiv.innerHTML=result.item.content.substring(0,150);}}}
-li.appendChild(titleDiv);if(descDiv){li.appendChild(descDiv);}
-ul.appendChild(a);}});}else{var item=document.createElement('span');ul.appendChild(item);}
-let wrap=document.getElementById('search-mobile-results');while(wrap.firstChild){wrap.removeChild(wrap.firstChild)}
-searchResults.appendChild(ul);}
-function generateHighlightedText(text,regions){if(!regions){return text;}
-var content='',nextUnhighlightedRegionStartingIndex=0;regions.forEach(function(region){if(region[0]===region[1]){return null;}
-content+=''+
-text.substring(nextUnhighlightedRegionStartingIndex,region[0])+
-'<span class="search__highlight">'+
-text.substring(region[0],region[1]+1)+
-'</span>'+
-'';nextUnhighlightedRegionStartingIndex=region[1]+1;});content+=text.substring(nextUnhighlightedRegionStartingIndex);return content;};var searchElem=document.getElementById('search');var searchMobile=document.getElementById('search-mobile');var searchResultsContainer=document.getElementById('search-results');searchElem?searchElem.addEventListener('input',function(e){if(!e.target.value|window.innerWidth<770){searchResultsContainer?searchResultsContainer.setAttribute('class','dd'):null;return null;}
-searchText=e.target.value;var results=fuse.search(e.target.value);if(enableSearchHighlight){renderSearchHighlightResults(searchText,results);}else{renderSearchResults(searchText,results);}
-var dropdownItems=searchResultsContainer.querySelectorAll('.dd-item');dropdownItems?dropdownItems.forEach(function(item){item.addEventListener('mousedown',function(e){e.target.click();});}):null;}):null;searchElem?searchElem.addEventListener('blur',function(){if(window.innerWidth<770){return null;}
-searchResultsContainer?searchResultsContainer.setAttribute('class','dd'):null;}):null;searchElem?searchElem.addEventListener('click',function(e){if(window.innerWidth<770){return null;}
-if(!e.target.value){searchResultsContainer?searchResultsContainer.setAttribute('class','dd'):null;return null;}
-searchText=e.target.value;var results=fuse.search(e.target.value);if(enableSearchHighlight){renderSearchHighlightResults(searchText,results);}else{renderSearchResults(searchText,results);}
-var dropdownItems=searchResultsContainer.querySelectorAll('.dd-item');dropdownItems?dropdownItems.forEach(function(item){item.addEventListener('mousedown',function(e){e.target.click();});}):null;}):null;var searchMenuElem=document.getElementById("search-menu");var activeItem=document.querySelector('#search-menu .dd-item.is-active');var activeIndex=null;var items=null;var searchContainerMaxHeight=350;searchElem?searchElem.addEventListener('keydown',function(e){if(window.innerWidth<770){return null;}
-var items=document.querySelectorAll('#search-menu .dd-item');if(e.key==='ArrowDown'){if(activeIndex===null){activeIndex=0;items[activeIndex].classList.remove('is-active');}else{items[activeIndex].classList.remove('is-active');activeIndex=activeIndex===items.length-1?0:activeIndex+1;}
-items[activeIndex].classList.add('is-active');let overflowedPixel=items[activeIndex].offsetTop+items[activeIndex].clientHeight-searchContainerMaxHeight;if(overflowedPixel>0){document.querySelector(".search-content").scrollTop+=items[activeIndex].getBoundingClientRect().height;}else if(activeIndex===0){document.querySelector(".search-content").scrollTop=0;}}else if(e.key==='ArrowUp'){if(activeIndex===null){activeIndex=items.length-1;items[activeIndex].classList.remove('is-active');}else{items[activeIndex].classList.remove('is-active');activeIndex=activeIndex===0?items.length-1:activeIndex-1;}
-items[activeIndex].classList.add('is-active');let overflowedPixel=items[activeIndex].offsetTop+items[activeIndex].clientHeight-searchContainerMaxHeight;if(overflowedPixel<0){document.querySelector(".search-content").scrollTop-=items[activeIndex].getBoundingClientRect().height;}else{document.querySelector(".search-content").scrollTop=overflowedPixel+items[activeIndex].getBoundingClientRect().height;}}else if(e.key==='Enter'){var currentItemLink=items[activeIndex].getAttribute('href');if(currentItemLink){location.href=currentItemLink;}}else if(e.key==='Escape'){e.target.value=null;if(searchResults){searchResults.classList.remove('is-active');}}}):null;searchMobile?searchMobile.addEventListener('input',function(e){if(!e.target.value){let wrap=document.getElementById('search-mobile-results');while(wrap.firstChild){wrap.removeChild(wrap.firstChild);}
-return null;}
-searchText=e.target.value;var results=fuse.search(e.target.value);if(enableSearchHighlight){renderSearchHighlightResultsMobile(searchText,results);}else{renderSearchResultsMobile(searchText,results);}
-var dropdownItems=searchResultsContainer.querySelectorAll('.dd-item');dropdownItems?dropdownItems.forEach(function(item){item.addEventListener('mousedown',function(e){e.target.click();});}):null;}):null;}</script><script type=text/javascript>var i18n={"bug":"蟲","dark":"惡","dragon":"龍","electric":"電","fairy":"妖精","fight":"格鬥","fire":"火","flying":"飛行","ghost":"幽靈","grass":"草","ground":"地面","ice":"冰","normal":"一般","poison":"毒","psychic":"超能力","rock":"岩石","steel":"鋼","water":"水","any":"(任意)","none":"無","can-not-found":"找不到結果","move_physical":"物理招式","move_special":"特殊招式","move_support":"變化招式",};var ROOTPATH="https://hazmole.github.io/PokeRole";console.log(i18n);</script><link rel=stylesheet href=/PokeRole/css/main.min.css><link rel=stylesheet href=/PokeRole/css/theme-modify.min.css><link rel=stylesheet href=/PokeRole/css/custom.min.css><link rel=stylesheet href=/PokeRole/css/icon.min.css><meta name=description content><meta name=keywords content><meta name=created content="0001-01-01T00:00:00+0000"><meta name=modified content="0001-01-01T00:00:00+0000"><meta property="og:site_name" content="寶可夢扮演2.0 Pokerole"><meta property="og:title" content="勁敵系統（可選規則）"><meta property="og:url" content="https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/"><meta property="og:type" content="article"><meta name=generator content="Hugo 0.80.0"><meta name=msapplication-TileColor content="#ffffff"><meta name=theme-color content="#ffffff"><link rel=canonical href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><link rel=manifest href=/PokeRole/manifest.json><link rel=apple-touch-icon sizes=57x57 href=/PokeRole/favicon/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/PokeRole/favicon/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/PokeRole/favicon/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/PokeRole/favicon/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/PokeRole/favicon/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/PokeRole/favicon/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/PokeRole/favicon/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/PokeRole/favicon/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/PokeRole/favicon/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/PokeRole/favicon/android-icon-192x192.png><link rel=icon type=image/png sizes=192x192 href=/PokeRole/favicon/android-icon-512x512.png><link rel=icon type=image/png sizes=32x32 href=/PokeRole/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/PokeRole/favicon/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/PokeRole/favicon/favicon-16x16.png><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/ms-icon-144x144.png"><script type=application/ld+json>{"@context":"https://schema.org","@type":"WebPage","headline":"勁敵系統（可選規則）","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","url":"https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/","description":"勁敵系統（可選規則） 俗話說：「你表現越好，就有越多人希望看到你失敗」。而你的勁敵就是這群人中最糟糕的那一個。 無論好壞，無論相熟已否，勁敵總是領先你一步，他們在你行走的道路上出現，提醒著你無論你多麼努力，你也永遠無法像他們一樣優秀。 你的勁敵不僅僅是個需要克服的障礙，他們的存在或許描繪出了一個與你角色相同但卻往錯誤方向發展的本質；或者， …","mainEntityOfPage":{"@type":"WebPage","@id":"https://hazmole.github.io/PokeRole"},"publisher":{"@type":"Organization","name":"寶可夢扮演2.0 Pokerole","url":"https://hazmole.github.io/PokeRole"}}</script></head><body id=root class=theme__dark><script>var rootElem=document.getElementById('root');var themeOptions=JSON.parse("[\"dark\"]");var localTheme=localStorage.getItem('theme');if(localTheme){if(themeOptions&&themeOptions.length>0){themeOptions.includes(localTheme)?rootElem.className=`theme__${localTheme}`:rootElem.className=`theme__${themeOptions[0]}`;}}</script><div id=container><div id=myDrawer class=drawer><div class=drawer__header><a href=/PokeRole class=drawer__header--text>寶可夢扮演 Pokerole</a><div class=grow></div><div class=drawer__close><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M18.3 5.71c-.39-.39-1.02-.39-1.41.0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02.0 1.41s1.02.39 1.41.0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02.0-1.4z"/></svg></div></div><div class=drawer__body><div class=menu><ul><li><a href=https://hazmole.github.io/PokeRole/docs/introduction/ class=menu__title>介紹</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/the-world/ class=menu__title>神奇的寶可夢世界</a></li><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/starting-the-game/><span class=menu__title--collapse-text>開始遊戲</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/starting-the-game/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/ class=menu__title data-depth=0>創建角色</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/ class=menu__title data-depth=0>創建寶可夢</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/ class=menu__title data-depth=0>心理/生理/社交特質</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/ class=menu__title data-depth=0>技能</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/ class=menu__title data-depth=0>生命值與意志點</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/ class=menu__title data-depth=0>幸福度與忠誠度</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/ class=menu__title data-depth=0>擲骰判定</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/ class=menu__title data-depth=0>階級</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/ class=menu__title data-depth=0>創作故事</a></li></ul><li><a href=https://hazmole.github.io/PokeRole/docs/natures/ class=menu__title>性格</a></li><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-battle/><span class=menu__title--collapse-text>寶可夢戰鬥</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/pokemon-battle/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/ class=menu__title data-depth=0>不同的寶可夢屬性</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/ class=menu__title data-depth=0>如何戰鬥</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/ class=menu__title data-depth=0>傷害</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/ class=menu__title data-depth=0>多重行動 (可選)</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/ class=menu__title data-depth=0>勝利策略</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/ class=menu__title data-depth=0>天氣狀態 & 環境</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/ class=menu__title data-depth=0>異常狀態</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/ class=menu__title data-depth=0>總結</a></li></ul><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-contest/><span class=menu__title--collapse-text>寶可夢華麗大賽</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/pokemon-contest/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/ class=menu__title data-depth=0>華麗大賽介紹</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/ class=menu__title data-depth=0>華麗大賽的構成</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/ class=menu__title data-depth=0>華麗大賽的流程</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/ class=menu__title data-depth=0>協調訓練家階級</a></li></ul><li><a href=https://hazmole.github.io/PokeRole/docs/catching-pokemon/ class=menu__title>收服寶可夢</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/training-pokemon/ class=menu__title>訓練寶可夢</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/items-for-the-journey/ class=menu__title>旅途中的道具</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokedex/ class=menu__title>寶可夢圖鑑</a></li><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-moves/><span class=menu__title--collapse-text>寶可夢招式</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/pokemon-moves/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/ class=menu__title data-depth=0>招式的規則</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/ class=menu__title data-depth=0>招式效果標誌</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/ class=menu__title data-depth=0>Z招式</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/ class=menu__title data-depth=0>極巨招式</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/ class=menu__title data-depth=0>常見問題</a></li></ul><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-abilities/ class=menu__title>寶可夢特性</a></li><li class="menu__title--collapse active" data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/challenges-ahead/><span class=menu__title--collapse-text>面對挑戰</span>
-<span class="menu__title--icon down"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class="menu__list active" data-data=/challenges-ahead/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/session-settings/ class=menu__title data-depth=0>劇情設計</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/ class="menu__title active" data-depth=0>勁敵系統（可選規則）</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/ class=menu__title data-depth=0>征服寶可夢聯盟</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/ class=menu__title data-depth=0>超級進化的力量</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/ class=menu__title data-depth=0>英雄巡禮與Z招式</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/myths-and-legends/ class=menu__title data-depth=0>神話與傳說</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/legendary-ranking/ class=menu__title data-depth=0>傳說階級（可選規則）</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/ class=menu__title data-depth=0>超極巨聯盟</a></li></ul></ul></div><script>var menuTitle=document.querySelectorAll('.menu__title');var modal=document.getElementById("myModal");var drawer=document.getElementById('myDrawer');var closeDrawer=function(){setTimeout(function(){modal.style.opacity=0;drawer.style.left='-100%';modal.style.left='-100%';},250);}
-menuTitle?menuTitle.forEach(function(elem){elem.onclick=function(){closeDrawer();localStorage.setItem('isDrawerOpen','false');}}):null;</script></div></div><div id=myModal class=modal></div><script>var isDrawerOpen=localStorage.getItem('isDrawerOpen');var modal=document.getElementById("myModal");var drawer=document.getElementById('myDrawer');var languagedir=JSON.parse("\"ltr\"");var openDrawer=function(){modal.style.opacity=1;if(languagedir==="rtl"){modal.style.right=0;drawer.style.right=0;}else{modal.style.left=0;drawer.style.left=0;}}
-if(isDrawerOpen&&isDrawerOpen==='true'){openDrawer();}</script><nav class=nav><div class=navbar__wrapper data-bgimg=false><div class=divider><div class="navbar lmr"><div id=siteLogo class=navbar__logo--wrapper><a href=/PokeRole/ rel=home class=navbar__logo--link><img src=/PokeRole/logo.png alt=Home class=navbar__logo></a>
-<a href=/PokeRole/ rel=home class=navbar__logo--text-link><h6 class=navbar__logo--text data-bgimg=false>寶可夢扮演 Pokerole</h6></a></div><div class=navbar__menu--wrapper><div id=tabletLogo class=hide><a href=/PokeRole/ rel=home class=navbar__logo--link><img src=/PokeRole/logo.png alt=Home class=navbar__logo></a></div><div id=mobileLogo class=hide><a href=# class=navbar__logo--link><div class=navbar__icons--icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M4 18h16c.55.0 1-.45 1-1s-.45-1-1-1H4c-.55.0-1 .45-1 1s.45 1 1 1zm0-5h16c.55.0 1-.45 1-1s-.45-1-1-1H4c-.55.0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55.0 1-.45 1-1s-.45-1-1-1H4c-.55.0-1 .45-1 1z"/></svg></div></a></div><span id=navMenuMobile class=hide><button id=navCollapseBtn class=navbar__dropdown--title aria-label="Section Menu" data-dir=ltr>
-寶可夢扮演2.0 Pokerole<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentcolor" d="M8.12 9.29 12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41.0s.39 1.02.0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41.0L6.7 10.7c-.39-.39-.39-1.02.0-1.41.39-.38 1.03-.39 1.42.0z"/></svg></button><div class=navbar__collapse data-open=false><ul><li class="navbar__menu--mobile-item active"><a href=/PokeRole/docs class=active>遊戲規則</a></li><li class=navbar__menu--mobile-item><a href=/PokeRole/data>資料一覽</a></li><li class=navbar__menu--mobile-item><a href="https://docs.google.com/spreadsheets/d/1IQGBW50eJtib8fq7IgLVlzFxzwfhNs-5cpjy0WOu9XI/edit#gid=0">線上角色卡</a></li></ul></div></span><ul id=navMenu class=navbar__menu><li class="navbar__menu--item active"><a href=/PokeRole/docs data-bgimg=false>遊戲規則</a></li><li class=navbar__menu--item><a href=/PokeRole/data data-bgimg=false>資料一覽</a></li><li class=navbar__menu--item><a href="https://docs.google.com/spreadsheets/d/1IQGBW50eJtib8fq7IgLVlzFxzwfhNs-5cpjy0WOu9XI/edit#gid=0" data-bgimg=false>線上角色卡</a></li></ul></div><div class=grow></div><div id=siteSearch><div class=search data-bgimg=false><span class=icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentcolor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49.0s.41-1.08.0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></span><input id=search aria-label="Site Search" class=input type=text autocomplete=off placeholder=Search><div id=search-results class=dropdown><div id=search-menu class=dropdown-menu></div></div></div></div><div id=mobileSearch class=hide><div id=mobileSearchBtn class=mobile-search__btn><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentcolor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49.0s.41-1.08.0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></div><div id=search-mobile-container class="mobile-search hide"><div class=mobile-search__top><input id=search-mobile type=text aria-label="Mobile Search" placeholder=Search... class=mobile-search__top--input><div id=search-mobile-close class=mobile-search__top--icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41.0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg></div></div><div id=search-mobile-results class=mobile-search__body></div></div></div><div class=navbar__icons></div></div></div></div></nav><script>var siteLogo=document.getElementById('siteLogo');var tabletLogo=document.getElementById('tabletLogo');var mobileLogo=document.getElementById('mobileLogo');var navMenu=document.getElementById('navMenu');var navMenuMobile=document.getElementById('navMenuMobile');var siteSearch=document.getElementById('siteSearch');var mobileSearch=document.getElementById('mobileSearch');enquire.register("screen and (max-width:1280px)",{match:function(){siteLogo.className='navbar__logo--wrapper';tabletLogo.className='hide';mobileLogo.className='hide';navMenu.className='navbar__menu';navMenuMobile.className='hide';siteSearch.className='';mobileSearch.className='hide';},unmatch:function(){siteLogo.className='navbar__logo--wrapper';tabletLogo.className='hide';mobileLogo.className='hide';navMenu.className='navbar__menu';navMenuMobile.className='hide';siteSearch.className='';mobileSearch.className='hide';},}).register("screen and (max-width:960px)",{match:function(){siteLogo.className='hide';tabletLogo.className='';mobileLogo.className='hide';navMenu.className='navbar__menu';navMenuMobile.className='hide';siteSearch.className='hide';mobileSearch.className='navbar__icons--icon';},unmatch:function(){siteLogo.className='navbar__logo--wrapper';tabletLogo.className='hide';mobileLogo.className='hide';navMenu.className='navbar__menu';navMenuMobile.className='hide';siteSearch.className='';mobileSearch.className='hide';},}).register("screen and (max-width:600px)",{match:function(){siteLogo.className='hide';tabletLogo.className='hide';mobileLogo.className='';navMenu.className='hide';navMenuMobile.className='';siteSearch.className='hide';mobileSearch.className='navbar__icons--icon';},unmatch:function(){siteLogo.className='hide';tabletLogo.className='';mobileLogo.className='hide';navMenu.className='navbar__menu';navMenuMobile.className='hide';siteSearch.className='hide';mobileSearch.className='navbar__icons--icon';},});</script><div class=top><div class="header__wrapper bgcolor__header"><div class=divider><div class=lmr><h2 class=title>勁敵系統（可選規則）</h2></div></div></div><div class="header__wrapper bgcolor__breadcrumb"><div class=divider><div class="lmr flexbox"><nav class=breadcrumb aria-label=breadcrumbs data-is-blog=false><ol><li><a href=https://hazmole.github.io/PokeRole/ class=capitalize>寶可夢扮演2.0</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/ class=capitalize>遊戲規則</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/ class=capitalize>面對挑戰</a></li><li class=is-active><span>勁敵系統（可選規則）</span></li></ol></nav><div class=grow></div><label class="switch switch__rel"><input id=toggle-sidebar aria-label="Toggle Sidebar Visibility" type=checkbox checked>
-<span class=slider><span class=slider__icon><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03.0 1.42.39.39 1.02.39 1.41.0l6.59-6.59c.39-.39.39-1.02.0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L16.17 11H5c-.55.0-1 .45-1 1s.45 1 1 1z"/></svg></span><span class="slider__icon hide"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03.0-1.42s-1.02-.39-1.41.0l-6.59 6.59c-.39.39-.39 1.02.0 1.41l6.59 6.59c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L7.83 13H19c.55.0 1-.45 1-1s-.45-1-1-1z"/></svg></span></span></label></div></div></div></div><div class=mid><div class=divider><nav id=single-menu class=l data-dir=ltr><div class=menu><ul><li><a href=https://hazmole.github.io/PokeRole/docs/introduction/ class=menu__title>介紹</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/the-world/ class=menu__title>神奇的寶可夢世界</a></li><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/starting-the-game/><span class=menu__title--collapse-text>開始遊戲</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/starting-the-game/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/ class=menu__title data-depth=0>創建角色</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/ class=menu__title data-depth=0>創建寶可夢</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/ class=menu__title data-depth=0>心理/生理/社交特質</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/ class=menu__title data-depth=0>技能</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/ class=menu__title data-depth=0>生命值與意志點</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/ class=menu__title data-depth=0>幸福度與忠誠度</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/ class=menu__title data-depth=0>擲骰判定</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/ class=menu__title data-depth=0>階級</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/ class=menu__title data-depth=0>創作故事</a></li></ul><li><a href=https://hazmole.github.io/PokeRole/docs/natures/ class=menu__title>性格</a></li><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-battle/><span class=menu__title--collapse-text>寶可夢戰鬥</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/pokemon-battle/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/ class=menu__title data-depth=0>不同的寶可夢屬性</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/ class=menu__title data-depth=0>如何戰鬥</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/ class=menu__title data-depth=0>傷害</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/ class=menu__title data-depth=0>多重行動 (可選)</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/ class=menu__title data-depth=0>勝利策略</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/ class=menu__title data-depth=0>天氣狀態 & 環境</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/ class=menu__title data-depth=0>異常狀態</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/ class=menu__title data-depth=0>總結</a></li></ul><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-contest/><span class=menu__title--collapse-text>寶可夢華麗大賽</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/pokemon-contest/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/ class=menu__title data-depth=0>華麗大賽介紹</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/ class=menu__title data-depth=0>華麗大賽的構成</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/ class=menu__title data-depth=0>華麗大賽的流程</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/ class=menu__title data-depth=0>協調訓練家階級</a></li></ul><li><a href=https://hazmole.github.io/PokeRole/docs/catching-pokemon/ class=menu__title>收服寶可夢</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/training-pokemon/ class=menu__title>訓練寶可夢</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/items-for-the-journey/ class=menu__title>旅途中的道具</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokedex/ class=menu__title>寶可夢圖鑑</a></li><li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-moves/><span class=menu__title--collapse-text>寶可夢招式</span>
-<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class=menu__list data-data=/pokemon-moves/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/ class=menu__title data-depth=0>招式的規則</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/ class=menu__title data-depth=0>招式效果標誌</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/ class=menu__title data-depth=0>Z招式</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/ class=menu__title data-depth=0>極巨招式</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/ class=menu__title data-depth=0>常見問題</a></li></ul><li><a href=https://hazmole.github.io/PokeRole/docs/pokemon-abilities/ class=menu__title>寶可夢特性</a></li><li class="menu__title--collapse active" data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/challenges-ahead/><span class=menu__title--collapse-text>面對挑戰</span>
-<span class="menu__title--icon down"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span></li><ul class="menu__list active" data-data=/challenges-ahead/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/session-settings/ class=menu__title data-depth=0>劇情設計</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/ class="menu__title active" data-depth=0>勁敵系統（可選規則）</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/ class=menu__title data-depth=0>征服寶可夢聯盟</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/ class=menu__title data-depth=0>超級進化的力量</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/ class=menu__title data-depth=0>英雄巡禮與Z招式</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/myths-and-legends/ class=menu__title data-depth=0>神話與傳說</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/legendary-ranking/ class=menu__title data-depth=0>傳說階級（可選規則）</a></li><li><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/ class=menu__title data-depth=0>超極巨聯盟</a></li></ul></ul></div></nav><article id=list-main class=m data-dir=ltr><div class=single data-display=block><article class=single__contents data-dir=ltr><h2 id=勁敵系統可選規則>勁敵系統（可選規則）</h2><p>俗話說：「你表現越好，就有越多人希望看到你失敗」。而你的勁敵就是這群人中最糟糕的那一個。</p><p>無論好壞，無論相熟已否，勁敵總是領先你一步，他們在你行走的道路上出現，提醒著你無論你多麼努力，你也永遠無法像他們一樣優秀。</p><p>你的勁敵不僅僅是個需要克服的障礙，他們的存在或許描繪出了一個與你角色相同但卻往錯誤方向發展的本質；或者，他們可能與你的角色完全相反。他們比你更強大、更聰明、更有魅力，且他們也清楚知道這一點。<br>在你的旅途中，他們會把握每一個機會使你的人生變得艱難，他們有資格把你搞得一團糟，並且每一次都表現得比你更加出色。然而，也許，只是也許，如果你設法克服了你自己所有的弱點，那麼你也許能夠一勞永逸地戰勝他們。</p><p>當你創建你的角色時，你也同時創建你的勁敵。</p><hr><h3 id=勁敵角色的創建與發展>勁敵角色的創建與發展</h3><p>下列這些數據將透過隨機的方式決定，但在說書人的允許下，你也可以直接決定它們。</p><ul><li>在創建勁敵角色時，選擇 1 種態度。</li><li>在創建勁敵角色時，選擇 1 種關係。</li><li>在創建勁敵角色時，選擇 1 種背景。</li><li>在創建勁敵角色時，選擇 1 項異質特性。<br>你的勁敵會在 初學者、業餘者、菁英、專家、大師、和冠軍階級時額外獲得 1 項異質特性。</li><li>決定你勁敵的寶可夢。<br>牠們必須要比玩家的寶可夢更強大。</li><li>勁敵的階級永遠比玩加角色的階級高一階。</li></ul><h4 id=-態度-attitudes>⬛ 態度 Attitudes</h4><ul><li><strong>善良</strong></li><li><strong>混蛋</strong></li><li><strong>虛偽</strong></li><li><strong>嫉妒</strong></li><li><strong>邪惡</strong></li></ul><h4 id=-關係-relationship>⬛ 關係 Relationship</h4><ul><li><strong>親戚</strong> - 家庭競爭關係是最糟糕的了……</li><li><strong>朋友</strong> - 友好的競爭關係。</li><li><strong>神秘</strong> - 這傢伙到底是誰？</li><li><strong>惡霸</strong> - 他會為了娛樂自己而折磨你。</li><li><strong>死敵</strong> - 他執著於看到你的毀滅。</li></ul><h4 id=-背景-backgrounds>⬛ 背景 Backgrounds</h4><p>勁敵是優秀的訓練家，他們有著豐富的背景故事來合理化他們那些強大的技能。</p><h5 id=珍獸黑客-hax0rus>珍獸黑客 Hax0rus</h5><p>你勁敵的寶可夢也許不是透過合法手段獲得的。牠們是色違品種，且超級稀有。</p><h5 id=潮酷守則-rule-of-tenta-cool>潮酷守則 Rule of Tenta-Cool</h5><p>你的勁敵生來就是個明星，他的社交特質和社交類技能數值全都為最大值，並因此相當出名。他總是說著關於你的謊話，且每個人都相信他，就連你的家人和最要好的朋友也是。</p><h5 id=傑出的詛咒-cursed-with-awesome>傑出的詛咒 Cursed with Awesome</h5><p>你的勁敵擁有著你最想要得到的東西，然而，你的勁敵顯然不怎麼喜歡它，且將其視為一種詛咒。這個「詛咒」可以是任何形式的事物，包括寶可夢、工作、物體、或某個人。</p><h5 id=富家大少-richboy>富家大少 Richboy</h5><p>你的勁敵有著無限的金錢來源，但他打賭時的籌碼永遠不會超過 $50。如果他在鎮上，那鎮上所有商品和服務的價格都將變為原本的３倍，且沒有任何東西會是免費──就連寶可夢中心也是。如果同時有好幾個富家大少，那麼價格會再翻倍。</p><h5 id=組織成員-team-member>組織成員 Team Member</h5><p>你的勁敵隸屬於某個犯罪組織。<br>他和他的狐群狗黨會結夥跟你對戰。在每個戰鬥輪結束時，你勁敵的寶可夢會自動使用無屬性版本的〈圍攻〉招式（最低威力）並直接命中你的寶可夢。這……因為某些原因並不被視為違規。</p><h5 id=殘疾孤兒-disabledorphan>殘疾/孤兒 Disabled/Orphan</h5><p>你勁敵的一生已經受了不少苦。人們會因為你「欺負」這可憐的孩子而對你生氣。</p><h5 id=反英雄-anti-hero>反英雄 Anti-Hero</h5><p>不管你去到哪裡，你都會發現你勁敵的成就。無論你做什麼，他都先你一步，且做的比你更好。</p><h5 id=專橫導師-tyrant-mentor>專橫導師 Tyrant Mentor</h5><p>你的勁敵覺得他有義務給你上一課，也許他相信你有潛力成為更偉大的人物。<br>他經常會現身，強化並幫助你的敵人，像是出借他們道具、治療、給予提升特質的營養劑、或關於如何擊敗你的技巧。</p><h4 id=-異質特性-unlike-abilities>⬛ 異質特性 Unlike-Abilities</h4><p>一個你每次都能夠隨意擺弄、踩在腳下的勁敵有什麼好的？當然不好。勁敵就是設計來要讓你的角色用盡全力怒吼：「這不公平！」，而正義能否得到伸張將全取決於你。異質特性的強度是不平衡的，且它們本意如此。它們就是設計給那些最強大的反派訓練家使用的超強能力。</p><h6 id=作弊許可-licence-to-cheat>作弊許可 Licence to Cheat.</h6><p>你的勁敵並不會因為違反寶可夢聯盟的規定而承受任何後果。他可能會使用違禁道具、一次派出好幾隻寶可夢、或者在正式對戰中攻擊你或你的寶可夢。但注意，如果你也違反了規定，你<strong>會</strong>被嚴重懲處的！</p><h6 id=壓倒性力量-overpowered>壓倒性力量 OverPowered</h6><p>你的勁敵和他的寶可夢釋放出他們隱藏的力量。他們的傷害骰永遠視作成功。</p><h6 id=過度自信-overconfidence>過度自信 Overconfidence</h6><p>你的勁敵和他的寶可夢擁有無限數量的意志點。</p><h6 id=忍無可忍-unbearable>忍無可忍 Unbearable</h6><p>你的勁敵清楚知道該如何激怒你。當他和你交談時，你和你所有的寶可夢都將自動失去你們的 帥氣、聰明、強壯、可愛 社交特質。所有涉及這些社交特質的擲骰判定都將自動失敗。</p><h6 id=吃剩的東西狂熱者-leftover-maniac>吃剩的東西狂熱者 Leftover Maniac</h6><p>你勁敵的所有寶可夢都持有「吃剩的東西」做為持有物品。</p><div class=Item><div class="Header flexContainer"><div class=title>吃剩的東西</div></div><div class=Content>每輪回復 1 點HP。每天可以回復最多 10 點HP。</div></div><h6 id=殘忍訓練-cruel-training>殘忍訓練 Cruel Training</h6><p>你的勁敵毫不留情地鍛鍊他的寶可夢，且牠們全都進化到最終階段。</p><h6 id=招式大師-move-master>招式大師 Move Master</h6><p>選擇一個非常強大或極度實用的招式。你勁敵的所有寶可夢都能夠使用這個招式。<br>這個異質特性可以被重複選擇好幾次。</p><h6 id=傑克蘇瑪麗蘇-gary-stumary-sue>傑克蘇/瑪麗蘇 Gary Stu/Mary Sue</h6><p>你勁敵所做的每一件事都會如同他骰出了 5 顆成功骰一樣成功。他的寶可夢永遠不會失敗且從來不會辜負他的期望。牠們的所有招式都獲得「必中」效果。</p><h6 id=可疑竊賊-suspected-thief>可疑竊賊 Suspected Thief</h6><p>每次你遇見你的勁敵，你身上的東西總是會在他們離開場景時消失不見。他甚至可能會偷走你的寶可夢！如果你的勁敵的態度不是「邪惡」，那麼你也許能在附近的寶可夢中心、收容所、或培育屋找到你的精靈球；但如果他是「邪惡」的，那麼要找回你的夥伴可能就沒那麼容易了。</p><h6 id=鎂光燈小偷-spotlight-thief>鎂光燈小偷 Spotlight Thief</h6><p>每次你做出什麼驚人事蹟，你的勁敵最終都會拿走所有的功勞，甚至會讓情況看起來像是他拯救了你一樣。</p><h6 id=如簧巧舌-silver-tongue>如簧巧舌 Silver Tongue</h6><p>你的勁敵清楚知道該如何操弄你。<br>你會去做任何他想要你去做的事情，即使那違背了你的信念或計畫。更糟的是，你會覺得他們這麼做是為了你好。</p><h6 id=不幸馭手-rider-of-misfortune>不幸馭手 Rider of Misfortune</h6><p>你的勁敵決定要讓你的日常生活彷彿地獄般難受。<br>你所做的每一件事都變得難以置信地複雜麻煩，你沒有任何證據，但你知道他就是幕後黑手！然而沒有人相信你。<br>你無法回復你的信心值，且你每天會失去 2 點信心值。當你失去所有的信心值時，你的精神將會崩潰，並在隔天回復你所有的信心值。</p><h6 id=雙面間諜-double-agent>雙面間諜 Double Agent</h6><p>你的其中一隻寶可夢效忠於你的勁敵，你甚至不曾懷疑過牠。牠可能會故意在戰鬥中敗北（偷偷修改成功骰數）並搞砸你的計劃。<br>牠們相當擅長掩蓋牠們的罪行，如果你存放或釋放了做為雙面間諜的寶可夢，那麼你隊伍中的另外一隻寶可夢將會接替牠的位置……但會是誰呢？<br>這個異質特性可以被重複選擇好幾次。</p><h6 id=無法擊敗的對手-undefeatable-foe>無法擊敗的對手 Undefeatable Foe</h6><p>你的勁敵註定要擊敗你。每，一，次，都，是。<br>無論你訓練多少次，無論多麼努力嘗試，無論派了哪隻寶可夢去戰鬥，你最終總是會敗北。<br>當你在與你的勁敵對戰時，你的所有擲骰判定全都會扣除一顆成功骰。</p><div class=box><p>玩家不能成為彼此的勁敵。勁敵和其異質特性是為了給玩家帶來幾乎不可能的挑戰，因此它們並不適合給玩家角色使用。</p><p>從純粹的數值面來看，你可能每一次都會嘗到敗北的滋味，但周全準備的策略將帶你走得更遠。<br>如果你打算晉升到「菁英」階級，那麼你最終仍必須要打敗你的勁敵。又或者更進一步，說書人可能會添加其他跟勁敵有關的成就，要你達成它們後才能晉升到「初學者」或「業餘者」階級。</p><p>你會愛上討厭你勁敵的感覺，去享受努力嘗試戰勝這可怕敵人的樂趣吧！</p></div></article></div><div class=grow></div><nav class=pagination-single><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/session-settings/ title=劇情設計 class=pagination-single__left><div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03.0-1.42s-1.02-.39-1.41.0l-6.59 6.59c-.39.39-.39 1.02.0 1.41l6.59 6.59c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L7.83 13H19c.55.0 1-.45 1-1s-.45-1-1-1z"/></svg></div><div class=pagination-single__right-title>劇情設計</div></a><div class=grow></div><a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/ title=征服寶可夢聯盟 class=pagination-single__right><div class=pagination-single__left-title>征服寶可夢聯盟</div><div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03.0 1.42.39.39 1.02.39 1.41.0l6.59-6.59c.39-.39.39-1.02.0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L16.17 11H5c-.55.0-1 .45-1 1s.45 1 1 1z"/></svg></div></a></nav></article><section id=list-side class=r data-dir=ltr><div class=toc><h6 class=toc__label>內容目錄</h6><div class=toc__body><nav id=TableOfContents><ul><li><a href=#勁敵系統可選規則>勁敵系統（可選規則）</a><ul><li><a href=#勁敵角色的創建與發展>勁敵角色的創建與發展</a><ul><li><a href=#-態度-attitudes>⬛ 態度 Attitudes</a></li><li><a href=#-關係-relationship>⬛ 關係 Relationship</a></li><li><a href=#-背景-backgrounds>⬛ 背景 Backgrounds</a></li><li><a href=#-異質特性-unlike-abilities>⬛ 異質特性 Unlike-Abilities</a></li></ul></li></ul></li></ul></nav></div></div></section></div></div><script>'use strict';function wrap(el,wrapper){el.parentNode.insertBefore(wrapper,el);wrapper.appendChild(el);}
-(function(){var singleContentsElem=document.querySelector('.single__contents');singleContentsElem?singleContentsElem.querySelectorAll('pre > code').forEach(function(elem){var dataLang=elem.getAttribute('data-lang');var dataLangWrapper=document.createElement('div');var code=null;var codeTitle=null;if(dataLang&&dataLang.includes(':')){code=dataLang.split(':')[0];codeTitle=dataLang.split(':')[1];dataLangWrapper.className='language-'+code;dataLangWrapper.setAttribute('data-lang',codeTitle);elem.className='language-'+code;elem.setAttribute('data-lang',codeTitle);elem.setAttribute('id',codeTitle);}
-if(!dataLang||codeTitle){wrap(elem.parentNode,dataLangWrapper);}}):null;})();var dollarCodeElem=document.querySelectorAll('div.language-\\$');var gtCodeElem=document.querySelectorAll('div.language-\\>');dollarCodeElem?dollarCodeElem.forEach(function(elem){var lnts=elem.parentNode.parentNode?elem.parentNode.parentNode.querySelectorAll('.lnt'):null;lnts?lnts.forEach(function(lnt){lnt.innerHTML='$<br/>';}):null;}):null;gtCodeElem?gtCodeElem.forEach(function(elem){var lnts=elem.parentNode.parentNode?elem.parentNode.parentNode.querySelectorAll('.lnt'):null;lnts?lnts.forEach(function(lnt){lnt.innerHTML='><br/>';}):null;}):null;</script><script defer src=/PokeRole/js/helper/getParents.min.js></script><script defer src=/PokeRole/js/helper/closest.min.js></script><script defer src=/PokeRole/js/helper/prev.min.js></script><script defer src=/PokeRole/js/helper/prop.min.js></script><script defer src=/PokeRole/js/helper/fadeinout.min.js></script><script>document.addEventListener('DOMContentLoaded',function(){'use strict';var tables=document.querySelectorAll('.single__contents > table');for(let i=0;i<tables.length;i++){var table=tables[i];var wrapper=document.createElement('div');wrapper.className='table-wrapper';table.parentElement.replaceChild(wrapper,table);wrapper.appendChild(table);}
-var lib=JSON.parse("null");if(lib&&lib.includes('mermaid')){var themeVariant=localStorage.getItem('theme')||'light';if(themeVariant==="dark"){mermaid.initialize({theme:'dark'});}else{mermaid.initialize({theme:'default'});}
-var mermaids=[];[].push.apply(mermaids,document.getElementsByClassName('language-mermaid'));mermaids.forEach(function(elem){var elemParentNode=elem.parentNode;if(elemParentNode!==document.body){elemParentNode.parentNode.insertBefore(elem,elemParentNode);elemParentNode.parentNode.removeChild(elemParentNode);}
-var newElemWrapper=document.createElement('div');newElemWrapper.classList.add('mermaid');newElemWrapper.innerHTML=elem.innerHTML;elem.replaceWith(newElemWrapper);});}
-if(lib&&lib.includes('katex')){var mathElements=document.getElementsByClassName('math');var options={delimiters:[{left:"$$",right:"$$",display:true},{left:"\\[",right:"\\]",display:true},{left:"$",right:"$",display:false},{left:"\\(",right:"\\)",display:false}],};renderMathInElement(document.querySelector('.single__contents'),options);}
-if(lib&&lib.includes('flowchartjs')){var options=JSON.parse("{\"arrow-end\":\"block\",\"element-color\":\"black\",\"fill\":\"white\",\"flowstate\":{\"approved\":{\"fill\":\"#58C4A3\",\"font-size\":12,\"no-text\":\"n/a\",\"yes-text\":\"APPROVED\"},\"current\":{\"fill\":\"yellow\",\"font-color\":\"red\",\"font-weight\":\"bold\"},\"future\":{\"fill\":\"#FFFF99\"},\"invalid\":{\"fill\":\"#444444\"},\"past\":{\"fill\":\"#CCCCCC\",\"font-size\":12},\"rejected\":{\"fill\":\"#C45879\",\"font-size\":12,\"no-text\":\"REJECTED\",\"yes-text\":\"n/a\"},\"request\":{\"fill\":\"blue\"}},\"font-color\":\"black\",\"font-size\":14,\"line-color\":\"black\",\"line-length\":50,\"line-width\":3,\"no-text\":\"no\",\"scale\":1,\"symbols\":{\"end\":{\"class\":\"end-element\"},\"start\":{\"element-color\":\"green\",\"fill\":\"yellow\",\"font-color\":\"red\"}},\"text-margin\":10,\"x\":0,\"y\":0,\"yes-text\":\"yes\"}");var jsonContent=null;var flowchartPrefix="language-flowchart";var index=0;Array.prototype.forEach.call(document.querySelectorAll("[class^="+flowchartPrefix+"]"),function(x){x.style.display='none'
-x.parentNode.style.backgroundColor="transparent"
-jsonContent=x.innerText;var node0=document.createElement('div');node0.id='flowchart'+index;x.parentNode.insertBefore(node0,x);var diagram=flowchart.parse(jsonContent);diagram.drawSVG("flowchart"+index,options);index+=1;});}
-if(lib&&lib.includes('chart')){var borderColor="#666";var bgColor="#ddd";var borderWidth=2;Chart.defaults.global.elements.rectangle.borderWidth=borderWidth;Chart.defaults.global.elements.rectangle.borderColor=borderColor;Chart.defaults.global.elements.rectangle.backgroundColor=bgColor;Chart.defaults.global.elements.line.borderWidth=borderWidth;Chart.defaults.global.elements.line.borderColor=borderColor;Chart.defaults.global.elements.line.backgroundColor=bgColor;Chart.defaults.global.elements.point.borderWidth=borderWidth;Chart.defaults.global.elements.point.borderColor=borderColor;Chart.defaults.global.elements.point.backgroundColor=bgColor;var chartPrefix="language-chart";var index=0;var jsonContent=null;Array.prototype.forEach.call(document.querySelectorAll("[class^="+chartPrefix+"]"),function(x){x.style.display='none'
-x.parentNode.style.backgroundColor="transparent"
-jsonContent=x.innerText;var node0=document.createElement('canvas');var source=null;node0.height=200;node0.style.height=200;node0.id='myChart'+index;source=JSON.parse(jsonContent);x.parentNode.insertBefore(node0,x);var ctx=document.getElementById('myChart'+index).getContext('2d');var myChart=new Chart(ctx,source);index+=1;});}
-if(lib&&lib.includes('viz')){var vizPrefix="language-viz-";Array.prototype.forEach.call(document.querySelectorAll("[class^="+vizPrefix+"]"),function(x){x.style.display='none'
-x.parentNode.style.backgroundColor="transparent"
-var engine;x.getAttribute("class").split(" ").forEach(function(cls){if(cls.startsWith(vizPrefix)){engine=cls.substr(vizPrefix.length);}});var viz=new Viz();viz.renderSVGElement(x.innerText,{engine:engine}).then(function(element){element.style.width="100%";x.parentNode.insertBefore(element,x);})});}});</script><script>var listSide=document.getElementById('list-side');var listMain=document.getElementById('list-main');var singleMenu=document.getElementById('single-menu');var switchElem=document.querySelector('.switch');var wideViewAsDefault=JSON.parse("null");enquire.register("screen and (max-width:1280px)",{match:function(){if(wideViewAsDefault){singleMenu.className='l';listMain.className='mr';listSide.className='hide';}else{singleMenu.className='l';listMain.className='m';listSide.className='r';}},unmatch:function(){if(wideViewAsDefault){singleMenu.className='l';listMain.className='mr';listSide.className='hide';}else{listSide.className='r';listMain.className='m';singleMenu.className='l';}},}).register("screen and (max-width:960px)",{match:function(){singleMenu.className='l';listMain.className='mr';listSide.className='hide';switchElem.className='hide';},unmatch:function(){if(wideViewAsDefault){singleMenu.className='l';listMain.className='mr';listSide.className='hide';}else{singleMenu.className='l';listMain.className='m';listSide.className='r';}
-switchElem.className='switch';},}).register("screen and (max-width:600px)",{match:function(){listSide.className='hide';listMain.className='lmr';singleMenu.className='hide';switchElem.className='hide';},unmatch:function(){listSide.className='hide';listMain.className='mr';singleMenu.className='l';switchElem.className='hide';},});</script><div class=bot><footer class=footer><div class=divider><div class=lmr><p class=caption>©2021, All Rights Reserved</p><p class=caption>Powered by <a href=https://gohugo.io/ rel=noreferrer>Hugo</a> and the <a href=https://github.com/zzossig/hugo-theme-zdoc rel=noreferrer>zDoc theme</a></p></div></div></footer></div></div></body></html>
+<!doctype html><html lang=zhtw dir=ltr>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>勁敵系統（可選規則） – 寶可夢扮演2.0 Pokerole</title>
+<script defer src=/PokeRole/js/customUtil.min.45cd753a5f1d5bea50636a0f4fe98fdf9f5b842e412b4fbcbc5426cea6185311.js></script>
+<script defer src=/PokeRole/js/iconParser.min.f872859150e8eaa32a5a26e729dc82bf148d490841452be9a113f6ea03a3db90.js></script>
+<script defer src=/PokeRole/js/customBuilder.min.5a8d68d4e081dc543cc56428be456d9d7798eb839732bf25d3acca60c79666a9.js></script>
+<script defer src=/PokeRole/js/customSearch.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js></script>
+<script defer src=/PokeRole/js/pokemonGenerator.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js></script>
+<script defer src=/PokeRole/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js></script>
+<script src=/PokeRole/js/enquire.min.aa37bdcb743826eecdae5c5d177fc7d6552340f1b4378ffaa9c82b2c6111400b.js></script>
+<script defer src=/PokeRole/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js></script>
+<script defer src=/PokeRole/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js></script>
+<script defer src=/PokeRole/js/helper/fadeinout.min.9fb19682560d5fa5596fffec85da605067c4acc86aad05add4d8fff9d362a446.js></script>
+<script>"use strict";window.onload=function(){var q=JSON.parse('"ltr"'),Z=JSON.parse('"https://hazmole.github.io/PokeRole"'),ag=JSON.parse('"https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/"'),S=document.getElementById("toggle-sidebar"),O=document.getElementById("toggle-menu"),z=document.querySelector('.toc__body'),w=document.querySelector('.toc__label'),h=document.getElementById('list-main'),x=document.getElementById('list-side'),y=document.getElementById('single-menu'),j=document.querySelectorAll('.slider__icon'),L,M,_,C,A,s,W,m,t,ad,aa,N,D,l,U,r,H,p,E,$,k,I,J,K,n,i,o,T,P,X,u,af,b,c,f,v,Y,B,g,R,e,ah,ai,a,ak,V;S?S.addEventListener('change',function(a){a.target.checked?(z&&fadeIn(z,200),w&&fadeIn(w,200),h&&x&&(h.className='m',x.className='r'),j&&j.forEach(function(a){a.classList.contains('hide')?a.classList.remove('hide'):a.classList.add('hide')})):(z&&fadeOut(z,200),w&&fadeOut(w,200),h&&x&&(h.className='mr',x.className='hide'),j&&j.forEach(function(a){a.classList.contains('hide')?a.classList.remove('hide'):a.classList.add('hide')}))}):null,O?O.addEventListener('change',function(a){a.target.checked?(h&&y&&(h.className='m',y.className='l'),j&&j.forEach(function(a){a.classList.contains('hide')?a.classList.remove('hide'):a.classList.add('hide')})):(h&&y&&(h.className='lm',y.className='hide'),j&&j.forEach(function(a){a.classList.contains('hide')?a.classList.remove('hide'):a.classList.add('hide')}))}):null,L=document.getElementById('navCollapseBtn'),L?L.addEventListener('click',function(c){var a=document.querySelector('.navbar__collapse'),b;a&&(b=a.getAttribute('data-open'),b==='true'?(a.setAttribute('data-open','false'),a.style.maxHeight=0):(a.setAttribute('data-open','true'),a.style.maxHeight=a.scrollHeight+"px"))}):null,M=document.querySelectorAll('.expand__button');for(let a=0;a<M.length;a++)M[a].addEventListener("click",function(){var a=this.nextElementSibling;a.style.maxHeight?(a.style.maxHeight=null,this.querySelector('svg').classList.add('expand-icon__right'),this.querySelector('svg').classList.remove('expand-icon__down')):(a.style.maxHeight=a.scrollHeight+"px",this.querySelector('svg').classList.remove('expand-icon__right'),this.querySelector('svg').classList.add('expand-icon__down'))});document.querySelectorAll('.tab')?document.querySelectorAll('.tab').forEach(function(a,d){var e=a.getAttribute('id'),f=a,b=a.querySelectorAll('.tab__link'),c=a.querySelectorAll('.tab__content'),g=[];b&&b.length>0?b.forEach(function(b,d,a){b.onclick=function(e){for(var b=0;b<a.length;b++)d===parseInt(b,10)?a[b].classList.contains('active')||(a[b].classList.add('active'),c[b].style.display='block'):(a[b].classList.remove('active'),c[b].style.display='none')}}):null}):null,document.querySelectorAll('.codetab')?document.querySelectorAll('.codetab').forEach(function(a,d){var e=a.getAttribute('id'),f=a,b=a.querySelectorAll('.codetab__link'),c=a.querySelectorAll('.codetab__content'),g=[];b&&b.length>0?b.forEach(function(b,d,a){b.onclick=function(e){for(var b=0;b<a.length;b++)d===parseInt(b,10)?a[b].classList.contains('active')||(a[b].classList.add('active'),c[b].style.display='block'):(a[b].classList.remove('active'),c[b].style.display='none')}}):null}):null,_=JSON.parse("true"),C=document.getElementById('root'),A=document.getElementById('toggleToLight'),s=document.getElementById('toggleToDark'),_||(C.className='theme__light',localStorage.setItem('theme','light')),s&&(s.onclick=function(a){C.className='theme__dark',localStorage.setItem('theme','dark'),A.className='navbar__icons--icon',s.className='hide'}),A&&(A.onclick=function(a){C.className='theme__light',localStorage.setItem('theme','light'),A.className='hide',s.className='navbar__icons--icon'}),document.querySelectorAll('.menu__list').forEach(function(a){a.classList.contains('active')&&(a.style.maxHeight=a.scrollHeight+"px")}),document.querySelectorAll('.menu__title--collapse').forEach(function(a){a.addEventListener('click',function(e){var b=this.nextElementSibling,c=this.querySelector('.menu__title--icon'),d;if(!b)return null;for(d=a.parentNode;d.classList.contains('menu__list')&&d.classList.contains('active');)d.style.maxHeight=100*d.children.length+"px",d=d.parentNode;b.style.maxHeight?(b.style.maxHeight=null,b.classList.remove('active'),c.classList.add('right'),q==='rtl'?c.classList.remove('downrtl'):c.classList.remove('down')):(b.style.maxHeight=b.scrollHeight+"px",b.classList.add('active'),c.classList.remove('right'),q==='rtl'?c.classList.add('downrtl'):c.classList.add('down'))})}),W=document.getElementById('mobileLogo'),m=document.getElementById("myModal"),t=document.getElementById('myDrawer'),ad=document.querySelector('.drawer__close'),aa=function(){m.style.opacity=1,q==='rtl'?(m.style.right=0,t.style.right=0):(m.style.left=0,t.style.left=0)},N=function(){m.style.opacity=0,q==='rtl'?t.style.right='-100%':t.style.left='-100%',setTimeout(function(){q==='rtl'?m.style.right='-100%':m.style.left='-100%'},250)},W.onclick=function(){aa(),localStorage.setItem('isDrawerOpen','true')},m.onclick=function(){N(),localStorage.setItem('isDrawerOpen','false')},ad.onclick=function(){N(),localStorage.setItem('isDrawerOpen','false')},D=window.pageYOffset||document.documentElement.scrollTop,l=document.querySelector('.toc'),U=l?l.querySelector('#TableOfContents'):null,r=document.querySelector('.single__contents'),H=document.querySelectorAll('div[data-bgimg]'),p=JSON.parse('["h2","h3","h4"]'),p?p=p.toString():p="h1, h2, h3, h4, h5, h6",E=JSON.parse("null"),$=JSON.parse("false");function F(a){$&&E&&Object.keys(E).length&&(E.height<=a?H.forEach(function(a){a.setAttribute('data-bgimg','false')}):H.forEach(function(a){a.setAttribute('data-bgimg','true')}))}F(D),window.onscroll=ac;function ac(b){b&&(r=document.querySelector('.single__contents'));var a=window.pageYOffset||document.documentElement.scrollTop;a>D?(r?r.querySelectorAll(p.toString()).forEach(function(a){if(document.documentElement.scrollTop>=a.offsetTop)if(U){var b=a.getAttribute('id');l.querySelectorAll('a').forEach(function(a){a.classList.remove('active')}),l.querySelector('a[href="#'+b+'"]')?l.querySelector('a[href="#'+b+'"]').classList.add('active'):null}}):null,F(a)):(r?r.querySelectorAll(p.toString()).forEach(function(a){if(document.documentElement.scrollTop>=a.offsetTop)if(U){var b=a.getAttribute('id');l.querySelectorAll('a').forEach(function(a){a.classList.remove('active')}),l.querySelector('a[href="#'+b+'"]')?l.querySelector('a[href="#'+b+'"]').classList.add('active'):null}}):null,F(a)),D=a<=0?0:a}k=document.querySelector('#search-mobile'),I=document.querySelector('.mobile-search'),J=document.querySelector('#mobileSearchBtn'),K=document.querySelector('#search-mobile-close'),n=document.querySelector('#search-mobile-container'),i=document.querySelector('#search-mobile-results'),o=document.querySelector('html'),I&&(I.style.display='none'),J?J.addEventListener('click',function(){n&&(n.style.display='block'),k&&k.focus(),o&&(o.style.overflowY='hidden')}):null,K?K.addEventListener('click',function(){if(n&&(n.style.display='none'),k&&(k.value=''),i)while(i.firstChild)i.removeChild(i.firstChild);o&&(o.style.overflowY='visible')}):null,k?k.addEventListener('keydown',function(a){if(a.key==='Escape'){if(n&&(n.style.display='none'),k&&(k.value=''),i)while(i.firstChild)i.removeChild(i.firstChild);o&&(o.style.overflowY='visible')}}):null,T=localStorage.getItem('theme'),P=document.getElementById('root'),X=document.querySelectorAll('.select-theme'),u=document.querySelectorAll('.select-theme__item'),T&&(u?u.forEach(function(a){a.text.trim()===T?a.classList.add('is-active'):a.classList.remove('is-active')}):null),u?u.forEach(function(a,b){a.addEventListener('click',function(c){var a=c.target.text.trim(),b;localStorage.setItem('theme',a),P.removeAttribute('class'),P.classList.add(`theme__${a}`),X.forEach(function(b){b.querySelectorAll('a').forEach(function(b){b.classList&&(b.text.trim()===a?b.classList.contains('is-active')||b.classList.add('is-active'):b.classList.contains('is-active')&&b.classList.remove('is-active'))})}),window.mermaid&&(a==="dark"||a==="hacker"?(mermaid.initialize({theme:'dark'}),location.reload()):(mermaid.initialize({theme:'default'}),location.reload())),b=document.querySelector('iframe'),b&&b.contentWindow.postMessage({type:'set-theme',theme:a==="dark"||a==="hacker"?'photon-dark':a==='kimbie'?'github-dark-orange':'github-light'},'https://utteranc.es')})}):null,af=JSON.parse('""'),b=null,c=null,f=null,v=JSON.parse("true"),Y=JSON.parse("true"),B=null,Y&&function(){var a=new XMLHttpRequest;a.open('GET',Z+af+"/index.json"),a.setRequestHeader('Content-Type','application/json; charset=utf-8'),a.onload=function(){a.status===200?B=new Fuse(JSON.parse(a.response.toString('utf-8')),{keys:['title','description','content'],includeMatches:v,shouldSort:!0,threshold:.4,location:0,distance:100,maxPatternLength:32,minMatchCharLength:1}):console.error(`[${a.status}]Error:`,a.statusText)},a.send()}();function aj(e,a){var b=document.createElement('li'),c,d;b.className='search-result__item',c=document.createElement('a'),c.innerHTML=a.title,c.setAttribute('class','search-result__item--title'),c.setAttribute('href',a.permalink),d=document.createElement('div'),d.setAttribute('class','search-result__item--desc'),a.description?d.innerHTML=a.description:a.content&&(d.innerHTML=a.content.substring(0,80)),b.appendChild(c),b.appendChild(d),e.appendChild(b)}function al(g,a){var f=document.createElement('li'),b,e,c;if(f.className='search-result__item',b=null,e=document.createElement('a'),e.innerHTML=a.item.title,e.setAttribute('class','search-result__item--title'),e.setAttribute('href',a.item.uri),a.matches&&a.matches.length){for(c=0;c<a.matches.length;c++)'title'===a.matches[c].key&&(e=document.createElement('a'),e.innerHTML=d(a.matches[c].value,a.matches[c].indices),e.setAttribute('class','search-result__item--title'),e.setAttribute('href',a.item.uri)),'description'===a.matches[c].key?(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=d(a.item.description,a.matches[c].indices)):'content'===a.matches[c].key?b||(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=d(a.item.content.substring(0,80),a.matches[c].indices)):a.item.description?(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=a.item.description):(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=a.item.content.substring(0,80));f.appendChild(e),b&&f.appendChild(b),f&&g.appendChild(f)}}function G(f,e){var a,d;for(b=document.getElementById('search-results'),c=document.getElementById('search-menu'),b.setAttribute('class','dd is-active'),a=document.createElement('ul'),a.setAttribute('class','dd-content search-content'),e.length?e.forEach(function(b){var e=document.createElement('li'),c=document.createElement('a'),f,d;c.setAttribute('href',b.uri),c.setAttribute('class','dd-item'),c.appendChild(e),f=document.createElement('div'),f.innerHTML=b.title,f.setAttribute('class','search-result__item--title'),d=document.createElement('div'),d.setAttribute('class','search-result__item--desc'),b.description?d.innerHTML=b.description:b.content&&(d.innerHTML=b.content.substring(0,80)),e.appendChild(f),e.appendChild(d),a.appendChild(c)}):(d=document.createElement('li'),d.setAttribute('class','dd-item'),d.innerText='No results found',a.appendChild(d));c.hasChildNodes();)c.removeChild(c.lastChild);c.appendChild(a)}function Q(g,f){var a,e;for(b=document.getElementById('search-results'),c=document.getElementById('search-menu'),b.setAttribute('class','dd is-active'),a=document.createElement('ul'),a.setAttribute('class','dd-content search-content'),f.length?f.forEach(function(b){var h=document.createElement('li'),f=document.createElement('a'),c=null,g,e;if(f.setAttribute('href',b.item.uri),f.setAttribute('class','dd-item'),f.appendChild(h),g=document.createElement('div'),g.innerHTML=b.item.title,g.setAttribute('class','search-result__item--title'),b.matches&&b.matches.length){for(e=0;e<b.matches.length;e++)'title'===b.matches[e].key&&(g.innerHTML=d(b.matches[e].value,b.matches[e].indices)),'description'===b.matches[e].key?(c=document.createElement('div'),c.setAttribute('class','search-result__item--desc'),c.innerHTML=d(b.item.description,b.matches[e].indices)):'content'===b.matches[e].key?c||(c=document.createElement('div'),c.setAttribute('class','search-result__item--desc'),c.innerHTML=d(b.item.content.substring(0,80),b.matches[e].indices)):b.item.description?(c=document.createElement('div'),c.setAttribute('class','search-result__item--desc'),c.innerHTML=b.item.description):(c=document.createElement('div'),c.setAttribute('class','search-result__item--desc'),c.innerHTML=b.item.content.substring(0,80));h.appendChild(g),c&&h.appendChild(c),a.appendChild(f)}}):(e=document.createElement('li'),e.setAttribute('class','dd-item'),e.innerText='No results found',a.appendChild(e));c.hasChildNodes();)c.removeChild(c.lastChild);c.appendChild(a)}function ab(f,d){var a,e;b=document.getElementById('search-mobile-results'),a=document.createElement('div'),a.setAttribute('class','mobile-search__content'),d.length>0?d.forEach(function(b){var c=document.createElement('a');c.setAttribute('href',b.uri),c.innerHTML='<div class="mobile-search__item"><div class="mobile-search__item--title">📄 '+b.title+'</div><div class="mobile-search__item--desc">'+(b.description?b.description:b.content)+'</div></div>',a.appendChild(c)}):(e=document.createElement('span'),a.appendChild(e));let c=document.getElementById('search-mobile-results');while(c.firstChild)c.removeChild(c.firstChild);b.appendChild(a)}function ae(g,e){var a,f;b=document.getElementById('search-mobile-results'),a=document.createElement('div'),a.setAttribute('class','mobile-search__content'),e.length?e.forEach(function(b){var f=document.createElement('li'),h=document.createElement('a'),c=null,g,e;if(h.setAttribute('href',b.item.uri),h.appendChild(f),f.setAttribute('class','mobile-search__item'),g=document.createElement('div'),g.innerHTML=b.item.title,g.setAttribute('class','mobile-search__item--title'),b.matches&&b.matches.length){for(e=0;e<b.matches.length;e++)'title'===b.matches[e].key&&(g.innerHTML=d(b.matches[e].value,b.matches[e].indices)),'description'===b.matches[e].key?(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=d(b.item.description,b.matches[e].indices)):'content'===b.matches[e].key?c||(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=d(b.item.content.substring(0,150),b.matches[e].indices)):b.item.description?(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=b.item.description):(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=b.item.content.substring(0,150));f.appendChild(g),c&&f.appendChild(c),a.appendChild(h)}}):(f=document.createElement('span'),a.appendChild(f));let c=document.getElementById('search-mobile-results');while(c.firstChild)c.removeChild(c.firstChild);b.appendChild(a)}function d(a,d){if(!d)return a;var b='',c=0;return d.forEach(function(d){if(d[0]===d[1])return null;b+=''+a.substring(c,d[0])+'<span class="search__highlight">'+a.substring(d[0],d[1]+1)+'</span>'+'',c=d[1]+1}),b+=a.substring(c),b}g=document.getElementById('search'),R=document.getElementById('search-mobile'),e=document.getElementById('search-results'),g?g.addEventListener('input',function(a){var b,c;if(!a.target.value|window.innerWidth<770)return e?e.setAttribute('class','dd'):null,null;f=a.target.value,b=B.search(a.target.value),v?Q(f,b):G(f,b),c=e.querySelectorAll('.dd-item'),c?c.forEach(function(a){a.addEventListener('mousedown',function(a){a.target.click()})}):null}):null,g?g.addEventListener('blur',function(){if(window.innerWidth<770)return null;e?e.setAttribute('class','dd'):null}):null,g?g.addEventListener('click',function(a){var b,c;if(window.innerWidth<770)return null;if(!a.target.value)return e?e.setAttribute('class','dd'):null,null;f=a.target.value,b=B.search(a.target.value),v?Q(f,b):G(f,b),c=e.querySelectorAll('.dd-item'),c?c.forEach(function(a){a.addEventListener('mousedown',function(a){a.target.click()})}):null}):null,ah=document.getElementById("search-menu"),ai=document.querySelector('#search-menu .dd-item.is-active'),a=null,ak=null,V=350,g?g.addEventListener('keydown',function(d){var c,e;if(window.innerWidth<770)return null;if(c=document.querySelectorAll('#search-menu .dd-item'),d.key==='ArrowDown'){a===null?(a=0,c[a].classList.remove('is-active')):(c[a].classList.remove('is-active'),a=a===c.length-1?0:a+1),c[a].classList.add('is-active');let b=c[a].offsetTop+c[a].clientHeight-V;b>0?document.querySelector(".search-content").scrollTop+=c[a].getBoundingClientRect().height:a===0&&(document.querySelector(".search-content").scrollTop=0)}else if(d.key==='ArrowUp'){a===null?(a=c.length-1,c[a].classList.remove('is-active')):(c[a].classList.remove('is-active'),a=a===0?c.length-1:a-1),c[a].classList.add('is-active');let b=c[a].offsetTop+c[a].clientHeight-V;b<0?document.querySelector(".search-content").scrollTop-=c[a].getBoundingClientRect().height:document.querySelector(".search-content").scrollTop=b+c[a].getBoundingClientRect().height}else d.key==='Enter'?(e=c[a].getAttribute('href'),e&&(location.href=e)):d.key==='Escape'&&(d.target.value=null,b&&b.classList.remove('is-active'))}):null,R?R.addEventListener('input',function(a){var b,c;if(!a.target.value){let a=document.getElementById('search-mobile-results');while(a.firstChild)a.removeChild(a.firstChild);return null}f=a.target.value,b=B.search(a.target.value),v?ae(f,b):ab(f,b),c=e.querySelectorAll('.dd-item'),c?c.forEach(function(a){a.addEventListener('mousedown',function(a){a.target.click()})}):null}):null}</script>
+<script type=text/javascript>var i18n={bug:"蟲",dark:"惡",dragon:"龍",electric:"電",fairy:"妖精",fight:"格鬥",fire:"火",flying:"飛行",ghost:"幽靈",grass:"草",ground:"地面",ice:"冰",normal:"一般",poison:"毒",psychic:"超能力",rock:"岩石",steel:"鋼",water:"水",any:"(任意)",none:"無","can-not-found":"找不到結果",move_physical:"物理招式",move_special:"特殊招式",move_support:"變化招式"},ROOTPATH="https://hazmole.github.io/PokeRole";console.log(i18n)</script>
+<link rel=stylesheet href=/PokeRole/css/main.min.css>
+<link rel=stylesheet href=/PokeRole/css/theme-modify.min.css>
+<link rel=stylesheet href=/PokeRole/css/custom.min.css>
+<link rel=stylesheet href=/PokeRole/css/icon.min.css>
+<meta name=description content>
+<meta name=keywords content>
+<meta name=created content="0001-01-01T00:00:00+0000">
+<meta name=modified content="0001-01-01T00:00:00+0000">
+<meta property="og:site_name" content="寶可夢扮演2.0 Pokerole">
+<meta property="og:title" content="勁敵系統（可選規則）">
+<meta property="og:url" content="https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/">
+<meta property="og:type" content="article">
+<meta name=generator content="Hugo 0.88.1">
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<link rel=manifest href=/PokeRole/manifest.json>
+<link rel=apple-touch-icon sizes=57x57 href=/PokeRole/favicon/apple-icon-57x57.png>
+<link rel=apple-touch-icon sizes=60x60 href=/PokeRole/favicon/apple-icon-60x60.png>
+<link rel=apple-touch-icon sizes=72x72 href=/PokeRole/favicon/apple-icon-72x72.png>
+<link rel=apple-touch-icon sizes=76x76 href=/PokeRole/favicon/apple-icon-76x76.png>
+<link rel=apple-touch-icon sizes=114x114 href=/PokeRole/favicon/apple-icon-114x114.png>
+<link rel=apple-touch-icon sizes=120x120 href=/PokeRole/favicon/apple-icon-120x120.png>
+<link rel=apple-touch-icon sizes=144x144 href=/PokeRole/favicon/apple-icon-144x144.png>
+<link rel=apple-touch-icon sizes=152x152 href=/PokeRole/favicon/apple-icon-152x152.png>
+<link rel=apple-touch-icon sizes=180x180 href=/PokeRole/favicon/apple-icon-180x180.png>
+<link rel=icon type=image/png sizes=192x192 href=/PokeRole/favicon/android-icon-192x192.png>
+<link rel=icon type=image/png sizes=192x192 href=/PokeRole/favicon/android-icon-512x512.png>
+<link rel=icon type=image/png sizes=32x32 href=/PokeRole/favicon/favicon-32x32.png>
+<link rel=icon type=image/png sizes=96x96 href=/PokeRole/favicon/favicon-96x96.png>
+<link rel=icon type=image/png sizes=16x16 href=/PokeRole/favicon/favicon-16x16.png>
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=msapplication-TileImage content="/ms-icon-144x144.png">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebPage","headline":"勁敵系統（可選規則）","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","url":"https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/","description":"勁敵系統（可選規則） 俗話說：「你表現越好，就有越多人希望看到你失敗」。而你的勁敵就是這群人中最糟糕的那一個。 無論好壞，無論相熟已否，勁敵總是領先你一步，他們在你行走的道路上出現，提醒著你無論你多麼努力，你也永遠無法像他們一樣優秀。 你的勁敵不僅僅是個需要克服的障礙，他們的存在或許描繪出了一個與你角色相同但卻往錯誤方向發展的本質；或者， …","mainEntityOfPage":{"@type":"WebPage","@id":"https://hazmole.github.io/PokeRole"},"publisher":{"@type":"Organization","name":"寶可夢扮演2.0 Pokerole","url":"https://hazmole.github.io/PokeRole"}}</script>
+</head>
+<body id=root class=theme__dark>
+<script>var rootElem=document.getElementById('root'),themeOptions=JSON.parse('["dark"]'),localTheme=localStorage.getItem('theme');localTheme&&themeOptions&&themeOptions.length>0&&(themeOptions.includes(localTheme)?rootElem.className=`theme__${localTheme}`:rootElem.className=`theme__${themeOptions[0]}`)</script>
+<div id=container>
+<div id=myDrawer class=drawer>
+<div class=drawer__header>
+<a href=/PokeRole class=drawer__header--text>
+寶可夢扮演 Pokerole
+</a>
+<div class=grow></div>
+<div class=drawer__close><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M18.3 5.71c-.39-.39-1.02-.39-1.41.0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02.0 1.41s1.02.39 1.41.0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02.0-1.4z"/></svg>
+</div>
+</div>
+<div class=drawer__body>
+<div class=menu>
+<ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/introduction/ class=menu__title>介紹</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/the-world/ class=menu__title>神奇的寶可夢世界</a>
+</li>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/starting-the-game/>
+<span class=menu__title--collapse-text>
+開始遊戲
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/starting-the-game/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/ class=menu__title data-depth=0>創建角色</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/ class=menu__title data-depth=0>創建寶可夢</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/ class=menu__title data-depth=0>心理/生理/社交特質</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/ class=menu__title data-depth=0>技能</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/ class=menu__title data-depth=0>生命值與意志點</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/ class=menu__title data-depth=0>幸福度與忠誠度</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/ class=menu__title data-depth=0>擲骰判定</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/ class=menu__title data-depth=0>階級</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/ class=menu__title data-depth=0>創作故事</a>
+</li>
+</ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/natures/ class=menu__title>性格</a>
+</li>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-battle/>
+<span class=menu__title--collapse-text>
+寶可夢戰鬥
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/pokemon-battle/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/ class=menu__title data-depth=0>不同的寶可夢屬性</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/ class=menu__title data-depth=0>如何戰鬥</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/ class=menu__title data-depth=0>傷害</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/ class=menu__title data-depth=0>多重行動 (可選)</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/ class=menu__title data-depth=0>勝利策略</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/ class=menu__title data-depth=0>天氣狀態 & 環境</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/ class=menu__title data-depth=0>異常狀態</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/ class=menu__title data-depth=0>總結</a>
+</li>
+</ul>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-contest/>
+<span class=menu__title--collapse-text>
+寶可夢華麗大賽
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/pokemon-contest/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/ class=menu__title data-depth=0>華麗大賽介紹</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/ class=menu__title data-depth=0>華麗大賽的構成</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/ class=menu__title data-depth=0>華麗大賽的流程</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/ class=menu__title data-depth=0>協調訓練家階級</a>
+</li>
+</ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/catching-pokemon/ class=menu__title>收服寶可夢</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/training-pokemon/ class=menu__title>訓練寶可夢</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/items-for-the-journey/ class=menu__title>旅途中的道具</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokedex/ class=menu__title>寶可夢圖鑑</a>
+</li>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-moves/>
+<span class=menu__title--collapse-text>
+寶可夢招式
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/pokemon-moves/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/ class=menu__title data-depth=0>招式的規則</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/ class=menu__title data-depth=0>招式效果標誌</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/ class=menu__title data-depth=0>Z招式</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/ class=menu__title data-depth=0>極巨招式</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/ class=menu__title data-depth=0>常見問題</a>
+</li>
+</ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-abilities/ class=menu__title>寶可夢特性</a>
+</li>
+<li class="menu__title--collapse active" data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/challenges-ahead/>
+<span class=menu__title--collapse-text>
+面對挑戰
+</span>
+<span class="menu__title--icon down"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class="menu__list active" data-data=/challenges-ahead/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/session-settings/ class=menu__title data-depth=0>劇情設計</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/ class="menu__title active" data-depth=0>勁敵系統（可選規則）</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/ class=menu__title data-depth=0>征服寶可夢聯盟</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/ class=menu__title data-depth=0>超級進化的力量</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/ class=menu__title data-depth=0>英雄巡禮與Z招式</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/myths-and-legends/ class=menu__title data-depth=0>神話與傳說</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/legendary-ranking/ class=menu__title data-depth=0>傳說階級（可選規則）</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/ class=menu__title data-depth=0>超極巨聯盟</a>
+</li>
+</ul>
+</ul>
+</div>
+<script>var menuTitle=document.querySelectorAll('.menu__title'),modal=document.getElementById("myModal"),drawer=document.getElementById('myDrawer'),closeDrawer=function(){setTimeout(function(){modal.style.opacity=0,drawer.style.left='-100%',modal.style.left='-100%'},250)};menuTitle?menuTitle.forEach(function(a){a.onclick=function(){closeDrawer(),localStorage.setItem('isDrawerOpen','false')}}):null</script>
+</div>
+</div>
+<div id=myModal class=modal></div>
+<script>var isDrawerOpen=localStorage.getItem('isDrawerOpen'),modal=document.getElementById("myModal"),drawer=document.getElementById('myDrawer'),languagedir=JSON.parse('"ltr"'),openDrawer=function(){modal.style.opacity=1,languagedir==="rtl"?(modal.style.right=0,drawer.style.right=0):(modal.style.left=0,drawer.style.left=0)};isDrawerOpen&&isDrawerOpen==='true'&&openDrawer()</script>
+<nav class=nav>
+<div class=navbar__wrapper data-bgimg=false>
+<div class=divider>
+<div class="navbar lmr">
+<div id=siteLogo class=navbar__logo--wrapper>
+<a href=/PokeRole/ title rel=home class=navbar__logo--link>
+<img src=/PokeRole/logo.png alt=Home class=navbar__logo>
+</a>
+<a href=/PokeRole/ title rel=home class=navbar__logo--text-link>
+<h6 class=navbar__logo--text data-bgimg=false>寶可夢扮演 Pokerole</h6>
+</a>
+</div>
+<div class=navbar__menu--wrapper>
+<div id=tabletLogo class=hide>
+<a href=/PokeRole/ rel=home class=navbar__logo--link>
+<img src=/PokeRole/logo.png alt=Home class=navbar__logo>
+</a>
+</div>
+<div id=mobileLogo class=hide>
+<a href=# class=navbar__logo--link>
+<div class=navbar__icons--icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M4 18h16c.55.0 1-.45 1-1s-.45-1-1-1H4c-.55.0-1 .45-1 1s.45 1 1 1zm0-5h16c.55.0 1-.45 1-1s-.45-1-1-1H4c-.55.0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55.0 1-.45 1-1s-.45-1-1-1H4c-.55.0-1 .45-1 1z"/></svg>
+</div>
+</a>
+</div>
+<span id=navMenuMobile class=hide>
+<button id=navCollapseBtn class=navbar__dropdown--title aria-label="Section Menu" data-dir=ltr>
+寶可夢扮演2.0 Pokerole<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentcolor" d="M8.12 9.29 12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41.0s.39 1.02.0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41.0L6.7 10.7c-.39-.39-.39-1.02.0-1.41.39-.38 1.03-.39 1.42.0z"/></svg>
+</button>
+<div class=navbar__collapse data-open=false>
+<ul>
+<li class="navbar__menu--mobile-item active">
+<a href=/PokeRole/docs class=active>遊戲規則</a>
+</li>
+<li class=navbar__menu--mobile-item>
+<a href=/PokeRole/data>資料一覽</a>
+</li>
+<li class=navbar__menu--mobile-item>
+<a href="https://docs.google.com/spreadsheets/d/1IQGBW50eJtib8fq7IgLVlzFxzwfhNs-5cpjy0WOu9XI/edit#gid=0">線上角色卡</a>
+</li>
+</ul>
+</div>
+</span>
+<ul id=navMenu class=navbar__menu>
+<li class="navbar__menu--item active">
+<a href=/PokeRole/docs data-bgimg=false>遊戲規則</a>
+</li>
+<li class=navbar__menu--item>
+<a href=/PokeRole/data data-bgimg=false>資料一覽</a>
+</li>
+<li class=navbar__menu--item>
+<a href="https://docs.google.com/spreadsheets/d/1IQGBW50eJtib8fq7IgLVlzFxzwfhNs-5cpjy0WOu9XI/edit#gid=0" data-bgimg=false>線上角色卡</a>
+</li>
+</ul>
+</div>
+<div class=grow></div>
+<div id=siteSearch>
+<div class=search data-bgimg=false>
+<span class=icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentcolor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49.0s.41-1.08.0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+</span>
+<input id=search aria-label="Site Search" class=input type=text autocomplete=off placeholder=Search>
+<div id=search-results class=dropdown>
+<div id=search-menu class=dropdown-menu>
+</div>
+</div>
+</div>
+</div>
+<div id=mobileSearch class=hide>
+<div id=mobileSearchBtn class=mobile-search__btn><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentcolor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49.0s.41-1.08.0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+</div>
+<div id=search-mobile-container class="mobile-search hide">
+<div class=mobile-search__top>
+<input id=search-mobile type=text aria-label="Mobile Search" placeholder=Search... class=mobile-search__top--input>
+<div id=search-mobile-close class=mobile-search__top--icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41.0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg>
+</div>
+</div>
+<div id=search-mobile-results class=mobile-search__body>
+</div>
+</div>
+</div>
+<div class=navbar__icons>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<script>var siteLogo=document.getElementById('siteLogo'),tabletLogo=document.getElementById('tabletLogo'),mobileLogo=document.getElementById('mobileLogo'),navMenu=document.getElementById('navMenu'),navMenuMobile=document.getElementById('navMenuMobile'),siteSearch=document.getElementById('siteSearch'),mobileSearch=document.getElementById('mobileSearch');enquire.register("screen and (max-width:1280px)",{match:function(){siteLogo.className='navbar__logo--wrapper',tabletLogo.className='hide',mobileLogo.className='hide',navMenu.className='navbar__menu',navMenuMobile.className='hide',siteSearch.className='',mobileSearch.className='hide'},unmatch:function(){siteLogo.className='navbar__logo--wrapper',tabletLogo.className='hide',mobileLogo.className='hide',navMenu.className='navbar__menu',navMenuMobile.className='hide',siteSearch.className='',mobileSearch.className='hide'}}).register("screen and (max-width:960px)",{match:function(){siteLogo.className='hide',tabletLogo.className='',mobileLogo.className='hide',navMenu.className='navbar__menu',navMenuMobile.className='hide',siteSearch.className='hide',mobileSearch.className='navbar__icons--icon'},unmatch:function(){siteLogo.className='navbar__logo--wrapper',tabletLogo.className='hide',mobileLogo.className='hide',navMenu.className='navbar__menu',navMenuMobile.className='hide',siteSearch.className='',mobileSearch.className='hide'}}).register("screen and (max-width:600px)",{match:function(){siteLogo.className='hide',tabletLogo.className='hide',mobileLogo.className='',navMenu.className='hide',navMenuMobile.className='',siteSearch.className='hide',mobileSearch.className='navbar__icons--icon'},unmatch:function(){siteLogo.className='hide',tabletLogo.className='',mobileLogo.className='hide',navMenu.className='navbar__menu',navMenuMobile.className='hide',siteSearch.className='hide',mobileSearch.className='navbar__icons--icon'}})</script>
+<div class=top>
+<div class="header__wrapper bgcolor__header">
+<div class=divider>
+<div class=lmr>
+<h2 class=title>勁敵系統（可選規則）</h2>
+</div>
+</div>
+</div>
+<div class="header__wrapper bgcolor__breadcrumb">
+<div class=divider>
+<div class="lmr flexbox">
+<nav class=breadcrumb aria-label=breadcrumbs data-is-blog=false>
+<ol>
+<li>
+<a href=https://hazmole.github.io/PokeRole/ class=capitalize>寶可夢扮演2.0</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/ class=capitalize>遊戲規則</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/ class=capitalize>面對挑戰</a>
+</li>
+<li class=is-active>
+<span>勁敵系統（可選規則）</span>
+</li>
+</ol>
+</nav>
+<div class=grow></div>
+<label class="switch switch__rel">
+<input id=toggle-sidebar aria-label="Toggle Sidebar Visibility" type=checkbox checked>
+<span class=slider>
+<span class=slider__icon><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03.0 1.42.39.39 1.02.39 1.41.0l6.59-6.59c.39-.39.39-1.02.0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L16.17 11H5c-.55.0-1 .45-1 1s.45 1 1 1z"/></svg>
+</span>
+<span class="slider__icon hide"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03.0-1.42s-1.02-.39-1.41.0l-6.59 6.59c-.39.39-.39 1.02.0 1.41l6.59 6.59c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L7.83 13H19c.55.0 1-.45 1-1s-.45-1-1-1z"/></svg>
+</span>
+</span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class=mid>
+<div class=divider>
+<nav id=single-menu class=l data-dir=ltr>
+<div class=menu>
+<ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/introduction/ class=menu__title>介紹</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/the-world/ class=menu__title>神奇的寶可夢世界</a>
+</li>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/starting-the-game/>
+<span class=menu__title--collapse-text>
+開始遊戲
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/starting-the-game/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-character/ class=menu__title data-depth=0>創建角色</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-pokemon/ class=menu__title data-depth=0>創建寶可夢</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/attributes/ class=menu__title data-depth=0>心理/生理/社交特質</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/skills/ class=menu__title data-depth=0>技能</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/hp-wp/ class=menu__title data-depth=0>生命值與意志點</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/happiness-and-loyalty/ class=menu__title data-depth=0>幸福度與忠誠度</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/rolling-dice/ class=menu__title data-depth=0>擲骰判定</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/ranking/ class=menu__title data-depth=0>階級</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/starting-the-game/create-story/ class=menu__title data-depth=0>創作故事</a>
+</li>
+</ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/natures/ class=menu__title>性格</a>
+</li>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-battle/>
+<span class=menu__title--collapse-text>
+寶可夢戰鬥
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/pokemon-battle/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/pokemon-types/ class=menu__title data-depth=0>不同的寶可夢屬性</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/how-to-battle/ class=menu__title data-depth=0>如何戰鬥</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/damage/ class=menu__title data-depth=0>傷害</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/multiple-actions/ class=menu__title data-depth=0>多重行動 (可選)</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/strategies-to-win/ class=menu__title data-depth=0>勝利策略</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/weather-condition/ class=menu__title data-depth=0>天氣狀態 & 環境</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/status-condition/ class=menu__title data-depth=0>異常狀態</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-battle/conclusion/ class=menu__title data-depth=0>總結</a>
+</li>
+</ul>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-contest/>
+<span class=menu__title--collapse-text>
+寶可夢華麗大賽
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/pokemon-contest/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/introduction/ class=menu__title data-depth=0>華麗大賽介紹</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/contest-makeup/ class=menu__title data-depth=0>華麗大賽的構成</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/step-of-the-show/ class=menu__title data-depth=0>華麗大賽的流程</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-contest/coordinator-rank/ class=menu__title data-depth=0>協調訓練家階級</a>
+</li>
+</ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/catching-pokemon/ class=menu__title>收服寶可夢</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/training-pokemon/ class=menu__title>訓練寶可夢</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/items-for-the-journey/ class=menu__title>旅途中的道具</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokedex/ class=menu__title>寶可夢圖鑑</a>
+</li>
+<li class=menu__title--collapse data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/pokemon-moves/>
+<span class=menu__title--collapse-text>
+寶可夢招式
+</span>
+<span class="menu__title--icon right"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class=menu__list data-data=/pokemon-moves/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/basic-rules/ class=menu__title data-depth=0>招式的規則</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/effect-types/ class=menu__title data-depth=0>招式效果標誌</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/z-moves/ class=menu__title data-depth=0>Z招式</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/max-moves/ class=menu__title data-depth=0>極巨招式</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-moves/faq/ class=menu__title data-depth=0>常見問題</a>
+</li>
+</ul>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/pokemon-abilities/ class=menu__title>寶可夢特性</a>
+</li>
+<li class="menu__title--collapse active" data-depth=0 data-permalink=https://hazmole.github.io/PokeRole/docs/challenges-ahead/>
+<span class=menu__title--collapse-text>
+面對挑戰
+</span>
+<span class="menu__title--icon down"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+</li>
+<ul class="menu__list active" data-data=/challenges-ahead/ data-link=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/session-settings/ class=menu__title data-depth=0>劇情設計</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/rival-system/ class="menu__title active" data-depth=0>勁敵系統（可選規則）</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/ class=menu__title data-depth=0>征服寶可夢聯盟</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/mega-evolution/ class=menu__title data-depth=0>超級進化的力量</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/z-moves/ class=menu__title data-depth=0>英雄巡禮與Z招式</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/myths-and-legends/ class=menu__title data-depth=0>神話與傳說</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/legendary-ranking/ class=menu__title data-depth=0>傳說階級（可選規則）</a>
+</li>
+<li>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/dynamax/ class=menu__title data-depth=0>超極巨聯盟</a>
+</li>
+</ul>
+</ul>
+</div>
+</nav>
+<article id=list-main class=m data-dir=ltr>
+<div class=single data-display=block>
+<article class=single__contents data-dir=ltr>
+<h2 id=勁敵系統可選規則>勁敵系統（可選規則）</h2>
+<p>俗話說：「你表現越好，就有越多人希望看到你失敗」。而你的勁敵就是這群人中最糟糕的那一個。</p>
+<p>無論好壞，無論相熟已否，勁敵總是領先你一步，他們在你行走的道路上出現，提醒著你無論你多麼努力，你也永遠無法像他們一樣優秀。</p>
+<p>你的勁敵不僅僅是個需要克服的障礙，他們的存在或許描繪出了一個與你角色相同但卻往錯誤方向發展的本質；或者，他們可能與你的角色完全相反。他們比你更強大、更聰明、更有魅力，且他們也清楚知道這一點。<br>
+在你的旅途中，他們會把握每一個機會使你的人生變得艱難，他們有資格把你搞得一團糟，並且每一次都表現得比你更加出色。然而，也許，只是也許，如果你設法克服了你自己所有的弱點，那麼你也許能夠一勞永逸地戰勝他們。</p>
+<p>當你創建你的角色時，你也同時創建你的勁敵。</p>
+<hr>
+<h3 id=勁敵角色的創建與發展>勁敵角色的創建與發展</h3>
+<p>下列這些數據將透過隨機的方式決定，但在說書人的允許下，你也可以直接決定它們。</p>
+<ul>
+<li>在創建勁敵角色時，選擇 1 種態度。</li>
+<li>在創建勁敵角色時，選擇 1 種關係。</li>
+<li>在創建勁敵角色時，選擇 1 種背景。</li>
+<li>在創建勁敵角色時，選擇 1 項異質特性。<br>
+你的勁敵會在 初學者、業餘者、菁英、專家、大師、和冠軍階級時額外獲得 1 項異質特性。</li>
+<li>決定你勁敵的寶可夢。<br>
+牠們必須要比玩家的寶可夢更強大。</li>
+<li>勁敵的階級永遠比玩加角色的階級高一階。</li>
+</ul>
+<h4 id=-態度-attitudes>⬛ 態度 Attitudes</h4>
+<ul>
+<li><strong>善良</strong></li>
+<li><strong>混蛋</strong></li>
+<li><strong>虛偽</strong></li>
+<li><strong>嫉妒</strong></li>
+<li><strong>邪惡</strong></li>
+</ul>
+<h4 id=-關係-relationship>⬛ 關係 Relationship</h4>
+<ul>
+<li><strong>親戚</strong> - 家庭競爭關係是最糟糕的了……</li>
+<li><strong>朋友</strong> - 友好的競爭關係。</li>
+<li><strong>神秘</strong> - 這傢伙到底是誰？</li>
+<li><strong>惡霸</strong> - 他會為了娛樂自己而折磨你。</li>
+<li><strong>死敵</strong> - 他執著於看到你的毀滅。</li>
+</ul>
+<h4 id=-背景-backgrounds>⬛ 背景 Backgrounds</h4>
+<p>勁敵是優秀的訓練家，他們有著豐富的背景故事來合理化他們那些強大的技能。</p>
+<h5 id=珍獸黑客-hax0rus>珍獸黑客 Hax0rus</h5>
+<p>你勁敵的寶可夢也許不是透過合法手段獲得的。牠們是色違品種，且超級稀有。</p>
+<h5 id=潮酷守則-rule-of-tenta-cool>潮酷守則 Rule of Tenta-Cool</h5>
+<p>你的勁敵生來就是個明星，他的社交特質和社交類技能數值全都為最大值，並因此相當出名。他總是說著關於你的謊話，且每個人都相信他，就連你的家人和最要好的朋友也是。</p>
+<h5 id=傑出的詛咒-cursed-with-awesome>傑出的詛咒 Cursed with Awesome</h5>
+<p>你的勁敵擁有著你最想要得到的東西，然而，你的勁敵顯然不怎麼喜歡它，且將其視為一種詛咒。這個「詛咒」可以是任何形式的事物，包括寶可夢、工作、物體、或某個人。</p>
+<h5 id=富家大少-richboy>富家大少 Richboy</h5>
+<p>你的勁敵有著無限的金錢來源，但他打賭時的籌碼永遠不會超過 $50。如果他在鎮上，那鎮上所有商品和服務的價格都將變為原本的３倍，且沒有任何東西會是免費──就連寶可夢中心也是。如果同時有好幾個富家大少，那麼價格會再翻倍。</p>
+<h5 id=組織成員-team-member>組織成員 Team Member</h5>
+<p>你的勁敵隸屬於某個犯罪組織。<br>
+他和他的狐群狗黨會結夥跟你對戰。在每個戰鬥輪結束時，你勁敵的寶可夢會自動使用無屬性版本的〈圍攻〉招式（最低威力）並直接命中你的寶可夢。這……因為某些原因並不被視為違規。</p>
+<h5 id=殘疾孤兒-disabledorphan>殘疾/孤兒 Disabled/Orphan</h5>
+<p>你勁敵的一生已經受了不少苦。人們會因為你「欺負」這可憐的孩子而對你生氣。</p>
+<h5 id=反英雄-anti-hero>反英雄 Anti-Hero</h5>
+<p>不管你去到哪裡，你都會發現你勁敵的成就。無論你做什麼，他都先你一步，且做的比你更好。</p>
+<h5 id=專橫導師-tyrant-mentor>專橫導師 Tyrant Mentor</h5>
+<p>你的勁敵覺得他有義務給你上一課，也許他相信你有潛力成為更偉大的人物。<br>
+他經常會現身，強化並幫助你的敵人，像是出借他們道具、治療、給予提升特質的營養劑、或關於如何擊敗你的技巧。</p>
+<h4 id=-異質特性-unlike-abilities>⬛ 異質特性 Unlike-Abilities</h4>
+<p>一個你每次都能夠隨意擺弄、踩在腳下的勁敵有什麼好的？當然不好。勁敵就是設計來要讓你的角色用盡全力怒吼：「這不公平！」，而正義能否得到伸張將全取決於你。異質特性的強度是不平衡的，且它們本意如此。它們就是設計給那些最強大的反派訓練家使用的超強能力。</p>
+<h6 id=作弊許可-licence-to-cheat>作弊許可 Licence to Cheat.</h6>
+<p>你的勁敵並不會因為違反寶可夢聯盟的規定而承受任何後果。他可能會使用違禁道具、一次派出好幾隻寶可夢、或者在正式對戰中攻擊你或你的寶可夢。但注意，如果你也違反了規定，你<strong>會</strong>被嚴重懲處的！</p>
+<h6 id=壓倒性力量-overpowered>壓倒性力量 OverPowered</h6>
+<p>你的勁敵和他的寶可夢釋放出他們隱藏的力量。他們的傷害骰永遠視作成功。</p>
+<h6 id=過度自信-overconfidence>過度自信 Overconfidence</h6>
+<p>你的勁敵和他的寶可夢擁有無限數量的意志點。</p>
+<h6 id=忍無可忍-unbearable>忍無可忍 Unbearable</h6>
+<p>你的勁敵清楚知道該如何激怒你。當他和你交談時，你和你所有的寶可夢都將自動失去你們的 帥氣、聰明、強壯、可愛 社交特質。所有涉及這些社交特質的擲骰判定都將自動失敗。</p>
+<h6 id=吃剩的東西狂熱者-leftover-maniac>吃剩的東西狂熱者 Leftover Maniac</h6>
+<p>你勁敵的所有寶可夢都持有「吃剩的東西」做為持有物品。</p>
+<div class=Item>
+<div class="Header flexContainer">
+<div class=title>吃剩的東西</div>
+</div>
+<div class=Content>
+每輪回復 1 點HP。每天可以回復最多 10 點HP。
+</div>
+</div>
+<h6 id=殘忍訓練-cruel-training>殘忍訓練 Cruel Training</h6>
+<p>你的勁敵毫不留情地鍛鍊他的寶可夢，且牠們全都進化到最終階段。</p>
+<h6 id=招式大師-move-master>招式大師 Move Master</h6>
+<p>選擇一個非常強大或極度實用的招式。你勁敵的所有寶可夢都能夠使用這個招式。<br>
+這個異質特性可以被重複選擇好幾次。</p>
+<h6 id=傑克蘇瑪麗蘇-gary-stumary-sue>傑克蘇/瑪麗蘇 Gary Stu/Mary Sue</h6>
+<p>你勁敵所做的每一件事都會如同他骰出了 5 顆成功骰一樣成功。他的寶可夢永遠不會失敗且從來不會辜負他的期望。牠們的所有招式都獲得「必中」效果。</p>
+<h6 id=可疑竊賊-suspected-thief>可疑竊賊 Suspected Thief</h6>
+<p>每次你遇見你的勁敵，你身上的東西總是會在他們離開場景時消失不見。他甚至可能會偷走你的寶可夢！如果你的勁敵的態度不是「邪惡」，那麼你也許能在附近的寶可夢中心、收容所、或培育屋找到你的精靈球；但如果他是「邪惡」的，那麼要找回你的夥伴可能就沒那麼容易了。</p>
+<h6 id=鎂光燈小偷-spotlight-thief>鎂光燈小偷 Spotlight Thief</h6>
+<p>每次你做出什麼驚人事蹟，你的勁敵最終都會拿走所有的功勞，甚至會讓情況看起來像是他拯救了你一樣。</p>
+<h6 id=如簧巧舌-silver-tongue>如簧巧舌 Silver Tongue</h6>
+<p>你的勁敵清楚知道該如何操弄你。<br>
+你會去做任何他想要你去做的事情，即使那違背了你的信念或計畫。更糟的是，你會覺得他們這麼做是為了你好。</p>
+<h6 id=不幸馭手-rider-of-misfortune>不幸馭手 Rider of Misfortune</h6>
+<p>你的勁敵決定要讓你的日常生活彷彿地獄般難受。<br>
+你所做的每一件事都變得難以置信地複雜麻煩，你沒有任何證據，但你知道他就是幕後黑手！然而沒有人相信你。<br>
+你無法回復你的信心值，且你每天會失去 2 點信心值。當你失去所有的信心值時，你的精神將會崩潰，並在隔天回復你所有的信心值。</p>
+<h6 id=雙面間諜-double-agent>雙面間諜 Double Agent</h6>
+<p>你的其中一隻寶可夢效忠於你的勁敵，你甚至不曾懷疑過牠。牠可能會故意在戰鬥中敗北（偷偷修改成功骰數）並搞砸你的計劃。<br>
+牠們相當擅長掩蓋牠們的罪行，如果你存放或釋放了做為雙面間諜的寶可夢，那麼你隊伍中的另外一隻寶可夢將會接替牠的位置……但會是誰呢？<br>
+這個異質特性可以被重複選擇好幾次。</p>
+<h6 id=無法擊敗的對手-undefeatable-foe>無法擊敗的對手 Undefeatable Foe</h6>
+<p>你的勁敵註定要擊敗你。每，一，次，都，是。<br>
+無論你訓練多少次，無論多麼努力嘗試，無論派了哪隻寶可夢去戰鬥，你最終總是會敗北。<br>
+當你在與你的勁敵對戰時，你的所有擲骰判定全都會扣除一顆成功骰。</p>
+<div class=box><p>玩家不能成為彼此的勁敵。勁敵和其異質特性是為了給玩家帶來幾乎不可能的挑戰，因此它們並不適合給玩家角色使用。</p>
+<p>從純粹的數值面來看，你可能每一次都會嘗到敗北的滋味，但周全準備的策略將帶你走得更遠。<br>
+如果你打算晉升到「菁英」階級，那麼你最終仍必須要打敗你的勁敵。又或者更進一步，說書人可能會添加其他跟勁敵有關的成就，要你達成它們後才能晉升到「初學者」或「業餘者」階級。</p>
+<p>你會愛上討厭你勁敵的感覺，去享受努力嘗試戰勝這可怕敵人的樂趣吧！</p>
+</div>
+</article>
+</div>
+<div class=grow></div>
+<nav class=pagination-single>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/session-settings/ title=劇情設計 class=pagination-single__left>
+<div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03.0-1.42s-1.02-.39-1.41.0l-6.59 6.59c-.39.39-.39 1.02.0 1.41l6.59 6.59c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L7.83 13H19c.55.0 1-.45 1-1s-.45-1-1-1z"/></svg>
+</div>
+<div class=pagination-single__right-title>劇情設計</div>
+</a>
+<div class=grow></div>
+<a href=https://hazmole.github.io/PokeRole/docs/challenges-ahead/pokemon-league/ title=征服寶可夢聯盟 class=pagination-single__right>
+<div class=pagination-single__left-title>征服寶可夢聯盟</div>
+<div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03.0 1.42.39.39 1.02.39 1.41.0l6.59-6.59c.39-.39.39-1.02.0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L16.17 11H5c-.55.0-1 .45-1 1s.45 1 1 1z"/></svg>
+</div>
+</a>
+</nav>
+</article>
+<section id=list-side class=r data-dir=ltr>
+<div class=toc>
+<h6 class=toc__label>內容目錄</h6>
+<div class=toc__body>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#勁敵系統可選規則>勁敵系統（可選規則）</a>
+<ul>
+<li><a href=#勁敵角色的創建與發展>勁敵角色的創建與發展</a>
+<ul>
+<li><a href=#-態度-attitudes>⬛ 態度 Attitudes</a></li>
+<li><a href=#-關係-relationship>⬛ 關係 Relationship</a></li>
+<li><a href=#-背景-backgrounds>⬛ 背景 Backgrounds</a></li>
+<li><a href=#-異質特性-unlike-abilities>⬛ 異質特性 Unlike-Abilities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script>'use strict';var dollarCodeElem,gtCodeElem;function wrap(a,b){a.parentNode.insertBefore(b,a),b.appendChild(a)}(function(){var a=document.querySelector('.single__contents');a?a.querySelectorAll('pre > code').forEach(function(a){var b=a.getAttribute('data-lang'),d=document.createElement('div'),e=null,c=null;b&&b.includes(':')&&(e=b.split(':')[0],c=b.split(':')[1],d.className='language-'+e,d.setAttribute('data-lang',c),a.className='language-'+e,a.setAttribute('data-lang',c),a.setAttribute('id',c)),(!b||c)&&wrap(a.parentNode,d)}):null})(),dollarCodeElem=document.querySelectorAll('div.language-\\$'),gtCodeElem=document.querySelectorAll('div.language-\\>'),dollarCodeElem?dollarCodeElem.forEach(function(a){var b=a.parentNode.parentNode?a.parentNode.parentNode.querySelectorAll('.lnt'):null;b?b.forEach(function(a){a.innerHTML='$<br/>'}):null}):null,gtCodeElem?gtCodeElem.forEach(function(a){var b=a.parentNode.parentNode?a.parentNode.parentNode.querySelectorAll('.lnt'):null;b?b.forEach(function(a){a.innerHTML='><br/>'}):null}):null</script>
+<script defer src=/PokeRole/js/helper/getParents.min.js></script>
+<script defer src=/PokeRole/js/helper/closest.min.js></script>
+<script defer src=/PokeRole/js/helper/prev.min.js></script>
+<script defer src=/PokeRole/js/helper/prop.min.js></script>
+<script defer src=/PokeRole/js/helper/fadeinout.min.js></script>
+<script>document.addEventListener('DOMContentLoaded',function(){'use strict';var l=document.querySelectorAll('.single__contents > table'),d,i,a,n,k,p,h,c,m,b,g,f,e,o,j;for(let a=0;a<l.length;a++)d=l[a],i=document.createElement('div'),i.className='table-wrapper',d.parentElement.replaceChild(i,d),i.appendChild(d);a=JSON.parse("null"),a&&a.includes('mermaid')&&(n=localStorage.getItem('theme')||'light',n==="dark"?mermaid.initialize({theme:'dark'}):mermaid.initialize({theme:'default'}),k=[],[].push.apply(k,document.getElementsByClassName('language-mermaid')),k.forEach(function(b){var a=b.parentNode,c;a!==document.body&&(a.parentNode.insertBefore(b,a),a.parentNode.removeChild(a)),c=document.createElement('div'),c.classList.add('mermaid'),c.innerHTML=b.innerHTML,b.replaceWith(c)})),a&&a.includes('katex')&&(p=document.getElementsByClassName('math'),h={delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}]},renderMathInElement(document.querySelector('.single__contents'),h)),a&&a.includes('flowchartjs')&&(h=JSON.parse('{"arrow-end":"block","element-color":"black","fill":"white","flowstate":{"approved":{"fill":"#58C4A3","font-size":12,"no-text":"n/a","yes-text":"APPROVED"},"current":{"fill":"yellow","font-color":"red","font-weight":"bold"},"future":{"fill":"#FFFF99"},"invalid":{"fill":"#444444"},"past":{"fill":"#CCCCCC","font-size":12},"rejected":{"fill":"#C45879","font-size":12,"no-text":"REJECTED","yes-text":"n/a"},"request":{"fill":"blue"}},"font-color":"black","font-size":14,"line-color":"black","line-length":50,"line-width":3,"no-text":"no","scale":1,"symbols":{"end":{"class":"end-element"},"start":{"element-color":"green","fill":"yellow","font-color":"red"}},"text-margin":10,"x":0,"y":0,"yes-text":"yes"}'),c=null,m="language-flowchart",b=0,Array.prototype.forEach.call(document.querySelectorAll("[class^="+m+"]"),function(a){var d,e;a.style.display='none',a.parentNode.style.backgroundColor="transparent",c=a.innerText,d=document.createElement('div'),d.id='flowchart'+b,a.parentNode.insertBefore(d,a),e=flowchart.parse(c),e.drawSVG("flowchart"+b,h),b+=1})),a&&a.includes('chart')&&(g="#666",f="#ddd",e=2,Chart.defaults.global.elements.rectangle.borderWidth=e,Chart.defaults.global.elements.rectangle.borderColor=g,Chart.defaults.global.elements.rectangle.backgroundColor=f,Chart.defaults.global.elements.line.borderWidth=e,Chart.defaults.global.elements.line.borderColor=g,Chart.defaults.global.elements.line.backgroundColor=f,Chart.defaults.global.elements.point.borderWidth=e,Chart.defaults.global.elements.point.borderColor=g,Chart.defaults.global.elements.point.backgroundColor=f,o="language-chart",b=0,c=null,Array.prototype.forEach.call(document.querySelectorAll("[class^="+o+"]"),function(a){var d,e,f,g;a.style.display='none',a.parentNode.style.backgroundColor="transparent",c=a.innerText,d=document.createElement('canvas'),e=null,d.height=200,d.style.height=200,d.id='myChart'+b,e=JSON.parse(c),a.parentNode.insertBefore(d,a),f=document.getElementById('myChart'+b).getContext('2d'),g=new Chart(f,e),b+=1})),a&&a.includes('viz')&&(j="language-viz-",Array.prototype.forEach.call(document.querySelectorAll("[class^="+j+"]"),function(a){var b,c;a.style.display='none',a.parentNode.style.backgroundColor="transparent",a.getAttribute("class").split(" ").forEach(function(a){a.startsWith(j)&&(b=a.substr(j.length))}),c=new Viz,c.renderSVGElement(a.innerText,{engine:b}).then(function(b){b.style.width="100%",a.parentNode.insertBefore(b,a)})}))})</script>
+<script>var listSide=document.getElementById('list-side'),listMain=document.getElementById('list-main'),singleMenu=document.getElementById('single-menu'),switchElem=document.querySelector('.switch'),wideViewAsDefault=JSON.parse("null");enquire.register("screen and (max-width:1280px)",{match:function(){wideViewAsDefault?(singleMenu.className='l',listMain.className='mr',listSide.className='hide'):(singleMenu.className='l',listMain.className='m',listSide.className='r')},unmatch:function(){wideViewAsDefault?(singleMenu.className='l',listMain.className='mr',listSide.className='hide'):(listSide.className='r',listMain.className='m',singleMenu.className='l')}}).register("screen and (max-width:960px)",{match:function(){singleMenu.className='l',listMain.className='mr',listSide.className='hide',switchElem.className='hide'},unmatch:function(){wideViewAsDefault?(singleMenu.className='l',listMain.className='mr',listSide.className='hide'):(singleMenu.className='l',listMain.className='m',listSide.className='r'),switchElem.className='switch'}}).register("screen and (max-width:600px)",{match:function(){listSide.className='hide',listMain.className='lmr',singleMenu.className='hide',switchElem.className='hide'},unmatch:function(){listSide.className='hide',listMain.className='mr',singleMenu.className='l',switchElem.className='hide'}})</script>
+<div class=bot>
+<footer class=footer>
+<div class=divider>
+<div class=lmr>
+<p class=caption>
+©2021, All Rights Reserved
+</p>
+<p class=caption>Powered by <a href=https://gohugo.io/ rel=noreferrer>Hugo</a> and the <a href=https://github.com/zzossig/hugo-theme-zdoc rel=noreferrer>zDoc theme</a></p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>

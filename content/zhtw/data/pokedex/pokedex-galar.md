@@ -2,7 +2,6 @@
 title = "伽勒爾地區"
 weight = 9
 description = "伽勒爾地區"
-draft=true
 +++
 
 

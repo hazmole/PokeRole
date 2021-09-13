@@ -22,7 +22,7 @@ sections:
     body:
       description: "這是一本關於如何創造一個屬於你自己的故事，帶領你的角色以及寶可夢前往未知之旅的規則！<br><br>
 本站係由 免費開源TRPG中文化團隊 翻譯架設。<br>
-<u>翻譯者: Hazmole, 蝶, Vivianna, 盤龍, 寒碧, 安生, 藍莓莓</u><br><br>
+<u>翻譯者: 蝶, Hazmole, Vivianna, 盤龍, 寒碧, 安生, 藍莓莓</u><br><br>
 原站：<a href='https://www.pokeroleproject.com'>https://www.pokeroleproject.com</a>"
       color: white
       image: images/pokedex/025.png
