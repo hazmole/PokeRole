@@ -56,14 +56,14 @@
       }
 
       // Statistics
-      pokemonObj.baseHP = formData.baseHP.value;
+      pokemonObj.baseHP = parseInt(formData.baseHP.value);
       pokemonObj.rank = parseInt(formData.rank.value);
       pokemonObj.attr = {
-        str: { value:formData.baseStr.value, max:formData.maxStr.value },
-        dex: { value:formData.baseDex.value, max:formData.maxDex.value },
-        vit: { value:formData.baseVit.value, max:formData.maxVit.value },
-        spe: { value:formData.baseSpe.value, max:formData.maxSpe.value },
-        ins: { value:formData.baseIns.value, max:formData.maxIns.value },
+        str: { value:parseInt(formData.baseStr.value), max:parseInt(formData.maxStr.value) },
+        dex: { value:parseInt(formData.baseDex.value), max:parseInt(formData.maxDex.value) },
+        vit: { value:parseInt(formData.baseVit.value), max:parseInt(formData.maxVit.value) },
+        spe: { value:parseInt(formData.baseSpe.value), max:parseInt(formData.maxSpe.value) },
+        ins: { value:parseInt(formData.baseIns.value), max:parseInt(formData.maxIns.value) },
       };
 
       // Abilities
@@ -81,7 +81,7 @@
         if(!formData.moveName.length){
           var move = searchMove(formData.moveName.value);
           pokemonObj.moves.push({
-            rank:formData.moveRank.value,
+            rank:parseInt(formData.moveRank.value),
             type:move.type,
             name:move.name
           });
@@ -90,7 +90,7 @@
           for(var i=0; i<formData.moveName.length; i++){
             var move = searchMove(formData.moveName[i].value);
             pokemonObj.moves.push({
-              rank:formData.moveRank[i].value,
+              rank:parseInt(formData.moveRank[i].value),
               type:move.type,
               name:move.name
             });
