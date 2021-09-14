@@ -377,6 +377,256 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "829",
+    "region": "galar",
+    "name": "幼棉棉",
+    "alias": "",
+    "type": [
+      "Grass"
+    ],
+    "info": {
+      "image": "images/pokedex/829.png",
+      "height": "0.4",
+      "weight": "2.2",
+      "category": "花飾寶可夢",
+      "text": "You’ll find them in fields, basking in the sun, they let the wind sway them while they sing a joyful song. Afterwards their flowers bloom and glow. This delightful display makes it very popular among Trainers."
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 2 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "棉絮", "再生力"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Grass", "name": "樹葉" },
+      { "rank": 0, "type": "Normal", "name": "唱歌" },
+      { "rank": 1, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 1, "type": "Normal", "name": "甜甜香氣" },
+      { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
+      { "rank": 2, "type": "Normal", "name": "輪唱" },
+      { "rank": 2, "type": "Grass", "name": "青草攪拌器" },
+      { "rank": 2, "type": "Grass", "name": "光合作用" },
+      { "rank": 3, "type": "Normal", "name": "巨聲" },
+      { "rank": 3, "type": "Grass", "name": "芳香治療" },
+      { "rank": 3, "type": "Grass", "name": "飛葉風暴" },
+      { "rank": 4, "type": "Normal", "name": "生長" },
+      { "rank": 4, "type": "Grass", "name": "寄生種子" },
+      { "rank": 4, "type": "Poison", "name": "毒粉" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "830",
+    "region": "galar",
+    "name": "白蓬蓬",
+    "alias": "",
+    "type": [
+      "Grass"
+    ],
+    "info": {
+      "image": "images/pokedex/830.png",
+      "height": "0.5",
+      "weight": "2.5",
+      "category": "棉飾寶可夢",
+      "text": "The cotton it produces has a glossy finish so clothes made with it are insanely expensive. In nature they are calm and selfless Pokémon who allow others to take nourishment from the cotton seeds in their head."
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 3, "max": 7 }
+    },
+    "ability": [
+      "棉絮", "再生力"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Grass", "name": "樹葉" },
+      { "rank": 1, "type": "Grass", "name": "棉孢子" },
+      { "rank": 1, "type": "Normal", "name": "唱歌" },
+      { "rank": 1, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 2, "type": "Normal", "name": "甜甜香氣" },
+      { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
+      { "rank": 2, "type": "Normal", "name": "輪唱" },
+      { "rank": 3, "type": "Grass", "name": "青草攪拌器" },
+      { "rank": 3, "type": "Grass", "name": "光合作用" },
+      { "rank": 3, "type": "Normal", "name": "巨聲" },
+      { "rank": 3, "type": "Grass", "name": "芳香治療" },
+      { "rank": 3, "type": "Grass", "name": "飛葉風暴" },
+      { "rank": 3, "type": "Grass", "name": "棉花防守" },
+      { "rank": 4, "type": "Grass", "name": "青草場地" },
+      { "rank": 4, "type": "Fairy", "name": "撒嬌" },
+      { "rank": 4, "type": "Grass", "name": "寄生種子" }
+    ]
+  },
+  {
+    "id": "856",
+    "region": "galar",
+    "name": "迷布莉姆",
+    "alias": "",
+    "type": [
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/856.png",
+      "height": "0.4",
+      "weight": "3.4",
+      "category": "寧靜寶可夢",
+      "text": "Though the protrusion on its head it senses other creatures’ emotions. If  you don’t have a calm disposition, it will never warm up to you. They get overwhelmed in places with many people, prefering to hide alone."
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "治癒之心",
+      "危險預知"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Psychic", "name": "念力" },
+      { "rank": 0, "type": "Normal", "name": "和睦相處" },
+      { "rank": 1, "type": "Water", "name": "生命水滴" },
+      { "rank": 1, "type": "Fairy", "name": "魅惑之聲" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Psychic", "name": "治癒波動" },
+      { "rank": 2, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 2, "type": "Psychic", "name": "冥想" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Psychic", "name": "治癒之願" },
+      { "rank": 4, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 4, "type": "Normal", "name": "您先請" },
+      { "rank": 4, "type": "Fairy", "name": "芳香薄霧" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "857",
+    "region": "galar",
+    "name": "提布莉姆",
+    "alias": "",
+    "type": [
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/857.png",
+      "height": "0.6",
+      "weight": "4.8",
+      "category": "肅靜寶可夢",
+      "text": "It may seem friendly but it is actually quite the loner. No matter who you are, if you bring strong emotions near it, it will silence you violently by hitting you with its braids. It dislikes crowded places."
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "治癒之心",
+      "危險預知"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Psychic", "name": "念力" },
+      { "rank": 0, "type": "Normal", "name": "和睦相處" },
+      { "rank": 1, "type": "Water", "name": "生命水滴" },
+      { "rank": 1, "type": "Fairy", "name": "魅惑之聲" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Psychic", "name": "治癒波動" },
+      { "rank": 2, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 2, "type": "Psychic", "name": "冥想" },
+      { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 2, "type": "Psychic", "name": "治癒之願" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 4, "type": "Dark", "name": "延後" },
+      { "rank": 4, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 4, "type": "Normal", "name": "挺住" }
+    ]
+  },
+  {
+    "id": "858",
+    "region": "galar",
+    "name": "布莉姆溫",
+    "alias": "",
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/858.png",
+      "height": "2.1",
+      "weight": "5.1",
+      "category": "寂靜寶可夢",
+      "text": "If you’re too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch. It is very sensitive to the emotions of others if it senses doubt, fear or anger it will attack you."
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 3, "max": 7 },
+      "ins": { "value": 3, "max": 6 }
+    },
+    "ability": [
+      "治癒之心",
+      "危險預知"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Psychic", "name": "念力" },
+      { "rank": 0, "type": "Normal", "name": "和睦相處" },
+      { "rank": 1, "type": "Water", "name": "生命水滴" },
+      { "rank": 1, "type": "Fairy", "name": "魅惑之聲" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Psychic", "name": "治癒波動" },
+      { "rank": 2, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 2, "type": "Psychic", "name": "冥想" },
+      { "rank": 3, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 3, "type": "Psychic", "name": "精神利刃" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Psychic", "name": "治癒之願" },
+      { "rank": 3, "type": "Psychic", "name": "魔法粉" },
+      { "rank": 4, "type": "Dark", "name": "惡之波動" },
+      { "rank": 4, "type": "Fire", "name": "魔法火焰" },
+      { "rank": 4, "type": "Psychic", "name": "光牆" }
+    ]
+  },
+  {
     "id": "887",
     "region": "galar",
     "name": "多龍巴魯托",
