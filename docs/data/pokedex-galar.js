@@ -1024,6 +1024,106 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "885",
+    "region": "galar",
+    "name": "多龍梅西亞",
+    "alias": "Dreepy",
+    "type": [
+      "Dragon",
+      "Ghost"
+    ],
+    "info": {
+      "image": "images/pokedex/885.png",
+      "height": "0.5",
+      "weight": "2",
+      "category": "哀怨寶可夢",
+      "text": "After being reborn as a ghost, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas. Alone they do not pose much of a threat but if they gather in packs you’ll be in trouble."
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "slow"
+    },
+    "baseHP": 3,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "恆淨之軀",
+      "穿透"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 0, "type": "Bug", "name": "死纏爛打" },
+      { "rank": 1, "type": "Normal", "name": "電光一閃" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 4, "type": "Normal", "name": "替身" },
+      { "rank": 4, "type": "Dragon", "name": "龍尾" },
+      { "rank": 4, "type": "Normal", "name": "影子分身" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "886",
+    "region": "galar",
+    "name": "多龍奇",
+    "alias": "Drakloak",
+    "type": [
+      "Dragon",
+      "Ghost"
+    ],
+    "info": {
+      "image": "images/pokedex/886.png",
+      "height": "1.4",
+      "weight": "11",
+      "category": "保母寶可夢",
+      "text": "It battles alongside Dreepy and dotes on them until they evolve. Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to  substitute it with any Pokémon it finds."
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "slow"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "恆淨之軀",
+      "穿透"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 0, "type": "Bug", "name": "死纏爛打" },
+      { "rank": 1, "type": "Normal", "name": "電光一閃" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Normal", "name": "鎖定" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Ghost", "name": "禍不單行" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Normal", "name": "二連擊" },
+      { "rank": 2, "type": "Bug", "name": "急速折返" },
+      { "rank": 2, "type": "Dragon", "name": "龍之舞" },
+      { "rank": 2, "type": "Dragon", "name": "龍之波動" },
+      { "rank": 3, "type": "Ghost", "name": "潛靈奇襲" },
+      { "rank": 3, "type": "Normal", "name": "猛撞" },
+      { "rank": 3, "type": "Dragon", "name": "龍之俯衝" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Normal", "name": "珍藏" },
+      { "rank": 4, "type": "Ghost", "name": "奇異之光" },
+      { "rank": 4, "type": "Dark", "name": "突襲" },
+      { "rank": 4, "type": "Dragon", "name": "流星群" }
+    ]
+  },
+  {
     "id": "887",
     "region": "galar",
     "name": "多龍巴魯托",
