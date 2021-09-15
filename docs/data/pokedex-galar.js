@@ -377,6 +377,207 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "818",
+    "region": "galar",
+    "name": "千面避役",
+    "alias": "Inteleon",
+    "type": [
+      "Water"
+    ],
+    "info": {
+      "image": "images/pokedex/818.png",
+      "height": "1.9",
+      "weight": "45.2",
+      "category": "特工寶可夢",
+      "text": "Its fingertips can create quick jets of water that travel at incredibly high speeds, these jets can even pierce thick metal plates. It usually hunts from a high place, shoots, and then glides down to eat its prey."
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 4,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 3, "max": 7 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 3, "max": 7 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "激流"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Water", "name": "狙擊" },
+      { "rank": 0, "type": "Flying", "name": "雜耍" },
+      { "rank": 1, "type": "Normal", "name": "拍擊" },
+      { "rank": 1, "type": "Normal", "name": "叫聲" },
+      { "rank": 2, "type": "Water", "name": "水槍" },
+      { "rank": 2, "type": "Normal", "name": "綁緊" },
+      { "rank": 2, "type": "Water", "name": "水之波動" },
+      { "rank": 2, "type": "Normal", "name": "淚眼汪汪" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 3, "type": "Bug", "name": "急速折返" },
+      { "rank": 3, "type": "Water", "name": "水流裂破" },
+      { "rank": 3, "type": "Water", "name": "浸水" },
+      { "rank": 3, "type": "Water", "name": "求雨" },
+      { "rank": 3, "type": "Water", "name": "水砲" },
+      { "rank": 4, "type": "Ice", "name": "冰礫" },
+      { "rank": 4, "type": "Bug", "name": "致命針刺" },
+      { "rank": 4, "type": "Water", "name": "加農水炮" }
+    ]
+  },
+  {
+    "id": "821",
+    "region": "galar",
+    "name": "稚山雀",
+    "alias": "Rookidee",
+    "type": [
+      "Flying"
+    ],
+    "info": {
+      "image": "images/pokedex/821.png",
+      "height": "0.2",
+      "weight": "1.8",
+      "category": "小鳥寶可夢",
+      "text": "Feisty little creatures, Rookidee are know for challenging foes much larger than themselves, and even if they are defeated they don’t give up and try again later. They use their small size as an advantage."
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "銳利目光",
+      "緊張感"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Dark", "name": "囂張" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Normal", "name": "亂擊" },
+      { "rank": 2, "type": "Flying", "name": "啄食" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Normal", "name": "鬼面" },
+      { "rank": 3, "type": "Flying", "name": "啄鑽" },
+      { "rank": 3, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 3, "type": "Flying", "name": "勇鳥猛攻" },
+      { "rank": 4, "type": "Ghost", "name": "怨恨" },
+      { "rank": 4, "type": "Flying", "name": "清除濃霧" },
+      { "rank": 4, "type": "Ground", "name": "潑沙" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "822",
+    "region": "galar",
+    "name": "藍鴉",
+    "alias": "Corvisquire",
+    "type": [
+      "Flying"
+    ],
+    "info": {
+      "image": "images/pokedex/822.png",
+      "height": "0.8",
+      "weight": "16.0",
+      "category": "烏鴉寶可夢",
+      "text": "They are smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up foes. They choose their battles carefully and do not retreat."
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "銳利目光",
+      "緊張感"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 1, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Dark", "name": "囂張" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Normal", "name": "亂擊" },
+      { "rank": 2, "type": "Flying", "name": "啄食" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Normal", "name": "鬼面" },
+      { "rank": 3, "type": "Flying", "name": "啄鑽" },
+      { "rank": 3, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 3, "type": "Flying", "name": "勇鳥猛攻" },
+      { "rank": 4, "type": "Flying", "name": "羽棲" },
+      { "rank": 4, "type": "Flying", "name": "順風" },
+      { "rank": 4, "type": "Fight", "name": "碎岩" }
+    ]
+  },
+  {
+    "id": "823",
+    "region": "galar",
+    "name": "鋼鎧鴉",
+    "alias": "Corviknight",
+    "type": [
+      "Flying",
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/823.png",
+      "height": "2.2",
+      "weight": "75.0",
+      "category": "烏鴉寶可夢",
+      "text": "With their great intellect and flying skills, these Pokémon very successfully take the place as the kings of the Galarian sky. When they fly, they cast giant shadows that strike fear upon foes and friends alike."
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 6,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "壓迫感",
+      "鏡甲"
+    ],
+    "moves": [
+      { "rank": 1, "type": "Flying", "name": "啄" },
+      { "rank": 1, "type": "Normal", "name": "瞪眼" },
+      { "rank": 2, "type": "Steel", "name": "鋼翼" },
+      { "rank": 2, "type": "Steel", "name": "鐵壁" },
+      { "rank": 2, "type": "Steel", "name": "金屬音" },
+      { "rank": 2, "type": "Dark", "name": "囂張" },
+      { "rank": 2, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Normal", "name": "亂擊" },
+      { "rank": 2, "type": "Flying", "name": "啄食" },
+      { "rank": 3, "type": "Dark", "name": "挑釁" },
+      { "rank": 3, "type": "Normal", "name": "鬼面" },
+      { "rank": 3, "type": "Flying", "name": "啄鑽" },
+      { "rank": 3, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 3, "type": "Flying", "name": "勇鳥猛攻" },
+      { "rank": 4, "type": "Flying", "name": "羽棲" },
+      { "rank": 4, "type": "Flying", "name": "神鳥猛擊" },
+      { "rank": 4, "type": "Steel", "name": "鐵蹄光線" }
+    ]
+  },
+  {
     "id": "829",
     "region": "galar",
     "name": "幼棉棉",
@@ -472,6 +673,103 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Grass", "name": "青草場地" },
       { "rank": 4, "type": "Fairy", "name": "撒嬌" },
       { "rank": 4, "type": "Grass", "name": "寄生種子" }
+    ]
+  },
+  {
+    "id": "835",
+    "region": "galar",
+    "name": "來電汪",
+    "alias": "Yamper|ワンパチ",
+    "type": [
+      "Electric"
+    ],
+    "info": {
+      "image": "images/pokedex/835.png",
+      "height": "0.3",
+      "weight": "13.5",
+      "category": "小狗寶可夢",
+      "text": "牠的活力和大大的笑容讓這隻寶可夢成為了相當受歡迎的牧羊犬。牠在奔跑的時候會從尾巴的根部製造出電能。牠熱愛接球，且如果你餵給牠一些零食的話牠就會愛你一輩子。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "撿球"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Normal", "name": "吼叫" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Fairy", "name": "撒嬌" },
+      { "rank": 2, "type": "Dark", "name": "咬碎" },
+      { "rank": 2, "type": "Electric", "name": "充電" },
+      { "rank": 3, "type": "Electric", "name": "瘋狂伏特" },
+      { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 4, "type": "Ground", "name": "潑沙" },
+      { "rank": 4, "type": "Fire", "name": "蓄能焰襲" },
+      { "rank": 4, "type": "Normal", "name": "長嚎" }
+    ]
+  },
+  {
+    "id": "836",
+    "region": "galar",
+    "name": "逐電犬",
+    "alias": "Boltund",
+    "type": [
+      "Electric"
+    ],
+    "info": {
+      "image": "images/pokedex/836.png",
+      "height": "1",
+      "weight": "34",
+      "category": "狗寶可夢",
+      "text": "It sends electricity through its legs to boost their speed, it easily breaks 50 mph. They get destructive and stressed if you do not take them out to run daily, otherwise they are chill and easygoing Pokémon."
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 3, "max": 7 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "強壯之顎", "好勝"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Electric", "name": "輸電" },
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Normal", "name": "吼叫" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Fairy", "name": "撒嬌" },
+      { "rank": 2, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Electric", "name": "充電" },
+      { "rank": 3, "type": "Electric", "name": "瘋狂伏特" },
+      { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 4, "type": "Electric", "name": "電氣場地" },
+      { "rank": 4, "type": "Psychic", "name": "精神之牙" },
+      { "rank": 4, "type": "Ground", "name": "挖洞" },
+      { "rank": 4, "type": "Electric", "name": "雷電牙" }
     ]
   },
   {
@@ -624,6 +922,105 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Dark", "name": "惡之波動" },
       { "rank": 4, "type": "Fire", "name": "魔法火焰" },
       { "rank": 4, "type": "Psychic", "name": "光牆" }
+    ]
+  },
+  {
+    "id": "868",
+    "region": "galar",
+    "name": "小仙奶",
+    "alias": "Milcery",
+    "type": [
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/868.png",
+      "height": "0.2",
+      "weight": "0.3",
+      "category": "鮮奶油寶可夢",
+      "text": "This Pokémon was born from sweetsmelling particles in the air, its body is made of cream, Finding one in your kitchen means Good Fortune. Give them berries and whip them with a whisk so they can evolve."
+    },
+    "evolution": {
+      "stage": "first",
+      "with": "樹果&糖飾"
+    },
+    "baseHP": 3,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "甜幕", "芳香幕"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Fairy", "name": "芳香薄霧" },
+      { "rank": 1, "type": "Fairy", "name": "天使之吻" },
+      { "rank": 1, "type": "Normal", "name": "甜甜香氣" },
+      { "rank": 2, "type": "Fairy", "name": "吸取之吻" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Normal", "name": "迷人" },
+      { "rank": 2, "type": "Poison", "name": "溶化" },
+      { "rank": 2, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 3, "type": "Normal", "name": "自我再生" },
+      { "rank": 3, "type": "Fairy", "name": "薄霧場地" },
+      { "rank": 3, "type": "Normal", "name": "找夥伴" },
+      { "rank": 4, "type": "Fairy", "name": "撒嬌" },
+      { "rank": 4, "type": "Normal", "name": "幫助" },
+      { "rank": 4, "type": "Dark", "name": "投擲" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "869",
+    "region": "galar",
+    "name": "霜奶仙",
+    "alias": "Alcremie",
+    "type": [
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/869.png",
+      "height": "0.3",
+      "weight": "0.5",
+      "category": "鮮奶油寶可夢",
+      "text": "There is a vast number of recipes to evolve an Alcremie, changing their color and flavor, some are sweet, some are sour but they are all delicious. Cakes baked with its help can be sold for a lot of money."
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 3, "max": 7 }
+    },
+    "ability": [
+      "甜幕", "芳香幕"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Fairy", "name": "芳香薄霧" },
+      { "rank": 1, "type": "Normal", "name": "甜甜香氣" },
+      { "rank": 1, "type": "Fairy", "name": "裝飾" },
+      { "rank": 2, "type": "Fairy", "name": "天使之吻" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Fairy", "name": "吸取之吻" },
+      { "rank": 2, "type": "Poison", "name": "溶化" },
+      { "rank": 2, "type": "Normal", "name": "迷人" },
+      { "rank": 3, "type": "Normal", "name": "自我再生" },
+      { "rank": 3, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 3, "type": "Normal", "name": "找夥伴" },
+      { "rank": 3, "type": "Fairy", "name": "薄霧場地" },
+      { "rank": 4, "type": "Fire", "name": "魔法火焰" },
+      { "rank": 4, "type": "Normal", "name": "替身" },
+      { "rank": 4, "type": "Dark", "name": "假哭" }
     ]
   },
   {

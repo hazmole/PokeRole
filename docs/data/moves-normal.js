@@ -1624,7 +1624,7 @@ Array.prototype.push.apply(MoveList, [
 		"desc": "寶可夢發送出一連串能使敵人頭暈目眩，動作失調的超音波。"
 	},
 	{
-		"name": "虛張聲勢", "alias": "いばる，英文︰Swagger",
+		"name": "虛張聲勢", "alias": "いばる|Swagger",
 		"power": "-",
 		"category": "support",
 		"type": "Normal",
