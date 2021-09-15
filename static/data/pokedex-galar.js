@@ -13,7 +13,7 @@ Array.prototype.push.apply(Pokedex, [
     "height": "0.3",
     "weight": "5",
     "category": "小猴寶可夢",
-    "text": "They spend their early days looking for a stick with a certain sound, it then uses the stick to create rythmic beats that makes plan glow and grow. Grookey are enthusiastic and kind creatures that love music."
+    "text": "牠們年輕的時候都在尋找能發出特定聲音的木棒，且之後會用這根木棒來敲奏出能夠使花草生長的節奏。敲音猴是一種熱情、善良、且熱愛音樂的生物。"
   },
   "evolution": {
     "stage": "first",
@@ -62,7 +62,7 @@ Array.prototype.push.apply(Pokedex, [
     "height": "0.7",
     "weight": "14",
     "category": "節拍寶可夢",
-    "text": "Thwakeys are passionate about their drumming, they can get so caught up in their music that they don’t notice the battle is already over. The faster they can beat their drums, the stronger they are."
+    "text": "啪咚猴相當熱衷於牠的節拍，牠們可能會過於沉浸在音樂中而甚至不會意識到戰鬥已經結束。牠們敲奏的速度越快，越是能獲得夥伴們的尊敬。"
   },
   "evolution": {
     "stage": "second",
@@ -111,7 +111,7 @@ Array.prototype.push.apply(Pokedex, [
     "height": "2.1",
     "weight": "90",
     "category": "鼓手寶可夢",
-    "text": "Drummer Pokémon\nThe leader owns the largest drum\namong its troop and has the best\ndrumming technique which makes\nroots sprout to attack its foes. But\nthey are peaceful and kind, creatures\nthat value harmony in their group."
+    "text": "牠們的首領擁有族群中最大的鼓，並有著最高超的打鼓技巧，能操縱樹根去攻擊牠的敵人。但牠們其實是性情溫和，重視族群和諧相處的生物。"
   },
   "evolution": {
     "stage": "final"
@@ -161,7 +161,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "4.5",
       "category": "兔子寶可夢",
-      "text": "Rabbit Pokémon\nScorbunny is small and energetic, \nthey love to run in large fields from \none side to another for hours.\nThere are heat pads on its feet and \nnose, as it runs or battles they can \nget burning hot."
+      "text": "炎兔兒體型小巧且充滿活力，牠們喜歡從寬廣場地的其中一邊跑到另一邊，持續好幾個小時並樂此不疲。牠腳底和鼻頭上的肉球會在牠戰鬥或奔跑的時後散發出極度的高溫。"
     },
     "evolution": {
       "stage": "first",
@@ -208,7 +208,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.6",
       "weight": "9",
       "category": "兔子寶可夢",
-      "text": "Rabbit Pokémon\nThis Pokémon loves to kick and \ntrains each day to get better at it. \nIts fur is now very thick, some \ndebate it is to protect it from the \ncold weather others say it is to \nproduce hotter flames."
+      "text": "這隻寶可夢熱愛踢東西，並會每天訓練來鍛鍊自己的腳法。牠的體毛變得相當蓬鬆，有些人認為這是為了幫助牠抵禦寒冷氣候，也有人說這是為了讓牠產生出溫度更高的火焰。"
     },
     "evolution": {
       "stage": "second",
@@ -252,7 +252,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.4",
       "weight": "33",
       "category": "前鋒寶可夢",
-      "text": "They are confident and boastful of \ntheir abilities. They take a pebble and \nlight it on fire to create a scorching \nweapon they kick towards their foes. \nThey can grow arrogant if they feel \ncheered on."
+      "text": "牠們對自己的能力相當自信且自負。牠們會將小石頭用腳挑起並點火，製造出纏繞著火焰的武器來踢向牠們的對手。如果聽到聲援，牠們就會變得很自大。"
     },
     "evolution": {
       "stage": "final"
@@ -298,7 +298,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "4",
       "category": "水蜥寶可夢",
-      "text": "This shy Pokémon does not like to \nattrack too much attention. It hides \nin shallow pools of water.. When \nit feels threatened it cries and its \ntears pack release a chemical that \nwill make its foes cry too"
+      "text": "這隻害羞的寶可夢並不喜歡引來太多的注意。牠會躲在淺淺的水池中……當牠覺得受到威脅，牠會大哭且牠的淚水會釋放出能夠讓對手淚流不止的催淚成分。"
     },
     "evolution": {
       "stage": "first",
@@ -343,7 +343,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.7",
       "weight": "12",
       "category": "水蜥寶可夢",
-      "text": "Its demeanor changes drastically \nfrom shy to aloof and lazy. It can \ncreate water balloons with the \nmoisture secreted from its paws. It is \nincredibly intelligent and is known to \nlay traps for others in the wild."
+      "text": "牠的態度發生了劇烈變化，從害羞變得冷漠且懶散。牠能夠從手掌分泌出的水分做成水彈。牠的頭腦相當聰明，並以會在野外設下陷阱來對付敵人而聞名。"
     },
     "evolution": {
       "stage": "second",
@@ -389,7 +389,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.9",
       "weight": "45.2",
       "category": "特工寶可夢",
-      "text": "Its fingertips can create quick jets of water that travel at incredibly high speeds, these jets can even pierce thick metal plates. It usually hunts from a high place, shoots, and then glides down to eat its prey."
+      "text": "牠的指尖能夠射出快得不可思議的水槍，這道水流甚至能夠射穿鐵板。牠通常會在高處狩獵，射擊，然後滑翔而下去享用牠的獵物。"
     },
     "evolution": {
       "stage": "final"
@@ -439,7 +439,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.2",
       "weight": "1.8",
       "category": "小鳥寶可夢",
-      "text": "Feisty little creatures, Rookidee are know for challenging foes much larger than themselves, and even if they are defeated they don’t give up and try again later. They use their small size as an advantage."
+      "text": "勇敢好鬥的小東西，稚山雀以會勇於對體型比自己巨大的對手發起挑戰而知名，且就算牠們被打敗，牠們也不會放棄，並會在之後再試一次。牠們會利用自己的嬌小體型來取得優勢。"
     },
     "evolution": {
       "stage": "first",
@@ -489,7 +489,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.8",
       "weight": "16.0",
       "category": "烏鴉寶可夢",
-      "text": "They are smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up foes. They choose their battles carefully and do not retreat."
+      "text": "牠們頭腦聰明，懂得在戰鬥中使用工具。曾有人目擊這些寶可夢撿起石頭投向敵人、或用繩子將敵人捆住。牠們懂得謹慎地選擇戰鬥，且不會輕言撤退。"
     },
     "evolution": {
       "stage": "second",
@@ -539,7 +539,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "2.2",
       "weight": "75.0",
       "category": "烏鴉寶可夢",
-      "text": "With their great intellect and flying skills, these Pokémon very successfully take the place as the kings of the Galarian sky. When they fly, they cast giant shadows that strike fear upon foes and friends alike."
+      "text": "靠著牠們優秀的飛行能力和極度聰明的頭腦，這些寶可夢在伽勒爾地區的空中所向無敵。當牠們飛行時，牠們會在地面投下巨大的影子，使敵友雙方都不禁畏懼三分。"
     },
     "evolution": {
       "stage": "final"
@@ -590,7 +590,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.4",
       "weight": "2.2",
       "category": "花飾寶可夢",
-      "text": "You’ll find them in fields, basking in the sun, they let the wind sway them while they sing a joyful song. Afterwards their flowers bloom and glow. This delightful display makes it very popular among Trainers."
+      "text": "你能在野外發現牠們沐浴在陽光下，隨著微風一邊轉圈圈一邊愉快地歌唱。牠們的花朵將在這之後成長綻放。這討人喜歡的表現讓牠在訓練家之中相當受歡迎。"
     },
     "evolution": {
       "stage": "first",
@@ -639,7 +639,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.5",
       "weight": "2.5",
       "category": "棉飾寶可夢",
-      "text": "The cotton it produces has a glossy finish so clothes made with it are insanely expensive. In nature they are calm and selfless Pokémon who allow others to take nourishment from the cotton seeds in their head."
+      "text": "牠產生的棉絮有著相當動人的光澤，因此用其製成的服裝都貴的嚇人。在自然界中，牠們是溫和且無私的寶可夢，願意讓其他人從牠們頭上的棉絮種子中獲取營養。"
     },
     "evolution": {
       "stage": "final"
@@ -736,7 +736,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1",
       "weight": "34",
       "category": "狗寶可夢",
-      "text": "It sends electricity through its legs to boost their speed, it easily breaks 50 mph. They get destructive and stressed if you do not take them out to run daily, otherwise they are chill and easygoing Pokémon."
+      "text": "牠會將電能傳送到腳上來提升自己的速度，時速能夠輕易超過９０公里。如果你每天不帶牠們出去奔跑，牠們就會累積壓力並變得有破壞性，除卻這一點，牠們是相當隨和好親近的寶可夢。"
     },
     "evolution": {
       "stage": "final"
