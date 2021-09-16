@@ -254,5 +254,16 @@ Array.prototype.push.apply(MoveList, [
 		"damage": "-",
 		"effect": "使目標的屬性追加幽靈屬性（例如：喵喵的屬性將變為「一般/幽靈」；噴火龍的屬性將變為「火/飛行/幽靈」）。如果該寶可夢已經擁有第三個屬性，則將該屬性取代為幽靈屬性。",
 		"desc": "寶可夢邀請目標加入萬聖夜。目標將穿上一件沒有靈媒的協助就無法脫下的幽靈裝。"
+	},
+	{
+		"name": "靈騷", "alias": "ポルターガイスト|Poltergeist",
+		"power": "?",
+		"category": "physical",
+		"type": "Ghost",
+		"tags": ["target|l|foe"],
+		"accuracy": "? + ?",
+		"damage": "?",
+		"effect": "此招式尚未被列入規則中。",
+		"desc": ""
 	}
 ]);

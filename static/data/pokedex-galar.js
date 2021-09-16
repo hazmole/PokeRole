@@ -680,10 +680,148 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "824",
+    "region": "galar",
+    "name": "索偵蟲",
+    "alias": "Blipbug",
+    "type": [
+      "Bug"
+    ],
+    "info": {
+      "image": "images/pokedex/824.png",
+      "height": "0.4",
+      "weight": "8",
+      "category": "幼蟲寶可夢",
+      "text": "經常能在田地裡被發現，索偵蟲會透過長在身體上的毛來感應周圍發生的事。牠們頭腦相當地聰明且很好教，但力量方面就差了一些，也因此經常被其他寶可夢給欺負。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "fast"
+    },
+    "baseHP": 3,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "蟲之預感",
+      "複眼"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Bug", "name": "蟲之抵抗" },
+      { "rank": 4, "type": "Bug", "name": "黏黏網" },
+      { "rank": 4, "type": "Normal", "name": "超音波" },
+      { "rank": 4, "type": "Bug", "name": "死纏爛打" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "825",
+    "region": "galar",
+    "name": "天罩蟲",
+    "alias": "Dottler",
+    "type": [
+      "Bug",
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/825.png",
+      "height": "0.4",
+      "weight": "19",
+      "category": "天線罩寶可夢",
+      "text": "牠在堅硬的殼裡成長著做好進化的準備。牠幾乎從來不動，且在這段期間完全不吃不喝，因此很多人會誤以為牠已經死亡，直到牠的超能力覺醒並開始用其與他人做精神感應溝通。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "蟲之預感",
+      "複眼"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Bug", "name": "蟲之抵抗" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 2, "type": "Psychic", "name": "光牆" },
+      { "rank": 2, "type": "Psychic", "name": "反射壁" },
+      { "rank": 4, "type": "Bug", "name": "黏黏網" },
+      { "rank": 4, "type": "Normal", "name": "超音波" },
+      { "rank": 4, "type": "Bug", "name": "死纏爛打" }
+    ]
+  },
+  {
+    "id": "826",
+    "region": "galar",
+    "name": "以歐路普",
+    "alias": "Orbeetle",
+    "type": [
+      "Bug",
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/826.png",
+      "height": "0.4",
+      "weight": "41",
+      "category": "七星寶可夢",
+      "text": "牠以頭腦聰慧以及大大的腦袋而聞名。牠有著出眾的精神力量。牠們會像漂浮的哨兵一樣在自己的領地上巡邏，用光線照射任何入侵者，即使他們在數英哩外的範圍也一樣。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 3, "max": 7 }
+    },
+    "ability": [
+      "蟲之預感",
+      "察覺"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Bug", "name": "蟲之抵抗" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 1, "type": "Psychic", "name": "光牆" },
+      { "rank": 1, "type": "Psychic", "name": "反射壁" },
+      { "rank": 2, "type": "Ghost", "name": "奇異之光" },
+      { "rank": 2, "type": "Psychic", "name": "魔法反射" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Psychic", "name": "催眠術" },
+      { "rank": 2, "type": "Psychic", "name": "交換場地" },
+      { "rank": 2, "type": "Bug", "name": "蟲鳴" },
+      { "rank": 2, "type": "Psychic", "name": "鏡面反射" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Normal", "name": "您先請" },
+      { "rank": 3, "type": "Psychic", "name": "冥想" },
+      { "rank": 3, "type": "Psychic", "name": "精神場地" },
+      { "rank": 4, "type": "Bug", "name": "死纏爛打" },
+      { "rank": 4, "type": "Normal", "name": "自我再生" },
+      { "rank": 4, "type": "Psychic", "name": "封印" }
+    ]
+  },
+
+  {
     "id": "829",
     "region": "galar",
     "name": "幼棉棉",
-    "alias": "",
+    "alias": "Gossifleur",
     "type": [
       "Grass"
     ],
@@ -732,7 +870,7 @@ Array.prototype.push.apply(Pokedex, [
     "id": "830",
     "region": "galar",
     "name": "白蓬蓬",
-    "alias": "",
+    "alias": "Eldegoss",
     "type": [
       "Grass"
     ],
@@ -823,7 +961,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Ground", "name": "潑沙" },
       { "rank": 4, "type": "Fire", "name": "蓄能焰襲" },
       { "rank": 4, "type": "Normal", "name": "長嚎" }
-    ]
+    ],
+    "isNovice": true
   },
   {
     "id": "836",
@@ -872,6 +1011,108 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Psychic", "name": "精神之牙" },
       { "rank": 4, "type": "Ground", "name": "挖洞" },
       { "rank": 4, "type": "Electric", "name": "雷電牙" }
+    ]
+  },
+  {
+    "id": "854",
+    "region": "galar",
+    "name": "來悲茶",
+    "alias": "Sinistea",
+    "type": [
+      "Ghost"
+    ],
+    "info": {
+      "image": "images/pokedex/854.png",
+      "height": "0.1",
+      "weight": "0.2",
+      "category": "紅茶寶可夢",
+      "text": "據說這隻寶可夢是因為孤單寂寞的靈魂住進了涼透的喝剩紅茶而誕生的。它會吸走飲用者的精氣，但大家都會因為牠太難喝而馬上把牠吐出來。"
+    },
+    "evolution": {
+      "stage": "first",
+      "with": "破裂的茶壺"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "碎裂鎧甲",
+      "詛咒之軀"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 0, "type": "Water", "name": "縮入殼中" },
+      { "rank": 1, "type": "Fairy", "name": "芳香薄霧" },
+      { "rank": 1, "type": "Grass", "name": "超級吸取" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Grass", "name": "終極吸取" },
+      { "rank": 2, "type": "Ghost", "name": "暗影球" },
+      { "rank": 3, "type": "Dark", "name": "詭計" },
+      { "rank": 3, "type": "Dark", "name": "臨別禮物" },
+      { "rank": 3, "type": "Normal", "name": "破殼" },
+      { "rank": 4, "type": "Normal", "name": "替身" },
+      { "rank": 4, "type": "Dark", "name": "欺詐" },
+      { "rank": 4, "type": "Psychic", "name": "戲法" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "855",
+    "region": "galar",
+    "name": "怖思壺",
+    "alias": "Polteageist",
+    "type": [
+      "Ghost"
+    ],
+    "info": {
+      "image": "images/pokedex/855.png",
+      "height": "0.1",
+      "weight": "0.2",
+      "category": "紅茶寶可夢",
+      "text": "這個物種住在古董茶壺裡。牠們很難找到真貨，因為現在大多數茶具都是贗品。永遠別把你的茶放著不管，否則怖思壺很有可能會來把自己倒進去。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 3, "max": 7 },
+      "ins": { "value": 3, "max": 6 }
+    },
+    "ability": [
+      "碎裂鎧甲",
+      "詛咒之軀"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "茶會" },
+      { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 0, "type": "Water", "name": "縮入殼中" },
+      { "rank": 1, "type": "Fairy", "name": "芳香薄霧" },
+      { "rank": 1, "type": "Grass", "name": "超級吸取" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Grass", "name": "終極吸取" },
+      { "rank": 2, "type": "Ghost", "name": "暗影球" },
+      { "rank": 3, "type": "Dark", "name": "詭計" },
+      { "rank": 3, "type": "Dark", "name": "臨別禮物" },
+      { "rank": 3, "type": "Normal", "name": "破殼" },
+      { "rank": 3, "type": "Grass", "name": "吸取力量" },
+      { "rank": 4, "type": "Ghost", "name": "靈騷" },
+      { "rank": 4, "type": "Psychic", "name": "輔助力量" },
+      { "rank": 4, "type": "Normal", "name": "自爆" }
     ]
   },
   {
@@ -1024,6 +1265,66 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Dark", "name": "惡之波動" },
       { "rank": 4, "type": "Fire", "name": "魔法火焰" },
       { "rank": 4, "type": "Psychic", "name": "光牆" }
+    ]
+  },
+  {
+    "id": "110-G",
+    "region": "galar",
+    "name": "雙彈瓦斯 (伽勒爾的樣子)",
+    "alias": "Weezing",
+    "type": [
+      "Poison",
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/110-G.png",
+      "height": "3",
+      "weight": "16",
+      "category": "毒氣寶可夢",
+      "text": "這隻寶可夢會吸收大氣中的污染成分，然後吐出新鮮的空氣。牠在伽勒爾的特殊型態最早是於過去工廠林立、空氣嚴重污染的時代被發現。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 3, "max": 7 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "飄浮",
+      "化學變化氣體"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Poison", "name": "毒瓦斯" },
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Fairy", "name": "妖精之風" },
+      { "rank": 1, "type": "Fairy", "name": "芳香薄霧" },
+      { "rank": 1, "type": "Poison", "name": "清除之煙" },
+      { "rank": 1, "type": "Poison", "name": "濁霧" },
+      { "rank": 1, "type": "Normal", "name": "煙幕" },
+      { "rank": 2, "type": "Ice", "name": "黑霧" },
+      { "rank": 2, "type": "Flying", "name": "清除濃霧" },
+      { "rank": 2, "type": "Normal", "name": "二連擊" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Poison", "name": "污泥攻擊" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 2, "type": "Normal", "name": "自爆" },
+      { "rank": 2, "type": "Poison", "name": "污泥炸彈" },
+      { "rank": 2, "type": "Poison", "name": "劇毒" },
+      { "rank": 2, "type": "Poison", "name": "打嗝" },
+      { "rank": 3, "type": "Normal", "name": "大爆炸" },
+      { "rank": 3, "type": "Fairy", "name": "神奇蒸汽" },
+      { "rank": 3, "type": "Ghost", "name": "同命" },
+      { "rank": 3, "type": "Dark", "name": "臨別禮物" },
+      { "rank": 3, "type": "Fairy", "name": "薄霧場地" },
+      { "rank": 4, "type": "Fire", "name": "噴射火焰" },
+      { "rank": 4, "type": "Normal", "name": "蓄力" },
+      { "rank": 4, "type": "Normal", "name": "吞下" }
     ]
   },
   {
