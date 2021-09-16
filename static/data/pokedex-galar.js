@@ -427,6 +427,108 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "819",
+    "region": "galar",
+    "name": "貪心栗鼠",
+    "alias": "Skwovet",
+    "type": [
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/819.png",
+      "height": "0.3",
+      "weight": "2.5",
+      "category": "貪吃寶可夢",
+      "text": "牠們喜歡把樹果跟堅果塞滿牠們的頰囊，如果頰囊沒塞東西的話就會感到不安。如果你餵食了其中一隻，牠們就會跟著你並呼叫同伴好讓你也餵食牠們全部。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "頰囊"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 1, "type": "Normal", "name": "大快朵頤" },
+      { "rank": 2, "type": "Normal", "name": "蓄力" },
+      { "rank": 2, "type": "Normal", "name": "吞下" },
+      { "rank": 2, "type": "Normal", "name": "噴出" },
+      { "rank": 2, "type": "Normal", "name": "泰山壓頂" },
+      { "rank": 2, "type": "Psychic", "name": "睡覺" },
+      { "rank": 2, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 2, "type": "Grass", "name": "種子機關槍" },
+      { "rank": 3, "type": "Normal", "name": "憤怒門牙" },
+      { "rank": 3, "type": "Poison", "name": "打嗝" },
+      { "rank": 4, "type": "Normal", "name": "變圓" },
+      { "rank": 4, "type": "Rock", "name": "滾動" },
+      { "rank": 4, "type": "Dark", "name": "咬碎" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "820",
+    "region": "galar",
+    "name": "藏飽栗鼠",
+    "alias": "Greedent",
+    "type": [
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/820.png",
+      "height": "0.6",
+      "weight": "6",
+      "category": "貪慾寶可夢",
+      "text": "牠們有點遲鈍，因為牠們腦中只想著吃。藏飽栗鼠會在尾巴裡囤積樹果，但許多樹果會從中掉落，並在隔年長成新的果樹。牠們的大牙相當強力。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "頰囊",
+      "貪吃鬼"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "渴望" },
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Normal", "name": "大快朵頤" },
+      { "rank": 2, "type": "Normal", "name": "蓄力" },
+      { "rank": 2, "type": "Normal", "name": "吞下" },
+      { "rank": 2, "type": "Normal", "name": "噴出" },
+      { "rank": 2, "type": "Normal", "name": "泰山壓頂" },
+      { "rank": 3, "type": "Psychic", "name": "睡覺" },
+      { "rank": 3, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 3, "type": "Grass", "name": "種子機關槍" },
+      { "rank": 3, "type": "Normal", "name": "憤怒門牙" },
+      { "rank": 3, "type": "Poison", "name": "打嗝" },
+      { "rank": 4, "type": "Normal", "name": "珍藏" },
+      { "rank": 4, "type": "Normal", "name": "腹鼓" },
+      { "rank": 4, "type": "Dark", "name": "咬碎" }
+    ]
+  },
+  {
     "id": "821",
     "region": "galar",
     "name": "稚山雀",
@@ -1428,5 +1530,267 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Psychic", "name": "反射壁" },
     ]
   },
+  {
+    "id": "888",
+    "region": "galar",
+    "name": "蒼響",
+    "alias": "Zacian",
+    "type": [
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/888.png",
+      "height": "2.8",
+      "weight": "110",
+      "category": "無資料",
+      "text": "被稱為傳說中的英雄，祂透過純粹的力量揮舞著英雄之劍，擊敗了巨大的邪惡。"
+    },
+    "evolution": {
+      "stage": "unknown"
+    },
+    "baseHP": 5,
+    "rank": 5,
+    "attr": {
+      "str": { "value": 7, "max": 7 },
+      "dex": { "value": 7, "max": 7 },
+      "vit": { "value": 6, "max": 6 },
+      "spe": { "value": 5, "max": 5 },
+      "ins": { "value": 6, "max": 6 }
+    },
+    "ability": [
+      "不撓之劍"
+    ],
+    "moves": [
+      { "rank": 5, "type": "Fight", "name": "聖劍" },
+      { "rank": 5, "type": "Fight", "name": "快速防守" },
+      { "rank": 5, "type": "Steel", "name": "金屬爪" },
+      { "rank": 5, "type": "Normal", "name": "長嚎" },
+      { "rank": 5, "type": "Normal", "name": "電光一閃" },
+      { "rank": 5, "type": "Dark", "name": "咬住" },
+      { "rank": 5, "type": "Normal", "name": "劈開" },
+      { "rank": 5, "type": "Normal", "name": "劍舞" },
+      { "rank": 5, "type": "Steel", "name": "鐵頭" },
+      { "rank": 5, "type": "Normal", "name": "磨礪" },
+      { "rank": 5, "type": "Dark", "name": "咬碎" },
+      { "rank": 5, "type": "Fairy", "name": "月亮之力" },
+      { "rank": 5, "type": "Fight", "name": "近身戰" },
+      { "rank": 5, "type": "Normal", "name": "終極衝擊" },
+      { "rank": 5, "type": "Flying", "name": "空氣斬" },
+      { "rank": 5, "type": "Psychic", "name": "精神利刃" },
+      { "rank": 5, "type": "Grass", "name": "日光刃" }
+    ],
+    "isLegend": true
+  },
+  {
+    "id": "888-sword",
+    "region": "galar",
+    "name": "蒼響 (劍之王)",
+    "alias": "Zacian",
+    "type": [
+      "Fairy",
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/888-sword.png",
+      "height": "2.8",
+      "weight": "110",
+      "category": "強者寶可夢",
+      "text": "傳說中能斬斷世間萬物的聖劍，也被稱為妖精王之劍，讓敵友都對牠敬畏不已。"
+    },
+    "evolution": {
+      "stage": "unknown"
+    },
+    "baseHP": 5,
+    "rank": 5,
+    "attr": {
+      "str": { "value": 9, "max": 9 },
+      "dex": { "value": 8, "max": 8 },
+      "vit": { "value": 6, "max": 6 },
+      "spe": { "value": 5, "max": 5 },
+      "ins": { "value": 6, "max": 6 }
+    },
+    "ability": [
+      "不撓之劍"
+    ],
+    "moves": [
+      { "rank": 5, "type": "Fight", "name": "聖劍" },
+      { "rank": 5, "type": "Fight", "name": "快速防守" },
+      { "rank": 5, "type": "Steel", "name": "金屬爪" },
+      { "rank": 5, "type": "Normal", "name": "長嚎" },
+      { "rank": 5, "type": "Normal", "name": "電光一閃" },
+      { "rank": 5, "type": "Dark", "name": "咬住" },
+      { "rank": 5, "type": "Normal", "name": "劈開" },
+      { "rank": 5, "type": "Normal", "name": "劍舞" },
+      { "rank": 5, "type": "Steel", "name": "鐵頭" },
+      { "rank": 5, "type": "Normal", "name": "磨礪" },
+      { "rank": 5, "type": "Dark", "name": "咬碎" },
+      { "rank": 5, "type": "Fairy", "name": "月亮之力" },
+      { "rank": 5, "type": "Fight", "name": "近身戰" },
+      { "rank": 5, "type": "Normal", "name": "終極衝擊" },
+      { "rank": 5, "type": "Flying", "name": "空氣斬" },
+      { "rank": 5, "type": "Psychic", "name": "精神利刃" },
+      { "rank": 5, "type": "Grass", "name": "日光刃" },
+      { "rank": 5, "type": "Steel", "name": "鐵蹄光線" },
+      { "rank": 5, "type": "Steel", "name": "巨獸斬" }
+    ],
+    "isLegend": true
+  },
+  {
+    "id": "889",
+    "region": "galar",
+    "name": "藏瑪然特",
+    "alias": "Zamazenta",
+    "type": [
+      "Fight"
+    ],
+    "info": {
+      "image": "images/pokedex/889.png",
+      "height": "2.9",
+      "weight": "210",
+      "category": "強者寶可夢",
+      "text": "被稱為傳說中的英雄，祂透過純粹的力量高舉著英雄之盾，保護人們不受巨大的邪惡侵害。"
+    },
+    "evolution": {
+      "stage": "unknown"
+    },
+    "baseHP": 5,
+    "rank": 5,
+    "attr": {
+      "str": { "value": 7, "max": 7 },
+      "dex": { "value": 7, "max": 7 },
+      "vit": { "value": 6, "max": 6 },
+      "spe": { "value": 5, "max": 5 },
+      "ins": { "value": 6, "max": 6 }
+    },
+    "ability": [
+      "不屈之盾"
+    ],
+    "moves": [
+      { "rank": 5, "type": "Steel", "name": "金屬爆炸" },
+      { "rank": 5, "type": "Rock", "name": "廣域防守" },
+      { "rank": 5, "type": "Steel", "name": "金屬爪" },
+      { "rank": 5, "type": "Normal", "name": "長嚎" },
+      { "rank": 5, "type": "Normal", "name": "電光一閃" },
+      { "rank": 5, "type": "Dark", "name": "咬住" },
+      { "rank": 5, "type": "Normal", "name": "劈開" },
+      { "rank": 5, "type": "Normal", "name": "劍舞" },
+      { "rank": 5, "type": "Steel", "name": "鐵頭" },
+      { "rank": 5, "type": "Normal", "name": "磨礪" },
+      { "rank": 5, "type": "Dark", "name": "咬碎" },
+      { "rank": 5, "type": "Fairy", "name": "月亮之力" },
+      { "rank": 5, "type": "Fight", "name": "近身戰" },
+      { "rank": 5, "type": "Normal", "name": "終極衝擊" },
+      { "rank": 5, "type": "Psychic", "name": "光牆" },
+      { "rank": 5, "type": "Psychic", "name": "反射壁" },
+      { "rank": 5, "type": "Normal", "name": "神秘守護" }
+    ],
+    "isLegend": true
+  },
+  {
+    "id": "889-shield",
+    "region": "galar",
+    "name": "藏瑪然特 (盾之王)",
+    "alias": "Zamazenta",
+    "type": [
+      "Fight",
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/889-shield.png",
+      "height": "2.9",
+      "weight": "210",
+      "category": "強者寶可夢",
+      "text": "傳說中能反彈一切攻擊的聖盾，也被稱為格鬥王之盾，哪怕是最最龐大的巨獸也無法越雷池一步。"
+    },
+    "evolution": {
+      "stage": "unknown"
+    },
+    "baseHP": 5,
+    "rank": 5,
+    "attr": {
+      "str": { "value": 7, "max": 7 },
+      "dex": { "value": 7, "max": 7 },
+      "vit": { "value": 8, "max": 8 },
+      "spe": { "value": 5, "max": 5 },
+      "ins": { "value": 8, "max": 8 }
+    },
+    "ability": [
+      "不屈之盾"
+    ],
+    "moves": [
+      { "rank": 5, "type": "Steel", "name": "金屬爆炸" },
+      { "rank": 5, "type": "Rock", "name": "廣域防守" },
+      { "rank": 5, "type": "Steel", "name": "金屬爪" },
+      { "rank": 5, "type": "Normal", "name": "長嚎" },
+      { "rank": 5, "type": "Normal", "name": "電光一閃" },
+      { "rank": 5, "type": "Dark", "name": "咬住" },
+      { "rank": 5, "type": "Normal", "name": "劈開" },
+      { "rank": 5, "type": "Normal", "name": "劍舞" },
+      { "rank": 5, "type": "Steel", "name": "鐵頭" },
+      { "rank": 5, "type": "Normal", "name": "磨礪" },
+      { "rank": 5, "type": "Dark", "name": "咬碎" },
+      { "rank": 5, "type": "Fairy", "name": "月亮之力" },
+      { "rank": 5, "type": "Fight", "name": "近身戰" },
+      { "rank": 5, "type": "Normal", "name": "終極衝擊" },
+      { "rank": 5, "type": "Psychic", "name": "光牆" },
+      { "rank": 5, "type": "Psychic", "name": "反射壁" },
+      { "rank": 5, "type": "Normal", "name": "神秘守護" },
+      { "rank": 5, "type": "Steel", "name": "鐵蹄光線" },
+      { "rank": 5, "type": "Steel", "name": "巨獸彈" }
+    ],
+    "isLegend": true
+  },
+  {
+    "id": "890",
+    "region": "galar",
+    "name": "無極汰那",
+    "alias": "Eternatus",
+    "type": [
+      "Dragon",
+      "Poison"
+    ],
+    "info": {
+      "image": "images/pokedex/890.png",
+      "height": "20",
+      "weight": "950",
+      "category": "超極巨寶可夢",
+      "text": "在二萬年前一顆巨大的隕石墜落到伽勒爾地區，從那時候起大地就時不時會湧現出能使寶可夢極巨化的能量，這個現象在近幾年變得越來越頻繁。"
+    },
+    "evolution": {
+      "stage": "unknown"
+    },
+    "baseHP": 10,
+    "rank": 5,
+    "attr": {
+      "str": { "value": 5, "max": 5 },
+      "dex": { "value": 7, "max": 7 },
+      "vit": { "value": 6, "max": 6 },
+      "spe": { "value": 8, "max": 8 },
+      "ins": { "value": 6, "max": 6 }
+    },
+    "ability": [
+      "壓迫感"
+    ],
+    "moves": [
+      { "rank": 5, "type": "Poison", "name": "毒尾" },
+      { "rank": 5, "type": "Ghost", "name": "奇異之光" },
+      { "rank": 5, "type": "Dragon", "name": "龍尾" },
+      { "rank": 5, "type": "Psychic", "name": "高速移動" },
+      { "rank": 5, "type": "Poison", "name": "劇毒" },
+      { "rank": 5, "type": "Poison", "name": "毒液衝擊" },
+      { "rank": 5, "type": "Dragon", "name": "龍之舞" },
+      { "rank": 5, "type": "Poison", "name": "十字毒刃" },
+      { "rank": 5, "type": "Dragon", "name": "龍之波動" },
+      { "rank": 5, "type": "Fire", "name": "噴射火焰" },
+      { "rank": 5, "type": "Dragon", "name": "極巨炮" },
+      { "rank": 5, "type": "Psychic", "name": "宇宙力量" },
+      { "rank": 5, "type": "Normal", "name": "自我再生" },
+      { "rank": 5, "type": "Normal", "name": "破壞光線" },
+      { "rank": 5, "type": "Dragon", "name": "無極光束" },
+      { "rank": 5, "type": "Psychic", "name": "光牆" },
+      { "rank": 5, "type": "Psychic", "name": "反射壁" },
+      { "rank": 5, "type": "Normal", "name": "守住" }
+    ]
+  }
 ]);
 console.log(Pokedex);
