@@ -2,154 +2,154 @@ var Pokedex;
 if(!Pokedex) Pokedex = [];
 
 Array.prototype.push.apply(Pokedex, [
-{
-  "id": "810",
-  "region": "galar",
-  "name": "敲音猴",
-  "alias": "Grookey",
-  "type": [ "Grass" ],
-  "info": {
-    "image": "images/pokedex/810.png",
-    "height": "0.3",
-    "weight": "5",
-    "category": "小猴寶可夢",
-    "text": "牠們年輕的時候都在尋找能發出特定聲音的木棒，且之後會用這根木棒來敲奏出能夠使花草生長的節奏。敲音猴是一種熱情、善良、且熱愛音樂的生物。"
+  {
+    "id": "810",
+    "region": "galar",
+    "name": "敲音猴",
+    "alias": "Grookey",
+    "type": [ "Grass" ],
+    "info": {
+      "image": "images/pokedex/810.png",
+      "height": "0.3",
+      "weight": "5",
+      "category": "小猴寶可夢",
+      "text": "牠們年輕的時候都在尋找能發出特定聲音的木棒，且之後會用這根木棒來敲奏出能夠使花草生長的節奏。敲音猴是一種熱情、善良、且熱愛音樂的生物。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "茂盛"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "抓" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Grass", "name": "木枝突刺" },
+      { "rank": 1, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 2, "type": "Dark", "name": "拍落" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 3, "type": "Normal", "name": "吵鬧" },
+      { "rank": 3, "type": "Grass", "name": "木槌" },
+      { "rank": 3, "type": "Normal", "name": "蠻幹" },
+      { "rank": 4, "type": "Grass", "name": "草之誓約" },
+      { "rank": 4, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 4, "type": "Grass", "name": "寄生種子" }
+    ],
+    "isNovice": true
   },
-  "evolution": {
-    "stage": "first",
-    "time": "medium"
+  {
+    "id": "811",
+    "region": "galar",
+    "name": "啪咚猴",
+    "alias": "Thwackey",
+    "type": [
+      "Grass"
+    ],
+    "info": {
+      "image": "images/pokedex/811.png",
+      "height": "0.7",
+      "weight": "14",
+      "category": "節拍寶可夢",
+      "text": "啪咚猴相當熱衷於牠的節拍，牠們可能會過於沉浸在音樂中而甚至不會意識到戰鬥已經結束。牠們敲奏的速度越快，越是能獲得夥伴們的尊敬。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "茂盛"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "二連擊" },
+      { "rank": 0, "type": "Normal", "name": "抓" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Grass", "name": "木枝突刺" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 2, "type": "Dark", "name": "拍落" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 3, "type": "Normal", "name": "吵鬧" },
+      { "rank": 3, "type": "Grass", "name": "木槌" },
+      { "rank": 3, "type": "Normal", "name": "蠻幹" },
+      { "rank": 4, "type": "Flying", "name": "雜耍" },
+      { "rank": 4, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 4, "type": "Grass", "name": "寄生種子" }
+    ]
   },
-  "baseHP": 3,
-  "rank": 0,
-  "attr": {
-    "str": { "value": 2, "max": 4 },
-    "dex": { "value": 2, "max": 4 },
-    "vit": { "value": 2, "max": 4 },
-    "spe": { "value": 1, "max": 3 },
-    "ins": { "value": 1, "max": 3 }
+  {
+    "id": "812",
+    "region": "galar",
+    "name": "轟擂金剛猩",
+    "alias": "Rillaboom",
+    "type": [
+      "Grass"
+    ],
+    "info": {
+      "image": "images/pokedex/812.png",
+      "height": "2.1",
+      "weight": "90",
+      "category": "鼓手寶可夢",
+      "text": "牠們的首領擁有族群中最大的鼓，並有著最高超的打鼓技巧，能操縱樹根去攻擊牠的敵人。但牠們其實是性情溫和，重視族群和諧相處的生物。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 6,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 7 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "茂盛"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "二連擊" },
+      { "rank": 0, "type": "Grass", "name": "鼓擊" },
+      { "rank": 1, "type": "Grass", "name": "青草場地" },
+      { "rank": 1, "type": "Normal", "name": "戰吼" },
+      { "rank": 2, "type": "Normal", "name": "抓" },
+      { "rank": 2, "type": "Normal", "name": "叫聲" },
+      { "rank": 2, "type": "Grass", "name": "木枝突刺" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 3, "type": "Dark", "name": "拍落" },
+      { "rank": 3, "type": "Normal", "name": "摔打" },
+      { "rank": 3, "type": "Normal", "name": "吵鬧" },
+      { "rank": 3, "type": "Grass", "name": "木槌" },
+      { "rank": 3, "type": "Normal", "name": "蠻幹" },
+      { "rank": 3, "type": "Normal", "name": "爆音波" },
+      { "rank": 4, "type": "Normal", "name": "生長" },
+      { "rank": 4, "type": "Normal", "name": "自然之力" },
+      { "rank": 4, "type": "Grass", "name": "瘋狂植物" }
+    ]
   },
-  "ability": [
-    "茂盛"
-  ],
-  "moves": [
-    { "rank": 0, "type": "Normal", "name": "抓" },
-    { "rank": 0, "type": "Normal", "name": "叫聲" },
-    { "rank": 1, "type": "Grass", "name": "木枝突刺" },
-    { "rank": 1, "type": "Dark", "name": "挑釁" },
-    { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
-    { "rank": 2, "type": "Normal", "name": "刺耳聲" },
-    { "rank": 2, "type": "Dark", "name": "拍落" },
-    { "rank": 2, "type": "Normal", "name": "摔打" },
-    { "rank": 3, "type": "Normal", "name": "吵鬧" },
-    { "rank": 3, "type": "Grass", "name": "木槌" },
-    { "rank": 3, "type": "Normal", "name": "蠻幹" },
-    { "rank": 4, "type": "Grass", "name": "草之誓約" },
-    { "rank": 4, "type": "Normal", "name": "擊掌奇襲" },
-    { "rank": 4, "type": "Grass", "name": "寄生種子" }
-  ],
-  "isNovice": true
-},
-{
-  "id": "811",
-  "region": "galar",
-  "name": "啪咚猴",
-  "alias": "Thwackey",
-  "type": [
-    "Grass"
-  ],
-  "info": {
-    "image": "images/pokedex/811.png",
-    "height": "0.7",
-    "weight": "14",
-    "category": "節拍寶可夢",
-    "text": "啪咚猴相當熱衷於牠的節拍，牠們可能會過於沉浸在音樂中而甚至不會意識到戰鬥已經結束。牠們敲奏的速度越快，越是能獲得夥伴們的尊敬。"
-  },
-  "evolution": {
-    "stage": "second",
-    "time": "medium"
-  },
-  "baseHP": 4,
-  "rank": 2,
-  "attr": {
-    "str": { "value": 2, "max": 5 },
-    "dex": { "value": 2, "max": 5 },
-    "vit": { "value": 2, "max": 5 },
-    "spe": { "value": 2, "max": 4 },
-    "ins": { "value": 2, "max": 4 }
-  },
-  "ability": [
-    "茂盛"
-  ],
-  "moves": [
-    { "rank": 0, "type": "Normal", "name": "二連擊" },
-    { "rank": 0, "type": "Normal", "name": "抓" },
-    { "rank": 0, "type": "Normal", "name": "叫聲" },
-    { "rank": 1, "type": "Grass", "name": "木枝突刺" },
-    { "rank": 2, "type": "Dark", "name": "挑釁" },
-    { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
-    { "rank": 2, "type": "Normal", "name": "刺耳聲" },
-    { "rank": 2, "type": "Dark", "name": "拍落" },
-    { "rank": 2, "type": "Normal", "name": "摔打" },
-    { "rank": 3, "type": "Normal", "name": "吵鬧" },
-    { "rank": 3, "type": "Grass", "name": "木槌" },
-    { "rank": 3, "type": "Normal", "name": "蠻幹" },
-    { "rank": 4, "type": "Flying", "name": "雜耍" },
-    { "rank": 4, "type": "Normal", "name": "擊掌奇襲" },
-    { "rank": 4, "type": "Grass", "name": "寄生種子" }
-  ]
-},
-{
-  "id": "812",
-  "region": "galar",
-  "name": "轟擂金剛猩",
-  "alias": "Rillaboom",
-  "type": [
-    "Grass"
-  ],
-  "info": {
-    "image": "images/pokedex/812.png",
-    "height": "2.1",
-    "weight": "90",
-    "category": "鼓手寶可夢",
-    "text": "牠們的首領擁有族群中最大的鼓，並有著最高超的打鼓技巧，能操縱樹根去攻擊牠的敵人。但牠們其實是性情溫和，重視族群和諧相處的生物。"
-  },
-  "evolution": {
-    "stage": "final"
-  },
-  "baseHP": 6,
-  "rank": 3,
-  "attr": {
-    "str": { "value": 3, "max": 7 },
-    "dex": { "value": 2, "max": 5 },
-    "vit": { "value": 2, "max": 5 },
-    "spe": { "value": 2, "max": 4 },
-    "ins": { "value": 2, "max": 5 }
-  },
-  "ability": [
-    "茂盛"
-  ],
-  "moves": [
-    { "rank": 0, "type": "Normal", "name": "二連擊" },
-    { "rank": 0, "type": "Grass", "name": "鼓擊" },
-    { "rank": 1, "type": "Grass", "name": "青草場地" },
-    { "rank": 1, "type": "Normal", "name": "戰吼" },
-    { "rank": 2, "type": "Normal", "name": "抓" },
-    { "rank": 2, "type": "Normal", "name": "叫聲" },
-    { "rank": 2, "type": "Grass", "name": "木枝突刺" },
-    { "rank": 2, "type": "Dark", "name": "挑釁" },
-    { "rank": 2, "type": "Grass", "name": "飛葉快刀" },
-    { "rank": 2, "type": "Normal", "name": "刺耳聲" },
-    { "rank": 3, "type": "Dark", "name": "拍落" },
-    { "rank": 3, "type": "Normal", "name": "摔打" },
-    { "rank": 3, "type": "Normal", "name": "吵鬧" },
-    { "rank": 3, "type": "Grass", "name": "木槌" },
-    { "rank": 3, "type": "Normal", "name": "蠻幹" },
-    { "rank": 3, "type": "Normal", "name": "爆音波" },
-    { "rank": 4, "type": "Normal", "name": "生長" },
-    { "rank": 4, "type": "Normal", "name": "自然之力" },
-    { "rank": 4, "type": "Grass", "name": "瘋狂植物" }
-  ]
-},
   {
     "id": "813",
     "region": "galar",
@@ -776,7 +776,7 @@ Array.prototype.push.apply(Pokedex, [
     "id": "856",
     "region": "galar",
     "name": "迷布莉姆",
-    "alias": "",
+    "alias": "Hatenna",
     "type": [
       "Psychic"
     ],
@@ -785,7 +785,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.4",
       "weight": "3.4",
       "category": "寧靜寶可夢",
-      "text": "Though the protrusion on its head it senses other creatures’ emotions. If  you don’t have a calm disposition, it will never warm up to you. They get overwhelmed in places with many people, prefering to hide alone."
+      "text": "透過頭部的突起物來感應生物的情感。如果你的性格不夠溫和，那牠就永遠不會對你敞開心扉。牠們在人多的地方會感到不知所措，更喜歡獨自躲起來。"
     },
     "evolution": {
       "stage": "first",
@@ -826,7 +826,7 @@ Array.prototype.push.apply(Pokedex, [
     "id": "857",
     "region": "galar",
     "name": "提布莉姆",
-    "alias": "",
+    "alias": "Hattrem",
     "type": [
       "Psychic"
     ],
@@ -835,7 +835,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.6",
       "weight": "4.8",
       "category": "肅靜寶可夢",
-      "text": "It may seem friendly but it is actually quite the loner. No matter who you are, if you bring strong emotions near it, it will silence you violently by hitting you with its braids. It dislikes crowded places."
+      "text": "牠也許看起來很友善，但他實際上相當孤僻。無論你是誰，只要你情緒激昂起來，牠就會使用頭上的辮子攻擊你，用粗暴的方式使你沉默。牠不喜歡人多的地方。"
     },
     "evolution": {
       "stage": "second",
@@ -876,7 +876,7 @@ Array.prototype.push.apply(Pokedex, [
     "id": "858",
     "region": "galar",
     "name": "布莉姆溫",
-    "alias": "",
+    "alias": "Hatterene",
     "type": [
       "Psychic",
       "Fairy"
@@ -886,7 +886,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "2.1",
       "weight": "5.1",
       "category": "寂靜寶可夢",
-      "text": "If you’re too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch. It is very sensitive to the emotions of others if it senses doubt, fear or anger it will attack you."
+      "text": "如果你在牠附近大吵大鬧，那麼你就是在冒著被牠用觸手上的爪子撕碎的風險。這隻寶可夢又被稱為森林魔女。牠對於他人的情緒相當敏感，如果牠感受到敵意、恐懼、或憤怒，那牠就會立即攻擊你。"
     },
     "evolution": {
       "stage": "final"
@@ -937,7 +937,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.2",
       "weight": "0.3",
       "category": "鮮奶油寶可夢",
-      "text": "This Pokémon was born from sweetsmelling particles in the air, its body is made of cream, Finding one in your kitchen means Good Fortune. Give them berries and whip them with a whisk so they can evolve."
+      "text": "這隻寶可夢是從空氣中甜甜香氣的粒子中誕生，牠的身體由鮮奶油構成。在你家廚房發現牠意味著好運。把樹果給牠們，並用攪拌器輕撫，這樣牠們就能夠進化。"
     },
     "evolution": {
       "stage": "first",
@@ -987,7 +987,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "0.5",
       "category": "鮮奶油寶可夢",
-      "text": "There is a vast number of recipes to evolve an Alcremie, changing their color and flavor, some are sweet, some are sour but they are all delicious. Cakes baked with its help can be sold for a lot of money."
+      "text": "有相當多數量的食譜能讓小仙奶進化成霜奶仙，並影響牠們的顏色和口味。有些甜美、有些酸爽，但牠們全都相當美味。在牠們幫助下製作的蛋糕可以賣到相當高的價錢。"
     },
     "evolution": {
       "stage": "final"
@@ -1024,6 +1024,260 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "880",
+    "region": "galar",
+    "name": "雷鳥龍",
+    "alias": "",
+    "type": [
+      "Dragon",
+      "Electric"
+    ],
+    "info": {
+      "image": "images/pokedex/880.png",
+      "height": "1.8",
+      "weight": "190",
+      "category": "化石寶可夢",
+      "text": "在復活過程中混合的DNA導致了這個生物的誕生。構成牠下半部身體的超強壯生物很有可能會捕食構成上半部身體的小型生物。有時候牠會嘗試逃離自己。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "蓄電",
+      "活力"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Electric", "name": "電擊" },
+      { "rank": 1, "type": "Electric", "name": "充電" },
+      { "rank": 1, "type": "Flying", "name": "燕返" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Flying", "name": "啄食" },
+      { "rank": 2, "type": "Dragon", "name": "龍尾" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 2, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Electric", "name": "電喙" },
+      { "rank": 3, "type": "Dragon", "name": "龍之波動" },
+      { "rank": 3, "type": "Dragon", "name": "龍之俯衝" },
+      { "rank": 4, "type": "Dragon", "name": "廣域破壞" },
+      { "rank": 4, "type": "Electric", "name": "瘋狂伏特" },
+      { "rank": 4, "type": "Dragon", "name": "流星群" }
+    ]
+  },
+  {
+    "id": "881",
+    "region": "galar",
+    "name": "雷鳥海獸",
+    "alias": "Arctozolt",
+    "type": [
+      "Electric",
+      "Ice"
+    ],
+    "info": {
+      "image": "images/pokedex/881.png",
+      "height": "2.3",
+      "weight": "150",
+      "category": "化石寶可夢",
+      "text": "這隻DNA混合獸非常不擅長走路。組成牠下半部的寶可夢來自極地區域而上半部則住在溫暖的叢林地帶。這可憐的生物總是在顫抖並不受控制地打噴嚏。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "蓄電",
+      "靜電"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ice", "name": "細雪" },
+      { "rank": 0, "type": "Electric", "name": "電擊" },
+      { "rank": 1, "type": "Electric", "name": "充電" },
+      { "rank": 1, "type": "Normal", "name": "回聲" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Flying", "name": "啄食" },
+      { "rank": 2, "type": "Ice", "name": "雪崩" },
+      { "rank": 2, "type": "Ice", "name": "冷凍乾燥" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 2, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Electric", "name": "電喙" },
+      { "rank": 3, "type": "Ice", "name": "冰柱墜擊" },
+      { "rank": 3, "type": "Ice", "name": "暴風雪" },
+      { "rank": 4, "type": "Ice", "name": "冰雹" },
+      { "rank": 4, "type": "Electric", "name": "瘋狂伏特" },
+      { "rank": 4, "type": "Ground", "name": "跺腳" }
+    ]
+  },
+  {
+    "id": "882",
+    "region": "galar",
+    "name": "鰓魚龍",
+    "alias": "Dracovish",
+    "type": [
+      "Dragon",
+      "Water"
+    ],
+    "info": {
+      "image": "images/pokedex/882.png",
+      "height": "2.3",
+      "weight": "215",
+      "category": "化石寶可夢",
+      "text": "結合了兩種頂級掠食者的DNA，牠能以驚人的高速奔跑並用尖銳的下顎撕碎幾乎任何東西。然而難過的是，這隻寶可夢只能在水中呼吸，且游泳能力很爛。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "儲水",
+      "強壯之顎"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Water", "name": "水槍" },
+      { "rank": 1, "type": "Normal", "name": "守住" },
+      { "rank": 1, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Dragon", "name": "龍息" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 3, "type": "Normal", "name": "憤怒門牙" },
+      { "rank": 3, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Water", "name": "鰓咬" },
+      { "rank": 3, "type": "Dragon", "name": "龍之波動" },
+      { "rank": 3, "type": "Dragon", "name": "龍之俯衝" },
+      { "rank": 4, "type": "Dragon", "name": "流星群" },
+      { "rank": 4, "type": "Psychic", "name": "精神之牙" },
+      { "rank": 4, "type": "Water", "name": "潮旋" }
+    ]
+  },
+  {
+    "id": "883",
+    "region": "galar",
+    "name": "鰓魚海獸",
+    "alias": "Arctovish",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "info": {
+      "image": "images/pokedex/883.png",
+      "height": "2",
+      "weight": "175",
+      "category": "化石寶可夢",
+      "text": "DNA的混合讓這隻穩固的生物能夠在寒冷水域中移動、呼吸、並抵抗寒冷。唯一的問題是牠的頭上下顛倒了。那牠沒辦法自己狩獵，因此如果沒有被餵養的話，牠會在幾天內因為飢餓而死掉。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "儲水",
+      "冰凍之軀"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ice", "name": "細雪" },
+      { "rank": 0, "type": "Water", "name": "水槍" },
+      { "rank": 1, "type": "Normal", "name": "守住" },
+      { "rank": 1, "type": "Ice", "name": "冰凍之風" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Ice", "name": "極光幕" },
+      { "rank": 2, "type": "Ice", "name": "冷凍乾燥" },
+      { "rank": 2, "type": "Normal", "name": "憤怒門牙" },
+      { "rank": 3, "type": "Water", "name": "鰓咬" },
+      { "rank": 3, "type": "Ice", "name": "冰柱墜擊" },
+      { "rank": 3, "type": "Ice", "name": "暴風雪" },
+      { "rank": 4, "type": "Water", "name": "水流裂破" },
+      { "rank": 4, "type": "Steel", "name": "鐵壁" },
+      { "rank": 4, "type": "Psychic", "name": "精神之牙" }
+    ]
+  },
+  {
+    "id": "884",
+    "region": "galar",
+    "name": "鋁鋼龍",
+    "alias": "Duraludon",
+    "type": [
+      "Dragon",
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/884.png",
+      "height": "1.8",
+      "weight": "40",
+      "category": "合金寶可夢",
+      "text": "牠的身體猶如打磨過的閃亮金屬，雖然輕而堅硬，卻有著容易生鏽的弱點。牠居住在氣候乾燥的洞穴深處，因為下雨和濕氣會使牠變得暴躁。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 3, "max": 7 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "輕金屬",
+      "重金屬"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Steel", "name": "金屬爪" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Fight", "name": "碎岩" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Steel", "name": "金屬音" },
+      { "rank": 2, "type": "Dragon", "name": "廣域破壞" },
+      { "rank": 2, "type": "Dragon", "name": "龍尾" },
+      { "rank": 2, "type": "Steel", "name": "鐵壁" },
+      { "rank": 2, "type": "Normal", "name": "磨礪" },
+      { "rank": 2, "type": "Dragon", "name": "龍爪" },
+      { "rank": 3, "type": "Steel", "name": "加農光炮" },
+      { "rank": 3, "type": "Steel", "name": "金屬爆炸" },
+      { "rank": 3, "type": "Normal", "name": "破壞光線" },
+      { "rank": 4, "type": "Dragon", "name": "流星群" },
+      { "rank": 4, "type": "Steel", "name": "鐵蹄光線" },
+      { "rank": 4, "type": "Psychic", "name": "鏡面反射" }
+    ]
+  },
+  {
     "id": "885",
     "region": "galar",
     "name": "多龍梅西亞",
@@ -1037,7 +1291,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.5",
       "weight": "2",
       "category": "哀怨寶可夢",
-      "text": "After being reborn as a ghost, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas. Alone they do not pose much of a threat but if they gather in packs you’ll be in trouble."
+      "text": "在重生為幽靈寶可夢後，多龍梅西亞仍然會在生前於古代大海棲息的住處徘徊。儘管單獨一隻無法構成什麼威脅，但如果牠們聚集起來，那你就麻煩大了。"
     },
     "evolution": {
       "stage": "first",
@@ -1081,7 +1335,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.4",
       "weight": "11",
       "category": "保母寶可夢",
-      "text": "It battles alongside Dreepy and dotes on them until they evolve. Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to  substitute it with any Pokémon it finds."
+      "text": "牠會與多龍梅西亞一起戰鬥，且直到牠們進化為止都會細心照顧。如果沒讓自己在照顧的多龍梅西亞乘在自己頭上的話就靜不下心來，牠甚至會因此試圖把別的寶可夢放到頭上。"
     },
     "evolution": {
       "stage": "second",
@@ -1134,7 +1388,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "3",
       "weight": "50",
       "category": "隱形寶可夢",
-      "text": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The smaller Pokémon appear happy to be shot and will reload themselves."
+      "text": "沒有在戰鬥的時候，牠會讓多龍梅西亞住在自己角上的洞裡。一旦戰鬥開始，牠會把多龍梅西亞如同超音速飛彈一樣射出去。這些小寶可夢似乎滿心期待著能被射出去，且會自行回來裝填。"
     },
     "evolution": {
       "stage": "final"

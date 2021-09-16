@@ -44,7 +44,7 @@
         height: formData.height.value,
         weight: formData.weight.value,
         category: formData.category.value+"寶可夢",
-        text: formData.desc.value,
+        text: formData.desc.value.replace(/\n/, ' '),
       };
 
       // Evolve
@@ -165,17 +165,39 @@
       DOM.innerHTML = content;
 
       var JSON_DOM = document.getElementById("script");
-      JSON_DOM.value = JSON.stringify(pokemonObj, null, '  ');
+      JSON_DOM.value = stringify(pokemonObj);
+    }
+
+    function stringify(pokemonObj){
+      var str = JSON.stringify(pokemonObj, null, '  ');
+      str = str.replace(/\{\n +(.*),\n +(.*),\n +(.*)\n +\}/g, "{ $1, $2, $3 }"); // shorten moves
+      str = str.replace(/\{\n +"value":(.*),\n +(.*)\n +\}/g, '{ "value":$1, $2 }'); // shorten attributes
+      return str;
     }
 
     function addMoveInput(){
       var DOM = document.getElementById("moveListInput");
-      var selectRankObj = `<select class='short' name='moveRank'>${getRankOptions().join("")}</select>`;
+      var rank = getLastMoveRank();
+      console.log
+
+      var selectRankObj = `<select class='short' name='moveRank'>${getRankOptions(rank).join("")}</select>`;
       var selectMoveObj = "<input type=text name='moveName'>";
       DOM.insertAdjacentHTML('beforeend', `<div>　<b onClick="deleteMe(this)">[x]</b>　階級${selectRankObj}: 招式${selectMoveObj}</div>`);
     }
     function deleteMe(elem){
       elem.parentNode.remove();
+    }
+
+    function getLastMoveRank(){
+      var moveNameCollections = document.forms['pokemonForm'].elements.moveName;
+      var moveRankCollections = document.forms['pokemonForm'].elements.moveRank;
+      if(moveNameCollections){
+        if(!moveNameCollections.length)
+          return parseInt(moveRankCollections.value);
+        else
+          return parseInt(moveRankCollections[moveNameCollections.length-1].value);
+      }
+      return 0;
     }
   </script>
   <style>
@@ -195,6 +217,7 @@ select.short { width:80px; }
 #addMoveBtn {
   margin-left: 1rem;
   color: red;
+  width: 60px;
 }
 #addMoveBtn:hover {
   color: yellow;
@@ -222,7 +245,7 @@ select.short { width:80px; }
         <option value="unova">合眾</option>
         <option value="kalos">卡洛斯</option>
         <option value="alola">阿羅拉</option>
-        <option value="galar">伽勒爾</option>
+        <option value="galar" selected>伽勒爾</option>
       </select>
     </div>
     <div>名稱：<input type="text" name="name"></div>
@@ -286,9 +309,9 @@ select.short { width:80px; }
       <input type="text" name="abilityA"><br/>
       <input type="text" name="abilityB">
     </div>
-    <div>招式表：
+    <div>招式表： <div id="addMoveBtn" onClick="addMoveInput()">[+]</div>
       <div id="moveListInput"></div>
-      <div id="addMoveBtn" onClick="addMoveInput()">[+]</div>
+      
     </div>
   </div>
   </form>
@@ -442,8 +465,8 @@ var LANGKEY = {
     }
   }
 
-  function getRankOptions(){
-    var options = RANK_Arr.map(val=>`<option value="${val}">${getRank(val)}</option>`);
+  function getRankOptions(defaultVal){
+    var options = RANK_Arr.map(val=>`<option value="${val}" ${defaultVal==val? "selected":""}>${getRank(val)}</option>`);
     return options;
   }
 
