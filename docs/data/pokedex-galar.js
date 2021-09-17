@@ -1626,6 +1626,543 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Normal", "name": "吞下" }
     ]
   },
+{
+  "id": "859",
+  "region": "galar",
+  "name": "搗蛋小妖",
+  "alias": "",
+  "type": [
+    "Dark",
+    "Fairy"
+  ],
+  "info": {
+    "image": "images/pokedex/859.png",
+    "height": "0.4",
+    "weight": "5",
+    "category": "捉弄寶可夢",
+    "text": "牠們會透過鼻子吸收人類或寶可夢情緒糟糕時產生的負能量，並從中獲取活力。牠們喜歡拿走不屬於牠們的東西。"
+  },
+  "evolution": {
+    "stage": "first",
+    "time": "medium"
+  },
+  "baseHP": 3,
+  "rank": 1,
+  "attr": {
+    "str": { "value": 2, "max": 4 },
+    "dex": { "value": 2, "max": 4 },
+    "vit": { "value": 1, "max": 3 },
+    "spe": { "value": 2, "max": 4 },
+    "ins": { "value": 1, "max": 3 }
+  },
+  "ability": [
+    "惡作劇之心",
+    "察覺"
+  ],
+  "moves": [
+    { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
+    { "rank": 0, "type": "Normal", "name": "密語" },
+    { "rank": 1, "type": "Dark", "name": "咬住" },
+    { "rank": 1, "type": "Dark", "name": "吹捧" },
+    { "rank": 2, "type": "Dark", "name": "假哭" },
+    { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+    { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
+    { "rank": 2, "type": "Dark", "name": "突襲" },
+    { "rank": 2, "type": "Dark", "name": "無理取鬧" },
+    { "rank": 2, "type": "Dark", "name": "惡之波動" },
+    { "rank": 3, "type": "Dark", "name": "詭計" },
+    { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
+    { "rank": 3, "type": "Dark", "name": "欺詐" },
+    { "rank": 4, "type": "Bug", "name": "吸血" },
+    { "rank": 4, "type": "Dark", "name": "挑釁" },
+    { "rank": 4, "type": "Psychic", "name": "戲法" }
+  ],
+  "isNovice": true
+},
+
+  {
+    "id": "263-G",
+    "region": "galar",
+    "name": "蛇紋熊 (伽勒爾的樣子)",
+    "alias": "Zigzagoon",
+    "type": [
+      "Dark",
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/263-G.png",
+      "height": "0.4",
+      "weight": "17",
+      "category": "豆狸寶可夢",
+      "text": "在伽勒爾長大的蛇紋熊變得龐克起來。如果發現了其他的寶可夢，牠們就會故意撞上去挑起事端。唯一讓牠們冷靜下來的方式就是製造大量的噪音。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "撿拾",
+      "貪吃鬼"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Ghost", "name": "舌舔" },
+      { "rank": 1, "type": "Normal", "name": "猛撞" },
+      { "rank": 2, "type": "Dark", "name": "大聲咆哮" },
+      { "rank": 2, "type": "Fairy", "name": "圓瞳" },
+      { "rank": 2, "type": "Bug", "name": "飛彈針" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 3, "type": "Normal", "name": "鬼面" },
+      { "rank": 3, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 3, "type": "Dark", "name": "挑釁" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 4, "type": "Dark", "name": "拍落" },
+      { "rank": 4, "type": "Dark", "name": "拋下狠話" },
+      { "rank": 4, "type": "Fight", "name": "快速防守" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "264-G",
+    "region": "galar",
+    "name": "直衝熊 (伽勒爾的樣子)",
+    "alias": "Linoone",
+    "type": [
+      "Dark",
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/264-G.png",
+      "height": "0.5",
+      "weight": "32.5",
+      "category": "猛衝寶可夢",
+      "text": "牠會用長舌頭挑釁對手。一旦敵人被激怒，這隻寶可夢便會猛烈地衝撞上去。牠們很沒禮貌，喜歡四處胡鬧。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "撿拾",
+      "貪吃鬼"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Ghost", "name": "舌舔" },
+      { "rank": 1, "type": "Normal", "name": "猛撞" },
+      { "rank": 1, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Dark", "name": "大聲咆哮" },
+      { "rank": 2, "type": "Fairy", "name": "圓瞳" },
+      { "rank": 2, "type": "Bug", "name": "飛彈針" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Dark", "name": "掉包" },
+      { "rank": 2, "type": "Normal", "name": "亂抓" },
+      { "rank": 2, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Dark", "name": "暗襲要害" },
+      { "rank": 3, "type": "Normal", "name": "鬼面" },
+      { "rank": 3, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Psychic", "name": "睡覺" },
+      { "rank": 4, "type": "Dark", "name": "以牙還牙" },
+      { "rank": 4, "type": "Ground", "name": "跺腳" },
+      { "rank": 4, "type": "Ghost", "name": "暗影爪" }
+    ]
+  },
+  {
+    "id": "862",
+    "region": "galar",
+    "name": "堵攔熊",
+    "alias": "Obstagoon",
+    "type": [
+      "Dark",
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/862.png",
+      "height": "1.6",
+      "weight": "46",
+      "category": "停止寶可夢",
+      "text": "牠的音量相當驚人，是隻吵鬧又粗魯的寶可夢。堵攔熊有著會對目標大叫，並擺出威嚇姿勢的傾向。牠們鮮少會認真看待事情。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "捨身",
+      "毅力"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Ghost", "name": "舌舔" },
+      { "rank": 1, "type": "Normal", "name": "猛撞" },
+      { "rank": 1, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Dark", "name": "大聲咆哮" },
+      { "rank": 2, "type": "Fairy", "name": "圓瞳" },
+      { "rank": 2, "type": "Bug", "name": "飛彈針" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Dark", "name": "掉包" },
+      { "rank": 2, "type": "Normal", "name": "亂抓" },
+      { "rank": 2, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Dark", "name": "暗襲要害" },
+      { "rank": 2, "type": "Fight", "name": "地獄翻滾" },
+      { "rank": 2, "type": "Dark", "name": "攔堵" },
+      { "rank": 3, "type": "Normal", "name": "鬼面" },
+      { "rank": 3, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Psychic", "name": "睡覺" },
+      { "rank": 3, "type": "Fight", "name": "十字劈" },
+      { "rank": 4, "type": "Poison", "name": "垃圾射擊" },
+      { "rank": 4, "type": "Steel", "name": "鐵壁" },
+      { "rank": 4, "type": "Normal", "name": "巨聲" }
+    ]
+  },
+  {
+    "id": "052-G",
+    "region": "galar",
+    "name": "喵喵 (伽勒爾的樣子)",
+    "alias": "Meowth",
+    "type": [
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/052-G.png",
+      "height": "0.4",
+      "weight": "4",
+      "category": "妖怪貓寶可夢",
+      "text": "額頭上的硬幣已經生鏽。喵喵被帶上了維京船在海上長途旅行，在這嚴酷的環境下生活了這個長的時間使牠變得更加勇猛，以至於牠身體的各個地方都變成了黑鐵。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "撿拾",
+      "硬爪"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 0, "type": "Normal", "name": "抓" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 1, "type": "Normal", "name": "聚寶功" },
+      { "rank": 2, "type": "Steel", "name": "金屬爪" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 2, "type": "Normal", "name": "亂抓" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 3, "type": "Normal", "name": "劈開" },
+      { "rank": 3, "type": "Steel", "name": "金屬音" },
+      { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+      { "rank": 4, "type": "Dark", "name": "暗襲要害" },
+      { "rank": 4, "type": "Steel", "name": "鐵蹄光線" },
+      { "rank": 4, "type": "Ghost", "name": "詛咒" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "863",
+    "region": "galar",
+    "name": "喵頭目",
+    "alias": "Perrserker",
+    "type": [
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/863.png",
+      "height": "0.8",
+      "weight": "28",
+      "category": "維京寶可夢",
+      "text": "頭上像鐵頭盔一樣的東西其實是牠硬化後的體毛。與喵喵的其他進化型不同，喵頭目並不想要財富和奢華，而喜愛著戰鬥、戶外活動、以及海上旅行。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "戰鬥盔甲",
+      "硬爪"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Normal", "name": "抓" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Normal", "name": "聚寶功" },
+      { "rank": 2, "type": "Steel", "name": "金屬爪" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 2, "type": "Normal", "name": "亂抓" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 2, "type": "Steel", "name": "鐵頭" },
+      { "rank": 2, "type": "Steel", "name": "鐵壁" },
+      { "rank": 3, "type": "Normal", "name": "劈開" },
+      { "rank": 3, "type": "Steel", "name": "金屬音" },
+      { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+      { "rank": 3, "type": "Steel", "name": "金屬爆炸" },
+      { "rank": 4, "type": "Normal", "name": "劍舞" },
+      { "rank": 4, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 4, "type": "Dark", "name": "地獄突刺" }
+    ]
+  },
+  {
+    "id": "222-G",
+    "region": "galar",
+    "name": "太陽珊瑚 (伽勒爾的樣子)",
+    "alias": "Corsola",
+    "type": [
+      "Ghost"
+    ],
+    "info": {
+      "image": "images/pokedex/222-G.png",
+      "height": "0.6",
+      "weight": "5",
+      "category": "珊瑚寶可夢",
+      "text": "當你行走在淺海海灘時，注意的你的腳步，因為這隻寶可夢看起來就跟石頭一樣，且如果你踢到牠的話就會遭到牠的詛咒。劇烈的溫度變化滅絕了這種遠古太陽珊瑚。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 3, "max": 6 }
+    },
+    "ability": [
+      "碎裂鎧甲",
+      "詛咒之軀"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "變硬" },
+      { "rank": 1, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 1, "type": "Normal", "name": "定身法" },
+      { "rank": 2, "type": "Ghost", "name": "怨恨" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Ghost", "name": "禍不單行" },
+      { "rank": 2, "type": "Ghost", "name": "詛咒" },
+      { "rank": 2, "type": "Grass", "name": "吸取力量" },
+      { "rank": 3, "type": "Rock", "name": "力量寶石" },
+      { "rank": 3, "type": "Ghost", "name": "黑夜魔影" },
+      { "rank": 3, "type": "Ghost", "name": "怨念" },
+      { "rank": 3, "type": "Psychic", "name": "鏡面反射" },
+      { "rank": 4, "type": "Water", "name": "水之波動" },
+      { "rank": 4, "type": "Rock", "name": "雙刃頭錘" },
+      { "rank": 4, "type": "Ghost", "name": "同命" }
+    ]
+  },
+  {
+    "id": "864",
+    "region": "galar",
+    "name": "魔靈珊瑚",
+    "alias": "Cursola",
+    "type": [
+      "Ghost"
+    ],
+    "info": {
+      "image": "images/pokedex/864.png",
+      "height": "1",
+      "weight": "0.4",
+      "category": "珊瑚寶可夢",
+      "text": "靈體被用來保護著牠的靈魂，千萬不要觸摸到，否則你就會像石頭一樣動彈不得。這隻寶可夢思念著珊瑚礁充滿生機的昔日，並對摧毀這一切的對象心懷怨恨。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 4, "max": 8 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "碎裂鎧甲",
+      "滅亡之軀"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "變硬" },
+      { "rank": 1, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 1, "type": "Normal", "name": "定身法" },
+      { "rank": 2, "type": "Ghost", "name": "怨恨" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Ghost", "name": "禍不單行" },
+      { "rank": 2, "type": "Ghost", "name": "詛咒" },
+      { "rank": 2, "type": "Grass", "name": "吸取力量" },
+      { "rank": 3, "type": "Rock", "name": "力量寶石" },
+      { "rank": 3, "type": "Ghost", "name": "黑夜魔影" },
+      { "rank": 3, "type": "Ghost", "name": "怨念" },
+      { "rank": 3, "type": "Psychic", "name": "鏡面反射" },
+      { "rank": 3, "type": "Normal", "name": "滅亡之歌" },
+      { "rank": 4, "type": "Water", "name": "水流裂破" },
+      { "rank": 4, "type": "Steel", "name": "鐵壁" },
+      { "rank": 4, "type": "Ghost", "name": "同命" }
+    ]
+  },
+  {
+    "id": "083-G",
+    "region": "galar",
+    "name": "大蔥鴨 (伽勒爾的樣子)",
+    "alias": "Farfetch’d",
+    "type": [
+      "Fight"
+    ],
+    "info": {
+      "image": "images/pokedex/083-G.png",
+      "height": "0.8",
+      "weight": "42",
+      "category": "黃嘴鴨寶可夢",
+      "text": "伽勒爾地區的大蔥更粗也更長，這讓大蔥鴨過得比他們關都地區的表親還要更好。這也讓牠們變得更堅強、更像是戰士。不過牠們仍然相當美味。"
+    },
+    "evolution": { "stage": "first", "time": "", "method": "other" },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "不屈之心",
+      "膽量"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 0, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Bug", "name": "連斬" },
+      { "rank": 1, "type": "Fight", "name": "碎岩" },
+      { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 2, "type": "Fight", "name": "看穿" },
+      { "rank": 2, "type": "Dark", "name": "拍落" },
+      { "rank": 2, "type": "Flying", "name": "清除濃霧" },
+      { "rank": 2, "type": "Fight", "name": "劈瓦" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 3, "type": "Normal", "name": "劍舞" },
+      { "rank": 3, "type": "Grass", "name": "葉刃" },
+      { "rank": 3, "type": "Fight", "name": "搏命" },
+      { "rank": 3, "type": "Flying", "name": "勇鳥猛攻" },
+      { "rank": 4, "type": "Grass", "name": "日光刃" },
+      { "rank": 4, "type": "Steel", "name": "鋼翼" },
+      { "rank": 4, "type": "Flying", "name": "羽毛舞" }
+    ]
+  },
+  {
+    "id": "865",
+    "region": "galar",
+    "name": "蔥遊兵",
+    "alias": "Sirfetch’d",
+    "type": [
+      "Fight"
+    ],
+    "info": {
+      "image": "images/pokedex/865.png",
+      "height": "0.8",
+      "weight": "117",
+      "category": "黃嘴鴨寶可夢",
+      "text": "只有歷經過無數戰鬥的大蔥鴨才能進化成這個樣子。牠們對自己的蔥槍和葉盾感到驕傲，當這隻寶可夢的大蔥枯萎了，牠就會退出戰場。"
+    },
+    "evolution": {
+      "stage": "final",
+      "method": "other"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 7 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "不屈之心",
+      "膽量"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 0, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Bug", "name": "連斬" },
+      { "rank": 2, "type": "Fight", "name": "碎岩" },
+      { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 2, "type": "Fight", "name": "看穿" },
+      { "rank": 2, "type": "Dark", "name": "拍落" },
+      { "rank": 2, "type": "Flying", "name": "清除濃霧" },
+      { "rank": 2, "type": "Fight", "name": "劈瓦" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 3, "type": "Normal", "name": "劍舞" },
+      { "rank": 3, "type": "Grass", "name": "葉刃" },
+      { "rank": 3, "type": "Fight", "name": "搏命" },
+      { "rank": 3, "type": "Flying", "name": "勇鳥猛攻" },
+      { "rank": 3, "type": "Bug", "name": "迎頭一擊" },
+      { "rank": 3, "type": "Steel", "name": "鐵壁" },
+      { "rank": 4, "type": "Fight", "name": "流星突擊" },
+      { "rank": 4, "type": "Normal", "name": "單純光束" },
+      { "rank": 4, "type": "Normal", "name": "挺住" },
+      { "rank": 4, "type": "Normal", "name": "聚氣" }
+    ]
+  },
+
   {
     "id": "868",
     "region": "galar",
