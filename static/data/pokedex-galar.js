@@ -733,7 +733,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.4",
       "weight": "19",
       "category": "天線罩寶可夢",
-      "text": "牠在堅硬的殼裡成長著做好進化的準備。牠幾乎從來不動，且在這段期間完全不吃不喝，因此很多人會誤以為牠已經死亡，直到牠的超能力覺醒並開始用其與他人做精神感應溝通。"
+      "text": "牠在堅硬的殼裡成長著做好進化的準備。牠幾乎從來不動，且在這段期間完全不吃不喝，因此很多人會誤以為牠已經死亡，直到牠的超能力覺醒並開始與他人做精神感應溝通。"
     },
     "evolution": {
       "stage": "second",
@@ -816,7 +816,106 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Psychic", "name": "封印" }
     ]
   },
-
+  {
+    "id": "827",
+    "region": "galar",
+    "name": "偷兒狐",
+    "alias": "Nickit",
+    "type": [
+      "Dark"
+    ],
+    "info": {
+      "image": "images/pokedex/827.png",
+      "height": "0.6",
+      "weight": "9",
+      "category": "狐狸寶可夢",
+      "text": "性情謹慎且狡猾，偷兒狐靠偷盜食物為生。牠會用尾巴擦掉自己的足跡，這讓牠的行蹤非常難以追蹤。牠們活躍在城市中，並會在夜晚偷走商店的東西。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "逃跑",
+      "輕裝"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "電光一閃" },
+      { "rank": 0, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Dark", "name": "圍攻" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Dark", "name": "大聲咆哮" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Dark", "name": "詭計" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 3, "type": "Dark", "name": "暗襲要害" },
+      { "rank": 3, "type": "Normal", "name": "掃尾拍打" },
+      { "rank": 3, "type": "Dark", "name": "欺詐" },
+      { "rank": 4, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 4, "type": "Dark", "name": "拍落" },
+      { "rank": 4, "type": "Dark", "name": "假哭" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "828",
+    "region": "galar",
+    "name": "狐大盜",
+    "alias": "Thievul",
+    "type": [
+      "Dark"
+    ],
+    "info": {
+      "image": "images/pokedex/828.png",
+      "height": "1.2",
+      "weight": "20",
+      "category": "狐狸寶可夢",
+      "text": "牠們因為長期以來對人類聚落帶來的麻煩而被逐電犬群給追獵。牠們是偷盜食物和寶可夢蛋的專家，永遠不會留下自己的蹤跡。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "逃跑",
+      "輕裝"
+    ],
+    "moves": [
+      { "rank": 1, "type": "Dark", "name": "小偷" },
+      { "rank": 1, "type": "Normal", "name": "電光一閃" },
+      { "rank": 1, "type": "Dark", "name": "磨爪" },
+      { "rank": 2, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 2, "type": "Dark", "name": "圍攻" },
+      { "rank": 2, "type": "Dark", "name": "大聲咆哮" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Dark", "name": "詭計" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 3, "type": "Dark", "name": "暗襲要害" },
+      { "rank": 3, "type": "Normal", "name": "掃尾拍打" },
+      { "rank": 3, "type": "Dark", "name": "欺詐" },
+      { "rank": 3, "type": "Dark", "name": "拋下狠話" },
+      { "rank": 4, "type": "Fight", "name": "快速防守" },
+      { "rank": 4, "type": "Dark", "name": "惡之波動" },
+      { "rank": 4, "type": "Flying", "name": "雜耍" }
+    ]
+  },
   {
     "id": "829",
     "region": "galar",
@@ -913,6 +1012,206 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Grass", "name": "青草場地" },
       { "rank": 4, "type": "Fairy", "name": "撒嬌" },
       { "rank": 4, "type": "Grass", "name": "寄生種子" }
+    ]
+  },
+  {
+    "id": "831",
+    "region": "galar",
+    "name": "毛辮羊",
+    "alias": "Wooloo",
+    "type": [
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/831.png",
+      "height": "0.6",
+      "weight": "6",
+      "category": "綿羊寶可夢",
+      "text": "毛辮羊的體毛彈性十足，就算從懸崖上掉下去也可以做為緩衝墊讓自己不會受傷。牠們必須定期剃毛，不然牠們會因為毛長太重而不能動彈。用這些羊毛織成的毛衣結實到能夠陪伴你一輩子。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "毛茸茸",
+      "逃跑"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Normal", "name": "變圓" },
+      { "rank": 1, "type": "Normal", "name": "仿效" },
+      { "rank": 2, "type": "Psychic", "name": "防守平分" },
+      { "rank": 2, "type": "Fight", "name": "二連踢" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Normal", "name": "猛撞" },
+      { "rank": 3, "type": "Psychic", "name": "防守互換" },
+      { "rank": 3, "type": "Fight", "name": "起死回生" },
+      { "rank": 3, "type": "Grass", "name": "棉花防守" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 4, "type": "Normal", "name": "替身" },
+      { "rank": 4, "type": "Psychic", "name": "睡覺" },
+      { "rank": 4, "type": "Normal", "name": "夢話" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "832",
+    "region": "galar",
+    "name": "毛毛角羊",
+    "alias": "Dubwool",
+    "type": [
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/832.png",
+      "height": "1.3",
+      "weight": "45",
+      "category": "綿羊寶可夢",
+      "text": "謙遜而溫和，牠們的羊毛就像是彈簧墊一樣。在很久以前曾有國王下令用100隻毛毛角羊的體毛織成一張地毯，而當其完工，那些站上地毯的人都會在那瞬間被蹦彈出去。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "防彈",
+      "不屈之心"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Normal", "name": "變圓" },
+      { "rank": 2, "type": "Normal", "name": "仿效" },
+      { "rank": 2, "type": "Psychic", "name": "防守平分" },
+      { "rank": 2, "type": "Fight", "name": "二連踢" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Normal", "name": "猛撞" },
+      { "rank": 3, "type": "Psychic", "name": "防守互換" },
+      { "rank": 3, "type": "Fight", "name": "起死回生" },
+      { "rank": 3, "type": "Grass", "name": "棉花防守" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Normal", "name": "珍藏" },
+      { "rank": 4, "type": "Flying", "name": "彈跳" },
+      { "rank": 4, "type": "Psychic", "name": "高速移動" },
+      { "rank": 4, "type": "Normal", "name": "守住" }
+    ]
+  },
+  {
+    "id": "833",
+    "region": "galar",
+    "name": "咬咬龜",
+    "alias": "Chewtle",
+    "type": [
+      "Water"
+    ],
+    "info": {
+      "image": "images/pokedex/833.png",
+      "height": "0.3",
+      "weight": "8.5",
+      "category": "咬住寶可夢",
+      "text": "牠用牠頭上的角做為主要武器，但什麼都咬的特性卻更為知名。很顯然這是因為牠的牙齦在長門牙的關係會癢的緣故，且只有咬東西能夠緩解。儘管牠個性有些古怪，但相對無害。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "強壯之顎",
+      "硬殼盔甲"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Water", "name": "水槍" },
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Normal", "name": "守住" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Dark", "name": "緊咬不放" },
+      { "rank": 2, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 3, "type": "Normal", "name": "泰山壓頂" },
+      { "rank": 3, "type": "Water", "name": "水流裂破" },
+      { "rank": 4, "type": "Dragon", "name": "龍尾" },
+      { "rank": 4, "type": "Poison", "name": "胃液" },
+      { "rank": 4, "type": "Ice", "name": "冰凍牙" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "834",
+    "region": "galar",
+    "name": "暴噬龜",
+    "alias": "Drednaw",
+    "type": [
+      "Water",
+      "Rock"
+    ],
+    "info": {
+      "image": "images/pokedex/834.png",
+      "height": "1",
+      "weight": "115",
+      "category": "緊咬寶可夢",
+      "text": "牠會待在河川或湖泊附近一動也不動，將自己偽裝成岩石，直到大口咬住毫無戒心的獵物。由於牠固執到不可思議的性情，一旦東西被牠銳利的牙齒給咬住，就再也拿不回來了。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "強壯之顎",
+      "硬殼盔甲"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Water", "name": "貝殼刃" },
+      { "rank": 1, "type": "Water", "name": "水槍" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 2, "type": "Rock", "name": "岩石封鎖" },
+      { "rank": 2, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 3, "type": "Rock", "name": "雙刃頭錘" },
+      { "rank": 3, "type": "Normal", "name": "泰山壓頂" },
+      { "rank": 3, "type": "Water", "name": "水流裂破" },
+      { "rank": 3, "type": "Dark", "name": "緊咬不放" },
+      { "rank": 4, "type": "Normal", "name": "火箭頭錘" },
+      { "rank": 4, "type": "Dragon", "name": "龍尾" },
+      { "rank": 4, "type": "Water", "name": "潛水" }
     ]
   },
   {
@@ -1426,6 +1725,311 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Dark", "name": "假哭" }
     ]
   },
+  {
+    "id": "077-G",
+    "region": "galar",
+    "name": "小火馬 (伽勒爾的樣子)",
+    "alias": "Ponyta",
+    "type": [
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/077-G.png",
+      "height": "0.8",
+      "weight": "24",
+      "category": "一角寶可夢",
+      "text": "伽勒爾古老的魔法森林讓小火馬發展出了神秘的性質。牠們神奇的角能夠治癒大部分的傷口並感應你的心靈是否純潔。如果你抱持著邪惡的思想，那麼你永遠也不可能在野外遇到這種寶可夢。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "逃跑",
+      "粉彩護幕"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 1, "type": "Fairy", "name": "妖精之風" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Normal", "name": "猛撞" },
+      { "rank": 2, "type": "Psychic", "name": "治癒波動" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 3, "type": "Psychic", "name": "治癒之願" },
+      { "rank": 4, "type": "Psychic", "name": "交換場地" },
+      { "rank": 4, "type": "Psychic", "name": "預知未來" },
+      { "rank": 4, "type": "Normal", "name": "守住" }
+    ]
+  },
+  {
+    "id": "078-G",
+    "region": "galar",
+    "name": "烈焰馬 (伽勒爾的樣子)",
+    "alias": "Rapidash",
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/078-G.png",
+      "height": "1.7",
+      "weight": "80",
+      "category": "一角寶可夢",
+      "text": "那些內心邪惡的人將會被這驕傲而美麗的寶可夢給蔑視。牠能運用精神力量在空中奔馳。傳說只有真正的公主能夠騎乘在伽勒爾地區的烈焰馬身上。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "逃跑",
+      "粉彩護幕"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 2, "type": "Fairy", "name": "妖精之風" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Normal", "name": "猛撞" },
+      { "rank": 2, "type": "Psychic", "name": "治癒波動" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 2, "type": "Psychic", "name": "精神利刃" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 3, "type": "Psychic", "name": "治癒之願" },
+      { "rank": 3, "type": "Bug", "name": "超級角擊" },
+      { "rank": 4, "type": "Ground", "name": "十萬馬力" },
+      { "rank": 4, "type": "Psychic", "name": "魔法空間" },
+      { "rank": 4, "type": "Flying", "name": "彈跳" }
+    ]
+  },
+  {
+    "id": "870",
+    "region": "galar",
+    "name": "列陣兵",
+    "alias": "Falinks",
+    "type": [
+      "Fight"
+    ],
+    "info": {
+      "image": "images/pokedex/870.png",
+      "height": "3",
+      "weight": "62",
+      "category": "陣形寶可夢",
+      "text": "六隻為一體的寶可夢，由一個頭頭和五個跟班組成。頭頭的命令不可違抗，牠們是完美的團隊，並能夠變換陣形來更好地適應戰鬥。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "戰鬥盔甲",
+      "不服輸"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "守住" },
+      { "rank": 1, "type": "Fight", "name": "碎岩" },
+      { "rank": 1, "type": "Normal", "name": "聚氣" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Fight", "name": "健美" },
+      { "rank": 2, "type": "Normal", "name": "挺住" },
+      { "rank": 2, "type": "Fight", "name": "起死回生" },
+      { "rank": 2, "type": "Bug", "name": "迎頭一擊" },
+      { "rank": 2, "type": "Fight", "name": "背水一戰" },
+      { "rank": 3, "type": "Steel", "name": "鐵壁" },
+      { "rank": 3, "type": "Fight", "name": "近身戰" },
+      { "rank": 3, "type": "Bug", "name": "超級角擊" },
+      { "rank": 3, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 4, "type": "Normal", "name": "劍舞" },
+      { "rank": 4, "type": "Steel", "name": "鐵頭" },
+      { "rank": 4, "type": "Poison", "name": "毒擊" }
+    ]
+  },
+  {
+    "id": "871",
+    "region": "galar",
+    "name": "啪嚓海膽",
+    "alias": "Pincurchin",
+    "type": [
+      "Electric"
+    ],
+    "info": {
+      "image": "images/pokedex/871.png",
+      "height": "0.3",
+      "weight": "1",
+      "category": "海膽寶可夢",
+      "text": "這隻安靜的寶可夢以海藻為食，會用銳利的牙齒將海藻刮取下來。牠的每根刺裡都儲存著電力。即使是折斷的刺也能夠持續放電好幾個小時。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 1, "max": 2 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "避雷針",
+      "電氣製造者"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 0, "type": "Electric", "name": "電擊" },
+      { "rank": 1, "type": "Water", "name": "水槍" },
+      { "rank": 1, "type": "Electric", "name": "充電" },
+      { "rank": 2, "type": "Normal", "name": "亂擊" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Water", "name": "泡沫光線" },
+      { "rank": 2, "type": "Normal", "name": "自我再生" },
+      { "rank": 2, "type": "Ghost", "name": "詛咒" },
+      { "rank": 2, "type": "Electric", "name": "電氣場地" },
+      { "rank": 3, "type": "Poison", "name": "毒擊" },
+      { "rank": 3, "type": "Electric", "name": "麻麻刺刺" },
+      { "rank": 3, "type": "Normal", "name": "點穴" },
+      { "rank": 3, "type": "Electric", "name": "放電" },
+      { "rank": 4, "type": "Dark", "name": "突襲" },
+      { "rank": 4, "type": "Poison", "name": "毒菱" },
+      { "rank": 4, "type": "Ground", "name": "撒菱" }
+    ]
+  },
+  {
+    "id": "872",
+    "region": "galar",
+    "name": "雪吞蟲",
+    "alias": "Snom",
+    "type": [
+      "Bug",
+      "Ice"
+    ],
+    "info": {
+      "image": "images/pokedex/872.png",
+      "height": "0.3",
+      "weight": "4",
+      "category": "蟲寶寶寶可夢",
+      "text": "能吐出帶著冷氣的絲，並用來把自己掛在樹枝上，一邊裝成冰柱一邊睡覺。牠只會吃地面上的積雪，如果積雪融化，牠會將其再次凍起來然後繼續進食。"
+    },
+    "evolution": {
+      "stage": "first",
+      "happiness": 5
+    },
+    "baseHP": 3,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "鱗粉",
+      "冰鱗粉"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ice", "name": "細雪" },
+      { "rank": 1, "type": "Bug", "name": "蟲之抵抗" },
+      { "rank": 4, "type": "Psychic", "name": "睡覺" },
+      { "rank": 4, "type": "Normal", "name": "打鼾" },
+      { "rank": 4, "type": "Bug", "name": "蟲咬" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "873",
+    "region": "galar",
+    "name": "雪絨蛾",
+    "alias": "Frosmoth",
+    "type": [
+      "Bug",
+      "Ice"
+    ],
+    "info": {
+      "image": "images/pokedex/873.png",
+      "height": "1.3",
+      "weight": "42",
+      "category": "冰蛾寶可夢",
+      "text": "絕不放過破壞山野和雪原環境的人。牠會用冰冷的翅膀四處飛翔，製造出暴風雪來趕走他們。除此之外的情況，牠就是隻相當高貴且溫雅的寶可夢。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 3, "max": 7 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "鱗粉",
+      "冰鱗粉"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Ice", "name": "細雪" },
+      { "rank": 0, "type": "Bug", "name": "蟲之抵抗" },
+      { "rank": 1, "type": "Ice", "name": "冰凍之風" },
+      { "rank": 1, "type": "Normal", "name": "幫助" },
+      { "rank": 2, "type": "Normal", "name": "迷人" },
+      { "rank": 2, "type": "Grass", "name": "麻痺粉" },
+      { "rank": 2, "type": "Bug", "name": "死纏爛打" },
+      { "rank": 2, "type": "Ice", "name": "白霧" },
+      { "rank": 2, "type": "Flying", "name": "清除濃霧" },
+      { "rank": 2, "type": "Flying", "name": "羽毛舞" },
+      { "rank": 2, "type": "Ice", "name": "極光束" },
+      { "rank": 2, "type": "Ice", "name": "冰雹" },
+      { "rank": 2, "type": "Bug", "name": "蟲鳴" },
+      { "rank": 2, "type": "Ice", "name": "極光幕" },
+      { "rank": 3, "type": "Ice", "name": "暴風雪" },
+      { "rank": 3, "type": "Flying", "name": "順風" },
+      { "rank": 3, "type": "Rock", "name": "廣域防守" },
+      { "rank": 3, "type": "Bug", "name": "蝶舞" },
+      { "rank": 4, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 4, "type": "Psychic", "name": "鏡面反射" },
+      { "rank": 4, "type": "Flying", "name": "暴風" }
+    ]
+  },
+
   {
     "id": "880",
     "region": "galar",

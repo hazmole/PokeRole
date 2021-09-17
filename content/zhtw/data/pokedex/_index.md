@@ -11,8 +11,8 @@ collapsible: true
 * <a href='{{< relref path="data/pokedex/" >}}'>城都地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-hoenn" >}}'>豐緣地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-sinnoh" >}}'>神奧地區</a>
-* <a href='{{< relref path="data/pokedex/" >}}'>合眾地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-unova" >}}'>合眾地區</a>
 * <a href='{{< relref path="data/pokedex/" >}}'>卡洛斯地區</a>
 * <a href='{{< relref path="data/pokedex/" >}}'>阿羅拉地區</a>
-* <a href='{{< relref path="data/pokedex/" >}}'>伽勒爾地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-galar" >}}'>伽勒爾地區</a>
 
