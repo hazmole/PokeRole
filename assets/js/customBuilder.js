@@ -184,6 +184,7 @@ class PokemonParser{
 
       var note = pokemonObj.evolution.note? ` & <u>${pokemonObj.evolution.note}</u>`: "";
       if(evolvoObj.with) return `透過 <u>${evolvoObj.with}</u> 進化${note}`;
+      if(evolvoObj.near) return `接近 <u>${evolvoObj.near}</u> 時進化${note}`;
       if(evolvoObj.beauty) return `在 <u>美麗${evolvoObj.beauty}</u> 時進化${note}`;
       if(evolvoObj.loyalty) return `在 <u>忠誠度${evolvoObj.loyalty}</u> 時進化${note}`;
       if(evolvoObj.happiness) return `在 <u>幸福度${evolvoObj.happiness}</u> 時進化${note}`;

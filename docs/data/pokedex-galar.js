@@ -1626,60 +1626,168 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Normal", "name": "吞下" }
     ]
   },
-{
-  "id": "859",
-  "region": "galar",
-  "name": "搗蛋小妖",
-  "alias": "",
-  "type": [
-    "Dark",
-    "Fairy"
-  ],
-  "info": {
-    "image": "images/pokedex/859.png",
-    "height": "0.4",
-    "weight": "5",
-    "category": "捉弄寶可夢",
-    "text": "牠們會透過鼻子吸收人類或寶可夢情緒糟糕時產生的負能量，並從中獲取活力。牠們喜歡拿走不屬於牠們的東西。"
+  {
+    "id": "859",
+    "region": "galar",
+    "name": "搗蛋小妖",
+    "alias": "Impidimp",
+    "type": [
+      "Dark",
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/859.png",
+      "height": "0.4",
+      "weight": "5",
+      "category": "捉弄寶可夢",
+      "text": "牠們會透過鼻子吸收人類或寶可夢情緒糟糕時產生的負能量，並從中獲取活力。牠們喜歡拿走不屬於牠們的東西。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "惡作劇之心",
+      "察覺"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 0, "type": "Normal", "name": "密語" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 1, "type": "Dark", "name": "吹捧" },
+      { "rank": 2, "type": "Dark", "name": "假哭" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 2, "type": "Dark", "name": "無理取鬧" },
+      { "rank": 2, "type": "Dark", "name": "惡之波動" },
+      { "rank": 3, "type": "Dark", "name": "詭計" },
+      { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 3, "type": "Dark", "name": "欺詐" },
+      { "rank": 4, "type": "Bug", "name": "吸血" },
+      { "rank": 4, "type": "Dark", "name": "挑釁" },
+      { "rank": 4, "type": "Psychic", "name": "戲法" }
+    ],
+    "isNovice": true
   },
-  "evolution": {
-    "stage": "first",
-    "time": "medium"
+  {
+    "id": "860",
+    "region": "galar",
+    "name": "詐唬魔",
+    "alias": "Morgrem",
+    "type": [
+      "Dark",
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/860.png",
+      "height": "0.8",
+      "weight": "12",
+      "category": "壞心眼寶可夢",
+      "text": "當牠下跪像是要乞求原諒的時候，牠其實是在誘騙對手好讓自己能用尖如長矛的頭髮刺向對手。牠會把人們引誘到深夜的森林中以搶劫他們並使他們迷路。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "惡作劇之心",
+      "察覺"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 0, "type": "Normal", "name": "密語" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 1, "type": "Dark", "name": "吹捧" },
+      { "rank": 2, "type": "Dark", "name": "假哭" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 2, "type": "Dark", "name": "無理取鬧" },
+      { "rank": 2, "type": "Dark", "name": "假跪真撞" },
+      { "rank": 2, "type": "Dark", "name": "惡之波動" },
+      { "rank": 3, "type": "Dark", "name": "詭計" },
+      { "rank": 3, "type": "Dark", "name": "欺詐" },
+      { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 4, "type": "Bug", "name": "吸血" },
+      { "rank": 4, "type": "Normal", "name": "揮指" },
+      { "rank": 4, "type": "Psychic", "name": "戲法" }
+    ]
   },
-  "baseHP": 3,
-  "rank": 1,
-  "attr": {
-    "str": { "value": 2, "max": 4 },
-    "dex": { "value": 2, "max": 4 },
-    "vit": { "value": 1, "max": 3 },
-    "spe": { "value": 2, "max": 4 },
-    "ins": { "value": 1, "max": 3 }
+  {
+    "id": "861",
+    "region": "galar",
+    "name": "長毛巨魔",
+    "alias": "Grimmsnarl",
+    "type": [
+      "Dark",
+      "Fairy"
+    ],
+    "info": {
+      "image": "images/pokedex/861.png",
+      "height": "1.5",
+      "weight": "61",
+      "category": "健美寶可夢",
+      "text": "牠的毛髮能發揮肌肉纖維般的作用。當牠的毛髮伸展開來時會像觸手那樣把對手纏繞起來。牠們經常會把別人絆倒或倒吊好嘲笑他們。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 7 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "惡作劇之心",
+      "察覺"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 0, "type": "Normal", "name": "密語" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 1, "type": "Dark", "name": "吹捧" },
+      { "rank": 2, "type": "Dark", "name": "假哭" },
+      { "rank": 2, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 2, "type": "Dark", "name": "無理取鬧" },
+      { "rank": 2, "type": "Dark", "name": "假跪真撞" },
+      { "rank": 2, "type": "Dark", "name": "惡之波動" },
+      { "rank": 2, "type": "Fairy", "name": "靈魂衝擊" },
+      { "rank": 2, "type": "Fight", "name": "增強拳" },
+      { "rank": 2, "type": "Fight", "name": "健美" },
+      { "rank": 3, "type": "Dark", "name": "詭計" },
+      { "rank": 3, "type": "Dark", "name": "欺詐" },
+      { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 3, "type": "Fight", "name": "臂錘" },
+      { "rank": 4, "type": "Fairy", "name": "吸取之吻" },
+      { "rank": 4, "type": "Normal", "name": "守住" },
+      { "rank": 4, "type": "Psychic", "name": "反射壁" }
+    ]
   },
-  "ability": [
-    "惡作劇之心",
-    "察覺"
-  ],
-  "moves": [
-    { "rank": 0, "type": "Normal", "name": "擊掌奇襲" },
-    { "rank": 0, "type": "Normal", "name": "密語" },
-    { "rank": 1, "type": "Dark", "name": "咬住" },
-    { "rank": 1, "type": "Dark", "name": "吹捧" },
-    { "rank": 2, "type": "Dark", "name": "假哭" },
-    { "rank": 2, "type": "Dark", "name": "惡意追擊" },
-    { "rank": 2, "type": "Normal", "name": "虛張聲勢" },
-    { "rank": 2, "type": "Dark", "name": "突襲" },
-    { "rank": 2, "type": "Dark", "name": "無理取鬧" },
-    { "rank": 2, "type": "Dark", "name": "惡之波動" },
-    { "rank": 3, "type": "Dark", "name": "詭計" },
-    { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
-    { "rank": 3, "type": "Dark", "name": "欺詐" },
-    { "rank": 4, "type": "Bug", "name": "吸血" },
-    { "rank": 4, "type": "Dark", "name": "挑釁" },
-    { "rank": 4, "type": "Psychic", "name": "戲法" }
-  ],
-  "isNovice": true
-},
-
   {
     "id": "263-G",
     "region": "galar",
@@ -2162,7 +2270,454 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Normal", "name": "聚氣" }
     ]
   },
-
+  {
+    "id": "618-G",
+    "region": "galar",
+    "name": "泥巴魚 (伽勒爾的樣子)",
+    "alias": "Stunfisk",
+    "type": [
+      "Ground",
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/618-G.png",
+      "height": "0.7",
+      "weight": "20.5",
+      "category": "陷阱寶可夢",
+      "text": "泥巴魚棲息在富含鐵質的泥巴裡，這些營養素使牠的身體變成了鋼屬性。泥巴魚的嘴唇在泥巴中很難被辨識，但如果有人踩到了牠，牠就會用鋸齒般的鋼鰭將牠的獵物緊緊夾住。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "擬態"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Ground", "name": "擲泥" },
+      { "rank": 1, "type": "Water", "name": "水槍" },
+      { "rank": 1, "type": "Steel", "name": "金屬爪" },
+      { "rank": 1, "type": "Normal", "name": "挺住" },
+      { "rank": 2, "type": "Ground", "name": "泥巴射擊" },
+      { "rank": 2, "type": "Fight", "name": "報復" },
+      { "rank": 2, "type": "Steel", "name": "金屬音" },
+      { "rank": 2, "type": "Dark", "name": "突襲" },
+      { "rank": 2, "type": "Steel", "name": "鐵壁" },
+      { "rank": 2, "type": "Flying", "name": "彈跳" },
+      { "rank": 2, "type": "Water", "name": "濁流" },
+      { "rank": 3, "type": "Grass", "name": "捕獸夾" },
+      { "rank": 3, "type": "Normal", "name": "抓狂" },
+      { "rank": 3, "type": "Ground", "name": "地裂" },
+      { "rank": 4, "type": "Rock", "name": "隱形岩" },
+      { "rank": 4, "type": "Normal", "name": "綁緊" },
+      { "rank": 4, "type": "Fight", "name": "雙倍奉還" }
+    ]
+  },
+  {
+    "id": "122-G",
+    "region": "galar",
+    "name": "魔牆人偶 (伽勒爾的樣子)",
+    "alias": "Mr. Mime",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/122-G.png",
+      "height": "1.4",
+      "weight": "57",
+      "category": "舞蹈寶可夢",
+      "text": "熬過伽勒爾地區嚴寒氣候的魔尼尼將能夠創造出瞬間變成冰的隱形牆，而當牠們進化，牠們將能夠製造出冰之地板來讓牠們跳踢踏舞，而這也是牠們最為熱衷的活動。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "幹勁",
+      "除障"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "拍擊" },
+      { "rank": 0, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 1, "type": "Normal", "name": "接棒" },
+      { "rank": 1, "type": "Ice", "name": "冰礫" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 1, "type": "Psychic", "name": "交換場地" },
+      { "rank": 2, "type": "Ice", "name": "冰凍之風" },
+      { "rank": 2, "type": "Fight", "name": "二連踢" },
+      { "rank": 2, "type": "Normal", "name": "仿效" },
+      { "rank": 2, "type": "Normal", "name": "再來一次" },
+      { "rank": 2, "type": "Psychic", "name": "扮演" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Normal", "name": "回收利用" },
+      { "rank": 2, "type": "Normal", "name": "模仿" },
+      { "rank": 2, "type": "Psychic", "name": "光牆" },
+      { "rank": 2, "type": "Psychic", "name": "反射壁" },
+      { "rank": 2, "type": "Ice", "name": "冰凍光束" },
+      { "rank": 2, "type": "Psychic", "name": "催眠術" },
+      { "rank": 2, "type": "Psychic", "name": "鏡面反射" },
+      { "rank": 3, "type": "Dark", "name": "突襲" },
+      { "rank": 3, "type": "Ice", "name": "冷凍乾燥" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Normal", "name": "神秘守護" },
+      { "rank": 3, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 3, "type": "Fairy", "name": "薄霧場地" },
+      { "rank": 3, "type": "Normal", "name": "搖晃舞" },
+      { "rank": 4, "type": "Water", "name": "求雨" },
+      { "rank": 4, "type": "Ice", "name": "冰雹" }
+    ]
+  },
+  {
+    "id": "866",
+    "region": "galar",
+    "name": "踏冰人偶",
+    "alias": "Mr. Rime",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "info": {
+      "image": "images/pokedex/866.png",
+      "height": "1.5",
+      "weight": "58",
+      "category": "喜劇演員寶可夢",
+      "text": "牠是踢踏舞的達人。會適時揮動手中的冰杖，幽默的動作使牠獲得了眾人的喜愛，且牠也熱愛表演給小朋友看。牠的精神力量全都是從腹部的圖案釋放出來的。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 5,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 3, "max": 6 }
+    },
+    "ability": [
+      "蹣跚",
+      "除障"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "偷懶" },
+      { "rank": 0, "type": "Normal", "name": "您先請" },
+      { "rank": 0, "type": "Normal", "name": "擋路" },
+      { "rank": 0, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 1, "type": "Normal", "name": "接棒" },
+      { "rank": 1, "type": "Ice", "name": "冰礫" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 1, "type": "Psychic", "name": "交換場地" },
+      { "rank": 2, "type": "Ice", "name": "冰凍之風" },
+      { "rank": 2, "type": "Fight", "name": "二連踢" },
+      { "rank": 2, "type": "Normal", "name": "仿效" },
+      { "rank": 2, "type": "Normal", "name": "再來一次" },
+      { "rank": 2, "type": "Psychic", "name": "扮演" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Normal", "name": "回收利用" },
+      { "rank": 2, "type": "Normal", "name": "模仿" },
+      { "rank": 2, "type": "Psychic", "name": "光牆" },
+      { "rank": 2, "type": "Psychic", "name": "反射壁" },
+      { "rank": 2, "type": "Ice", "name": "冰凍光束" },
+      { "rank": 2, "type": "Psychic", "name": "催眠術" },
+      { "rank": 2, "type": "Psychic", "name": "鏡面反射" },
+      { "rank": 3, "type": "Dark", "name": "假哭" },
+      { "rank": 3, "type": "Ice", "name": "冷凍乾燥" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Normal", "name": "神秘守護" },
+      { "rank": 3, "type": "Fairy", "name": "魔法閃耀" },
+      { "rank": 3, "type": "Fairy", "name": "薄霧場地" },
+      { "rank": 3, "type": "Normal", "name": "搖晃舞" }
+    ]
+  },
+{
+  "id": "554-G",
+  "region": "galar",
+  "name": "火紅不倒翁 (伽勒爾的樣子)",
+  "alias": "Darumaka",
+  "type": [
+    "Ice"
+  ],
+  "info": {
+    "image": "images/pokedex/554-G.png",
+    "height": "0.7",
+    "weight": "40",
+    "category": "不倒翁寶可夢",
+    "text": "因為居住在積雪深厚的地域，火囊也因此冷卻而改為製造冷氣。火紅不倒翁利用低溫當作能量，這讓牠在冬天時特別有活力。牠愛玩且喜歡丟雪球。"
+  },
+  "evolution": {
+    "stage": "first",
+    "with": "冰之石"
+  },
+  "baseHP": 3,
+  "rank": 1,
+  "attr": {
+    "str": { "value": 2, "max": 5 },
+    "dex": { "value": 2, "max": 4 },
+    "vit": { "value": 2, "max": 4 },
+    "spe": { "value": 1, "max": 3 },
+    "ins": { "value": 2, "max": 4 }
+  },
+  "ability": [
+    "活力",
+    "精神力"
+  ],
+  "moves": [
+    { "rank": 0, "type": "Normal", "name": "撞擊" },
+    { "rank": 0, "type": "Dark", "name": "挑釁" },
+    { "rank": 1, "type": "Dark", "name": "咬住" },
+    { "rank": 1, "type": "Ice", "name": "細雪" },
+    { "rank": 2, "type": "Ice", "name": "雪崩" },
+    { "rank": 2, "type": "Normal", "name": "自我激勵" },
+    { "rank": 2, "type": "Ice", "name": "冰凍牙" },
+    { "rank": 2, "type": "Normal", "name": "頭鎚" },
+    { "rank": 2, "type": "Ice", "name": "冰凍拳" },
+    { "rank": 2, "type": "Normal", "name": "吵鬧" },
+    { "rank": 3, "type": "Normal", "name": "腹鼓" },
+    { "rank": 3, "type": "Ice", "name": "暴風雪" },
+    { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+    { "rank": 3, "type": "Fight", "name": "蠻力" },
+    { "rank": 4, "type": "Dark", "name": "投擲" },
+    { "rank": 4, "type": "Normal", "name": "替身" },
+    { "rank": 4, "type": "Fire", "name": "熱風" }
+  ],
+  "isNovice": true
+},
+{
+  "id": "555-G",
+  "region": "galar",
+  "name": "達摩狒狒 (伽勒爾的樣子)",
+  "alias": "Darmanitan",
+  "type": [
+    "Ice"
+  ],
+  "info": {
+    "image": "images/pokedex/555-G.png",
+    "height": "1.7",
+    "weight": "120",
+    "category": "不倒翁寶可夢",
+    "text": "達摩狒狒在伽勒爾的樣子。牠們會在暴風雪的日子來到人類居住的村落偷走食物。儘管達摩狒狒看起來很兇，但牠們實際上溫和且害羞。"
+  },
+  "evolution": {
+    "stage": "final"
+  },
+  "baseHP": 4,
+  "rank": 2,
+  "attr": {
+    "str": { "value": 3, "max": 7 },
+    "dex": { "value": 3, "max": 6 },
+    "vit": { "value": 2, "max": 4 },
+    "spe": { "value": 1, "max": 3 },
+    "ins": { "value": 2, "max": 4 }
+  },
+  "ability": [
+    "一猩一意",
+    "達摩模式"
+  ],
+  "moves": [
+    { "rank": 0, "type": "Normal", "name": "撞擊" },
+    { "rank": 0, "type": "Dark", "name": "挑釁" },
+    { "rank": 1, "type": "Dark", "name": "咬住" },
+    { "rank": 1, "type": "Ice", "name": "細雪" },
+    { "rank": 2, "type": "Ice", "name": "雪崩" },
+    { "rank": 2, "type": "Normal", "name": "自我激勵" },
+    { "rank": 2, "type": "Ice", "name": "冰凍牙" },
+    { "rank": 2, "type": "Normal", "name": "頭鎚" },
+    { "rank": 2, "type": "Ice", "name": "冰凍拳" },
+    { "rank": 2, "type": "Normal", "name": "吵鬧" },
+    { "rank": 3, "type": "Normal", "name": "腹鼓" },
+    { "rank": 3, "type": "Ice", "name": "暴風雪" },
+    { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+    { "rank": 3, "type": "Fight", "name": "蠻力" },
+    { "rank": 3, "type": "Ice", "name": "冰柱墜擊" },
+    { "rank": 4, "type": "Dark", "name": "小偷" },
+    { "rank": 4, "type": "Ground", "name": "重踏" },
+    { "rank": 4, "type": "Ice", "name": "冷凍乾燥" }
+  ]
+},
+{
+  "id": "555-ZenG",
+  "region": "galar",
+  "name": "達摩狒狒 (伽勒爾的樣子)(達摩模式)",
+  "alias": "Darmanitan",
+  "type": [
+    "Ice",
+    "Fire"
+  ],
+  "info": {
+    "image": "images/pokedex/555-Zen-G.png",
+    "height": "1.7",
+    "weight": "120",
+    "category": "不倒翁寶可夢",
+    "text": "當達摩狒狒憤怒時，原本退化的火囊將重新點燃。這隻寶可夢將胡亂噴火並在所到之處大鬧一番。牠們的怒火必須被平息，否則牠們的高溫甚至會融化自己的身體。"
+  },
+  "evolution": {
+    "stage": "final"
+  },
+  "baseHP": 4,
+  "rank": 2,
+  "attr": {
+    "str": { "value": 3, "max": 7 },
+    "dex": { "value": 3, "max": 6 },
+    "vit": { "value": 2, "max": 4 },
+    "spe": { "value": 1, "max": 3 },
+    "ins": { "value": 2, "max": 4 }
+  },
+  "ability": [
+    "一猩一意",
+    "達摩模式"
+  ],
+  "moves": [
+    { "rank": 0, "type": "Normal", "name": "撞擊" },
+    { "rank": 0, "type": "Dark", "name": "挑釁" },
+    { "rank": 1, "type": "Dark", "name": "咬住" },
+    { "rank": 1, "type": "Ice", "name": "細雪" },
+    { "rank": 2, "type": "Ice", "name": "雪崩" },
+    { "rank": 2, "type": "Normal", "name": "自我激勵" },
+    { "rank": 2, "type": "Ice", "name": "冰凍牙" },
+    { "rank": 2, "type": "Normal", "name": "頭鎚" },
+    { "rank": 2, "type": "Ice", "name": "冰凍拳" },
+    { "rank": 2, "type": "Normal", "name": "吵鬧" },
+    { "rank": 3, "type": "Normal", "name": "腹鼓" },
+    { "rank": 3, "type": "Ice", "name": "暴風雪" },
+    { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+    { "rank": 3, "type": "Fight", "name": "蠻力" },
+    { "rank": 3, "type": "Ice", "name": "冰柱墜擊" },
+    { "rank": 4, "type": "Fire", "name": "大晴天" },
+    { "rank": 4, "type": "Fire", "name": "閃焰衝鋒" },
+    { "rank": 4, "type": "Fire", "name": "火焰牙" }
+  ]
+},
+{
+  "id": "562-G",
+  "region": "galar",
+  "name": "哭哭面具 (伽勒爾的樣子)",
+  "alias": "Yamask",
+  "type": [
+    "Ghost"
+  ],
+  "info": {
+    "image": "images/pokedex/562-G.png",
+    "height": "0.5",
+    "weight": "1.5",
+    "category": "魂寶可夢",
+    "text": "據說牠是古代黏土板被帶有強烈怨念的靈魂吸引後誕生的寶可夢。黏土板似乎吸收了哭哭面具的力量，所以才會那麼蒼白。"
+  },
+  "evolution": {
+    "stage": "first",
+    "near": "符文繪畫"
+  },
+  "baseHP": 3,
+  "rank": 2,
+  "attr": {
+    "str": { "value": 2, "max": 4 },
+    "dex": { "value": 1, "max": 3 },
+    "vit": { "value": 2, "max": 5 },
+    "spe": { "value": 1, "max": 3 },
+    "ins": { "value": 2, "max": 4 }
+  },
+  "ability": [
+    "遊魂"
+  ],
+  "moves": [
+    { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+    { "rank": 0, "type": "Normal", "name": "守住" },
+    { "rank": 1, "type": "Ice", "name": "黑霧" },
+    { "rank": 1, "type": "Ghost", "name": "黑夜魔影" },
+    { "rank": 2, "type": "Normal", "name": "定身法" },
+    { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+    { "rank": 2, "type": "Fairy", "name": "戲法防守" },
+    { "rank": 2, "type": "Ghost", "name": "禍不單行" },
+    { "rank": 2, "type": "Normal", "name": "黑色目光" },
+    { "rank": 2, "type": "Normal", "name": "摔打" },
+    { "rank": 2, "type": "Ghost", "name": "詛咒" },
+    { "rank": 2, "type": "Ghost", "name": "暗影球" },
+    { "rank": 3, "type": "Ground", "name": "地震" },
+    { "rank": 3, "type": "Psychic", "name": "力量平分" },
+    { "rank": 3, "type": "Psychic", "name": "防守平分" },
+    { "rank": 3, "type": "Ghost", "name": "同命" },
+    { "rank": 4, "type": "Rock", "name": "沙暴" },
+    { "rank": 4, "type": "Psychic", "name": "精神強念" },
+    { "rank": 4, "type": "Dark", "name": "臨別禮物" }
+  ],
+  "isNovice": true
+},
+{
+  "id": "867",
+  "region": "galar",
+  "name": "死神板",
+  "alias": "Runerigus",
+  "type": [
+    "Ghost",
+    "Ground"
+  ],
+  "info": {
+    "image": "images/pokedex/867.png",
+    "height": "1.6",
+    "weight": "66",
+    "category": "怨念寶可夢",
+    "text": "強烈詛咒注入了古代繪畫，在詛咒吸收了哭哭面具的靈魂之後，牠就會進化成死靈板。千萬不要觸摸牠那影子般的身體，否則你將會看到印刻在牠畫中的恐怖記憶。"
+  },
+  "evolution": {
+    "stage": "final",
+    "method": "other"
+  },
+  "baseHP": 4,
+  "rank": 3,
+  "attr": {
+    "str": { "value": 3, "max": 6 },
+    "dex": { "value": 1, "max": 3 },
+    "vit": { "value": 4, "max": 8 },
+    "spe": { "value": 2, "max": 4 },
+    "ins": { "value": 3, "max": 6 }
+  },
+  "ability": [
+    "遊魂"
+  ],
+  "moves": [
+    { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+    { "rank": 0, "type": "Normal", "name": "守住" },
+    { "rank": 1, "type": "Ice", "name": "黑霧" },
+    { "rank": 1, "type": "Ghost", "name": "黑夜魔影" },
+    { "rank": 2, "type": "Normal", "name": "定身法" },
+    { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+    { "rank": 2, "type": "Fairy", "name": "戲法防守" },
+    { "rank": 2, "type": "Ghost", "name": "禍不單行" },
+    { "rank": 2, "type": "Normal", "name": "黑色目光" },
+    { "rank": 2, "type": "Ghost", "name": "暗影爪" },
+    { "rank": 2, "type": "Normal", "name": "鬼面" },
+    { "rank": 2, "type": "Normal", "name": "摔打" },
+    { "rank": 2, "type": "Ghost", "name": "詛咒" },
+    { "rank": 2, "type": "Ghost", "name": "暗影球" },
+    { "rank": 3, "type": "Psychic", "name": "力量平分" },
+    { "rank": 3, "type": "Ground", "name": "地震" },
+    { "rank": 3, "type": "Ghost", "name": "同命" },
+    { "rank": 3, "type": "Psychic", "name": "防守平分" },
+    { "rank": 4, "type": "Steel", "name": "鐵壁" },
+    { "rank": 4, "type": "Dark", "name": "臨別禮物" },
+    { "rank": 4, "type": "Rock", "name": "隱形岩" }
+  ]
+},
   {
     "id": "868",
     "region": "galar",
