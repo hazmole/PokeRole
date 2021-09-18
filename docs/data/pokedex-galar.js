@@ -1313,6 +1313,938 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "837",
+    "region": "galar",
+    "name": "小炭仔",
+    "alias": "Rolycoly",
+    "type": [
+      "Rock"
+    ],
+    "info": {
+      "image": "images/pokedex/837.png",
+      "height": "0.3",
+      "weight": "12",
+      "category": "煤炭寶可夢",
+      "text": "這隻寶可夢在煤礦坑中被人們發現。牠看起來就像是一團煤炭，只不過牠會像獨輪車那樣移動。牠在憤怒的時候會發出熾熱的光芒，而當牠高興的時候則會發出柔和的噼啪聲，並維持穩定的溫暖。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "蒸汽機",
+      "耐熱"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "煙幕" },
+      { "rank": 1, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 1, "type": "Rock", "name": "擊落" },
+      { "rank": 2, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Fire", "name": "燒盡" },
+      { "rank": 3, "type": "Rock", "name": "隱形岩" },
+      { "rank": 3, "type": "Fire", "name": "高溫重壓" },
+      { "rank": 3, "type": "Rock", "name": "岩石爆擊" },
+      { "rank": 4, "type": "Normal", "name": "挺住" },
+      { "rank": 4, "type": "Ground", "name": "撒菱" },
+      { "rank": 4, "type": "Normal", "name": "替身" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "838",
+    "region": "galar",
+    "name": "大炭車",
+    "alias": "Carkol",
+    "type": [
+      "Rock",
+      "Fire"
+    ],
+    "info": {
+      "image": "images/pokedex/838.png",
+      "height": "1.1",
+      "weight": "78",
+      "category": "煤炭寶可夢",
+      "text": "牠能旋轉自己的腳，讓牠的重量製造出能讓牠在洞穴和隧道中高速移動的軌跡。在過去，人們會使用大炭車的煤炭當作燃料，因為這些煤炭的火焰可以維持很長的時間。"
+    },
+    "evolution": {
+      "stage": "second",
+      "time": "medium"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "蒸汽機",
+      "火焰之軀"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "煙幕" },
+      { "rank": 1, "type": "Fire", "name": "蓄能焰襲" },
+      { "rank": 1, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 2, "type": "Rock", "name": "擊落" },
+      { "rank": 2, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 2, "type": "Fire", "name": "燒盡" },
+      { "rank": 2, "type": "Rock", "name": "隱形岩" },
+      { "rank": 3, "type": "Fire", "name": "高溫重壓" },
+      { "rank": 3, "type": "Rock", "name": "岩石爆擊" },
+      { "rank": 3, "type": "Fire", "name": "燃盡" },
+      { "rank": 4, "type": "Ground", "name": "十萬馬力" },
+      { "rank": 4, "type": "Water", "name": "熱水" },
+      { "rank": 4, "type": "Steel", "name": "鐵壁" }
+    ]
+  },
+  {
+    "id": "839",
+    "region": "galar",
+    "name": "巨炭山",
+    "alias": "Coalossal",
+    "type": [
+      "Rock",
+      "Fire"
+    ],
+    "info": {
+      "image": "images/pokedex/839.png",
+      "height": "2.8",
+      "weight": "310",
+      "category": "煤炭寶可夢",
+      "text": "牠們平時性情溫和，如果牠們認為你是好人，那牠們就會跟你分享溫暖。但如果你激怒牠們，你就會面對被燒成灰燼的危險。牠們噴出的瀝青狀物質相當容易燃燒。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 6,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 7 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "蒸汽機",
+      "引火"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 1, "type": "Normal", "name": "煙幕" },
+      { "rank": 1, "type": "Fire", "name": "蓄能焰襲" },
+      { "rank": 2, "type": "Rock", "name": "瀝青射擊" },
+      { "rank": 2, "type": "Normal", "name": "高速旋轉" },
+      { "rank": 2, "type": "Rock", "name": "擊落" },
+      { "rank": 2, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 2, "type": "Rock", "name": "原始之力" },
+      { "rank": 3, "type": "Fire", "name": "燒盡" },
+      { "rank": 3, "type": "Rock", "name": "隱形岩" },
+      { "rank": 3, "type": "Fire", "name": "高溫重壓" },
+      { "rank": 3, "type": "Rock", "name": "岩石爆擊" },
+      { "rank": 3, "type": "Fire", "name": "燃盡" },
+      { "rank": 4, "type": "Fire", "name": "過熱" },
+      { "rank": 4, "type": "Ground", "name": "重踏" },
+      { "rank": 4, "type": "Steel", "name": "重磅衝撞" }
+    ]
+  },
+  {
+    "id": "840",
+    "region": "galar",
+    "name": "啃果蟲",
+    "alias": "Applin",
+    "type": [
+      "Grass",
+      "Dragon"
+    ],
+    "info": {
+      "image": "images/pokedex/840.png",
+      "height": "0.2",
+      "weight": "0.5",
+      "category": "蘋果居寶可夢",
+      "text": "這隻小小的蜥蜴寶可夢一出生的時候，牠就會鑽進蘋果來保護自己來躲避鳥類和其他天敵。這顆蘋果同時也是牠的食物來源，且蘋果的味道會決定牠的進化方向。"
+    },
+    "evolution": {
+      "stage": "first",
+      "with": "蘋果"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "熟成",
+      "貪吃鬼"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Water", "name": "縮入殼中" },
+      { "rank": 0, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 4, "type": "Normal", "name": "變圓" },
+      { "rank": 4, "type": "Rock", "name": "滾動" },
+      { "rank": 4, "type": "Normal", "name": "回收利用" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "841",
+    "region": "galar",
+    "name": "蘋裹龍",
+    "alias": "Flapple",
+    "type": [
+      "Grass",
+      "Dragon"
+    ],
+    "info": {
+      "image": "images/pokedex/841.png",
+      "height": "0.3",
+      "weight": "1",
+      "category": "蘋果翅寶可夢",
+      "text": "牠在酸蘋果中成長，並因此能夠吐出足以造成灼傷的強酸性液體。牠能用切開的蘋果皮的翅膀飛翔、或用來偽裝成發臭的蘋果。他們生性孤僻，因為很少人會喜歡牠們的長相和味道。"
+    },
+    "evolution": {
+      "stage": "final",
+      "by": "酸酸蘋果"
+    },
+    "baseHP": 4,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "熟成",
+      "活力"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Water", "name": "縮入殼中" },
+      { "rank": 1, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 1, "type": "Flying", "name": "翅膀攻擊" },
+      { "rank": 1, "type": "Normal", "name": "回收利用" },
+      { "rank": 2, "type": "Normal", "name": "生長" },
+      { "rank": 2, "type": "Dragon", "name": "龍捲風" },
+      { "rank": 2, "type": "Poison", "name": "酸液炸彈" },
+      { "rank": 2, "type": "Flying", "name": "雜耍" },
+      { "rank": 2, "type": "Grass", "name": "寄生種子" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Dragon", "name": "龍息" },
+      { "rank": 3, "type": "Dragon", "name": "龍之舞" },
+      { "rank": 3, "type": "Dragon", "name": "龍之波動" },
+      { "rank": 3, "type": "Grass", "name": "萬有引力" },
+      { "rank": 3, "type": "Steel", "name": "鐵壁" },
+      { "rank": 3, "type": "Flying", "name": "飛翔" },
+      { "rank": 3, "type": "Dragon", "name": "龍之俯衝" },
+      { "rank": 4, "type": "Dark", "name": "突襲" },
+      { "rank": 4, "type": "Dragon", "name": "逆鱗" },
+      { "rank": 4, "type": "Dragon", "name": "流星群" }
+    ]
+  },
+  {
+    "id": "842",
+    "region": "galar",
+    "name": "豐蜜龍",
+    "alias": "Appletun",
+    "type": [
+      "Grass",
+      "Dragon"
+    ],
+    "info": {
+      "image": "images/pokedex/842.png",
+      "height": "0.4",
+      "weight": "13",
+      "category": "蘋果汁寶可夢",
+      "text": "吃了甜蘋果會使牠進化成這個樣子。牠會從體內發出甜甜的香味，引誘牠狩獵的蟲寶可夢上鉤，但這也會吸引其他想吃掉牠背部皮的寶可夢。"
+    },
+    "evolution": {
+      "stage": "final",
+      "by": "甜甜蘋果"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "熟成",
+      "厚脂肪"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Water", "name": "縮入殼中" },
+      { "rank": 1, "type": "Ghost", "name": "驚嚇" },
+      { "rank": 1, "type": "Normal", "name": "頭鎚" },
+      { "rank": 1, "type": "Normal", "name": "回收利用" },
+      { "rank": 2, "type": "Normal", "name": "生長" },
+      { "rank": 2, "type": "Normal", "name": "甜甜香氣" },
+      { "rank": 2, "type": "Ghost", "name": "詛咒" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 2, "type": "Grass", "name": "寄生種子" },
+      { "rank": 2, "type": "Normal", "name": "守住" },
+      { "rank": 2, "type": "Grass", "name": "種子機關槍" },
+      { "rank": 3, "type": "Normal", "name": "自我再生" },
+      { "rank": 3, "type": "Grass", "name": "蘋果酸" },
+      { "rank": 3, "type": "Normal", "name": "泰山壓頂" },
+      { "rank": 3, "type": "Steel", "name": "鐵壁" },
+      { "rank": 3, "type": "Dragon", "name": "龍之波動" },
+      { "rank": 3, "type": "Grass", "name": "能量球" },
+      { "rank": 4, "type": "Grass", "name": "終極吸取" },
+      { "rank": 4, "type": "Grass", "name": "日光束" },
+      { "rank": 4, "type": "Dragon", "name": "流星群" }
+    ]
+  },
+  {
+    "id": "843",
+    "region": "galar",
+    "name": "沙包蛇",
+    "alias": "Silicobra",
+    "type": [
+      "Ground"
+    ],
+    "info": {
+      "image": "images/pokedex/843.png",
+      "height": "2.2",
+      "weight": "8",
+      "category": "沙蛇寶可夢",
+      "text": "沙包蛇看起來相當兇猛，但牠們其實只不過是想要不被打擾。牠們會從鼻孔噴射出沙子，趁敵人看不清的時候躲進地底下藏身。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "slow"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "吐沙",
+      "蛻皮"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "緊束" },
+      { "rank": 1, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Normal", "name": "變小" },
+      { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 2, "type": "Ground", "name": "重踏" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 2, "type": "Normal", "name": "大蛇瞪眼" },
+      { "rank": 2, "type": "Ground", "name": "挖洞" },
+      { "rank": 2, "type": "Rock", "name": "沙暴" },
+      { "rank": 3, "type": "Normal", "name": "頭鎚" },
+      { "rank": 3, "type": "Poison", "name": "盤蜷" },
+      { "rank": 3, "type": "Ground", "name": "流沙地獄" },
+      { "rank": 4, "type": "Ground", "name": "擲泥" },
+      { "rank": 4, "type": "Poison", "name": "毒尾" },
+      { "rank": 4, "type": "Normal", "name": "珍藏" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "844",
+    "region": "galar",
+    "name": "沙螺蟒",
+    "alias": "Sandaconda",
+    "type": [
+      "Ground"
+    ],
+    "info": {
+      "image": "images/pokedex/844.png",
+      "height": "3.8",
+      "weight": "65",
+      "category": "沙蛇寶可夢",
+      "text": "牠有著能夠容納最多200磅沙土的沙囊，牠盤繞自己身體的方式能讓牠更有效率地把沙子噴向敵人。如果沒有了沙子，牠就會變得懦弱且抑鬱。牠們不算友善，但並不是很有攻擊性。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 6,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 3, "max": 7 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "吐沙",
+      "沙隱"
+    ],
+    "moves": [
+      { "rank": 1, "type": "Normal", "name": "緊束" },
+      { "rank": 1, "type": "Ground", "name": "潑沙" },
+      { "rank": 1, "type": "Normal", "name": "火箭頭錘" },
+      { "rank": 2, "type": "Normal", "name": "變小" },
+      { "rank": 2, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 2, "type": "Ground", "name": "重踏" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 3, "type": "Normal", "name": "大蛇瞪眼" },
+      { "rank": 3, "type": "Ground", "name": "挖洞" },
+      { "rank": 3, "type": "Rock", "name": "沙暴" },
+      { "rank": 3, "type": "Normal", "name": "摔打" },
+      { "rank": 3, "type": "Poison", "name": "盤蜷" },
+      { "rank": 3, "type": "Ground", "name": "流沙地獄" },
+      { "rank": 4, "type": "Flying", "name": "暴風" },
+      { "rank": 4, "type": "Dragon", "name": "龍之俯衝" },
+      { "rank": 4, "type": "Normal", "name": "終極衝擊" }
+    ]
+  },
+  {
+    "id": "845",
+    "region": "galar",
+    "name": "古月鳥",
+    "alias": "Cramorant",
+    "type": [
+      "Flying",
+      "Water"
+    ],
+    "info": {
+      "image": "images/pokedex/845.png",
+      "height": "0.8",
+      "weight": "18",
+      "category": "一口吞寶可夢",
+      "text": "古月鳥會從附近的海岸和湖泊捕魚寶可夢來吃。牠們經常會嘗試一口吞下太大的獵物，結果卻卡在了喉嚨裡。牠們記性很差，且經常會忘記自己在幹嘛。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 3, "max": 6 }
+    },
+    "ability": [
+      "一口飛彈"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Poison", "name": "打嗝" },
+      { "rank": 1, "type": "Flying", "name": "啄" },
+      { "rank": 1, "type": "Normal", "name": "蓄力" },
+      { "rank": 1, "type": "Normal", "name": "吞下" },
+      { "rank": 2, "type": "Normal", "name": "噴出" },
+      { "rank": 2, "type": "Water", "name": "水槍" },
+      { "rank": 2, "type": "Normal", "name": "亂擊" },
+      { "rank": 2, "type": "Flying", "name": "啄食" },
+      { "rank": 3, "type": "Water", "name": "潛水" },
+      { "rank": 3, "type": "Flying", "name": "啄鑽" },
+      { "rank": 3, "type": "Psychic", "name": "瞬間失憶" },
+      { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+      { "rank": 3, "type": "Water", "name": "水砲" },
+      { "rank": 4, "type": "Flying", "name": "羽棲" },
+      { "rank": 4, "type": "Water", "name": "水流環" },
+      { "rank": 4, "type": "Flying", "name": "羽毛舞" }
+    ]
+  },
+  {
+    "id": "846",
+    "region": "galar",
+    "name": "刺梭魚",
+    "alias": "Arrokuda",
+    "type": [
+      "Water"
+    ],
+    "info": {
+      "image": "images/pokedex/846.png",
+      "height": "0.5",
+      "weight": "1",
+      "category": "突擊寶可夢",
+      "text": "牠們會推進自己向前，以超高速度狩獵牠們的獵物。吃飽了之後動作會變得極度遲緩，且很容易讓自己被吃掉。牠們以自己尖銳的下巴為傲。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "悠遊自如",
+      "螺旋尾鰭"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 0, "type": "Water", "name": "水流噴射" },
+      { "rank": 1, "type": "Normal", "name": "亂擊" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Water", "name": "潛水" },
+      { "rank": 2, "type": "Normal", "name": "磨礪" },
+      { "rank": 2, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Water", "name": "水流裂破" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 4, "type": "Normal", "name": "劈開" },
+      { "rank": 4, "type": "Ground", "name": "直衝鑽" },
+      { "rank": 4, "type": "Ice", "name": "冰凍牙" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "847",
+    "region": "galar",
+    "name": "戽斗尖梭",
+    "alias": "Barraskewda",
+    "type": [
+      "Water"
+    ],
+    "info": {
+      "image": "images/pokedex/847.png",
+      "height": "1.3",
+      "weight": "30",
+      "category": "穿刺寶可夢",
+      "text": "這隻寶可夢有著像長矛一樣尖銳、像鋼鐵般堅硬的下巴。據說戽斗尖梭的肉好吃得驚人。當牠們狩獵時，牠們會以超過１００節的高速貫穿獵物。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 7 },
+      "dex": { "value": 3, "max": 7 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "悠遊自如",
+      "螺旋尾鰭"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Flying", "name": "啄" },
+      { "rank": 1, "type": "Water", "name": "水流噴射" },
+      { "rank": 2, "type": "Normal", "name": "亂擊" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Water", "name": "潛水" },
+      { "rank": 2, "type": "Normal", "name": "磨礪" },
+      { "rank": 2, "type": "Dark", "name": "地獄突刺" },
+      { "rank": 3, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Water", "name": "水流裂破" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 4, "type": "Dark", "name": "暗襲要害" },
+      { "rank": 4, "type": "Poison", "name": "毒擊" },
+      { "rank": 4, "type": "Normal", "name": "終極衝擊" }
+    ]
+  },
+  {
+    "id": "848",
+    "region": "galar",
+    "name": "毒電嬰",
+    "alias": "Toxel",
+    "type": [
+      "Electric",
+      "Poison"
+    ],
+    "info": {
+      "image": "images/pokedex/848.png",
+      "height": "0.4",
+      "weight": "11",
+      "category": "嬰兒寶可夢",
+      "text": "毒電嬰會從皮膚分泌出毒素，牠越接近進化，牠皮膚的顏色就會變得更亮。牠們需要大量的照護，但因為牠們的壞脾氣和沒禮貌，所以沒有多少人會願意接下這個任務。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "slow"
+    },
+    "baseHP": 3,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 1, "max": 3 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 1, "max": 3 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "膽怯",
+      "靜電"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 0, "type": "Normal", "name": "淚眼汪汪" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Normal", "name": "抓狂" },
+      { "rank": 1, "type": "Poison", "name": "溶解液" },
+      { "rank": 2, "type": "Poison", "name": "打嗝" },
+      { "rank": 4, "type": "Normal", "name": "再來一次" },
+      { "rank": 4, "type": "Psychic", "name": "睡覺" },
+      { "rank": 4, "type": "Normal", "name": "輪唱" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "849",
+    "region": "galar",
+    "name": "顫弦蠑螈 (高調)",
+    "alias": "Toxtricity",
+    "type": [
+      "Electric",
+      "Poison"
+    ],
+    "info": {
+      "image": "images/pokedex/849.png",
+      "height": "1.6",
+      "weight": "40",
+      "category": "龐克寶可夢",
+      "text": "通常被稱作「高調型態」，牠的性格會決定牠的進化方向。如果毒電嬰是外向的性格，牠就會進化成脾氣暴躁的顫弦蠑螈。牠們會釋放出高音頻的聲音，並釋放出強大的電流來激怒他人。"
+    },
+    "evolution": {
+      "stage": "final",
+      "by": "外向的性格"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "龐克搖滾",
+      "正電"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 1, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Electric", "name": "電光" },
+      { "rank": 1, "type": "Electric", "name": "怪異電波" },
+      { "rank": 2, "type": "Normal", "name": "抓狂" },
+      { "rank": 2, "type": "Normal", "name": "淚眼汪汪" },
+      { "rank": 2, "type": "Electric", "name": "電擊" },
+      { "rank": 2, "type": "Poison", "name": "溶解液" },
+      { "rank": 2, "type": "Normal", "name": "瞪眼" },
+      { "rank": 2, "type": "Poison", "name": "酸液炸彈" },
+      { "rank": 2, "type": "Electric", "name": "充電" },
+      { "rank": 2, "type": "Normal", "name": "戰吼" },
+      { "rank": 2, "type": "Normal", "name": "鬼面" },
+      { "rank": 2, "type": "Electric", "name": "電擊波" },
+      { "rank": 2, "type": "Poison", "name": "毒液衝擊" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 3, "type": "Poison", "name": "打嗝" },
+      { "rank": 3, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 3, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 3, "type": "Poison", "name": "劇毒" },
+      { "rank": 3, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Poison", "name": "毒擊" },
+      { "rank": 3, "type": "Electric", "name": "破音" },
+      { "rank": 3, "type": "Normal", "name": "爆音波" },
+      { "rank": 3, "type": "Steel", "name": "換檔" },
+      { "rank": 4, "type": "Fight", "name": "增強拳" },
+      { "rank": 4, "type": "Steel", "name": "金屬音" },
+      { "rank": 4, "type": "Normal", "name": "輪唱" }
+    ]
+  },
+  {
+    "id": "849-low",
+    "region": "galar",
+    "name": "顫弦蠑螈 (低調)",
+    "alias": "Toxtricity",
+    "type": [
+      "Electric",
+      "Poison"
+    ],
+    "info": {
+      "image": "images/pokedex/849-low.png",
+      "height": "1.6",
+      "weight": "40",
+      "category": "龐克寶可夢",
+      "text": "通常被稱作「低調型態」，牠的性格會決定牠的進化方向。如果毒電嬰是內向的性格，牠就會進化成個性冷淡的顫弦蠑螈。牠們會釋放出低音頻的聲音，並會看不起那些嘗試激怒牠的人們。"
+    },
+    "evolution": {
+      "stage": "final",
+      "by": "內向的性格"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "龐克搖滾",
+      "負電"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Electric", "name": "蹭蹭臉頰" },
+      { "rank": 1, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Electric", "name": "電光" },
+      { "rank": 1, "type": "Electric", "name": "怪異電波" },
+      { "rank": 2, "type": "Normal", "name": "抓狂" },
+      { "rank": 2, "type": "Normal", "name": "淚眼汪汪" },
+      { "rank": 2, "type": "Electric", "name": "電擊" },
+      { "rank": 2, "type": "Poison", "name": "溶解液" },
+      { "rank": 2, "type": "Normal", "name": "瞪眼" },
+      { "rank": 2, "type": "Poison", "name": "酸液炸彈" },
+      { "rank": 2, "type": "Electric", "name": "充電" },
+      { "rank": 2, "type": "Normal", "name": "戰吼" },
+      { "rank": 2, "type": "Normal", "name": "鬼面" },
+      { "rank": 2, "type": "Electric", "name": "電擊波" },
+      { "rank": 2, "type": "Poison", "name": "毒液衝擊" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 3, "type": "Poison", "name": "打嗝" },
+      { "rank": 3, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 3, "type": "Normal", "name": "虛張聲勢" },
+      { "rank": 3, "type": "Poison", "name": "劇毒" },
+      { "rank": 3, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Poison", "name": "毒擊" },
+      { "rank": 3, "type": "Electric", "name": "破音" },
+      { "rank": 3, "type": "Normal", "name": "爆音波" },
+      { "rank": 3, "type": "Steel", "name": "換檔" },
+      { "rank": 4, "type": "Fight", "name": "增強拳" },
+      { "rank": 4, "type": "Steel", "name": "金屬音" },
+      { "rank": 4, "type": "Normal", "name": "輪唱" }
+    ]
+  },
+  {
+    "id": "850",
+    "region": "galar",
+    "name": "燒火蚣",
+    "alias": "Sizzlipede",
+    "type": [
+      "Fire",
+      "Bug"
+    ],
+    "info": {
+      "image": "images/pokedex/850.png",
+      "height": "0.7",
+      "weight": "1",
+      "category": "發熱寶可夢",
+      "text": "牠把可燃氣體儲存在體內來發熱。牠肚子上的黃色部分會變得非常熱。牠會用滾燙的身體勒緊獵物，然後一口口把獵物吃得一點也不剩。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "slow"
+    },
+    "baseHP": 3,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "引火",
+      "白色煙霧"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Fire", "name": "火花" },
+      { "rank": 0, "type": "Normal", "name": "煙幕" },
+      { "rank": 1, "type": "Normal", "name": "緊束" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Fire", "name": "火焰輪" },
+      { "rank": 2, "type": "Bug", "name": "蟲咬" },
+      { "rank": 2, "type": "Poison", "name": "盤蜷" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 2, "type": "Fire", "name": "火焰旋渦" },
+      { "rank": 3, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Fire", "name": "火焰鞭" },
+      { "rank": 3, "type": "Bug", "name": "猛撲" },
+      { "rank": 4, "type": "Fire", "name": "燃盡" },
+      { "rank": 4, "type": "Dark", "name": "拍落" },
+      { "rank": 4, "type": "Bug", "name": "蟲之抵抗" },
+      { "rank": 4, "type": "Poison", "name": "毒液衝擊" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "851",
+    "region": "galar",
+    "name": "焚焰蚣",
+    "alias": "Centiskorch",
+    "type": [
+      "Fire",
+      "Bug"
+    ],
+    "info": {
+      "image": "images/pokedex/851.png",
+      "height": "0.7",
+      "weight": "1",
+      "category": "發熱寶可夢",
+      "text": "牠會像鞭子那樣彎曲身體，然後把自己甩向敵人。儘管牠燒燙的身體已經相當危險，這極具攻擊性的寶可夢也具有銳利無比的大大獠牙。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 5,
+    "rank": 3,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "引火",
+      "白色煙霧"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Fire", "name": "火花" },
+      { "rank": 0, "type": "Normal", "name": "煙幕" },
+      { "rank": 1, "type": "Normal", "name": "緊束" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Fire", "name": "火焰輪" },
+      { "rank": 2, "type": "Bug", "name": "蟲咬" },
+      { "rank": 2, "type": "Poison", "name": "盤蜷" },
+      { "rank": 2, "type": "Normal", "name": "摔打" },
+      { "rank": 2, "type": "Fire", "name": "火焰旋渦" },
+      { "rank": 2, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Fire", "name": "火焰鞭" },
+      { "rank": 3, "type": "Bug", "name": "猛撲" },
+      { "rank": 3, "type": "Fire", "name": "燃盡" },
+      { "rank": 4, "type": "Fire", "name": "火焰牙" },
+      { "rank": 4, "type": "Water", "name": "熱水" },
+      { "rank": 4, "type": "Electric", "name": "雷電牙" }
+    ]
+  },
+  {
+    "id": "852",
+    "region": "galar",
+    "name": "拳拳蛸",
+    "alias": "Clobbopus",
+    "type": [
+      "Fight"
+    ],
+    "info": {
+      "image": "images/pokedex/852.png",
+      "height": "0.6",
+      "weight": "4",
+      "category": "纏人寶可夢",
+      "text": "牠像兒童一樣，且擁有旺盛的好奇心，但牠調查東西的方式是試著用觸手打一打再說。儘管如此，這些觸手經常斷掉，但不用太擔心，因為它們在幾天內就會重新長回來。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "柔軟",
+      "技術高手"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Fight", "name": "碎岩" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Normal", "name": "佯攻" },
+      { "rank": 1, "type": "Normal", "name": "綁緊" },
+      { "rank": 2, "type": "Fight", "name": "看穿" },
+      { "rank": 2, "type": "Fight", "name": "劈瓦" },
+      { "rank": 2, "type": "Fight", "name": "健美" },
+      { "rank": 2, "type": "Fight", "name": "地獄翻滾" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 3, "type": "Fight", "name": "起死回生" },
+      { "rank": 3, "type": "Fight", "name": "蠻力" },
+      { "rank": 4, "type": "Water", "name": "浸水" },
+      { "rank": 4, "type": "Fight", "name": "巴投" },
+      { "rank": 4, "type": "Fight", "name": "地球上投" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "853",
+    "region": "galar",
+    "name": "八爪武師",
+    "alias": "Grapploct",
+    "type": [
+      "Fight"
+    ],
+    "info": {
+      "image": "images/pokedex/853.png",
+      "height": "1.6",
+      "weight": "39",
+      "category": "柔術寶可夢",
+      "text": "全身都是肌肉的身體讓牠觸手的威力無與倫比。牠們會登上陸地尋找對手，一旦戰鬥結束後就會回到海裡。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "柔軟",
+      "技術高手"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Fight", "name": "碎岩" },
+      { "rank": 0, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Normal", "name": "佯攻" },
+      { "rank": 1, "type": "Normal", "name": "綁緊" },
+      { "rank": 2, "type": "Fight", "name": "看穿" },
+      { "rank": 2, "type": "Fight", "name": "劈瓦" },
+      { "rank": 2, "type": "Fight", "name": "健美" },
+      { "rank": 2, "type": "Fight", "name": "地獄翻滾" },
+      { "rank": 2, "type": "Dark", "name": "挑釁" },
+      { "rank": 2, "type": "Fight", "name": "蛸固" },
+      { "rank": 2, "type": "Water", "name": "章魚桶炮" },
+      { "rank": 3, "type": "Fight", "name": "起死回生" },
+      { "rank": 3, "type": "Fight", "name": "蠻力" },
+      { "rank": 3, "type": "Dark", "name": "顛倒" },
+      { "rank": 4, "type": "Fight", "name": "近身戰" },
+      { "rank": 4, "type": "Water", "name": "水流裂破" },
+      { "rank": 4, "type": "Dark", "name": "狂舞揮打" }
+    ]
+  },
+  {
     "id": "854",
     "region": "galar",
     "name": "來悲茶",
@@ -3121,7 +4053,360 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Flying", "name": "暴風" }
     ]
   },
-
+  {
+    "id": "874",
+    "region": "galar",
+    "name": "巨石丁",
+    "alias": "Stonjourner",
+    "type": [
+      "Rock"
+    ],
+    "info": {
+      "image": "images/pokedex/874.png",
+      "height": "2.5",
+      "weight": "520",
+      "category": "巨石寶可夢",
+      "text": "牠們幾乎終其一生都保持不動，看起來就像是顆不顯眼的石頭，但每年會有一次，牠們會聚集在一起排成一個圈，維持好幾天之後，然後在一夜之間消失不見。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 6,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 7 },
+      "dex": { "value": 2, "max": 5 },
+      "vit": { "value": 3, "max": 7 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [
+      "能量點"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Rock", "name": "落石" },
+      { "rank": 0, "type": "Normal", "name": "擋路" },
+      { "rank": 1, "type": "Normal", "name": "踩踏" },
+      { "rank": 1, "type": "Rock", "name": "岩石封鎖" },
+      { "rank": 2, "type": "Psychic", "name": "重力" },
+      { "rank": 2, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 2, "type": "Rock", "name": "隱形岩" },
+      { "rank": 2, "type": "Rock", "name": "岩崩" },
+      { "rank": 2, "type": "Normal", "name": "泰山壓頂" },
+      { "rank": 2, "type": "Rock", "name": "廣域防守" },
+      { "rank": 3, "type": "Steel", "name": "重磅衝撞" },
+      { "rank": 3, "type": "Rock", "name": "尖石攻擊" },
+      { "rank": 3, "type": "Normal", "name": "百萬噸重踢" },
+      { "rank": 4, "type": "Fire", "name": "高溫重壓" },
+      { "rank": 4, "type": "Rock", "name": "原始之力" },
+      { "rank": 4, "type": "Ground", "name": "跺腳" }
+    ]
+  },
+  {
+    "id": "875",
+    "region": "galar",
+    "name": "冰砌鵝",
+    "alias": "Eiscue",
+    "type": [
+      "Ice"
+    ],
+    "info": {
+      "image": "images/pokedex/875.png",
+      "height": "1.4",
+      "weight": "89",
+      "category": "企鵝寶可夢",
+      "text": "這隻寶可夢隨時都用冰塊冰鎮著自己的臉。牠會把頭頂上的毛垂到海裡釣食物吃。當牠們游累的時候，牠們會就這麼讓自己的冰塊腦袋帶牠們漂浮在海上。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 2, "max": 4 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 5 }
+    },
+    "ability": [
+      "結凍頭"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Ice", "name": "白霧" },
+      { "rank": 1, "type": "Ice", "name": "細雪" },
+      { "rank": 1, "type": "Ice", "name": "冰凍之風" },
+      { "rank": 2, "type": "Normal", "name": "氣象球" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Psychic", "name": "瞬間失憶" },
+      { "rank": 2, "type": "Ice", "name": "冰雹" },
+      { "rank": 2, "type": "Ice", "name": "冷凍乾燥" },
+      { "rank": 3, "type": "Ice", "name": "極光幕" },
+      { "rank": 3, "type": "Water", "name": "衝浪" },
+      { "rank": 3, "type": "Ice", "name": "暴風雪" },
+      { "rank": 4, "type": "Rock", "name": "雙刃頭錘" },
+      { "rank": 4, "type": "Water", "name": "水流環" },
+      { "rank": 4, "type": "Normal", "name": "腹鼓" }
+    ]
+  },
+  {
+    "id": "875-noice",
+    "region": "galar",
+    "name": "冰砌鵝 (解凍頭型態)",
+    "alias": "Eiscue",
+    "type": [
+      "Ice"
+    ],
+    "info": {
+      "image": "images/pokedex/875-noice.png",
+      "height": "1.4",
+      "weight": "89",
+      "category": "企鵝寶可夢",
+      "text": "冰砌鵝的「解凍」型態實際上才是牠原本的型態。沒有了冰塊的保護，你可以看見牠一臉惆悵的表情，而這也讓人為之著迷。牠現在能夠更怪地移動，但你可以看出到牠變得更焦躁。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 3, "max": 7 },
+      "vit": { "value": 2, "max": 5 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "結凍頭"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Ice", "name": "白霧" },
+      { "rank": 1, "type": "Ice", "name": "細雪" },
+      { "rank": 1, "type": "Ice", "name": "冰凍之風" },
+      { "rank": 2, "type": "Normal", "name": "氣象球" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Psychic", "name": "瞬間失憶" },
+      { "rank": 2, "type": "Ice", "name": "冰雹" },
+      { "rank": 2, "type": "Ice", "name": "冷凍乾燥" },
+      { "rank": 3, "type": "Ice", "name": "極光幕" },
+      { "rank": 3, "type": "Water", "name": "衝浪" },
+      { "rank": 3, "type": "Ice", "name": "暴風雪" },
+      { "rank": 4, "type": "Rock", "name": "雙刃頭錘" },
+      { "rank": 4, "type": "Water", "name": "水流環" },
+      { "rank": 4, "type": "Normal", "name": "腹鼓" }
+    ]
+  },
+  {
+    "id": "876",
+    "region": "galar",
+    "name": "愛管侍",
+    "alias": "Indeedee",
+    "type": [
+      "Psychic",
+      "Normal"
+    ],
+    "info": {
+      "image": "images/pokedex/876.png",
+      "height": "0.9",
+      "weight": "28",
+      "category": "感情寶可夢",
+      "text": "這些高度智能的寶可夢能透過夥伴間角與角的互碰來彼此交換訊息。牠們喜歡協助並為人們服務，這是因為牠們能收集感謝之情來獲得能量。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 0,
+    "attr": {
+      "str": { "value": 2, "max": 4 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 3, "max": 6 },
+      "ins": { "value": 3, "max": 6 }
+    },
+    "ability": [
+      "精神力",
+      "同步"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Psychic", "name": "輔助力量" },
+      { "rank": 0, "type": "Normal", "name": "和睦相處" },
+      { "rank": 1, "type": "Normal", "name": "再來一次" },
+      { "rank": 1, "type": "Normal", "name": "接棒" },
+      { "rank": 1, "type": "Fairy", "name": "魅惑之聲" },
+      { "rank": 2, "type": "Psychic", "name": "幻象光線" },
+      { "rank": 2, "type": "Normal", "name": "幫助" },
+      { "rank": 2, "type": "Normal", "name": "看我嘛" },
+      { "rank": 2, "type": "Normal", "name": "您先請" },
+      { "rank": 2, "type": "Grass", "name": "芳香治療" },
+      { "rank": 3, "type": "Psychic", "name": "冥想" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Psychic", "name": "力量平分" },
+      { "rank": 3, "type": "Psychic", "name": "防守平分" },
+      { "rank": 3, "type": "Normal", "name": "珍藏" },
+      { "rank": 3, "type": "Psychic", "name": "治癒之願" },
+      { "rank": 3, "type": "Psychic", "name": "精神場地" },
+      { "rank": 4, "type": "Normal", "name": "擊掌奇襲" },
+      { "rank": 4, "type": "Ghost", "name": "暗影球" },
+      { "rank": 4, "type": "Psychic", "name": "奇妙空間" }
+    ]
+  },
+  {
+    "id": "877",
+    "region": "galar",
+    "name": "莫魯貝可",
+    "alias": "Morpeko",
+    "type": [
+      "Electric",
+      "Dark"
+    ],
+    "info": {
+      "image": "images/pokedex/877.png",
+      "height": "0.3",
+      "weight": "3",
+      "category": "雙面寶可夢",
+      "text": "牠的滿腹花紋模式相當友善且愛玩，喜歡收集食物和零嘴。但肚子餓扁時的飢餓感會使牠變得極端凶暴，且牠頰囊中的電能轉化成了惡屬性的能量。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 4,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 3, "max": 6 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "飽了又餓"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Electric", "name": "電擊" },
+      { "rank": 0, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Normal", "name": "瞪眼" },
+      { "rank": 1, "type": "Dark", "name": "囂張" },
+      { "rank": 1, "type": "Normal", "name": "電光一閃" },
+      { "rank": 2, "type": "Dark", "name": "吹捧" },
+      { "rank": 2, "type": "Dark", "name": "咬住" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Dark", "name": "無理取鬧" },
+      { "rank": 2, "type": "Psychic", "name": "高速移動" },
+      { "rank": 2, "type": "Grass", "name": "種子機關槍" },
+      { "rank": 3, "type": "Dark", "name": "咬碎" },
+      { "rank": 3, "type": "Electric", "name": "氣場輪" },
+      { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+      { "rank": 4, "type": "Normal", "name": "憤怒門牙" },
+      { "rank": 4, "type": "Electric", "name": "瘋狂伏特" },
+      { "rank": 4, "type": "Dragon", "name": "逆鱗" }
+    ]
+  },
+  {
+    "id": "878",
+    "region": "galar",
+    "name": "銅象",
+    "alias": "Cufant",
+    "type": [
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/878.png",
+      "height": "1.2",
+      "weight": "100",
+      "category": "像銅寶可夢",
+      "text": "如果有需要力量的工作時，這隻寶可夢能夠表現出色。牠銅質的身體會因雨水而生鏽，轉變成鮮豔的綠色。牠的鼻子特別善於挖地，在野外牠們會用來挖出樹根來吃。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "強行",
+      "重金屬"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Rock", "name": "滾動" },
+      { "rank": 1, "type": "Fight", "name": "碎岩" },
+      { "rank": 2, "type": "Ground", "name": "重踏" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 2, "type": "Ground", "name": "挖洞" },
+      { "rank": 2, "type": "Steel", "name": "鐵壁" },
+      { "rank": 2, "type": "Normal", "name": "怪力" },
+      { "rank": 2, "type": "Steel", "name": "鐵頭" },
+      { "rank": 2, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 3, "type": "Ground", "name": "十萬馬力" },
+      { "rank": 3, "type": "Fight", "name": "蠻力" },
+      { "rank": 4, "type": "Rock", "name": "隱形岩" },
+      { "rank": 4, "type": "Psychic", "name": "意念頭鎚" },
+      { "rank": 4, "type": "Ground", "name": "地裂" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "879",
+    "region": "galar",
+    "name": "大王銅象",
+    "alias": "Copperajah",
+    "type": [
+      "Steel"
+    ],
+    "info": {
+      "image": "images/pokedex/879.png",
+      "height": "3",
+      "weight": "650",
+      "category": "像銅寶可夢",
+      "text": "牠們是在很久以前從其他地區過來的，與人類一起工作建造新的道路和城市。牠們通常很溫和且喜歡陪伴牠的家族。"
+    },
+    "evolution": {
+      "stage": "final"
+    },
+    "baseHP": 6,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 7 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 2, "max": 4 },
+      "spe": { "value": 2, "max": 5 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [
+      "強行",
+      "重金屬"
+    ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Rock", "name": "滾動" },
+      { "rank": 1, "type": "Fight", "name": "碎岩" },
+      { "rank": 2, "type": "Ground", "name": "重踏" },
+      { "rank": 2, "type": "Normal", "name": "踩踏" },
+      { "rank": 2, "type": "Ground", "name": "挖洞" },
+      { "rank": 2, "type": "Steel", "name": "鐵壁" },
+      { "rank": 2, "type": "Normal", "name": "怪力" },
+      { "rank": 2, "type": "Steel", "name": "鐵頭" },
+      { "rank": 2, "type": "Fairy", "name": "嬉鬧" },
+      { "rank": 3, "type": "Ground", "name": "十萬馬力" },
+      { "rank": 3, "type": "Fight", "name": "蠻力" },
+      { "rank": 3, "type": "Steel", "name": "重磅衝撞" },
+      { "rank": 4, "type": "Ground", "name": "地裂" },
+      { "rank": 4, "type": "Grass", "name": "強力鞭打" },
+      { "rank": 4, "type": "Dragon", "name": "逆鱗" }
+    ]
+  },
   {
     "id": "880",
     "region": "galar",
