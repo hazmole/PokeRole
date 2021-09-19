@@ -3335,8 +3335,7 @@ Array.prototype.push.apply(Pokedex, [
       "text": "牠是踢踏舞的達人。會適時揮動手中的冰杖，幽默的動作使牠獲得了眾人的喜愛，且牠也熱愛表演給小朋友看。牠的精神力量全都是從腹部的圖案釋放出來的。"
     },
     "evolution": {
-      "stage": "second",
-      "time": "medium"
+      "stage": "final"
     },
     "baseHP": 5,
     "rank": 2,
