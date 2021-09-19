@@ -2,7 +2,6 @@
 title = "卡洛斯地區"
 weight = 7
 description = "卡洛斯地區圖鑑"
-draft=true
 +++
 
 

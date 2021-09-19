@@ -863,7 +863,10 @@ TocInjector.parsePage("Move");
 阿羅拉的四座島嶼上都各有著一隻作為島嶼守護神的傳說寶可夢。偶爾，祂們會現身，敦促其中一個年輕人開始他的諸島巡禮。
 在島嶼之王的指引下，這名孩童將會經歷許多試煉。島嶼之王知曉人與寶可夢之間羈絆真正力量的秘密，並能透過Z招式來駕馭這股力量。如果你能夠掌握這股力量，那麼你就是走在成為真正英雄的道路上了。
 要使用Z招式，寶可夢本身必須攜帶對應的「Z純晶」在牠們的道具欄位中，且其訓練家必須穿戴「Z手環」才行。 施展Z招式時需要進行一段特殊的儀式舞蹈。 要獲得Z純晶，你必須要通過四座島嶼其中之一的試煉。 關於使用Z招式和自訂Z招式效果的規則，請參閱「Z招式」章節。 玩家可以在你的裁斷下以任何方式獲得「Z純晶」和「超級石」。
-它們可能會是某個家族的傳家寶、贈禮、獎品、或在一場偶然遭遇中發現的物品。</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>收服寶可夢 人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
+它們可能會是某個家族的傳家寶、贈禮、獎品、或在一場偶然遭遇中發現的物品。</description></item><item><title>卡洛斯地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kalos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kalos/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
+});</description></item><item><title>收服寶可夢</title><link>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/docs/catching-pokemon/</guid><description>收服寶可夢 人類飼養的寶可夢與野生的寶可夢之間有著相當明顯的差異。大部分你在鄉鎮和城市所能見到的寶可夢都是好幾代以前被訓練師們馴化的野生寶可夢的後代。
 牠們從小就被培育教導成要友善、忠誠、且順從；牠們會跟從牠們主人的階級，且需要仰賴訓練家的幫助才能使自己變得更強大。
 然而那些生活在野外的寶可夢，無論是被遺棄後恢復了野性、或是一輩子都沒有接觸過人類，這都使牠們必須憑藉自己純粹的實力和求生本能，才有辦法提升自己的階級，在野外生存下來。
 無論是哪種情況，這兩種野生的寶可夢都對人類懷抱著不信任感，甚至忌妒人類身邊的寶可夢夥伴。牠們有些會因為恐懼而逃離，有些則會展現出侵略性，盡一切努力從牠們視為生存威脅的存在面前保護自己。
