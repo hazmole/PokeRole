@@ -3376,7 +3376,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Psychic", "name": "重力" },
       { "rank": 5, "type": "Psychic", "name": "光牆" },
       { "rank": 5, "type": "Psychic", "name": "治癒波動" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "717",
@@ -3427,7 +3428,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Ghost", "name": "潛靈奇襲" },
       { "rank": 5, "type": "Psychic", "name": "精神強念" },
       { "rank": 5, "type": "Water", "name": "求雨" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "718-1",
@@ -3457,7 +3459,8 @@ Array.prototype.push.apply(Pokedex, [
     "ability": [ "氣場破壞" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "挺住" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "718-10",
@@ -3506,7 +3509,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Dragon", "name": "龍之舞" },
       { "rank": 5, "type": "Ground", "name": "千波激盪" },
       { "rank": 5, "type": "Ground", "name": "千箭齊發" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "718-50",
@@ -3557,7 +3561,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Ground", "name": "千箭齊發" },
       { "rank": 5, "type": "Dragon", "name": "核心懲罰者" },
       { "rank": 5, "type": "Ground", "name": "跺腳" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "718-100",
@@ -3610,7 +3615,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Ground", "name": "跺腳" },
       { "rank": 5, "type": "Dragon", "name": "流星群" },
       { "rank": 5, "type": "Normal", "name": "覺醒力量" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "719",
@@ -3660,7 +3666,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Rock", "name": "擊落" },
       { "rank": 5, "type": "Rock", "name": "落石" },
       { "rank": 5, "type": "Steel", "name": "鐵壁" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "719-M",
@@ -3710,7 +3717,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Rock", "name": "擊落" },
       { "rank": 5, "type": "Rock", "name": "落石" },
       { "rank": 5, "type": "Steel", "name": "鐵壁" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "720",
@@ -3761,7 +3769,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Psychic", "name": "魔法空間" },
       { "rank": 5, "type": "Psychic", "name": "異次元洞" },
       { "rank": 5, "type": "Normal", "name": "密語" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "720-Unbound",
@@ -3814,7 +3823,8 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Normal", "name": "破壞光線" },
       { "rank": 5, "type": "Dark", "name": "搶奪" },
       { "rank": 5, "type": "Dark", "name": "地獄突刺" }
-    ]
+    ],
+    "isLegend": true
   },
   {
     "id": "721",
@@ -3860,6 +3870,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Water", "name": "水砲" },
       { "rank": 5, "type": "Water", "name": "熱水" },
       { "rank": 5, "type": "Water", "name": "水之波動" }
-    ]
+    ],
+    "isLegend": true
   }
 ]);

@@ -4875,7 +4875,7 @@ Array.prototype.push.apply(Pokedex, [
       "image": "images/pokedex/888-sword.png",
       "height": "2.8",
       "weight": "110",
-      "category": "強者寶可夢",
+      "category": "無資料",
       "text": "傳說中能斬斷世間萬物的聖劍，也被稱為妖精王之劍，讓敵友都對牠敬畏不已。"
     },
     "evolution": {
@@ -4928,7 +4928,7 @@ Array.prototype.push.apply(Pokedex, [
       "image": "images/pokedex/889.png",
       "height": "2.9",
       "weight": "210",
-      "category": "強者寶可夢",
+      "category": "無資料",
       "text": "被稱為傳說中的英雄，祂透過純粹的力量高舉著英雄之盾，保護人們不受巨大的邪惡侵害。"
     },
     "evolution": {
@@ -4980,7 +4980,7 @@ Array.prototype.push.apply(Pokedex, [
       "image": "images/pokedex/889-shield.png",
       "height": "2.9",
       "weight": "210",
-      "category": "強者寶可夢",
+      "category": "無資料",
       "text": "傳說中能反彈一切攻擊的聖盾，也被稱為格鬥王之盾，哪怕是最最龐大的巨獸也無法越雷池一步。"
     },
     "evolution": {
@@ -5034,7 +5034,7 @@ Array.prototype.push.apply(Pokedex, [
       "image": "images/pokedex/890.png",
       "height": "20",
       "weight": "950",
-      "category": "超極巨寶可夢",
+      "category": "無資料",
       "text": "在二萬年前一顆巨大的隕石墜落到伽勒爾地區，從那時候起大地就時不時會湧現出能使寶可夢極巨化的能量，這個現象在近幾年變得越來越頻繁。"
     },
     "evolution": {
@@ -5071,7 +5071,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Psychic", "name": "光牆" },
       { "rank": 5, "type": "Psychic", "name": "反射壁" },
       { "rank": 5, "type": "Normal", "name": "守住" }
-    ]
+    ],
+    "isLegend": true
   }
 ]);
-console.log(Pokedex);
