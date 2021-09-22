@@ -166,6 +166,7 @@ class PokemonParser{
         case "second": return "二階";
         case "final": return "最終階";
         case "mega": return "超級進化";
+        case "battle-bond": return "牽絆變身";
         case "unknown": return "未知";
       }
       return "-";
