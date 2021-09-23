@@ -177,22 +177,25 @@ class PokemonParser{
         case "fast":   return "快速";
         case "medium": return "中等";
         case "slow":   return "緩慢";
+        case "unknown":return "未知";
       }
       return "-";
     }
     function getEvolveMethod(evolvoObj){
       if(!evolvoObj) return "";
 
-      var note = pokemonObj.evolution.note? ` & <u>${pokemonObj.evolution.note}</u>`: "";
-      if(evolvoObj.with) return `透過 <u>${evolvoObj.with}</u> 進化${note}`;
-      if(evolvoObj.near) return `接近 <u>${evolvoObj.near}</u> 時進化${note}`;
-      if(evolvoObj.beauty) return `在 <u>美麗${evolvoObj.beauty}</u> 時進化${note}`;
-      if(evolvoObj.loyalty) return `在 <u>忠誠度${evolvoObj.loyalty}</u> 時進化${note}`;
-      if(evolvoObj.happiness) return `在 <u>幸福度${evolvoObj.happiness}</u> 時進化${note}`;
-      if(evolvoObj.limitby) return `限定由 <u>${evolvoObj.limitby}</u> 進化${note}`;
-      if(evolvoObj.by) return `經由 <u>${evolvoObj.by}</u> 進化${note}`;
+      var textArr = [];
 
-      return '';
+      if(evolvoObj.with) textArr.push(`透過 <u>${evolvoObj.with}</u> 進化`);
+      if(evolvoObj.near) textArr.push(`接近 <u>${evolvoObj.near}</u> 時進化`);
+      if(evolvoObj.beauty) textArr.push(`在 <u>美麗${evolvoObj.beauty}</u> 時進化`);
+      if(evolvoObj.loyalty) textArr.push(`在 <u>忠誠度${evolvoObj.loyalty}</u> 時進化`);
+      if(evolvoObj.happiness) textArr.push(`在 <u>幸福度${evolvoObj.happiness}</u> 時進化`);
+      if(evolvoObj.limitby) textArr.push(`限定由 <u>${evolvoObj.limitby}</u> 進化`);
+      if(evolvoObj.by) textArr.push(`經由 <u>${evolvoObj.by}</u> 進化`);
+      if(pokemonObj.evolution.note) textArr.push(`<u>${pokemonObj.evolution.note}</u>`);
+
+      return textArr.join(" & ");
     }
     function getMoveEntryHtml(moveObj){
       return `<div class="entry">

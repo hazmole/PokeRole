@@ -8,11 +8,11 @@ collapsible: true
 
 按地區分類：
 * <a href='{{< relref path="data/pokedex/pokedex-kanto" >}}'>關都地區</a>
-* <a href='{{< relref path="data/pokedex/" >}}'>城都地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-johto" >}}'>城都地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-hoenn" >}}'>豐緣地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-sinnoh" >}}'>神奧地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-unova" >}}'>合眾地區</a>
-* <a href='{{< relref path="data/pokedex/" >}}'>卡洛斯地區</a>
-* <a href='{{< relref path="data/pokedex/" >}}'>阿羅拉地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-kalos" >}}'>卡洛斯地區</a>
+* <a href='{{< relref path="data/pokedex/pokedex-alola" >}}'>阿羅拉地區</a>
 * <a href='{{< relref path="data/pokedex/pokedex-galar" >}}'>伽勒爾地區</a>
 

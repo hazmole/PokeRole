@@ -20,6 +20,9 @@ TocInjector.parsePage("Pokemon");
 });</description></item><item><title>卡洛斯地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kalos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-kalos/</guid><description>
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");
+});</description></item><item><title>阿羅拉地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-alola/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-alola/</guid><description>
+window.addEventListener("parsePage", ()={
+TocInjector.parsePage("Pokemon");
 });</description></item><item><title>伽勒爾地區</title><link>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-galar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hazmole.github.io/PokeRole/data/pokedex/pokedex-galar/</guid><description>
 window.addEventListener("parsePage", ()={
 TocInjector.parsePage("Pokemon");

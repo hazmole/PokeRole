@@ -2,7 +2,6 @@
 title = "阿羅拉地區"
 weight = 8
 description = "阿羅拉地區圖鑑"
-draft=true
 +++
 
 
