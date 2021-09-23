@@ -110,7 +110,7 @@ class PokemonParser{
   static getHTML( pokemonObj ){
     var pokemonID = pokemonObj.id.replace(/-\w+/, "");
     var pokemonTypes = pokemonObj.type.map(type=>`<div class="type ${type}" style="width:${pokemonObj.type.length>1? 5: 10}rem;">${FMT(type)}</div>`).join("");
-    var moveList = pokemonObj.moves.map( move => getMoveEntryHtml(move) );
+    var moveList = pokemonObj.moves.sort(cmpMove).map( move => getMoveEntryHtml(move) );
     var evolveStage = getEvolveStage(pokemonObj.evolution)!=""? `<div class="entry"><b style="background:#b7b7b7">進化階段</b>${getEvolveStage(pokemonObj.evolution)}</div>`: "";
     var evolveTime  = getEvolveTime(pokemonObj.evolution) !=""? `<div class="entry"><b style="background:#b7b7b7">進化時間</b>${getEvolveTime(pokemonObj.evolution)}</div>`: "";
     var evolveMethod= getEvolveMethod(pokemonObj.evolution) !=""? `<div class="entry">${getEvolveMethod(pokemonObj.evolution)}</div>`: "";
@@ -227,6 +227,11 @@ class PokemonParser{
         text += (i<attr.value)? "●": "○";
       }
       return text;
+    }
+    function cmpMove(a, b){
+      if(a.rank!=b.rank) return a.rank>b.rank? 1: -1;
+      if(a.type!=b.type) return (a.type=="Normal")? -1: (b.type=="Normal")? 1: (a.type>b.type? 1: -1);
+      return a.name>b.name? 1: -1;
     }
   }
 

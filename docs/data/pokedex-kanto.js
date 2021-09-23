@@ -200,7 +200,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.6",
       "weight": "8",
       "category": "蜥蜴寶可夢",
-      "text": "A rare Pokémon. The flame on its tail is an indicator of its feelings and life force. If it is healthy and happy, the flame burns brightly. It needs proper care and discipline or else it may rebel later on."
+      "text": "一種罕見的寶可夢。尾巴上的火焰是牠情緒及生命力的象徵。如果牠活力十足，火焰就會熊熊燃燒。牠需要適當的照顧和管教，否則之後可能會變得叛逆。"
     },
     "evolution": {
       "stage": "first",
@@ -246,7 +246,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.1",
       "weight": "20",
       "category": "火焰寶可夢",
-      "text": "It turns aggressive after evolving, it is very hot-headed by nature, so it constantly starts fights. When it’s excited, the flame at the tip of its tail flares with a bluish white color."
+      "text": "牠在進化後會變得具有攻擊性，牠火爆的性格致使牠一直在尋找戰鬥的對手。當情緒變得興奮起來時，牠尾巴末端的火焰會呈現藍白色。"
     },
     "evolution": {
       "stage": "second",
@@ -291,7 +291,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.7",
       "weight": "125",
       "category": "火焰寶可夢",
-      "text": "A  Charizard  flies  around  looking for  strong  opponents.  It  breathes intense  flames  that  can  melt  any  material. However, it will never touch a weaker foe. Not many trainers are able to handle its bad temper."
+      "text": "噴火龍會為了尋找強大的對手而四處飛翔。牠會宛如能熔解一切的灼熱火焰。然而，牠絕對不會欺負弱小。很少有訓練家能夠應付牠的壞脾氣。"
     },
     "evolution": {
       "stage": "final"
@@ -341,7 +341,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.7",
       "weight": "100",
       "category": "火焰寶可夢",
-      "text": "With the power of the Mega Stone It  becomes  bold  and confident. Its flying skills get better and t boasts speed and maneuverability. When it flies you cannot see it directly as its flames burn as bright as the sun."
+      "text": "藉著超級石的力量，牠變得更大膽而自信。飛行技巧也變得越來越好，並且擁有更快的速度和更強的機動性。當牠翱翔於天際時，你將無法再直視牠，因為牠身上的火焰燃燒得像太陽一樣明亮。"
     },
     "evolution": {
       "stage": "mega",
@@ -391,7 +391,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.7",
       "weight": "100",
       "category": "火焰寶可夢",
-      "text": "The  power  of  the  Mega  Stone make  its  inner  flames  burn  so  hot that its body turns black as coal and blue fire escapes constantly from its mouth.  It  is  filled  with  rage  and  its demeanor is unpredictable"
+      "text": "藉著超級石的力量，牠體內的火焰燃燒得如此灼熱，以至於牠的身體變得像煤一樣黑，且藍色的火焰不斷從口中逸出。牠的內心充滿了憤怒，行為舉止更是變得無法預測。"
     },
     "evolution": {
       "stage": "mega",
@@ -441,7 +441,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.5",
       "weight": "9",
       "category": "小龜寶可夢",
-      "text": "It  is  scarce  in  the  wild.  The  shell  is not just for protection - it also helps to  minimize  resistance  in  water enabling  Squirtle  to  swim  at  high speeds. It’s usually a calm and easy going Pokémon. "
+      "text": "牠在野外相當罕見。牠的甲殼不僅是用來保護自己──還能減少水的阻力，使傑尼龜能夠快速地游泳。牠通常會是一隻穩重且隨和的寶可夢。"
     },
     "evolution": {
       "stage": "first",
@@ -489,7 +489,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.0",
       "weight": "22.5",
       "category": "龜寶可夢",
-      "text": "Its  large  tail  is  covered  with  rich, thick fur that deepens in color with age. The scratches on its shell are evidence  of  this  Pokémon’s  tough attitude in battle. It is a good hunter underwater. "
+      "text": "牠大大地尾巴上長滿蓬鬆的毛髮，顏色會隨著年齡的增長而加深。甲殼上的傷痕是這隻寶可夢強悍的證明。牠同時也是一名優秀的水中獵手。"
     },
     "evolution": {
       "stage": "second",
@@ -536,7 +536,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.6",
       "weight": "170",
       "category": "甲殼寶可夢",
-      "text": "The  jets  of  water  it  spouts  from the  rocket  cannons  on  its  shell have  been  recorded  to  punch through steel. It is confident on its great defense and water spouts to  overcome any obstacle."
+      "text": "甲殼上的火箭炮裡發射出的水流有著能將厚重的鐵板貫穿的破壞力。牠對於自己強大的防禦能力和能夠克服一切阻礙的噴射水流充滿自信。"
     },
     "evolution": {
       "stage": "final",
@@ -583,7 +583,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.6",
       "weight": "200",
       "category": "甲殼寶可夢",
-      "text": "With the power of the Mega Stone the  canon  on  its  back  can  shoot exploding water projectiles that can pierce through concetrete. Its body is  incredibly  hard  and  its  hind  legs root themselves to prevent recoil."
+      "text": "藉著超級石的力量，牠背上的大砲可以射出甚至能打穿混凝土的爆炸水砲。牠的身體非常強韌，且牠的下盤筋骨能夠承受大砲發射時的衝擊力。"
     },
     "evolution": {
       "stage": "mega",
@@ -630,7 +630,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "3",
       "category": "蟲寶寶寶可夢",
-      "text": "It is  very common in the forests. Its  voracious  appetite  compels  it to devour leaves bigger than itself without hesitation. It releases a foul odor  from  its  antennae  if  it  feels threatened. "
+      "text": "這種寶可夢在森林中十分常見。牠的食慾很強，轉眼間就能吃掉比自己身體還要大的葉子。如果牠感受到威脅，就會從觸角釋放出強烈的臭氣。"
     },
     "evolution": {
       "stage": "first",
@@ -665,7 +665,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.7",
       "weight": "10",
       "category": "蛹寶可夢",
-      "text": "Its shell can be as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell. It  is  known  as  one  of  the  fastest evolving Pokémon in the world. "
+      "text": "包裹身體的外殼像鐵板一般堅硬。鐵甲蛹之所以不怎麼動，是因為殼裡面的柔軟身體正在為進化做準備。牠以身為世界上進化最快的寶可夢之一而聞名。"
     },
     "evolution": {
       "stage": "second",
@@ -699,7 +699,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.1",
       "weight": "32",
       "category": "蝴蝶寶可夢",
-      "text": "It can be found in forests and plains. It loves the honey in some flowers even with tiny amounts of pollen.Its wings are covered by dust that allows it to fly even when it’s raining."
+      "text": "可以在森林和平原找到牠的蹤跡。牠最喜歡吃花蜜，即使只靠微量的花粉就能夠找出花圃所在的位置。翅膀上佈滿的鳞粉讓牠們即使在下雨時也能自在飛翔。"
     },
     "evolution": {
       "stage": "final"
@@ -747,7 +747,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "3",
       "category": "毛毛蟲寶可夢",
-      "text": "Often found in forests eating leaves. It has a sharp, venomous stinger on its head for defense. It has an acute sense of smell to find food, and its bright-colored body is intended to warn off predators. "
+      "text": "常見於森林中吃著大片的葉子。牠的頭上有一根尖銳的毒針能用於保護自己。牠有著非常靈敏的嗅覺可以尋找食物，鮮豔的體色能用來警戒掠食者。"
     },
     "evolution": {
       "stage": "first",
@@ -782,7 +782,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.6",
       "weight": "10",
       "category": "蛹寶可夢",
-      "text": "It remains virtually immobile while it clings to a tree. On the inside, it is preparing for evolution by rising the temperature of its shell. Beware of Beedrills thay may roam close to it. "
+      "text": "牠掛在樹上的期間幾乎一動也不動。在蛹的內部，牠會藉著提高蛹殼的溫度來為進化做準備。小心那些會牠們附近徘迴的大針蜂。"
     },
     "evolution": {
       "stage": "second",
@@ -816,7 +816,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.0",
       "weight": "30",
       "category": "毒蜂寶可夢",
-      "text": "Beedrilsl are extremely territorial.For  safety  reasons,  no  one  should ever approach their nest. If disturbed, they will attack in swarm. It has three stings. The one on its tail  secretes a powerful poison. "
+      "text": "大大針蜂非常重視自己的地盤，為了安全起見，最好不要接近牠的住處。一旦生氣就會成群結隊襲擊而來。牠有著三根毒針，尾巴上針刺所分泌的毒性最為強大。"
     },
     "evolution": {
       "stage": "final"
@@ -861,7 +861,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.4",
       "weight": "40",
       "category": "毒蜂寶可夢",
-      "text": "With the power of the Mega Stone all  of  its  limbs  are  now  powerful stingers. Their attack can be really viscious stinging and piercing its foe repeatedly  until  the  finishing  blow with the sting on its rear."
+      "text": "藉著超級石的力量，牠的四肢都變成了威力強大的毒針。牠們會先用手腳的針猛刺一通，然後用臀部的毒針給予致命一擊。"
     },
     "evolution": {
       "stage": "mega"
@@ -906,7 +906,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "2",
       "category": "小鳥寶可夢",
-      "text": "Very  common  around  the  world,  it prefers to live in forests but can be seen  around  cities  and  plains  too. It’s a docile Pokémon that tends to avoid  trouble.  It  flaps  its  wings  to lure prey out of hiding."
+      "text": "牠在世界各地都相當常見，牠喜歡棲息在森林中，但在城市和平原中也能夠發現牠的蹤跡。牠的個性溫順，往往會主動避開麻煩。牠會用力拍打翅膀激起沙塵，誘使獵物離開藏身處。"
     },
     "evolution": {
       "stage": "first",
@@ -954,7 +954,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.1",
       "weight": "30",
       "category": "鳥寶可夢",
-      "text": "Each  Pidgeotto  claims  a  large meadow  area  as  its  territory.  This Pokémon  flies  around,  atrolling  its home and will attack any intruders  with its sharp claws. It will challenge itself to fly a bit higher every day."
+      "text": "每一隻比比鳥都會佔領一大片草原區域當作自己的領土。這種寶可夢會飛在空中巡視自己廣大的地盤，並用利爪狠狠教訓任何入侵者。牠會為了挑戰自己而試著每天飛得更高一些。"
     },
     "evolution": {
       "stage": "second",
@@ -1001,7 +1001,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.5",
       "weight": "80",
       "category": "鳥寶可夢",
-      "text": "This Pokémon’s plumage is made of beautiful  glossy  feathers.    Pidgeot  is  an  excellent  hunter  with  well   developed wing muscles that make it strong enough to whip up a gusty windstorm with just a few flaps."
+      "text": "這隻寶可夢的翅膀是由美麗光滑的羽毛組成的。大比鳥是出色的獵人，具有發達的翅膀肌肉，強壯到只需輕輕拍動幾下翅膀就能搧起巨大的風勢。"
     },
     "evolution": {
       "stage": "final"
@@ -1046,7 +1046,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "2.2",
       "weight": "100",
       "category": "鳥寶可夢",
-      "text": "With the power of the Mega Stone Pidgeot’s  flying  becomes  a  blurred red  stripe  in  the  sky.  It  won’t  stop soaring the skies while in this state without tiring or needing to rest for many days at a time."
+      "text": "藉著超級石的力量，大比鳥在飛行時將因為高速而化作天空中一道模糊的紅色軌跡。在這種狀態下，牠不會停止翱翔天際，且可以持續好幾天不眠不休而不會感到疲累。"
     },
     "evolution": {
       "stage": "mega"
@@ -1091,7 +1091,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "3",
       "category": "鼠寶可夢",
-      "text": "It can live anywhere it can find food, but  they  are  often  in  cities  and fields.  They  form  large  families  in their burrows. Since they are often preyed on, Rattatas are always alert and quick to flee."
+      "text": "牠可以生活在任何能夠找到食物的地方，但特別常見於城市和田野中。牠們會在洞穴中組成大家庭。由於經常被捕食，因此小拉達總是保持警戒，逃跑迅速。"
     },
     "evolution": {
       "stage": "first",
@@ -1138,7 +1138,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.7",
       "weight": "18",
       "category": "鼠寶可夢",
-      "text": "Raticate’s sturdy fangs grow quickly.  To  keep  them  ground  down,  it gnaws  on  hard  materials.  It  may even chew on the walls of houses. Its  has  water-proof  fur,  webbed feet and its a capable swimmer."
+      "text": "拉達堅硬的門牙長得很塊。為了磨平不斷生長的門牙，牠有著啃咬堅硬東西的習性。甚至連房屋的牆壁也會變成牠的啃咬對象。牠有著防水的皮毛和蹼足，且善於游泳。"
     },
     "evolution": {
       "stage": "final"
@@ -1176,8 +1176,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "019-A",
-    "region": "kanto",
-    "name": "小拉達（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "小拉達 (阿羅拉的樣子)",
     "alias": "Rattata",
     "type": [ "Dark", "Normal" ],
     "info": {
@@ -1185,7 +1185,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.3",
       "weight": "3",
       "category": "鼠寶可夢",
-      "text": "Rattata first came to Alola through cargo  ships,  it  thrived  and  almost destroyed  the  region’s  ecosystem. Attempts  to  exterminate  this  Pokémon made it more vicious than its regular counterpart."
+      "text": "小拉達一開始是透過貨船來到阿羅拉的，牠們繁衍興盛，幾乎摧毀了該地區的生態系統。試圖滅絕這種寶可夢要比滅絕牠們原本的同族更加困難。"
     },
     "evolution": {
       "stage": "first",
@@ -1223,8 +1223,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "020-A",
-    "region": "kanto",
-    "name": "拉達（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "拉達 (阿羅拉的樣子)",
     "alias": "Raticate",
     "type": [ "Dark", "Normal" ],
     "info": {
@@ -1232,7 +1232,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "0.7",
       "weight": "25",
       "category": "鼠寶可夢",
-      "text": "Alolan  Raticate  command  their  Rattata  underlings  to  bring  them food every night. Five star restaurants often struggle  with  these  aggressive  Pokémon nesting close to their grounds."
+      "text": "阿羅拉地區的拉達每天晚上都會命令牠們手下的小拉達幫自己帶來食物。五星級餐廳經常必須對抗這些棲息在餐廳附近的貪婪寶可夢。"
     },
     "evolution": {
       "stage": "final"
@@ -1554,8 +1554,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "026-A",
-    "region": "kanto",
-    "name": "雷丘（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "雷丘 (阿羅拉的樣子)",
     "alias": "Raichu",
     "type": [ "Electric", "Psychic" ],
     "info": {
@@ -1693,8 +1693,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "027-A",
-    "region": "kanto",
-    "name": "穿山鼠（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "穿山鼠 (阿羅拉的樣子)",
     "alias": "Sandshrew",
     "type": [ "Ice", "Steel" ],
     "info": {
@@ -1744,8 +1744,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "028-A",
-    "region": "kanto",
-    "name": "穿山王（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "穿山王 (阿羅拉的樣子)",
     "alias": "Sandslash",
     "type": [ "Ice", "Steel" ],
     "info": {
@@ -2237,8 +2237,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "037-A",
-    "region": "kanto",
-    "name": "六尾（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "六尾 (阿羅拉的樣子)",
     "alias": "Vulpix",
     "type": [ "Ice" ],
     "info": {
@@ -2291,8 +2291,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "038-A",
-    "region": "kanto",
-    "name": "九尾（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "九尾 (阿羅拉的樣子)",
     "alias": "Ninetales",
     "type": [ "Ice" ],
     "info": {
@@ -2943,8 +2943,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "050-A",
-    "region": "kanto",
-    "name": "地鼠（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "地鼠 (阿羅拉的樣子)",
     "alias": "Diglett",
     "type": [ "Ground", "Steel" ],
     "info": {
@@ -2991,8 +2991,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "051-A",
-    "region": "kanto",
-    "name": "三地鼠（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "三地鼠 (阿羅拉的樣子)",
     "alias": "Dugtrio",
     "type": [ "Ground", "Steel" ],
     "info": {
@@ -3141,8 +3141,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "052-A",
-    "region": "kanto",
-    "name": "喵喵（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "喵喵 (阿羅拉的樣子)",
     "alias": "Meowth",
     "type": [ "Dark" ],
     "info": {
@@ -3191,8 +3191,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "053-A",
-    "region": "kanto",
-    "name": "貓老大（阿羅拉的樣子）",
+    "region": "alola",
+    "name": "貓老大 (阿羅拉的樣子)",
     "alias": "Persian",
     "type": [ "Dark" ],
     "info": {
@@ -4286,38 +4286,6 @@ Array.prototype.push.apply(Pokedex, [
     "isNovice": true
   },
   {
-    "id": "074-A",
-    "region": "kanto",
-    "name": "小拳石_ALOLA",
-    "alias": "Geodude",
-    "type": [ "Rock", "Electric" ],
-    "info": {
-      "image": "images/pokedex/074-A.png",
-      "height": "0.4",
-      "weight": "20",
-      "category": "岩石寶可夢",
-      "text": " The magnetic fields on Alola’s Blush Mountain made Geodude develop Electric chargers on its body.They tend to disguise themselves as  regular rocks, caution is adviced as they shock you if you step on them."
-    },
-    "evolution": {
-      "stage": "first",
-      "time": "medium"
-    },
-    "baseHP": 3,
-    "rank": 1,
-    "attr": {
-      "str": { "value": 2, "max": 5 },
-      "dex": { "value": 1, "max": 3 },
-      "vit": { "value": 3, "max": 6 },
-      "spe": { "value": 1, "max": 3 },
-      "ins": { "value": 1, "max": 3 }
-    },
-    "ability": [ "磁力", "結實" ],
-    "moves": [
-
-    ],
-    "isNovice": true
-  },
-  {
     "id": "075",
     "region": "kanto",
     "name": "隆隆石",
@@ -4364,37 +4332,6 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 4, "type": "Normal", "name": "攀岩" },
       { "rank": 4, "type": "Dark", "name": "突襲" },
       { "rank": 4, "type": "Rock", "name": "廣域防守" }
-    ]
-  },
-  {
-    "id": "075-A",
-    "region": "kanto",
-    "name": "隆隆石_ALOLA",
-    "alias": "Graveler",
-    "type": [ "Rock", "Electric" ],
-    "info": {
-      "image": "images/pokedex/075-A.png",
-      "height": "1.0",
-      "weight": "110",
-      "category": "岩石寶可夢",
-      "text": "These Pokémon charge themselves by rolling around, it is dangerous if  two  of  them  collide,  a  loud  noise and a flash of light will be seen and heard at great distance.They feed on golden dravite. "
-    },
-    "evolution": {
-      "stage": "second",
-      "with": "交換"
-    },
-    "baseHP": 4,
-    "rank": 2,
-    "attr": {
-      "str": { "value": 3, "max": 6 },
-      "dex": { "value": 1, "max": 3 },
-      "vit": { "value": 3, "max": 6 },
-      "spe": { "value": 2, "max": 4 },
-      "ins": { "value": 2, "max": 4 }
-    },
-    "ability": [ "磁力", "結實" ],
-    "moves": [
-
     ]
   },
   {
@@ -4447,9 +4384,108 @@ Array.prototype.push.apply(Pokedex, [
     ]
   },
   {
+    "id": "074-A",
+    "region": "alola",
+    "name": "小拳石 (阿羅拉的樣子)",
+    "alias": "Geodude",
+    "type": [ "Rock", "Electric" ],
+    "info": {
+      "image": "images/pokedex/074-A.png",
+      "height": "0.4",
+      "weight": "20",
+      "category": "岩石寶可夢",
+      "text": "阿羅拉地區火特力山上的磁場讓小拳石的身體演化出了充電器。牠們往往會把自己偽裝成普通的岩石，最好多加小心，因為要是不小心踩到牠們，你就會因為觸電而大吃苦頭。"
+    },
+    "evolution": {
+      "stage": "first",
+      "time": "medium"
+    },
+    "baseHP": 3,
+    "rank": 1,
+    "attr": {
+      "str": { "value": 2, "max": 5 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 1, "max": 3 },
+      "ins": { "value": 1, "max": 3 }
+    },
+    "ability": [ "磁力", "結實" ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "變圓" },
+      { "rank": 1, "type": "Electric", "name": "充電" },
+      { "rank": 1, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 1, "type": "Rock", "name": "滾動" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Rock", "name": "落石" },
+      { "rank": 2, "type": "Rock", "name": "擊落" },
+      { "rank": 2, "type": "Electric", "name": "雷電拳" },
+      { "rank": 2, "type": "Normal", "name": "自爆" },
+      { "rank": 2, "type": "Rock", "name": "隱形岩" },
+      { "rank": 2, "type": "Rock", "name": "岩石爆擊" },
+      { "rank": 3, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Normal", "name": "大爆炸" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Rock", "name": "尖石攻擊" },
+      { "rank": 4, "type": "Normal", "name": "攀岩" },
+      { "rank": 4, "type": "Rock", "name": "廣域防守" },
+      { "rank": 4, "type": "Normal", "name": "刺耳聲" }
+    ],
+    "isNovice": true
+  },
+  {
+    "id": "075-A",
+    "region": "alola",
+    "name": "隆隆石 (阿羅拉的樣子)",
+    "alias": "Graveler",
+    "type": [ "Rock", "Electric" ],
+    "info": {
+      "image": "images/pokedex/075-A.png",
+      "height": "1.0",
+      "weight": "110",
+      "category": "岩石寶可夢",
+      "text": "這些寶可夢透過滾動來給自己充電。兩隻阿羅拉隆隆石互相爭鬥時是相當危險的，會發出能從很遠的地方看到和聽到巨大的聲音和閃光。牠們以金色的電氣石為食。"
+    },
+    "evolution": {
+      "stage": "second",
+      "with": "交換"
+    },
+    "baseHP": 4,
+    "rank": 2,
+    "attr": {
+      "str": { "value": 3, "max": 6 },
+      "dex": { "value": 1, "max": 3 },
+      "vit": { "value": 3, "max": 6 },
+      "spe": { "value": 2, "max": 4 },
+      "ins": { "value": 2, "max": 4 }
+    },
+    "ability": [ "磁力", "結實" ],
+    "moves": [
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "變圓" },
+      { "rank": 1, "type": "Electric", "name": "充電" },
+      { "rank": 1, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 1, "type": "Rock", "name": "滾動" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Rock", "name": "落石" },
+      { "rank": 2, "type": "Rock", "name": "擊落" },
+      { "rank": 2, "type": "Electric", "name": "雷電拳" },
+      { "rank": 2, "type": "Normal", "name": "自爆" },
+      { "rank": 2, "type": "Rock", "name": "隱形岩" },
+      { "rank": 2, "type": "Rock", "name": "岩石爆擊" },
+      { "rank": 3, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Normal", "name": "大爆炸" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Rock", "name": "尖石攻擊" },
+      { "rank": 4, "type": "Normal", "name": "攀岩" },
+      { "rank": 4, "type": "Rock", "name": "廣域防守" },
+      { "rank": 4, "type": "Normal", "name": "刺耳聲" }
+    ]
+  },
+  {
     "id": "076-A",
-    "region": "kanto",
-    "name": "隆隆岩_ALOLA",
+    "region": "alola",
+    "name": "隆隆岩 (阿羅拉的樣子)",
     "alias": "Golem",
     "type": [ "Rock", "Electric" ],
     "info": {
@@ -4457,7 +4493,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.4",
       "weight": "300",
       "category": "重量級寶可夢",
-      "text": "The  Alolan  variant  of  Golem  does not  roll  around  like  its  counter part, instead it loads rocks into the charger  on  its  head  and  shoots them around, if the rocks miss, the electric shockwave doesn’t."
+      "text": "阿羅拉亞種的隆隆岩並不像牠原本的品種那樣會到處滾動，取而代之的是，牠會把岩石裝進牠頭上的充電器然後四處發射出去；就算岩石沒有打中，光靠電擊波也能解決對手。"
     },
     "evolution": {
       "stage": "final"
@@ -4473,7 +4509,26 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "電氣皮膚", "結實" ],
     "moves": [
-
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "變圓" },
+      { "rank": 1, "type": "Electric", "name": "充電" },
+      { "rank": 1, "type": "Rock", "name": "岩石打磨" },
+      { "rank": 1, "type": "Rock", "name": "滾動" },
+      { "rank": 2, "type": "Electric", "name": "電光" },
+      { "rank": 2, "type": "Rock", "name": "落石" },
+      { "rank": 2, "type": "Rock", "name": "擊落" },
+      { "rank": 2, "type": "Electric", "name": "雷電拳" },
+      { "rank": 2, "type": "Normal", "name": "自爆" },
+      { "rank": 2, "type": "Rock", "name": "隱形岩" },
+      { "rank": 2, "type": "Rock", "name": "岩石爆擊" },
+      { "rank": 3, "type": "Electric", "name": "放電" },
+      { "rank": 3, "type": "Normal", "name": "大爆炸" },
+      { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
+      { "rank": 3, "type": "Rock", "name": "尖石攻擊" },
+      { "rank": 3, "type": "Steel", "name": "重磅衝撞" },
+      { "rank": 4, "type": "Electric", "name": "電磁漂浮" },
+      { "rank": 4, "type": "Fight", "name": "雙倍奉還" },
+      { "rank": 4, "type": "Electric", "name": "瘋狂伏特" }
     ]
   },
   {
@@ -4675,7 +4730,7 @@ Array.prototype.push.apply(Pokedex, [
   {
     "id": "080-M",
     "region": "kanto",
-    "name": "呆殼獸_MEGA",
+    "name": "超級呆殼獸",
     "alias": "Slowbro",
     "type": [ "Water", "Psychic" ],
     "info": {
@@ -4699,7 +4754,26 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "硬殼盔甲" ],
     "moves": [
-
+      { "rank": 0, "type": "Normal", "name": "撞擊" },
+      { "rank": 0, "type": "Normal", "name": "哈欠" },
+      { "rank": 1, "type": "Normal", "name": "叫聲" },
+      { "rank": 1, "type": "Ghost", "name": "詛咒" },
+      { "rank": 1, "type": "Water", "name": "水槍" },
+      { "rank": 2, "type": "Normal", "name": "頭鎚" },
+      { "rank": 2, "type": "Normal", "name": "偷懶" },
+      { "rank": 2, "type": "Normal", "name": "定身法" },
+      { "rank": 2, "type": "Psychic", "name": "意念頭鎚" },
+      { "rank": 2, "type": "Psychic", "name": "念力" },
+      { "rank": 2, "type": "Psychic", "name": "瞬間失憶" },
+      { "rank": 2, "type": "Water", "name": "縮入殼中" },
+      { "rank": 2, "type": "Water", "name": "水之波動" },
+      { "rank": 3, "type": "Normal", "name": "自我暗示" },
+      { "rank": 3, "type": "Psychic", "name": "精神強念" },
+      { "rank": 3, "type": "Psychic", "name": "治愈波動" },
+      { "rank": 3, "type": "Water", "name": "求雨" },
+      { "rank": 4, "type": "Normal", "name": "腹鼓" },
+      { "rank": 4, "type": "Psychic", "name": "預知未來" },
+      { "rank": 4, "type": "Water", "name": "水流尾" }
     ]
   },
   {
@@ -5107,8 +5181,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "088-A",
-    "region": "kanto",
-    "name": "臭泥_ALOLA",
+    "region": "alola",
+    "name": "臭泥 (阿羅拉的樣子)",
     "alias": "Grimer",
     "type": [ "Poison", "Dark" ],
     "info": {
@@ -5133,7 +5207,25 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "毒手", "化學之力" ],
     "moves": [
-
+      { "rank": 0, "type": "Normal", "name": "拍擊" },
+      { "rank": 0, "type": "Poison", "name": "毒瓦斯" },
+      { "rank": 1, "type": "Normal", "name": "變硬" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 1, "type": "Normal", "name": "定身法" },
+      { "rank": 2, "type": "Poison", "name": "酸液炸彈" },
+      { "rank": 2, "type": "Poison", "name": "劇毒牙" },
+      { "rank": 2, "type": "Normal", "name": "變小" },
+      { "rank": 2, "type": "Dark", "name": "投擲" },
+      { "rank": 2, "type": "Dark", "name": "拍落" },
+      { "rank": 2, "type": "Dark", "name": "咬碎" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 3, "type": "Poison", "name": "垃圾射擊" },
+      { "rank": 3, "type": "Poison", "name": "溶化" },
+      { "rank": 3, "type": "Poison", "name": "打嗝" },
+      { "rank": 3, "type": "Dark", "name": "臨別禮物" },
+      { "rank": 4, "type": "Dark", "name": "惡意追擊" },
+      { "rank": 4, "type": "Poison", "name": "清除之煙" },
+      { "rank": 4, "type": "Ghost", "name": "影子偷襲" }
     ],
     "isNovice": true
   },
@@ -5207,8 +5299,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "089-A",
-    "region": "kanto",
-    "name": "臭臭泥_ALOLA",
+    "region": "alola",
+    "name": "臭臭泥 (阿羅拉的樣子)",
     "alias": "Muk",
     "type": [ "Poison", "Dark" ],
     "info": {
@@ -5232,7 +5324,26 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "毒手", "化學之力" ],
     "moves": [
-
+      { "rank": 0, "type": "Normal", "name": "拍擊" },
+      { "rank": 0, "type": "Poison", "name": "毒瓦斯" },
+      { "rank": 1, "type": "Normal", "name": "變硬" },
+      { "rank": 1, "type": "Dark", "name": "咬住" },
+      { "rank": 1, "type": "Normal", "name": "定身法" },
+      { "rank": 2, "type": "Poison", "name": "酸液炸彈" },
+      { "rank": 2, "type": "Poison", "name": "劇毒牙" },
+      { "rank": 2, "type": "Normal", "name": "變小" },
+      { "rank": 2, "type": "Dark", "name": "投擲" },
+      { "rank": 2, "type": "Dark", "name": "拍落" },
+      { "rank": 2, "type": "Dark", "name": "咬碎" },
+      { "rank": 2, "type": "Normal", "name": "刺耳聲" },
+      { "rank": 2, "type": "Poison", "name": "毒液陷阱" },
+      { "rank": 3, "type": "Poison", "name": "垃圾射擊" },
+      { "rank": 3, "type": "Poison", "name": "溶化" },
+      { "rank": 3, "type": "Poison", "name": "打嗝" },
+      { "rank": 3, "type": "Dark", "name": "臨別禮物" },
+      { "rank": 4, "type": "Normal", "name": "蓄力" },
+      { "rank": 4, "type": "Normal", "name": "吞下" },
+      { "rank": 4, "type": "Ghost", "name": "影子偷襲" }
     ]
   },
   {
@@ -5948,8 +6059,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "103-A",
-    "region": "kanto",
-    "name": "椰蛋樹_ALOLA",
+    "region": "alola",
+    "name": "椰蛋樹 (阿羅拉的樣子)",
     "alias": "Exeggutor",
     "type": [ "Grass", "Dragon" ],
     "info": {
@@ -5973,7 +6084,18 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "察覺", "收穫" ],
     "moves": [
-
+      { "rank": 0, "type": "Normal", "name": "投球" },
+      { "rank": 1, "type": "Psychic", "name": "催眠術" },
+      { "rank": 1, "type": "Psychic", "name": "念力" },
+      { "rank": 2, "type": "Grass", "name": "種子炸彈" },
+      { "rank": 2, "type": "Normal", "name": "炸蛋" },
+      { "rank": 2, "type": "Psychic", "name": "精神衝擊" },
+      { "rank": 2, "type": "Dragon", "name": "龍錘" },
+      { "rank": 3, "type": "Grass", "name": "木槌" },
+      { "rank": 3, "type": "Grass", "name": "飛葉風暴" },
+      { "rank": 4, "type": "Dragon", "name": "龍尾" },
+      { "rank": 4, "type": "Grass", "name": "扎根" },
+      { "rank": 4, "type": "Normal", "name": "終極衝擊" }
     ]
   },
   {
@@ -6076,8 +6198,8 @@ Array.prototype.push.apply(Pokedex, [
   },
   {
     "id": "105-A",
-    "region": "kanto",
-    "name": "嘎啦嘎啦_ALOLA",
+    "region": "alola",
+    "name": "嘎啦嘎啦 (阿羅拉的樣子)",
     "alias": "Marowak",
     "type": [ "Fire", "Ghost" ],
     "info": {
@@ -6085,7 +6207,7 @@ Array.prototype.push.apply(Pokedex, [
       "height": "1.0",
       "weight": "34",
       "category": "愛骨寶可夢",
-      "text": "Alola  has  many  predators  for  an  orphaned  Cubone,  so  its  mother’s  spirit  lingered  close  to  protect  her baby.  This  otherworldly  influence  made Marowak fiercer and changed  its type completely."
+      "text": "阿羅拉地區棲息著許多會狩獵的卡拉卡拉孤兒的掠食者，因此牠母親的靈魂會迴盪在附近以保護她的孩子。這股異樣的影響讓嘎啦嘎啦變得更加兇暴，並完全改變的牠的屬性。"
     },
     "evolution": {
       "stage": "final"
@@ -6101,7 +6223,25 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "詛咒之軀", "避雷針" ],
     "moves": [
-
+      { "rank": 0, "type": "Normal", "name": "叫聲" },
+      { "rank": 0, "type": "Normal", "name": "搖尾巴" },
+      { "rank": 1, "type": "Ground", "name": "骨棒" },
+      { "rank": 1, "type": "Ghost", "name": "禍不單行" },
+      { "rank": 1, "type": "Normal", "name": "瞪眼" },
+      { "rank": 2, "type": "Fire", "name": "火焰輪" },
+      { "rank": 2, "type": "Ground", "name": "骨頭迴力鏢" },
+      { "rank": 2, "type": "Fire", "name": "鬼火" },
+      { "rank": 2, "type": "Ghost", "name": "暗影之骨" },
+      { "rank": 2, "type": "Normal", "name": "蠻幹" },
+      { "rank": 2, "type": "Dark", "name": "投擲" },
+      { "rank": 3, "type": "Ground", "name": "跺腳" },
+      { "rank": 3, "type": "Normal", "name": "大鬧一番" },
+      { "rank": 3, "type": "Fire", "name": "閃焰衝鋒" },
+      { "rank": 3, "type": "Normal", "name": "報仇" },
+      { "rank": 3, "type": "Ground", "name": "骨棒亂打" },
+      { "rank": 4, "type": "Normal", "name": "滅亡之歌" },
+      { "rank": 4, "type": "Dark", "name": "狂舞揮打" },
+      { "rank": 4, "type": "Fire", "name": "蓄能焰襲" }
     ]
   },
   {
