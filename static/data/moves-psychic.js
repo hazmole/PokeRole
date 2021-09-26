@@ -272,7 +272,7 @@ Array.prototype.push.apply(MoveList, [
 		"category": "support",
 		"type": "Psychic",
 		"tags": ["target|l|allally", "frame|self|受傷|minus|1"],
-		"accuracy": " + ",
+		"accuracy": "特殊 + 導引",
 		"damage": "",
 		"effect": "特殊攻擊對使用者和所有隊友造成的傷害將減少 1 點，持續 4 輪。",
 		"desc": ""
