@@ -1686,7 +1686,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "治愈之心" ],
+    "ability": [ "治癒之心" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "甜甜香氣" },
       { "rank": 0, "type": "Fairy", "name": "妖精之風" },

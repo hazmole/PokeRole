@@ -2567,7 +2567,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "隔音", "過濾" ],
     "moves": [
-      { "rank": 0, "type": "Normal", "name": "撓痒" },
+      { "rank": 0, "type": "Normal", "name": "搔癢" },
       { "rank": 0, "type": "Psychic", "name": "屏障" },
       { "rank": 0, "type": "Psychic", "name": "念力" },
       { "rank": 1, "type": "Normal", "name": "連環巴掌" },
