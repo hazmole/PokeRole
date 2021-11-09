@@ -1525,7 +1525,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 1, "max": 3 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "叫聲" },
       { "rank": 0, "type": "Normal", "name": "音爆" },
@@ -1572,7 +1572,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 5 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "叫聲" },
       { "rank": 0, "type": "Normal", "name": "音爆" },
@@ -1809,7 +1809,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 2, "type": "Normal", "name": "刺耳聲" },
       { "rank": 2, "type": "Normal", "name": "亂抓" },
       { "rank": 2, "type": "Normal", "name": "高速星星" },
-      { "rank": 2, "type": "Normal", "name": "撓痒" },
+      { "rank": 2, "type": "Normal", "name": "搔癢" },
       { "rank": 2, "type": "Dark", "name": "投擲" },
       { "rank": 2, "type": "Psychic", "name": "高速移動" },
       { "rank": 3, "type": "Normal", "name": "珍藏" },
@@ -3465,7 +3465,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如", "引水" ],
+    "ability": [ "悠游自如", "引水" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "拍擊" },
       { "rank": 1, "type": "Normal", "name": "迷人" },
@@ -3512,7 +3512,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 5 },
       "ins": { "value": 2, "max": 5 }
     },
-    "ability": [ "悠遊自如", "引水" ],
+    "ability": [ "悠游自如", "引水" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "拍擊" },
       { "rank": 1, "type": "Normal", "name": "迷人" },
@@ -3559,7 +3559,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 1, "max": 3 },
       "ins": { "value": 3, "max": 6 }
     },
-    "ability": [ "悠遊自如", "儲水" ],
+    "ability": [ "悠游自如", "儲水" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "撞擊" },
       { "rank": 0, "type": "Water", "name": "泡沫" },
@@ -3961,7 +3961,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 2, "type": "Poison", "name": "毒粉" },
       { "rank": 2, "type": "Rock", "name": "原始之力" },
       { "rank": 3, "type": "Normal", "name": "絞緊" },
-      { "rank": 3, "type": "Normal", "name": "撓痒" },
+      { "rank": 3, "type": "Normal", "name": "搔癢" },
       { "rank": 3, "type": "Grass", "name": "強力鞭打" },
       { "rank": 3, "type": "Grass", "name": "終極吸取" },
       { "rank": 3, "type": "Grass", "name": "青草場地" },

@@ -1797,7 +1797,7 @@ Array.prototype.push.apply(Pokedex, [
       "ins": { "value": 1, "max": 3 }
     },
     "ability": [
-      "悠遊自如",
+      "悠游自如",
       "螺旋尾鰭"
     ],
     "moves": [
@@ -1845,7 +1845,7 @@ Array.prototype.push.apply(Pokedex, [
       "ins": { "value": 2, "max": 4 }
     },
     "ability": [
-      "悠遊自如",
+      "悠游自如",
       "螺旋尾鰭"
     ],
     "moves": [

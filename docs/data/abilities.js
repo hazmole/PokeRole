@@ -1347,7 +1347,7 @@ Array.prototype.push.apply(AbilityList, [
 		"desc": "這隻寶可夢甜美的香氣將喚醒所有附近寶可夢的食慾。"
 	},
 	{
-		"name": "悠遊自如", "alias": "すいすい|Swift Swim",
+		"name": "悠游自如", "alias": "すいすい|Swift Swim",
 		"tags": ["target|l|self", "weather|l|rain", "frame|self|靈巧|up|2"],
 		"effect": "如果當前天氣狀態為下雨，則這隻寶可夢的靈巧特質提升 2 點。",
 		"desc": "這隻寶可夢在水中能夠移動的比在陸地上還要快，即使是在道路中的水坑都能讓牠發揮全速。"

@@ -2648,7 +2648,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Dark", "name": "臨別禮物" },
       { "rank": 3, "type": "Poison", "name": "劇毒" },
       { "rank": 3, "type": "Water", "name": "浸水" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Normal", "name": "傳遞禮物" },
       { "rank": 4, "type": "Poison", "name": "毒液陷阱" }
     ]
@@ -2985,7 +2985,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Bug", "name": "飛彈針" },
       { "rank": 3, "type": "Grass", "name": "尖刺防守" },
       { "rank": 4, "type": "Normal", "name": "禮物" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Fairy", "name": "魅惑之聲" }
     ]
   },
@@ -3404,7 +3404,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "精神製造者" ],
     "moves": [
-      { "rank": 5, "type": "Normal", "name": "撓痒" },
+      { "rank": 5, "type": "Normal", "name": "搔癢" },
       { "rank": 5, "type": "Normal", "name": "甜甜香氣" },
       { "rank": 5, "type": "Normal", "name": "黑色目光" },
       { "rank": 5, "type": "Dark", "name": "吹捧" },
@@ -3735,7 +3735,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 5, "type": "Normal", "name": "頭鎚" },
       { "rank": 5, "type": "Normal", "name": "拍擊" },
       { "rank": 5, "type": "Normal", "name": "纏繞" },
-      { "rank": 5, "type": "Normal", "name": "撓痒" },
+      { "rank": 5, "type": "Normal", "name": "搔癢" },
       { "rank": 5, "type": "Poison", "name": "垃圾射擊" },
       { "rank": 5, "type": "Poison", "name": "毒液陷阱" },
       { "rank": 5, "type": "Poison", "name": "酸液炸彈" },

@@ -1469,7 +1469,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Psychic", "name": "精神強念" },
       { "rank": 3, "type": "Psychic", "name": "封印" },
       { "rank": 4, "type": "Normal", "name": "哈欠" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Electric", "name": "電擊波" }
     ]
   },
@@ -2007,7 +2007,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Dark", "name": "暗襲要害" },
       { "rank": 3, "type": "Fight", "name": "十字劈" },
       { "rank": 3, "type": "Water", "name": "貝殼刃" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Normal", "name": "幫助" },
       { "rank": 4, "type": "Rock", "name": "隱形岩" }
     ],

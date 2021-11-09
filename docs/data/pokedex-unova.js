@@ -2010,7 +2010,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 1, "max": 3 }
     },
-    "ability": [ "悠遊自如", "濕潤之軀" ],
+    "ability": [ "悠游自如", "濕潤之軀" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "叫聲" },
       { "rank": 0, "type": "Water", "name": "泡沫" },
@@ -2058,7 +2058,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如", "濕潤之軀" ],
+    "ability": [ "悠游自如", "濕潤之軀" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "叫聲" },
       { "rank": 0, "type": "Water", "name": "泡沫" },
@@ -2104,7 +2104,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 5 },
       "ins": { "value": 2, "max": 5 }
     },
-    "ability": [ "悠遊自如", "毒手" ],
+    "ability": [ "悠游自如", "毒手" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "叫聲" },
       { "rank": 0, "type": "Water", "name": "泡沫" },
@@ -3830,7 +3830,7 @@ Array.prototype.push.apply(Pokedex, [
     "moves": [
       { "rank": 0, "type": "Normal", "name": "拍擊" },
       { "rank": 0, "type": "Fairy", "name": "圓瞳" },
-      { "rank": 1, "type": "Normal", "name": "撓痒" },
+      { "rank": 1, "type": "Normal", "name": "搔癢" },
       { "rank": 1, "type": "Normal", "name": "幫助" },
       { "rank": 2, "type": "Normal", "name": "迴聲" },
       { "rank": 2, "type": "Normal", "name": "唱歌" },
@@ -3878,7 +3878,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "迷人之軀", "技術高手" ],
     "moves": [
-      { "rank": 1, "type": "Normal", "name": "撓痒" },
+      { "rank": 1, "type": "Normal", "name": "搔癢" },
       { "rank": 1, "type": "Normal", "name": "幫助" },
       { "rank": 2, "type": "Normal", "name": "掃尾拍打" },
       { "rank": 2, "type": "Normal", "name": "唱歌" },
@@ -3920,7 +3920,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 0, "type": "Normal", "name": "拍擊" },
       { "rank": 0, "type": "Psychic", "name": "念力" },
       { "rank": 1, "type": "Normal", "name": "和睦相處" },
-      { "rank": 1, "type": "Normal", "name": "撓痒" },
+      { "rank": 1, "type": "Normal", "name": "搔癢" },
       { "rank": 1, "type": "Dark", "name": "假哭" },
       { "rank": 2, "type": "Normal", "name": "連環巴掌" },
       { "rank": 2, "type": "Dark", "name": "查封" },
@@ -3971,7 +3971,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 0, "type": "Normal", "name": "拍擊" },
       { "rank": 0, "type": "Psychic", "name": "念力" },
       { "rank": 1, "type": "Normal", "name": "和睦相處" },
-      { "rank": 1, "type": "Normal", "name": "撓痒" },
+      { "rank": 1, "type": "Normal", "name": "搔癢" },
       { "rank": 1, "type": "Dark", "name": "假哭" },
       { "rank": 2, "type": "Normal", "name": "連環巴掌" },
       { "rank": 2, "type": "Dark", "name": "查封" },
@@ -4020,7 +4020,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 0, "type": "Normal", "name": "拍擊" },
       { "rank": 0, "type": "Psychic", "name": "念力" },
       { "rank": 1, "type": "Normal", "name": "和睦相處" },
-      { "rank": 1, "type": "Normal", "name": "撓痒" },
+      { "rank": 1, "type": "Normal", "name": "搔癢" },
       { "rank": 1, "type": "Dark", "name": "假哭" },
       { "rank": 2, "type": "Normal", "name": "連環巴掌" },
       { "rank": 2, "type": "Dark", "name": "查封" },

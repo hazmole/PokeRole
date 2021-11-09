@@ -3992,7 +3992,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Fight", "name": "健美" },
       { "rank": 3, "type": "Fight", "name": "爆裂拳" },
       { "rank": 3, "type": "Fight", "name": "十字劈" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Electric", "name": "雷電拳" },
       { "rank": 4, "type": "Fight", "name": "近身戰" }
     ]
@@ -4039,7 +4039,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Normal", "name": "絞緊" },
       { "rank": 3, "type": "Normal", "name": "摔打" },
       { "rank": 3, "type": "Poison", "name": "毒擊" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Normal", "name": "氣象球" },
       { "rank": 4, "type": "Grass", "name": "紮根" }
     ],
@@ -4088,7 +4088,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Normal", "name": "絞緊" },
       { "rank": 3, "type": "Poison", "name": "毒擊" },
       { "rank": 4, "type": "Normal", "name": "氣象球" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Grass", "name": "紮根" }
     ]
   },
@@ -6680,7 +6680,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 2, "type": "Grass", "name": "超級吸取" },
       { "rank": 2, "type": "Poison", "name": "毒粉" },
       { "rank": 2, "type": "Rock", "name": "原始之力" },
-      { "rank": 3, "type": "Normal", "name": "撓痒" },
+      { "rank": 3, "type": "Normal", "name": "搔癢" },
       { "rank": 3, "type": "Normal", "name": "絞緊" },
       { "rank": 3, "type": "Grass", "name": "青草場地" },
       { "rank": 3, "type": "Grass", "name": "強力鞭打" },
@@ -7653,7 +7653,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Normal", "name": "王牌" },
       { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
       { "rank": 4, "type": "Normal", "name": "祈願" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Dark", "name": "假哭" }
     ],
     "isNovice": true
@@ -7882,7 +7882,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 1, "type": "Rock", "name": "滾動" },
       { "rank": 1, "type": "Water", "name": "水槍" },
       { "rank": 2, "type": "Normal", "name": "瞪眼" },
-      { "rank": 2, "type": "Normal", "name": "撓痒" },
+      { "rank": 2, "type": "Normal", "name": "搔癢" },
       { "rank": 2, "type": "Normal", "name": "守住" },
       { "rank": 2, "type": "Ground", "name": "泥巴射擊" },
       { "rank": 2, "type": "Rock", "name": "原始之力" },
@@ -7927,7 +7927,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 1, "type": "Dark", "name": "咬住" },
       { "rank": 1, "type": "Rock", "name": "滾動" },
       { "rank": 1, "type": "Water", "name": "水槍" },
-      { "rank": 2, "type": "Normal", "name": "撓痒" },
+      { "rank": 2, "type": "Normal", "name": "搔癢" },
       { "rank": 2, "type": "Normal", "name": "瞪眼" },
       { "rank": 2, "type": "Normal", "name": "尖刺加農炮" },
       { "rank": 2, "type": "Normal", "name": "守住" },

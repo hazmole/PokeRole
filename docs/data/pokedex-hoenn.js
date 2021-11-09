@@ -1643,7 +1643,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Water", "name": "泡沫" },
       { "rank": 1, "type": "Normal", "name": "電光一閃" },
@@ -2360,7 +2360,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 2, "type": "Water", "name": "泡沫光線" },
       { "rank": 3, "type": "Flying", "name": "彈跳" },
       { "rank": 4, "type": "Normal", "name": "唱歌" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Dark", "name": "假哭" }
     ],
     "isNovice": true
@@ -2463,7 +2463,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Normal", "name": "捨身衝撞" },
       { "rank": 3, "type": "Fairy", "name": "嬉鬧" },
       { "rank": 4, "type": "Normal", "name": "祈願" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Dark", "name": "假哭" }
     ],
     "isNovice": true
@@ -4828,7 +4828,7 @@ Array.prototype.push.apply(Pokedex, [
     },
     "ability": [ "遲鈍", "危險預知" ],
     "moves": [
-      { "rank": 0, "type": "Normal", "name": "撓痒" },
+      { "rank": 0, "type": "Normal", "name": "搔癢" },
       { "rank": 0, "type": "Ground", "name": "擲泥" },
       { "rank": 1, "type": "Ground", "name": "玩泥巴" },
       { "rank": 1, "type": "Water", "name": "玩水" },
@@ -5094,7 +5094,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 3, "type": "Normal", "name": "噴出" },
       { "rank": 3, "type": "Normal", "name": "絞緊" },
       { "rank": 3, "type": "Normal", "name": "蓄力" },
-      { "rank": 4, "type": "Normal", "name": "撓痒" },
+      { "rank": 4, "type": "Normal", "name": "搔癢" },
       { "rank": 4, "type": "Ground", "name": "大地之力" },
       { "rank": 4, "type": "Rock", "name": "隱形岩" }
     ]
@@ -5266,7 +5266,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 1, "max": 2 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "躍起" },
       { "rank": 2, "type": "Normal", "name": "撞擊" },
@@ -6241,7 +6241,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 3, "max": 6 },
       "ins": { "value": 2, "max": 5 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Dark", "name": "咬住" },
       { "rank": 0, "type": "Water", "name": "潮旋" },
@@ -6289,7 +6289,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 3, "max": 6 },
       "ins": { "value": 2, "max": 5 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Water", "name": "玩水" },
       { "rank": 0, "type": "Water", "name": "潮旋" },
@@ -6336,7 +6336,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 2, "max": 4 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如", "堅硬腦袋" ],
+    "ability": [ "悠游自如", "堅硬腦袋" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "撞擊" },
       { "rank": 0, "type": "Normal", "name": "變硬" },
@@ -6383,7 +6383,7 @@ Array.prototype.push.apply(Pokedex, [
       "spe": { "value": 1, "max": 3 },
       "ins": { "value": 2, "max": 4 }
     },
-    "ability": [ "悠遊自如" ],
+    "ability": [ "悠游自如" ],
     "moves": [
       { "rank": 0, "type": "Normal", "name": "撞擊" },
       { "rank": 0, "type": "Fairy", "name": "撒嬌" },

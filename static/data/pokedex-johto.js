@@ -1068,7 +1068,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 1, "type": "Normal", "name": "變圓" },
       { "rank": 1, "type": "Normal", "name": "再來一次" },
       { "rank": 1, "type": "Fairy", "name": "天使之吻" },
-      { "rank": 2, "type": "Normal", "name": "撓痒" },
+      { "rank": 2, "type": "Normal", "name": "搔癢" },
       { "rank": 2, "type": "Normal", "name": "唱歌" }
     ],
     "isNovice": true
@@ -1930,7 +1930,7 @@ Array.prototype.push.apply(Pokedex, [
       { "rank": 1, "type": "Ghost", "name": "驚嚇" },
       { "rank": 1, "type": "Ground", "name": "潑沙" },
       { "rank": 2, "type": "Normal", "name": "高速星星" },
-      { "rank": 2, "type": "Normal", "name": "撓痒" },
+      { "rank": 2, "type": "Normal", "name": "搔癢" },
       { "rank": 2, "type": "Normal", "name": "刺耳聲" },
       { "rank": 2, "type": "Normal", "name": "亂抓" },
       { "rank": 2, "type": "Normal", "name": "接棒" },
